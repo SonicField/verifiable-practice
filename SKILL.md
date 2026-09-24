@@ -59,6 +59,8 @@ Use these when the task is to explain, evaluate, test, or maintain VP itself:
 
 These documents are explanatory. For execution, use the corresponding playbook above.
 
+When modifying VP itself, follow [CONTRIBUTING.md](CONTRIBUTING.md), preserve the safety boundary in [SECURITY.md](SECURITY.md), and record user-visible changes in [CHANGELOG.md](CHANGELOG.md). Community participation is governed by [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+
 ## Default Verification Loop
 
 For implementation work:

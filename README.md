@@ -77,6 +77,11 @@ VP includes reasoning, verification, project archaeology, recovery, document wor
 
 The framework's origin and extraction boundary are recorded in [ORIGIN.md](ORIGIN.md).
 
-## Licence
+## Project Information
 
-MIT. See [LICENSE](LICENSE).
+- [Contributing](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Security Policy](SECURITY.md)
+- [Changelog](CHANGELOG.md)
+- [Citation Metadata](CITATION.cff)
+- [MIT Licence](LICENSE)
