@@ -4,7 +4,7 @@ This package was extracted from NBS Framework revision `a1084a3` on 2026-09-24.
 
 ## Included
 
-The original “Why NBS” essay and the eight top-level concepts that concern human–AI software reasoning were retained. The generic playbooks were derived from the original review, audit, investigation, debugger, discovery, recovery, document-analysis, document-planning, document-description, and PTE command documents.
+The original “Why NBS” essay and the eight top-level concepts that concern human–AI software reasoning were adapted. The generic playbooks were derived from the original review, audit, investigation, debugger, discovery, recovery, document-analysis, document-planning, document-description, and PTE command documents.
 
 | Core material | Source material |
 |---------------|-----------------|
@@ -17,6 +17,13 @@ The original “Why NBS” essay and the eight top-level concepts that concern h
 | Discovery and recovery playbooks | Corresponding `claude_tools/nbs-*.md` files |
 | Document playbooks | `claude_tools/nbs-doc-*.md` |
 | PTE playbook | `claude_tools/nbs-pte.md` |
+| `docs/how-vp-works.md` | `docs/framework/overview.md` and `docs/getting-started/01-what-nbs-is.md` |
+| `docs/review-and-audit.md` | `docs/framework/nbs-review.md` and `docs/framework/nbs-audit.md` |
+| `docs/discovery-and-recovery.md` | `docs/framework/discovery.md` |
+| `docs/investigations.md` | `docs/framework/investigation.md` |
+| `docs/document-work.md` | `docs/framework/nbs-doc.md` |
+| `docs/testing-ai-behaviour.md` | `docs/tools/testing-strategy.md` and the portable parts of `docs/tools/interactive-testing.md` |
+| `docs/skill-architecture.md` | The portable design principles from `docs/framework/skill-system.md` |
 
 ## Deliberately Excluded
 

@@ -41,6 +41,20 @@ Playbooks turn the concepts into repeatable work:
 | [Document Description](playbooks/document-description.md) | You understand a system but need to explain it clearly |
 | [Precise Technical English](playbooks/precise-technical-english.md) | A contract, state machine, or requirement cannot tolerate ambiguity |
 
+## Documentation
+
+The documentation explains the framework for human readers; the playbooks direct an AI performing the work.
+
+| Document | Subject |
+|----------|---------|
+| [How VP Works](docs/how-vp-works.md) | Failure modes, architecture, verification loop, and limits |
+| [Review and Audit](docs/review-and-audit.md) | Why reasoning review and code audit are separate |
+| [Discovery and Recovery](docs/discovery-and-recovery.md) | The boundary between learning and controlled mutation |
+| [Investigations](docs/investigations.md) | Hypotheses, isolation, evidence, and honest verdicts |
+| [Document Work](docs/document-work.md) | Analysis, planning, description, and local precision |
+| [Testing AI Behaviour](docs/testing-ai-behaviour.md) | Scenario isolation, oracles, adversarial cases, and stochastic results |
+| [Skill Architecture](docs/skill-architecture.md) | Progressive disclosure, platform adapters, and maintenance |
+
 ## Using VP with Any AI Tool
 
 Point an assistant at the repository's root `SKILL.md`, install the repository as a skill directory, or provide `SKILL.md` as project instructions. Ask it to “use VP” for the task. The skill selects the smallest relevant set of supporting documents.

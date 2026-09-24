@@ -1,6 +1,6 @@
 ---
 name: verifiable-practice
-description: Apply goal-aligned, falsification-first, evidence-led practice to software work. Use when the user asks for VP or Verifiable Practice, or requests a rigorous review, code audit, investigation, project discovery or recovery, technical explanation, document analysis, or precise specification.
+description: Apply goal-aligned, falsification-first, evidence-led practice to software work. Use when the user asks for VP or Verifiable Practice, or requests a falsification-led review, code audit, investigation, project discovery or recovery, document analysis, or precise technical specification.
 ---
 
 # Verifiable Practice
@@ -42,6 +42,22 @@ Read only the references needed for the current task:
 | Remove ambiguity from a contract | [Precise Technical English](concepts/pte.md) and its [playbook](playbooks/precise-technical-english.md) |
 
 Do not load every reference by default. Begin with the smallest applicable set and follow links only when they affect the task.
+
+## Explanatory References
+
+Use these when the task is to explain, evaluate, test, or maintain VP itself:
+
+| Need | Read |
+|------|------|
+| Explain the framework and its boundaries | [How VP Works](docs/how-vp-works.md) |
+| Explain the difference between review and audit | [Review and Audit](docs/review-and-audit.md) |
+| Explain project archaeology and safe restructuring | [Discovery and Recovery](docs/discovery-and-recovery.md) |
+| Explain experimental side work | [Investigations](docs/investigations.md) |
+| Explain VP's document methods | [Document Work](docs/document-work.md) |
+| Test a VP skill, prompt, or AI workflow | [Testing AI Behaviour](docs/testing-ai-behaviour.md) |
+| Maintain or adapt this skill | [Skill Architecture](docs/skill-architecture.md) |
+
+These documents are explanatory. For execution, use the corresponding playbook above.
 
 ## Default Verification Loop
 
