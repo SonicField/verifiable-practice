@@ -1,15 +1,12 @@
 # Current Project Plan
 
-**As of:** 2026-10-19 12:35:26 UTC
-**Accepted checkpoint:** [D-000009](records/decisions/D-000009/record.md), independent [A-000003](records/audits/A-000003/record.md).
-**Predecessors:** S-000001 initial plan, C-000002/before/PLAN.md, exact A-000003 frozen view.
+**As of:** 2026-10-19 19:22:46 UTC
+**Accepted prospective baseline:** D-000009, independent A-000003 exact freeze.
+**Current custody checkpoint:** D-000010/011, [V-000007](records/events/V-000007/record.md), initial local commit `e2f63e8cbd5b2c4cd46293a759f1d6c1531f5403`; C-000003 sealed, follow-up receipt/current-view commit authorised.
 
-| Stage | Deliverables / gate | Status |
-|-------|--------------------|--------|
-| [S-000001](records/stages/S-000001/record.md) | 71 files/540 units, six views, preserved unknowns/negative attempts, R-000004 identified/control/recovery evidence, responses, two fresh independent audits; conformant gate met A-000003 | sealed, accepted prospective baseline |
+| Task | Outcome / next action |
+|------|-----------------------|
+| S-000001 adoption | sealed accepted prospective baseline, prior audit scope/limits unchanged |
+| C-000003 version-control custody | initial complete-root commit exists; commit this outcome receipt, then preserve verified Git bundle at V-000007 locator |
 
-Next: V-000006 completed handoff preservation. No further implementation stage is commissioned. Review current evidence/research retention by 2026-10-26 23:59:59 UTC or earlier invalidation; root by 2027-01-17. Future claim revalidation must have a new authorised protocol/attempt and finite horizon. General efficacy, reliability and cost trials remain unperformed, not scheduled execution or historical success. Escalate trigger/gate/goal changes through current owner mandate; do not silently extend dates or discard evidence.
-
-## Current checkpoint task at 2026-10-19 19:19:37 UTC
-
-D-000010: stage complete source/VP changes, run E-000005 byte checks, commit framework/records, then V-000007 receipt and current-view commit. C-000003 remains open until actual checkpoint. This is local owner-authorised custody/bookkeeping, not a new technical deliverable acceptance stage.
+No new technical implementation stage is commissioned. Review current evidence/research retention by 2026-10-26 23:59:59 UTC or earlier source/runtime/instrument/custody/goal change; root by 2027-01-17. Future revalidation requires new evidence, not date renewal. Earlier plan baselines remain in C-000003/before and previous committed/frozen views. No remote push or publication commissioned.

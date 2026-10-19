@@ -1,16 +1,16 @@
 # Record Ledger
 
-**As of:** 2026-10-19 19:21:26 UTC
-**Allocator:** worker /root; sequential namespace verifiable-practice. Original A-000001 task-local identity preserved.
+**As of:** 2026-10-19 19:22:46 UTC
+**Allocator:** working AI /root; verifiable-practice namespace; original A-000001 task-local identity preserved.
 
-| ID / link | Type | Created UTC | Title | Status | Linked predecessor/dependency/successor IDs |
-|-----------|------|-------------|-------|--------|-------------------------------------------|
+| ID / record | Type | Created UTC | Title | Current state | Linked predecessor/dependency/successor IDs |
+|-------------|------|-------------|-------|---------------|-------------------------------------------|
 | [A-000001](records/audits/A-000001/record.md) | audit / `project`.   | 2026-10-19 11:54:41 UTC (first retained assessor verification).   | A-000001: VP Project Records and Justification Audit | sealed; verdict `inconclusive`; all eight findings open.   |  |
 | [A-000002](records/audits/A-000002/record.md) | audit / `project`   | 2026-10-19T12:23:21.939337+00:00   | A-000002: Independent Project Audit of Prospective Adoption | sealed; verdict `nonconformant`.   | A-000001, C-000001, D-000001, D-000003, D-000004, D-000005, E-000003, H-000001, H-000002, H-000003, R-000001, R-000002, R-000003, S-000001, V-000001, V-000002 |
 | [A-000003](records/audits/A-000003/record.md) | audit / `project`   | 2026-10-19T12:33:21.365787+00:00   | A-000003: Successor Independent Project Audit | sealed; verdict **`conformant`** for the scope below.   | A-000001, A-000002, C-000001, C-000002, D-000001, D-000004, D-000007, D-000008, R-000004, S-000001, V-000001, V-000002, V-000004, V-000005 |
 | [C-000001](records/changes/C-000001/record.md) | change | 2026-10-19 12:07:15 UTC | C-000001: Present retention, record adoption and necessary repairs | sealed; candidate retained for bounded research, independent stage gate pending | D-000001, D-000002, D-000004, D-000005, E-000001, H-000001, H-000002, R-000001, R-000002, R-000003 |
 | [C-000002](records/changes/C-000002/record.md) | changes | 2026-10-19 12:24:46 UTC | C-000002: Correct current views and evidence reliance | sealed; current correction retained, independent gate pending | A-000002, A-000003, D-000001, D-000006, D-000007, R-000002, R-000004 |
-| [C-000003](records/changes/C-000003/record.md) | change | 2026-10-19 19:19:37 UTC | C-000003: Version-control enrolment and checkpoint bookkeeping | open | A-000003, D-000001, D-000010, R-000005, V-000007 |
+| [C-000003](records/changes/C-000003/record.md) | change | 2026-10-19 19:19:37 UTC | C-000003: Version-control enrolment and checkpoint bookkeeping | sealed; committed checkpoint, receipt projection follows | A-000003, D-000001, D-000010, R-000005, R-000006, V-000007 |
 | [D-000001](records/decisions/D-000001/record.md) | decision | 2026-10-19 12:07:15 UTC | D-000001: Adopt VP for the present repository | sealed; selected choice recorded | A-000001, C-000001, D-000002, S-000001 |
 | [D-000002](records/decisions/D-000002/record.md) | decision | 2026-10-19 12:07:15 UTC | D-000002: Commission prospective adoption and bounded repairs | sealed; selected choice recorded | A-000001, C-000001, D-000001, S-000001 |
 | [D-000003](records/decisions/D-000003/record.md) | decision | 2026-10-19 12:08:34 UTC | D-000003: Repair reproduced contracts before present retention | sealed; selected choice recorded | C-000001, D-000001, D-000002, E-000002, H-000002, R-000001 |
@@ -28,6 +28,7 @@
 | [V-000004](records/events/V-000004/record.md) | events | 2026-10-19 12:24:46 UTC | V-000004: Constrain reliance on audit-rejected evidence | recorded; sealed | A-000001, A-000002, C-000001, C-000002, D-000001, D-000003, D-000004, D-000006, H-000001, H-000002, R-000001, R-000003, R-000004, S-000001 |
 | [V-000005](records/events/V-000005/record.md) | event | 2026-10-19 12:27:00 UTC | V-000005: Respond to A-000002 mandatory findings | sealed; ready for re-audit | A-000001, A-000002, A-000003, C-000002, D-000001, D-000006, D-000007, E-000004, R-000001, R-000002, R-000003, R-000004, V-000004 |
 | [V-000006](records/events/V-000006/record.md) | event | 2026-10-19 12:35:26 UTC | V-000006: Preserve completed audit outputs and stage handoff | selected; sealed | A-000003, D-000001, D-000007, D-000009, R-000004 |
+| [V-000007](records/events/V-000007/record.md) | event — version-control checkpoint | 2026-10-19 19:22:46 UTC | V-000007: Version-control checkpoint receipt | sealed; first checkpoint committed, receipt commit authorised | A-000003, C-000003, D-000001, D-000010, D-000011, R-000005, R-000006, V-000006 |
 | [E-000001](records/experiments/E-000001/record.md) | experiment | 2026-10-19 12:07:15 UTC | E-000001: Preserve and challenge the starting VP baseline | sealed; completed with baseline falsification | A-000001, D-000001, D-000002, D-000003, H-000001, R-000001 |
 | [E-000002](records/experiments/E-000002/record.md) | experiment | 2026-10-19 12:08:34 UTC | E-000002: Challenge corrected source and capture candidate inputs | sealed; completed | D-000001, D-000003, D-000004, H-000002, R-000001, R-000002 |
 | [E-000003](records/experiments/E-000003/record.md) | experiment | 2026-10-19 12:10:41 UTC | E-000003: Check current provenance and independent-directory recovery | sealed completed | D-000001, D-000004, R-000002, R-000003 |
@@ -47,4 +48,4 @@
 | [R-000006](records/runs/R-000006/record.md) | run | 2026-10-19 19:20:46 UTC | R-000006: Full retained-root and staged-byte verification | sealed; complete-root staging and byte comparisons passed | D-000001, D-000010, E-000006, R-000005 |
 | [S-000001](records/stages/S-000001/record.md) | stage | 2026-10-19 12:07:15 UTC | S-000001: Establish and audit a prospective VP baseline | sealed; accepted prospective baseline | A-000001, A-000002, A-000003, C-000001, D-000001, D-000002, D-000006, D-000009, E-000001, H-000001, R-000001, R-000004, V-000006 |
 
-V-000007 event reserved 2026-10-19 19:21:26 UTC before commit for actual checkpoint receipt; not yet an instantiated outcome. Canonical origin versus support/successor relationships remain in original records. A-000003 closes prior findings only in its exact scope; these owner-authorised custody projections are later. C-000003 open until actual checkpoint.
+Canonical prior origins versus evidence/support/successor links remain in original records. V-000007 records actual first local commit and authorised receipt. C-000003 sealed. Original failures, incomplete selected-byte R-000005, corrected complete-root R-000006, and style diagnostics remain inspectable. A-000003 closes earlier findings only within its exact prospective scope; checkpoint projections are subsequent owner-authorised records.

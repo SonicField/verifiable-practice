@@ -647,3 +647,9 @@ D-000009 accepts A-000003 exact freeze and D-000007 current support; all mandato
 ## Version-control checkpoint records at 2026-10-19 19:21:26 UTC
 
 D-000010/011 govern local custody/tracking; C-000003 preserves earlier views. H/E/R-000005/006 retain the selected-byte limitation and successful complete-root successor. Their operational fields/origins and ledger identify every current record; Git tree content identifies exact checkpoint bytes. They are subsequent management/evidence-custody records outside A-000003 prior freeze, with no new product changes or independent pass. V-000007 receipt is allocated; its future outcome will identify actual first commit.
+
+## Committed custody checkpoint at 2026-10-19 19:22:46 UTC
+
+D-000010/011 → C-000003 and H/E/R-000005/006 → V-000007 identifies complete retained-root commit `e2f63e8cbd5b2c4cd46293a759f1d6c1531f5403`; first commit plus receipt tree identify all exact bytes. A-000003 verdict/product content remain unchanged. Ledger/canonical records cover subsequent checkpoint/current-view documents; raw artefacts retain their owner manifests. Receipt/event metadata is a post-audit management projection, not an independently assessed new scope.
+
+| vp/records/events/V-000007/record.md | exact containing Git tree | D-000010/011 and C-000003, current D-000001 root | owner-authorised custody receipt; finite declared review |

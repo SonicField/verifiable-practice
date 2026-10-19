@@ -20,3 +20,5 @@ with the worker. Manifests identify all owned raw files and copies.
 ## Accepted current baseline
 
 [A-000003](records/audits/A-000003/record.md) reports conformant for the exact prospective freeze, accepted by [D-000009](records/decisions/D-000009/record.md). Start with STATE for current validity and COVERAGE for a unit-to-root trace. A-000001 inconclusive and A-000002 nonconformant remain their historical verdicts. Review current support by 2026-10-26 23:59:59 UTC or earlier trigger. [V-000006](records/events/V-000006/record.md) locates completed handoff preservation.
+
+The complete record root and practical-sized retained evidence are version controlled with the framework. [V-000007](records/events/V-000007/record.md) records the first checkpoint, follow-up receipt and independent bundle locator. Treat Git identities as source/custody evidence with the recorded authentication limits.

@@ -105,3 +105,7 @@ coverage, failed current checks, unknown relevant impact or unresolved mandatory
 independent findings. General improvement/cost claims remain unverified and
 receive a bounded research disposition, not blanket acceptance.
 
+
+## Version-control custody policy at 2026-10-19 19:22:46 UTC
+
+Owner instruction D-000010 selects version control for this repository. Track complete vp record root and retained evidence alongside framework source; D-000011 explicitly includes owned nested evidence despite ignore rules. V-000007 identifies initial checkpoint and receipt. Related source/record changes are committed together, followed by an outcome receipt where needed. Git author/date attribution does not authenticate actions; original sealed records use successor corrections and independent preserved copies remain required. This local policy does not make Git mandatory for other VP projects. Post-audit custody projections do not extend A-000003 assessed scope or renew evidence deadlines.
