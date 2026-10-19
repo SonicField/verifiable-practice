@@ -45,16 +45,9 @@ Before moving to the next step: what did I learn? Write it down. If you cannot a
 
 ---
 
-## Pillar Check
+## Optional Onboarding
 
-Have you read all pillars in this session?
-
-- goals.md
-- falsifiability.md
-- rhetoric.md
-- bullshit-detection.md
-- verification-cycle.md *(you are here)*
-- zero-code-contract.md
-- engineering-standards.md
-
-If you cannot clearly recall reading each one, read them now. Next: `zero-code-contract.md`
+For an explicit request to learn the whole framework, follow the concept
+sequence in [README](../README.md). For a bounded working task, use the
+[skill routing](../SKILL.md) and read only relevant references; this section
+does not require loading unrelated pillars.

@@ -46,11 +46,13 @@ All three levels are required.
 
 ```python
 def transfer_funds(from_account, to_account, amount):
-    # PRECONDITIONS - what must be true on entry
-    assert from_account != to_account, "Cannot transfer to same account"
-    assert amount > 0, f"Amount must be positive, got {amount}"
-    assert from_account.balance >= amount, \
-        f"Insufficient funds: {from_account.balance} < {amount}"
+    # Caller-controlled inputs use checks that survive optimisation.
+    if from_account is to_account:
+        raise ValueError("Source and destination must be different accounts")
+    if amount <= 0:
+        raise ValueError(f"Transfer amount must be positive, got {amount}")
+    if from_account.balance < amount:
+        raise ValueError(f"Insufficient funds: balance {from_account.balance}, requested {amount}")
 
     # Capture state for postcondition
     old_total = from_account.balance + to_account.balance
@@ -60,13 +62,17 @@ def transfer_funds(from_account, to_account, amount):
     to_account.balance += amount
 
     # POSTCONDITION - what must be true on exit
-    assert from_account.balance + to_account.balance == old_total, \
-        "Invariant violated: money created or destroyed"
+    if from_account.balance + to_account.balance != old_total:
+        raise AssertionError("Total balance changed during transfer; internal invariant violated")
 
     # INVARIANT - always true for accounts
-    assert from_account.balance >= 0, "Account balance went negative"
-    assert to_account.balance >= 0, "Account balance went negative"
+    if from_account.balance < 0 or to_account.balance < 0:
+        raise AssertionError("A balance became negative; internal invariant violated")
 ```
+
+This is a simplified invariant example, not a transactional payment system.
+The explicit internal checks remain active under Python optimisation; caller
+rejection happens before either balance changes.
 
 ### Assertion Messages
 

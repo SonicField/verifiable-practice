@@ -4,6 +4,11 @@ Audit a codebase against the [engineering standards](../concepts/engineering-sta
 
 Auditing and fixing are separate decisions. A request to inspect code authorises a report, not source changes.
 
+**Audit kind:** `code`. Use this only after an explicit kind has been selected
+through [Audit Routing](audit-routing.md). For an ambiguous “Please audit X”,
+ask the intended kind and wait before inspecting. Project-record conformance
+uses [Project Audit](record-audit.md) with a separate assessor contract.
+
 ## Phase 1: Scope
 
 1. Identify languages, source roots, test commands, generated code, vendored code, and build artefacts.
@@ -38,8 +43,9 @@ Independent files may be reviewed concurrently when the host supports bounded pa
 
 ## Phase 3: Consolidate
 
-Write a durable audit report, by default `.vp/audit-report.md`, containing:
+Write a durable code-audit report, by default `.vp/code-audit-report.md`, containing:
 
+- audit kind `code` and applied engineering standards;
 - scope and exclusions;
 - counts by severity and category;
 - findings ordered by severity;
@@ -49,6 +55,12 @@ Write a durable audit report, by default `.vp/audit-report.md`, containing:
 - the exact verification command for each proposed repair.
 
 Present this report before changing code.
+
+In a project conforming to the record standard, preserve the report as
+technical evidence under its owning R record and manifest in the chosen
+record root. It is not an A project-conformance report. Existing historical
+`audit-report.md` files remain preserved; identify their kind in the catalogue
+rather than renaming or rewriting their evidence.
 
 ## Phase 4: Repair, If Authorised
 

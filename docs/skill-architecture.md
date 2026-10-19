@@ -10,6 +10,8 @@ verifiable-practice/
 |-- concepts/      Stable reasoning principles
 |-- playbooks/     Operational procedures for particular tasks
 |-- docs/          Human-facing explanation and maintenance guidance
+|-- standards/     Normative contracts for explicitly adopted practices
+|-- templates/     Copyable Markdown documents and record fields
 |-- README.md      Project entry point
 `-- ORIGIN.md      Extraction provenance and scope boundary
 ```
@@ -30,11 +32,26 @@ Playbooks tell an assistant how to perform a bounded class of work. They may req
 
 Documentation explains VP to human readers. It may overlap in subject with a playbook but should not duplicate operational instructions. The document explains the method and trade-offs; the playbook directs execution.
 
+### Standards and Templates
+
+Standards define testable conformance requirements for explicitly adopted
+practices. Templates expose required document fields without adding a software
+dependency. Keep normative requirements in the standard, action order in the
+playbook, and design rationale in explanatory records. Route all three from
+the skill and README.
+
 ## Platform Adapters
 
 A host may require installation metadata, permission declarations, command wrappers, or UI configuration. Keep those in a separate adapter layer. An adapter may translate “search the repository” into a host tool, but it must not silently alter the method or expand authority.
 
 Grant the minimum capabilities required for the selected mode. A review should not receive write permission merely because another VP playbook can modify files. A code audit should remain read-only until repair is separately authorised.
+
+For independent record audit, give a fresh assessor context the immutable
+request and packet, read access to referenced evidence, and write access only
+to its own audit outputs. Keep technical execution and worker-record repair
+in a separate working context. Host permissions can enforce this boundary;
+directory requests and role instructions still define it when enforcement
+is unavailable. Record enforcement/custody limitations explicitly.
 
 ## Changing the Skill
 

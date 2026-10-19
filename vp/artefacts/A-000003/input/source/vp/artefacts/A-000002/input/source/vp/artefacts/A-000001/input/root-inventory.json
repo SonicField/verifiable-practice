@@ -1,0 +1,86 @@
+{
+  "capture_utc": "2026-10-19T11:53:45.415051+00:00",
+  "entries": [
+    {
+      "name": ".gitattributes",
+      "directory": false
+    },
+    {
+      "name": ".github",
+      "directory": true
+    },
+    {
+      "name": ".gitignore",
+      "directory": false
+    },
+    {
+      "name": ".vp",
+      "directory": true
+    },
+    {
+      "name": "CHANGELOG.md",
+      "directory": false
+    },
+    {
+      "name": "CITATION.cff",
+      "directory": false
+    },
+    {
+      "name": "CODE_OF_CONDUCT.md",
+      "directory": false
+    },
+    {
+      "name": "CONTRIBUTING.md",
+      "directory": false
+    },
+    {
+      "name": "LICENSE",
+      "directory": false
+    },
+    {
+      "name": "ORIGIN.md",
+      "directory": false
+    },
+    {
+      "name": "README.md",
+      "directory": false
+    },
+    {
+      "name": "SECURITY.md",
+      "directory": false
+    },
+    {
+      "name": "SKILL.md",
+      "directory": false
+    },
+    {
+      "name": "WHY.md",
+      "directory": false
+    },
+    {
+      "name": "concepts",
+      "directory": true
+    },
+    {
+      "name": "docs",
+      "directory": true
+    },
+    {
+      "name": "playbooks",
+      "directory": true
+    },
+    {
+      "name": "standards",
+      "directory": true
+    },
+    {
+      "name": "templates",
+      "directory": true
+    }
+  ],
+  "omissions": [
+    ".git metadata",
+    "vp newly created audit output bundle"
+  ],
+  "records_search": "No adopted root was identified in README/SKILL or enumerated project files; templates are not instantiated records."
+}

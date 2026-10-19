@@ -39,3 +39,17 @@ The original “Why NBS” essay and the eight top-level concepts that concern h
 The extracted playbooks describe capabilities rather than product tool names. They do not assume slash commands, a particular home-directory layout, conversation APIs, or sub-agent support. Parallel work is optional and bounded. Audit and repair are explicitly separated so that a read-only request does not imply permission to edit code.
 
 The source framework remains unchanged outside this directory. Future generic improvements should be made here first and selectively ported back when they also benefit the team-oriented framework.
+
+## Later Extension: Independent Record Assessment
+
+On 19 October 2026 the user requested a portable auditor/worker split for VP
+project records, informed by Medic and Pythia in NBS Framework revision
+`1946cfba7770248915608bc5d16bcc5eda2b4415`. The role contract, fresh assessor
+context and bounded evidence-based reporting were generalised into the
+[record standard](standards/project-records.md) and
+[audit playbook](playbooks/record-audit.md). The
+[design record](docs/project-records-design.md) preserves sources and choices.
+
+This extends VP's original role boundary without importing team runtime,
+chat/bus tools, persistent monitoring, lifecycle management or oracular prose.
+Separate sessions and Markdown directory handoff implement the contract.

@@ -16,7 +16,12 @@ Do not experiment until these are clear.
 
 Use a reversible isolation mechanism appropriate to the project, such as an `investigation/<topic>` branch or a temporary worktree. Do not create or switch branches without checking for uncommitted work.
 
-Create `INVESTIGATION-STATUS.md`:
+For a project that has adopted [record conformance](../standards/project-records.md),
+use its canonical H/E/R records and current state through the
+[records playbook](project-records.md). Keep the investigation linked to its
+commissioning decision; do not create a competing record root.
+
+For other VP work, create `INVESTIGATION-STATUS.md`:
 
 ```markdown
 # Investigation: [Topic]

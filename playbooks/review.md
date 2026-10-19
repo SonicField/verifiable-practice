@@ -1,6 +1,6 @@
 # Reasoning Review
 
-Use this playbook to audit reasoning quality, goal alignment, and falsification discipline for the current project or work session. The output must be concise enough to read in two minutes.
+Use this playbook to review reasoning quality, goal alignment, and falsification discipline for the current project or work session. The output must be concise enough to read in two minutes. This review is not a Project Audit or Code Audit; route audit requests through [Audit Routing](audit-routing.md).
 
 ## Inputs
 

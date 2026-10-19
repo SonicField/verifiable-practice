@@ -21,6 +21,12 @@ Use an appropriate reversible boundary: a branch, worktree, disposable environme
 
 Isolation protects the main work from experimental changes. The record protects the result from memory loss and prevents a failed approach from being rediscovered without its history.
 
+Projects adopting [record conformance](../standards/project-records.md) use
+canonical hypothesis, protocol, build and run IDs, retained evidence manifests,
+and separate commissioning/adoption decisions. This makes an investigation
+traceable from maintained code and lets later instrument defects trigger
+review of dependent conclusions.
+
 ## Three Honest Verdicts
 
 | Verdict | Meaning |

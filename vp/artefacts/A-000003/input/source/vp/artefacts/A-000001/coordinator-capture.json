@@ -1,0 +1,13 @@
+{
+  "coordinator": "/root",
+  "assessor": "/root/project_auditor",
+  "fork_turns": "none",
+  "captured_utc": "2026-10-19T11:54:45.222994+00:00",
+  "request_sha256": "c19f7cbfa1a9260023cd8df6ee9f3db6c7bda4a3127d8425a7c3c4c3d310a89b",
+  "input_inventory_sha256": "70bb30e7d9f8546291df47e8d800b9802f33bec56c9746d16467cef78c584c0d",
+  "input_manifest_sha256": "7edb76d0f46607a6dde0ad0288ee9907c2d9caf7bdc8f8f948b290cd59a8551d",
+  "packet_entries_checked": 154,
+  "digest_mismatches": [],
+  "request_timestamp_note": "The request header gives packet freeze time 11:53:45 UTC and explicitly states request finalisation preceded assessor dispatch; exact issuance timestamp was not separately captured. This entry is later coordinator capture, not historical issuance proof.",
+  "write_scope": "Audit request, packet, report and retained evidence only; no project adoption/current views/technical changes."
+}

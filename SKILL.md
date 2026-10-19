@@ -1,9 +1,14 @@
 ---
 name: verifiable-practice
-description: Apply goal-aligned, falsification-first, evidence-led practice to software work. Use when the user asks for VP or Verifiable Practice, or requests a falsification-led review, code audit, investigation, project discovery or recovery, document analysis, or precise technical specification.
+description: Apply goal-aligned, falsification-first, evidence-led practice to software work. Use when the user asks for VP or Verifiable Practice, or requests a falsification-led review, project or code audit, investigation, project discovery or recovery, document analysis, or precise technical specification.
 ---
 
 # Verifiable Practice
+
+When working on this repository itself, read its [record root](vp/README.md)
+and [current state](vp/STATE.md). Its prospective charter governs tracking;
+legacy history is not certified and a conformance claim needs independent A.
+These repository-specific links do not enrol another project using this skill.
 
 Treat every material claim as something that must be possible to check. Establish what the user is trying to achieve, identify what would show the current approach is wrong, seek that evidence, and report the observed result—including failures and uncertainty.
 
@@ -21,6 +26,24 @@ Treat every material claim as something that must be possible to check. Establis
 
 Apply these rules proportionally. A small, low-risk change needs a small verification loop; it does not need ceremonial paperwork.
 
+When a project declares conformance to VP project planning and records, use
+its chosen record root and the [Project Records Standard](standards/project-records.md).
+Check current validity, retain every relevant attempt, and link maintained
+artefacts to decisions and evidence. Adoption is explicit; do not silently
+claim that an existing project conforms or migrate it without authority.
+
+For any audit request, first use [Audit Routing](playbooks/audit-routing.md).
+For an ambiguous request such as “Please audit X”, ask which kind is intended
+and wait for the answer. Do not infer a kind, use a charter default or start
+both. An explicit typed request needs no repeated clarification.
+
+When assigned a Project Audit (also called independent record audit), use a fresh context and the
+[Record Audit](playbooks/record-audit.md) playbook. Assess the designated
+packet and write only audit outputs. Return evidence requirements to the
+working AI; technical execution and record repair belong to that AI. A
+worker response requires independent re-audit for closure. The implementation
+loop below applies to working tasks, not this assessor role.
+
 ## Route the Work
 
 Read only the references needed for the current task:
@@ -30,13 +53,16 @@ Read only the references needed for the current task:
 | Understand VP's purpose | [Why Verifiable Practice](WHY.md) |
 | Clarify outcomes or detect drift | [Goals](concepts/goals.md), then [Review](playbooks/review.md) when a formal review is requested |
 | Evaluate a claim or proposed approach | [Falsifiability](concepts/falsifiability.md) and [Bullshit Detection](concepts/bullshit-detection.md) |
-| Implement or assess software | [Verification Cycle](concepts/verification-cycle.md) and [Engineering Standards](concepts/engineering-standards.md) |
+| Implement software | [Verification Cycle](concepts/verification-cycle.md) and [Engineering Standards](concepts/engineering-standards.md) |
 | Clarify human and AI responsibilities | [Zero-Code Contract](concepts/zero-code-contract.md) |
-| Audit a codebase | [Code Audit](playbooks/code-audit.md) |
+| Select the kind for an audit request | [Audit Routing](playbooks/audit-routing.md) |
+| Audit implementation defects or engineering quality (`code`) | [Code Audit](playbooks/code-audit.md) |
 | Test an uncertain technical claim | [Investigation](playbooks/investigation.md) |
 | Diagnose with a debugger | [Hypothesis-Driven Debugging](playbooks/debugging.md) |
 | Understand a disordered project | [Project Discovery](playbooks/discovery.md), followed by [Discovery Verification](playbooks/discovery-verification.md) |
 | Restructure discovered work | [Project Recovery](playbooks/recovery.md) |
+| Plan a project, keep conformant records, or revalidate expired justification | [Project Records Standard](standards/project-records.md), [Project Planning and Records](playbooks/project-records.md), and [Templates](templates/project-records/README.md) |
+| Audit project records and justification (`project`) or respond to findings | [Project Audit and Remediation](playbooks/record-audit.md), [Audit Request](templates/project-records/audit-request.md), [Audit Report](templates/project-records/audit.md), and [Worker Response](templates/project-records/audit-response.md) |
 | Analyse a document's claims and incentives | [Document Analysis](playbooks/document-analysis.md) and [Rhetoric](concepts/rhetoric.md) |
 | Plan or explain a document | [Document Planning](playbooks/document-planning.md) or [Document Description](playbooks/document-description.md) |
 | Remove ambiguity from a contract | [Precise Technical English](concepts/pte.md) and its [playbook](playbooks/precise-technical-english.md) |
@@ -56,6 +82,11 @@ Use these when the task is to explain, evaluate, test, or maintain VP itself:
 | Explain VP's document methods | [Document Work](docs/document-work.md) |
 | Test a VP skill, prompt, or AI workflow | [Testing AI Behaviour](docs/testing-ai-behaviour.md) |
 | Maintain or adapt this skill | [Skill Architecture](docs/skill-architecture.md) |
+| Explain project planning, record custody and validity | [Project Records](docs/project-records.md) |
+| Review the record standard's design choices and inspirations | [Project Records Design](docs/project-records-design.md) |
+| See code and document traces through records | [Worked Record Traces](docs/project-records-examples.md) |
+| Evaluate record behaviour across projects | [Project Records Scenarios](docs/project-records-scenarios.md) |
+| Explain independent auditor/worker roles and handoff | [Independent Record Audit](docs/independent-record-audit.md) |
 
 These documents are explanatory. For execution, use the corresponding playbook above.
 

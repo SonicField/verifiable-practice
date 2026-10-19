@@ -25,7 +25,7 @@ Describe:
 2. evidence that the problem occurs;
 3. the proposed change;
 4. what observable result would show that the change did not help;
-5. whether the change belongs in the shared skill, a concept, a playbook, human-facing documentation, or a platform adapter.
+5. whether the change belongs in the shared skill, a concept, a playbook, a standard, a template, human-facing documentation, or a platform adapter.
 
 Discuss broad changes in an issue before investing in a large pull request.
 
@@ -39,6 +39,9 @@ Discuss broad changes in an issue before investing in a large pull request.
 - Add or update behavioural scenarios when a change affects AI decisions.
 - Report failed and skipped validation, not only successful checks.
 - Update `CHANGELOG.md` under “Unreleased” for user-visible changes.
+- For standards, preserve each material choice's observation, generalised
+  requirement, applicability, alternatives and falsifier in a design record.
+  Test across different work types; do not infer general validity from one project.
 
 ## Validation
 

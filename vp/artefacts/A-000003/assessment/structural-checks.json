@@ -1,0 +1,274 @@
+{
+  "checked_at": "2026-10-19T12:29:44.690210+00:00",
+  "views": [
+    "COVERAGE.md",
+    "LEDGER.md",
+    "PLAN.md",
+    "PROJECT.md",
+    "README.md",
+    "STATE.md"
+  ],
+  "product_files": 71,
+  "units": 540,
+  "declared_rows": 540,
+  "product_path_difference": [],
+  "product_snapshot_hash": "4ba7fa0dd5273c175af9a5d5ee892ceb505ea374ffca9b2c8d60bea368f7dca9",
+  "product_hash_errors": [],
+  "snapshot_hash_errors": [],
+  "unit_row_errors": [],
+  "independent_visible_heading_count": 418,
+  "missing_heading_rows": [],
+  "active_documents_checked": 42,
+  "local_destinations_checked": 252,
+  "link_errors": [
+    [
+      "vp/records/audits/A-000003/request.md",
+      "../../../artefacts/A-000003/input/inventory.json"
+    ],
+    [
+      "vp/records/audits/A-000003/request.md",
+      "../../../artefacts/A-000003/input/MANIFEST.md"
+    ]
+  ],
+  "external_not_fetched": [],
+  "metadata_field_errors": [],
+  "missing_ledger_ids": [],
+  "canonical_origin_paths": {
+    "A-000001": [
+      "A-000001",
+      "legacy commission retained, not prospective root"
+    ],
+    "A-000002": [
+      "A-000002",
+      "D-000005",
+      "D-000004",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "C-000001": [
+      "C-000001",
+      "D-000002",
+      "D-000001"
+    ],
+    "C-000002": [
+      "C-000002",
+      "D-000006",
+      "D-000005",
+      "D-000004",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "D-000001": [
+      "D-000001"
+    ],
+    "D-000002": [
+      "D-000002",
+      "D-000001"
+    ],
+    "D-000003": [
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "D-000004": [
+      "D-000004",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "D-000005": [
+      "D-000005",
+      "D-000004",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "D-000006": [
+      "D-000006",
+      "D-000005",
+      "D-000004",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "D-000007": [
+      "D-000007",
+      "D-000006",
+      "D-000005",
+      "D-000004",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "D-000008": [
+      "D-000008",
+      "D-000007",
+      "D-000006",
+      "D-000005",
+      "D-000004",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "V-000001": [
+      "V-000001",
+      "D-000001"
+    ],
+    "V-000002": [
+      "V-000002",
+      "D-000004",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "V-000003": [
+      "V-000003",
+      "D-000004",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "V-000004": [
+      "V-000004",
+      "D-000006",
+      "D-000005",
+      "D-000004",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "V-000005": [
+      "V-000005",
+      "D-000007",
+      "D-000006",
+      "D-000005",
+      "D-000004",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "E-000001": [
+      "E-000001",
+      "D-000002",
+      "D-000001"
+    ],
+    "E-000002": [
+      "E-000002",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "E-000003": [
+      "E-000003",
+      "D-000004",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "E-000004": [
+      "E-000004",
+      "D-000006",
+      "D-000005",
+      "D-000004",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "H-000001": [
+      "H-000001",
+      "D-000002",
+      "D-000001"
+    ],
+    "H-000002": [
+      "H-000002",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "H-000003": [
+      "H-000003",
+      "D-000004",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "H-000004": [
+      "H-000004",
+      "D-000006",
+      "D-000005",
+      "D-000004",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "R-000001": [
+      "R-000001",
+      "E-000001",
+      "D-000002",
+      "D-000001"
+    ],
+    "R-000002": [
+      "R-000002",
+      "E-000002",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "R-000003": [
+      "R-000003",
+      "E-000003",
+      "D-000004",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "R-000004": [
+      "R-000004",
+      "E-000004",
+      "D-000006",
+      "D-000005",
+      "D-000004",
+      "D-000003",
+      "D-000002",
+      "D-000001"
+    ],
+    "S-000001": [
+      "S-000001",
+      "D-000002",
+      "D-000001"
+    ]
+  },
+  "canonical_origin_errors": [],
+  "forward_coverage_unaccounted": [
+    "vp/records/audits/A-000001/record.md"
+  ],
+  "limits": "File destinations and required field presence; no rendering/schema/anchor/legal correctness certification. Canonical first-parent reachability is separate from supporting links. Semantic selection separately declared.",
+  "logical_locator_resolutions": [
+    {
+      "copied_request": "source/vp/records/audits/A-000003/request.md",
+      "logical_target": "vp/artefacts/A-000003/input/inventory.json",
+      "designated_immutable_target": "input/inventory.json",
+      "exists": true,
+      "explanation": "Issued request is itself frozen source data. Its logical project self-packet locator resolves to the explicitly designated outer A-000003 packet; recursively nesting that packet is outside its own transaction boundary."
+    },
+    {
+      "copied_request": "source/vp/records/audits/A-000003/request.md",
+      "logical_target": "vp/artefacts/A-000003/input/MANIFEST.md",
+      "designated_immutable_target": "input/MANIFEST.md",
+      "exists": true,
+      "explanation": "Issued request is itself frozen source data. Its logical project self-packet locator resolves to the explicitly designated outer A-000003 packet; recursively nesting that packet is outside its own transaction boundary."
+    }
+  ],
+  "forward_coverage_explanations": [
+    {
+      "path": "vp/records/audits/A-000001/record.md",
+      "accounted_by": "COVERAGE legacy evidence section, V-000001 import record, LEDGER alias preserving original namespace, and packet inventory/nested A-000001 manifests; legacy report is owned evidence, not an omitted newly maintained product file."
+    }
+  ],
+  "operational_record_report_count": 30,
+  "ledger_rows": 31,
+  "ledger_type_created_title_state_fields_complete": true,
+  "issued_request_equals_frozen_source": true
+}

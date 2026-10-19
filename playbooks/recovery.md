@@ -35,6 +35,12 @@ Copy or archive before removing originals. Prefer version-controlled, recoverabl
 
 ## 4. Establish Durable Structure
 
+When adopting formal record conformance, use the
+[Project Records Standard](../standards/project-records.md) and
+[records playbook](project-records.md). Preserve the legacy path-to-record
+mapping and label reconstructed history; new justification does not recover
+missing past evidence.
+
 Leave behind:
 
 - a clear README and navigable layout;

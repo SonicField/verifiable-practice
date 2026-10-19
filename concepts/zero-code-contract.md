@@ -6,6 +6,13 @@ If the human must review all code, the human becomes the bottleneck. Bottlenecks
 
 ## The Roles
 
+The table below describes the **default human-owner arrangement**. For an
+AI owner, use the explicit [mandate and role contract](../standards/project-records.md)
+and [independent audit roles](../docs/independent-record-audit.md). An AI owner
+may make delegated management decisions; the working AI still implements and
+maintains records. An actor title never creates authority, and the auditor
+must remain independent of the authors it assesses.
+
 | Role | Does | Does Not |
 |------|------|----------|
 | Engineer (Human) | Specifies requirements, defines acceptance criteria, validates alignment, final sign-off | Write implementation code, rubber-stamp without evidence |
@@ -56,16 +63,9 @@ Am I reviewing criteria or reviewing code? If code, I have lost. Scale to the tr
 
 ---
 
-## Pillar Check
+## Optional Onboarding
 
-Have you read all pillars in this session?
-
-- goals.md
-- falsifiability.md
-- rhetoric.md
-- bullshit-detection.md
-- verification-cycle.md
-- zero-code-contract.md *(you are here)*
-- engineering-standards.md
-
-If you cannot clearly recall reading each one, read them now. Next: `goals.md`
+For an explicit request to learn the whole framework, follow the concept
+sequence in [README](../README.md). For a bounded working task, use the
+[skill routing](../SKILL.md) and read only relevant references; this section
+does not require loading unrelated pillars.

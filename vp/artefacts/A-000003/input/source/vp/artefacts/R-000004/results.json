@@ -1,0 +1,598 @@
+{
+  "started": "2026-10-19T12:25:44.930331+00:00",
+  "ended": "2026-10-19T12:25:46.991861+00:00",
+  "members": [
+    {
+      "label": "runtime",
+      "argv": [
+        "/usr/bin/python3",
+        "-c",
+        "import sys,yaml; print(sys.version); print(sys.executable); print(yaml.__version__); print(yaml.__file__)"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:25:45.285597+00:00",
+      "ended": "2026-10-19T12:25:45.307626+00:00",
+      "exit": 0,
+      "expected_exit": 0,
+      "executable_before": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "executable_after": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "dependency_before": "runtime.dependencies-before.json",
+      "dependency_after": "runtime.dependencies-after.json",
+      "inputs_before": [],
+      "inputs_after": [],
+      "stdout": "runtime.stdout.txt",
+      "stderr": "runtime.stderr.txt",
+      "criterion_met": true
+    },
+    {
+      "label": "candidate-structural",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+        "structural",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/source",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/snapshot.json"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:25:45.451873+00:00",
+      "ended": "2026-10-19T12:25:45.486634+00:00",
+      "exit": 0,
+      "expected_exit": 0,
+      "executable_before": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "executable_after": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "dependency_before": "candidate-structural.dependencies-before.json",
+      "dependency_after": "candidate-structural.dependencies-after.json",
+      "inputs_before": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+          "symlink": null,
+          "bytes": 5859,
+          "sha256": "03db7094b4ebfd6c3a5f03b117c0f2d60d2e3043e49d274ff7fe5feba7f87bf1"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/snapshot.json",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/snapshot.json",
+          "symlink": null,
+          "bytes": 11684,
+          "sha256": "4ba7fa0dd5273c175af9a5d5ee892ceb505ea374ffca9b2c8d60bea368f7dca9"
+        }
+      ],
+      "inputs_after": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+          "symlink": null,
+          "bytes": 5859,
+          "sha256": "03db7094b4ebfd6c3a5f03b117c0f2d60d2e3043e49d274ff7fe5feba7f87bf1"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/snapshot.json",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/snapshot.json",
+          "symlink": null,
+          "bytes": 11684,
+          "sha256": "4ba7fa0dd5273c175af9a5d5ee892ceb505ea374ffca9b2c8d60bea368f7dca9"
+        }
+      ],
+      "stdout": "candidate-structural.stdout.txt",
+      "stderr": "candidate-structural.stderr.txt",
+      "criterion_met": true
+    },
+    {
+      "label": "candidate-behaviour",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+        "behavior",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/source",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/snapshot.json"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:25:45.630066+00:00",
+      "ended": "2026-10-19T12:25:45.654902+00:00",
+      "exit": 0,
+      "expected_exit": 0,
+      "executable_before": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "executable_after": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "dependency_before": "candidate-behaviour.dependencies-before.json",
+      "dependency_after": "candidate-behaviour.dependencies-after.json",
+      "inputs_before": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+          "symlink": null,
+          "bytes": 5859,
+          "sha256": "03db7094b4ebfd6c3a5f03b117c0f2d60d2e3043e49d274ff7fe5feba7f87bf1"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/snapshot.json",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/snapshot.json",
+          "symlink": null,
+          "bytes": 11684,
+          "sha256": "4ba7fa0dd5273c175af9a5d5ee892ceb505ea374ffca9b2c8d60bea368f7dca9"
+        }
+      ],
+      "inputs_after": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+          "symlink": null,
+          "bytes": 5859,
+          "sha256": "03db7094b4ebfd6c3a5f03b117c0f2d60d2e3043e49d274ff7fe5feba7f87bf1"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/snapshot.json",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/snapshot.json",
+          "symlink": null,
+          "bytes": 11684,
+          "sha256": "4ba7fa0dd5273c175af9a5d5ee892ceb505ea374ffca9b2c8d60bea368f7dca9"
+        }
+      ],
+      "stdout": "candidate-behaviour.stdout.txt",
+      "stderr": "candidate-behaviour.stderr.txt",
+      "criterion_met": true
+    },
+    {
+      "label": "baseline-negative",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+        "behavior",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/before/source",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/before/snapshot.json"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:25:45.798404+00:00",
+      "ended": "2026-10-19T12:25:45.822586+00:00",
+      "exit": 1,
+      "expected_exit": 1,
+      "executable_before": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "executable_after": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "dependency_before": "baseline-negative.dependencies-before.json",
+      "dependency_after": "baseline-negative.dependencies-after.json",
+      "inputs_before": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+          "symlink": null,
+          "bytes": 5859,
+          "sha256": "03db7094b4ebfd6c3a5f03b117c0f2d60d2e3043e49d274ff7fe5feba7f87bf1"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/before/snapshot.json",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/before/snapshot.json",
+          "symlink": null,
+          "bytes": 11767,
+          "sha256": "0aa26f1c2afd79cdb9d1af282a210e1409384876040d8dd4a739f81b51a7354c"
+        }
+      ],
+      "inputs_after": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+          "symlink": null,
+          "bytes": 5859,
+          "sha256": "03db7094b4ebfd6c3a5f03b117c0f2d60d2e3043e49d274ff7fe5feba7f87bf1"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/before/snapshot.json",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/before/snapshot.json",
+          "symlink": null,
+          "bytes": 11767,
+          "sha256": "0aa26f1c2afd79cdb9d1af282a210e1409384876040d8dd4a739f81b51a7354c"
+        }
+      ],
+      "stdout": "baseline-negative.stdout.txt",
+      "stderr": "baseline-negative.stderr.txt",
+      "criterion_met": true
+    },
+    {
+      "label": "frontmatter",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/skill-validator.py",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/source"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:25:45.968017+00:00",
+      "ended": "2026-10-19T12:25:45.994063+00:00",
+      "exit": 0,
+      "expected_exit": 0,
+      "executable_before": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "executable_after": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "dependency_before": "frontmatter.dependencies-before.json",
+      "dependency_after": "frontmatter.dependencies-after.json",
+      "inputs_before": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/skill-validator.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/skill-validator.py",
+          "symlink": null,
+          "bytes": 4249,
+          "sha256": "ee6dba90f44d37171c5a6edb8095979c54919ff6822c1a907afca2e78c48738c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/source/SKILL.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/source/SKILL.md",
+          "symlink": null,
+          "bytes": 7931,
+          "sha256": "681612a0bf53459d8fe4b464f6d17a5d1fb24608f723a5deb0e85a90f06fc562"
+        }
+      ],
+      "inputs_after": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/skill-validator.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/skill-validator.py",
+          "symlink": null,
+          "bytes": 4249,
+          "sha256": "ee6dba90f44d37171c5a6edb8095979c54919ff6822c1a907afca2e78c48738c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/source/SKILL.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/source/SKILL.md",
+          "symlink": null,
+          "bytes": 7931,
+          "sha256": "681612a0bf53459d8fe4b464f6d17a5d1fb24608f723a5deb0e85a90f06fc562"
+        }
+      ],
+      "stdout": "frontmatter.stdout.txt",
+      "stderr": "frontmatter.stderr.txt",
+      "criterion_met": true
+    },
+    {
+      "label": "coverage-complete",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-complete.md",
+        "/home/alexturner/verifiable-practice"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:25:46.139174+00:00",
+      "ended": "2026-10-19T12:25:46.160025+00:00",
+      "exit": 0,
+      "expected_exit": 0,
+      "executable_before": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "executable_after": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "dependency_before": "coverage-complete.dependencies-before.json",
+      "dependency_after": "coverage-complete.dependencies-after.json",
+      "inputs_before": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+          "symlink": null,
+          "bytes": 1473,
+          "sha256": "40e5ae5ad9a3ce31e56b38c53621a0f1e942c6e5a284af74bd2061ea2b41ec72"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+          "symlink": null,
+          "bytes": 119289,
+          "sha256": "7be3451795bb53b304dabcfdf887c61b9de886dc67d9f6075c21bcc0e685663a"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-complete.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-complete.md",
+          "symlink": null,
+          "bytes": 176409,
+          "sha256": "06596bc2128d02f8930818de40c63d325cd8b73a71ec0646fc42f1d842dcc4a7"
+        }
+      ],
+      "inputs_after": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+          "symlink": null,
+          "bytes": 1473,
+          "sha256": "40e5ae5ad9a3ce31e56b38c53621a0f1e942c6e5a284af74bd2061ea2b41ec72"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+          "symlink": null,
+          "bytes": 119289,
+          "sha256": "7be3451795bb53b304dabcfdf887c61b9de886dc67d9f6075c21bcc0e685663a"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-complete.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-complete.md",
+          "symlink": null,
+          "bytes": 176409,
+          "sha256": "06596bc2128d02f8930818de40c63d325cd8b73a71ec0646fc42f1d842dcc4a7"
+        }
+      ],
+      "stdout": "coverage-complete.stdout.txt",
+      "stderr": "coverage-complete.stderr.txt",
+      "criterion_met": true
+    },
+    {
+      "label": "coverage-omitted",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-omitted.md",
+        "/home/alexturner/verifiable-practice"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:25:46.303674+00:00",
+      "ended": "2026-10-19T12:25:46.325210+00:00",
+      "exit": 1,
+      "expected_exit": 1,
+      "executable_before": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "executable_after": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "dependency_before": "coverage-omitted.dependencies-before.json",
+      "dependency_after": "coverage-omitted.dependencies-after.json",
+      "inputs_before": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+          "symlink": null,
+          "bytes": 1473,
+          "sha256": "40e5ae5ad9a3ce31e56b38c53621a0f1e942c6e5a284af74bd2061ea2b41ec72"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+          "symlink": null,
+          "bytes": 119289,
+          "sha256": "7be3451795bb53b304dabcfdf887c61b9de886dc67d9f6075c21bcc0e685663a"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-omitted.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-omitted.md",
+          "symlink": null,
+          "bytes": 176090,
+          "sha256": "03a14946c1bc6f55c05bb26944b045dcddaceceaeefad5a891ec9cca3412cf0e"
+        }
+      ],
+      "inputs_after": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+          "symlink": null,
+          "bytes": 1473,
+          "sha256": "40e5ae5ad9a3ce31e56b38c53621a0f1e942c6e5a284af74bd2061ea2b41ec72"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+          "symlink": null,
+          "bytes": 119289,
+          "sha256": "7be3451795bb53b304dabcfdf887c61b9de886dc67d9f6075c21bcc0e685663a"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-omitted.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-omitted.md",
+          "symlink": null,
+          "bytes": 176090,
+          "sha256": "03a14946c1bc6f55c05bb26944b045dcddaceceaeefad5a891ec9cca3412cf0e"
+        }
+      ],
+      "stdout": "coverage-omitted.stdout.txt",
+      "stderr": "coverage-omitted.stderr.txt",
+      "criterion_met": true
+    },
+    {
+      "label": "coverage-wrong-digest",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-wrong-digest.md",
+        "/home/alexturner/verifiable-practice"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:25:46.470504+00:00",
+      "ended": "2026-10-19T12:25:46.491099+00:00",
+      "exit": 1,
+      "expected_exit": 1,
+      "executable_before": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "executable_after": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "dependency_before": "coverage-wrong-digest.dependencies-before.json",
+      "dependency_after": "coverage-wrong-digest.dependencies-after.json",
+      "inputs_before": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+          "symlink": null,
+          "bytes": 1473,
+          "sha256": "40e5ae5ad9a3ce31e56b38c53621a0f1e942c6e5a284af74bd2061ea2b41ec72"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+          "symlink": null,
+          "bytes": 119289,
+          "sha256": "7be3451795bb53b304dabcfdf887c61b9de886dc67d9f6075c21bcc0e685663a"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-wrong-digest.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-wrong-digest.md",
+          "symlink": null,
+          "bytes": 176409,
+          "sha256": "28d94b85515e623b8d94a39f8889d02dd244e4a4bb7bde6fa076797197c60bb6"
+        }
+      ],
+      "inputs_after": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+          "symlink": null,
+          "bytes": 1473,
+          "sha256": "40e5ae5ad9a3ce31e56b38c53621a0f1e942c6e5a284af74bd2061ea2b41ec72"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+          "symlink": null,
+          "bytes": 119289,
+          "sha256": "7be3451795bb53b304dabcfdf887c61b9de886dc67d9f6075c21bcc0e685663a"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-wrong-digest.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-wrong-digest.md",
+          "symlink": null,
+          "bytes": 176409,
+          "sha256": "28d94b85515e623b8d94a39f8889d02dd244e4a4bb7bde6fa076797197c60bb6"
+        }
+      ],
+      "stdout": "coverage-wrong-digest.stdout.txt",
+      "stderr": "coverage-wrong-digest.stderr.txt",
+      "criterion_met": true
+    },
+    {
+      "label": "independent-directory-recovery",
+      "started": "2026-10-19T12:25:46.563420+00:00",
+      "ended": "2026-10-19T12:25:46.914439+00:00",
+      "copy": "/home/alexturner/vp-preserved/verifiable-practice/R-000004-recovery-input",
+      "restore": "/tmp/vp-R-000004-restore-t0knsc92/project",
+      "files": 1238,
+      "differences": [],
+      "operation": "shutil.copytree then SHA-256 comparison against fixed copy inventory",
+      "executable_before": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "executable_after": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "criterion_met": true
+    },
+    {
+      "label": "tampered-copy",
+      "input": {
+        "path": "/tmp/vp-R-000004-restore-t0knsc92/tampered-control.txt",
+        "resolved": "/tmp/vp-R-000004-restore-t0knsc92/tampered-control.txt",
+        "symlink": null,
+        "bytes": 73,
+        "sha256": "827826605cb1e8685858514fabcb93698f0b20a02d2a5e0d9fcb60c5962b18e2"
+      },
+      "expected_digest": "bfaf744e63e327c78056b794fb5309501c6cdea0c42ba292e353a56a63bf9b27",
+      "operation": "same SHA-256 comparison",
+      "executable": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "symlink": "python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "criterion_met": true
+    },
+    {
+      "label": "batch-identities-stable",
+      "criterion_met": true
+    }
+  ],
+  "criterion_met": true,
+  "claims": {
+    "H4a": "failed to falsify",
+    "H4b": "failed to falsify",
+    "H4c": "failed to falsify"
+  },
+  "limits": "New current evidence only. Worker-controlled captures; no proof of older runtime, general efficacy or physical host-loss durability."
+}

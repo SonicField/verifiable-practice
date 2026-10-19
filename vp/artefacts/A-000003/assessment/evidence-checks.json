@@ -1,0 +1,291 @@
+{
+  "checked_at": "2026-10-19T12:30:13.196395+00:00",
+  "batch_start": "2026-10-19T12:25:44.930331+00:00",
+  "batch_end": "2026-10-19T12:25:46.991861+00:00",
+  "preaction_created_utc": "2026-10-19 12:24:46 UTC",
+  "post_run_adopting_decision_created_utc": "2026-10-19 12:27:00 UTC",
+  "interpreter": {
+    "captured": "2026-10-19T12:25:44.930331+00:00",
+    "executable": {
+      "path": "/usr/bin/python3",
+      "resolved": "/usr/bin/python3.9",
+      "symlink": "python3.9",
+      "bytes": 68488,
+      "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+    },
+    "sys_executable": "/usr/bin/python3",
+    "version": "3.9.25 (main, Aug 13 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+    "platform": "Linux-6.16.1-0_fbk3_0_gd6c130b80483-aarch64-with-glibc2.34",
+    "machine": "aarch64",
+    "yaml_version": "5.4.1",
+    "cwd": "/home/alexturner/verifiable-practice",
+    "physical_cwd": "/home/alexturner/verifiable-practice",
+    "relevant_environment": {
+      "PYTHONPATH": null,
+      "PYTHONHASHSEED": null,
+      "LC_ALL": "C.UTF-8",
+      "LANG": "en_GB.UTF-8",
+      "TZ": null
+    }
+  },
+  "dependency_entries": 654,
+  "dependency_owners": {
+    "installed-PyYAML": 18,
+    "loaded-shared-library": 26,
+    "python-standard-library": 610
+  },
+  "preserved_yaml_entries": 18,
+  "preserved_yaml_errors": [],
+  "source_identity_entries": 142,
+  "errors": [],
+  "members": [
+    {
+      "label": "runtime",
+      "started": "2026-10-19T12:25:45.285597+00:00",
+      "ended": "2026-10-19T12:25:45.307626+00:00",
+      "exit": 0,
+      "expected_exit": 0,
+      "criterion_met": true,
+      "argv": [
+        "/usr/bin/python3",
+        "-c",
+        "import sys,yaml; print(sys.version); print(sys.executable); print(yaml.__version__); print(yaml.__file__)"
+      ],
+      "stdout": "3.9.25 (main, Aug 13 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]\n/usr/bin/python3\n5.4.1\n/usr/lib64/python3.9/site-packages/yaml/__init__.py\n",
+      "stderr": ""
+    },
+    {
+      "label": "candidate-structural",
+      "started": "2026-10-19T12:25:45.451873+00:00",
+      "ended": "2026-10-19T12:25:45.486634+00:00",
+      "exit": 0,
+      "expected_exit": 0,
+      "criterion_met": true,
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+        "structural",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/source",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/snapshot.json"
+      ],
+      "stdout": "{\n  \"files\": 71,\n  \"local_destinations\": 213,\n  \"errors\": [],\n  \"limits\": \"File destinations/fences/routes/fields only; no rendering or external URL certification.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "candidate-behaviour",
+      "started": "2026-10-19T12:25:45.630066+00:00",
+      "ended": "2026-10-19T12:25:45.654902+00:00",
+      "exit": 0,
+      "expected_exit": 0,
+      "criterion_met": true,
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+        "behavior",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/source",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/snapshot.json"
+      ],
+      "stdout": "{\n  \"cases\": [\n    {\n      \"case\": \"negative\",\n      \"optimisation\": 0,\n      \"error\": \"ValueError\",\n      \"balances\": [\n        10,\n        0\n      ],\n      \"criterion_met\": true\n    },\n    {\n      \"case\": \"overdraft\",\n      \"optimisation\": 0,\n      \"error\": \"ValueError\",\n      \"balances\": [\n        10,\n        0\n      ],\n      \"criterion_met\": true\n    },\n    {\n      \"case\": \"valid\",\n      \"optimisation\": 0,\n      \"error\": null,\n      \"balances\": [\n        7,\n        3\n      ],\n      \"criterion_met\": true\n    },\n    {\n      \"case\": \"negative\",\n      \"optimisation\": 1,\n      \"error\": \"ValueError\",\n      \"balances\": [\n        10,\n        0\n      ],\n      \"criterion_met\": true\n    },\n    {\n      \"case\": \"overdraft\",\n      \"optimisation\": 1,\n      \"error\": \"ValueError\",\n      \"balances\": [\n        10,\n        0\n      ],\n      \"criterion_met\": true\n    },\n    {\n      \"case\": \"valid\",\n      \"optimisation\": 1,\n      \"error\": null,\n      \"balances\": [\n        7,\n        3\n      ],\n      \"criterion_met\": true\n    },\n    {\n      \"case\": \"negative\",\n      \"optimisation\": 2,\n      \"error\": \"ValueError\",\n      \"balances\": [\n        10,\n        0\n      ],\n      \"criterion_met\": true\n    },\n    {\n      \"case\": \"overdraft\",\n      \"optimisation\": 2,\n      \"error\": \"ValueError\",\n      \"balances\": [\n        10,\n        0\n      ],\n      \"criterion_met\": true\n    },\n    {\n      \"case\": \"valid\",\n      \"optimisation\": 2,\n      \"error\": null,\n      \"balances\": [\n        7,\n        3\n      ],\n      \"criterion_met\": true\n    },\n    {\n      \"email\": \"@.\",\n      \"actual\": true,\n      \"expected_function_result\": true\n    },\n    {\n      \"email\": \"user@localhost\",\n      \"actual\": false,\n      \"expected_function_result\": false\n    },\n    {\n      \"email\": \"user@[192.168.1.1]\",\n      \"actual\": true,\n      \"expected_function_result\": true\n    },\n    {\n      \"email\": \"user+tag@example.com\",\n      \"actual\": true,\n      \"expected_function_result\": true\n    },\n    {\n      \"email\": \"user@example..com\",\n      \"actual\": true,\n      \"expected_function_result\": true\n    }\n  ],\n  \"issues\": [],\n  \"limits\": \"Bounded executable outcomes and literal contracts, not independent AI behavior or email-standard conformance.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "baseline-negative",
+      "started": "2026-10-19T12:25:45.798404+00:00",
+      "ended": "2026-10-19T12:25:45.822586+00:00",
+      "exit": 1,
+      "expected_exit": 1,
+      "criterion_met": true,
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+        "behavior",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/before/source",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/before/snapshot.json"
+      ],
+      "stdout": "{\n  \"cases\": [\n    {\n      \"case\": \"negative\",\n      \"optimisation\": 0,\n      \"error\": \"AssertionError\",\n      \"balances\": [\n        10,\n        0\n      ],\n      \"criterion_met\": true\n    },\n    {\n      \"case\": \"overdraft\",\n      \"optimisation\": 0,\n      \"error\": \"AssertionError\",\n      \"balances\": [\n        10,\n        0\n      ],\n      \"criterion_met\": true\n    },\n    {\n      \"case\": \"valid\",\n      \"optimisation\": 0,\n      \"error\": null,\n      \"balances\": [\n        7,\n        3\n      ],\n      \"criterion_met\": true\n    },\n    {\n      \"case\": \"negative\",\n      \"optimisation\": 1,\n      \"error\": null,\n      \"balances\": [\n        15,\n        -5\n      ],\n      \"criterion_met\": false\n    },\n    {\n      \"case\": \"overdraft\",\n      \"optimisation\": 1,\n      \"error\": null,\n      \"balances\": [\n        -10,\n        20\n      ],\n      \"criterion_met\": false\n    },\n    {\n      \"case\": \"valid\",\n      \"optimisation\": 1,\n      \"error\": null,\n      \"balances\": [\n        7,\n        3\n      ],\n      \"criterion_met\": true\n    },\n    {\n      \"case\": \"negative\",\n      \"optimisation\": 2,\n      \"error\": null,\n      \"balances\": [\n        15,\n        -5\n      ],\n      \"criterion_met\": false\n    },\n    {\n      \"case\": \"overdraft\",\n      \"optimisation\": 2,\n      \"error\": null,\n      \"balances\": [\n        -10,\n        20\n      ],\n      \"criterion_met\": false\n    },\n    {\n      \"case\": \"valid\",\n      \"optimisation\": 2,\n      \"error\": null,\n      \"balances\": [\n        7,\n        3\n      ],\n      \"criterion_met\": true\n    },\n    {\n      \"email\": \"@.\",\n      \"actual\": true,\n      \"expected_function_result\": true\n    },\n    {\n      \"email\": \"user@localhost\",\n      \"actual\": false,\n      \"expected_function_result\": false\n    },\n    {\n      \"email\": \"user@[192.168.1.1]\",\n      \"actual\": true,\n      \"expected_function_result\": true\n    },\n    {\n      \"email\": \"user+tag@example.com\",\n      \"actual\": true,\n      \"expected_function_result\": true\n    },\n    {\n      \"email\": \"user@example..com\",\n      \"actual\": true,\n      \"expected_function_result\": true\n    }\n  ],\n  \"issues\": [\n    \"transfer/1/negative\",\n    \"transfer/1/overdraft\",\n    \"transfer/2/negative\",\n    \"transfer/2/overdraft\",\n    \"email text falsely reports rejection\",\n    \"unmeasured forty-percent outcome reported\",\n    \"forced pillar loading: bullshit-detection.md\",\n    \"forced pillar loading: falsifiability.md\",\n    \"forced pillar loading: goals.md\",\n    \"forced pillar loading: pte.md\",\n    \"forced pillar loading: rhetoric.md\",\n    \"forced pillar loading: verification-cycle.md\",\n    \"forced pillar loading: zero-code-contract.md\",\n    \"default human/AI-owner applicability not stated\"\n  ],\n  \"limits\": \"Bounded executable outcomes and literal contracts, not independent AI behavior or email-standard conformance.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "frontmatter",
+      "started": "2026-10-19T12:25:45.968017+00:00",
+      "ended": "2026-10-19T12:25:45.994063+00:00",
+      "exit": 0,
+      "expected_exit": 0,
+      "criterion_met": true,
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/skill-validator.py",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/source"
+      ],
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "label": "coverage-complete",
+      "started": "2026-10-19T12:25:46.139174+00:00",
+      "ended": "2026-10-19T12:25:46.160025+00:00",
+      "exit": 0,
+      "expected_exit": 0,
+      "criterion_met": true,
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-complete.md",
+        "/home/alexturner/verifiable-practice"
+      ],
+      "stdout": "{\n  \"inventory\": \"/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json\",\n  \"coverage_input\": \"/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-complete.md\",\n  \"source\": \"/home/alexturner/verifiable-practice\",\n  \"expected_units\": 540,\n  \"missing\": [],\n  \"wrong_digests\": [],\n  \"duplicates\": [],\n  \"source_errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "coverage-omitted",
+      "started": "2026-10-19T12:25:46.303674+00:00",
+      "ended": "2026-10-19T12:25:46.325210+00:00",
+      "exit": 1,
+      "expected_exit": 1,
+      "criterion_met": true,
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-omitted.md",
+        "/home/alexturner/verifiable-practice"
+      ],
+      "stdout": "{\n  \"inventory\": \"/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json\",\n  \"coverage_input\": \"/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-omitted.md\",\n  \"source\": \"/home/alexturner/verifiable-practice\",\n  \"expected_units\": 540,\n  \"missing\": [\n    \"templates/project-records/workspace.md:1 \\u2014 Workspace Ownership\"\n  ],\n  \"wrong_digests\": [],\n  \"duplicates\": [],\n  \"source_errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "coverage-wrong-digest",
+      "started": "2026-10-19T12:25:46.470504+00:00",
+      "ended": "2026-10-19T12:25:46.491099+00:00",
+      "exit": 1,
+      "expected_exit": 1,
+      "criterion_met": true,
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-wrong-digest.md",
+        "/home/alexturner/verifiable-practice"
+      ],
+      "stdout": "{\n  \"inventory\": \"/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json\",\n  \"coverage_input\": \"/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-wrong-digest.md\",\n  \"source\": \"/home/alexturner/verifiable-practice\",\n  \"expected_units\": 540,\n  \"missing\": [],\n  \"wrong_digests\": [\n    \"templates/project-records/workspace.md:1 \\u2014 Workspace Ownership\"\n  ],\n  \"duplicates\": [],\n  \"source_errors\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "label": "independent-directory-recovery",
+      "started": "2026-10-19T12:25:46.563420+00:00",
+      "ended": "2026-10-19T12:25:46.914439+00:00",
+      "criterion_met": true
+    },
+    {
+      "label": "tampered-copy",
+      "criterion_met": true
+    },
+    {
+      "label": "batch-identities-stable",
+      "criterion_met": true
+    }
+  ],
+  "planted_input_check": {
+    "row_occurrences": 1,
+    "omitted_exact": true,
+    "wrong_digest_exact": true,
+    "removed_unit": {
+      "path": "templates/project-records/workspace.md",
+      "line": 1,
+      "unit": "Workspace Ownership",
+      "sha256": "a40e64cee89901d30aedf3197d5bb4b254ae66b8aeb61ed9aa55ccbf17d6049a"
+    }
+  },
+  "same_prior_check_harness": true,
+  "same_prior_validator": true,
+  "owning_manifest_checks": [
+    {
+      "path": "vp/artefacts/A-000002/MANIFEST.md",
+      "rows": 2,
+      "errors": []
+    },
+    {
+      "path": "vp/artefacts/C-000001/MANIFEST.md",
+      "rows": 163,
+      "errors": []
+    },
+    {
+      "path": "vp/artefacts/C-000002/MANIFEST.md",
+      "rows": 7,
+      "errors": []
+    },
+    {
+      "path": "vp/artefacts/D-000001/MANIFEST.md",
+      "rows": 1,
+      "errors": []
+    },
+    {
+      "path": "vp/artefacts/D-000004/MANIFEST.md",
+      "rows": 3,
+      "errors": []
+    },
+    {
+      "path": "vp/artefacts/R-000001/MANIFEST.md",
+      "rows": 99,
+      "errors": []
+    },
+    {
+      "path": "vp/artefacts/R-000002/MANIFEST.md",
+      "rows": 25,
+      "errors": []
+    },
+    {
+      "path": "vp/artefacts/R-000003/MANIFEST.md",
+      "rows": 5,
+      "errors": []
+    },
+    {
+      "path": "vp/artefacts/R-000004/MANIFEST.md",
+      "rows": 69,
+      "errors": []
+    },
+    {
+      "path": "vp/artefacts/S-000001/MANIFEST.md",
+      "rows": 1,
+      "errors": []
+    }
+  ],
+  "prior_sealed_records_unchanged": [
+    "records/audits/A-000001/record.md",
+    "records/audits/A-000001/request.md",
+    "records/changes/C-000001/record.md",
+    "records/decisions/D-000001/record.md",
+    "records/decisions/D-000002/record.md",
+    "records/decisions/D-000003/record.md",
+    "records/decisions/D-000004/record.md",
+    "records/decisions/D-000005/record.md",
+    "records/events/V-000001/record.md",
+    "records/events/V-000002/record.md",
+    "records/events/V-000003/record.md",
+    "records/experiments/E-000001/record.md",
+    "records/experiments/E-000002/record.md",
+    "records/experiments/E-000003/record.md",
+    "records/hypotheses/H-000001/record.md",
+    "records/hypotheses/H-000002/record.md",
+    "records/hypotheses/H-000003/record.md",
+    "records/runs/R-000001/record.md",
+    "records/runs/R-000002/record.md",
+    "records/runs/R-000003/record.md",
+    "records/stages/S-000001/record.md"
+  ],
+  "prior_sealed_records_changed": [],
+  "limits": "No project instrument was executed. Logical source identities resolve only in frozen source; external interpreter/dependency identities are captured claims, compared to retained interpreter/YAML bytes where supplied. Standard-library/shared-library bytes have digests, not a complete retained rerunnable environment. New action capture remains worker-controlled.",
+  "prior_assessment_manifests": [
+    {
+      "path": "vp/artefacts/A-000001/assessment/MANIFEST.md",
+      "rows": 8,
+      "errors": []
+    },
+    {
+      "path": "vp/artefacts/A-000002/assessment/MANIFEST.md",
+      "rows": 6,
+      "errors": []
+    }
+  ]
+}

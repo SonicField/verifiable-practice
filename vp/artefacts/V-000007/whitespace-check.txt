@@ -1,0 +1,1365 @@
+templates/project-records/README.md:47: new blank line at EOF.
+templates/project-records/audit.md:66: new blank line at EOF.
+templates/project-records/build.md:33: new blank line at EOF.
+templates/project-records/change.md:31: new blank line at EOF.
+templates/project-records/coverage.md:17: new blank line at EOF.
+templates/project-records/decision.md:39: new blank line at EOF.
+templates/project-records/event.md:30: new blank line at EOF.
+templates/project-records/experiment.md:34: new blank line at EOF.
+templates/project-records/hypothesis.md:33: new blank line at EOF.
+templates/project-records/ledger.md:14: new blank line at EOF.
+templates/project-records/manifest.md:17: new blank line at EOF.
+templates/project-records/plan.md:18: new blank line at EOF.
+templates/project-records/project.md:57: new blank line at EOF.
+templates/project-records/root.md:33: new blank line at EOF.
+templates/project-records/run.md:37: new blank line at EOF.
+templates/project-records/stage.md:38: new blank line at EOF.
+templates/project-records/state.md:33: new blank line at EOF.
+templates/project-records/workspace.md:12: new blank line at EOF.
+vp/PROJECT.md:107: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/audit.md:62: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000001/input/source/.vp/audit-report.md:3: trailing whitespace.
++**Report ID:** VP-SELF-20261019 — standalone audit, not an allocated conformant A record.  
+vp/artefacts/A-000001/input/source/.vp/audit-report.md:4: trailing whitespace.
++**Date:** 19 October 2026 UTC.  
+vp/artefacts/A-000001/input/source/.vp/audit-report.md:5: trailing whitespace.
++**Assessor:** Codex, current user-commissioned session in `/home/alexturner/verifiable-practice`.  
+vp/artefacts/A-000001/input/source/.vp/audit-report.md:6: trailing whitespace.
++**Status:** Final report; all six findings open.  
+vp/artefacts/A-000001/input/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000001/input/source/templates/project-records/audit.md:66: new blank line at EOF.
+vp/artefacts/A-000001/input/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000001/input/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000001/input/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000001/input/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000001/input/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000001/input/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000001/input/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000001/input/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000001/input/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000001/input/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000001/input/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000001/input/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000001/input/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000001/input/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000001/input/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000001/input/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000002/input/runtime.stdout.txt:1: trailing whitespace.
++3.9.25 (main, Aug 13 2026, 00:00:00) 
+vp/artefacts/A-000002/input/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000002/input/source/templates/project-records/audit.md:66: new blank line at EOF.
+vp/artefacts/A-000002/input/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000002/input/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000002/input/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000002/input/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000002/input/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000002/input/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000002/input/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000002/input/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000002/input/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000002/input/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000002/input/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000002/input/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/PROJECT.md:107: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/README.md:18: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/audit.md:62: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-report.md:3: trailing whitespace.
++**Report ID:** VP-SELF-20261019 — standalone audit, not an allocated conformant A record.  
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-report.md:4: trailing whitespace.
++**Date:** 19 October 2026 UTC.  
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-report.md:5: trailing whitespace.
++**Assessor:** Codex, current user-commissioned session in `/home/alexturner/verifiable-practice`.  
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-report.md:6: trailing whitespace.
++**Status:** Final report; all six findings open.  
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/audit.md:66: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/audit.md:66: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/COVERAGE.md:14: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/LEDGER.md:21: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/PLAN.md:15: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/PROJECT.md:107: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/README.md:18: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/STATE.md:27: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:3: trailing whitespace.
++**ID:** `verifiable-practice:project-audits:A-000001` (task-local namespace; allocation limitation F-001).  
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:4: trailing whitespace.
++**Type / audit kind:** audit / `project`.  
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:5: trailing whitespace.
++**Created:** 2026-10-19 11:54:41 UTC (first retained assessor verification).  
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:6: trailing whitespace.
++**Author/operator / auditor:** Codex agent `/root/project_auditor`.  
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:7: trailing whitespace.
++**Status:** sealed; verdict `inconclusive`; all eight findings open.  
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:8: trailing whitespace.
++**Origin:** immutable [request](request.md) and preserved [user commissioning excerpt][authority]; no project commissioning D supplied.  
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:9: trailing whitespace.
++**Goal served:** independently assess VP's project records and maintained-artefact justification, as explicitly commissioned. A historical authorised root-goal chain is unavailable (F-002).  
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/changes/C-000001/record.md:32: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/decisions/D-000001/record.md:57: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/decisions/D-000002/record.md:41: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/experiments/E-000001/record.md:37: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/hypotheses/H-000001/record.md:32: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/runs/R-000001/record.md:31: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/stages/S-000001/record.md:45: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/audit.md:66: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/D-000001/authority.md:24: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/audit.md:62: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-report.md:3: trailing whitespace.
++**Report ID:** VP-SELF-20261019 — standalone audit, not an allocated conformant A record.  
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-report.md:4: trailing whitespace.
++**Date:** 19 October 2026 UTC.  
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-report.md:5: trailing whitespace.
++**Assessor:** Codex, current user-commissioned session in `/home/alexturner/verifiable-practice`.  
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-report.md:6: trailing whitespace.
++**Status:** Final report; all six findings open.  
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:3: trailing whitespace.
++**ID:** `verifiable-practice:project-audits:A-000001` (task-local namespace; allocation limitation F-001).  
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:4: trailing whitespace.
++**Type / audit kind:** audit / `project`.  
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:5: trailing whitespace.
++**Created:** 2026-10-19 11:54:41 UTC (first retained assessor verification).  
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:6: trailing whitespace.
++**Author/operator / auditor:** Codex agent `/root/project_auditor`.  
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:7: trailing whitespace.
++**Status:** sealed; verdict `inconclusive`; all eight findings open.  
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:8: trailing whitespace.
++**Origin:** immutable [request](request.md) and preserved [user commissioning excerpt][authority]; no project commissioning D supplied.  
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:9: trailing whitespace.
++**Goal served:** independently assess VP's project records and maintained-artefact justification, as explicitly commissioned. A historical authorised root-goal chain is unavailable (F-002).  
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/runtime.stdout.txt:1: trailing whitespace.
++3.9.25 (main, Aug 13 2026, 00:00:00) 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:6: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:8: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:47: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:49: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:57: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:60: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:62: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:95: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:123: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:125: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:132: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:134: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:136: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:142: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:144: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:155: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:157: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:164: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:167: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:169: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:189: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:219: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:221: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:228: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:236: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:238: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:240: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:243: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:245: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:247: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:250: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:252: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:258: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:260: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:263: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:284: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:299: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:304: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:310: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:317: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:323: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:330: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:332: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:335: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:356: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:358: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:361: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:382: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:384: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:387: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:409: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:411: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:414: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:435: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:437: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:440: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:461: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:463: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:475: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:477: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:490: trailing whitespace.
++ 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/runtime.stdout.txt:1: trailing whitespace.
++3.9.25 (main, Aug 13 2026, 00:00:00) 
+vp/artefacts/A-000002/input/source/vp/artefacts/R-000003/runtime.stdout.txt:1: trailing whitespace.
++3.9.25 (main, Aug 13 2026, 00:00:00) 
+vp/artefacts/A-000002/input/source/vp/artefacts/S-000001/PLAN-initial.md:15: new blank line at EOF.
+vp/artefacts/A-000002/input/source/vp/records/audits/A-000001/record.md:3: trailing whitespace.
++**ID:** `verifiable-practice:project-audits:A-000001` (task-local namespace; allocation limitation F-001).  
+vp/artefacts/A-000002/input/source/vp/records/audits/A-000001/record.md:4: trailing whitespace.
++**Type / audit kind:** audit / `project`.  
+vp/artefacts/A-000002/input/source/vp/records/audits/A-000001/record.md:5: trailing whitespace.
++**Created:** 2026-10-19 11:54:41 UTC (first retained assessor verification).  
+vp/artefacts/A-000002/input/source/vp/records/audits/A-000001/record.md:6: trailing whitespace.
++**Author/operator / auditor:** Codex agent `/root/project_auditor`.  
+vp/artefacts/A-000002/input/source/vp/records/audits/A-000001/record.md:7: trailing whitespace.
++**Status:** sealed; verdict `inconclusive`; all eight findings open.  
+vp/artefacts/A-000002/input/source/vp/records/audits/A-000001/record.md:8: trailing whitespace.
++**Origin:** immutable [request](request.md) and preserved [user commissioning excerpt][authority]; no project commissioning D supplied.  
+vp/artefacts/A-000002/input/source/vp/records/audits/A-000001/record.md:9: trailing whitespace.
++**Goal served:** independently assess VP's project records and maintained-artefact justification, as explicitly commissioned. A historical authorised root-goal chain is unavailable (F-002).  
+vp/artefacts/A-000002/input/source/vp/records/stages/S-000001/record.md:45: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/audit.md:66: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/PROJECT.md:107: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/README.md:18: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/audit.md:62: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-report.md:3: trailing whitespace.
++**Report ID:** VP-SELF-20261019 — standalone audit, not an allocated conformant A record.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-report.md:4: trailing whitespace.
++**Date:** 19 October 2026 UTC.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-report.md:5: trailing whitespace.
++**Assessor:** Codex, current user-commissioned session in `/home/alexturner/verifiable-practice`.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/.vp/audit-report.md:6: trailing whitespace.
++**Status:** Final report; all six findings open.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/audit.md:66: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000001/input/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/runtime.stdout.txt:1: trailing whitespace.
++3.9.25 (main, Aug 13 2026, 00:00:00) 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/audit.md:66: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/PROJECT.md:107: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/README.md:18: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/audit.md:62: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-report.md:3: trailing whitespace.
++**Report ID:** VP-SELF-20261019 — standalone audit, not an allocated conformant A record.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-report.md:4: trailing whitespace.
++**Date:** 19 October 2026 UTC.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-report.md:5: trailing whitespace.
++**Assessor:** Codex, current user-commissioned session in `/home/alexturner/verifiable-practice`.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/.vp/audit-report.md:6: trailing whitespace.
++**Status:** Final report; all six findings open.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/audit.md:66: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/A-000001/input/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/audit.md:66: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/COVERAGE.md:14: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/LEDGER.md:21: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/PLAN.md:15: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/PROJECT.md:107: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/README.md:18: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/STATE.md:27: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:3: trailing whitespace.
++**ID:** `verifiable-practice:project-audits:A-000001` (task-local namespace; allocation limitation F-001).  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:4: trailing whitespace.
++**Type / audit kind:** audit / `project`.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:5: trailing whitespace.
++**Created:** 2026-10-19 11:54:41 UTC (first retained assessor verification).  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:6: trailing whitespace.
++**Author/operator / auditor:** Codex agent `/root/project_auditor`.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:7: trailing whitespace.
++**Status:** sealed; verdict `inconclusive`; all eight findings open.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:8: trailing whitespace.
++**Origin:** immutable [request](request.md) and preserved [user commissioning excerpt][authority]; no project commissioning D supplied.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:9: trailing whitespace.
++**Goal served:** independently assess VP's project records and maintained-artefact justification, as explicitly commissioned. A historical authorised root-goal chain is unavailable (F-002).  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/changes/C-000001/record.md:32: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/decisions/D-000001/record.md:57: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/decisions/D-000002/record.md:41: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/experiments/E-000001/record.md:37: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/hypotheses/H-000001/record.md:32: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/runs/R-000001/record.md:31: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/after/source/vp/records/stages/S-000001/record.md:45: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/audit.md:66: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/C-000001/before/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/D-000001/authority.md:24: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/audit.md:62: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-report.md:3: trailing whitespace.
++**Report ID:** VP-SELF-20261019 — standalone audit, not an allocated conformant A record.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-report.md:4: trailing whitespace.
++**Date:** 19 October 2026 UTC.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-report.md:5: trailing whitespace.
++**Assessor:** Codex, current user-commissioned session in `/home/alexturner/verifiable-practice`.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-report.md:6: trailing whitespace.
++**Status:** Final report; all six findings open.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:3: trailing whitespace.
++**ID:** `verifiable-practice:project-audits:A-000001` (task-local namespace; allocation limitation F-001).  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:4: trailing whitespace.
++**Type / audit kind:** audit / `project`.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:5: trailing whitespace.
++**Created:** 2026-10-19 11:54:41 UTC (first retained assessor verification).  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:6: trailing whitespace.
++**Author/operator / auditor:** Codex agent `/root/project_auditor`.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:7: trailing whitespace.
++**Status:** sealed; verdict `inconclusive`; all eight findings open.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:8: trailing whitespace.
++**Origin:** immutable [request](request.md) and preserved [user commissioning excerpt][authority]; no project commissioning D supplied.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:9: trailing whitespace.
++**Goal served:** independently assess VP's project records and maintained-artefact justification, as explicitly commissioned. A historical authorised root-goal chain is unavailable (F-002).  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/runtime.stdout.txt:1: trailing whitespace.
++3.9.25 (main, Aug 13 2026, 00:00:00) 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:6: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:8: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:47: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:49: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:57: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:60: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:62: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:95: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:123: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:125: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:132: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:134: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:136: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:142: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:144: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:155: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:157: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:164: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:167: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:169: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:189: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:219: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:221: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:228: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:236: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:238: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:240: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:243: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:245: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:247: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:250: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:252: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:258: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:260: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:263: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:284: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:299: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:304: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:310: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:317: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:323: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:330: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:332: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:335: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:356: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:358: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:361: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:382: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:384: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:387: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:409: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:411: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:414: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:435: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:437: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:440: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:461: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:463: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:475: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:477: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/diff.stdout.txt:490: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/runtime.stdout.txt:1: trailing whitespace.
++3.9.25 (main, Aug 13 2026, 00:00:00) 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/R-000003/runtime.stdout.txt:1: trailing whitespace.
++3.9.25 (main, Aug 13 2026, 00:00:00) 
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/artefacts/S-000001/PLAN-initial.md:15: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/records/audits/A-000001/record.md:3: trailing whitespace.
++**ID:** `verifiable-practice:project-audits:A-000001` (task-local namespace; allocation limitation F-001).  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/records/audits/A-000001/record.md:4: trailing whitespace.
++**Type / audit kind:** audit / `project`.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/records/audits/A-000001/record.md:5: trailing whitespace.
++**Created:** 2026-10-19 11:54:41 UTC (first retained assessor verification).  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/records/audits/A-000001/record.md:6: trailing whitespace.
++**Author/operator / auditor:** Codex agent `/root/project_auditor`.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/records/audits/A-000001/record.md:7: trailing whitespace.
++**Status:** sealed; verdict `inconclusive`; all eight findings open.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/records/audits/A-000001/record.md:8: trailing whitespace.
++**Origin:** immutable [request](request.md) and preserved [user commissioning excerpt][authority]; no project commissioning D supplied.  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/records/audits/A-000001/record.md:9: trailing whitespace.
++**Goal served:** independently assess VP's project records and maintained-artefact justification, as explicitly commissioned. A historical authorised root-goal chain is unavailable (F-002).  
+vp/artefacts/A-000003/input/source/vp/artefacts/A-000002/input/source/vp/records/stages/S-000001/record.md:45: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/audit.md:66: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/COVERAGE.md:14: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/LEDGER.md:21: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/PLAN.md:15: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/PROJECT.md:107: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/README.md:18: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/STATE.md:27: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:3: trailing whitespace.
++**ID:** `verifiable-practice:project-audits:A-000001` (task-local namespace; allocation limitation F-001).  
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:4: trailing whitespace.
++**Type / audit kind:** audit / `project`.  
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:5: trailing whitespace.
++**Created:** 2026-10-19 11:54:41 UTC (first retained assessor verification).  
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:6: trailing whitespace.
++**Author/operator / auditor:** Codex agent `/root/project_auditor`.  
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:7: trailing whitespace.
++**Status:** sealed; verdict `inconclusive`; all eight findings open.  
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:8: trailing whitespace.
++**Origin:** immutable [request](request.md) and preserved [user commissioning excerpt][authority]; no project commissioning D supplied.  
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:9: trailing whitespace.
++**Goal served:** independently assess VP's project records and maintained-artefact justification, as explicitly commissioned. A historical authorised root-goal chain is unavailable (F-002).  
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/records/changes/C-000001/record.md:32: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/records/decisions/D-000001/record.md:57: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/records/decisions/D-000002/record.md:41: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/records/experiments/E-000001/record.md:37: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/records/hypotheses/H-000001/record.md:32: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/records/runs/R-000001/record.md:31: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/after/source/vp/records/stages/S-000001/record.md:45: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/audit.md:66: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000001/before/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000002/before/PROJECT.md:107: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/C-000002/before/README.md:18: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/D-000001/authority.md:24: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/audit.md:62: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-report.md:3: trailing whitespace.
++**Report ID:** VP-SELF-20261019 — standalone audit, not an allocated conformant A record.  
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-report.md:4: trailing whitespace.
++**Date:** 19 October 2026 UTC.  
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-report.md:5: trailing whitespace.
++**Assessor:** Codex, current user-commissioned session in `/home/alexturner/verifiable-practice`.  
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-code-audit/audit-report.md:6: trailing whitespace.
++**Status:** Final report; all six findings open.  
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:3: trailing whitespace.
++**ID:** `verifiable-practice:project-audits:A-000001` (task-local namespace; allocation limitation F-001).  
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:4: trailing whitespace.
++**Type / audit kind:** audit / `project`.  
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:5: trailing whitespace.
++**Created:** 2026-10-19 11:54:41 UTC (first retained assessor verification).  
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:6: trailing whitespace.
++**Author/operator / auditor:** Codex agent `/root/project_auditor`.  
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:7: trailing whitespace.
++**Status:** sealed; verdict `inconclusive`; all eight findings open.  
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:8: trailing whitespace.
++**Origin:** immutable [request](request.md) and preserved [user commissioning excerpt][authority]; no project commissioning D supplied.  
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/legacy-project-audit-record/record.md:9: trailing whitespace.
++**Goal served:** independently assess VP's project records and maintained-artefact justification, as explicitly commissioned. A historical authorised root-goal chain is unavailable (F-002).  
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000001/runtime.stdout.txt:1: trailing whitespace.
++3.9.25 (main, Aug 13 2026, 00:00:00) 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:6: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:8: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:47: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:49: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:57: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:60: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:62: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:95: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:123: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:125: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:132: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:134: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:136: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:142: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:144: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:155: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:157: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:164: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:167: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:169: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:189: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:219: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:221: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:228: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:236: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:238: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:240: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:243: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:245: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:247: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:250: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:252: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:258: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:260: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:263: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:284: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:299: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:304: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:310: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:317: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:323: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:330: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:332: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:335: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:356: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:358: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:361: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:382: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:384: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:387: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:409: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:411: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:414: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:435: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:437: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:440: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:461: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:463: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:475: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:477: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/diff.stdout.txt:490: trailing whitespace.
++ 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000002/runtime.stdout.txt:1: trailing whitespace.
++3.9.25 (main, Aug 13 2026, 00:00:00) 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000003/runtime.stdout.txt:1: trailing whitespace.
++3.9.25 (main, Aug 13 2026, 00:00:00) 
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/__init__.py:427: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/composer.py:139: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/cyaml.py:101: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/dumper.py:62: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/error.py:75: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/events.py:86: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/nodes.py:49: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/parser.py:485: trailing whitespace.
++            
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/parser.py:589: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/representer.py:389: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/resolver.py:227: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/scanner.py:316: trailing whitespace.
++            
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/scanner.py:365: trailing whitespace.
++        
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/scanner.py:369: trailing whitespace.
++        
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/scanner.py:383: trailing whitespace.
++        
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/scanner.py:391: trailing whitespace.
++        
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/scanner.py:518: trailing whitespace.
++        
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/scanner.py:568: trailing whitespace.
++            
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/scanner.py:1020: trailing whitespace.
++                
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/scanner.py:1027: trailing whitespace.
++                
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/serializer.py:111: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/installed-yaml/tokens.py:104: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/artefacts/R-000004/runtime.stdout.txt:1: trailing whitespace.
++3.9.25 (main, Aug 13 2026, 00:00:00) 
+vp/artefacts/A-000003/input/source/vp/artefacts/S-000001/PLAN-initial.md:15: new blank line at EOF.
+vp/artefacts/A-000003/input/source/vp/records/audits/A-000001/record.md:3: trailing whitespace.
++**ID:** `verifiable-practice:project-audits:A-000001` (task-local namespace; allocation limitation F-001).  
+vp/artefacts/A-000003/input/source/vp/records/audits/A-000001/record.md:4: trailing whitespace.
++**Type / audit kind:** audit / `project`.  
+vp/artefacts/A-000003/input/source/vp/records/audits/A-000001/record.md:5: trailing whitespace.
++**Created:** 2026-10-19 11:54:41 UTC (first retained assessor verification).  
+vp/artefacts/A-000003/input/source/vp/records/audits/A-000001/record.md:6: trailing whitespace.
++**Author/operator / auditor:** Codex agent `/root/project_auditor`.  
+vp/artefacts/A-000003/input/source/vp/records/audits/A-000001/record.md:7: trailing whitespace.
++**Status:** sealed; verdict `inconclusive`; all eight findings open.  
+vp/artefacts/A-000003/input/source/vp/records/audits/A-000001/record.md:8: trailing whitespace.
++**Origin:** immutable [request](request.md) and preserved [user commissioning excerpt][authority]; no project commissioning D supplied.  
+vp/artefacts/A-000003/input/source/vp/records/audits/A-000001/record.md:9: trailing whitespace.
++**Goal served:** independently assess VP's project records and maintained-artefact justification, as explicitly commissioned. A historical authorised root-goal chain is unavailable (F-002).  
+vp/artefacts/A-000003/input/source/vp/records/audits/A-000002/record.md:3: trailing whitespace.
++**ID:** verifiable-practice:A-000002  
+vp/artefacts/A-000003/input/source/vp/records/audits/A-000002/record.md:4: trailing whitespace.
++**Type / kind:** audit / `project`  
+vp/artefacts/A-000003/input/source/vp/records/audits/A-000002/record.md:5: trailing whitespace.
++**Created and sealed:** 2026-10-19T12:23:21.939337+00:00  
+vp/artefacts/A-000003/input/source/vp/records/audits/A-000002/record.md:6: trailing whitespace.
++**Author / auditor:** Codex independent assessor `/root/prospective_auditor`, fresh separately dispatched context without inherited worker/owner development conversation.  
+vp/artefacts/A-000003/input/source/vp/records/audits/A-000002/record.md:7: trailing whitespace.
++**Status:** sealed; verdict `nonconformant`.  
+vp/artefacts/A-000003/input/source/vp/records/audits/A-000002/record.md:8: trailing whitespace.
++**Origin:** [D-000005](../../../artefacts/A-000002/input/source/vp/records/decisions/D-000005/record.md), under [D-000001](../../../artefacts/A-000002/input/source/vp/records/decisions/D-000001/record.md); [issued request](request.md).  
+vp/artefacts/A-000003/input/source/vp/records/audits/A-000002/record.md:9: trailing whitespace.
++**Goal served:** assess current maintained-unit justification and record discipline; no technical solution or release authority is selected.  
+vp/artefacts/A-000003/input/source/vp/records/stages/S-000001/record.md:45: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/audit.md:66: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/C-000001/after/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/C-000001/after/source/vp/COVERAGE.md:14: new blank line at EOF.
+vp/artefacts/C-000001/after/source/vp/LEDGER.md:21: new blank line at EOF.
+vp/artefacts/C-000001/after/source/vp/PLAN.md:15: new blank line at EOF.
+vp/artefacts/C-000001/after/source/vp/PROJECT.md:107: new blank line at EOF.
+vp/artefacts/C-000001/after/source/vp/README.md:18: new blank line at EOF.
+vp/artefacts/C-000001/after/source/vp/STATE.md:27: new blank line at EOF.
+vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:3: trailing whitespace.
++**ID:** `verifiable-practice:project-audits:A-000001` (task-local namespace; allocation limitation F-001).  
+vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:4: trailing whitespace.
++**Type / audit kind:** audit / `project`.  
+vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:5: trailing whitespace.
++**Created:** 2026-10-19 11:54:41 UTC (first retained assessor verification).  
+vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:6: trailing whitespace.
++**Author/operator / auditor:** Codex agent `/root/project_auditor`.  
+vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:7: trailing whitespace.
++**Status:** sealed; verdict `inconclusive`; all eight findings open.  
+vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:8: trailing whitespace.
++**Origin:** immutable [request](request.md) and preserved [user commissioning excerpt][authority]; no project commissioning D supplied.  
+vp/artefacts/C-000001/after/source/vp/records/audits/A-000001/record.md:9: trailing whitespace.
++**Goal served:** independently assess VP's project records and maintained-artefact justification, as explicitly commissioned. A historical authorised root-goal chain is unavailable (F-002).  
+vp/artefacts/C-000001/after/source/vp/records/changes/C-000001/record.md:32: new blank line at EOF.
+vp/artefacts/C-000001/after/source/vp/records/decisions/D-000001/record.md:57: new blank line at EOF.
+vp/artefacts/C-000001/after/source/vp/records/decisions/D-000002/record.md:41: new blank line at EOF.
+vp/artefacts/C-000001/after/source/vp/records/experiments/E-000001/record.md:37: new blank line at EOF.
+vp/artefacts/C-000001/after/source/vp/records/hypotheses/H-000001/record.md:32: new blank line at EOF.
+vp/artefacts/C-000001/after/source/vp/records/runs/R-000001/record.md:31: new blank line at EOF.
+vp/artefacts/C-000001/after/source/vp/records/stages/S-000001/record.md:45: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/audit.md:66: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/C-000001/before/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/C-000002/before/PROJECT.md:107: new blank line at EOF.
+vp/artefacts/C-000002/before/README.md:18: new blank line at EOF.
+vp/artefacts/C-000003/before/PROJECT.md:107: new blank line at EOF.
+vp/artefacts/D-000001/authority.md:24: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/README.md:47: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/audit.md:62: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/build.md:33: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/change.md:31: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/coverage.md:17: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/decision.md:39: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/event.md:30: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/experiment.md:34: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/hypothesis.md:33: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/ledger.md:14: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/manifest.md:17: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/plan.md:18: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/project.md:57: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/root.md:33: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/run.md:37: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/stage.md:38: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/state.md:33: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-evidence/source/templates/project-records/workspace.md:12: new blank line at EOF.
+vp/artefacts/R-000001/legacy-code-audit/audit-report.md:3: trailing whitespace.
++**Report ID:** VP-SELF-20261019 — standalone audit, not an allocated conformant A record.  
+vp/artefacts/R-000001/legacy-code-audit/audit-report.md:4: trailing whitespace.
++**Date:** 19 October 2026 UTC.  
+vp/artefacts/R-000001/legacy-code-audit/audit-report.md:5: trailing whitespace.
++**Assessor:** Codex, current user-commissioned session in `/home/alexturner/verifiable-practice`.  
+vp/artefacts/R-000001/legacy-code-audit/audit-report.md:6: trailing whitespace.
++**Status:** Final report; all six findings open.  
+vp/artefacts/R-000001/legacy-project-audit-record/record.md:3: trailing whitespace.
++**ID:** `verifiable-practice:project-audits:A-000001` (task-local namespace; allocation limitation F-001).  
+vp/artefacts/R-000001/legacy-project-audit-record/record.md:4: trailing whitespace.
++**Type / audit kind:** audit / `project`.  
+vp/artefacts/R-000001/legacy-project-audit-record/record.md:5: trailing whitespace.
++**Created:** 2026-10-19 11:54:41 UTC (first retained assessor verification).  
+vp/artefacts/R-000001/legacy-project-audit-record/record.md:6: trailing whitespace.
++**Author/operator / auditor:** Codex agent `/root/project_auditor`.  
+vp/artefacts/R-000001/legacy-project-audit-record/record.md:7: trailing whitespace.
++**Status:** sealed; verdict `inconclusive`; all eight findings open.  
+vp/artefacts/R-000001/legacy-project-audit-record/record.md:8: trailing whitespace.
++**Origin:** immutable [request](request.md) and preserved [user commissioning excerpt][authority]; no project commissioning D supplied.  
+vp/artefacts/R-000001/legacy-project-audit-record/record.md:9: trailing whitespace.
++**Goal served:** independently assess VP's project records and maintained-artefact justification, as explicitly commissioned. A historical authorised root-goal chain is unavailable (F-002).  
+vp/artefacts/R-000001/runtime.stdout.txt:1: trailing whitespace.
++3.9.25 (main, Aug 13 2026, 00:00:00) 
+vp/artefacts/R-000002/diff.stdout.txt:6: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:8: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:47: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:49: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:57: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:60: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:62: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:95: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:123: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:125: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:132: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:134: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:136: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:142: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:144: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:155: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:157: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:164: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:167: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:169: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:189: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:219: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:221: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:228: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:236: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:238: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:240: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:243: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:245: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:247: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:250: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:252: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:258: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:260: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:263: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:284: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:299: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:304: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:310: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:317: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:323: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:330: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:332: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:335: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:356: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:358: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:361: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:382: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:384: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:387: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:409: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:411: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:414: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:435: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:437: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:440: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:461: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:463: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:475: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:477: trailing whitespace.
++ 
+vp/artefacts/R-000002/diff.stdout.txt:490: trailing whitespace.
++ 
+vp/artefacts/R-000002/runtime.stdout.txt:1: trailing whitespace.
++3.9.25 (main, Aug 13 2026, 00:00:00) 
+vp/artefacts/R-000003/runtime.stdout.txt:1: trailing whitespace.
++3.9.25 (main, Aug 13 2026, 00:00:00) 
+vp/artefacts/R-000004/installed-yaml/__init__.py:427: new blank line at EOF.
+vp/artefacts/R-000004/installed-yaml/composer.py:139: new blank line at EOF.
+vp/artefacts/R-000004/installed-yaml/cyaml.py:101: new blank line at EOF.
+vp/artefacts/R-000004/installed-yaml/dumper.py:62: new blank line at EOF.
+vp/artefacts/R-000004/installed-yaml/error.py:75: new blank line at EOF.
+vp/artefacts/R-000004/installed-yaml/events.py:86: new blank line at EOF.
+vp/artefacts/R-000004/installed-yaml/nodes.py:49: new blank line at EOF.
+vp/artefacts/R-000004/installed-yaml/parser.py:485: trailing whitespace.
++            
+vp/artefacts/R-000004/installed-yaml/parser.py:589: new blank line at EOF.
+vp/artefacts/R-000004/installed-yaml/representer.py:389: new blank line at EOF.
+vp/artefacts/R-000004/installed-yaml/resolver.py:227: new blank line at EOF.
+vp/artefacts/R-000004/installed-yaml/scanner.py:316: trailing whitespace.
++            
+vp/artefacts/R-000004/installed-yaml/scanner.py:365: trailing whitespace.
++        
+vp/artefacts/R-000004/installed-yaml/scanner.py:369: trailing whitespace.
++        
+vp/artefacts/R-000004/installed-yaml/scanner.py:383: trailing whitespace.
++        
+vp/artefacts/R-000004/installed-yaml/scanner.py:391: trailing whitespace.
++        
+vp/artefacts/R-000004/installed-yaml/scanner.py:518: trailing whitespace.
++        
+vp/artefacts/R-000004/installed-yaml/scanner.py:568: trailing whitespace.
++            
+vp/artefacts/R-000004/installed-yaml/scanner.py:1020: trailing whitespace.
++                
+vp/artefacts/R-000004/installed-yaml/scanner.py:1027: trailing whitespace.
++                
+vp/artefacts/R-000004/installed-yaml/serializer.py:111: new blank line at EOF.
+vp/artefacts/R-000004/installed-yaml/tokens.py:104: new blank line at EOF.
+vp/artefacts/R-000004/runtime.stdout.txt:1: trailing whitespace.
++3.9.25 (main, Aug 13 2026, 00:00:00) 
+vp/artefacts/S-000001/PLAN-initial.md:15: new blank line at EOF.
+vp/records/audits/A-000001/record.md:3: trailing whitespace.
++**ID:** `verifiable-practice:project-audits:A-000001` (task-local namespace; allocation limitation F-001).  
+vp/records/audits/A-000001/record.md:4: trailing whitespace.
++**Type / audit kind:** audit / `project`.  
+vp/records/audits/A-000001/record.md:5: trailing whitespace.
++**Created:** 2026-10-19 11:54:41 UTC (first retained assessor verification).  
+vp/records/audits/A-000001/record.md:6: trailing whitespace.
++**Author/operator / auditor:** Codex agent `/root/project_auditor`.  
+vp/records/audits/A-000001/record.md:7: trailing whitespace.
++**Status:** sealed; verdict `inconclusive`; all eight findings open.  
+vp/records/audits/A-000001/record.md:8: trailing whitespace.
++**Origin:** immutable [request](request.md) and preserved [user commissioning excerpt][authority]; no project commissioning D supplied.  
+vp/records/audits/A-000001/record.md:9: trailing whitespace.
++**Goal served:** independently assess VP's project records and maintained-artefact justification, as explicitly commissioned. A historical authorised root-goal chain is unavailable (F-002).  
+vp/records/audits/A-000002/record.md:3: trailing whitespace.
++**ID:** verifiable-practice:A-000002  
+vp/records/audits/A-000002/record.md:4: trailing whitespace.
++**Type / kind:** audit / `project`  
+vp/records/audits/A-000002/record.md:5: trailing whitespace.
++**Created and sealed:** 2026-10-19T12:23:21.939337+00:00  
+vp/records/audits/A-000002/record.md:6: trailing whitespace.
++**Author / auditor:** Codex independent assessor `/root/prospective_auditor`, fresh separately dispatched context without inherited worker/owner development conversation.  
+vp/records/audits/A-000002/record.md:7: trailing whitespace.
++**Status:** sealed; verdict `nonconformant`.  
+vp/records/audits/A-000002/record.md:8: trailing whitespace.
++**Origin:** [D-000005](../../../artefacts/A-000002/input/source/vp/records/decisions/D-000005/record.md), under [D-000001](../../../artefacts/A-000002/input/source/vp/records/decisions/D-000001/record.md); [issued request](request.md).  
+vp/records/audits/A-000002/record.md:9: trailing whitespace.
++**Goal served:** assess current maintained-unit justification and record discipline; no technical solution or release authority is selected.  
+vp/records/audits/A-000003/record.md:3: trailing whitespace.
++**ID:** verifiable-practice:A-000003  
+vp/records/audits/A-000003/record.md:4: trailing whitespace.
++**Type / kind:** audit / `project`  
+vp/records/audits/A-000003/record.md:5: trailing whitespace.
++**Created and sealed:** 2026-10-19T12:33:21.365787+00:00  
+vp/records/audits/A-000003/record.md:6: trailing whitespace.
++**Author / assessor:** Codex `/root/successor_auditor`, distinct fresh assessor context.  
+vp/records/audits/A-000003/record.md:7: trailing whitespace.
++**Status:** sealed; verdict **`conformant`** for the scope below.  
+vp/records/audits/A-000003/record.md:8: trailing whitespace.
++**Origin:** [D-000008][d8], under [D-000001][d1]; immutable [issued request](request.md).  
+vp/records/audits/A-000003/record.md:9: trailing whitespace.
++**Goal served:** independently assess current maintained-unit justification and project record discipline.  

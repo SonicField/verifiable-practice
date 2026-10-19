@@ -53,16 +53,9 @@ What negative outcome am I not reporting? If there is none, either I have not tr
 
 ---
 
-## Pillar Check
+## Optional Onboarding
 
-Have you read all pillars in this session?
-
-- goals.md
-- falsifiability.md
-- rhetoric.md
-- bullshit-detection.md *(you are here)*
-- verification-cycle.md
-- zero-code-contract.md
-- engineering-standards.md
-
-If you cannot clearly recall reading each one, read them now. Next: `verification-cycle.md`
+For an explicit request to learn the whole framework, follow the concept
+sequence in [README](../README.md). For a bounded working task, use the
+[skill routing](../SKILL.md) and read only relevant references; this section
+does not require loading unrelated pillars.

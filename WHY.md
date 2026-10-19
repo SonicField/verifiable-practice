@@ -41,8 +41,8 @@ You have produced bullshit.
 The function claims to validate email addresses. What would falsify that claim?
 
 - `"@."` passes but is not valid
-- `"user@localhost"` fails but is valid
-- `"user@[192.168.1.1]"` fails but is valid
+- `"user@localhost"` fails; that is a false rejection if the contract permits local domains
+- `"user@[192.168.1.1]"` passes; acceptance alone does not establish correct address-literal validation
 - `"user+tag@example.com"` passes (good) but you did not check
 - `"user@example..com"` passes but is not valid
 
@@ -50,13 +50,13 @@ You did not try to break it. You tried to confirm it.
 
 ### The VP Approach
 
-1. **State the goal**: Validate email addresses according to RFC 5321, rejecting common attack vectors.
+1. **State the goal**: Specify which address forms the application accepts, including its policy for local domains and address literals.
 
 2. **State the falsifier**: Find an input that is accepted when it should be rejected, or rejected when it should be accepted.
 
 3. **Try to falsify**: Generate adversarial inputs. Edge cases. Malformed data. Known attack patterns.
 
-4. **Report honestly**: The simple regex fails on 40% of edge cases. Either accept limited validation and document the constraints, or use a proper parser.
+4. **Report honestly**: Record each input, expected outcome under the chosen contract and actual result. The displayed function is a substring check, not a regex; these observations provide no measured failure rate. Either document a bounded input contract or choose and test a parser suited to it.
 
 The difference is not sophistication. The difference is asking what would prove you wrong and actually looking.
 
