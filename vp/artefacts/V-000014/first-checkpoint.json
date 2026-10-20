@@ -1,0 +1,157 @@
+{
+  "phase": "first",
+  "ended": "2026-10-20T20:48:59.927545+00:00",
+  "commit": "a7add63d20ed0d0a8dc6764a11ac38cb1acb204b",
+  "tree": "6af0c96801ab1d6e92096a73e2a31e3941ae0c8b",
+  "instrument": "/home/alexturner/verifiable-practice/vp/artefacts/V-000014/checkpoint.py",
+  "instrument_sha256": "f7c2591eeccf9b5431998e65ef2b32610e2d26092fab5c591f4bce0db54d4745",
+  "commands": [
+    {
+      "label": "stage-all",
+      "argv": [
+        "/usr/bin/git",
+        "add",
+        "-A"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T20:48:54.410141+00:00",
+      "ended": "2026-10-20T20:48:54.816028+00:00",
+      "exit": 0,
+      "executable_sha256_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+      "executable_sha256_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+      "stdout": "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/first-checkpoint/stage-all.stdout.bin",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/first-checkpoint/stage-all.stderr.bin",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "stage-owned-vp",
+      "argv": [
+        "/usr/bin/git",
+        "add",
+        "-f",
+        "--",
+        "vp"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T20:48:54.823636+00:00",
+      "ended": "2026-10-20T20:48:55.003585+00:00",
+      "exit": 0,
+      "executable_sha256_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+      "executable_sha256_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+      "stdout": "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/first-checkpoint/stage-owned-vp.stdout.bin",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/first-checkpoint/stage-owned-vp.stderr.bin",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "complete-root-guard",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000011/check_index.py",
+        "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/first-checkpoint/guard"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T20:48:55.008932+00:00",
+      "ended": "2026-10-20T20:48:59.741466+00:00",
+      "exit": 0,
+      "executable_sha256_before": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935",
+      "executable_sha256_after": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935",
+      "stdout": "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/first-checkpoint/complete-root-guard.stdout.bin",
+      "stdout_sha256": "8b2acf0966043dd08f9c6488c04a094ee05bea43b2e61154756c4ffc892d92e1",
+      "stderr": "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/first-checkpoint/complete-root-guard.stderr.bin",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "staged-whitespace",
+      "argv": [
+        "/usr/bin/git",
+        "-c",
+        "core.whitespace=-blank-at-eol",
+        "diff",
+        "--cached",
+        "--check"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T20:48:59.744667+00:00",
+      "ended": "2026-10-20T20:48:59.811242+00:00",
+      "exit": 0,
+      "executable_sha256_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+      "executable_sha256_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+      "stdout": "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/first-checkpoint/staged-whitespace.stdout.bin",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/first-checkpoint/staged-whitespace.stderr.bin",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "commit",
+      "argv": [
+        "/usr/bin/git",
+        "commit",
+        "-m",
+        "Accept semantic PTE removal after independent project audit"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T20:48:59.818806+00:00",
+      "ended": "2026-10-20T20:48:59.904421+00:00",
+      "exit": 0,
+      "executable_sha256_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+      "executable_sha256_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+      "stdout": "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/first-checkpoint/commit.stdout.bin",
+      "stdout_sha256": "58d7fea458a693d2c44f8eca7015138c44e12f1c4036ad303efe99a358ad1484",
+      "stderr": "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/first-checkpoint/commit.stderr.bin",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "commit-id",
+      "argv": [
+        "/usr/bin/git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T20:48:59.912294+00:00",
+      "ended": "2026-10-20T20:48:59.913822+00:00",
+      "exit": 0,
+      "executable_sha256_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+      "executable_sha256_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+      "stdout": "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/first-checkpoint/commit-id.stdout.bin",
+      "stdout_sha256": "24c97f5398a0caa744220b690a8195ae39bae477d830a32258713a56f53661df",
+      "stderr": "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/first-checkpoint/commit-id.stderr.bin",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "tree-id",
+      "argv": [
+        "/usr/bin/git",
+        "rev-parse",
+        "HEAD^{tree}"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T20:48:59.921079+00:00",
+      "ended": "2026-10-20T20:48:59.922529+00:00",
+      "exit": 0,
+      "executable_sha256_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+      "executable_sha256_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+      "stdout": "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/first-checkpoint/tree-id.stdout.bin",
+      "stdout_sha256": "8b89f91c0c6b8c02f54b5c81842524f60a11044d4e509b98d1c2603c5ebba6b8",
+      "stderr": "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/first-checkpoint/tree-id.stderr.bin",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "guard_summary": {
+    "files": 23352,
+    "differences": [],
+    "untracked": [],
+    "negative_control_detected": true,
+    "tree": "6af0c96801ab1d6e92096a73e2a31e3941ae0c8b",
+    "required_vp_files": 23283,
+    "missing_vp": [],
+    "omitted_control_detected": true,
+    "criterion_met": true
+  },
+  "guard_results": "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/first-checkpoint/guard/results.json",
+  "guard_results_sha256": "e7b7090b98d97333c34cf3aa92c0cda2a2b2d534a75bcf2cf30d73321be84fbc",
+  "guard_index_sha256": "d0aaa3d2a48c42b2ede608616a59281fd288e1642abbd24c9b9b24e78c0d45f5",
+  "limits": "local worker-controlled Git/byte custody; not source semantics, authenticated authorship or host-loss protection"
+}

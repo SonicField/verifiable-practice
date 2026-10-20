@@ -1,6 +1,6 @@
 # Verifiable Practice: Adoption Charter
 
-**As of:** 2026-10-20 20:48:07 UTC
+**As of:** 2026-10-20 20:49:23 UTC
 **Owner:** commissioning human user; account alexturner is environment attribution.
 **Mandate:** [D-000001](records/decisions/D-000001/record.md) and
 [transcribed current instruction](artefacts/D-000001/authority.md).
@@ -141,3 +141,7 @@ D25 accepts S3 after R12 content checks and A7's separate conformant project aud
 ## Current navigation advisory disposition
 
 A7/F001 is corrected in current README/ledger labels under D25/V15, with original fixed candidate/report preserved. The open advisory awaits independent closure; acceptance does not assert that closure. A7 separately verifies the narrow A6/F001 descriptor/future-packet condition in its exact packet. Current STATE is the authority for handoff progress.
+
+## Semantic removal custody handoff
+
+V14 records checkpoint `a7add63d20ed0d0a8dc6764a11ac38cb1acb204b` with complete staged/source-byte agreement and actual changed-blob/omitted-entry controls. Its sealed receipt and current views are committed in the containing receipt; that exact later commit and the verified compact completion bundle/full index are necessarily external in `/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/MANIFEST.md` and completion.json. Require matching external verification before recovery reliance. No further technical work, source revalidation, remote publication or renewed validity is implied.

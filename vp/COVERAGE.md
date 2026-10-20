@@ -1,6 +1,6 @@
 # Current Maintained Artefact Coverage
 
-**As of:** 2026-10-20 20:48:07 UTC
+**As of:** 2026-10-20 20:49:23 UTC
 **Product snapshot:** R12source-inventory.json,69files/484units; completepatch C6change.patch against recordedimmutableGitbaseline.
 **Origin/retention:** D22/C6/D23/D25/rootD1; S3 accepted after A7 conformant at `2026-10-20T20:41:17.391502+00:00` for `c17d269bfafcda229ce9fe8734d4709499584fa7` and designated outer metadata.
 **Validity:** currentresearch/evidenceeffective26Oct2026UTC/earlier relevantsource/role/rubric/runtime/authority/custodytrigger.
@@ -509,3 +509,5 @@ All current record IDs/canonicalmetadata/root/successors indexedLEDGER; each rec
 The unchanged 69-file/484-unit product inventory above remains R12's exact source. A7 independently assessed the fixed candidate plus designated outer preparation; its own report/assessment, D25 exit, S3 seal, V14 receipt and later current views are authorised post-freeze bookkeeping, not additional A7-assessed source. Each is owned by its canonical record or A7/V14 manifest and covered by the completed Git checkpoint/index identified in V14's external completion manifest. Root D1, effective 26 October UTC/earlier trigger, retention life plus 365 days. The original frozen current-view baseline remains in the fixed candidate Git tree.
 
 V15 owns the sourced post-audit README/ledger label correction and advisory disposition; D25 authorises it. Original current-view baseline hashes/locators are in V15 and the fixed A7 candidate; later current-view identities are in V14’s completed Git index. A7/F001 remains advisory pending independent closure.
+
+Actual V14 checkpoint `a7add63d20ed0d0a8dc6764a11ac38cb1acb204b` passed whole staged-root byte accounting, including changed-blob and omitted-entry controls. Receipt-containing current-view/record/raw identities resolve through the required external completion-inventory.json and completion.json in `/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/` after the receipt commit; no self-commit identity is claimed.

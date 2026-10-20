@@ -1,6 +1,6 @@
 # Current Project State
 
-**As of:** 2026-10-20 20:48:07 UTC
+**As of:** 2026-10-20 20:49:23 UTC
 **Stage:** S3 accepted and sealed under D25.
 **Source:** 69 product files / 484 declared units, exact R12 inventory; candidate `c17d269bfafcda229ce9fe8734d4709499584fa7`.
 **Content evidence:** R12's semantic responsibility/dependency map and nine expected check outcomes. Worked review scenarios remain illustrative and unexecuted.
@@ -18,6 +18,6 @@ A7's actual report controls its exact-scope findings; no mandatory gap is waived
 
 ## Operations, custody and next action
 
-No technical build or background process. V14 checkpoint/receipt remains the authorised handoff operation until actual outcomes are recorded. A7's first custody preparation failed before creating a packet; its instrument and limited reconstruction are preserved, with missing stderr/times explicit. The second preparation succeeded, using the verified fixed Git tip, complete byte index and self-contained independently located bundle. No obsolete-source archive copy was introduced; historical sealed records and negative controls retain necessary names as evidence.
+No technical build or background process. V14 records completed checkpoint `a7add63d20ed0d0a8dc6764a11ac38cb1acb204b` and a passing complete staged-root byte comparison. The containing receipt and verified completion bundle/index are identified externally after that receipt commit; they must be checked before relying on completed recovery. A7's first custody preparation failed before creating a packet; its instrument and limited reconstruction are preserved, with missing stderr/times explicit. The second preparation succeeded, using the verified fixed Git tip, complete byte index and self-contained independently located bundle. No obsolete-source archive copy was introduced; historical sealed records and negative controls retain necessary names as evidence.
 
-Finish V14's local checkpoint, receipt and external completion manifest/bundle. No remote operation is authorised. Safe resume uses these six views, canonical records, exact Git/index locators, dates and remaining gates. New source changes cannot inherit this audit pass.
+No further technical work is planned. V14’s containing receipt and final custody result resolve through `/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/MANIFEST.md` and completion.json. At handoff, verify their containing Git identity, complete index and bundle digest; absence or mismatch is an unfinished custody operation requiring a new V/attempt. No remote operation is authorised. Safe resume uses these six views, canonical records, exact Git/index locators, dates and remaining gates. New source changes cannot inherit this audit pass.
