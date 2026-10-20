@@ -520,3 +520,7 @@ C5/D16/D17/H8/E9/R9/V9support correctedledger; V10/D19 preserve withdrawnA5andne
 ## Scoped packet-description advisory
 
 A-000006/F-001 remains original open advisory, accepted with sourced [V-000012 counterdescriptor](records/events/V-000012/record.md) under D-000020. ActualA6consumer/archiveA4+A5inclusions/ownfuture-outputboundary are explicit against exact originalindex hashes. Originalfrozenlabels unchanged; workerdispositionisnotindependentclosure. No mandatorygate gap; review26OctUTC/earlier packet/consumer/authority/custodychange.
+
+## Checkpoint provenance
+
+D20/D21/V11/H9/E10R10failed/E11R11passed own latestview/custodyprojections and complete-rootbyteevidence. V12advisorydispositionlinked. Exactfinalmaintainedrecord/view/rawbytes are Gitidentified and externalsource/inventory/completionmanifestcontentidentified; no self-hash. CurrentproductC4after/R8source unchanged.

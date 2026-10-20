@@ -16,12 +16,13 @@ RootD1/D12mandate reviewed17Jan2027UTC/earliergoal/authoritychange. D13/14full-m
 
 ## Operations, custody and safe handoff
 
-No build/backgroundtechnicalprocess; C4/C5/H7/E8/R8/H8/E9/R9andS2sealed. Local H9/E10/R10/V11custodycheckpoint open until actualcommit/verifiedcompletioncopy/Gitbundle/receipt. Owned source/snapshots/manifests/failures retainedlife+365daysafterretirement. Existing and new preserveddirectories samehost, worker-controlled; hashconsistency doesnotauthenticateactions or protecthost/diskloss. Final V11locator/manifest requiredforrecovery, not an old pre-resultcopy. Readsixviews/actualrecords/bytes/dates before newreliance, reserve new IDs/actions. RollbackC4beforeproduct/C5beforeviews onlythroughnewD/Vretainingoutcomes. No remoteoperation/disposal/publication.
+No build/backgroundtechnicalprocess; C4/C5/H7/E8/R8/H8/E9/R9andS2sealed. Localcheckpoint committed V11; R10failedstaging attemptpreserved, E11/R11successfulnewattempt. Actualcontainingreceiptcommit/verifiedcompletioncopy/finalGitbundle identities in V11externalMANIFEST.md/completion.json, requiredforrecovery. Owned source/snapshots/manifests/failures retainedlife+365daysafterretirement. Existing and new preserveddirectories samehost, worker-controlled; hashconsistency doesnotauthenticateactions or protecthost/diskloss. Final V11locator/manifest requiredforrecovery, not an old pre-resultcopy. Readsixviews/actualrecords/bytes/dates before newreliance, reserve new IDs/actions. RollbackC4beforeproduct/C5beforeviews onlythroughnewD/Vretainingoutcomes. No remoteoperation/disposal/publication.
 
 ## Scoped packet-description advisory
 
 A-000006/F-001 remains original open advisory, accepted with sourced [V-000012 counterdescriptor](records/events/V-000012/record.md) under D-000020. ActualA6consumer/archiveA4+A5inclusions/ownfuture-outputboundary are explicit against exact originalindex hashes. Originalfrozenlabels unchanged; workerdispositionisnotindependentclosure. No mandatorygate gap; review26OctUTC/earlier packet/consumer/authority/custodychange.
 
-## Custody first-attempt correction
 
-R10failedcomplete-rootstaging afterpreparingnewdependencyfile; originalfailure/rawoutputs preserved. D21/E11/R11separateattempt stagespreparedinputs beforecomparison; H9stillopen, V11actualreceiptpending. Product/A6scope/stageexit unchanged; no commitbeforefinalguard.
+## Completed checkpoint handoff
+
+V11recordscommitted checkpoint `c74c9ee471103e14a5e5859a145f4a0c99a57809`/tree `f6ae056b06b5700ed01ed59756c54a7b72e41fbf` and verifiedinitialGitbundle. FailedR10/newR11phaseorder pass retained. Actualcontainingreceiptcommit/completeplaincopy/finalGitbundle suppliedin external `/home/alexturner/vp-preserved/verifiable-practice/full-method-stage-20261020/MANIFEST.md` and completion.json afterreceiptcommit; requirematchingmanifest before recovery. No unfinishedtechnicalstage/process; all source/checks/researchdeadline limitsunchanged. This projection is outsideA6assessedfreeze.

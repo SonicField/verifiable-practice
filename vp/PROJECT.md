@@ -117,3 +117,7 @@ D12owner-selectedcontentassessment/repair →R7baseline →D13generalisedchoices
 ## Scoped packet-description advisory
 
 A-000006/F-001 remains original open advisory, accepted with sourced [V-000012 counterdescriptor](records/events/V-000012/record.md) under D-000020. ActualA6consumer/archiveA4+A5inclusions/ownfuture-outputboundary are explicit against exact originalindex hashes. Originalfrozenlabels unchanged; workerdispositionisnotindependentclosure. No mandatorygate gap; review26OctUTC/earlier packet/consumer/authority/custodychange.
+
+## Actual version-control handoff
+
+[V-000011](records/events/V-000011/record.md) records full-method checkpoint c74c9ee471103e14a5e5859a145f4a0c99a57809 and verifiedinitialbundle; latestreceiptcontainingcommit/finalcompletecopy/Gitbundle identity is external in its mandatoryverifiedcompletionmanifest, avoiding self-commit claims. Source/ownedvpbytes together, originalfailuresretained; no remoteoperation, newA6scope or date-renewal.

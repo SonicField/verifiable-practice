@@ -1,0 +1,110 @@
+{
+  "captured": "2026-10-20T08:15:48.799901+00:00",
+  "members": [
+    {
+      "label": "final-full-index",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000011/check_index.py"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T08:15:42.536511+00:00",
+      "ended": "2026-10-20T08:15:47.526333+00:00",
+      "exit": 0,
+      "executable_before": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "executable_after": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "stdout": "{\"files\": 23256, \"differences\": [], \"untracked\": [], \"negative_control_detected\": true, \"tree\": \"f6ae056b06b5700ed01ed59756c54a7b72e41fbf\", \"required_vp_files\": 23185, \"missing_vp\": [], \"omitted_control_detected\": true, \"criterion_met\": true}\n",
+      "stderr": ""
+    },
+    {
+      "label": "commit",
+      "argv": [
+        "/usr/bin/git",
+        "commit",
+        "--quiet",
+        "-m",
+        "Clarify VP as a full project quality management system"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T08:15:47.529008+00:00",
+      "ended": "2026-10-20T08:15:48.786225+00:00",
+      "exit": 0,
+      "executable_before": {
+        "path": "/usr/bin/git",
+        "resolved": "/usr/bin/git",
+        "sha256": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8"
+      },
+      "executable_after": {
+        "path": "/usr/bin/git",
+        "resolved": "/usr/bin/git",
+        "sha256": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8"
+      },
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "label": "committed-head",
+      "argv": [
+        "/usr/bin/git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T08:15:48.788697+00:00",
+      "ended": "2026-10-20T08:15:48.793151+00:00",
+      "exit": 0,
+      "executable_before": {
+        "path": "/usr/bin/git",
+        "resolved": "/usr/bin/git",
+        "sha256": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8"
+      },
+      "executable_after": {
+        "path": "/usr/bin/git",
+        "resolved": "/usr/bin/git",
+        "sha256": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8"
+      },
+      "stdout": "c74c9ee471103e14a5e5859a145f4a0c99a57809\n",
+      "stderr": ""
+    },
+    {
+      "label": "committed-tree",
+      "argv": [
+        "/usr/bin/git",
+        "rev-parse",
+        "HEAD^{tree}"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T08:15:48.795578+00:00",
+      "ended": "2026-10-20T08:15:48.799871+00:00",
+      "exit": 0,
+      "executable_before": {
+        "path": "/usr/bin/git",
+        "resolved": "/usr/bin/git",
+        "sha256": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8"
+      },
+      "executable_after": {
+        "path": "/usr/bin/git",
+        "resolved": "/usr/bin/git",
+        "sha256": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8"
+      },
+      "stdout": "f6ae056b06b5700ed01ed59756c54a7b72e41fbf\n",
+      "stderr": ""
+    }
+  ],
+  "head": "c74c9ee471103e14a5e5859a145f4a0c99a57809",
+  "tree": "f6ae056b06b5700ed01ed59756c54a7b72e41fbf",
+  "instrument": {
+    "path": "/home/alexturner/verifiable-practice/vp/artefacts/V-000011/commit.py",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/V-000011/commit.py",
+    "sha256": "402c6eabf449f3c623afc8dc1762c24636ea3ae242afa0f002bc8360bdd15757"
+  },
+  "limits": "post-commit receipt not included in this firstcommit; next receiptcommit under ownerpolicy; source/evidence initialfinalgate distinct from futureoutputs"
+}

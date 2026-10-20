@@ -1,8 +1,8 @@
 # Current Record Ledger
 
-**As of:** 2026-10-20 08:15:41 UTC
+**As of:** 2026-10-20 08:17:22 UTC
 **Allocator/owner:** working AI /root; root D-000001, current content task D-000012/S-000002.
-**Status:** A-000006 scoped conformant/closure; S2accepted D-000020; localcustodyV11pending; A-000005withdrawn V-000010.
+**Status:** A-000006 scoped conformant/closure; S2accepted D-000020; localcustodyV11committed; actualcontainingreceipt/finalpreservation externalmanifest; A-000005withdrawn V-000010.
 **Navigation:** links are rebased from original record locations to this view. Source grammars and historical unknowns remain intact. Created and sealed is original creation metadata where the sealed report records both together; request rows have their own issued timestamps.
 
 | ID / record | Type | Created UTC | Title | Current state | Canonical origin / goal source |
@@ -49,7 +49,7 @@
 | [V-000008](records/events/V-000008/record.md) | event | 2026-10-20 07:47:23 UTC | V-000008: Contain whole-source reliance when public method documents change | recorded; sealed | [D-000013](records/decisions/D-000013/record.md) / [D-000001](records/decisions/D-000001/record.md) |
 | [V-000009](records/events/V-000009/record.md) | audit-response | 2026-10-20 08:02:49 UTC | V-000009: Respond to A-000004 mandatory ledger finding | sealed; ready for independent re-audit | [D-000016](records/decisions/D-000016/record.md) / [D-000001](records/decisions/D-000001/record.md) |
 | [V-000010](records/events/V-000010/record.md) | event — request withdrawal/correction | 2026-10-20 08:05:36 UTC | V-000010: Preserve undispatched A5 request mutation and route successor A6 | selected; sealed | [D-000019](records/decisions/D-000019/record.md) / [D-000001](records/decisions/D-000001/record.md) |
-| [V-000011](records/events/V-000011/record.md) | event — version-control checkpoint | 2026-10-20 08:13:43 UTC | V-000011: Full-method stage custody and commit receipt | open | [D-000020](records/decisions/D-000020/record.md) / [D-000001](records/decisions/D-000001/record.md) |
+| [V-000011](records/events/V-000011/record.md) | event — version-control checkpoint | 2026-10-20 08:13:43 UTC | V-000011: Full-method stage custody and commit receipt | sealed; complete first checkpoint, containing receipt/final preservation identified externally | [D-000020](records/decisions/D-000020/record.md) / [D-000001](records/decisions/D-000001/record.md) |
 | [V-000012](records/events/V-000012/record.md) | audit-response — advisory disposition | 2026-10-20 08:14:11 UTC | V-000012: Correct stale packet labels through a sourced successor descriptor | sealed; advisory disposition under D-000020, no independent closure claimed | [D-000020](records/decisions/D-000020/record.md) / [D-000001](records/decisions/D-000001/record.md) |
 | [E-000001](records/experiments/E-000001/record.md) | experiment | 2026-10-19 12:07:15 UTC | E-000001: Preserve and challenge the starting VP baseline | sealed; completed with baseline falsification | [D-000002](records/decisions/D-000002/record.md) / [D-000001](records/decisions/D-000001/record.md) |
 | [E-000002](records/experiments/E-000002/record.md) | experiment | 2026-10-19 12:08:34 UTC | E-000002: Challenge corrected source and capture candidate inputs | sealed; completed | [D-000003](records/decisions/D-000003/record.md) / [D-000001](records/decisions/D-000001/record.md) |
