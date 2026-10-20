@@ -1,0 +1,75 @@
+{
+  "captured": "2026-10-19T12:25:45.210592+00:00",
+  "files": [
+    {
+      "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/capture.py",
+      "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/capture.py",
+      "symlink": null,
+      "bytes": 11352,
+      "sha256": "4dc6ef9e15b0ae7fac75b1ea01feb1f9eb06b3aff7b4e2f22687971498b33958"
+    },
+    {
+      "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+      "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage_check.py",
+      "symlink": null,
+      "bytes": 1473,
+      "sha256": "40e5ae5ad9a3ce31e56b38c53621a0f1e942c6e5a284af74bd2061ea2b41ec72"
+    },
+    {
+      "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+      "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/checks.py",
+      "symlink": null,
+      "bytes": 5859,
+      "sha256": "03db7094b4ebfd6c3a5f03b117c0f2d60d2e3043e49d274ff7fe5feba7f87bf1"
+    },
+    {
+      "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/skill-validator.py",
+      "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/skill-validator.py",
+      "symlink": null,
+      "bytes": 4249,
+      "sha256": "ee6dba90f44d37171c5a6edb8095979c54919ff6822c1a907afca2e78c48738c"
+    },
+    {
+      "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+      "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+      "symlink": null,
+      "bytes": 119289,
+      "sha256": "7be3451795bb53b304dabcfdf887c61b9de886dc67d9f6075c21bcc0e685663a"
+    },
+    {
+      "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-complete.md",
+      "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-complete.md",
+      "symlink": null,
+      "bytes": 176409,
+      "sha256": "06596bc2128d02f8930818de40c63d325cd8b73a71ec0646fc42f1d842dcc4a7"
+    },
+    {
+      "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-omitted.md",
+      "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-omitted.md",
+      "symlink": null,
+      "bytes": 176090,
+      "sha256": "03a14946c1bc6f55c05bb26944b045dcddaceceaeefad5a891ec9cca3412cf0e"
+    },
+    {
+      "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-wrong-digest.md",
+      "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-wrong-digest.md",
+      "symlink": null,
+      "bytes": 176409,
+      "sha256": "28d94b85515e623b8d94a39f8889d02dd244e4a4bb7bde6fa076797197c60bb6"
+    },
+    {
+      "path": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/before/snapshot.json",
+      "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/before/snapshot.json",
+      "symlink": null,
+      "bytes": 11767,
+      "sha256": "0aa26f1c2afd79cdb9d1af282a210e1409384876040d8dd4a739f81b51a7354c"
+    },
+    {
+      "path": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/snapshot.json",
+      "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/snapshot.json",
+      "symlink": null,
+      "bytes": 11684,
+      "sha256": "4ba7fa0dd5273c175af9a5d5ee892ceb505ea374ffca9b2c8d60bea368f7dca9"
+    }
+  ]
+}

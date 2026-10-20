@@ -1,5 +1,7 @@
 # Precise Technical English (PTE)
 
+Precise contracts make requirements and acceptance criteria checkable within [VP's project quality management system](../docs/how-vp-works.md). Use precision where ambiguity changes project choices or outcomes.
+
 Natural language fails at precision. Not because English lacks expressive power, but because it optimises for the wrong thing: speaker economy. Humans compress. They rely on context, shared assumptions, and the listener's willingness to infer. This works in conversation. It fails in specifications.
 
 PTE is a constrained subset of English designed for one purpose: eliminating ambiguity in technical communication. It is verbose, tedious, and unnatural. These are features. The goal is mutual intelligibility when precision is non-negotiable.

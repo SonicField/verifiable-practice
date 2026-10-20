@@ -1,0 +1,5394 @@
+{
+  "method": "Read every listed file; validate byte presence/UTF-8/JSON, Markdown fences and inline destinations outside fences; no project imports or execution. Links do not test heading anchors, rendering, reference-style links, escaped Markdown, template instantiation, or external destinations.",
+  "summary": {
+    "checked_at_utc": "2026-10-19T11:55:24.842454+00:00",
+    "inputs": 154,
+    "evidence_classes": {
+      "project authored file": 71,
+      "prior auditor capture": 77,
+      "coordinator read-only tool capture": 4,
+      "coordinator read-only directory capture": 1,
+      "attributed user excerpt transcribed by coordinator; not independently authenticated export": 1
+    },
+    "markdown_files": 130,
+    "json_files": 8,
+    "link_kinds": {
+      "relative_file": 406,
+      "external": 6
+    },
+    "broken_file_links": [],
+    "outside_packet": [
+      {
+        "source": "source/.vp/audit-evidence/source/CHANGELOG.md",
+        "line": 5,
+        "destination": "https://keepachangelog.com/en/1.1.0/",
+        "kind": "external"
+      },
+      {
+        "source": "source/.vp/audit-evidence/source/CHANGELOG.md",
+        "line": 5,
+        "destination": "https://semver.org/spec/v2.0.0.html",
+        "kind": "external"
+      },
+      {
+        "source": "source/.vp/audit-evidence/source/CODE_OF_CONDUCT.md",
+        "line": 41,
+        "destination": "https://www.contributor-covenant.org/version/2/1/code_of_conduct.html",
+        "kind": "external"
+      },
+      {
+        "source": "source/CHANGELOG.md",
+        "line": 5,
+        "destination": "https://keepachangelog.com/en/1.1.0/",
+        "kind": "external"
+      },
+      {
+        "source": "source/CHANGELOG.md",
+        "line": 5,
+        "destination": "https://semver.org/spec/v2.0.0.html",
+        "kind": "external"
+      },
+      {
+        "source": "source/CODE_OF_CONDUCT.md",
+        "line": 41,
+        "destination": "https://www.contributor-covenant.org/version/2/1/code_of_conduct.html",
+        "kind": "external"
+      }
+    ],
+    "unbalanced_fences": [],
+    "invalid_json": [],
+    "record_paths_found": []
+  },
+  "files": [
+    {
+      "path": "source/.gitattributes",
+      "evidence_class": "project authored file",
+      "bytes": 54,
+      "utf8": true,
+      "markdown": false,
+      "json": false
+    },
+    {
+      "path": "source/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "evidence_class": "project authored file",
+      "bytes": 1652,
+      "utf8": true,
+      "markdown": false,
+      "json": false
+    },
+    {
+      "path": "source/.github/ISSUE_TEMPLATE/change_proposal.yml",
+      "evidence_class": "project authored file",
+      "bytes": 1095,
+      "utf8": true,
+      "markdown": false,
+      "json": false
+    },
+    {
+      "path": "source/.github/ISSUE_TEMPLATE/config.yml",
+      "evidence_class": "project authored file",
+      "bytes": 27,
+      "utf8": true,
+      "markdown": false,
+      "json": false
+    },
+    {
+      "path": "source/.github/pull_request_template.md",
+      "evidence_class": "project authored file",
+      "bytes": 630,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/.gitignore",
+      "evidence_class": "project authored file",
+      "bytes": 141,
+      "utf8": true,
+      "markdown": false,
+      "json": false
+    },
+    {
+      "path": "source/.vp/audit-evidence/MANIFEST.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2142,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 1,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/checks.py",
+      "evidence_class": "prior auditor capture",
+      "bytes": 8818,
+      "utf8": true,
+      "markdown": false,
+      "json": false
+    },
+    {
+      "path": "source/.vp/audit-evidence/final-checks.json",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1638,
+      "utf8": true,
+      "markdown": false,
+      "json": true,
+      "json_valid": true,
+      "json_shape": "dict"
+    },
+    {
+      "path": "source/.vp/audit-evidence/quick_validate.py",
+      "evidence_class": "prior auditor capture",
+      "bytes": 4249,
+      "utf8": true,
+      "markdown": false,
+      "json": false
+    },
+    {
+      "path": "source/.vp/audit-evidence/results.json",
+      "evidence_class": "prior auditor capture",
+      "bytes": 11570,
+      "utf8": true,
+      "markdown": false,
+      "json": true,
+      "json_valid": true,
+      "json_shape": "dict"
+    },
+    {
+      "path": "source/.vp/audit-evidence/snapshot.json",
+      "evidence_class": "prior auditor capture",
+      "bytes": 12119,
+      "utf8": true,
+      "markdown": false,
+      "json": true,
+      "json_valid": true,
+      "json_shape": "dict"
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/.gitattributes",
+      "evidence_class": "prior auditor capture",
+      "bytes": 54,
+      "utf8": true,
+      "markdown": false,
+      "json": false
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1652,
+      "utf8": true,
+      "markdown": false,
+      "json": false
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/.github/ISSUE_TEMPLATE/change_proposal.yml",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1095,
+      "utf8": true,
+      "markdown": false,
+      "json": false
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/.github/ISSUE_TEMPLATE/config.yml",
+      "evidence_class": "prior auditor capture",
+      "bytes": 27,
+      "utf8": true,
+      "markdown": false,
+      "json": false
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/.github/pull_request_template.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 630,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/.gitignore",
+      "evidence_class": "prior auditor capture",
+      "bytes": 141,
+      "utf8": true,
+      "markdown": false,
+      "json": false
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/CHANGELOG.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1674,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/CITATION.cff",
+      "evidence_class": "prior auditor capture",
+      "bytes": 229,
+      "utf8": true,
+      "markdown": false,
+      "json": false
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/CODE_OF_CONDUCT.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1983,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/CONTRIBUTING.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2652,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/LICENSE",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1068,
+      "utf8": true,
+      "markdown": false,
+      "json": false
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/ORIGIN.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 3629,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/README.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 7420,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 8,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/SECURITY.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1838,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/SKILL.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 7134,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/WHY.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 3947,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 9,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/concepts/bullshit-detection.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2383,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/concepts/engineering-standards.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 22611,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 40,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/concepts/falsifiability.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 4590,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 8,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/concepts/goals.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2918,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/concepts/pte.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 6685,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 11,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/concepts/rhetoric.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2631,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/concepts/verification-cycle.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2049,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/concepts/zero-code-contract.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2505,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/docs/discovery-and-recovery.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2169,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/docs/document-work.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2284,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/docs/how-vp-works.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 3086,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/docs/independent-record-audit.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 6972,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/docs/investigations.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2326,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/docs/project-records-design.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 29603,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 28,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/docs/project-records-examples.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 9355,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/docs/project-records-scenarios.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 9794,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 4,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/docs/project-records.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 6575,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/docs/review-and-audit.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 3602,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/docs/skill-architecture.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 3662,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 9,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/docs/testing-ai-behaviour.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 3531,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/playbooks/code-audit.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 3474,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/playbooks/debugging.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2526,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/playbooks/discovery-verification.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1339,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/playbooks/discovery.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2361,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/playbooks/document-analysis.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1504,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 4,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/playbooks/document-description.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1104,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/playbooks/document-planning.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1292,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/playbooks/investigation.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2319,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/playbooks/precise-technical-english.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1530,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/playbooks/project-records.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 6375,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 10,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/playbooks/record-audit.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 6084,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/playbooks/recovery.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2583,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/playbooks/review.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2472,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/standards/project-records.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 38289,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 23,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2587,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 1,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/audit-request.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2720,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 4,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/audit-response.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1474,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 4,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/audit.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 3032,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/build.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1448,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/change.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1281,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/coverage.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 994,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 2,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/decision.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1714,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 4,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/event.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1276,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/experiment.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1383,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 4,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/hypothesis.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1280,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 4,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/ledger.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 698,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 1,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/manifest.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 838,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 2,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/plan.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 715,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/project.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 2122,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 9,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/root.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1293,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/run.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1669,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/stage.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1304,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/state.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 1640,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-evidence/source/templates/project-records/workspace.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 643,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 1,
+      "final_newline": true
+    },
+    {
+      "path": "source/.vp/audit-report.md",
+      "evidence_class": "prior auditor capture",
+      "bytes": 27697,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 15,
+      "final_newline": true
+    },
+    {
+      "path": "source/CHANGELOG.md",
+      "evidence_class": "project authored file",
+      "bytes": 1888,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/CITATION.cff",
+      "evidence_class": "project authored file",
+      "bytes": 229,
+      "utf8": true,
+      "markdown": false,
+      "json": false
+    },
+    {
+      "path": "source/CODE_OF_CONDUCT.md",
+      "evidence_class": "project authored file",
+      "bytes": 1983,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/CONTRIBUTING.md",
+      "evidence_class": "project authored file",
+      "bytes": 2652,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/LICENSE",
+      "evidence_class": "project authored file",
+      "bytes": 1068,
+      "utf8": true,
+      "markdown": false,
+      "json": false
+    },
+    {
+      "path": "source/ORIGIN.md",
+      "evidence_class": "project authored file",
+      "bytes": 3629,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/README.md",
+      "evidence_class": "project authored file",
+      "bytes": 8047,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 9,
+      "final_newline": true
+    },
+    {
+      "path": "source/SECURITY.md",
+      "evidence_class": "project authored file",
+      "bytes": 1838,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/SKILL.md",
+      "evidence_class": "project authored file",
+      "bytes": 7621,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/WHY.md",
+      "evidence_class": "project authored file",
+      "bytes": 3947,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 9,
+      "final_newline": true
+    },
+    {
+      "path": "source/concepts/bullshit-detection.md",
+      "evidence_class": "project authored file",
+      "bytes": 2383,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/concepts/engineering-standards.md",
+      "evidence_class": "project authored file",
+      "bytes": 22611,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 40,
+      "final_newline": true
+    },
+    {
+      "path": "source/concepts/falsifiability.md",
+      "evidence_class": "project authored file",
+      "bytes": 4590,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 8,
+      "final_newline": true
+    },
+    {
+      "path": "source/concepts/goals.md",
+      "evidence_class": "project authored file",
+      "bytes": 2918,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/concepts/pte.md",
+      "evidence_class": "project authored file",
+      "bytes": 6685,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 11,
+      "final_newline": true
+    },
+    {
+      "path": "source/concepts/rhetoric.md",
+      "evidence_class": "project authored file",
+      "bytes": 2631,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/concepts/verification-cycle.md",
+      "evidence_class": "project authored file",
+      "bytes": 2049,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/concepts/zero-code-contract.md",
+      "evidence_class": "project authored file",
+      "bytes": 2505,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/docs/discovery-and-recovery.md",
+      "evidence_class": "project authored file",
+      "bytes": 2169,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/docs/document-work.md",
+      "evidence_class": "project authored file",
+      "bytes": 2284,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/docs/how-vp-works.md",
+      "evidence_class": "project authored file",
+      "bytes": 3086,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/docs/independent-record-audit.md",
+      "evidence_class": "project authored file",
+      "bytes": 7249,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/docs/investigations.md",
+      "evidence_class": "project authored file",
+      "bytes": 2326,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/docs/project-records-design.md",
+      "evidence_class": "project authored file",
+      "bytes": 32075,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 30,
+      "final_newline": true
+    },
+    {
+      "path": "source/docs/project-records-examples.md",
+      "evidence_class": "project authored file",
+      "bytes": 9355,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/docs/project-records-scenarios.md",
+      "evidence_class": "project authored file",
+      "bytes": 10536,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 4,
+      "final_newline": true
+    },
+    {
+      "path": "source/docs/project-records.md",
+      "evidence_class": "project authored file",
+      "bytes": 6575,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/docs/review-and-audit.md",
+      "evidence_class": "project authored file",
+      "bytes": 4639,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/docs/skill-architecture.md",
+      "evidence_class": "project authored file",
+      "bytes": 3662,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 9,
+      "final_newline": true
+    },
+    {
+      "path": "source/docs/testing-ai-behaviour.md",
+      "evidence_class": "project authored file",
+      "bytes": 3531,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/playbooks/audit-routing.md",
+      "evidence_class": "project authored file",
+      "bytes": 2951,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 4,
+      "final_newline": true
+    },
+    {
+      "path": "source/playbooks/code-audit.md",
+      "evidence_class": "project authored file",
+      "bytes": 4200,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/playbooks/debugging.md",
+      "evidence_class": "project authored file",
+      "bytes": 2526,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/playbooks/discovery-verification.md",
+      "evidence_class": "project authored file",
+      "bytes": 1339,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/playbooks/discovery.md",
+      "evidence_class": "project authored file",
+      "bytes": 2361,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/playbooks/document-analysis.md",
+      "evidence_class": "project authored file",
+      "bytes": 1504,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 4,
+      "final_newline": true
+    },
+    {
+      "path": "source/playbooks/document-description.md",
+      "evidence_class": "project authored file",
+      "bytes": 1104,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/playbooks/document-planning.md",
+      "evidence_class": "project authored file",
+      "bytes": 1292,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/playbooks/investigation.md",
+      "evidence_class": "project authored file",
+      "bytes": 2319,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/playbooks/precise-technical-english.md",
+      "evidence_class": "project authored file",
+      "bytes": 1530,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/playbooks/project-records.md",
+      "evidence_class": "project authored file",
+      "bytes": 6375,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 10,
+      "final_newline": true
+    },
+    {
+      "path": "source/playbooks/record-audit.md",
+      "evidence_class": "project authored file",
+      "bytes": 6365,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 7,
+      "final_newline": true
+    },
+    {
+      "path": "source/playbooks/recovery.md",
+      "evidence_class": "project authored file",
+      "bytes": 2583,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/playbooks/review.md",
+      "evidence_class": "project authored file",
+      "bytes": 2587,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/standards/project-records.md",
+      "evidence_class": "project authored file",
+      "bytes": 38900,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 23,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/README.md",
+      "evidence_class": "project authored file",
+      "bytes": 2616,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 1,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/audit-request.md",
+      "evidence_class": "project authored file",
+      "bytes": 2963,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 4,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/audit-response.md",
+      "evidence_class": "project authored file",
+      "bytes": 1498,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 4,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/audit.md",
+      "evidence_class": "project authored file",
+      "bytes": 3203,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/build.md",
+      "evidence_class": "project authored file",
+      "bytes": 1448,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/change.md",
+      "evidence_class": "project authored file",
+      "bytes": 1281,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/coverage.md",
+      "evidence_class": "project authored file",
+      "bytes": 994,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 2,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/decision.md",
+      "evidence_class": "project authored file",
+      "bytes": 1714,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 4,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/event.md",
+      "evidence_class": "project authored file",
+      "bytes": 1276,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/experiment.md",
+      "evidence_class": "project authored file",
+      "bytes": 1383,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 4,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/hypothesis.md",
+      "evidence_class": "project authored file",
+      "bytes": 1280,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 4,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/ledger.md",
+      "evidence_class": "project authored file",
+      "bytes": 698,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 1,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/manifest.md",
+      "evidence_class": "project authored file",
+      "bytes": 838,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 2,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/plan.md",
+      "evidence_class": "project authored file",
+      "bytes": 715,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/project.md",
+      "evidence_class": "project authored file",
+      "bytes": 2130,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 9,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/root.md",
+      "evidence_class": "project authored file",
+      "bytes": 1293,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/run.md",
+      "evidence_class": "project authored file",
+      "bytes": 1669,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 3,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/stage.md",
+      "evidence_class": "project authored file",
+      "bytes": 1304,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 6,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/state.md",
+      "evidence_class": "project authored file",
+      "bytes": 1640,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 5,
+      "final_newline": true
+    },
+    {
+      "path": "source/templates/project-records/workspace.md",
+      "evidence_class": "project authored file",
+      "bytes": 643,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 1,
+      "final_newline": true
+    },
+    {
+      "path": "git-capture-1.json",
+      "evidence_class": "coordinator read-only tool capture",
+      "bytes": 258,
+      "utf8": true,
+      "markdown": false,
+      "json": true,
+      "json_valid": true,
+      "json_shape": "dict"
+    },
+    {
+      "path": "git-capture-2.json",
+      "evidence_class": "coordinator read-only tool capture",
+      "bytes": 797,
+      "utf8": true,
+      "markdown": false,
+      "json": true,
+      "json_valid": true,
+      "json_shape": "dict"
+    },
+    {
+      "path": "git-capture-3.json",
+      "evidence_class": "coordinator read-only tool capture",
+      "bytes": 3972,
+      "utf8": true,
+      "markdown": false,
+      "json": true,
+      "json_valid": true,
+      "json_shape": "dict"
+    },
+    {
+      "path": "git-capture-4.json",
+      "evidence_class": "coordinator read-only tool capture",
+      "bytes": 28347,
+      "utf8": true,
+      "markdown": false,
+      "json": true,
+      "json_valid": true,
+      "json_shape": "dict"
+    },
+    {
+      "path": "root-inventory.json",
+      "evidence_class": "coordinator read-only directory capture",
+      "bytes": 1537,
+      "utf8": true,
+      "markdown": false,
+      "json": true,
+      "json_valid": true,
+      "json_shape": "dict"
+    },
+    {
+      "path": "user-authority.md",
+      "evidence_class": "attributed user excerpt transcribed by coordinator; not independently authenticated export",
+      "bytes": 859,
+      "utf8": true,
+      "markdown": true,
+      "json": false,
+      "balanced_fences": true,
+      "heading_count": 1,
+      "final_newline": true
+    }
+  ],
+  "links": [
+    {
+      "source": "source/.vp/audit-evidence/MANIFEST.md",
+      "line": 7,
+      "destination": "snapshot.json",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/snapshot.json"
+    },
+    {
+      "source": "source/.vp/audit-evidence/MANIFEST.md",
+      "line": 13,
+      "destination": "../audit-report.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-report.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/MANIFEST.md",
+      "line": 14,
+      "destination": "checks.py",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/checks.py"
+    },
+    {
+      "source": "source/.vp/audit-evidence/MANIFEST.md",
+      "line": 15,
+      "destination": "snapshot.json",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/snapshot.json"
+    },
+    {
+      "source": "source/.vp/audit-evidence/MANIFEST.md",
+      "line": 16,
+      "destination": "results.json",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/results.json"
+    },
+    {
+      "source": "source/.vp/audit-evidence/MANIFEST.md",
+      "line": 17,
+      "destination": "final-checks.json",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/final-checks.json"
+    },
+    {
+      "source": "source/.vp/audit-evidence/MANIFEST.md",
+      "line": 18,
+      "destination": "quick_validate.py",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/quick_validate.py"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/CHANGELOG.md",
+      "line": 5,
+      "destination": "https://keepachangelog.com/en/1.1.0/",
+      "kind": "external"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/CHANGELOG.md",
+      "line": 5,
+      "destination": "https://semver.org/spec/v2.0.0.html",
+      "kind": "external"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/CODE_OF_CONDUCT.md",
+      "line": 41,
+      "destination": "https://www.contributor-covenant.org/version/2/1/code_of_conduct.html",
+      "kind": "external"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/CONTRIBUTING.md",
+      "line": 5,
+      "destination": "CODE_OF_CONDUCT.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/CODE_OF_CONDUCT.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/CONTRIBUTING.md",
+      "line": 18,
+      "destination": "SECURITY.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/SECURITY.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/CONTRIBUTING.md",
+      "line": 59,
+      "destination": "LICENSE",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/LICENSE"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/ORIGIN.md",
+      "line": 49,
+      "destination": "standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/standards/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/ORIGIN.md",
+      "line": 50,
+      "destination": "playbooks/record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/ORIGIN.md",
+      "line": 51,
+      "destination": "docs/project-records-design.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-design.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 5,
+      "destination": "WHY.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/WHY.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 7,
+      "destination": "SKILL.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/SKILL.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 13,
+      "destination": "concepts/goals.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/goals.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 14,
+      "destination": "concepts/falsifiability.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/falsifiability.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 15,
+      "destination": "concepts/rhetoric.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/rhetoric.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 16,
+      "destination": "concepts/bullshit-detection.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/bullshit-detection.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 17,
+      "destination": "concepts/verification-cycle.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/verification-cycle.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 18,
+      "destination": "concepts/zero-code-contract.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/zero-code-contract.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 19,
+      "destination": "concepts/pte.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/pte.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 20,
+      "destination": "concepts/engineering-standards.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/engineering-standards.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 29,
+      "destination": "standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/standards/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 34,
+      "destination": "docs/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 35,
+      "destination": "templates/project-records/README.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/README.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 36,
+      "destination": "playbooks/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 37,
+      "destination": "docs/project-records-design.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-design.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 41,
+      "destination": "docs/independent-record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/independent-record-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 53,
+      "destination": "playbooks/review.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/review.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 54,
+      "destination": "playbooks/code-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/code-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 55,
+      "destination": "playbooks/investigation.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/investigation.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 56,
+      "destination": "playbooks/debugging.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/debugging.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 57,
+      "destination": "playbooks/discovery.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/discovery.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 58,
+      "destination": "playbooks/discovery-verification.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/discovery-verification.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 59,
+      "destination": "playbooks/recovery.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/recovery.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 60,
+      "destination": "playbooks/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 61,
+      "destination": "playbooks/record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 62,
+      "destination": "playbooks/document-analysis.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/document-analysis.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 63,
+      "destination": "playbooks/document-planning.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/document-planning.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 64,
+      "destination": "playbooks/document-description.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/document-description.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 65,
+      "destination": "playbooks/precise-technical-english.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/precise-technical-english.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 73,
+      "destination": "docs/how-vp-works.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/how-vp-works.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 74,
+      "destination": "docs/review-and-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/review-and-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 75,
+      "destination": "docs/discovery-and-recovery.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/discovery-and-recovery.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 76,
+      "destination": "docs/investigations.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/investigations.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 77,
+      "destination": "docs/document-work.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/document-work.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 78,
+      "destination": "docs/testing-ai-behaviour.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/testing-ai-behaviour.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 79,
+      "destination": "docs/skill-architecture.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/skill-architecture.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 80,
+      "destination": "docs/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 81,
+      "destination": "docs/project-records-design.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-design.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 82,
+      "destination": "docs/project-records-examples.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-examples.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 83,
+      "destination": "docs/project-records-scenarios.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-scenarios.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 84,
+      "destination": "docs/independent-record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/independent-record-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 109,
+      "destination": "ORIGIN.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/ORIGIN.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 113,
+      "destination": "CONTRIBUTING.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/CONTRIBUTING.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 114,
+      "destination": "CODE_OF_CONDUCT.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/CODE_OF_CONDUCT.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 115,
+      "destination": "SECURITY.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/SECURITY.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 116,
+      "destination": "CHANGELOG.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/CHANGELOG.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 117,
+      "destination": "CITATION.cff",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/CITATION.cff"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/README.md",
+      "line": 118,
+      "destination": "LICENSE",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/LICENSE"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 25,
+      "destination": "standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/standards/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 31,
+      "destination": "playbooks/record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 43,
+      "destination": "WHY.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/WHY.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 44,
+      "destination": "concepts/goals.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/goals.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 44,
+      "destination": "playbooks/review.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/review.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 45,
+      "destination": "concepts/falsifiability.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/falsifiability.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 45,
+      "destination": "concepts/bullshit-detection.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/bullshit-detection.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 46,
+      "destination": "concepts/verification-cycle.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/verification-cycle.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 46,
+      "destination": "concepts/engineering-standards.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/engineering-standards.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 47,
+      "destination": "concepts/zero-code-contract.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/zero-code-contract.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 48,
+      "destination": "playbooks/code-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/code-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 49,
+      "destination": "playbooks/investigation.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/investigation.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 50,
+      "destination": "playbooks/debugging.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/debugging.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 51,
+      "destination": "playbooks/discovery.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/discovery.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 51,
+      "destination": "playbooks/discovery-verification.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/discovery-verification.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 52,
+      "destination": "playbooks/recovery.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/recovery.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 53,
+      "destination": "standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/standards/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 53,
+      "destination": "playbooks/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 53,
+      "destination": "templates/project-records/README.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/README.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 54,
+      "destination": "playbooks/record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 54,
+      "destination": "templates/project-records/audit-request.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/audit-request.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 54,
+      "destination": "templates/project-records/audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 54,
+      "destination": "templates/project-records/audit-response.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/audit-response.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 55,
+      "destination": "playbooks/document-analysis.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/document-analysis.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 55,
+      "destination": "concepts/rhetoric.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/rhetoric.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 56,
+      "destination": "playbooks/document-planning.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/document-planning.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 56,
+      "destination": "playbooks/document-description.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/document-description.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 57,
+      "destination": "concepts/pte.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/pte.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 57,
+      "destination": "playbooks/precise-technical-english.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/precise-technical-english.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 67,
+      "destination": "docs/how-vp-works.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/how-vp-works.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 68,
+      "destination": "docs/review-and-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/review-and-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 69,
+      "destination": "docs/discovery-and-recovery.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/discovery-and-recovery.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 70,
+      "destination": "docs/investigations.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/investigations.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 71,
+      "destination": "docs/document-work.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/document-work.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 72,
+      "destination": "docs/testing-ai-behaviour.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/testing-ai-behaviour.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 73,
+      "destination": "docs/skill-architecture.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/skill-architecture.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 74,
+      "destination": "docs/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 75,
+      "destination": "docs/project-records-design.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-design.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 76,
+      "destination": "docs/project-records-examples.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-examples.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 77,
+      "destination": "docs/project-records-scenarios.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-scenarios.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 78,
+      "destination": "docs/independent-record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/independent-record-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 82,
+      "destination": "CONTRIBUTING.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/CONTRIBUTING.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 82,
+      "destination": "SECURITY.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/SECURITY.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 82,
+      "destination": "CHANGELOG.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/CHANGELOG.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/SKILL.md",
+      "line": 82,
+      "destination": "CODE_OF_CONDUCT.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/CODE_OF_CONDUCT.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/WHY.md",
+      "line": 86,
+      "destination": "playbooks/review.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/review.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/discovery-and-recovery.md",
+      "line": 19,
+      "destination": "../playbooks/discovery.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/discovery.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/discovery-and-recovery.md",
+      "line": 25,
+      "destination": "../playbooks/discovery-verification.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/discovery-verification.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/discovery-and-recovery.md",
+      "line": 40,
+      "destination": "../playbooks/recovery.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/recovery.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/document-work.md",
+      "line": 17,
+      "destination": "../playbooks/document-analysis.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/document-analysis.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/document-work.md",
+      "line": 25,
+      "destination": "../playbooks/document-planning.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/document-planning.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/document-work.md",
+      "line": 33,
+      "destination": "../playbooks/document-description.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/document-description.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/document-work.md",
+      "line": 37,
+      "destination": "../concepts/pte.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/pte.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/independent-record-audit.md",
+      "line": 7,
+      "destination": "../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/standards/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/independent-record-audit.md",
+      "line": 8,
+      "destination": "../playbooks/record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/independent-record-audit.md",
+      "line": 9,
+      "destination": "project-records-design.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-design.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/investigations.md",
+      "line": 24,
+      "destination": "../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/standards/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/investigations.md",
+      "line": 44,
+      "destination": "../playbooks/investigation.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/investigation.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/investigations.md",
+      "line": 44,
+      "destination": "../playbooks/debugging.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/debugging.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/project-records-design.md",
+      "line": 272,
+      "destination": "project-records-scenarios.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-scenarios.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/project-records-examples.md",
+      "line": 6,
+      "destination": "../templates/project-records/README.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/README.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/project-records-scenarios.md",
+      "line": 4,
+      "destination": "../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/standards/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/project-records-scenarios.md",
+      "line": 5,
+      "destination": "../playbooks/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/project-records-scenarios.md",
+      "line": 7,
+      "destination": "testing-ai-behaviour.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/testing-ai-behaviour.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/project-records.md",
+      "line": 8,
+      "destination": "../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/standards/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/project-records.md",
+      "line": 10,
+      "destination": "../playbooks/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/project-records.md",
+      "line": 11,
+      "destination": "../templates/project-records/README.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/README.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/project-records.md",
+      "line": 13,
+      "destination": "independent-record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/independent-record-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/project-records.md",
+      "line": 59,
+      "destination": "project-records-design.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-design.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/project-records.md",
+      "line": 107,
+      "destination": "project-records-examples.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-examples.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/project-records.md",
+      "line": 108,
+      "destination": "project-records-scenarios.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-scenarios.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/review-and-audit.md",
+      "line": 28,
+      "destination": "../playbooks/review.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/review.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/review-and-audit.md",
+      "line": 32,
+      "destination": "../concepts/engineering-standards.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/engineering-standards.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/review-and-audit.md",
+      "line": 44,
+      "destination": "../playbooks/code-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/code-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/review-and-audit.md",
+      "line": 54,
+      "destination": "../playbooks/record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/docs/review-and-audit.md",
+      "line": 58,
+      "destination": "independent-record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/independent-record-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/code-audit.md",
+      "line": 3,
+      "destination": "../concepts/engineering-standards.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/engineering-standards.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/document-analysis.md",
+      "line": 8,
+      "destination": "../concepts/goals.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/goals.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/document-analysis.md",
+      "line": 8,
+      "destination": "../concepts/rhetoric.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/rhetoric.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/document-analysis.md",
+      "line": 8,
+      "destination": "../concepts/bullshit-detection.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/bullshit-detection.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/document-analysis.md",
+      "line": 8,
+      "destination": "../concepts/falsifiability.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/falsifiability.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/investigation.md",
+      "line": 19,
+      "destination": "../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/standards/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/investigation.md",
+      "line": 21,
+      "destination": "project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/precise-technical-english.md",
+      "line": 3,
+      "destination": "../concepts/pte.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/pte.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/project-records.md",
+      "line": 5,
+      "destination": "../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/standards/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/project-records.md",
+      "line": 6,
+      "destination": "../templates/project-records/README.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/README.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/project-records.md",
+      "line": 113,
+      "destination": "record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/record-audit.md",
+      "line": 3,
+      "destination": "../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/standards/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/record-audit.md",
+      "line": 13,
+      "destination": "../templates/project-records/audit-request.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/audit-request.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/record-audit.md",
+      "line": 58,
+      "destination": "../templates/project-records/audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/record-audit.md",
+      "line": 76,
+      "destination": "../templates/project-records/audit-response.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/audit-response.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/recovery.md",
+      "line": 39,
+      "destination": "../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/standards/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/recovery.md",
+      "line": 40,
+      "destination": "project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/review.md",
+      "line": 15,
+      "destination": "investigation.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/investigation.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/playbooks/review.md",
+      "line": 15,
+      "destination": "discovery-verification.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/discovery-verification.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/standards/project-records.md",
+      "line": 630,
+      "destination": "../playbooks/record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/standards/project-records.md",
+      "line": 631,
+      "destination": "../docs/independent-record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/independent-record-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/standards/project-records.md",
+      "line": 661,
+      "destination": "../docs/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/standards/project-records.md",
+      "line": 662,
+      "destination": "../docs/project-records-design.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-design.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/standards/project-records.md",
+      "line": 664,
+      "destination": "../templates/project-records/README.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/README.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/standards/project-records.md",
+      "line": 665,
+      "destination": "../playbooks/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 3,
+      "destination": "../../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/standards/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 4,
+      "destination": "../../playbooks/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 18,
+      "destination": "root.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/root.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 19,
+      "destination": "project.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/project.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 20,
+      "destination": "plan.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/plan.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 21,
+      "destination": "state.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/state.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 22,
+      "destination": "ledger.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/ledger.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 23,
+      "destination": "coverage.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/coverage.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 24,
+      "destination": "decision.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/decision.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 25,
+      "destination": "stage.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/stage.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 26,
+      "destination": "hypothesis.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/hypothesis.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 27,
+      "destination": "experiment.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/experiment.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 28,
+      "destination": "build.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/build.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 29,
+      "destination": "run.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/run.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 30,
+      "destination": "change.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/change.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 31,
+      "destination": "event.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/event.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 32,
+      "destination": "audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/audit.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 33,
+      "destination": "audit-request.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/audit-request.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 34,
+      "destination": "audit-response.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/audit-response.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 35,
+      "destination": "manifest.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/manifest.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 36,
+      "destination": "workspace.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/templates/project-records/workspace.md"
+    },
+    {
+      "source": "source/.vp/audit-evidence/source/templates/project-records/README.md",
+      "line": 43,
+      "destination": "../../playbooks/record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 23,
+      "destination": "audit-evidence/source/playbooks/code-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/playbooks/code-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 27,
+      "destination": "audit-evidence/source/standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/standards/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 27,
+      "destination": "audit-evidence/source/docs/project-records-design.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-design.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 31,
+      "destination": "audit-evidence/source/.gitignore",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/.gitignore"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 37,
+      "destination": "audit-evidence/snapshot.json",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/snapshot.json"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 37,
+      "destination": "audit-evidence/source/README.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/README.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 39,
+      "destination": "audit-evidence/final-checks.json",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/final-checks.json"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 57,
+      "destination": "audit-evidence/results.json",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/results.json"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 57,
+      "destination": "audit-evidence/checks.py",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/checks.py"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 80,
+      "destination": "audit-evidence/source/concepts/engineering-standards.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/engineering-standards.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 100,
+      "destination": "audit-evidence/source/SKILL.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/SKILL.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 100,
+      "destination": "audit-evidence/source/concepts/goals.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/goals.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 100,
+      "destination": "audit-evidence/source/concepts/falsifiability.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/falsifiability.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 100,
+      "destination": "audit-evidence/source/concepts/rhetoric.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/rhetoric.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 100,
+      "destination": "audit-evidence/source/concepts/bullshit-detection.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/bullshit-detection.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 100,
+      "destination": "audit-evidence/source/concepts/verification-cycle.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/verification-cycle.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 100,
+      "destination": "audit-evidence/source/concepts/zero-code-contract.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/zero-code-contract.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 100,
+      "destination": "audit-evidence/source/concepts/pte.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/pte.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 114,
+      "destination": "audit-evidence/source/docs/testing-ai-behaviour.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/testing-ai-behaviour.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 122,
+      "destination": "audit-evidence/source/WHY.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/WHY.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 142,
+      "destination": "audit-evidence/source/docs/project-records-examples.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-examples.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 142,
+      "destination": "audit-evidence/source/standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/standards/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 164,
+      "destination": "audit-evidence/source/concepts/zero-code-contract.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/concepts/zero-code-contract.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 164,
+      "destination": "audit-evidence/source/standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/standards/project-records.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 164,
+      "destination": "audit-evidence/source/SKILL.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/SKILL.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 164,
+      "destination": "audit-evidence/source/docs/independent-record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/independent-record-audit.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 186,
+      "destination": "audit-evidence/source/docs/skill-architecture.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/skill-architecture.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 186,
+      "destination": "audit-evidence/source/CONTRIBUTING.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/CONTRIBUTING.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 186,
+      "destination": "audit-evidence/source/docs/project-records-design.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-design.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 186,
+      "destination": "audit-evidence/source/docs/project-records-scenarios.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/source/docs/project-records-scenarios.md"
+    },
+    {
+      "source": "source/.vp/audit-report.md",
+      "line": 232,
+      "destination": "audit-evidence/final-checks.json",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/.vp/audit-evidence/final-checks.json"
+    },
+    {
+      "source": "source/CHANGELOG.md",
+      "line": 5,
+      "destination": "https://keepachangelog.com/en/1.1.0/",
+      "kind": "external"
+    },
+    {
+      "source": "source/CHANGELOG.md",
+      "line": 5,
+      "destination": "https://semver.org/spec/v2.0.0.html",
+      "kind": "external"
+    },
+    {
+      "source": "source/CODE_OF_CONDUCT.md",
+      "line": 41,
+      "destination": "https://www.contributor-covenant.org/version/2/1/code_of_conduct.html",
+      "kind": "external"
+    },
+    {
+      "source": "source/CONTRIBUTING.md",
+      "line": 5,
+      "destination": "CODE_OF_CONDUCT.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/CODE_OF_CONDUCT.md"
+    },
+    {
+      "source": "source/CONTRIBUTING.md",
+      "line": 18,
+      "destination": "SECURITY.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/SECURITY.md"
+    },
+    {
+      "source": "source/CONTRIBUTING.md",
+      "line": 59,
+      "destination": "LICENSE",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/LICENSE"
+    },
+    {
+      "source": "source/ORIGIN.md",
+      "line": 49,
+      "destination": "standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/standards/project-records.md"
+    },
+    {
+      "source": "source/ORIGIN.md",
+      "line": 50,
+      "destination": "playbooks/record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/ORIGIN.md",
+      "line": 51,
+      "destination": "docs/project-records-design.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records-design.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 5,
+      "destination": "WHY.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/WHY.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 7,
+      "destination": "SKILL.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/SKILL.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 13,
+      "destination": "concepts/goals.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/goals.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 14,
+      "destination": "concepts/falsifiability.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/falsifiability.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 15,
+      "destination": "concepts/rhetoric.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/rhetoric.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 16,
+      "destination": "concepts/bullshit-detection.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/bullshit-detection.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 17,
+      "destination": "concepts/verification-cycle.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/verification-cycle.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 18,
+      "destination": "concepts/zero-code-contract.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/zero-code-contract.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 19,
+      "destination": "concepts/pte.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/pte.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 20,
+      "destination": "concepts/engineering-standards.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/engineering-standards.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 29,
+      "destination": "standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/standards/project-records.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 34,
+      "destination": "docs/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 35,
+      "destination": "templates/project-records/README.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/README.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 36,
+      "destination": "playbooks/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 37,
+      "destination": "docs/project-records-design.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records-design.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 41,
+      "destination": "docs/independent-record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/independent-record-audit.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 55,
+      "destination": "playbooks/audit-routing.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/audit-routing.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 63,
+      "destination": "playbooks/review.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/review.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 64,
+      "destination": "playbooks/code-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/code-audit.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 65,
+      "destination": "playbooks/investigation.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/investigation.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 66,
+      "destination": "playbooks/debugging.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/debugging.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 67,
+      "destination": "playbooks/discovery.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/discovery.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 68,
+      "destination": "playbooks/discovery-verification.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/discovery-verification.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 69,
+      "destination": "playbooks/recovery.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/recovery.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 70,
+      "destination": "playbooks/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 71,
+      "destination": "playbooks/record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 72,
+      "destination": "playbooks/audit-routing.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/audit-routing.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 73,
+      "destination": "playbooks/document-analysis.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/document-analysis.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 74,
+      "destination": "playbooks/document-planning.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/document-planning.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 75,
+      "destination": "playbooks/document-description.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/document-description.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 76,
+      "destination": "playbooks/precise-technical-english.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/precise-technical-english.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 84,
+      "destination": "docs/how-vp-works.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/how-vp-works.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 85,
+      "destination": "docs/review-and-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/review-and-audit.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 86,
+      "destination": "docs/discovery-and-recovery.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/discovery-and-recovery.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 87,
+      "destination": "docs/investigations.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/investigations.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 88,
+      "destination": "docs/document-work.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/document-work.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 89,
+      "destination": "docs/testing-ai-behaviour.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/testing-ai-behaviour.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 90,
+      "destination": "docs/skill-architecture.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/skill-architecture.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 91,
+      "destination": "docs/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 92,
+      "destination": "docs/project-records-design.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records-design.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 93,
+      "destination": "docs/project-records-examples.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records-examples.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 94,
+      "destination": "docs/project-records-scenarios.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records-scenarios.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 95,
+      "destination": "docs/independent-record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/independent-record-audit.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 120,
+      "destination": "ORIGIN.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/ORIGIN.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 124,
+      "destination": "CONTRIBUTING.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/CONTRIBUTING.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 125,
+      "destination": "CODE_OF_CONDUCT.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/CODE_OF_CONDUCT.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 126,
+      "destination": "SECURITY.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/SECURITY.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 127,
+      "destination": "CHANGELOG.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/CHANGELOG.md"
+    },
+    {
+      "source": "source/README.md",
+      "line": 128,
+      "destination": "CITATION.cff",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/CITATION.cff"
+    },
+    {
+      "source": "source/README.md",
+      "line": 129,
+      "destination": "LICENSE",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/LICENSE"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 25,
+      "destination": "standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/standards/project-records.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 30,
+      "destination": "playbooks/audit-routing.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/audit-routing.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 36,
+      "destination": "playbooks/record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 48,
+      "destination": "WHY.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/WHY.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 49,
+      "destination": "concepts/goals.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/goals.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 49,
+      "destination": "playbooks/review.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/review.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 50,
+      "destination": "concepts/falsifiability.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/falsifiability.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 50,
+      "destination": "concepts/bullshit-detection.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/bullshit-detection.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 51,
+      "destination": "concepts/verification-cycle.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/verification-cycle.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 51,
+      "destination": "concepts/engineering-standards.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/engineering-standards.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 52,
+      "destination": "concepts/zero-code-contract.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/zero-code-contract.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 53,
+      "destination": "playbooks/audit-routing.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/audit-routing.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 54,
+      "destination": "playbooks/code-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/code-audit.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 55,
+      "destination": "playbooks/investigation.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/investigation.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 56,
+      "destination": "playbooks/debugging.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/debugging.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 57,
+      "destination": "playbooks/discovery.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/discovery.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 57,
+      "destination": "playbooks/discovery-verification.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/discovery-verification.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 58,
+      "destination": "playbooks/recovery.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/recovery.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 59,
+      "destination": "standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/standards/project-records.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 59,
+      "destination": "playbooks/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 59,
+      "destination": "templates/project-records/README.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/README.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 60,
+      "destination": "playbooks/record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 60,
+      "destination": "templates/project-records/audit-request.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/audit-request.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 60,
+      "destination": "templates/project-records/audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/audit.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 60,
+      "destination": "templates/project-records/audit-response.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/audit-response.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 61,
+      "destination": "playbooks/document-analysis.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/document-analysis.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 61,
+      "destination": "concepts/rhetoric.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/rhetoric.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 62,
+      "destination": "playbooks/document-planning.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/document-planning.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 62,
+      "destination": "playbooks/document-description.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/document-description.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 63,
+      "destination": "concepts/pte.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/pte.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 63,
+      "destination": "playbooks/precise-technical-english.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/precise-technical-english.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 73,
+      "destination": "docs/how-vp-works.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/how-vp-works.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 74,
+      "destination": "docs/review-and-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/review-and-audit.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 75,
+      "destination": "docs/discovery-and-recovery.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/discovery-and-recovery.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 76,
+      "destination": "docs/investigations.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/investigations.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 77,
+      "destination": "docs/document-work.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/document-work.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 78,
+      "destination": "docs/testing-ai-behaviour.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/testing-ai-behaviour.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 79,
+      "destination": "docs/skill-architecture.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/skill-architecture.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 80,
+      "destination": "docs/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 81,
+      "destination": "docs/project-records-design.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records-design.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 82,
+      "destination": "docs/project-records-examples.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records-examples.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 83,
+      "destination": "docs/project-records-scenarios.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records-scenarios.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 84,
+      "destination": "docs/independent-record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/independent-record-audit.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 88,
+      "destination": "CONTRIBUTING.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/CONTRIBUTING.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 88,
+      "destination": "SECURITY.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/SECURITY.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 88,
+      "destination": "CHANGELOG.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/CHANGELOG.md"
+    },
+    {
+      "source": "source/SKILL.md",
+      "line": 88,
+      "destination": "CODE_OF_CONDUCT.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/CODE_OF_CONDUCT.md"
+    },
+    {
+      "source": "source/WHY.md",
+      "line": 86,
+      "destination": "playbooks/review.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/review.md"
+    },
+    {
+      "source": "source/docs/discovery-and-recovery.md",
+      "line": 19,
+      "destination": "../playbooks/discovery.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/discovery.md"
+    },
+    {
+      "source": "source/docs/discovery-and-recovery.md",
+      "line": 25,
+      "destination": "../playbooks/discovery-verification.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/discovery-verification.md"
+    },
+    {
+      "source": "source/docs/discovery-and-recovery.md",
+      "line": 40,
+      "destination": "../playbooks/recovery.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/recovery.md"
+    },
+    {
+      "source": "source/docs/document-work.md",
+      "line": 17,
+      "destination": "../playbooks/document-analysis.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/document-analysis.md"
+    },
+    {
+      "source": "source/docs/document-work.md",
+      "line": 25,
+      "destination": "../playbooks/document-planning.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/document-planning.md"
+    },
+    {
+      "source": "source/docs/document-work.md",
+      "line": 33,
+      "destination": "../playbooks/document-description.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/document-description.md"
+    },
+    {
+      "source": "source/docs/document-work.md",
+      "line": 37,
+      "destination": "../concepts/pte.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/pte.md"
+    },
+    {
+      "source": "source/docs/independent-record-audit.md",
+      "line": 5,
+      "destination": "../playbooks/audit-routing.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/audit-routing.md"
+    },
+    {
+      "source": "source/docs/independent-record-audit.md",
+      "line": 12,
+      "destination": "../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/standards/project-records.md"
+    },
+    {
+      "source": "source/docs/independent-record-audit.md",
+      "line": 13,
+      "destination": "../playbooks/record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/docs/independent-record-audit.md",
+      "line": 14,
+      "destination": "project-records-design.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records-design.md"
+    },
+    {
+      "source": "source/docs/investigations.md",
+      "line": 24,
+      "destination": "../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/standards/project-records.md"
+    },
+    {
+      "source": "source/docs/investigations.md",
+      "line": 44,
+      "destination": "../playbooks/investigation.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/investigation.md"
+    },
+    {
+      "source": "source/docs/investigations.md",
+      "line": 44,
+      "destination": "../playbooks/debugging.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/debugging.md"
+    },
+    {
+      "source": "source/docs/project-records-design.md",
+      "line": 272,
+      "destination": "project-records-scenarios.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records-scenarios.md"
+    },
+    {
+      "source": "source/docs/project-records-examples.md",
+      "line": 6,
+      "destination": "../templates/project-records/README.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/README.md"
+    },
+    {
+      "source": "source/docs/project-records-scenarios.md",
+      "line": 4,
+      "destination": "../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/standards/project-records.md"
+    },
+    {
+      "source": "source/docs/project-records-scenarios.md",
+      "line": 5,
+      "destination": "../playbooks/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/docs/project-records-scenarios.md",
+      "line": 7,
+      "destination": "testing-ai-behaviour.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/testing-ai-behaviour.md"
+    },
+    {
+      "source": "source/docs/project-records.md",
+      "line": 8,
+      "destination": "../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/standards/project-records.md"
+    },
+    {
+      "source": "source/docs/project-records.md",
+      "line": 10,
+      "destination": "../playbooks/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/docs/project-records.md",
+      "line": 11,
+      "destination": "../templates/project-records/README.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/README.md"
+    },
+    {
+      "source": "source/docs/project-records.md",
+      "line": 13,
+      "destination": "independent-record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/independent-record-audit.md"
+    },
+    {
+      "source": "source/docs/project-records.md",
+      "line": 59,
+      "destination": "project-records-design.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records-design.md"
+    },
+    {
+      "source": "source/docs/project-records.md",
+      "line": 107,
+      "destination": "project-records-examples.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records-examples.md"
+    },
+    {
+      "source": "source/docs/project-records.md",
+      "line": 108,
+      "destination": "project-records-scenarios.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records-scenarios.md"
+    },
+    {
+      "source": "source/docs/review-and-audit.md",
+      "line": 9,
+      "destination": "../playbooks/audit-routing.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/audit-routing.md"
+    },
+    {
+      "source": "source/docs/review-and-audit.md",
+      "line": 33,
+      "destination": "../playbooks/review.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/review.md"
+    },
+    {
+      "source": "source/docs/review-and-audit.md",
+      "line": 37,
+      "destination": "../concepts/engineering-standards.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/engineering-standards.md"
+    },
+    {
+      "source": "source/docs/review-and-audit.md",
+      "line": 49,
+      "destination": "../playbooks/code-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/code-audit.md"
+    },
+    {
+      "source": "source/docs/review-and-audit.md",
+      "line": 59,
+      "destination": "../playbooks/record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/docs/review-and-audit.md",
+      "line": 63,
+      "destination": "independent-record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/independent-record-audit.md"
+    },
+    {
+      "source": "source/playbooks/audit-routing.md",
+      "line": 8,
+      "destination": "record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/playbooks/audit-routing.md",
+      "line": 9,
+      "destination": "code-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/code-audit.md"
+    },
+    {
+      "source": "source/playbooks/audit-routing.md",
+      "line": 12,
+      "destination": "review.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/review.md"
+    },
+    {
+      "source": "source/playbooks/code-audit.md",
+      "line": 3,
+      "destination": "../concepts/engineering-standards.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/engineering-standards.md"
+    },
+    {
+      "source": "source/playbooks/code-audit.md",
+      "line": 8,
+      "destination": "audit-routing.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/audit-routing.md"
+    },
+    {
+      "source": "source/playbooks/code-audit.md",
+      "line": 10,
+      "destination": "record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/playbooks/document-analysis.md",
+      "line": 8,
+      "destination": "../concepts/goals.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/goals.md"
+    },
+    {
+      "source": "source/playbooks/document-analysis.md",
+      "line": 8,
+      "destination": "../concepts/rhetoric.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/rhetoric.md"
+    },
+    {
+      "source": "source/playbooks/document-analysis.md",
+      "line": 8,
+      "destination": "../concepts/bullshit-detection.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/bullshit-detection.md"
+    },
+    {
+      "source": "source/playbooks/document-analysis.md",
+      "line": 8,
+      "destination": "../concepts/falsifiability.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/falsifiability.md"
+    },
+    {
+      "source": "source/playbooks/investigation.md",
+      "line": 19,
+      "destination": "../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/standards/project-records.md"
+    },
+    {
+      "source": "source/playbooks/investigation.md",
+      "line": 21,
+      "destination": "project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/playbooks/precise-technical-english.md",
+      "line": 3,
+      "destination": "../concepts/pte.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/concepts/pte.md"
+    },
+    {
+      "source": "source/playbooks/project-records.md",
+      "line": 5,
+      "destination": "../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/standards/project-records.md"
+    },
+    {
+      "source": "source/playbooks/project-records.md",
+      "line": 6,
+      "destination": "../templates/project-records/README.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/README.md"
+    },
+    {
+      "source": "source/playbooks/project-records.md",
+      "line": 113,
+      "destination": "record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/playbooks/record-audit.md",
+      "line": 3,
+      "destination": "../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/standards/project-records.md"
+    },
+    {
+      "source": "source/playbooks/record-audit.md",
+      "line": 9,
+      "destination": "audit-routing.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/audit-routing.md"
+    },
+    {
+      "source": "source/playbooks/record-audit.md",
+      "line": 18,
+      "destination": "../templates/project-records/audit-request.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/audit-request.md"
+    },
+    {
+      "source": "source/playbooks/record-audit.md",
+      "line": 63,
+      "destination": "../templates/project-records/audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/audit.md"
+    },
+    {
+      "source": "source/playbooks/record-audit.md",
+      "line": 81,
+      "destination": "../templates/project-records/audit-response.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/audit-response.md"
+    },
+    {
+      "source": "source/playbooks/recovery.md",
+      "line": 39,
+      "destination": "../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/standards/project-records.md"
+    },
+    {
+      "source": "source/playbooks/recovery.md",
+      "line": 40,
+      "destination": "project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/playbooks/review.md",
+      "line": 3,
+      "destination": "audit-routing.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/audit-routing.md"
+    },
+    {
+      "source": "source/playbooks/review.md",
+      "line": 15,
+      "destination": "investigation.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/investigation.md"
+    },
+    {
+      "source": "source/playbooks/review.md",
+      "line": 15,
+      "destination": "discovery-verification.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/discovery-verification.md"
+    },
+    {
+      "source": "source/standards/project-records.md",
+      "line": 17,
+      "destination": "../playbooks/audit-routing.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/audit-routing.md"
+    },
+    {
+      "source": "source/standards/project-records.md",
+      "line": 639,
+      "destination": "../playbooks/record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/record-audit.md"
+    },
+    {
+      "source": "source/standards/project-records.md",
+      "line": 640,
+      "destination": "../docs/independent-record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/independent-record-audit.md"
+    },
+    {
+      "source": "source/standards/project-records.md",
+      "line": 670,
+      "destination": "../docs/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records.md"
+    },
+    {
+      "source": "source/standards/project-records.md",
+      "line": 671,
+      "destination": "../docs/project-records-design.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/docs/project-records-design.md"
+    },
+    {
+      "source": "source/standards/project-records.md",
+      "line": 673,
+      "destination": "../templates/project-records/README.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/README.md"
+    },
+    {
+      "source": "source/standards/project-records.md",
+      "line": 674,
+      "destination": "../playbooks/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 3,
+      "destination": "../../standards/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/standards/project-records.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 4,
+      "destination": "../../playbooks/project-records.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/project-records.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 18,
+      "destination": "root.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/root.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 19,
+      "destination": "project.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/project.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 20,
+      "destination": "plan.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/plan.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 21,
+      "destination": "state.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/state.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 22,
+      "destination": "ledger.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/ledger.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 23,
+      "destination": "coverage.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/coverage.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 24,
+      "destination": "decision.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/decision.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 25,
+      "destination": "stage.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/stage.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 26,
+      "destination": "hypothesis.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/hypothesis.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 27,
+      "destination": "experiment.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/experiment.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 28,
+      "destination": "build.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/build.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 29,
+      "destination": "run.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/run.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 30,
+      "destination": "change.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/change.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 31,
+      "destination": "event.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/event.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 32,
+      "destination": "audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/audit.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 33,
+      "destination": "audit-request.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/audit-request.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 34,
+      "destination": "audit-response.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/audit-response.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 35,
+      "destination": "manifest.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/manifest.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 36,
+      "destination": "workspace.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/templates/project-records/workspace.md"
+    },
+    {
+      "source": "source/templates/project-records/README.md",
+      "line": 43,
+      "destination": "../../playbooks/record-audit.md",
+      "kind": "relative_file",
+      "in_packet": true,
+      "exists": true,
+      "target": "source/playbooks/record-audit.md"
+    }
+  ]
+}

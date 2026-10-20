@@ -8,6 +8,13 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The
 
 ### Added
 
+- Full project quality management identity and lifecycle in README, WHY,
+  AI skill discovery/routing and explanatory guides, including quality planning,
+  control, independent assurance, improvement and human/AI responsibilities.
+- Sourced content-quality assessment and documented communication choices,
+  preserving the distinction between epistemic foundations, management
+  authority, product quality and record conformance.
+
 - Prospective adoption of VP records in this repository: current mandate,
   charter, stage, choices, coverage, preserved failures and independent audit.
   Missing pre-adoption history remains explicitly unknown.

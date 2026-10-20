@@ -1,5 +1,7 @@
 # The Verification Cycle
 
+The verification cycle governs implementation steps within [VP's full project quality management lifecycle](../docs/how-vp-works.md). Project authority, stages, records and gates supply its surrounding controls.
+
 Safety comes from verbs, not nouns. Correctness emerges from actions - checking, validating, asserting, testing - not from static structures like type systems or design patterns.
 
 "This value was validated" matters. "This has type ValidatedInput" does not, unless validation actually occurred. The verb happened or it did not. That is provable.
@@ -17,9 +19,11 @@ Each phase has entry and exit criteria. Skipping phases is not speed; it is debt
 | Design | Problem exists | Success criteria defined |
 | Plan | Criteria clear | Testable steps identified |
 | Deconstruct | Steps identified | Each step has test criterion |
-| Test | Criterion defined | Test written and fails |
-| Code | Test fails correctly | Test passes, assertions hold |
-| Document | Test passes | Learnings recorded |
+| Test | Criterion defined | Check can expose the claimed failure; controls and outcomes recorded |
+| Code | Authorised change and meaningful check defined | Criteria survive relevant checks; outcomes and limits retained |
+| Document | Check outcomes available | Evidence, choices, source coverage and next action recorded |
+
+This cycle applies to an implementation step. The adopted project also records the commissioning decision, protocol, exact build/run inputs and later acceptance decision. Failures and inconclusive checks remain visible. Stage gates, finite review horizons and triggered revalidation manage integration, handoff and subsequent changes. A useful positive control or deliberately planted defect can establish check sensitivity; a previous natural failure is not the only valid starting point.
 
 ## The Decomposition Criterion
 

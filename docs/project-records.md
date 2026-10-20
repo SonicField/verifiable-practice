@@ -1,12 +1,11 @@
 # Project Planning and Records
 
-VP's reasoning loop needs a durable implementation when projects span many
-sessions, builds, choices and machines. A status summary explains what seems
-true now; it rarely explains what an earlier author knew, which alternatives
-failed, or which exact binary produced a result.
+Project planning, control and traceable records are the management layer of [VP's full project quality management system](how-vp-works.md). They connect the owner mandate and quality criteria to bounded stages, choices, implementation evidence, independent gates and continuing review. The working AI keeps the records under owner oversight; an independent assessor checks their support.
+
+A project can span many sessions, builds, contributors and machines. A status summary alone rarely explains what an earlier author knew, which alternatives failed, which exact binary produced a result or whether a premise remains current.
 
 The [standard](../standards/project-records.md) supplies that implementation.
-It is an explicit conformance contract, version 1.0 proposed for adoption.
+It is the explicit planning/record-conformance contract, version 1.0 proposed for adoption; the other VP procedures supply engineering, document and investigation quality checks.
 Use the [playbook](../playbooks/project-records.md) for actions and the
 [templates](../templates/project-records/README.md) for files.
 

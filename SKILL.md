@@ -1,9 +1,11 @@
 ---
 name: verifiable-practice
-description: Apply goal-aligned, falsification-first, evidence-led practice to software work. Use when the user asks for VP or Verifiable Practice, or requests a falsification-led review, project or code audit, investigation, project discovery or recovery, document analysis, or precise technical specification.
+description: Use the full project quality management system for human–AI collaboration, including governance, planning, verification, traceable records, independent assurance and revalidation. Use when the user asks for VP or Verifiable Practice, or requests a falsification-led review, project or code audit, investigation, project discovery or recovery, document analysis, or precise technical specification.
 ---
 
 # Verifiable Practice
+
+VP is a full project quality management system for human–AI collaboration. Its epistemology supplies evidence discipline; its owner/worker/auditor roles, controlled stages, quality criteria, records and review gates manage the complete project lifecycle. This skill distributes and routes the method.
 
 When working on this repository itself, read its [record root](vp/README.md)
 and [current state](vp/STATE.md). Its prospective charter governs tracking;
@@ -12,11 +14,21 @@ These repository-specific links do not enrol another project using this skill.
 
 Treat every material claim as something that must be possible to check. Establish what the user is trying to achieve, identify what would show the current approach is wrong, seek that evidence, and report the observed result—including failures and uncertainty.
 
+## Manage the Whole Project
+
+For project work, identify the owner mandate, terminal goal, scope, acceptance/harm criteria and delegated authority. Plan bounded stages with budgets, tolerances, review points and stop conditions. Generalise observations before choosing an approach. Commission falsifiable claims/protocols before evidence executions; identify actual inputs and retain relevant failures and retries. Link authorised changes and retained artefacts to decisions, evidence and the root goal.
+
+The owner controls goals, scope and management decisions; the working AI produces authorised work and maintains records, ledger, coverage and current views. An AI owner requires an explicit bounded originating mandate. A distinct Project Auditor checks a frozen packet and closure conditions without technical execution or repair. Humans may contribute work under the charter; role names do not grant authority or independence.
+
+Review quality evidence and unresolved risks at gates; record acceptance, exceptions, continuation or stopping. Check validity and dependency impact at handoff and on relevant changes. Revalidate expired/invalid support with new evidence and successor decisions. Preserve owned evidence, copies and disposition history. Use the [complete overview](docs/how-vp-works.md), [project playbook](playbooks/project-records.md) and [standard](standards/project-records.md) for the required documents and actions.
+
+A bounded use of VP applies the relevant method to the authorised task. Full project record conformance is explicitly adopted for a scope and snapshot; an existing charter must be followed, and a new project is not silently enrolled. Conformance assessment and product-quality acceptance are separate gates. The method uses Markdown/directories without required specialised software or persistent team infrastructure.
+
 ## Working Rules
 
 - Distinguish the terminal goal from steps that merely serve it.
 - Separate observations, interpretations, assumptions, and unknowns.
-- State a falsifier before relying on an important claim.
+- State a falsifier before relying on an important empirical claim; record authority and rationale for goals and value decisions.
 - Prefer tests that can expose failure over examples that merely confirm success.
 - Make changes in small, reversible, independently verifiable steps.
 - Preserve evidence with enough provenance that another person can reproduce the conclusion.
@@ -88,7 +100,7 @@ Use these when the task is to explain, evaluate, test, or maintain VP itself:
 | Evaluate record behaviour across projects | [Project Records Scenarios](docs/project-records-scenarios.md) |
 | Explain independent auditor/worker roles and handoff | [Independent Record Audit](docs/independent-record-audit.md) |
 
-These documents are explanatory. For execution, use the corresponding playbook above.
+These documents explain the whole method or its components to human and AI readers. For actions, use the corresponding playbook; adopted normative requirements remain in the standard.
 
 When modifying VP itself, follow [CONTRIBUTING.md](CONTRIBUTING.md), preserve the safety boundary in [SECURITY.md](SECURITY.md), and record user-visible changes in [CHANGELOG.md](CHANGELOG.md). Community participation is governed by [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 

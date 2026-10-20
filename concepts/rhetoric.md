@@ -1,5 +1,7 @@
 # Rhetoric
 
+This concept helps collaborators distinguish evidence, values and authority when making choices within [VP's project quality management system](../docs/how-vp-works.md). Decisions preserve those distinctions and their sources.
+
 Aristotle proposed three modes of persuasion: Ethos (authority), Pathos (what people want), Logos (logic). Most engineers believe they operate purely in Logos. They are mistaken.
 
 ## The Hidden Pathos

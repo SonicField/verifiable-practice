@@ -1,5 +1,7 @@
 # Project Record Templates
 
+These documents instantiate the planning, control, traceability and assurance layer of [VP's full project quality management system](../../docs/how-vp-works.md). They record actual project authority, work and evidence; template examples themselves are not operational history.
+
 Use with the [standard](../../standards/project-records.md) and
 [playbook](../../playbooks/project-records.md). Copy project-view templates
 into the chosen root, normally `vp/`. Copy operation templates to

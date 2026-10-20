@@ -1,0 +1,36 @@
+{
+  "blocks": [
+    {
+      "path": "WHY.md",
+      "language": "python",
+      "blocks": 2,
+      "identical": true
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "language": "python",
+      "blocks": 18,
+      "identical": true
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "language": "c",
+      "blocks": 1,
+      "identical": true
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "language": "bash",
+      "blocks": 1,
+      "identical": true
+    },
+    {
+      "path": "concepts/falsifiability.md",
+      "language": "python",
+      "blocks": 1,
+      "identical": true
+    }
+  ],
+  "criterion_met": true,
+  "limits": "Executable-language fenced examples; text and Mermaid diagrams intentionally updated"
+}

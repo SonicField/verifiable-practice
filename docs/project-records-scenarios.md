@@ -1,5 +1,7 @@
 # Evaluating Project Record Behaviour
 
+These scenarios evaluate project planning, traceability and assurance within [VP's full quality management method](how-vp-works.md).
+
 These scenarios define tests of the
 [standard](../standards/project-records.md) and
 [playbook](../playbooks/project-records.md). They are not reports of executed

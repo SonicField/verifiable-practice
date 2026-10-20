@@ -1,0 +1,45 @@
+ M CHANGELOG.md
+ M CONTRIBUTING.md
+ M ORIGIN.md
+ M README.md
+ M SKILL.md
+ M WHY.md
+ M concepts/bullshit-detection.md
+ M concepts/engineering-standards.md
+ M concepts/falsifiability.md
+ M concepts/goals.md
+ M concepts/pte.md
+ M concepts/rhetoric.md
+ M concepts/verification-cycle.md
+ M concepts/zero-code-contract.md
+ M docs/discovery-and-recovery.md
+ M docs/document-work.md
+ M docs/how-vp-works.md
+ M docs/independent-record-audit.md
+ M docs/investigations.md
+ M docs/project-records-design.md
+ M docs/project-records-examples.md
+ M docs/project-records-scenarios.md
+ M docs/project-records.md
+ M docs/review-and-audit.md
+ M docs/skill-architecture.md
+ M docs/testing-ai-behaviour.md
+ M templates/project-records/README.md
+ M vp/LEDGER.md
+ M vp/PLAN.md
+ M vp/STATE.md
+?? vp/artefacts/C-000004/
+?? vp/artefacts/D-000012/
+?? vp/artefacts/R-000007/
+?? vp/artefacts/R-000008/
+?? vp/records/changes/C-000004/
+?? vp/records/decisions/D-000012/
+?? vp/records/decisions/D-000013/
+?? vp/records/events/V-000008/
+?? vp/records/experiments/E-000007/
+?? vp/records/experiments/E-000008/
+?? vp/records/hypotheses/H-000006/
+?? vp/records/hypotheses/H-000007/
+?? vp/records/runs/R-000007/
+?? vp/records/runs/R-000008/
+?? vp/records/stages/S-000002/

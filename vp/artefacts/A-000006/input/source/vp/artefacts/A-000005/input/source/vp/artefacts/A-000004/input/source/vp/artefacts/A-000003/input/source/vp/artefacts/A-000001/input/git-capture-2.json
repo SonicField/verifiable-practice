@@ -1,0 +1,12 @@
+{
+  "command": [
+    "git",
+    "status",
+    "--short"
+  ],
+  "cwd": "/home/alexturner/verifiable-practice",
+  "capture_utc": "2026-10-19T11:53:45.385286+00:00",
+  "exit_status": 0,
+  "stdout": " M CHANGELOG.md\n M CONTRIBUTING.md\n M ORIGIN.md\n M README.md\n M SKILL.md\n M docs/investigations.md\n M docs/review-and-audit.md\n M docs/skill-architecture.md\n M playbooks/code-audit.md\n M playbooks/investigation.md\n M playbooks/recovery.md\n M playbooks/review.md\n?? docs/independent-record-audit.md\n?? docs/project-records-design.md\n?? docs/project-records-examples.md\n?? docs/project-records-scenarios.md\n?? docs/project-records.md\n?? playbooks/audit-routing.md\n?? playbooks/project-records.md\n?? playbooks/record-audit.md\n?? standards/\n?? templates/\n?? vp/\n",
+  "stderr": ""
+}

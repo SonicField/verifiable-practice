@@ -1,6 +1,6 @@
 # Contributing to Verifiable Practice
 
-VP is a research project for making AI-assisted software work inspectable, falsifiable, and evidence-led. Contributions are welcome when they make the framework clearer, more useful, or easier to test.
+VP develops a full project quality management system for human–AI collaboration. Governance, planning, verification, traceable records, independent assurance and revalidation form one method; its effectiveness and cost remain research questions. Contributions are welcome when they make the framework clearer, more useful, or easier to test.
 
 By participating, you agree to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
 

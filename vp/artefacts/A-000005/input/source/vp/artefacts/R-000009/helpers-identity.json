@@ -1,0 +1,14 @@
+{
+  "capture_helpers": {
+    "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/capture.py",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/capture.py",
+    "bytes": 11025,
+    "sha256": "c8b3ef7dc05d19877ee486f5e8d12bd4933100b29bedf872d1220ed49db44e57"
+  },
+  "instrument": {
+    "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/capture.py",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/capture.py",
+    "bytes": 2562,
+    "sha256": "e81be2bd42ea75cf450c200ae6d78c5d961cc1d1d2353e18a0711a75dc24ba43"
+  }
+}

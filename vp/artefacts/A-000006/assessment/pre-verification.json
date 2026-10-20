@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-20T08:06:52.859155+00:00",
+  "inventory_entries": 11601,
+  "input_file_count_each": 11603,
+  "inventory_unique": true,
+  "checked_both_locations": true,
+  "failures": [],
+  "identities": {
+    "/home/alexturner/verifiable-practice/vp/records/audits/A-000006/request.md": "e6fe6c85c5e552a319bb7c7b75dc7c82742b3d0838784ae3ab0630853f898b35",
+    "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/MANIFEST.md": "ae74fbe40a8afebdf200191e8813f082af8281322a0ca7854cf28a18d71ae52b",
+    "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/inventory.json": "f097af0f36057c8a25f05e312b6b23531fd692c5fa427ed553639c9f3725cabd",
+    "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/preparation.json": "a46fdff3633acc6ccbd15e7ccf1a81155f441ed8a4f3d2982f4c4178234d0438"
+  },
+  "limits": "Read-only full file, byte-size, SHA-256 and exact path accounting. Same-host worker-controlled copies; no historical action authentication or technical execution."
+}

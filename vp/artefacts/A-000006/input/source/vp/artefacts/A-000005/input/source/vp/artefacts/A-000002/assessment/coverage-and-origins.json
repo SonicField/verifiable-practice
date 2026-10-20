@@ -1,0 +1,180 @@
+{
+  "source_files": 71,
+  "not_in_product_inventory": [],
+  "inventoried_but_missing_source": [],
+  "heading_rows_missing": [],
+  "origin_graph": {
+    "C-000001": [
+      "D-000002",
+      "D-000002"
+    ],
+    "D-000001": [],
+    "D-000002": [
+      "D-000001",
+      "D-000001"
+    ],
+    "D-000003": [
+      "D-000002",
+      "D-000002"
+    ],
+    "D-000004": [
+      "D-000003",
+      "D-000003"
+    ],
+    "D-000005": [
+      "D-000004",
+      "D-000004"
+    ],
+    "V-000001": [
+      "D-000001",
+      "D-000001"
+    ],
+    "V-000002": [
+      "D-000004",
+      "D-000004"
+    ],
+    "V-000003": [
+      "D-000004",
+      "D-000004"
+    ],
+    "E-000001": [
+      "D-000002",
+      "D-000002"
+    ],
+    "E-000002": [
+      "D-000003",
+      "D-000003"
+    ],
+    "E-000003": [
+      "D-000004",
+      "D-000004"
+    ],
+    "H-000001": [
+      "D-000002",
+      "D-000002"
+    ],
+    "H-000002": [
+      "D-000003",
+      "D-000003"
+    ],
+    "H-000003": [
+      "D-000004",
+      "D-000004"
+    ],
+    "R-000001": [
+      "E-000001",
+      "E-000001"
+    ],
+    "R-000002": [
+      "E-000002",
+      "E-000002"
+    ],
+    "R-000003": [
+      "E-000003",
+      "E-000003"
+    ],
+    "S-000001": [
+      "D-000002",
+      "D-000002"
+    ]
+  },
+  "cycles": [],
+  "unrooted_prospective_records": [],
+  "record_metadata": [
+    {
+      "id": "C-000001",
+      "created": "2026-10-19 12:07:15 UTC",
+      "origin": "[D-000002](../../decisions/D-000002/record.md)"
+    },
+    {
+      "id": "D-000001",
+      "created": "2026-10-19 12:07:15 UTC",
+      "origin": "Current owner mandate; this is the new root, not a reconstructed old root."
+    },
+    {
+      "id": "D-000002",
+      "created": "2026-10-19 12:07:15 UTC",
+      "origin": "[D-000001](../D-000001/record.md)"
+    },
+    {
+      "id": "D-000003",
+      "created": "2026-10-19 12:08:34 UTC",
+      "origin": "[D-000002](../D-000002/record.md)"
+    },
+    {
+      "id": "D-000004",
+      "created": "2026-10-19 12:10:41 UTC",
+      "origin": "[D-000003](../D-000003/record.md)"
+    },
+    {
+      "id": "D-000005",
+      "created": "2026-10-19 12:15:39 UTC",
+      "origin": "[D-000004](../D-000004/record.md)"
+    },
+    {
+      "id": "V-000001",
+      "created": "2026-10-19 12:10:41 UTC",
+      "origin": "[D-000001](../../decisions/D-000001/record.md)"
+    },
+    {
+      "id": "V-000002",
+      "created": "2026-10-19 12:14:27 UTC",
+      "origin": "[D-000004](../../decisions/D-000004/record.md) and preserved [A-000001](../../audits/A-000001/record.md)"
+    },
+    {
+      "id": "V-000003",
+      "created": "2026-10-19 12:15:39 UTC",
+      "origin": "[D-000004](../../decisions/D-000004/record.md)"
+    },
+    {
+      "id": "E-000001",
+      "created": "2026-10-19 12:07:15 UTC",
+      "origin": "[D-000002](../../decisions/D-000002/record.md)"
+    },
+    {
+      "id": "E-000002",
+      "created": "2026-10-19 12:08:34 UTC",
+      "origin": "[D-000003](../../decisions/D-000003/record.md)"
+    },
+    {
+      "id": "E-000003",
+      "created": "2026-10-19 12:10:41 UTC",
+      "origin": "[D-000004](../../decisions/D-000004/record.md)"
+    },
+    {
+      "id": "H-000001",
+      "created": "2026-10-19 12:07:15 UTC",
+      "origin": "[D-000002](../../decisions/D-000002/record.md)"
+    },
+    {
+      "id": "H-000002",
+      "created": "2026-10-19 12:08:34 UTC",
+      "origin": "[D-000003](../../decisions/D-000003/record.md)"
+    },
+    {
+      "id": "H-000003",
+      "created": "2026-10-19 12:10:41 UTC",
+      "origin": "[D-000004](../../decisions/D-000004/record.md)"
+    },
+    {
+      "id": "R-000001",
+      "created": "2026-10-19 12:07:15 UTC",
+      "origin": "[E-000001](../../experiments/E-000001/record.md)"
+    },
+    {
+      "id": "R-000002",
+      "created": "2026-10-19 12:08:34 UTC",
+      "origin": "[E-000002](../../experiments/E-000002/record.md)"
+    },
+    {
+      "id": "R-000003",
+      "created": "2026-10-19 12:10:41 UTC",
+      "origin": "[E-000003](../../experiments/E-000003/record.md)"
+    },
+    {
+      "id": "S-000001",
+      "created": "2026-10-19 12:07:15 UTC",
+      "origin": "[D-000002](../../decisions/D-000002/record.md)"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Testing AI Behaviour
 
+Behaviour evaluation supplies evidence for the quality controls and improvement of [VP's full project management method](how-vp-works.md). It also tests AI instructions and workflows used within projects.
+
 AI output varies between runs and is sensitive to visible context. Testing an AI workflow therefore requires both deterministic checks and semantic evaluation, with careful isolation of the scenario.
 
 ## Start with Observable Behaviour

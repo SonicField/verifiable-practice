@@ -1,5 +1,7 @@
 # Bullshit Detection
 
+Honest reporting supports quality control and independent assurance in [VP's project quality management system](../docs/how-vp-works.md). Records preserve failures, uncertainty and rejected choices alongside successes.
+
 Bullshit is not lying. Lying requires knowing the truth and choosing to contradict it. Bullshit is indifference to truth - saying what sounds good without caring whether it is accurate.
 
 AI systems bullshit constantly. They are trained to please. RLHF optimises for human satisfaction, not factual accuracy. Given ten results - nine good, one catastrophic - the system learns to emphasise the nine and bury the one.

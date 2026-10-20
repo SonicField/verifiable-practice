@@ -1,5 +1,7 @@
 # Investigations
 
+Investigations supply evidence for choices within [VP's full project quality management method](how-vp-works.md). Their budgets, authority, records and adopting decisions keep experiments connected to the managed project.
+
 An investigation is a bounded, hypothesis-driven departure from implementation. It answers a question whose result could change the direction of the main work.
 
 Investigations produce evidence. Any experimental code is scaffolding unless the user later chooses to integrate it.

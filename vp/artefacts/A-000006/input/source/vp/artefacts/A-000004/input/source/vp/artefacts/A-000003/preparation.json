@@ -1,0 +1,12 @@
+{
+  "started": "2026-10-19T12:28:18.050432+00:00",
+  "freeze": "2026-10-19T12:28:18.203764+00:00",
+  "ended": "2026-10-19T12:28:18.520955+00:00",
+  "files": 1253,
+  "copy": "/home/alexturner/vp-preserved/verifiable-practice/A-000003-input",
+  "copy_differences": [],
+  "request_sha256": "61c04439cd7c709b49aa0ffc45652993b0a806c384468c115008c98720b13916",
+  "inventory_sha256": "b859d9fa8fc9db4da32df75dc37387cea1eb26b9d275fd46e0a73ab1fe9fc064",
+  "manifest_sha256": "631280ccb46060b93e8864a04765ec22920d251aa33be707594c6ad808fffefa",
+  "capture": "worker-controlled copy/digest operations; immutable by workflow, not tamper-proof"
+}

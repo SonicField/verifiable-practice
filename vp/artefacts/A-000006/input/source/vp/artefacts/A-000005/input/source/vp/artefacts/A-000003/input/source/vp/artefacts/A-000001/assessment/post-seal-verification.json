@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-10-19T11:58:32.904074+00:00",
+  "enumerated_inputs": 154,
+  "all_input_request_manifest_inventory_identities_unchanged": true,
+  "changed": [],
+  "sealed_report_sha256": "d08209f1b0cd981cf7606d82bbac2c1cb3352eb4a3b65e526241fb543459ad3c",
+  "report_link_destinations": 25,
+  "missing_report_destinations": [],
+  "role": "Read-only post-seal system identity and link checks; no reviewed code or scripts executed."
+}

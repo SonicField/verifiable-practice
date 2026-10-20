@@ -1,6 +1,6 @@
 # Skill Architecture
 
-Verifiable Practice is distributed as a self-contained skill repository. Its architecture separates selection, operating instructions, and supporting detail so an AI loads only what the current task needs.
+Verifiable Practice is a full project quality management system for human–AI collaboration, distributed as a self-contained skill repository. The [method overview](how-vp-works.md) explains governance, planning, quality control/assurance, acceptance and maintenance. This architecture separates discovery, procedures, normative contracts, templates and actual project records so an AI loads the references needed for its role and task.
 
 ## Repository Layers
 
@@ -9,9 +9,10 @@ verifiable-practice/
 |-- SKILL.md       Skill metadata, shared rules, and routing
 |-- concepts/      Stable reasoning principles
 |-- playbooks/     Operational procedures for particular tasks
-|-- docs/          Human-facing explanation and maintenance guidance
+|-- docs/          Explanation for human and AI readers
 |-- standards/     Normative contracts for explicitly adopted practices
 |-- templates/     Copyable Markdown documents and record fields
+|-- vp/            This project's instantiated charter, records and evidence
 |-- README.md      Project entry point
 `-- ORIGIN.md      Extraction provenance and scope boundary
 ```
@@ -30,7 +31,11 @@ Playbooks tell an assistant how to perform a bounded class of work. They may req
 
 ### Documentation
 
-Documentation explains VP to human readers. It may overlap in subject with a playbook but should not duplicate operational instructions. The document explains the method and trade-offs; the playbook directs execution.
+Documentation explains the complete method or a component to human and AI readers. It may overlap in subject with a playbook but should avoid duplicating detailed procedures. Explanations establish the model and trade-offs; playbooks direct the selected task; standards retain adopted requirements.
+
+### Project Records and Evidence
+
+A project's selected record root contains its charter, plan, state, ledger, coverage, typed records and owned raw evidence. The working AI maintains them under owner authority. These files are the actual project history and management state; explanatory guides and template examples cannot substitute for them. Source/decision/evidence identities, failed attempts, validity and custody remain inspectable across sessions. Independent Project Audit assesses a frozen copy through a distinct context.
 
 ### Standards and Templates
 

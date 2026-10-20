@@ -1,0 +1,785 @@
+{
+  "checked_at": "2026-10-20T08:10:05.238524+00:00",
+  "direct_owner_manifest_checks": [
+    {
+      "manifest": "vp/artefacts/A-000002/MANIFEST.md",
+      "hashed_rows": 2,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/A-000003/MANIFEST.md",
+      "hashed_rows": 2,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/C-000001/MANIFEST.md",
+      "hashed_rows": 163,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/C-000002/MANIFEST.md",
+      "hashed_rows": 7,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/C-000003/MANIFEST.md",
+      "hashed_rows": 7,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/C-000004/MANIFEST.md",
+      "hashed_rows": 212,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/C-000005/MANIFEST.md",
+      "hashed_rows": 12,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/D-000001/MANIFEST.md",
+      "hashed_rows": 1,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/D-000004/MANIFEST.md",
+      "hashed_rows": 3,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/D-000010/MANIFEST.md",
+      "hashed_rows": 1,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/D-000012/MANIFEST.md",
+      "hashed_rows": 1,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/R-000001/MANIFEST.md",
+      "hashed_rows": 99,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/R-000002/MANIFEST.md",
+      "hashed_rows": 25,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/R-000003/MANIFEST.md",
+      "hashed_rows": 5,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/R-000004/MANIFEST.md",
+      "hashed_rows": 69,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/R-000005/MANIFEST.md",
+      "hashed_rows": 3,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/R-000006/MANIFEST.md",
+      "hashed_rows": 4,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/R-000007/MANIFEST.md",
+      "hashed_rows": 10,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/R-000008/MANIFEST.md",
+      "hashed_rows": 76,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/R-000009/MANIFEST.md",
+      "hashed_rows": 33,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/S-000001/MANIFEST.md",
+      "hashed_rows": 1,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/V-000006/MANIFEST.md",
+      "hashed_rows": 1,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/V-000007/MANIFEST.md",
+      "hashed_rows": 2,
+      "errors": []
+    },
+    {
+      "manifest": "vp/artefacts/V-000010/MANIFEST.md",
+      "hashed_rows": 3,
+      "errors": []
+    }
+  ],
+  "execution_accounting": {
+    "R-000008/results.json": {
+      "start": "2026-10-20T07:54:20.826372+00:00",
+      "end": "2026-10-20T07:54:22.579924+00:00",
+      "members": [
+        {
+          "label": "head",
+          "start": "2026-10-20T07:54:20.935529+00:00",
+          "end": "2026-10-20T07:54:20.937370+00:00",
+          "argv": [
+            "/usr/bin/git",
+            "rev-parse",
+            "HEAD"
+          ],
+          "exit": 0,
+          "expected_exit": 0,
+          "input_count": 0,
+          "inputs_stable": true,
+          "executable_stable": true,
+          "dependencies_stable": true,
+          "dependency_entries": 637,
+          "stdout_present": true,
+          "stderr_present": true,
+          "input_versions_not_standalone_files": []
+        },
+        {
+          "label": "status",
+          "start": "2026-10-20T07:54:21.045662+00:00",
+          "end": "2026-10-20T07:54:21.062296+00:00",
+          "argv": [
+            "/usr/bin/git",
+            "status",
+            "--short"
+          ],
+          "exit": 0,
+          "expected_exit": 0,
+          "input_count": 0,
+          "inputs_stable": true,
+          "executable_stable": true,
+          "dependencies_stable": true,
+          "dependency_entries": 637,
+          "stdout_present": true,
+          "stderr_present": true,
+          "input_versions_not_standalone_files": []
+        },
+        {
+          "label": "candidate-structural",
+          "start": "2026-10-20T07:54:21.218480+00:00",
+          "end": "2026-10-20T07:54:21.252914+00:00",
+          "argv": [
+            "/usr/bin/python3",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/checks.py",
+            "structural",
+            "/home/alexturner/verifiable-practice/vp/artefacts/C-000004/after/source",
+            "/home/alexturner/verifiable-practice/vp/artefacts/C-000004/after/snapshot.json"
+          ],
+          "exit": 0,
+          "expected_exit": 0,
+          "input_count": 73,
+          "inputs_stable": true,
+          "executable_stable": true,
+          "dependencies_stable": true,
+          "dependency_entries": 637,
+          "stdout_present": true,
+          "stderr_present": true,
+          "input_versions_not_standalone_files": []
+        },
+        {
+          "label": "candidate-behaviour",
+          "start": "2026-10-20T07:54:21.364013+00:00",
+          "end": "2026-10-20T07:54:21.388918+00:00",
+          "argv": [
+            "/usr/bin/python3",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/checks.py",
+            "behavior",
+            "/home/alexturner/verifiable-practice/vp/artefacts/C-000004/after/source",
+            "/home/alexturner/verifiable-practice/vp/artefacts/C-000004/after/snapshot.json"
+          ],
+          "exit": 0,
+          "expected_exit": 0,
+          "input_count": 72,
+          "inputs_stable": true,
+          "executable_stable": true,
+          "dependencies_stable": true,
+          "dependency_entries": 637,
+          "stdout_present": true,
+          "stderr_present": true,
+          "input_versions_not_standalone_files": []
+        },
+        {
+          "label": "frontmatter",
+          "start": "2026-10-20T07:54:21.497549+00:00",
+          "end": "2026-10-20T07:54:21.523535+00:00",
+          "argv": [
+            "/usr/bin/python3",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/skill-validator.py",
+            "/home/alexturner/verifiable-practice/vp/artefacts/C-000004/after/source"
+          ],
+          "exit": 0,
+          "expected_exit": 0,
+          "input_count": 2,
+          "inputs_stable": true,
+          "executable_stable": true,
+          "dependencies_stable": true,
+          "dependency_entries": 637,
+          "stdout_present": true,
+          "stderr_present": true,
+          "input_versions_not_standalone_files": []
+        },
+        {
+          "label": "identity-candidate",
+          "start": "2026-10-20T07:54:21.629656+00:00",
+          "end": "2026-10-20T07:54:21.645588+00:00",
+          "argv": [
+            "/usr/bin/python3",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/identity_check.py",
+            "/home/alexturner/verifiable-practice/vp/artefacts/C-000004/after/source"
+          ],
+          "exit": 0,
+          "expected_exit": 0,
+          "input_count": 5,
+          "inputs_stable": true,
+          "executable_stable": true,
+          "dependencies_stable": true,
+          "dependency_entries": 637,
+          "stdout_present": true,
+          "stderr_present": true,
+          "input_versions_not_standalone_files": []
+        },
+        {
+          "label": "identity-baseline-negative",
+          "start": "2026-10-20T07:54:21.751075+00:00",
+          "end": "2026-10-20T07:54:21.767103+00:00",
+          "argv": [
+            "/usr/bin/python3",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/identity_check.py",
+            "/home/alexturner/verifiable-practice/vp/artefacts/C-000004/before/source"
+          ],
+          "exit": 1,
+          "expected_exit": 1,
+          "input_count": 5,
+          "inputs_stable": true,
+          "executable_stable": true,
+          "dependencies_stable": true,
+          "dependency_entries": 637,
+          "stdout_present": true,
+          "stderr_present": true,
+          "input_versions_not_standalone_files": []
+        },
+        {
+          "label": "identity-removed-negative",
+          "start": "2026-10-20T07:54:21.871584+00:00",
+          "end": "2026-10-20T07:54:21.887580+00:00",
+          "argv": [
+            "/usr/bin/python3",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/identity_check.py",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/removed-identity-source"
+          ],
+          "exit": 1,
+          "expected_exit": 1,
+          "input_count": 5,
+          "inputs_stable": true,
+          "executable_stable": true,
+          "dependencies_stable": true,
+          "dependency_entries": 637,
+          "stdout_present": true,
+          "stderr_present": true,
+          "input_versions_not_standalone_files": []
+        },
+        {
+          "label": "coverage-complete",
+          "start": "2026-10-20T07:54:21.997138+00:00",
+          "end": "2026-10-20T07:54:22.017845+00:00",
+          "argv": [
+            "/usr/bin/python3",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/coverage_check.py",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/unit-inventory.json",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/coverage-complete.md",
+            "/home/alexturner/verifiable-practice/vp/artefacts/C-000004/after/source"
+          ],
+          "exit": 0,
+          "expected_exit": 0,
+          "input_count": 74,
+          "inputs_stable": true,
+          "executable_stable": true,
+          "dependencies_stable": true,
+          "dependency_entries": 637,
+          "stdout_present": true,
+          "stderr_present": true,
+          "input_versions_not_standalone_files": []
+        },
+        {
+          "label": "coverage-omitted",
+          "start": "2026-10-20T07:54:22.133691+00:00",
+          "end": "2026-10-20T07:54:22.154928+00:00",
+          "argv": [
+            "/usr/bin/python3",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/coverage_check.py",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/unit-inventory.json",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/coverage-omitted.md",
+            "/home/alexturner/verifiable-practice/vp/artefacts/C-000004/after/source"
+          ],
+          "exit": 1,
+          "expected_exit": 1,
+          "input_count": 74,
+          "inputs_stable": true,
+          "executable_stable": true,
+          "dependencies_stable": true,
+          "dependency_entries": 637,
+          "stdout_present": true,
+          "stderr_present": true,
+          "input_versions_not_standalone_files": []
+        },
+        {
+          "label": "coverage-wrong-digest",
+          "start": "2026-10-20T07:54:22.269560+00:00",
+          "end": "2026-10-20T07:54:22.290868+00:00",
+          "argv": [
+            "/usr/bin/python3",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/coverage_check.py",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/unit-inventory.json",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/coverage-wrong-digest.md",
+            "/home/alexturner/verifiable-practice/vp/artefacts/C-000004/after/source"
+          ],
+          "exit": 1,
+          "expected_exit": 1,
+          "input_count": 74,
+          "inputs_stable": true,
+          "executable_stable": true,
+          "dependencies_stable": true,
+          "dependency_entries": 637,
+          "stdout_present": true,
+          "stderr_present": true,
+          "input_versions_not_standalone_files": []
+        },
+        {
+          "label": "diff-whitespace",
+          "start": "2026-10-20T07:54:22.405937+00:00",
+          "end": "2026-10-20T07:54:22.415472+00:00",
+          "argv": [
+            "/usr/bin/git",
+            "diff",
+            "--check"
+          ],
+          "exit": 0,
+          "expected_exit": 0,
+          "input_count": 71,
+          "inputs_stable": true,
+          "executable_stable": true,
+          "dependencies_stable": true,
+          "dependency_entries": 637,
+          "stdout_present": true,
+          "stderr_present": true,
+          "input_versions_not_standalone_files": []
+        }
+      ]
+    },
+    "R-000009/results.json": {
+      "start": "2026-10-20T08:03:21.186497+00:00",
+      "end": "2026-10-20T08:03:21.839780+00:00",
+      "members": [
+        {
+          "label": "generate-ledger",
+          "start": "2026-10-20T08:03:21.297904+00:00",
+          "end": "2026-10-20T08:03:21.329242+00:00",
+          "argv": [
+            "/usr/bin/python3",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/generate_ledger.py"
+          ],
+          "exit": 0,
+          "expected_exit": 0,
+          "input_count": 67,
+          "inputs_stable": true,
+          "executable_stable": true,
+          "dependencies_stable": true,
+          "dependency_entries": 637,
+          "stdout_present": true,
+          "stderr_present": true,
+          "input_versions_not_standalone_files": [
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+              "bytes": 853,
+              "sha256": "3f27c9dcfe0b1050f6bccfe79bbfddb0c00dd7e46ce2dde73b69dc075ea954da"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+              "bytes": 907,
+              "sha256": "5bfb02eab03ecff61654e66a572e9328a5c0c0a437f8a5d41e3d755f8c7ab199"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+              "bytes": 1419,
+              "sha256": "9886db08d1b2da2b73c6fe8a242f7c114ce076eafa0d172c6e41722412e2770b"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+              "bytes": 927,
+              "sha256": "40e06c22b6cb4503449355f376216064f5581dbc8dd22652389d4233ba6f5329"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+              "bytes": 713,
+              "sha256": "86d8f210c0638ac0da32710f96cc21f66b68426baf1c2b362add740ccf4e5bdd"
+            }
+          ]
+        },
+        {
+          "label": "candidate",
+          "start": "2026-10-20T08:03:21.441343+00:00",
+          "end": "2026-10-20T08:03:21.460984+00:00",
+          "argv": [
+            "/usr/bin/python3",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/candidate-ledger.md",
+            "/home/alexturner/verifiable-practice/vp"
+          ],
+          "exit": 0,
+          "expected_exit": 0,
+          "input_count": 68,
+          "inputs_stable": true,
+          "executable_stable": true,
+          "dependencies_stable": true,
+          "dependency_entries": 637,
+          "stdout_present": true,
+          "stderr_present": true,
+          "input_versions_not_standalone_files": [
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+              "bytes": 853,
+              "sha256": "3f27c9dcfe0b1050f6bccfe79bbfddb0c00dd7e46ce2dde73b69dc075ea954da"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+              "bytes": 907,
+              "sha256": "5bfb02eab03ecff61654e66a572e9328a5c0c0a437f8a5d41e3d755f8c7ab199"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+              "bytes": 1419,
+              "sha256": "9886db08d1b2da2b73c6fe8a242f7c114ce076eafa0d172c6e41722412e2770b"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+              "bytes": 927,
+              "sha256": "40e06c22b6cb4503449355f376216064f5581dbc8dd22652389d4233ba6f5329"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+              "bytes": 713,
+              "sha256": "86d8f210c0638ac0da32710f96cc21f66b68426baf1c2b362add740ccf4e5bdd"
+            }
+          ]
+        },
+        {
+          "label": "deficient-predecessor",
+          "start": "2026-10-20T08:03:21.572951+00:00",
+          "end": "2026-10-20T08:03:21.594568+00:00",
+          "argv": [
+            "/usr/bin/python3",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+            "/home/alexturner/verifiable-practice/vp/artefacts/C-000005/before/views/LEDGER.md",
+            "/home/alexturner/verifiable-practice/vp"
+          ],
+          "exit": 1,
+          "expected_exit": 1,
+          "input_count": 68,
+          "inputs_stable": true,
+          "executable_stable": true,
+          "dependencies_stable": true,
+          "dependency_entries": 637,
+          "stdout_present": true,
+          "stderr_present": true,
+          "input_versions_not_standalone_files": [
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+              "bytes": 853,
+              "sha256": "3f27c9dcfe0b1050f6bccfe79bbfddb0c00dd7e46ce2dde73b69dc075ea954da"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+              "bytes": 907,
+              "sha256": "5bfb02eab03ecff61654e66a572e9328a5c0c0a437f8a5d41e3d755f8c7ab199"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+              "bytes": 1419,
+              "sha256": "9886db08d1b2da2b73c6fe8a242f7c114ce076eafa0d172c6e41722412e2770b"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+              "bytes": 927,
+              "sha256": "40e06c22b6cb4503449355f376216064f5581dbc8dd22652389d4233ba6f5329"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+              "bytes": 713,
+              "sha256": "86d8f210c0638ac0da32710f96cc21f66b68426baf1c2b362add740ccf4e5bdd"
+            }
+          ]
+        },
+        {
+          "label": "missing-type",
+          "start": "2026-10-20T08:03:21.707540+00:00",
+          "end": "2026-10-20T08:03:21.728087+00:00",
+          "argv": [
+            "/usr/bin/python3",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/missing-type-ledger.md",
+            "/home/alexturner/verifiable-practice/vp"
+          ],
+          "exit": 1,
+          "expected_exit": 1,
+          "input_count": 68,
+          "inputs_stable": true,
+          "executable_stable": true,
+          "dependencies_stable": true,
+          "dependency_entries": 637,
+          "stdout_present": true,
+          "stderr_present": true,
+          "input_versions_not_standalone_files": [
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+              "bytes": 853,
+              "sha256": "3f27c9dcfe0b1050f6bccfe79bbfddb0c00dd7e46ce2dde73b69dc075ea954da"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+              "bytes": 907,
+              "sha256": "5bfb02eab03ecff61654e66a572e9328a5c0c0a437f8a5d41e3d755f8c7ab199"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+              "bytes": 1419,
+              "sha256": "9886db08d1b2da2b73c6fe8a242f7c114ce076eafa0d172c6e41722412e2770b"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+              "bytes": 927,
+              "sha256": "40e06c22b6cb4503449355f376216064f5581dbc8dd22652389d4233ba6f5329"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+              "bytes": 713,
+              "sha256": "86d8f210c0638ac0da32710f96cc21f66b68426baf1c2b362add740ccf4e5bdd"
+            }
+          ]
+        }
+      ]
+    },
+    "R-000009/final-results.json": {
+      "start": "2026-10-20T08:04:36.116520+00:00",
+      "end": "2026-10-20T08:04:36.302066+00:00",
+      "members": [
+        {
+          "label": "final-complete-view",
+          "start": "2026-10-20T08:04:36.223447+00:00",
+          "end": "2026-10-20T08:04:36.243922+00:00",
+          "argv": [
+            "/usr/bin/python3",
+            "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+            "/home/alexturner/verifiable-practice/vp/LEDGER.md",
+            "/home/alexturner/verifiable-practice/vp"
+          ],
+          "exit": 0,
+          "expected_exit": 0,
+          "input_count": 71,
+          "inputs_stable": true,
+          "executable_stable": true,
+          "dependencies_stable": true,
+          "dependency_entries": 637,
+          "stdout_present": true,
+          "stderr_present": true,
+          "input_versions_not_standalone_files": [
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/LEDGER.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/LEDGER.md",
+              "bytes": 21870,
+              "sha256": "3919124fefa897639f1b710122b99d2e793e54d24907bf5d46aca0405e6ee10d"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+              "bytes": 853,
+              "sha256": "3f27c9dcfe0b1050f6bccfe79bbfddb0c00dd7e46ce2dde73b69dc075ea954da"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+              "bytes": 907,
+              "sha256": "5bfb02eab03ecff61654e66a572e9328a5c0c0a437f8a5d41e3d755f8c7ab199"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+              "bytes": 1419,
+              "sha256": "9886db08d1b2da2b73c6fe8a242f7c114ce076eafa0d172c6e41722412e2770b"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+              "bytes": 927,
+              "sha256": "40e06c22b6cb4503449355f376216064f5581dbc8dd22652389d4233ba6f5329"
+            },
+            {
+              "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+              "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+              "bytes": 713,
+              "sha256": "86d8f210c0638ac0da32710f96cc21f66b68426baf1c2b362add740ccf4e5bdd"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "recoverable_terminal_versions": [
+    {
+      "logical_path": "vp/records/changes/C-000005/record.md",
+      "captured_sha256": "3f27c9dcfe0b1050f6bccfe79bbfddb0c00dd7e46ce2dde73b69dc075ea954da",
+      "reconstructed_sha256": "3f27c9dcfe0b1050f6bccfe79bbfddb0c00dd7e46ce2dde73b69dc075ea954da",
+      "bytes": 853,
+      "matches": true,
+      "method": "Remove explicitly dated terminal outcome append; restore Status/Sealed open as original candidate ledger states. Assessor current reconstruction only; not original captured file."
+    },
+    {
+      "logical_path": "vp/records/events/V-000009/record.md",
+      "captured_sha256": "5bfb02eab03ecff61654e66a572e9328a5c0c0a437f8a5d41e3d755f8c7ab199",
+      "reconstructed_sha256": "5bfb02eab03ecff61654e66a572e9328a5c0c0a437f8a5d41e3d755f8c7ab199",
+      "bytes": 907,
+      "matches": true,
+      "method": "Remove explicitly dated terminal outcome append; restore Status/Sealed open as original candidate ledger states. Assessor current reconstruction only; not original captured file."
+    },
+    {
+      "logical_path": "vp/records/experiments/E-000009/record.md",
+      "captured_sha256": "9886db08d1b2da2b73c6fe8a242f7c114ce076eafa0d172c6e41722412e2770b",
+      "reconstructed_sha256": "9886db08d1b2da2b73c6fe8a242f7c114ce076eafa0d172c6e41722412e2770b",
+      "bytes": 1419,
+      "matches": true,
+      "method": "Remove explicitly dated terminal outcome append; restore Status/Sealed open as original candidate ledger states. Assessor current reconstruction only; not original captured file."
+    },
+    {
+      "logical_path": "vp/records/hypotheses/H-000008/record.md",
+      "captured_sha256": "40e06c22b6cb4503449355f376216064f5581dbc8dd22652389d4233ba6f5329",
+      "reconstructed_sha256": "40e06c22b6cb4503449355f376216064f5581dbc8dd22652389d4233ba6f5329",
+      "bytes": 927,
+      "matches": true,
+      "method": "Remove explicitly dated terminal outcome append; restore Status/Sealed open as original candidate ledger states. Assessor current reconstruction only; not original captured file."
+    },
+    {
+      "logical_path": "vp/records/runs/R-000009/record.md",
+      "captured_sha256": "86d8f210c0638ac0da32710f96cc21f66b68426baf1c2b362add740ccf4e5bdd",
+      "reconstructed_sha256": "86d8f210c0638ac0da32710f96cc21f66b68426baf1c2b362add740ccf4e5bdd",
+      "bytes": 713,
+      "matches": true,
+      "method": "Remove explicitly dated terminal outcome append; restore Status/Sealed open as original candidate ledger states. Assessor current reconstruction only; not original captured file."
+    },
+    {
+      "logical_path": "vp/LEDGER.md final R9 input",
+      "captured_sha256": "3919124fefa897639f1b710122b99d2e793e54d24907bf5d46aca0405e6ee10d",
+      "reconstructed_sha256": "3919124fefa897639f1b710122b99d2e793e54d24907bf5d46aca0405e6ee10d",
+      "bytes": 21870,
+      "matches": true,
+      "method": "C5 preserved after-view inverse of five dated state projections; restore As of to D17/D18 issuance 08:04:08. Exact captured digest validates this limited inverse; not original raw capture."
+    }
+  ],
+  "A5_mutation": {
+    "versions_match_declared": true,
+    "altered_matches_A5request": true,
+    "original_matches_R9final_capture": true,
+    "original_length": 7250,
+    "altered_length": 7250,
+    "limits": "reconstruction now, not original raw capture; original issuance status retained, request edited after issue, no assessor dispatched"
+  },
+  "limits": "Read-only byte/digest and output inspection only. Captured executable/dependency hashes are preserved assertions; no current runtime executed or authenticated. Six absent standalone original input files are digest-verified assessor reconstructions from retained dated projections, distinguishable from original captures.",
+  "control_input_comparison": {
+    "omission_difference": [
+      "| templates/project-records/workspace.md:1 \u2014 Workspace Ownership | `a40e64cee89901d30aedf3197d5bb4b254ae66b8aeb61ed9aa55ccbf17d6049a` | C-000001 / D-000004 file rationale / D-000007 retention; unchanged bytes; bounded example/structural rerun H-000007 E-000008 R-000008 pending | original introduction unknown for unchanged legacy; current evidence/choices capped by 2026-10-26 UTC |"
+    ],
+    "omission_added": [],
+    "wrong_digest_differences": [
+      [
+        "| templates/project-records/workspace.md:1 \u2014 Workspace Ownership | `a40e64cee89901d30aedf3197d5bb4b254ae66b8aeb61ed9aa55ccbf17d6049a` | C-000001 / D-000004 file rationale / D-000007 retention; unchanged bytes; bounded example/structural rerun H-000007 E-000008 R-000008 pending | original introduction unknown for unchanged legacy; current evidence/choices capped by 2026-10-26 UTC |",
+        "| templates/project-records/workspace.md:1 \u2014 Workspace Ownership | `0000000000000000000000000000000000000000000000000000000000000000` | C-000001 / D-000004 file rationale / D-000007 retention; unchanged bytes; bounded example/structural rerun H-000007 E-000008 R-000008 pending | original introduction unknown for unchanged legacy; current evidence/choices capped by 2026-10-26 UTC |"
+      ]
+    ],
+    "complete_line_count": 513,
+    "omitted_line_count": 512,
+    "wrong_line_count": 513
+  },
+  "R8_custody": {
+    "captured": {
+      "started": "2026-10-20T07:55:27.827695+00:00",
+      "ended": "2026-10-20T07:55:28.986711+00:00",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/custody.py"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "instrument": {
+        "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/custody.py",
+        "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/custody.py",
+        "bytes": 2781,
+        "sha256": "7b97505ba259956f1e496e3181d94b305c737fa6652b7bd806dea29a3c7a0d08"
+      },
+      "operation": "shutil.copytree + exact same full-inventory SHA256 comparison before/planted/after restoration",
+      "copy": "/home/alexturner/vp-preserved/verifiable-practice/R-000008-candidate-evidence",
+      "restore": "/tmp/vp-R8-restored-ka_lt7c8/project",
+      "inventory": "copy-inventory.json",
+      "inventory_identity": {
+        "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/copy-inventory.json",
+        "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/copy-inventory.json",
+        "bytes": 635948,
+        "sha256": "46ea6ccc4649253d385fc4fc563f65d3925d95f2cf08dbbc9c34835eedb598d3"
+      },
+      "files": 2853,
+      "differences_before": [],
+      "planted_differences": [
+        ".gitattributes"
+      ],
+      "differences_after": [],
+      "executable_before": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "executable_after": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "dependency_before": "custody.dependencies-before.json",
+      "dependency_after": "custody.dependencies-after.json",
+      "criterion_met": true,
+      "limits": "same host, independently located pre-result bundle; does not contain future R8 seal/retention/audit or its own later custody output, not authenticated/off-host protection"
+    },
+    "dependency_stable": true,
+    "copy_inventory_matches_claimed": true,
+    "limits": "Inspected producing comparator and inputs/results; not executed, no uncommissioned copy/restore path read. Full present A6copy independently compared separately."
+  }
+}

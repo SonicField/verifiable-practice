@@ -1,0 +1,4160 @@
+[
+  {
+    "source": "CONTRIBUTING.md",
+    "destination": "CODE_OF_CONDUCT.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/CODE_OF_CONDUCT.md",
+    "exists": true
+  },
+  {
+    "source": "CONTRIBUTING.md",
+    "destination": "SECURITY.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/SECURITY.md",
+    "exists": true
+  },
+  {
+    "source": "CONTRIBUTING.md",
+    "destination": "LICENSE",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/LICENSE",
+    "exists": true
+  },
+  {
+    "source": "ORIGIN.md",
+    "destination": "docs/how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "ORIGIN.md",
+    "destination": "standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "ORIGIN.md",
+    "destination": "playbooks/record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "ORIGIN.md",
+    "destination": "docs/project-records-design.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/project-records-design.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "SKILL.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "docs/how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "WHY.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/WHY.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "playbooks/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "templates/project-records/README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/README.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "SKILL.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "concepts/zero-code-contract.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/zero-code-contract.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "playbooks/audit-routing.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/audit-routing.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "concepts/goals.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/goals.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "concepts/falsifiability.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/falsifiability.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "concepts/rhetoric.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/rhetoric.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "concepts/bullshit-detection.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/bullshit-detection.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "concepts/verification-cycle.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/verification-cycle.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "concepts/zero-code-contract.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/zero-code-contract.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "concepts/pte.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/pte.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "concepts/engineering-standards.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/engineering-standards.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "vp/PROJECT.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/PROJECT.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "vp/README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/README.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "vp/STATE.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/STATE.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "playbooks/review.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/review.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "playbooks/code-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/code-audit.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "playbooks/investigation.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/investigation.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "playbooks/debugging.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/debugging.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "playbooks/discovery.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/discovery.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "playbooks/discovery-verification.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/discovery-verification.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "playbooks/recovery.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/recovery.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "playbooks/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "playbooks/record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "playbooks/audit-routing.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/audit-routing.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "playbooks/document-analysis.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/document-analysis.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "playbooks/document-planning.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/document-planning.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "playbooks/document-description.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/document-description.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "playbooks/precise-technical-english.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/precise-technical-english.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "docs/how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "docs/review-and-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/review-and-audit.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "docs/discovery-and-recovery.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/discovery-and-recovery.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "docs/investigations.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/investigations.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "docs/document-work.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/document-work.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "docs/testing-ai-behaviour.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/testing-ai-behaviour.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "docs/skill-architecture.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/skill-architecture.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "docs/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "docs/project-records-design.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/project-records-design.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "docs/project-records-examples.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/project-records-examples.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "docs/project-records-scenarios.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/project-records-scenarios.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "docs/independent-record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/independent-record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "ORIGIN.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/ORIGIN.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "CONTRIBUTING.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/CONTRIBUTING.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "CODE_OF_CONDUCT.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/CODE_OF_CONDUCT.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "SECURITY.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/SECURITY.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "CHANGELOG.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/CHANGELOG.md",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "CITATION.cff",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/CITATION.cff",
+    "exists": true
+  },
+  {
+    "source": "README.md",
+    "destination": "LICENSE",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/LICENSE",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "vp/README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/README.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "vp/STATE.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/STATE.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "docs/how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "playbooks/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "playbooks/audit-routing.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/audit-routing.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "playbooks/record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "WHY.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/WHY.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "concepts/goals.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/goals.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "playbooks/review.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/review.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "concepts/falsifiability.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/falsifiability.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "concepts/bullshit-detection.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/bullshit-detection.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "concepts/verification-cycle.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/verification-cycle.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "concepts/engineering-standards.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/engineering-standards.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "concepts/zero-code-contract.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/zero-code-contract.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "playbooks/audit-routing.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/audit-routing.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "playbooks/code-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/code-audit.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "playbooks/investigation.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/investigation.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "playbooks/debugging.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/debugging.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "playbooks/discovery.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/discovery.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "playbooks/discovery-verification.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/discovery-verification.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "playbooks/recovery.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/recovery.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "playbooks/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "templates/project-records/README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/README.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "playbooks/record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "templates/project-records/audit-request.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/audit-request.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "templates/project-records/audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/audit.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "templates/project-records/audit-response.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/audit-response.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "playbooks/document-analysis.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/document-analysis.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "concepts/rhetoric.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/rhetoric.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "playbooks/document-planning.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/document-planning.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "playbooks/document-description.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/document-description.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "concepts/pte.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/pte.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "playbooks/precise-technical-english.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/precise-technical-english.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "docs/how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "docs/review-and-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/review-and-audit.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "docs/discovery-and-recovery.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/discovery-and-recovery.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "docs/investigations.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/investigations.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "docs/document-work.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/document-work.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "docs/testing-ai-behaviour.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/testing-ai-behaviour.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "docs/skill-architecture.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/skill-architecture.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "docs/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "docs/project-records-design.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/project-records-design.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "docs/project-records-examples.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/project-records-examples.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "docs/project-records-scenarios.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/project-records-scenarios.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "docs/independent-record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/independent-record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "CONTRIBUTING.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/CONTRIBUTING.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "SECURITY.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/SECURITY.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "CHANGELOG.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/CHANGELOG.md",
+    "exists": true
+  },
+  {
+    "source": "SKILL.md",
+    "destination": "CODE_OF_CONDUCT.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/CODE_OF_CONDUCT.md",
+    "exists": true
+  },
+  {
+    "source": "WHY.md",
+    "destination": "docs/independent-record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/independent-record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "WHY.md",
+    "destination": "docs/how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "WHY.md",
+    "destination": "standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "WHY.md",
+    "destination": "README.md#foundations",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/README.md",
+    "exists": true
+  },
+  {
+    "source": "WHY.md",
+    "destination": "docs/how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "WHY.md",
+    "destination": "templates/project-records/README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/README.md",
+    "exists": true
+  },
+  {
+    "source": "WHY.md",
+    "destination": "playbooks/review.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/review.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/bullshit-detection.md",
+    "destination": "../docs/how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/bullshit-detection.md",
+    "destination": "../README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/README.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/bullshit-detection.md",
+    "destination": "../SKILL.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/engineering-standards.md",
+    "destination": "../docs/how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/falsifiability.md",
+    "destination": "../docs/how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/falsifiability.md",
+    "destination": "../README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/README.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/falsifiability.md",
+    "destination": "../SKILL.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/goals.md",
+    "destination": "../docs/how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/goals.md",
+    "destination": "../README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/README.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/goals.md",
+    "destination": "../SKILL.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/pte.md",
+    "destination": "../docs/how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/pte.md",
+    "destination": "../README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/README.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/pte.md",
+    "destination": "../SKILL.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/rhetoric.md",
+    "destination": "../docs/how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/rhetoric.md",
+    "destination": "../README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/README.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/rhetoric.md",
+    "destination": "../SKILL.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/verification-cycle.md",
+    "destination": "../docs/how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/verification-cycle.md",
+    "destination": "../README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/README.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/verification-cycle.md",
+    "destination": "../SKILL.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/zero-code-contract.md",
+    "destination": "../docs/how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/zero-code-contract.md",
+    "destination": "../standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/zero-code-contract.md",
+    "destination": "../docs/independent-record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/independent-record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/zero-code-contract.md",
+    "destination": "../docs/independent-record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/independent-record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/zero-code-contract.md",
+    "destination": "../README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/README.md",
+    "exists": true
+  },
+  {
+    "source": "concepts/zero-code-contract.md",
+    "destination": "../SKILL.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": "docs/discovery-and-recovery.md",
+    "destination": "how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "docs/discovery-and-recovery.md",
+    "destination": "../playbooks/discovery.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/discovery.md",
+    "exists": true
+  },
+  {
+    "source": "docs/discovery-and-recovery.md",
+    "destination": "../playbooks/discovery-verification.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/discovery-verification.md",
+    "exists": true
+  },
+  {
+    "source": "docs/discovery-and-recovery.md",
+    "destination": "../playbooks/recovery.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/recovery.md",
+    "exists": true
+  },
+  {
+    "source": "docs/document-work.md",
+    "destination": "how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "docs/document-work.md",
+    "destination": "../playbooks/document-analysis.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/document-analysis.md",
+    "exists": true
+  },
+  {
+    "source": "docs/document-work.md",
+    "destination": "../playbooks/document-planning.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/document-planning.md",
+    "exists": true
+  },
+  {
+    "source": "docs/document-work.md",
+    "destination": "../playbooks/document-description.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/document-description.md",
+    "exists": true
+  },
+  {
+    "source": "docs/document-work.md",
+    "destination": "../concepts/pte.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/pte.md",
+    "exists": true
+  },
+  {
+    "source": "docs/how-vp-works.md",
+    "destination": "../standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "docs/how-vp-works.md",
+    "destination": "../playbooks/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "docs/how-vp-works.md",
+    "destination": "../templates/project-records/README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/README.md",
+    "exists": true
+  },
+  {
+    "source": "docs/how-vp-works.md",
+    "destination": "../concepts/verification-cycle.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/verification-cycle.md",
+    "exists": true
+  },
+  {
+    "source": "docs/how-vp-works.md",
+    "destination": "../concepts/engineering-standards.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/engineering-standards.md",
+    "exists": true
+  },
+  {
+    "source": "docs/how-vp-works.md",
+    "destination": "../playbooks/investigation.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/investigation.md",
+    "exists": true
+  },
+  {
+    "source": "docs/how-vp-works.md",
+    "destination": "../playbooks/document-analysis.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/document-analysis.md",
+    "exists": true
+  },
+  {
+    "source": "docs/how-vp-works.md",
+    "destination": "../playbooks/record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "docs/how-vp-works.md",
+    "destination": "independent-record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/independent-record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "docs/how-vp-works.md",
+    "destination": "../playbooks/review.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/review.md",
+    "exists": true
+  },
+  {
+    "source": "docs/how-vp-works.md",
+    "destination": "testing-ai-behaviour.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/testing-ai-behaviour.md",
+    "exists": true
+  },
+  {
+    "source": "docs/how-vp-works.md",
+    "destination": "../concepts/zero-code-contract.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/zero-code-contract.md",
+    "exists": true
+  },
+  {
+    "source": "docs/how-vp-works.md",
+    "destination": "../standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "docs/how-vp-works.md",
+    "destination": "../playbooks/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "docs/how-vp-works.md",
+    "destination": "../playbooks/audit-routing.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/audit-routing.md",
+    "exists": true
+  },
+  {
+    "source": "docs/how-vp-works.md",
+    "destination": "../templates/project-records/README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/README.md",
+    "exists": true
+  },
+  {
+    "source": "docs/how-vp-works.md",
+    "destination": "skill-architecture.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/skill-architecture.md",
+    "exists": true
+  },
+  {
+    "source": "docs/independent-record-audit.md",
+    "destination": "how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "docs/independent-record-audit.md",
+    "destination": "../playbooks/audit-routing.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/audit-routing.md",
+    "exists": true
+  },
+  {
+    "source": "docs/independent-record-audit.md",
+    "destination": "../standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "docs/independent-record-audit.md",
+    "destination": "../playbooks/record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "docs/independent-record-audit.md",
+    "destination": "project-records-design.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/project-records-design.md",
+    "exists": true
+  },
+  {
+    "source": "docs/investigations.md",
+    "destination": "how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "docs/investigations.md",
+    "destination": "../standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "docs/investigations.md",
+    "destination": "../playbooks/investigation.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/investigation.md",
+    "exists": true
+  },
+  {
+    "source": "docs/investigations.md",
+    "destination": "../playbooks/debugging.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/debugging.md",
+    "exists": true
+  },
+  {
+    "source": "docs/project-records-design.md",
+    "destination": "../vp/README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/README.md",
+    "exists": true
+  },
+  {
+    "source": "docs/project-records-design.md",
+    "destination": "project-records-scenarios.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/project-records-scenarios.md",
+    "exists": true
+  },
+  {
+    "source": "docs/project-records-design.md",
+    "destination": "how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "docs/project-records-examples.md",
+    "destination": "how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "docs/project-records-examples.md",
+    "destination": "../templates/project-records/README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/README.md",
+    "exists": true
+  },
+  {
+    "source": "docs/project-records-scenarios.md",
+    "destination": "how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "docs/project-records-scenarios.md",
+    "destination": "../standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "docs/project-records-scenarios.md",
+    "destination": "../playbooks/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "docs/project-records-scenarios.md",
+    "destination": "testing-ai-behaviour.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/testing-ai-behaviour.md",
+    "exists": true
+  },
+  {
+    "source": "docs/project-records.md",
+    "destination": "how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "docs/project-records.md",
+    "destination": "../standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "docs/project-records.md",
+    "destination": "../playbooks/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "docs/project-records.md",
+    "destination": "../templates/project-records/README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/README.md",
+    "exists": true
+  },
+  {
+    "source": "docs/project-records.md",
+    "destination": "independent-record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/independent-record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "docs/project-records.md",
+    "destination": "project-records-design.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/project-records-design.md",
+    "exists": true
+  },
+  {
+    "source": "docs/project-records.md",
+    "destination": "project-records-examples.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/project-records-examples.md",
+    "exists": true
+  },
+  {
+    "source": "docs/project-records.md",
+    "destination": "project-records-scenarios.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/project-records-scenarios.md",
+    "exists": true
+  },
+  {
+    "source": "docs/review-and-audit.md",
+    "destination": "how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "docs/review-and-audit.md",
+    "destination": "../playbooks/audit-routing.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/audit-routing.md",
+    "exists": true
+  },
+  {
+    "source": "docs/review-and-audit.md",
+    "destination": "../playbooks/review.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/review.md",
+    "exists": true
+  },
+  {
+    "source": "docs/review-and-audit.md",
+    "destination": "../concepts/engineering-standards.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/engineering-standards.md",
+    "exists": true
+  },
+  {
+    "source": "docs/review-and-audit.md",
+    "destination": "../playbooks/code-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/code-audit.md",
+    "exists": true
+  },
+  {
+    "source": "docs/review-and-audit.md",
+    "destination": "../playbooks/record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "docs/review-and-audit.md",
+    "destination": "independent-record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/independent-record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "docs/skill-architecture.md",
+    "destination": "how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "docs/testing-ai-behaviour.md",
+    "destination": "how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/audit-routing.md",
+    "destination": "record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/audit-routing.md",
+    "destination": "code-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/code-audit.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/audit-routing.md",
+    "destination": "review.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/review.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/code-audit.md",
+    "destination": "../concepts/engineering-standards.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/engineering-standards.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/code-audit.md",
+    "destination": "audit-routing.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/audit-routing.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/code-audit.md",
+    "destination": "record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/document-analysis.md",
+    "destination": "../concepts/goals.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/goals.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/document-analysis.md",
+    "destination": "../concepts/rhetoric.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/rhetoric.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/document-analysis.md",
+    "destination": "../concepts/bullshit-detection.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/bullshit-detection.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/document-analysis.md",
+    "destination": "../concepts/falsifiability.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/falsifiability.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/investigation.md",
+    "destination": "../standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/investigation.md",
+    "destination": "project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/precise-technical-english.md",
+    "destination": "../concepts/pte.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/concepts/pte.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/project-records.md",
+    "destination": "../standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/project-records.md",
+    "destination": "../templates/project-records/README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/README.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/project-records.md",
+    "destination": "record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/record-audit.md",
+    "destination": "../standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/record-audit.md",
+    "destination": "audit-routing.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/audit-routing.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/record-audit.md",
+    "destination": "../templates/project-records/audit-request.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/audit-request.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/record-audit.md",
+    "destination": "../templates/project-records/audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/audit.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/record-audit.md",
+    "destination": "../templates/project-records/audit-response.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/audit-response.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/recovery.md",
+    "destination": "../standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/recovery.md",
+    "destination": "project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/review.md",
+    "destination": "audit-routing.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/audit-routing.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/review.md",
+    "destination": "investigation.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/investigation.md",
+    "exists": true
+  },
+  {
+    "source": "playbooks/review.md",
+    "destination": "discovery-verification.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/discovery-verification.md",
+    "exists": true
+  },
+  {
+    "source": "standards/project-records.md",
+    "destination": "../playbooks/audit-routing.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/audit-routing.md",
+    "exists": true
+  },
+  {
+    "source": "standards/project-records.md",
+    "destination": "../playbooks/record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "standards/project-records.md",
+    "destination": "../docs/independent-record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/independent-record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "standards/project-records.md",
+    "destination": "../docs/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "standards/project-records.md",
+    "destination": "../docs/project-records-design.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/project-records-design.md",
+    "exists": true
+  },
+  {
+    "source": "standards/project-records.md",
+    "destination": "../templates/project-records/README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/README.md",
+    "exists": true
+  },
+  {
+    "source": "standards/project-records.md",
+    "destination": "../playbooks/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "../../docs/how-vp-works.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/docs/how-vp-works.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "../../standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "../../playbooks/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "root.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/root.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "project.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/project.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "plan.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/plan.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "state.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/state.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "ledger.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/ledger.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "coverage.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/coverage.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "decision.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/decision.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "stage.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/stage.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "hypothesis.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/hypothesis.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "experiment.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/experiment.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "build.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/build.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "run.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/run.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "change.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/change.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "event.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/event.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/audit.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "audit-request.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/audit-request.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "audit-response.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/audit-response.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "manifest.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/manifest.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "workspace.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/templates/project-records/workspace.md",
+    "exists": true
+  },
+  {
+    "source": "templates/project-records/README.md",
+    "destination": "../../playbooks/record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/playbooks/record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "vp/README.md",
+    "destination": "PROJECT.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/PROJECT.md",
+    "exists": true
+  },
+  {
+    "source": "vp/README.md",
+    "destination": "PLAN.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/PLAN.md",
+    "exists": true
+  },
+  {
+    "source": "vp/README.md",
+    "destination": "STATE.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/STATE.md",
+    "exists": true
+  },
+  {
+    "source": "vp/README.md",
+    "destination": "LEDGER.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/LEDGER.md",
+    "exists": true
+  },
+  {
+    "source": "vp/README.md",
+    "destination": "COVERAGE.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/COVERAGE.md",
+    "exists": true
+  },
+  {
+    "source": "vp/README.md",
+    "destination": "records/audits/A-000003/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000003/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/README.md",
+    "destination": "records/decisions/D-000009/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000009/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/README.md",
+    "destination": "records/events/V-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/events/V-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/README.md",
+    "destination": "records/events/V-000007/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/events/V-000007/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/PROJECT.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/PROJECT.md",
+    "destination": "artefacts/D-000001/authority.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/D-000001/authority.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/audits/A-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/audits/A-000001/request.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000001/request.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "artefacts/A-000001/input/user-authority.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/user-authority.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/audits/A-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "artefacts/A-000002/input/source/vp/records/decisions/D-000005/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000002/input/source/vp/records/decisions/D-000005/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "artefacts/A-000002/input/source/vp/records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000002/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/audits/A-000002/request.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000002/request.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/audits/A-000003/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000003/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "artefacts/A-000003/input/source/vp/records/decisions/D-000008/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000003/input/source/vp/records/decisions/D-000008/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "artefacts/A-000003/input/source/vp/records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000003/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/audits/A-000003/request.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000003/request.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/audits/A-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "artefacts/A-000004/input/source/vp/records/decisions/D-000015/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000004/input/source/vp/records/decisions/D-000015/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "artefacts/A-000004/input/source/vp/records/decisions/D-000014/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000004/input/source/vp/records/decisions/D-000014/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "artefacts/A-000004/input/source/vp/records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000004/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/audits/A-000004/request.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000004/request.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/audits/A-000005/request.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000005/request.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/events/V-000010/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/events/V-000010/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000018/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000018/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/audits/A-000006/request.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000006/request.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000019/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000019/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/changes/C-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/changes/C-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/changes/C-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/changes/C-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/changes/C-000003/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/changes/C-000003/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000010/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000010/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/changes/C-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/changes/C-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000012/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000012/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/changes/C-000005/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/changes/C-000005/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000016/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000016/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000003/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000003/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000003/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000003/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000005/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000005/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000005/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000005/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000007/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000007/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000008/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000008/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000007/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000007/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000009/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000009/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000008/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000008/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000010/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000010/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000009/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000009/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000011/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000011/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000010/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000010/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000012/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000012/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000009/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000009/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000013/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000013/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000012/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000012/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000014/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000014/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000013/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000013/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000015/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000015/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000014/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000014/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000016/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000016/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000015/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000015/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000017/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000017/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000016/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000016/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000018/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000018/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000017/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000017/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000019/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000019/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000018/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000018/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/events/V-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/events/V-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/events/V-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/events/V-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/audits/A-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/events/V-000003/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/events/V-000003/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/events/V-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/events/V-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/events/V-000005/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/events/V-000005/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000007/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000007/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/audits/A-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/events/V-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/events/V-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000009/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000009/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/events/V-000007/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/events/V-000007/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000010/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000010/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000011/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000011/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/events/V-000008/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/events/V-000008/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000013/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000013/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/events/V-000009/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/events/V-000009/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000016/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000016/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/events/V-000010/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/events/V-000010/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000019/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000019/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000003/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000003/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000003/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000003/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000005/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000005/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000010/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000010/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000011/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000011/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000007/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000007/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000012/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000012/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000008/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000008/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000013/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000013/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000009/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000009/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000016/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000016/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/hypotheses/H-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/hypotheses/H-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/hypotheses/H-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/hypotheses/H-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000003/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000003/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/hypotheses/H-000003/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/hypotheses/H-000003/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/hypotheses/H-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/hypotheses/H-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/hypotheses/H-000005/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/hypotheses/H-000005/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000010/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000010/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/hypotheses/H-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/hypotheses/H-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000012/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000012/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/hypotheses/H-000007/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/hypotheses/H-000007/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000013/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000013/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/hypotheses/H-000008/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/hypotheses/H-000008/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000016/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000016/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/runs/R-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/runs/R-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/runs/R-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/runs/R-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/runs/R-000003/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/runs/R-000003/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000003/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000003/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/runs/R-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/runs/R-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/runs/R-000005/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/runs/R-000005/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000005/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000005/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/runs/R-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/runs/R-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/runs/R-000007/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/runs/R-000007/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000007/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000007/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/runs/R-000008/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/runs/R-000008/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000008/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000008/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/runs/R-000009/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/runs/R-000009/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/experiments/E-000009/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000009/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/stages/S-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/stages/S-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/stages/S-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/stages/S-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000012/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000012/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/LEDGER.md",
+    "destination": "records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/COVERAGE.md",
+    "destination": "artefacts/C-000004/after/snapshot.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/C-000004/after/snapshot.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "request.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000001/request.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "request.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000001/request.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/source/standards/project-records.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/source/standards/project-records.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/source/playbooks/record-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/source/playbooks/record-audit.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/source/templates/project-records/audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/source/templates/project-records/audit.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/MANIFEST.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/MANIFEST.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/inventory.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/inventory.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/user-authority.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/user-authority.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/root-inventory.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/root-inventory.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/git-capture-3.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/git-capture-3.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/source/README.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/source/README.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/source/SKILL.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/source/SKILL.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/source/ORIGIN.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/source/ORIGIN.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/source/docs/project-records-design.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/source/docs/project-records-design.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/source/docs/testing-ai-behaviour.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/source/docs/testing-ai-behaviour.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/source/docs/project-records-scenarios.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/source/docs/project-records-scenarios.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/source/docs/project-records-examples.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/source/docs/project-records-examples.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/source/.gitignore",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/source/.gitignore",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/source/.vp/audit-evidence/results.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/results.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/input/source/.vp/audit-evidence/final-checks.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/input/source/.vp/audit-evidence/final-checks.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/assessment/pre-verification.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/assessment/pre-verification.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/assessment/post-verification.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/assessment/post-verification.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/assessment/structural-checks.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/assessment/structural-checks.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/assessment/snapshot-comparison.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/assessment/snapshot-comparison.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/assessment/prior-manifest-check.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/assessment/prior-manifest-check.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000001/record.md",
+    "destination": "../../../artefacts/A-000001/assessment/semantic-traces.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000001/assessment/semantic-traces.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000002/record.md",
+    "destination": "../../../artefacts/A-000002/input/source/vp/records/decisions/D-000005/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000002/input/source/vp/records/decisions/D-000005/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000002/record.md",
+    "destination": "../../../artefacts/A-000002/input/source/vp/records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000002/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000002/record.md",
+    "destination": "request.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000002/request.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000002/record.md",
+    "destination": "../../../artefacts/A-000002/assessment/structural-checks.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000002/assessment/structural-checks.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000002/record.md",
+    "destination": "../../../artefacts/A-000002/assessment/coverage-and-origins.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000002/assessment/coverage-and-origins.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000002/record.md",
+    "destination": "../../../artefacts/A-000002/assessment/manifest-checks.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000002/assessment/manifest-checks.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000002/record.md",
+    "destination": "../../../artefacts/A-000002/assessment/custody-checks.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000002/assessment/custody-checks.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000002/record.md",
+    "destination": "../../../artefacts/A-000002/assessment/semantic-traces.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000002/assessment/semantic-traces.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000002/record.md",
+    "destination": "../../../artefacts/A-000002/assessment/post-verification.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000002/assessment/post-verification.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000003/record.md",
+    "destination": "request.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000003/request.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000003/record.md",
+    "destination": "../../../artefacts/A-000003/input/source/vp/records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000003/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000003/record.md",
+    "destination": "../../../artefacts/A-000003/input/source/vp/records/decisions/D-000008/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000003/input/source/vp/records/decisions/D-000008/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000003/record.md",
+    "destination": "../../../artefacts/A-000003/input/source/vp/records/audits/A-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000003/input/source/vp/records/audits/A-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000003/record.md",
+    "destination": "../../../artefacts/A-000003/input/source/vp/records/audits/A-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000003/input/source/vp/records/audits/A-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000003/record.md",
+    "destination": "../../../artefacts/A-000003/input/source/vp/records/events/V-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000003/input/source/vp/records/events/V-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000003/record.md",
+    "destination": "../../../artefacts/A-000003/input/source/vp/records/events/V-000005/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000003/input/source/vp/records/events/V-000005/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000003/record.md",
+    "destination": "../../../artefacts/A-000003/assessment/pre-verification.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000003/assessment/pre-verification.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000003/record.md",
+    "destination": "../../../artefacts/A-000003/assessment/post-verification.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000003/assessment/post-verification.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000003/record.md",
+    "destination": "../../../artefacts/A-000003/assessment/structural-checks.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000003/assessment/structural-checks.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000003/record.md",
+    "destination": "../../../artefacts/A-000003/assessment/evidence-checks.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000003/assessment/evidence-checks.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000003/record.md",
+    "destination": "../../../artefacts/A-000003/assessment/semantic-traces.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000003/assessment/semantic-traces.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000003/record.md",
+    "destination": "../../../artefacts/A-000003/assessment/MANIFEST.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000003/assessment/MANIFEST.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000004/record.md",
+    "destination": "request.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000004/request.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000004/record.md",
+    "destination": "../../../artefacts/A-000004/input/source/vp/records/decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000004/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000004/record.md",
+    "destination": "../../../artefacts/A-000004/input/source/vp/records/decisions/D-000014/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000004/input/source/vp/records/decisions/D-000014/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000004/record.md",
+    "destination": "../../../artefacts/A-000004/input/source/vp/records/decisions/D-000015/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000004/input/source/vp/records/decisions/D-000015/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000004/record.md",
+    "destination": "../../../artefacts/A-000004/input/inventory.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000004/input/inventory.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000004/record.md",
+    "destination": "../../../artefacts/A-000004/assessment/pre-verification.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000004/assessment/pre-verification.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000004/record.md",
+    "destination": "../../../artefacts/A-000004/assessment/post-verification.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000004/assessment/post-verification.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000004/record.md",
+    "destination": "../../../artefacts/A-000004/assessment/structural-checks.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000004/assessment/structural-checks.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000004/record.md",
+    "destination": "../../../artefacts/A-000004/assessment/evidence-checks.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000004/assessment/evidence-checks.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000004/record.md",
+    "destination": "../../../artefacts/A-000004/assessment/semantic-traces.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000004/assessment/semantic-traces.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000004/record.md",
+    "destination": "../../../artefacts/A-000004/assessment/MANIFEST.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000004/assessment/MANIFEST.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/changes/C-000001/record.md",
+    "destination": "../../decisions/D-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/changes/C-000001/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/changes/C-000002/record.md",
+    "destination": "../../decisions/D-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/changes/C-000002/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/changes/C-000003/record.md",
+    "destination": "../../decisions/D-000010/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000010/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/changes/C-000003/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/changes/C-000004/record.md",
+    "destination": "../../decisions/D-000012/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000012/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/changes/C-000004/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/changes/C-000005/record.md",
+    "destination": "../../decisions/D-000016/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000016/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/changes/C-000005/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000001/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000001/record.md",
+    "destination": "../../audits/A-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000001/record.md",
+    "destination": "../../../artefacts/D-000001/authority.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/D-000001/authority.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000002/record.md",
+    "destination": "../D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000002/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000003/record.md",
+    "destination": "../D-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000003/record.md",
+    "destination": "../D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000004/record.md",
+    "destination": "../D-000003/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000003/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000004/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000004/record.md",
+    "destination": "../../runs/R-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/runs/R-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000004/record.md",
+    "destination": "../../../artefacts/D-000004/coverage-rationale.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/D-000004/coverage-rationale.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000005/record.md",
+    "destination": "../D-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000005/record.md",
+    "destination": "../D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000006/record.md",
+    "destination": "../D-000005/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000005/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000006/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000006/record.md",
+    "destination": "../../audits/A-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000007/record.md",
+    "destination": "../D-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000007/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000008/record.md",
+    "destination": "../D-000007/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000007/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000008/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000009/record.md",
+    "destination": "../D-000008/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000008/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000009/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000009/record.md",
+    "destination": "../../audits/A-000003/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000003/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000010/record.md",
+    "destination": "../D-000009/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000009/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000010/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000011/record.md",
+    "destination": "../D-000010/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000010/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000011/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000012/record.md",
+    "destination": "../D-000009/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000009/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000012/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000013/record.md",
+    "destination": "../D-000012/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000012/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000013/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000014/record.md",
+    "destination": "../../decisions/D-000013/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000013/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000014/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000015/record.md",
+    "destination": "../../decisions/D-000014/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000014/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000015/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000016/record.md",
+    "destination": "../D-000015/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000015/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000016/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000017/record.md",
+    "destination": "../D-000016/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000016/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000017/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000018/record.md",
+    "destination": "../D-000017/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000017/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000018/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000019/record.md",
+    "destination": "../D-000018/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000018/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/decisions/D-000019/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000001/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000001/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000002/record.md",
+    "destination": "../../decisions/D-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000002/record.md",
+    "destination": "../../audits/A-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000002/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000003/record.md",
+    "destination": "../../decisions/D-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000003/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000004/record.md",
+    "destination": "../../decisions/D-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000004/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000005/record.md",
+    "destination": "../../decisions/D-000007/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000007/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000005/record.md",
+    "destination": "../../audits/A-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/audits/A-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000005/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000006/record.md",
+    "destination": "../../decisions/D-000009/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000009/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000006/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000007/record.md",
+    "destination": "../../decisions/D-000010/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000010/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000007/record.md",
+    "destination": "../../decisions/D-000011/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000011/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000007/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000008/record.md",
+    "destination": "../../decisions/D-000013/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000013/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000008/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000009/record.md",
+    "destination": "../../decisions/D-000016/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000016/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000009/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000010/record.md",
+    "destination": "../../decisions/D-000019/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000019/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/events/V-000010/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000001/record.md",
+    "destination": "../../decisions/D-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000001/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000002/record.md",
+    "destination": "../../decisions/D-000003/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000003/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000002/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000003/record.md",
+    "destination": "../../decisions/D-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000003/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000004/record.md",
+    "destination": "../../decisions/D-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000004/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000004/record.md",
+    "destination": "../../../artefacts/R-000004/results.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/R-000004/results.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000005/record.md",
+    "destination": "../../decisions/D-000010/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000010/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000005/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000006/record.md",
+    "destination": "../../decisions/D-000011/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000011/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000006/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000007/record.md",
+    "destination": "../../decisions/D-000012/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000012/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000007/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000007/record.md",
+    "destination": "../../../artefacts/R-000007/content-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/R-000007/content-audit.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000008/record.md",
+    "destination": "../../decisions/D-000013/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000013/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000008/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000009/record.md",
+    "destination": "../../decisions/D-000016/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000016/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/experiments/E-000009/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000001/record.md",
+    "destination": "../../decisions/D-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000001/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000002/record.md",
+    "destination": "../../decisions/D-000003/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000003/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000002/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000003/record.md",
+    "destination": "../../decisions/D-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000003/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000004/record.md",
+    "destination": "../../decisions/D-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000004/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000004/record.md",
+    "destination": "../../../artefacts/R-000004/results.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/R-000004/results.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000005/record.md",
+    "destination": "../../decisions/D-000010/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000010/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000005/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000006/record.md",
+    "destination": "../../decisions/D-000012/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000012/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000006/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000006/record.md",
+    "destination": "../../../artefacts/R-000007/content-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/R-000007/content-audit.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000007/record.md",
+    "destination": "../../decisions/D-000013/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000013/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000007/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000008/record.md",
+    "destination": "../../decisions/D-000016/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000016/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/hypotheses/H-000008/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000001/record.md",
+    "destination": "../../experiments/E-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000001/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000002/record.md",
+    "destination": "../../experiments/E-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000002/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000003/record.md",
+    "destination": "../../experiments/E-000003/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000003/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000003/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000004/record.md",
+    "destination": "../../experiments/E-000004/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000004/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000004/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000004/record.md",
+    "destination": "../../../artefacts/R-000004/results.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/R-000004/results.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000005/record.md",
+    "destination": "../../experiments/E-000005/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000005/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000005/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000006/record.md",
+    "destination": "../../experiments/E-000006/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000006/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000006/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000007/record.md",
+    "destination": "../../experiments/E-000007/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000007/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000007/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000007/record.md",
+    "destination": "../../../artefacts/R-000007/content-audit.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/R-000007/content-audit.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000008/record.md",
+    "destination": "../../experiments/E-000008/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000008/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000008/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000009/record.md",
+    "destination": "../../experiments/E-000009/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/experiments/E-000009/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/runs/R-000009/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/stages/S-000001/record.md",
+    "destination": "../../decisions/D-000002/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000002/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/stages/S-000001/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/stages/S-000001/record.md",
+    "destination": "../../decisions/D-000009/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000009/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/stages/S-000002/record.md",
+    "destination": "../../decisions/D-000012/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000012/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/stages/S-000002/record.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000003/request.md",
+    "destination": "../../decisions/D-000008/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000008/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000003/request.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000003/request.md",
+    "destination": "../../../artefacts/A-000003/input/inventory.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000003/input/inventory.json",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000003/request.md",
+    "destination": "../../../artefacts/A-000003/input/MANIFEST.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/artefacts/A-000003/input/MANIFEST.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000004/request.md",
+    "destination": "../../decisions/D-000015/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000015/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000004/request.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000005/request.md",
+    "destination": "../../decisions/D-000018/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000018/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000005/request.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000006/request.md",
+    "destination": "../../decisions/D-000019/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000019/record.md",
+    "exists": true
+  },
+  {
+    "source": "vp/records/audits/A-000006/request.md",
+    "destination": "../../decisions/D-000001/record.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/A-000006/input/source/vp/records/decisions/D-000001/record.md",
+    "exists": true
+  }
+]

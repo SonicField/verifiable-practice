@@ -1,0 +1,3362 @@
+{
+  "captured": "2026-10-20T07:54:21.159289+00:00",
+  "product_files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 54,
+      "sha256": "bfaf744e63e327c78056b794fb5309501c6cdea0c42ba292e353a56a63bf9b27"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "bytes": 1652,
+      "sha256": "6966e8a08971b9d513f1d6be821e6ba91464ef73b8f68e733cb1150f2a2e9d22"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/change_proposal.yml",
+      "bytes": 1095,
+      "sha256": "f04f0c6641944db00bcd453728bceb09a328df31431ecc0789f796a20a10227a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "bytes": 27,
+      "sha256": "13064e7bea658e01e718b414fbb7b3b244f36411fe25ee2055c151f7b534547a"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "bytes": 630,
+      "sha256": "8629421291451911f78b5af5ba2676e1e2a5c5c306d75095137ad0df0fcd7f80"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 141,
+      "sha256": "c725e3bfbf6bfaff5964963d48bf0d81eb37954f0b5edc5945bb9a35b3ed8498"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 2759,
+      "sha256": "0e96dc12caa85ad214854b431314d68a5bb4d2e8594e97a5335263fd9dbc60ab"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 229,
+      "sha256": "58f12332dbbb0825d349ab72d94d4ce4bdbd9720bd749245882630b6df89847c"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "bytes": 1983,
+      "sha256": "708993720e9d14929b2395a744ba2c48a3e9a3370b00586fb48319aeafd06a7d"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 2794,
+      "sha256": "7336906e3dba88254cf047015a7205d8f898de4b32512c404a95478fb1be93b3"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068,
+      "sha256": "01709c8719ee6e9c87f2a51a7a02b28297ce34835387a312555d4c2975e021e0"
+    },
+    {
+      "path": "ORIGIN.md",
+      "bytes": 4088,
+      "sha256": "3b3970a79bdcad20ef9d10cf00fe35a30c533226c8a5bcabd95ec7529100c09d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 13366,
+      "sha256": "3edb9e7eec0054c98c39038533a0d267c678a442928a19f0912d2fb18a6236fc"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 1838,
+      "sha256": "9820c942aa013eee092b8f66d11a3297db906d1bcbb0005a27a681c970072575"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 10364,
+      "sha256": "85642e27d668e39563e7fef9ab10b79efeae96cc3f027aae28726ac6379e61b9"
+    },
+    {
+      "path": "WHY.md",
+      "bytes": 8365,
+      "sha256": "3842e1dd498fe0c238822148f11789681cfd3a8eff827c23d27b6105f2860c8a"
+    },
+    {
+      "path": "concepts/bullshit-detection.md",
+      "bytes": 2578,
+      "sha256": "5db9ac284fa02b140fb7b14a1e66af05c0ad296caf84eac0e6f93f9eaa477b21"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "bytes": 23221,
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/falsifiability.md",
+      "bytes": 5467,
+      "sha256": "9e75001c23aeca82d2b4221fde004af3cc77db6c7cef1b713717fe179da1f8da"
+    },
+    {
+      "path": "concepts/goals.md",
+      "bytes": 3519,
+      "sha256": "8deafbad414f270a6f573183ecbefbe3000d20f9c287da6fc383d1971827c89b"
+    },
+    {
+      "path": "concepts/pte.md",
+      "bytes": 6876,
+      "sha256": "bc87d962cde2e9042b7af6a7f3a1cb3f4d41f1ac8d757bbc08704046160cd3f3"
+    },
+    {
+      "path": "concepts/rhetoric.md",
+      "bytes": 2834,
+      "sha256": "8f12166062b6c4b27ee049dfeac793a3875f75267776e41f8ef45b05c8f16b9a"
+    },
+    {
+      "path": "concepts/verification-cycle.md",
+      "bytes": 2888,
+      "sha256": "2b9adc4d3b8287708668b4233569a7304aaaa648f9140ad2e078f2b6665bf83e"
+    },
+    {
+      "path": "concepts/zero-code-contract.md",
+      "bytes": 3841,
+      "sha256": "b1c00fd1ed030b49114e597c43df7ec7cf87543f6bafb644858fea155be235d7"
+    },
+    {
+      "path": "docs/discovery-and-recovery.md",
+      "bytes": 2387,
+      "sha256": "44b70e11b10b2d75f1e0d91ec292d05df4a1783241d6de3b1a2d91f4806b396e"
+    },
+    {
+      "path": "docs/document-work.md",
+      "bytes": 2544,
+      "sha256": "8c6589fe3098f5f9c75e7ed89c4861529614ae057473c3f3b8818b5fc240dc87"
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "bytes": 12126,
+      "sha256": "92574c2e7a7de382636fb5f2c398353a05f3c9b04e4f5df71ef6941997434819"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "bytes": 7473,
+      "sha256": "9debc5f2bb9c76dbca99ed1cde46ca9e20ffe0f96d68659769ef235330731a4e"
+    },
+    {
+      "path": "docs/investigations.md",
+      "bytes": 2549,
+      "sha256": "f86bce5e21d5ec2e126a1b1c44e47486e3c75bda42a9da41e61f2efbbe2f7c6f"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "bytes": 33174,
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "bytes": 9687,
+      "sha256": "90c25f0e37fbcb91435f6a0834262a435c2aa11fa8a386c1853b94ebb7b6a6f3"
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "bytes": 10670,
+      "sha256": "893421b644229bb4fa7c8ce94d56989f30e4723b385fb7c0b652d61fcc5d1615"
+    },
+    {
+      "path": "docs/project-records.md",
+      "bytes": 7029,
+      "sha256": "0445cabda5b432ad7212bfffd120a2538e6ba848a80c48e8a23e6e460e799064"
+    },
+    {
+      "path": "docs/review-and-audit.md",
+      "bytes": 4876,
+      "sha256": "56488fdc85eacc5baa55aec1aacef9b8213e83a3d610b0d8445afc0bd8261c4c"
+    },
+    {
+      "path": "docs/skill-architecture.md",
+      "bytes": 4573,
+      "sha256": "0f79ba36b0ff932b005267862a0ef02ea6695fd5f4d95c0e68ad33abb6f0e6ef"
+    },
+    {
+      "path": "docs/testing-ai-behaviour.md",
+      "bytes": 3737,
+      "sha256": "2a9c2935aa32c035766484abf2e79f9742f90154a8a4e3309ff31cf7f81f8e00"
+    },
+    {
+      "path": "playbooks/audit-routing.md",
+      "bytes": 2951,
+      "sha256": "5768054024f17b45a3d74dc208646d9be0fcd9e239e240c89cfd02d06f6d2881"
+    },
+    {
+      "path": "playbooks/code-audit.md",
+      "bytes": 4200,
+      "sha256": "0001b5381d2e2aa3c74b2224175e5d996084a457bddac88a325a46081d8281c1"
+    },
+    {
+      "path": "playbooks/debugging.md",
+      "bytes": 2526,
+      "sha256": "92aab54e1a58a4f3e98cbdfcd39e951c89c4d07d82671e8711ccd83a78bb5ebb"
+    },
+    {
+      "path": "playbooks/discovery-verification.md",
+      "bytes": 1339,
+      "sha256": "f9c4398e238bb90028656f55b86d262197578fc463f15b9d1206add2facd3247"
+    },
+    {
+      "path": "playbooks/discovery.md",
+      "bytes": 2361,
+      "sha256": "10212f438dd713549baafa04b061d6d0068291e25848eb64d9a36cdfe88db028"
+    },
+    {
+      "path": "playbooks/document-analysis.md",
+      "bytes": 1504,
+      "sha256": "b42892bb673aaa0d20cdb0ec61edbe52f589efba0db0cdb649e29bb1f704a4e9"
+    },
+    {
+      "path": "playbooks/document-description.md",
+      "bytes": 1104,
+      "sha256": "68ff33cf37011705e137b5df9692f33ae39f02dae470070415ad0a12dd239458"
+    },
+    {
+      "path": "playbooks/document-planning.md",
+      "bytes": 1292,
+      "sha256": "cf03a3196dccff1c4d6ec52be016d39cdbf738be2fcc5a84a013b7ed712dea0b"
+    },
+    {
+      "path": "playbooks/investigation.md",
+      "bytes": 2319,
+      "sha256": "a7867c86b0188f7cba52b394ffe22a5c0f01dad470b93d59a5266095365805a6"
+    },
+    {
+      "path": "playbooks/precise-technical-english.md",
+      "bytes": 1530,
+      "sha256": "cf8b548d1ce5863b6db7a9e54753d24bbfca40c7d7ddf55a918a87449bbd2a8a"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "bytes": 6375,
+      "sha256": "b4aa0438df03fa18e4920f920b1f626e9015d4efa2e4a28d21aaacdff6494b97"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "bytes": 6365,
+      "sha256": "a253b35ba80a84108d799476758854385f5c22a04df73d0b60017810a3c37536"
+    },
+    {
+      "path": "playbooks/recovery.md",
+      "bytes": 2583,
+      "sha256": "c4662c4117cb077631fb1525141fb8c2d1123af71180bbfc233cd884563d4f31"
+    },
+    {
+      "path": "playbooks/review.md",
+      "bytes": 2587,
+      "sha256": "e6c2218df45527eb36e3e4b363044254d675850ae8262412f589d681c0d6a996"
+    },
+    {
+      "path": "standards/project-records.md",
+      "bytes": 38900,
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "templates/project-records/README.md",
+      "bytes": 2894,
+      "sha256": "8a8ec716782dda3eb797212d12c20b01784e8012f2a796196817cf67d27167ef"
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "bytes": 2963,
+      "sha256": "0ecef1b82b5e9306c80ee6a226d2535a66f9094bf075b6ceaea725c14461ed4f"
+    },
+    {
+      "path": "templates/project-records/audit-response.md",
+      "bytes": 1498,
+      "sha256": "bcfbd196f56dd754de93058d6d4543ce2d1001ea53b12f1f2837279ea6394744"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "bytes": 3203,
+      "sha256": "22fd51e9e4a8947ee0bd13cba01c177a172c8feb9c8956e8d02ce9a1d4b61bde"
+    },
+    {
+      "path": "templates/project-records/build.md",
+      "bytes": 1448,
+      "sha256": "bc4ae6b08e9d1a9973d45ebcc74ebf3af7fca33d76535a5851570bc7abe76b2f"
+    },
+    {
+      "path": "templates/project-records/change.md",
+      "bytes": 1281,
+      "sha256": "d60ca48eb92f4b6d175d1cf390c5be0b86d4886365dc17ba214a1ee62f010f20"
+    },
+    {
+      "path": "templates/project-records/coverage.md",
+      "bytes": 994,
+      "sha256": "d7e4bd77d1a667713c0da7973f744e55974aad6a898fc311c0caef6e837d36fe"
+    },
+    {
+      "path": "templates/project-records/decision.md",
+      "bytes": 1714,
+      "sha256": "cfcd3b5bccdb65103bed36241a9b47f8a540ea871bfdb6a64c93633c860e5ec9"
+    },
+    {
+      "path": "templates/project-records/event.md",
+      "bytes": 1276,
+      "sha256": "769ba084b62bde36d0c78da282000ad7fa4f4cb26c2d6a7ba3337cffec95d126"
+    },
+    {
+      "path": "templates/project-records/experiment.md",
+      "bytes": 1383,
+      "sha256": "c7f89cdded872c25f0b2d2df165bab953ec4f8a497a629b3e52c683984287fc8"
+    },
+    {
+      "path": "templates/project-records/hypothesis.md",
+      "bytes": 1280,
+      "sha256": "296f3b908757c2f7a911b68c819248e7bc25a6e695c378b1106a77d6645aba23"
+    },
+    {
+      "path": "templates/project-records/ledger.md",
+      "bytes": 698,
+      "sha256": "c0025e8c306b4ba1f9f8e205a99deb17619544f695b1493508196f61140b9e18"
+    },
+    {
+      "path": "templates/project-records/manifest.md",
+      "bytes": 838,
+      "sha256": "71dd3c64d42f0904b8642f747c775883047c81a510f74690b8a643a00baf397d"
+    },
+    {
+      "path": "templates/project-records/plan.md",
+      "bytes": 715,
+      "sha256": "8c5e79dd2b64ae3499bbf56f6265a817121e2134095e3ed100fa93be10abb66a"
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "bytes": 2130,
+      "sha256": "fb56f91ea24ad93383a5ff9bc713f6a39f55727c05fb361da803c75e670e2c43"
+    },
+    {
+      "path": "templates/project-records/root.md",
+      "bytes": 1293,
+      "sha256": "3f3d5a9fd069b5657af7e011d3a459230afbbeadabbacebf7ff072fa36c20f0b"
+    },
+    {
+      "path": "templates/project-records/run.md",
+      "bytes": 1669,
+      "sha256": "84f987a14e471f5c8f6a47b3669686ab58df104493c8e1c40d6f61ffef971d55"
+    },
+    {
+      "path": "templates/project-records/stage.md",
+      "bytes": 1304,
+      "sha256": "d720e815240013a36f0b43d3e27d890149af57cc4fb91ab89e9aa021ebde3fbe"
+    },
+    {
+      "path": "templates/project-records/state.md",
+      "bytes": 1640,
+      "sha256": "89f06ac3bca08edb3f4c216245e81c4d253692d3bd7b48721faf09e8275f647c"
+    },
+    {
+      "path": "templates/project-records/workspace.md",
+      "bytes": 643,
+      "sha256": "a40e64cee89901d30aedf3197d5bb4b254ae66b8aeb61ed9aa55ccbf17d6049a"
+    }
+  ],
+  "units": [
+    {
+      "path": ".gitattributes",
+      "line": 1,
+      "unit": "whole file",
+      "sha256": "bfaf744e63e327c78056b794fb5309501c6cdea0c42ba292e353a56a63bf9b27"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "line": 1,
+      "unit": "whole file",
+      "sha256": "6966e8a08971b9d513f1d6be821e6ba91464ef73b8f68e733cb1150f2a2e9d22"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/change_proposal.yml",
+      "line": 1,
+      "unit": "whole file",
+      "sha256": "f04f0c6641944db00bcd453728bceb09a328df31431ecc0789f796a20a10227a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "line": 1,
+      "unit": "whole file",
+      "sha256": "13064e7bea658e01e718b414fbb7b3b244f36411fe25ee2055c151f7b534547a"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "8629421291451911f78b5af5ba2676e1e2a5c5c306d75095137ad0df0fcd7f80"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "line": 1,
+      "unit": "Goal",
+      "sha256": "8629421291451911f78b5af5ba2676e1e2a5c5c306d75095137ad0df0fcd7f80"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "line": 5,
+      "unit": "Change",
+      "sha256": "8629421291451911f78b5af5ba2676e1e2a5c5c306d75095137ad0df0fcd7f80"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "line": 9,
+      "unit": "Evidence",
+      "sha256": "8629421291451911f78b5af5ba2676e1e2a5c5c306d75095137ad0df0fcd7f80"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "line": 13,
+      "unit": "Falsification",
+      "sha256": "8629421291451911f78b5af5ba2676e1e2a5c5c306d75095137ad0df0fcd7f80"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "line": 17,
+      "unit": "Limitations",
+      "sha256": "8629421291451911f78b5af5ba2676e1e2a5c5c306d75095137ad0df0fcd7f80"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "line": 21,
+      "unit": "Checklist",
+      "sha256": "8629421291451911f78b5af5ba2676e1e2a5c5c306d75095137ad0df0fcd7f80"
+    },
+    {
+      "path": ".gitignore",
+      "line": 1,
+      "unit": "whole file",
+      "sha256": "c725e3bfbf6bfaff5964963d48bf0d81eb37954f0b5edc5945bb9a35b3ed8498"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "0e96dc12caa85ad214854b431314d68a5bb4d2e8594e97a5335263fd9dbc60ab"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 1,
+      "unit": "Changelog",
+      "sha256": "0e96dc12caa85ad214854b431314d68a5bb4d2e8594e97a5335263fd9dbc60ab"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 7,
+      "unit": "Unreleased",
+      "sha256": "0e96dc12caa85ad214854b431314d68a5bb4d2e8594e97a5335263fd9dbc60ab"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 9,
+      "unit": "Added",
+      "sha256": "0e96dc12caa85ad214854b431314d68a5bb4d2e8594e97a5335263fd9dbc60ab"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 22,
+      "unit": "Fixed",
+      "sha256": "0e96dc12caa85ad214854b431314d68a5bb4d2e8594e97a5335263fd9dbc60ab"
+    },
+    {
+      "path": "CITATION.cff",
+      "line": 1,
+      "unit": "whole file",
+      "sha256": "58f12332dbbb0825d349ab72d94d4ce4bdbd9720bd749245882630b6df89847c"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "708993720e9d14929b2395a744ba2c48a3e9a3370b00586fb48319aeafd06a7d"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "line": 1,
+      "unit": "Code of Conduct",
+      "sha256": "708993720e9d14929b2395a744ba2c48a3e9a3370b00586fb48319aeafd06a7d"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "line": 3,
+      "unit": "Our Pledge",
+      "sha256": "708993720e9d14929b2395a744ba2c48a3e9a3370b00586fb48319aeafd06a7d"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "line": 9,
+      "unit": "Expected Behaviour",
+      "sha256": "708993720e9d14929b2395a744ba2c48a3e9a3370b00586fb48319aeafd06a7d"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "line": 19,
+      "unit": "Unacceptable Behaviour",
+      "sha256": "708993720e9d14929b2395a744ba2c48a3e9a3370b00586fb48319aeafd06a7d"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "line": 29,
+      "unit": "Scope",
+      "sha256": "708993720e9d14929b2395a744ba2c48a3e9a3370b00586fb48319aeafd06a7d"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "line": 33,
+      "unit": "Enforcement",
+      "sha256": "708993720e9d14929b2395a744ba2c48a3e9a3370b00586fb48319aeafd06a7d"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "line": 39,
+      "unit": "Attribution",
+      "sha256": "708993720e9d14929b2395a744ba2c48a3e9a3370b00586fb48319aeafd06a7d"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "7336906e3dba88254cf047015a7205d8f898de4b32512c404a95478fb1be93b3"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "line": 1,
+      "unit": "Contributing to Verifiable Practice",
+      "sha256": "7336906e3dba88254cf047015a7205d8f898de4b32512c404a95478fb1be93b3"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "line": 7,
+      "unit": "Before Opening an Issue",
+      "sha256": "7336906e3dba88254cf047015a7205d8f898de4b32512c404a95478fb1be93b3"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "line": 20,
+      "unit": "Proposing a Change",
+      "sha256": "7336906e3dba88254cf047015a7205d8f898de4b32512c404a95478fb1be93b3"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "line": 32,
+      "unit": "Pull Requests",
+      "sha256": "7336906e3dba88254cf047015a7205d8f898de4b32512c404a95478fb1be93b3"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "line": 46,
+      "unit": "Validation",
+      "sha256": "7336906e3dba88254cf047015a7205d8f898de4b32512c404a95478fb1be93b3"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "line": 57,
+      "unit": "Licence",
+      "sha256": "7336906e3dba88254cf047015a7205d8f898de4b32512c404a95478fb1be93b3"
+    },
+    {
+      "path": "LICENSE",
+      "line": 1,
+      "unit": "whole file",
+      "sha256": "01709c8719ee6e9c87f2a51a7a02b28297ce34835387a312555d4c2975e021e0"
+    },
+    {
+      "path": "ORIGIN.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "3b3970a79bdcad20ef9d10cf00fe35a30c533226c8a5bcabd95ec7529100c09d"
+    },
+    {
+      "path": "ORIGIN.md",
+      "line": 1,
+      "unit": "Extraction Notes",
+      "sha256": "3b3970a79bdcad20ef9d10cf00fe35a30c533226c8a5bcabd95ec7529100c09d"
+    },
+    {
+      "path": "ORIGIN.md",
+      "line": 7,
+      "unit": "Included",
+      "sha256": "3b3970a79bdcad20ef9d10cf00fe35a30c533226c8a5bcabd95ec7529100c09d"
+    },
+    {
+      "path": "ORIGIN.md",
+      "line": 30,
+      "unit": "Excluded from the Original Extraction",
+      "sha256": "3b3970a79bdcad20ef9d10cf00fe35a30c533226c8a5bcabd95ec7529100c09d"
+    },
+    {
+      "path": "ORIGIN.md",
+      "line": 39,
+      "unit": "Generalisation Choices",
+      "sha256": "3b3970a79bdcad20ef9d10cf00fe35a30c533226c8a5bcabd95ec7529100c09d"
+    },
+    {
+      "path": "ORIGIN.md",
+      "line": 45,
+      "unit": "Later Extension: Independent Record Assessment",
+      "sha256": "3b3970a79bdcad20ef9d10cf00fe35a30c533226c8a5bcabd95ec7529100c09d"
+    },
+    {
+      "path": "README.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "3edb9e7eec0054c98c39038533a0d267c678a442928a19f0912d2fb18a6236fc"
+    },
+    {
+      "path": "README.md",
+      "line": 1,
+      "unit": "Verifiable Practice",
+      "sha256": "3edb9e7eec0054c98c39038533a0d267c678a442928a19f0912d2fb18a6236fc"
+    },
+    {
+      "path": "README.md",
+      "line": 9,
+      "unit": "Start Here",
+      "sha256": "3edb9e7eec0054c98c39038533a0d267c678a442928a19f0912d2fb18a6236fc"
+    },
+    {
+      "path": "README.md",
+      "line": 19,
+      "unit": "The Project Lifecycle",
+      "sha256": "3edb9e7eec0054c98c39038533a0d267c678a442928a19f0912d2fb18a6236fc"
+    },
+    {
+      "path": "README.md",
+      "line": 34,
+      "unit": "Human and AI Responsibilities",
+      "sha256": "3edb9e7eec0054c98c39038533a0d267c678a442928a19f0912d2fb18a6236fc"
+    },
+    {
+      "path": "README.md",
+      "line": 44,
+      "unit": "Quality, Traceability and Current Justification",
+      "sha256": "3edb9e7eec0054c98c39038533a0d267c678a442928a19f0912d2fb18a6236fc"
+    },
+    {
+      "path": "README.md",
+      "line": 52,
+      "unit": "Choose the Assessment",
+      "sha256": "3edb9e7eec0054c98c39038533a0d267c678a442928a19f0912d2fb18a6236fc"
+    },
+    {
+      "path": "README.md",
+      "line": 61,
+      "unit": "Foundations",
+      "sha256": "3edb9e7eec0054c98c39038533a0d267c678a442928a19f0912d2fb18a6236fc"
+    },
+    {
+      "path": "README.md",
+      "line": 74,
+      "unit": "This Repository's Records",
+      "sha256": "3edb9e7eec0054c98c39038533a0d267c678a442928a19f0912d2fb18a6236fc"
+    },
+    {
+      "path": "README.md",
+      "line": 78,
+      "unit": "Playbooks",
+      "sha256": "3edb9e7eec0054c98c39038533a0d267c678a442928a19f0912d2fb18a6236fc"
+    },
+    {
+      "path": "README.md",
+      "line": 99,
+      "unit": "Documentation",
+      "sha256": "3edb9e7eec0054c98c39038533a0d267c678a442928a19f0912d2fb18a6236fc"
+    },
+    {
+      "path": "README.md",
+      "line": 118,
+      "unit": "Using VP with Any AI Tool",
+      "sha256": "3edb9e7eec0054c98c39038533a0d267c678a442928a19f0912d2fb18a6236fc"
+    },
+    {
+      "path": "README.md",
+      "line": 134,
+      "unit": "Scope Boundary",
+      "sha256": "3edb9e7eec0054c98c39038533a0d267c678a442928a19f0912d2fb18a6236fc"
+    },
+    {
+      "path": "README.md",
+      "line": 142,
+      "unit": "Project Information",
+      "sha256": "3edb9e7eec0054c98c39038533a0d267c678a442928a19f0912d2fb18a6236fc"
+    },
+    {
+      "path": "SECURITY.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "9820c942aa013eee092b8f66d11a3297db906d1bcbb0005a27a681c970072575"
+    },
+    {
+      "path": "SECURITY.md",
+      "line": 1,
+      "unit": "Security Policy",
+      "sha256": "9820c942aa013eee092b8f66d11a3297db906d1bcbb0005a27a681c970072575"
+    },
+    {
+      "path": "SECURITY.md",
+      "line": 3,
+      "unit": "Supported Versions",
+      "sha256": "9820c942aa013eee092b8f66d11a3297db906d1bcbb0005a27a681c970072575"
+    },
+    {
+      "path": "SECURITY.md",
+      "line": 7,
+      "unit": "Scope",
+      "sha256": "9820c942aa013eee092b8f66d11a3297db906d1bcbb0005a27a681c970072575"
+    },
+    {
+      "path": "SECURITY.md",
+      "line": 20,
+      "unit": "Reporting a Vulnerability",
+      "sha256": "9820c942aa013eee092b8f66d11a3297db906d1bcbb0005a27a681c970072575"
+    },
+    {
+      "path": "SECURITY.md",
+      "line": 34,
+      "unit": "Safe Use",
+      "sha256": "9820c942aa013eee092b8f66d11a3297db906d1bcbb0005a27a681c970072575"
+    },
+    {
+      "path": "SKILL.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "85642e27d668e39563e7fef9ab10b79efeae96cc3f027aae28726ac6379e61b9"
+    },
+    {
+      "path": "SKILL.md",
+      "line": 6,
+      "unit": "Verifiable Practice",
+      "sha256": "85642e27d668e39563e7fef9ab10b79efeae96cc3f027aae28726ac6379e61b9"
+    },
+    {
+      "path": "SKILL.md",
+      "line": 17,
+      "unit": "Manage the Whole Project",
+      "sha256": "85642e27d668e39563e7fef9ab10b79efeae96cc3f027aae28726ac6379e61b9"
+    },
+    {
+      "path": "SKILL.md",
+      "line": 27,
+      "unit": "Working Rules",
+      "sha256": "85642e27d668e39563e7fef9ab10b79efeae96cc3f027aae28726ac6379e61b9"
+    },
+    {
+      "path": "SKILL.md",
+      "line": 59,
+      "unit": "Route the Work",
+      "sha256": "85642e27d668e39563e7fef9ab10b79efeae96cc3f027aae28726ac6379e61b9"
+    },
+    {
+      "path": "SKILL.md",
+      "line": 84,
+      "unit": "Explanatory References",
+      "sha256": "85642e27d668e39563e7fef9ab10b79efeae96cc3f027aae28726ac6379e61b9"
+    },
+    {
+      "path": "SKILL.md",
+      "line": 107,
+      "unit": "Default Verification Loop",
+      "sha256": "85642e27d668e39563e7fef9ab10b79efeae96cc3f027aae28726ac6379e61b9"
+    },
+    {
+      "path": "SKILL.md",
+      "line": 121,
+      "unit": "Completion Standard",
+      "sha256": "85642e27d668e39563e7fef9ab10b79efeae96cc3f027aae28726ac6379e61b9"
+    },
+    {
+      "path": "WHY.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "3842e1dd498fe0c238822148f11789681cfd3a8eff827c23d27b6105f2860c8a"
+    },
+    {
+      "path": "WHY.md",
+      "line": 1,
+      "unit": "Why Verifiable Practice",
+      "sha256": "3842e1dd498fe0c238822148f11789681cfd3a8eff827c23d27b6105f2860c8a"
+    },
+    {
+      "path": "WHY.md",
+      "line": 13,
+      "unit": "Why a Project Needs the Whole Method",
+      "sha256": "3842e1dd498fe0c238822148f11789681cfd3a8eff827c23d27b6105f2860c8a"
+    },
+    {
+      "path": "WHY.md",
+      "line": 30,
+      "unit": "The Core Question",
+      "sha256": "3842e1dd498fe0c238822148f11789681cfd3a8eff827c23d27b6105f2860c8a"
+    },
+    {
+      "path": "WHY.md",
+      "line": 38,
+      "unit": "Worked Example: Adversarial Testing",
+      "sha256": "3842e1dd498fe0c238822148f11789681cfd3a8eff827c23d27b6105f2860c8a"
+    },
+    {
+      "path": "WHY.md",
+      "line": 58,
+      "unit": "What Would Prove This Wrong?",
+      "sha256": "3842e1dd498fe0c238822148f11789681cfd3a8eff827c23d27b6105f2860c8a"
+    },
+    {
+      "path": "WHY.md",
+      "line": 70,
+      "unit": "The VP Approach",
+      "sha256": "3842e1dd498fe0c238822148f11789681cfd3a8eff827c23d27b6105f2860c8a"
+    },
+    {
+      "path": "WHY.md",
+      "line": 84,
+      "unit": "Epistemology: the Evidence Foundation",
+      "sha256": "3842e1dd498fe0c238822148f11789681cfd3a8eff827c23d27b6105f2860c8a"
+    },
+    {
+      "path": "WHY.md",
+      "line": 92,
+      "unit": "Supporting Evidence Concepts",
+      "sha256": "3842e1dd498fe0c238822148f11789681cfd3a8eff827c23d27b6105f2860c8a"
+    },
+    {
+      "path": "WHY.md",
+      "line": 105,
+      "unit": "The Practice",
+      "sha256": "3842e1dd498fe0c238822148f11789681cfd3a8eff827c23d27b6105f2860c8a"
+    },
+    {
+      "path": "WHY.md",
+      "line": 118,
+      "unit": "Summary",
+      "sha256": "3842e1dd498fe0c238822148f11789681cfd3a8eff827c23d27b6105f2860c8a"
+    },
+    {
+      "path": "concepts/bullshit-detection.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "5db9ac284fa02b140fb7b14a1e66af05c0ad296caf84eac0e6f93f9eaa477b21"
+    },
+    {
+      "path": "concepts/bullshit-detection.md",
+      "line": 1,
+      "unit": "Bullshit Detection",
+      "sha256": "5db9ac284fa02b140fb7b14a1e66af05c0ad296caf84eac0e6f93f9eaa477b21"
+    },
+    {
+      "path": "concepts/bullshit-detection.md",
+      "line": 11,
+      "unit": "The Problem",
+      "sha256": "5db9ac284fa02b140fb7b14a1e66af05c0ad296caf84eac0e6f93f9eaa477b21"
+    },
+    {
+      "path": "concepts/bullshit-detection.md",
+      "line": 21,
+      "unit": "Performed Confidence",
+      "sha256": "5db9ac284fa02b140fb7b14a1e66af05c0ad296caf84eac0e6f93f9eaa477b21"
+    },
+    {
+      "path": "concepts/bullshit-detection.md",
+      "line": 31,
+      "unit": "The Bullshit Checklist",
+      "sha256": "5db9ac284fa02b140fb7b14a1e66af05c0ad296caf84eac0e6f93f9eaa477b21"
+    },
+    {
+      "path": "concepts/bullshit-detection.md",
+      "line": 40,
+      "unit": "Cherry-Picking in Practice",
+      "sha256": "5db9ac284fa02b140fb7b14a1e66af05c0ad296caf84eac0e6f93f9eaa477b21"
+    },
+    {
+      "path": "concepts/bullshit-detection.md",
+      "line": 52,
+      "unit": "The Practical Question",
+      "sha256": "5db9ac284fa02b140fb7b14a1e66af05c0ad296caf84eac0e6f93f9eaa477b21"
+    },
+    {
+      "path": "concepts/bullshit-detection.md",
+      "line": 58,
+      "unit": "Optional Onboarding",
+      "sha256": "5db9ac284fa02b140fb7b14a1e66af05c0ad296caf84eac0e6f93f9eaa477b21"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 1,
+      "unit": "Engineering Standards: A Verification-First Approach",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 7,
+      "unit": "Philosophy and Principles",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 11,
+      "unit": "Core Tenets",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 25,
+      "unit": "The Assertion Protocol",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 29,
+      "unit": "The Three-Level Hierarchy",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 47,
+      "unit": "Example: All Three Levels",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 79,
+      "unit": "Assertion Messages",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 102,
+      "unit": "Testing for Falsification",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 106,
+      "unit": "Property-Based Testing",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 133,
+      "unit": "Adversarial Input Generation",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 144,
+      "unit": "Integration-First Methodology",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 159,
+      "unit": "Decomposition Criterion: Testability",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 173,
+      "unit": "The Development Cycle in Practice",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 175,
+      "unit": "The Cycle of Verified Construction",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 206,
+      "unit": "Phase Entry and Exit Criteria",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 217,
+      "unit": "Runtime Verification",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 221,
+      "unit": "Health Checks and Watchdogs",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 228,
+      "unit": "Graceful Degradation",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 240,
+      "unit": "AI-Accelerated Development",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 244,
+      "unit": "AI Capabilities by Phase",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 255,
+      "unit": "Context Management Principles",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 263,
+      "unit": "AI-Assisted Test Generation",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 274,
+      "unit": "Language-Specific Patterns",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 279,
+      "unit": "Python",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 304,
+      "unit": "Shell/Bash",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 334,
+      "unit": "C/Systems Programming",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 371,
+      "unit": "Anti-Patterns and Failure Modes",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 373,
+      "unit": "Anti-Pattern 1: Silent Failure",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 396,
+      "unit": "Anti-Pattern 2: Unfalsifiable Claims",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 420,
+      "unit": "Anti-Pattern 3: Unreachable Guards",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 444,
+      "unit": "Anti-Pattern 4: Quick Fix Trap",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 464,
+      "unit": "Anti-Pattern 5: Type-System False Confidence",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 490,
+      "unit": "Anti-Pattern 6: Mock-Heavy Testing",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 520,
+      "unit": "Anti-Pattern 7: No Runtime Verification",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 564,
+      "unit": "Anti-Pattern 8: Missing Dynamic Analysis",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 578,
+      "unit": "Anti-Pattern 9: Skipping the Cycle",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 587,
+      "unit": "Summary and Quick Reference",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 589,
+      "unit": "The Cycle (Memorise This)",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 593,
+      "unit": "The Philosophy (Internalise This)",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 601,
+      "unit": "The Questions (Ask Every Time)",
+      "sha256": "4dc1fce8a5af14ffe1d3bdc4ced04c9afe3026a2770f501494230722527b42c0"
+    },
+    {
+      "path": "concepts/falsifiability.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "9e75001c23aeca82d2b4221fde004af3cc77db6c7cef1b713717fe179da1f8da"
+    },
+    {
+      "path": "concepts/falsifiability.md",
+      "line": 1,
+      "unit": "Falsifiability",
+      "sha256": "9e75001c23aeca82d2b4221fde004af3cc77db6c7cef1b713717fe179da1f8da"
+    },
+    {
+      "path": "concepts/falsifiability.md",
+      "line": 9,
+      "unit": "The Contract",
+      "sha256": "9e75001c23aeca82d2b4221fde004af3cc77db6c7cef1b713717fe179da1f8da"
+    },
+    {
+      "path": "concepts/falsifiability.md",
+      "line": 21,
+      "unit": "Application",
+      "sha256": "9e75001c23aeca82d2b4221fde004af3cc77db6c7cef1b713717fe179da1f8da"
+    },
+    {
+      "path": "concepts/falsifiability.md",
+      "line": 32,
+      "unit": "Falsifying the Process",
+      "sha256": "9e75001c23aeca82d2b4221fde004af3cc77db6c7cef1b713717fe179da1f8da"
+    },
+    {
+      "path": "concepts/falsifiability.md",
+      "line": 42,
+      "unit": "Layered Confidence",
+      "sha256": "9e75001c23aeca82d2b4221fde004af3cc77db6c7cef1b713717fe179da1f8da"
+    },
+    {
+      "path": "concepts/falsifiability.md",
+      "line": 50,
+      "unit": "Property-Based Testing",
+      "sha256": "9e75001c23aeca82d2b4221fde004af3cc77db6c7cef1b713717fe179da1f8da"
+    },
+    {
+      "path": "concepts/falsifiability.md",
+      "line": 82,
+      "unit": "The Practical Question",
+      "sha256": "9e75001c23aeca82d2b4221fde004af3cc77db6c7cef1b713717fe179da1f8da"
+    },
+    {
+      "path": "concepts/falsifiability.md",
+      "line": 88,
+      "unit": "Optional Onboarding",
+      "sha256": "9e75001c23aeca82d2b4221fde004af3cc77db6c7cef1b713717fe179da1f8da"
+    },
+    {
+      "path": "concepts/goals.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "8deafbad414f270a6f573183ecbefbe3000d20f9c287da6fc383d1971827c89b"
+    },
+    {
+      "path": "concepts/goals.md",
+      "line": 1,
+      "unit": "Goals",
+      "sha256": "8deafbad414f270a6f573183ecbefbe3000d20f9c287da6fc383d1971827c89b"
+    },
+    {
+      "path": "concepts/goals.md",
+      "line": 9,
+      "unit": "Terminal and Instrumental",
+      "sha256": "8deafbad414f270a6f573183ecbefbe3000d20f9c287da6fc383d1971827c89b"
+    },
+    {
+      "path": "concepts/goals.md",
+      "line": 17,
+      "unit": "Strategic and Tactical",
+      "sha256": "8deafbad414f270a6f573183ecbefbe3000d20f9c287da6fc383d1971827c89b"
+    },
+    {
+      "path": "concepts/goals.md",
+      "line": 25,
+      "unit": "The Pathos Question",
+      "sha256": "8deafbad414f270a6f573183ecbefbe3000d20f9c287da6fc383d1971827c89b"
+    },
+    {
+      "path": "concepts/goals.md",
+      "line": 41,
+      "unit": "Drift",
+      "sha256": "8deafbad414f270a6f573183ecbefbe3000d20f9c287da6fc383d1971827c89b"
+    },
+    {
+      "path": "concepts/goals.md",
+      "line": 53,
+      "unit": "The Practical Questions",
+      "sha256": "8deafbad414f270a6f573183ecbefbe3000d20f9c287da6fc383d1971827c89b"
+    },
+    {
+      "path": "concepts/goals.md",
+      "line": 63,
+      "unit": "Optional Onboarding",
+      "sha256": "8deafbad414f270a6f573183ecbefbe3000d20f9c287da6fc383d1971827c89b"
+    },
+    {
+      "path": "concepts/pte.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "bc87d962cde2e9042b7af6a7f3a1cb3f4d41f1ac8d757bbc08704046160cd3f3"
+    },
+    {
+      "path": "concepts/pte.md",
+      "line": 1,
+      "unit": "Precise Technical English (PTE)",
+      "sha256": "bc87d962cde2e9042b7af6a7f3a1cb3f4d41f1ac8d757bbc08704046160cd3f3"
+    },
+    {
+      "path": "concepts/pte.md",
+      "line": 9,
+      "unit": "Why PTE Exists",
+      "sha256": "bc87d962cde2e9042b7af6a7f3a1cb3f4d41f1ac8d757bbc08704046160cd3f3"
+    },
+    {
+      "path": "concepts/pte.md",
+      "line": 28,
+      "unit": "The Connection to Falsifiability",
+      "sha256": "bc87d962cde2e9042b7af6a7f3a1cb3f4d41f1ac8d757bbc08704046160cd3f3"
+    },
+    {
+      "path": "concepts/pte.md",
+      "line": 39,
+      "unit": "The Rules",
+      "sha256": "bc87d962cde2e9042b7af6a7f3a1cb3f4d41f1ac8d757bbc08704046160cd3f3"
+    },
+    {
+      "path": "concepts/pte.md",
+      "line": 43,
+      "unit": "Verbs (Actions)",
+      "sha256": "bc87d962cde2e9042b7af6a7f3a1cb3f4d41f1ac8d757bbc08704046160cd3f3"
+    },
+    {
+      "path": "concepts/pte.md",
+      "line": 64,
+      "unit": "Nouns (Objects)",
+      "sha256": "bc87d962cde2e9042b7af6a7f3a1cb3f4d41f1ac8d757bbc08704046160cd3f3"
+    },
+    {
+      "path": "concepts/pte.md",
+      "line": 78,
+      "unit": "Extended Scope",
+      "sha256": "bc87d962cde2e9042b7af6a7f3a1cb3f4d41f1ac8d757bbc08704046160cd3f3"
+    },
+    {
+      "path": "concepts/pte.md",
+      "line": 92,
+      "unit": "The Workflow",
+      "sha256": "bc87d962cde2e9042b7af6a7f3a1cb3f4d41f1ac8d757bbc08704046160cd3f3"
+    },
+    {
+      "path": "concepts/pte.md",
+      "line": 105,
+      "unit": "When to Use PTE",
+      "sha256": "bc87d962cde2e9042b7af6a7f3a1cb3f4d41f1ac8d757bbc08704046160cd3f3"
+    },
+    {
+      "path": "concepts/pte.md",
+      "line": 119,
+      "unit": "The Value Proposition",
+      "sha256": "bc87d962cde2e9042b7af6a7f3a1cb3f4d41f1ac8d757bbc08704046160cd3f3"
+    },
+    {
+      "path": "concepts/pte.md",
+      "line": 129,
+      "unit": "Optional Onboarding",
+      "sha256": "bc87d962cde2e9042b7af6a7f3a1cb3f4d41f1ac8d757bbc08704046160cd3f3"
+    },
+    {
+      "path": "concepts/rhetoric.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "8f12166062b6c4b27ee049dfeac793a3875f75267776e41f8ef45b05c8f16b9a"
+    },
+    {
+      "path": "concepts/rhetoric.md",
+      "line": 1,
+      "unit": "Rhetoric",
+      "sha256": "8f12166062b6c4b27ee049dfeac793a3875f75267776e41f8ef45b05c8f16b9a"
+    },
+    {
+      "path": "concepts/rhetoric.md",
+      "line": 7,
+      "unit": "The Hidden Pathos",
+      "sha256": "8f12166062b6c4b27ee049dfeac793a3875f75267776e41f8ef45b05c8f16b9a"
+    },
+    {
+      "path": "concepts/rhetoric.md",
+      "line": 15,
+      "unit": "The Ethos Problem",
+      "sha256": "8f12166062b6c4b27ee049dfeac793a3875f75267776e41f8ef45b05c8f16b9a"
+    },
+    {
+      "path": "concepts/rhetoric.md",
+      "line": 23,
+      "unit": "The Information Problem",
+      "sha256": "8f12166062b6c4b27ee049dfeac793a3875f75267776e41f8ef45b05c8f16b9a"
+    },
+    {
+      "path": "concepts/rhetoric.md",
+      "line": 40,
+      "unit": "The Practical Questions",
+      "sha256": "8f12166062b6c4b27ee049dfeac793a3875f75267776e41f8ef45b05c8f16b9a"
+    },
+    {
+      "path": "concepts/rhetoric.md",
+      "line": 49,
+      "unit": "Optional Onboarding",
+      "sha256": "8f12166062b6c4b27ee049dfeac793a3875f75267776e41f8ef45b05c8f16b9a"
+    },
+    {
+      "path": "concepts/verification-cycle.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "2b9adc4d3b8287708668b4233569a7304aaaa648f9140ad2e078f2b6665bf83e"
+    },
+    {
+      "path": "concepts/verification-cycle.md",
+      "line": 1,
+      "unit": "The Verification Cycle",
+      "sha256": "2b9adc4d3b8287708668b4233569a7304aaaa648f9140ad2e078f2b6665bf83e"
+    },
+    {
+      "path": "concepts/verification-cycle.md",
+      "line": 9,
+      "unit": "The Cycle",
+      "sha256": "2b9adc4d3b8287708668b4233569a7304aaaa648f9140ad2e078f2b6665bf83e"
+    },
+    {
+      "path": "concepts/verification-cycle.md",
+      "line": 28,
+      "unit": "The Decomposition Criterion",
+      "sha256": "2b9adc4d3b8287708668b4233569a7304aaaa648f9140ad2e078f2b6665bf83e"
+    },
+    {
+      "path": "concepts/verification-cycle.md",
+      "line": 42,
+      "unit": "Assertions, Testing, and Dynamic Analysis",
+      "sha256": "2b9adc4d3b8287708668b4233569a7304aaaa648f9140ad2e078f2b6665bf83e"
+    },
+    {
+      "path": "concepts/verification-cycle.md",
+      "line": 46,
+      "unit": "The Practical Question",
+      "sha256": "2b9adc4d3b8287708668b4233569a7304aaaa648f9140ad2e078f2b6665bf83e"
+    },
+    {
+      "path": "concepts/verification-cycle.md",
+      "line": 52,
+      "unit": "Optional Onboarding",
+      "sha256": "2b9adc4d3b8287708668b4233569a7304aaaa648f9140ad2e078f2b6665bf83e"
+    },
+    {
+      "path": "concepts/zero-code-contract.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "b1c00fd1ed030b49114e597c43df7ec7cf87543f6bafb644858fea155be235d7"
+    },
+    {
+      "path": "concepts/zero-code-contract.md",
+      "line": 1,
+      "unit": "The Zero-Code Contract",
+      "sha256": "b1c00fd1ed030b49114e597c43df7ec7cf87543f6bafb644858fea155be235d7"
+    },
+    {
+      "path": "concepts/zero-code-contract.md",
+      "line": 9,
+      "unit": "The Roles",
+      "sha256": "b1c00fd1ed030b49114e597c43df7ec7cf87543f6bafb644858fea155be235d7"
+    },
+    {
+      "path": "concepts/zero-code-contract.md",
+      "line": 27,
+      "unit": "The Throughput Solution",
+      "sha256": "b1c00fd1ed030b49114e597c43df7ec7cf87543f6bafb644858fea155be235d7"
+    },
+    {
+      "path": "concepts/zero-code-contract.md",
+      "line": 39,
+      "unit": "Cooperative Oversight",
+      "sha256": "b1c00fd1ed030b49114e597c43df7ec7cf87543f6bafb644858fea155be235d7"
+    },
+    {
+      "path": "concepts/zero-code-contract.md",
+      "line": 55,
+      "unit": "The Workflow",
+      "sha256": "b1c00fd1ed030b49114e597c43df7ec7cf87543f6bafb644858fea155be235d7"
+    },
+    {
+      "path": "concepts/zero-code-contract.md",
+      "line": 64,
+      "unit": "The Practical Question",
+      "sha256": "b1c00fd1ed030b49114e597c43df7ec7cf87543f6bafb644858fea155be235d7"
+    },
+    {
+      "path": "concepts/zero-code-contract.md",
+      "line": 70,
+      "unit": "Optional Onboarding",
+      "sha256": "b1c00fd1ed030b49114e597c43df7ec7cf87543f6bafb644858fea155be235d7"
+    },
+    {
+      "path": "docs/discovery-and-recovery.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "44b70e11b10b2d75f1e0d91ec292d05df4a1783241d6de3b1a2d91f4806b396e"
+    },
+    {
+      "path": "docs/discovery-and-recovery.md",
+      "line": 1,
+      "unit": "Discovery and Recovery",
+      "sha256": "44b70e11b10b2d75f1e0d91ec292d05df4a1783241d6de3b1a2d91f4806b396e"
+    },
+    {
+      "path": "docs/discovery-and-recovery.md",
+      "line": 7,
+      "unit": "Discovery Is Read-Only",
+      "sha256": "44b70e11b10b2d75f1e0d91ec292d05df4a1783241d6de3b1a2d91f4806b396e"
+    },
+    {
+      "path": "docs/discovery-and-recovery.md",
+      "line": 23,
+      "unit": "Verification Is the Boundary",
+      "sha256": "44b70e11b10b2d75f1e0d91ec292d05df4a1783241d6de3b1a2d91f4806b396e"
+    },
+    {
+      "path": "docs/discovery-and-recovery.md",
+      "line": 29,
+      "unit": "Recovery Is Controlled Mutation",
+      "sha256": "44b70e11b10b2d75f1e0d91ec292d05df4a1783241d6de3b1a2d91f4806b396e"
+    },
+    {
+      "path": "docs/discovery-and-recovery.md",
+      "line": 44,
+      "unit": "Why the Boundary Matters",
+      "sha256": "44b70e11b10b2d75f1e0d91ec292d05df4a1783241d6de3b1a2d91f4806b396e"
+    },
+    {
+      "path": "docs/document-work.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "8c6589fe3098f5f9c75e7ed89c4861529614ae057473c3f3b8818b5fc240dc87"
+    },
+    {
+      "path": "docs/document-work.md",
+      "line": 1,
+      "unit": "Document Work",
+      "sha256": "8c6589fe3098f5f9c75e7ed89c4861529614ae057473c3f3b8818b5fc240dc87"
+    },
+    {
+      "path": "docs/document-work.md",
+      "line": 13,
+      "unit": "Analysis",
+      "sha256": "8c6589fe3098f5f9c75e7ed89c4861529614ae057473c3f3b8818b5fc240dc87"
+    },
+    {
+      "path": "docs/document-work.md",
+      "line": 21,
+      "unit": "Planning",
+      "sha256": "8c6589fe3098f5f9c75e7ed89c4861529614ae057473c3f3b8818b5fc240dc87"
+    },
+    {
+      "path": "docs/document-work.md",
+      "line": 29,
+      "unit": "Description",
+      "sha256": "8c6589fe3098f5f9c75e7ed89c4861529614ae057473c3f3b8818b5fc240dc87"
+    },
+    {
+      "path": "docs/document-work.md",
+      "line": 37,
+      "unit": "Precision When Needed",
+      "sha256": "8c6589fe3098f5f9c75e7ed89c4861529614ae057473c3f3b8818b5fc240dc87"
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "92574c2e7a7de382636fb5f2c398353a05f3c9b04e4f5df71ef6941997434819"
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "line": 1,
+      "unit": "How Verifiable Practice Works",
+      "sha256": "92574c2e7a7de382636fb5f2c398353a05f3c9b04e4f5df71ef6941997434819"
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "line": 7,
+      "unit": "What the System Manages",
+      "sha256": "92574c2e7a7de382636fb5f2c398353a05f3c9b04e4f5df71ef6941997434819"
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "line": 18,
+      "unit": "Responsibilities and Authority",
+      "sha256": "92574c2e7a7de382636fb5f2c398353a05f3c9b04e4f5df71ef6941997434819"
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "line": 30,
+      "unit": "The Lifecycle and Its Gates",
+      "sha256": "92574c2e7a7de382636fb5f2c398353a05f3c9b04e4f5df71ef6941997434819"
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "line": 43,
+      "unit": "Documents, Directories and the Audit Trail",
+      "sha256": "92574c2e7a7de382636fb5f2c398353a05f3c9b04e4f5df71ef6941997434819"
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "line": 72,
+      "unit": "Epistemology Within the Method",
+      "sha256": "92574c2e7a7de382636fb5f2c398353a05f3c9b04e4f5df71ef6941997434819"
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "line": 80,
+      "unit": "Choose the Assessment and Keep Its Verdict",
+      "sha256": "92574c2e7a7de382636fb5f2c398353a05f3c9b04e4f5df71ef6941997434819"
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "line": 89,
+      "unit": "Start a Project or Use a Bounded Task",
+      "sha256": "92574c2e7a7de382636fb5f2c398353a05f3c9b04e4f5df71ef6941997434819"
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "line": 97,
+      "unit": "Distribution and Limits",
+      "sha256": "92574c2e7a7de382636fb5f2c398353a05f3c9b04e4f5df71ef6941997434819"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "9debc5f2bb9c76dbca99ed1cde46ca9e20ffe0f96d68659769ef235330731a4e"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 1,
+      "unit": "Project Audit: Independent Record Assessment",
+      "sha256": "9debc5f2bb9c76dbca99ed1cde46ca9e20ffe0f96d68659769ef235330731a4e"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 20,
+      "unit": "Responsibilities",
+      "sha256": "9debc5f2bb9c76dbca99ed1cde46ca9e20ffe0f96d68659769ef235330731a4e"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 34,
+      "unit": "A Directory Handoff Loop",
+      "sha256": "9debc5f2bb9c76dbca99ed1cde46ca9e20ffe0f96d68659769ef235330731a4e"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 70,
+      "unit": "What \u201cRegenerate\u201d Means",
+      "sha256": "9debc5f2bb9c76dbca99ed1cde46ca9e20ffe0f96d68659769ef235330731a4e"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 83,
+      "unit": "Independence Has Two Meanings",
+      "sha256": "9debc5f2bb9c76dbca99ed1cde46ca9e20ffe0f96d68659769ef235330731a4e"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 97,
+      "unit": "Example: Missing Test Provenance",
+      "sha256": "9debc5f2bb9c76dbca99ed1cde46ca9e20ffe0f96d68659769ef235330731a4e"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 121,
+      "unit": "Gates without Role Drift",
+      "sha256": "9debc5f2bb9c76dbca99ed1cde46ca9e20ffe0f96d68659769ef235330731a4e"
+    },
+    {
+      "path": "docs/investigations.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "f86bce5e21d5ec2e126a1b1c44e47486e3c75bda42a9da41e61f2efbbe2f7c6f"
+    },
+    {
+      "path": "docs/investigations.md",
+      "line": 1,
+      "unit": "Investigations",
+      "sha256": "f86bce5e21d5ec2e126a1b1c44e47486e3c75bda42a9da41e61f2efbbe2f7c6f"
+    },
+    {
+      "path": "docs/investigations.md",
+      "line": 9,
+      "unit": "A Good Hypothesis",
+      "sha256": "f86bce5e21d5ec2e126a1b1c44e47486e3c75bda42a9da41e61f2efbbe2f7c6f"
+    },
+    {
+      "path": "docs/investigations.md",
+      "line": 20,
+      "unit": "Isolation and Records",
+      "sha256": "f86bce5e21d5ec2e126a1b1c44e47486e3c75bda42a9da41e61f2efbbe2f7c6f"
+    },
+    {
+      "path": "docs/investigations.md",
+      "line": 32,
+      "unit": "Three Honest Verdicts",
+      "sha256": "f86bce5e21d5ec2e126a1b1c44e47486e3c75bda42a9da41e61f2efbbe2f7c6f"
+    },
+    {
+      "path": "docs/investigations.md",
+      "line": 42,
+      "unit": "Returning to Main Work",
+      "sha256": "f86bce5e21d5ec2e126a1b1c44e47486e3c75bda42a9da41e61f2efbbe2f7c6f"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 1,
+      "unit": "Design Record: VP Project Planning and Records",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 6,
+      "unit": "Present Adoption and Historical Evidence Limits",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 17,
+      "unit": "Goal and Document Plan",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 37,
+      "unit": "Inspected Evidence",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 68,
+      "unit": "Generalised Design Decisions",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 75,
+      "unit": "VP-DESIGN-01: An Explicit Conformance Contract",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 89,
+      "unit": "VP-DESIGN-02: One Record Root and Stable Typed IDs",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 103,
+      "unit": "VP-DESIGN-03: Stages, Baselines and Delegated Authority",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 118,
+      "unit": "VP-DESIGN-04: Observation, Generalisation and Choice Are Separate",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 133,
+      "unit": "VP-DESIGN-05: Preserve Contemporary Reasoning",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 146,
+      "unit": "VP-DESIGN-06: Exact Inputs and All Attempts",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 160,
+      "unit": "VP-DESIGN-07: Claims, Instruments and Reader Outcomes",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 174,
+      "unit": "VP-DESIGN-08: Finite Validity and Dependency Impact",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 188,
+      "unit": "VP-DESIGN-09: Complete Coverage at a Snapshot",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 202,
+      "unit": "VP-DESIGN-10: Custody and Recorded Disposition",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 216,
+      "unit": "VP-DESIGN-11: Honest Legacy Adoption",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 229,
+      "unit": "VP-DESIGN-12: Proportional Records without Lost Evidence",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 244,
+      "unit": "VP-DESIGN-13: Markdown and Directories as the Portable Interface",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 257,
+      "unit": "VP-DESIGN-14: Evaluate the Standard across Different Work",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 273,
+      "unit": "Review Horizon and Remaining Evidence",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 287,
+      "unit": "Implementation Verification: 19 October 2026",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 319,
+      "unit": "Extension: Independent Record Audit and Worker Remediation",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 338,
+      "unit": "VP-DESIGN-15: Separate Record Auditor and Working AI",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 358,
+      "unit": "VP-DESIGN-16: Frozen Inputs and Explicit Evidence Custody",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 376,
+      "unit": "VP-DESIGN-17: Findings, Responses and Independent Closure",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 395,
+      "unit": "VP-DESIGN-18: Scheduled, Bounded Audit Rounds and Declared Gates",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 414,
+      "unit": "Extension Verification",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 429,
+      "unit": "Extension: Owner as a Human or AI Role",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 431,
+      "unit": "VP-DESIGN-19: Ownership Is Defined by Mandate, Not Actor Type",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 462,
+      "unit": "Extension: Explicit Audit Kinds",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 464,
+      "unit": "VP-DESIGN-20: Select the Audit Contract before Inspecting",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 501,
+      "unit": "Later public-method explanation",
+      "sha256": "b0a086a6254876084557f56613b2790fad7278805414dc289f3da48599f35d68"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "90c25f0e37fbcb91435f6a0834262a435c2aa11fa8a386c1853b94ebb7b6a6f3"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 1,
+      "unit": "Worked Record Traces",
+      "sha256": "90c25f0e37fbcb91435f6a0834262a435c2aa11fa8a386c1853b94ebb7b6a6f3"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 10,
+      "unit": "1. Compiled CLI Output Handling",
+      "sha256": "90c25f0e37fbcb91435f6a0834262a435c2aa11fa8a386c1853b94ebb7b6a6f3"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 43,
+      "unit": "Start from a Piece of Code",
+      "sha256": "90c25f0e37fbcb91435f6a0834262a435c2aa11fa8a386c1853b94ebb7b6a6f3"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 56,
+      "unit": "Interpreted Variant",
+      "sha256": "90c25f0e37fbcb91435f6a0834262a435c2aa11fa8a386c1853b94ebb7b6a6f3"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 65,
+      "unit": "2. Document Self-Containment and Reader Comprehension",
+      "sha256": "90c25f0e37fbcb91435f6a0834262a435c2aa11fa8a386c1853b94ebb7b6a6f3"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 98,
+      "unit": "Start from a Document or Test",
+      "sha256": "90c25f0e37fbcb91435f6a0834262a435c2aa11fa8a386c1853b94ebb7b6a6f3"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 110,
+      "unit": "3. What Generalises and What Stays Local",
+      "sha256": "90c25f0e37fbcb91435f6a0834262a435c2aa11fa8a386c1853b94ebb7b6a6f3"
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "893421b644229bb4fa7c8ce94d56989f30e4723b385fb7c0b652d61fcc5d1615"
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "line": 1,
+      "unit": "Evaluating Project Record Behaviour",
+      "sha256": "893421b644229bb4fa7c8ce94d56989f30e4723b385fb7c0b652d61fcc5d1615"
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "line": 11,
+      "unit": "Trial Protocol",
+      "sha256": "893421b644229bb4fa7c8ce94d56989f30e4723b385fb7c0b652d61fcc5d1615"
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "line": 28,
+      "unit": "Adversarial and Control Cases",
+      "sha256": "893421b644229bb4fa7c8ce94d56989f30e4723b385fb7c0b652d61fcc5d1615"
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "line": 69,
+      "unit": "Process Cost and Recovery Outcomes",
+      "sha256": "893421b644229bb4fa7c8ce94d56989f30e4723b385fb7c0b652d61fcc5d1615"
+    },
+    {
+      "path": "docs/project-records.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "0445cabda5b432ad7212bfffd120a2538e6ba848a80c48e8a23e6e460e799064"
+    },
+    {
+      "path": "docs/project-records.md",
+      "line": 1,
+      "unit": "Project Planning and Records",
+      "sha256": "0445cabda5b432ad7212bfffd120a2538e6ba848a80c48e8a23e6e460e799064"
+    },
+    {
+      "path": "docs/project-records.md",
+      "line": 17,
+      "unit": "The Record Chain",
+      "sha256": "0445cabda5b432ad7212bfffd120a2538e6ba848a80c48e8a23e6e460e799064"
+    },
+    {
+      "path": "docs/project-records.md",
+      "line": 47,
+      "unit": "What Each Inspiration Contributes",
+      "sha256": "0445cabda5b432ad7212bfffd120a2538e6ba848a80c48e8a23e6e460e799064"
+    },
+    {
+      "path": "docs/project-records.md",
+      "line": 62,
+      "unit": "A Time Horizon Is Part of the Justification",
+      "sha256": "0445cabda5b432ad7212bfffd120a2538e6ba848a80c48e8a23e6e460e799064"
+    },
+    {
+      "path": "docs/project-records.md",
+      "line": 79,
+      "unit": "Records Are More than a Clean Tree",
+      "sha256": "0445cabda5b432ad7212bfffd120a2538e6ba848a80c48e8a23e6e460e799064"
+    },
+    {
+      "path": "docs/project-records.md",
+      "line": 91,
+      "unit": "Small Work and Legacy Work",
+      "sha256": "0445cabda5b432ad7212bfffd120a2538e6ba848a80c48e8a23e6e460e799064"
+    },
+    {
+      "path": "docs/project-records.md",
+      "line": 104,
+      "unit": "How to Evaluate This Proposal",
+      "sha256": "0445cabda5b432ad7212bfffd120a2538e6ba848a80c48e8a23e6e460e799064"
+    },
+    {
+      "path": "docs/review-and-audit.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "56488fdc85eacc5baa55aec1aacef9b8213e83a3d610b0d8445afc0bd8261c4c"
+    },
+    {
+      "path": "docs/review-and-audit.md",
+      "line": 1,
+      "unit": "Review and Audit",
+      "sha256": "56488fdc85eacc5baa55aec1aacef9b8213e83a3d610b0d8445afc0bd8261c4c"
+    },
+    {
+      "path": "docs/review-and-audit.md",
+      "line": 21,
+      "unit": "Reasoning Review",
+      "sha256": "56488fdc85eacc5baa55aec1aacef9b8213e83a3d610b0d8445afc0bd8261c4c"
+    },
+    {
+      "path": "docs/review-and-audit.md",
+      "line": 37,
+      "unit": "Code Audit",
+      "sha256": "56488fdc85eacc5baa55aec1aacef9b8213e83a3d610b0d8445afc0bd8261c4c"
+    },
+    {
+      "path": "docs/review-and-audit.md",
+      "line": 53,
+      "unit": "Project Audit (Independent Record Audit)",
+      "sha256": "56488fdc85eacc5baa55aec1aacef9b8213e83a3d610b0d8445afc0bd8261c4c"
+    },
+    {
+      "path": "docs/review-and-audit.md",
+      "line": 73,
+      "unit": "Why Audit and Repair Are Separate",
+      "sha256": "56488fdc85eacc5baa55aec1aacef9b8213e83a3d610b0d8445afc0bd8261c4c"
+    },
+    {
+      "path": "docs/skill-architecture.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "0f79ba36b0ff932b005267862a0ef02ea6695fd5f4d95c0e68ad33abb6f0e6ef"
+    },
+    {
+      "path": "docs/skill-architecture.md",
+      "line": 1,
+      "unit": "Skill Architecture",
+      "sha256": "0f79ba36b0ff932b005267862a0ef02ea6695fd5f4d95c0e68ad33abb6f0e6ef"
+    },
+    {
+      "path": "docs/skill-architecture.md",
+      "line": 5,
+      "unit": "Repository Layers",
+      "sha256": "0f79ba36b0ff932b005267862a0ef02ea6695fd5f4d95c0e68ad33abb6f0e6ef"
+    },
+    {
+      "path": "docs/skill-architecture.md",
+      "line": 20,
+      "unit": "Skill Entry Point",
+      "sha256": "0f79ba36b0ff932b005267862a0ef02ea6695fd5f4d95c0e68ad33abb6f0e6ef"
+    },
+    {
+      "path": "docs/skill-architecture.md",
+      "line": 24,
+      "unit": "Concepts",
+      "sha256": "0f79ba36b0ff932b005267862a0ef02ea6695fd5f4d95c0e68ad33abb6f0e6ef"
+    },
+    {
+      "path": "docs/skill-architecture.md",
+      "line": 28,
+      "unit": "Playbooks",
+      "sha256": "0f79ba36b0ff932b005267862a0ef02ea6695fd5f4d95c0e68ad33abb6f0e6ef"
+    },
+    {
+      "path": "docs/skill-architecture.md",
+      "line": 32,
+      "unit": "Documentation",
+      "sha256": "0f79ba36b0ff932b005267862a0ef02ea6695fd5f4d95c0e68ad33abb6f0e6ef"
+    },
+    {
+      "path": "docs/skill-architecture.md",
+      "line": 36,
+      "unit": "Project Records and Evidence",
+      "sha256": "0f79ba36b0ff932b005267862a0ef02ea6695fd5f4d95c0e68ad33abb6f0e6ef"
+    },
+    {
+      "path": "docs/skill-architecture.md",
+      "line": 40,
+      "unit": "Standards and Templates",
+      "sha256": "0f79ba36b0ff932b005267862a0ef02ea6695fd5f4d95c0e68ad33abb6f0e6ef"
+    },
+    {
+      "path": "docs/skill-architecture.md",
+      "line": 48,
+      "unit": "Platform Adapters",
+      "sha256": "0f79ba36b0ff932b005267862a0ef02ea6695fd5f4d95c0e68ad33abb6f0e6ef"
+    },
+    {
+      "path": "docs/skill-architecture.md",
+      "line": 61,
+      "unit": "Changing the Skill",
+      "sha256": "0f79ba36b0ff932b005267862a0ef02ea6695fd5f4d95c0e68ad33abb6f0e6ef"
+    },
+    {
+      "path": "docs/testing-ai-behaviour.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "2a9c2935aa32c035766484abf2e79f9742f90154a8a4e3309ff31cf7f81f8e00"
+    },
+    {
+      "path": "docs/testing-ai-behaviour.md",
+      "line": 1,
+      "unit": "Testing AI Behaviour",
+      "sha256": "2a9c2935aa32c035766484abf2e79f9742f90154a8a4e3309ff31cf7f81f8e00"
+    },
+    {
+      "path": "docs/testing-ai-behaviour.md",
+      "line": 7,
+      "unit": "Start with Observable Behaviour",
+      "sha256": "2a9c2935aa32c035766484abf2e79f9742f90154a8a4e3309ff31cf7f81f8e00"
+    },
+    {
+      "path": "docs/testing-ai-behaviour.md",
+      "line": 19,
+      "unit": "Use the Cheapest Reliable Oracle",
+      "sha256": "2a9c2935aa32c035766484abf2e79f9742f90154a8a4e3309ff31cf7f81f8e00"
+    },
+    {
+      "path": "docs/testing-ai-behaviour.md",
+      "line": 31,
+      "unit": "Test Positive and Negative Behaviour",
+      "sha256": "2a9c2935aa32c035766484abf2e79f9742f90154a8a4e3309ff31cf7f81f8e00"
+    },
+    {
+      "path": "docs/testing-ai-behaviour.md",
+      "line": 41,
+      "unit": "Isolate Context",
+      "sha256": "2a9c2935aa32c035766484abf2e79f9742f90154a8a4e3309ff31cf7f81f8e00"
+    },
+    {
+      "path": "docs/testing-ai-behaviour.md",
+      "line": 49,
+      "unit": "Evaluate Non-Determinism Honestly",
+      "sha256": "2a9c2935aa32c035766484abf2e79f9742f90154a8a4e3309ff31cf7f81f8e00"
+    },
+    {
+      "path": "docs/testing-ai-behaviour.md",
+      "line": 64,
+      "unit": "Preserve the Test Record",
+      "sha256": "2a9c2935aa32c035766484abf2e79f9742f90154a8a4e3309ff31cf7f81f8e00"
+    },
+    {
+      "path": "playbooks/audit-routing.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "5768054024f17b45a3d74dc208646d9be0fcd9e239e240c89cfd02d06f6d2881"
+    },
+    {
+      "path": "playbooks/audit-routing.md",
+      "line": 1,
+      "unit": "Select the Audit Kind",
+      "sha256": "5768054024f17b45a3d74dc208646d9be0fcd9e239e240c89cfd02d06f6d2881"
+    },
+    {
+      "path": "playbooks/audit-routing.md",
+      "line": 15,
+      "unit": "Mandatory Clarification",
+      "sha256": "5768054024f17b45a3d74dc208646d9be0fcd9e239e240c89cfd02d06f6d2881"
+    },
+    {
+      "path": "playbooks/audit-routing.md",
+      "line": 30,
+      "unit": "After the Kind Is Selected",
+      "sha256": "5768054024f17b45a3d74dc208646d9be0fcd9e239e240c89cfd02d06f6d2881"
+    },
+    {
+      "path": "playbooks/audit-routing.md",
+      "line": 40,
+      "unit": "Keep Verdicts Distinct",
+      "sha256": "5768054024f17b45a3d74dc208646d9be0fcd9e239e240c89cfd02d06f6d2881"
+    },
+    {
+      "path": "playbooks/code-audit.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "0001b5381d2e2aa3c74b2224175e5d996084a457bddac88a325a46081d8281c1"
+    },
+    {
+      "path": "playbooks/code-audit.md",
+      "line": 1,
+      "unit": "Code Audit",
+      "sha256": "0001b5381d2e2aa3c74b2224175e5d996084a457bddac88a325a46081d8281c1"
+    },
+    {
+      "path": "playbooks/code-audit.md",
+      "line": 12,
+      "unit": "Phase 1: Scope",
+      "sha256": "0001b5381d2e2aa3c74b2224175e5d996084a457bddac88a325a46081d8281c1"
+    },
+    {
+      "path": "playbooks/code-audit.md",
+      "line": 19,
+      "unit": "Phase 2: Audit",
+      "sha256": "0001b5381d2e2aa3c74b2224175e5d996084a457bddac88a325a46081d8281c1"
+    },
+    {
+      "path": "playbooks/code-audit.md",
+      "line": 44,
+      "unit": "Phase 3: Consolidate",
+      "sha256": "0001b5381d2e2aa3c74b2224175e5d996084a457bddac88a325a46081d8281c1"
+    },
+    {
+      "path": "playbooks/code-audit.md",
+      "line": 65,
+      "unit": "Phase 4: Repair, If Authorised",
+      "sha256": "0001b5381d2e2aa3c74b2224175e5d996084a457bddac88a325a46081d8281c1"
+    },
+    {
+      "path": "playbooks/code-audit.md",
+      "line": 78,
+      "unit": "Completion Criteria",
+      "sha256": "0001b5381d2e2aa3c74b2224175e5d996084a457bddac88a325a46081d8281c1"
+    },
+    {
+      "path": "playbooks/debugging.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "92aab54e1a58a4f3e98cbdfcd39e951c89c4d07d82671e8711ccd83a78bb5ebb"
+    },
+    {
+      "path": "playbooks/debugging.md",
+      "line": 1,
+      "unit": "Hypothesis-Driven Debugging",
+      "sha256": "92aab54e1a58a4f3e98cbdfcd39e951c89c4d07d82671e8711ccd83a78bb5ebb"
+    },
+    {
+      "path": "playbooks/debugging.md",
+      "line": 5,
+      "unit": "1. Verify the Subject",
+      "sha256": "92aab54e1a58a4f3e98cbdfcd39e951c89c4d07d82671e8711ccd83a78bb5ebb"
+    },
+    {
+      "path": "playbooks/debugging.md",
+      "line": 11,
+      "unit": "2. State Competing Hypotheses",
+      "sha256": "92aab54e1a58a4f3e98cbdfcd39e951c89c4d07d82671e8711ccd83a78bb5ebb"
+    },
+    {
+      "path": "playbooks/debugging.md",
+      "line": 21,
+      "unit": "3. Design a Discriminating Observation",
+      "sha256": "92aab54e1a58a4f3e98cbdfcd39e951c89c4d07d82671e8711ccd83a78bb5ebb"
+    },
+    {
+      "path": "playbooks/debugging.md",
+      "line": 33,
+      "unit": "4. Observe and Record",
+      "sha256": "92aab54e1a58a4f3e98cbdfcd39e951c89c4d07d82671e8711ccd83a78bb5ebb"
+    },
+    {
+      "path": "playbooks/debugging.md",
+      "line": 45,
+      "unit": "5. Conclude Carefully",
+      "sha256": "92aab54e1a58a4f3e98cbdfcd39e951c89c4d07d82671e8711ccd83a78bb5ebb"
+    },
+    {
+      "path": "playbooks/debugging.md",
+      "line": 49,
+      "unit": "Anti-Patterns",
+      "sha256": "92aab54e1a58a4f3e98cbdfcd39e951c89c4d07d82671e8711ccd83a78bb5ebb"
+    },
+    {
+      "path": "playbooks/discovery-verification.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "f9c4398e238bb90028656f55b86d262197578fc463f15b9d1206add2facd3247"
+    },
+    {
+      "path": "playbooks/discovery-verification.md",
+      "line": 1,
+      "unit": "Discovery Verification",
+      "sha256": "f9c4398e238bb90028656f55b86d262197578fc463f15b9d1206add2facd3247"
+    },
+    {
+      "path": "playbooks/discovery-verification.md",
+      "line": 5,
+      "unit": "Checks",
+      "sha256": "f9c4398e238bb90028656f55b86d262197578fc463f15b9d1206add2facd3247"
+    },
+    {
+      "path": "playbooks/discovery-verification.md",
+      "line": 26,
+      "unit": "Output",
+      "sha256": "f9c4398e238bb90028656f55b86d262197578fc463f15b9d1206add2facd3247"
+    },
+    {
+      "path": "playbooks/discovery.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "10212f438dd713549baafa04b061d6d0068291e25848eb64d9a36cdfe88db028"
+    },
+    {
+      "path": "playbooks/discovery.md",
+      "line": 1,
+      "unit": "Project Discovery",
+      "sha256": "10212f438dd713549baafa04b061d6d0068291e25848eb64d9a36cdfe88db028"
+    },
+    {
+      "path": "playbooks/discovery.md",
+      "line": 5,
+      "unit": "Phase 1: Establish Context",
+      "sha256": "10212f438dd713549baafa04b061d6d0068291e25848eb64d9a36cdfe88db028"
+    },
+    {
+      "path": "playbooks/discovery.md",
+      "line": 11,
+      "unit": "Phase 2: Archaeology",
+      "sha256": "10212f438dd713549baafa04b061d6d0068291e25848eb64d9a36cdfe88db028"
+    },
+    {
+      "path": "playbooks/discovery.md",
+      "line": 23,
+      "unit": "Phase 3: Triage",
+      "sha256": "10212f438dd713549baafa04b061d6d0068291e25848eb64d9a36cdfe88db028"
+    },
+    {
+      "path": "playbooks/discovery.md",
+      "line": 35,
+      "unit": "Phase 4: Gap Analysis",
+      "sha256": "10212f438dd713549baafa04b061d6d0068291e25848eb64d9a36cdfe88db028"
+    },
+    {
+      "path": "playbooks/discovery.md",
+      "line": 41,
+      "unit": "Output",
+      "sha256": "10212f438dd713549baafa04b061d6d0068291e25848eb64d9a36cdfe88db028"
+    },
+    {
+      "path": "playbooks/document-analysis.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "b42892bb673aaa0d20cdb0ec61edbe52f589efba0db0cdb649e29bb1f704a4e9"
+    },
+    {
+      "path": "playbooks/document-analysis.md",
+      "line": 1,
+      "unit": "Document Analysis",
+      "sha256": "b42892bb673aaa0d20cdb0ec61edbe52f589efba0db0cdb649e29bb1f704a4e9"
+    },
+    {
+      "path": "playbooks/document-analysis.md",
+      "line": 5,
+      "unit": "Process",
+      "sha256": "b42892bb673aaa0d20cdb0ec61edbe52f589efba0db0cdb649e29bb1f704a4e9"
+    },
+    {
+      "path": "playbooks/document-analysis.md",
+      "line": 16,
+      "unit": "Output",
+      "sha256": "b42892bb673aaa0d20cdb0ec61edbe52f589efba0db0cdb649e29bb1f704a4e9"
+    },
+    {
+      "path": "playbooks/document-analysis.md",
+      "line": 32,
+      "unit": "Rules",
+      "sha256": "b42892bb673aaa0d20cdb0ec61edbe52f589efba0db0cdb649e29bb1f704a4e9"
+    },
+    {
+      "path": "playbooks/document-description.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "68ff33cf37011705e137b5df9692f33ae39f02dae470070415ad0a12dd239458"
+    },
+    {
+      "path": "playbooks/document-description.md",
+      "line": 1,
+      "unit": "Document Description",
+      "sha256": "68ff33cf37011705e137b5df9692f33ae39f02dae470070415ad0a12dd239458"
+    },
+    {
+      "path": "playbooks/document-description.md",
+      "line": 5,
+      "unit": "Process",
+      "sha256": "68ff33cf37011705e137b5df9692f33ae39f02dae470070415ad0a12dd239458"
+    },
+    {
+      "path": "playbooks/document-description.md",
+      "line": 16,
+      "unit": "Suggested Structure",
+      "sha256": "68ff33cf37011705e137b5df9692f33ae39f02dae470070415ad0a12dd239458"
+    },
+    {
+      "path": "playbooks/document-planning.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "cf03a3196dccff1c4d6ec52be016d39cdbf738be2fcc5a84a013b7ed712dea0b"
+    },
+    {
+      "path": "playbooks/document-planning.md",
+      "line": 1,
+      "unit": "Document Planning",
+      "sha256": "cf03a3196dccff1c4d6ec52be016d39cdbf738be2fcc5a84a013b7ed712dea0b"
+    },
+    {
+      "path": "playbooks/document-planning.md",
+      "line": 5,
+      "unit": "Process",
+      "sha256": "cf03a3196dccff1c4d6ec52be016d39cdbf738be2fcc5a84a013b7ed712dea0b"
+    },
+    {
+      "path": "playbooks/document-planning.md",
+      "line": 19,
+      "unit": "Output",
+      "sha256": "cf03a3196dccff1c4d6ec52be016d39cdbf738be2fcc5a84a013b7ed712dea0b"
+    },
+    {
+      "path": "playbooks/investigation.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "a7867c86b0188f7cba52b394ffe22a5c0f01dad470b93d59a5266095365805a6"
+    },
+    {
+      "path": "playbooks/investigation.md",
+      "line": 1,
+      "unit": "Investigation",
+      "sha256": "a7867c86b0188f7cba52b394ffe22a5c0f01dad470b93d59a5266095365805a6"
+    },
+    {
+      "path": "playbooks/investigation.md",
+      "line": 5,
+      "unit": "1. State the Hypothesis",
+      "sha256": "a7867c86b0188f7cba52b394ffe22a5c0f01dad470b93d59a5266095365805a6"
+    },
+    {
+      "path": "playbooks/investigation.md",
+      "line": 15,
+      "unit": "2. Isolate the Work",
+      "sha256": "a7867c86b0188f7cba52b394ffe22a5c0f01dad470b93d59a5266095365805a6"
+    },
+    {
+      "path": "playbooks/investigation.md",
+      "line": 39,
+      "unit": "3. Design Experiments",
+      "sha256": "a7867c86b0188f7cba52b394ffe22a5c0f01dad470b93d59a5266095365805a6"
+    },
+    {
+      "path": "playbooks/investigation.md",
+      "line": 51,
+      "unit": "4. Execute and Record",
+      "sha256": "a7867c86b0188f7cba52b394ffe22a5c0f01dad470b93d59a5266095365805a6"
+    },
+    {
+      "path": "playbooks/investigation.md",
+      "line": 55,
+      "unit": "5. Reach a Verdict",
+      "sha256": "a7867c86b0188f7cba52b394ffe22a5c0f01dad470b93d59a5266095365805a6"
+    },
+    {
+      "path": "playbooks/precise-technical-english.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "cf8b548d1ce5863b6db7a9e54753d24bbfca40c7d7ddf55a918a87449bbd2a8a"
+    },
+    {
+      "path": "playbooks/precise-technical-english.md",
+      "line": 1,
+      "unit": "Precise Technical English",
+      "sha256": "cf8b548d1ce5863b6db7a9e54753d24bbfca40c7d7ddf55a918a87449bbd2a8a"
+    },
+    {
+      "path": "playbooks/precise-technical-english.md",
+      "line": 5,
+      "unit": "Activation",
+      "sha256": "cf8b548d1ce5863b6db7a9e54753d24bbfca40c7d7ddf55a918a87449bbd2a8a"
+    },
+    {
+      "path": "playbooks/precise-technical-english.md",
+      "line": 9,
+      "unit": "Resolution Loop",
+      "sha256": "cf8b548d1ce5863b6db7a9e54753d24bbfca40c7d7ddf55a918a87449bbd2a8a"
+    },
+    {
+      "path": "playbooks/precise-technical-english.md",
+      "line": 17,
+      "unit": "Required Form",
+      "sha256": "cf8b548d1ce5863b6db7a9e54753d24bbfca40c7d7ddf55a918a87449bbd2a8a"
+    },
+    {
+      "path": "playbooks/precise-technical-english.md",
+      "line": 28,
+      "unit": "Output",
+      "sha256": "cf8b548d1ce5863b6db7a9e54753d24bbfca40c7d7ddf55a918a87449bbd2a8a"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "b4aa0438df03fa18e4920f920b1f626e9015d4efa2e4a28d21aaacdff6494b97"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 1,
+      "unit": "Project Planning and Records",
+      "sha256": "b4aa0438df03fa18e4920f920b1f626e9015d4efa2e4a28d21aaacdff6494b97"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 9,
+      "unit": "1. Identify the Contract",
+      "sha256": "b4aa0438df03fa18e4920f920b1f626e9015d4efa2e4a28d21aaacdff6494b97"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 22,
+      "unit": "2. Generalise the Need before Choosing a Response",
+      "sha256": "b4aa0438df03fa18e4920f920b1f626e9015d4efa2e4a28d21aaacdff6494b97"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 38,
+      "unit": "3. Baseline and Plan a Stage",
+      "sha256": "b4aa0438df03fa18e4920f920b1f626e9015d4efa2e4a28d21aaacdff6494b97"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 49,
+      "unit": "4. Record Claims and Protocols before Acting",
+      "sha256": "b4aa0438df03fa18e4920f920b1f626e9015d4efa2e4a28d21aaacdff6494b97"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 61,
+      "unit": "5. Modify, Build and Execute with Identity",
+      "sha256": "b4aa0438df03fa18e4920f920b1f626e9015d4efa2e4a28d21aaacdff6494b97"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 77,
+      "unit": "6. Preserve, Interpret and Decide",
+      "sha256": "b4aa0438df03fa18e4920f920b1f626e9015d4efa2e4a28d21aaacdff6494b97"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 93,
+      "unit": "7. Revalidate or Contain",
+      "sha256": "b4aa0438df03fa18e4920f920b1f626e9015d4efa2e4a28d21aaacdff6494b97"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 104,
+      "unit": "8. Close the Stage and Handoff",
+      "sha256": "b4aa0438df03fa18e4920f920b1f626e9015d4efa2e4a28d21aaacdff6494b97"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 119,
+      "unit": "9. Dispose Only with a Trace",
+      "sha256": "b4aa0438df03fa18e4920f920b1f626e9015d4efa2e4a28d21aaacdff6494b97"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "a253b35ba80a84108d799476758854385f5c22a04df73d0b60017810a3c37536"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 1,
+      "unit": "Project Audit and Record Remediation",
+      "sha256": "a253b35ba80a84108d799476758854385f5c22a04df73d0b60017810a3c37536"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 13,
+      "unit": "1. Coordinator: Commission a Bounded Audit",
+      "sha256": "a253b35ba80a84108d799476758854385f5c22a04df73d0b60017810a3c37536"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 30,
+      "unit": "2. Auditor: Establish Inputs and Independence",
+      "sha256": "a253b35ba80a84108d799476758854385f5c22a04df73d0b60017810a3c37536"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 41,
+      "unit": "3. Auditor: Examine Records without Solving the Project",
+      "sha256": "a253b35ba80a84108d799476758854385f5c22a04df73d0b60017810a3c37536"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 61,
+      "unit": "4. Auditor: Report and End",
+      "sha256": "a253b35ba80a84108d799476758854385f5c22a04df73d0b60017810a3c37536"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 78,
+      "unit": "5. Worker: Respond with Records",
+      "sha256": "a253b35ba80a84108d799476758854385f5c22a04df73d0b60017810a3c37536"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 99,
+      "unit": "6. Coordinator and Auditor: Re-Audit Closure",
+      "sha256": "a253b35ba80a84108d799476758854385f5c22a04df73d0b60017810a3c37536"
+    },
+    {
+      "path": "playbooks/recovery.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "c4662c4117cb077631fb1525141fb8c2d1123af71180bbfc233cd884563d4f31"
+    },
+    {
+      "path": "playbooks/recovery.md",
+      "line": 1,
+      "unit": "Project Recovery",
+      "sha256": "c4662c4117cb077631fb1525141fb8c2d1123af71180bbfc233cd884563d4f31"
+    },
+    {
+      "path": "playbooks/recovery.md",
+      "line": 5,
+      "unit": "1. Load the Evidence",
+      "sha256": "c4662c4117cb077631fb1525141fb8c2d1123af71180bbfc233cd884563d4f31"
+    },
+    {
+      "path": "playbooks/recovery.md",
+      "line": 9,
+      "unit": "2. Plan Reversible Steps",
+      "sha256": "c4662c4117cb077631fb1525141fb8c2d1123af71180bbfc233cd884563d4f31"
+    },
+    {
+      "path": "playbooks/recovery.md",
+      "line": 24,
+      "unit": "3. Execute Incrementally",
+      "sha256": "c4662c4117cb077631fb1525141fb8c2d1123af71180bbfc233cd884563d4f31"
+    },
+    {
+      "path": "playbooks/recovery.md",
+      "line": 36,
+      "unit": "4. Establish Durable Structure",
+      "sha256": "c4662c4117cb077631fb1525141fb8c2d1123af71180bbfc233cd884563d4f31"
+    },
+    {
+      "path": "playbooks/recovery.md",
+      "line": 53,
+      "unit": "5. Verify Completion",
+      "sha256": "c4662c4117cb077631fb1525141fb8c2d1123af71180bbfc233cd884563d4f31"
+    },
+    {
+      "path": "playbooks/review.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "e6c2218df45527eb36e3e4b363044254d675850ae8262412f589d681c0d6a996"
+    },
+    {
+      "path": "playbooks/review.md",
+      "line": 1,
+      "unit": "Reasoning Review",
+      "sha256": "e6c2218df45527eb36e3e4b363044254d675850ae8262412f589d681c0d6a996"
+    },
+    {
+      "path": "playbooks/review.md",
+      "line": 5,
+      "unit": "Inputs",
+      "sha256": "e6c2218df45527eb36e3e4b363044254d675850ae8262412f589d681c0d6a996"
+    },
+    {
+      "path": "playbooks/review.md",
+      "line": 17,
+      "unit": "Review Dimensions",
+      "sha256": "e6c2218df45527eb36e3e4b363044254d675850ae8262412f589d681c0d6a996"
+    },
+    {
+      "path": "playbooks/review.md",
+      "line": 30,
+      "unit": "Output",
+      "sha256": "e6c2218df45527eb36e3e4b363044254d675850ae8262412f589d681c0d6a996"
+    },
+    {
+      "path": "playbooks/review.md",
+      "line": 48,
+      "unit": "Rules",
+      "sha256": "e6c2218df45527eb36e3e4b363044254d675850ae8262412f589d681c0d6a996"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 1,
+      "unit": "VP Project Planning and Records Standard",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 31,
+      "unit": "1. Scope and Limits",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 47,
+      "unit": "2. Project Directory Contract",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 106,
+      "unit": "3. Record Identity and Common Fields",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 138,
+      "unit": "4. Planning and Authority",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 190,
+      "unit": "5. Choices and Relied-On Ideas",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 192,
+      "unit": "Decisions (`D`)",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 219,
+      "unit": "Hypotheses (`H`)",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 232,
+      "unit": "6. Experiments, Builds and Runs",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 234,
+      "unit": "Experiment protocols (`E`)",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 247,
+      "unit": "Build attempts (`B`)",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 279,
+      "unit": "Evidence executions (`R`)",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 306,
+      "unit": "7. Time Horizons and Reverification",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 369,
+      "unit": "8. Code and Artefact Traceability",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 414,
+      "unit": "9. Retention, Disposition and Recovery",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 452,
+      "unit": "10. Actions at Every Boundary",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 473,
+      "unit": "11. Project Audit and Conformance Verdict",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 501,
+      "unit": "11.1 Independent Roles and Write Boundaries",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 540,
+      "unit": "11.2 Audit Request, Frozen Packet and Evidence Strength",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 574,
+      "unit": "11.3 Finding, Worker Response and Closure Contract",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 617,
+      "unit": "11.4 Checkpoints, Budgets and Authority",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 642,
+      "unit": "12. Adopting the Standard in an Existing Project",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 662,
+      "unit": "13. Design Sources",
+      "sha256": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+    },
+    {
+      "path": "templates/project-records/README.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "8a8ec716782dda3eb797212d12c20b01784e8012f2a796196817cf67d27167ef"
+    },
+    {
+      "path": "templates/project-records/README.md",
+      "line": 1,
+      "unit": "Project Record Templates",
+      "sha256": "8a8ec716782dda3eb797212d12c20b01784e8012f2a796196817cf67d27167ef"
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "0ecef1b82b5e9306c80ee6a226d2535a66f9094bf075b6ceaea725c14461ed4f"
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "line": 1,
+      "unit": "Independent Record Audit Request: <A-ID>",
+      "sha256": "0ecef1b82b5e9306c80ee6a226d2535a66f9094bf075b6ceaea725c14461ed4f"
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "line": 21,
+      "unit": "Auditor Role Instructions",
+      "sha256": "0ecef1b82b5e9306c80ee6a226d2535a66f9094bf075b6ceaea725c14461ed4f"
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "line": 42,
+      "unit": "Evidence Custody and Access Limits",
+      "sha256": "0ecef1b82b5e9306c80ee6a226d2535a66f9094bf075b6ceaea725c14461ed4f"
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "line": 49,
+      "unit": "Return Contract",
+      "sha256": "0ecef1b82b5e9306c80ee6a226d2535a66f9094bf075b6ceaea725c14461ed4f"
+    },
+    {
+      "path": "templates/project-records/audit-response.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "bcfbd196f56dd754de93058d6d4543ce2d1001ea53b12f1f2837279ea6394744"
+    },
+    {
+      "path": "templates/project-records/audit-response.md",
+      "line": 1,
+      "unit": "<V-ID>: Response to <A-ID/F-ID>",
+      "sha256": "bcfbd196f56dd754de93058d6d4543ce2d1001ea53b12f1f2837279ea6394744"
+    },
+    {
+      "path": "templates/project-records/audit-response.md",
+      "line": 13,
+      "unit": "Finding and Closure Requirement",
+      "sha256": "bcfbd196f56dd754de93058d6d4543ce2d1001ea53b12f1f2837279ea6394744"
+    },
+    {
+      "path": "templates/project-records/audit-response.md",
+      "line": 17,
+      "unit": "Response and Authority",
+      "sha256": "bcfbd196f56dd754de93058d6d4543ce2d1001ea53b12f1f2837279ea6394744"
+    },
+    {
+      "path": "templates/project-records/audit-response.md",
+      "line": 31,
+      "unit": "Outstanding Gaps",
+      "sha256": "bcfbd196f56dd754de93058d6d4543ce2d1001ea53b12f1f2837279ea6394744"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "22fd51e9e4a8947ee0bd13cba01c177a172c8feb9c8956e8d02ce9a1d4b61bde"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "line": 1,
+      "unit": "<ID>: <Title>",
+      "sha256": "22fd51e9e4a8947ee0bd13cba01c177a172c8feb9c8956e8d02ce9a1d4b61bde"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "line": 12,
+      "unit": "Scope and Method before Audit",
+      "sha256": "22fd51e9e4a8947ee0bd13cba01c177a172c8feb9c8956e8d02ce9a1d4b61bde"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "line": 30,
+      "unit": "Findings",
+      "sha256": "22fd51e9e4a8947ee0bd13cba01c177a172c8feb9c8956e8d02ce9a1d4b61bde"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "line": 36,
+      "unit": "<A-ID/F-001>: <Specific Gap>",
+      "sha256": "22fd51e9e4a8947ee0bd13cba01c177a172c8feb9c8956e8d02ce9a1d4b61bde"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "line": 48,
+      "unit": "Follow-Up Review",
+      "sha256": "22fd51e9e4a8947ee0bd13cba01c177a172c8feb9c8956e8d02ce9a1d4b61bde"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "line": 54,
+      "unit": "Verdict and Next Action",
+      "sha256": "22fd51e9e4a8947ee0bd13cba01c177a172c8feb9c8956e8d02ce9a1d4b61bde"
+    },
+    {
+      "path": "templates/project-records/build.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "bc4ae6b08e9d1a9973d45ebcc74ebf3af7fca33d76535a5851570bc7abe76b2f"
+    },
+    {
+      "path": "templates/project-records/build.md",
+      "line": 1,
+      "unit": "<ID>: <Title>",
+      "sha256": "bc4ae6b08e9d1a9973d45ebcc74ebf3af7fca33d76535a5851570bc7abe76b2f"
+    },
+    {
+      "path": "templates/project-records/build.md",
+      "line": 12,
+      "unit": "Inputs before Invocation",
+      "sha256": "bc4ae6b08e9d1a9973d45ebcc74ebf3af7fca33d76535a5851570bc7abe76b2f"
+    },
+    {
+      "path": "templates/project-records/build.md",
+      "line": 24,
+      "unit": "Actual Outcome",
+      "sha256": "bc4ae6b08e9d1a9973d45ebcc74ebf3af7fca33d76535a5851570bc7abe76b2f"
+    },
+    {
+      "path": "templates/project-records/change.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "d60ca48eb92f4b6d175d1cf390c5be0b86d4886365dc17ba214a1ee62f010f20"
+    },
+    {
+      "path": "templates/project-records/change.md",
+      "line": 1,
+      "unit": "<ID>: <Title>",
+      "sha256": "d60ca48eb92f4b6d175d1cf390c5be0b86d4886365dc17ba214a1ee62f010f20"
+    },
+    {
+      "path": "templates/project-records/change.md",
+      "line": 12,
+      "unit": "Before Modification",
+      "sha256": "d60ca48eb92f4b6d175d1cf390c5be0b86d4886365dc17ba214a1ee62f010f20"
+    },
+    {
+      "path": "templates/project-records/change.md",
+      "line": 21,
+      "unit": "Outcome and Adoption",
+      "sha256": "d60ca48eb92f4b6d175d1cf390c5be0b86d4886365dc17ba214a1ee62f010f20"
+    },
+    {
+      "path": "templates/project-records/coverage.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "d7e4bd77d1a667713c0da7973f744e55974aad6a898fc311c0caef6e837d36fe"
+    },
+    {
+      "path": "templates/project-records/coverage.md",
+      "line": 1,
+      "unit": "Maintained Artefact Coverage",
+      "sha256": "d7e4bd77d1a667713c0da7973f744e55974aad6a898fc311c0caef6e837d36fe"
+    },
+    {
+      "path": "templates/project-records/coverage.md",
+      "line": 12,
+      "unit": "Moves, Deleted Units and Third-Party Boundaries",
+      "sha256": "d7e4bd77d1a667713c0da7973f744e55974aad6a898fc311c0caef6e837d36fe"
+    },
+    {
+      "path": "templates/project-records/decision.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "cfcd3b5bccdb65103bed36241a9b47f8a540ea871bfdb6a64c93633c860e5ec9"
+    },
+    {
+      "path": "templates/project-records/decision.md",
+      "line": 1,
+      "unit": "<ID>: <Title>",
+      "sha256": "cfcd3b5bccdb65103bed36241a9b47f8a540ea871bfdb6a64c93633c860e5ec9"
+    },
+    {
+      "path": "templates/project-records/decision.md",
+      "line": 12,
+      "unit": "Before the Choice",
+      "sha256": "cfcd3b5bccdb65103bed36241a9b47f8a540ea871bfdb6a64c93633c860e5ec9"
+    },
+    {
+      "path": "templates/project-records/decision.md",
+      "line": 23,
+      "unit": "Choice and Consequences",
+      "sha256": "cfcd3b5bccdb65103bed36241a9b47f8a540ea871bfdb6a64c93633c860e5ec9"
+    },
+    {
+      "path": "templates/project-records/decision.md",
+      "line": 35,
+      "unit": "Dated Amendments and Final Limitations",
+      "sha256": "cfcd3b5bccdb65103bed36241a9b47f8a540ea871bfdb6a64c93633c860e5ec9"
+    },
+    {
+      "path": "templates/project-records/event.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "769ba084b62bde36d0c78da282000ad7fa4f4cb26c2d6a7ba3337cffec95d126"
+    },
+    {
+      "path": "templates/project-records/event.md",
+      "line": 1,
+      "unit": "<ID>: <Title>",
+      "sha256": "769ba084b62bde36d0c78da282000ad7fa4f4cb26c2d6a7ba3337cffec95d126"
+    },
+    {
+      "path": "templates/project-records/event.md",
+      "line": 12,
+      "unit": "Trigger and Affected History",
+      "sha256": "769ba084b62bde36d0c78da282000ad7fa4f4cb26c2d6a7ba3337cffec95d126"
+    },
+    {
+      "path": "templates/project-records/event.md",
+      "line": 21,
+      "unit": "Impact and Action",
+      "sha256": "769ba084b62bde36d0c78da282000ad7fa4f4cb26c2d6a7ba3337cffec95d126"
+    },
+    {
+      "path": "templates/project-records/experiment.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "c7f89cdded872c25f0b2d2df165bab953ec4f8a497a629b3e52c683984287fc8"
+    },
+    {
+      "path": "templates/project-records/experiment.md",
+      "line": 1,
+      "unit": "<ID>: <Title>",
+      "sha256": "c7f89cdded872c25f0b2d2df165bab953ec4f8a497a629b3e52c683984287fc8"
+    },
+    {
+      "path": "templates/project-records/experiment.md",
+      "line": 12,
+      "unit": "Pre-Execution Protocol",
+      "sha256": "c7f89cdded872c25f0b2d2df165bab953ec4f8a497a629b3e52c683984287fc8"
+    },
+    {
+      "path": "templates/project-records/experiment.md",
+      "line": 26,
+      "unit": "Executions and Synthesis",
+      "sha256": "c7f89cdded872c25f0b2d2df165bab953ec4f8a497a629b3e52c683984287fc8"
+    },
+    {
+      "path": "templates/project-records/experiment.md",
+      "line": 31,
+      "unit": "Amendments",
+      "sha256": "c7f89cdded872c25f0b2d2df165bab953ec4f8a497a629b3e52c683984287fc8"
+    },
+    {
+      "path": "templates/project-records/hypothesis.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "296f3b908757c2f7a911b68c819248e7bc25a6e695c378b1106a77d6645aba23"
+    },
+    {
+      "path": "templates/project-records/hypothesis.md",
+      "line": 1,
+      "unit": "<ID>: <Title>",
+      "sha256": "296f3b908757c2f7a911b68c819248e7bc25a6e695c378b1106a77d6645aba23"
+    },
+    {
+      "path": "templates/project-records/hypothesis.md",
+      "line": 12,
+      "unit": "Claim before Reliance",
+      "sha256": "296f3b908757c2f7a911b68c819248e7bc25a6e695c378b1106a77d6645aba23"
+    },
+    {
+      "path": "templates/project-records/hypothesis.md",
+      "line": 24,
+      "unit": "Evidence and Outcome",
+      "sha256": "296f3b908757c2f7a911b68c819248e7bc25a6e695c378b1106a77d6645aba23"
+    },
+    {
+      "path": "templates/project-records/hypothesis.md",
+      "line": 30,
+      "unit": "Amendments and Next Action",
+      "sha256": "296f3b908757c2f7a911b68c819248e7bc25a6e695c378b1106a77d6645aba23"
+    },
+    {
+      "path": "templates/project-records/ledger.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "c0025e8c306b4ba1f9f8e205a99deb17619544f695b1493508196f61140b9e18"
+    },
+    {
+      "path": "templates/project-records/ledger.md",
+      "line": 1,
+      "unit": "Record Ledger",
+      "sha256": "c0025e8c306b4ba1f9f8e205a99deb17619544f695b1493508196f61140b9e18"
+    },
+    {
+      "path": "templates/project-records/manifest.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "71dd3c64d42f0904b8642f747c775883047c81a510f74690b8a643a00baf397d"
+    },
+    {
+      "path": "templates/project-records/manifest.md",
+      "line": 1,
+      "unit": "Artefact Manifest: <Owner ID>",
+      "sha256": "71dd3c64d42f0904b8642f747c775883047c81a510f74690b8a643a00baf397d"
+    },
+    {
+      "path": "templates/project-records/manifest.md",
+      "line": 12,
+      "unit": "Recovery and Consumers",
+      "sha256": "71dd3c64d42f0904b8642f747c775883047c81a510f74690b8a643a00baf397d"
+    },
+    {
+      "path": "templates/project-records/plan.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "8c5e79dd2b64ae3499bbf56f6265a817121e2134095e3ed100fa93be10abb66a"
+    },
+    {
+      "path": "templates/project-records/plan.md",
+      "line": 1,
+      "unit": "Current Project Plan",
+      "sha256": "8c5e79dd2b64ae3499bbf56f6265a817121e2134095e3ed100fa93be10abb66a"
+    },
+    {
+      "path": "templates/project-records/plan.md",
+      "line": 11,
+      "unit": "Next Steps and Decisions",
+      "sha256": "8c5e79dd2b64ae3499bbf56f6265a817121e2134095e3ed100fa93be10abb66a"
+    },
+    {
+      "path": "templates/project-records/plan.md",
+      "line": 15,
+      "unit": "Exception and Stop Conditions",
+      "sha256": "8c5e79dd2b64ae3499bbf56f6265a817121e2134095e3ed100fa93be10abb66a"
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "fb56f91ea24ad93383a5ff9bc713f6a39f55727c05fb361da803c75e670e2c43"
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "line": 1,
+      "unit": "Project Charter: <Name>",
+      "sha256": "fb56f91ea24ad93383a5ff9bc713f6a39f55727c05fb361da803c75e670e2c43"
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "line": 10,
+      "unit": "Terminal Goal and Measurable Outcomes",
+      "sha256": "fb56f91ea24ad93383a5ff9bc713f6a39f55727c05fb361da803c75e670e2c43"
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "line": 14,
+      "unit": "Scope, Exclusions and Constraints",
+      "sha256": "fb56f91ea24ad93383a5ff9bc713f6a39f55727c05fb361da803c75e670e2c43"
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "line": 19,
+      "unit": "Authority",
+      "sha256": "fb56f91ea24ad93383a5ff9bc713f6a39f55727c05fb361da803c75e670e2c43"
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "line": 29,
+      "unit": "Independent Project Audit Contract",
+      "sha256": "fb56f91ea24ad93383a5ff9bc713f6a39f55727c05fb361da803c75e670e2c43"
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "line": 37,
+      "unit": "Risks and Continuing Value",
+      "sha256": "fb56f91ea24ad93383a5ff9bc713f6a39f55727c05fb361da803c75e670e2c43"
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "line": 41,
+      "unit": "Snapshot and Record Policy",
+      "sha256": "fb56f91ea24ad93383a5ff9bc713f6a39f55727c05fb361da803c75e670e2c43"
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "line": 46,
+      "unit": "Validity Policy",
+      "sha256": "fb56f91ea24ad93383a5ff9bc713f6a39f55727c05fb361da803c75e670e2c43"
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "line": 52,
+      "unit": "Retention and Recovery Policy",
+      "sha256": "fb56f91ea24ad93383a5ff9bc713f6a39f55727c05fb361da803c75e670e2c43"
+    },
+    {
+      "path": "templates/project-records/root.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "3f3d5a9fd069b5657af7e011d3a459230afbbeadabbacebf7ff072fa36c20f0b"
+    },
+    {
+      "path": "templates/project-records/root.md",
+      "line": 1,
+      "unit": "<Project> VP Records",
+      "sha256": "3f3d5a9fd069b5657af7e011d3a459230afbbeadabbacebf7ff072fa36c20f0b"
+    },
+    {
+      "path": "templates/project-records/root.md",
+      "line": 10,
+      "unit": "Follow a Code Trace",
+      "sha256": "3f3d5a9fd069b5657af7e011d3a459230afbbeadabbacebf7ff072fa36c20f0b"
+    },
+    {
+      "path": "templates/project-records/root.md",
+      "line": 17,
+      "unit": "Record Types and Layout",
+      "sha256": "3f3d5a9fd069b5657af7e011d3a459230afbbeadabbacebf7ff072fa36c20f0b"
+    },
+    {
+      "path": "templates/project-records/root.md",
+      "line": 24,
+      "unit": "Authority and Known Gaps",
+      "sha256": "3f3d5a9fd069b5657af7e011d3a459230afbbeadabbacebf7ff072fa36c20f0b"
+    },
+    {
+      "path": "templates/project-records/root.md",
+      "line": 28,
+      "unit": "Independent Audit Handoff",
+      "sha256": "3f3d5a9fd069b5657af7e011d3a459230afbbeadabbacebf7ff072fa36c20f0b"
+    },
+    {
+      "path": "templates/project-records/run.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "84f987a14e471f5c8f6a47b3669686ab58df104493c8e1c40d6f61ffef971d55"
+    },
+    {
+      "path": "templates/project-records/run.md",
+      "line": 1,
+      "unit": "<ID>: <Title>",
+      "sha256": "84f987a14e471f5c8f6a47b3669686ab58df104493c8e1c40d6f61ffef971d55"
+    },
+    {
+      "path": "templates/project-records/run.md",
+      "line": 12,
+      "unit": "Inputs before Execution",
+      "sha256": "84f987a14e471f5c8f6a47b3669686ab58df104493c8e1c40d6f61ffef971d55"
+    },
+    {
+      "path": "templates/project-records/run.md",
+      "line": 23,
+      "unit": "Outcome",
+      "sha256": "84f987a14e471f5c8f6a47b3669686ab58df104493c8e1c40d6f61ffef971d55"
+    },
+    {
+      "path": "templates/project-records/stage.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "d720e815240013a36f0b43d3e27d890149af57cc4fb91ab89e9aa021ebde3fbe"
+    },
+    {
+      "path": "templates/project-records/stage.md",
+      "line": 1,
+      "unit": "<ID>: <Title>",
+      "sha256": "d720e815240013a36f0b43d3e27d890149af57cc4fb91ab89e9aa021ebde3fbe"
+    },
+    {
+      "path": "templates/project-records/stage.md",
+      "line": 12,
+      "unit": "Entry and Baseline",
+      "sha256": "d720e815240013a36f0b43d3e27d890149af57cc4fb91ab89e9aa021ebde3fbe"
+    },
+    {
+      "path": "templates/project-records/stage.md",
+      "line": 16,
+      "unit": "Deliverables and Steps",
+      "sha256": "d720e815240013a36f0b43d3e27d890149af57cc4fb91ab89e9aa021ebde3fbe"
+    },
+    {
+      "path": "templates/project-records/stage.md",
+      "line": 22,
+      "unit": "Tolerances and Control",
+      "sha256": "d720e815240013a36f0b43d3e27d890149af57cc4fb91ab89e9aa021ebde3fbe"
+    },
+    {
+      "path": "templates/project-records/stage.md",
+      "line": 27,
+      "unit": "Exit Evidence and Continuing Value",
+      "sha256": "d720e815240013a36f0b43d3e27d890149af57cc4fb91ab89e9aa021ebde3fbe"
+    },
+    {
+      "path": "templates/project-records/stage.md",
+      "line": 35,
+      "unit": "Amendments",
+      "sha256": "d720e815240013a36f0b43d3e27d890149af57cc4fb91ab89e9aa021ebde3fbe"
+    },
+    {
+      "path": "templates/project-records/state.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "89f06ac3bca08edb3f4c216245e81c4d253692d3bd7b48721faf09e8275f647c"
+    },
+    {
+      "path": "templates/project-records/state.md",
+      "line": 1,
+      "unit": "Current Project State",
+      "sha256": "89f06ac3bca08edb3f4c216245e81c4d253692d3bd7b48721faf09e8275f647c"
+    },
+    {
+      "path": "templates/project-records/state.md",
+      "line": 8,
+      "unit": "Current Reliance",
+      "sha256": "89f06ac3bca08edb3f4c216245e81c4d253692d3bd7b48721faf09e8275f647c"
+    },
+    {
+      "path": "templates/project-records/state.md",
+      "line": 14,
+      "unit": "Failures, Unknowns, Exceptions and Blockers",
+      "sha256": "89f06ac3bca08edb3f4c216245e81c4d253692d3bd7b48721faf09e8275f647c"
+    },
+    {
+      "path": "templates/project-records/state.md",
+      "line": 19,
+      "unit": "Audit Findings and Gates",
+      "sha256": "89f06ac3bca08edb3f4c216245e81c4d253692d3bd7b48721faf09e8275f647c"
+    },
+    {
+      "path": "templates/project-records/state.md",
+      "line": 29,
+      "unit": "Open Operations and Handoff",
+      "sha256": "89f06ac3bca08edb3f4c216245e81c4d253692d3bd7b48721faf09e8275f647c"
+    },
+    {
+      "path": "templates/project-records/workspace.md",
+      "line": 1,
+      "unit": "file/preamble",
+      "sha256": "a40e64cee89901d30aedf3197d5bb4b254ae66b8aeb61ed9aa55ccbf17d6049a"
+    },
+    {
+      "path": "templates/project-records/workspace.md",
+      "line": 1,
+      "unit": "Workspace Ownership",
+      "sha256": "a40e64cee89901d30aedf3197d5bb4b254ae66b8aeb61ed9aa55ccbf17d6049a"
+    }
+  ]
+}

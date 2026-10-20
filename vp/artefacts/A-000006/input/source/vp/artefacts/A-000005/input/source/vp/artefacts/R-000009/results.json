@@ -1,0 +1,3405 @@
+{
+  "started": "2026-10-20T08:03:21.186497+00:00",
+  "ended": "2026-10-20T08:03:21.839780+00:00",
+  "members": [
+    {
+      "label": "generate-ledger",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/generate_ledger.py"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T08:03:21.297904+00:00",
+      "ended": "2026-10-20T08:03:21.329242+00:00",
+      "exit": 0,
+      "expected_exit": 0,
+      "executable_before": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "executable_after": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "inputs_before": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/generate_ledger.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/generate_ledger.py",
+          "bytes": 3330,
+          "sha256": "8d5b7c17ffc0916cffcae00e773e1073f1fd58762f4d22ee8908988c7df81704"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/record.md",
+          "bytes": 28553,
+          "sha256": "d08209f1b0cd981cf7606d82bbac2c1cb3352eb4a3b65e526241fb543459ad3c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/request.md",
+          "bytes": 8056,
+          "sha256": "c19f7cbfa1a9260023cd8df6ee9f3db6c7bda4a3127d8425a7c3c4c3d310a89b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/record.md",
+          "bytes": 17531,
+          "sha256": "9d93fb6bd5baa8a39532172f89b6569c9adde0f454962dd7e53b4b5fd4320f16"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/request.md",
+          "bytes": 5056,
+          "sha256": "b2542c6246b1f6c878e0a97af75f6f5b10924b9c26fd83491fc1281d5a60f930"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/record.md",
+          "bytes": 16146,
+          "sha256": "6f31c3ea5a33c6ba86d79480dafd0fcfc481f5c753ec683fcfa9445a3d3156b9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/request.md",
+          "bytes": 6191,
+          "sha256": "61c04439cd7c709b49aa0ffc45652993b0a806c384468c115008c98720b13916"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/record.md",
+          "bytes": 16953,
+          "sha256": "f05eea6b8f89297f293b2ee304ecd10e218e6c513a136f140c59ae2cff7670da"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/request.md",
+          "bytes": 6453,
+          "sha256": "f130c3533c441d3203a496649ce8da10160c5d9da7f8f2017c8382bff615d275"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000001/record.md",
+          "bytes": 4938,
+          "sha256": "15cab507e37121aa959d027336ff5d83b1740f747fb3a65e20c06f2d9944238e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000002/record.md",
+          "bytes": 1601,
+          "sha256": "33da2ca6460bf7ab42aa59602a064a6676ff361aba19a391c18ac97321973af6"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000003/record.md",
+          "bytes": 1847,
+          "sha256": "da68de0bf48ce288b54a97f7f0814896a2d2b1976eb0e90557e6d93feaa31020"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000004/record.md",
+          "bytes": 1710,
+          "sha256": "ebfe85cc38e826780cf7c96da17df842e14eb34dab8ec24fcc09a373b8da01c2"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+          "bytes": 853,
+          "sha256": "3f27c9dcfe0b1050f6bccfe79bbfddb0c00dd7e46ce2dde73b69dc075ea954da"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000001/record.md",
+          "bytes": 3366,
+          "sha256": "335a556e97acff0270673399345513e6fa4d253235a920b6bba07b7b4f0634f4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000002/record.md",
+          "bytes": 2472,
+          "sha256": "e861da934ab20d21cee8675635b943f7b6f3d9241e855cf1aa04128cef621a3e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000003/record.md",
+          "bytes": 2344,
+          "sha256": "6b65750d1c8c41d258d374d7ff706364bb5176fe0c200d2c44d8a902d13fdfc3"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000004/record.md",
+          "bytes": 4245,
+          "sha256": "1c9354c7e32f04412fddb89260a4e6619492841b27e3e48a10043b3538a7ee01"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000005/record.md",
+          "bytes": 2075,
+          "sha256": "a969116362c121c245f1551c687124b9b21fa683cdec284cb2b5f2997ace4f0b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000006/record.md",
+          "bytes": 2457,
+          "sha256": "edd3f796be1d4f4e51ea16d8bfc2620c500278aa0972ee49c1feb97fea1180e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000007/record.md",
+          "bytes": 2418,
+          "sha256": "4075b5df77bd2307d87745fcf9cc3b4a74e6cc9336d38983862df95eb9e3ae50"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000008/record.md",
+          "bytes": 1965,
+          "sha256": "bd6685ef11dda9ed96d962a8ab19ba937d59025eeef09757bca6d00b0aaa9317"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000009/record.md",
+          "bytes": 3424,
+          "sha256": "798ceca851be63770cfaf2678cad5cbfadcdb01767b4c4a77d5edfdff46c1167"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000010/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000010/record.md",
+          "bytes": 3085,
+          "sha256": "6db484eca2fce9d89e266274147e63ae114740603e7b26908247dc2d94d67362"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000011/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000011/record.md",
+          "bytes": 1663,
+          "sha256": "eeb5dc1e1042379e7aa824cfb35e13d35b8e2a8362302fcd20b3b5fa3ef08608"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000012/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000012/record.md",
+          "bytes": 4053,
+          "sha256": "4b85159d0e36e23a83c1a4b8cf9282675f186c56abc692b1bf04a928518cb067"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000013/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000013/record.md",
+          "bytes": 5065,
+          "sha256": "dd3c2be0a01095207957dfb3b4a9b6e964670d428d76533840e5706820eb4e1e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000014/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000014/record.md",
+          "bytes": 3804,
+          "sha256": "6a56b007826cc8768e9a44c1337ecf41a46836daad92c8843e8f1a90aaf505e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000015/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000015/record.md",
+          "bytes": 2530,
+          "sha256": "a55d951027a2817098b0c769084698805df4a11bd8cf7c020ca4caf90eb32627"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000016/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000016/record.md",
+          "bytes": 2079,
+          "sha256": "063c3a935c55eeeae98b163afae7b2ecaf9c0cb3dc67c45fb0d7b753aa7dcebf"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000001/record.md",
+          "bytes": 1967,
+          "sha256": "e3830b02cf0d9677e1ebecca12a310ec777c5416bff788e3452165b98abad94a"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000002/record.md",
+          "bytes": 4686,
+          "sha256": "8fbfbf4263cc6c546cb4ba37db9d44c22f4ab82d2d136acf21881b05d4b00137"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000003/record.md",
+          "bytes": 1578,
+          "sha256": "5c531c51c868ad0ba10d3842a47c87ae88b2d876c60d7c02c172e4e9c7ef09e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000004/record.md",
+          "bytes": 1326,
+          "sha256": "4e2cc2cf17aa76769018be3fc7bc18a90d230145ff6d59e84acb1c088543278e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000005/record.md",
+          "bytes": 3261,
+          "sha256": "874eee1658ed8313de786ea8024d3c8b157fa702a00adc7b617160f2648aa2d3"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000006/record.md",
+          "bytes": 2177,
+          "sha256": "05fffa4fc07148792a6541c4bad98b77671a6a20741e569e2363fe13ea9629ab"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000007/record.md",
+          "bytes": 3575,
+          "sha256": "35da3f4985682f0487795c4866a81b2fb6bc001caa1cd82d94d11f603fcddba5"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000008/record.md",
+          "bytes": 1338,
+          "sha256": "d7df18bf3a2a409de6420a0a403928410a4b30218b14651026e396638dfb4e68"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+          "bytes": 907,
+          "sha256": "5bfb02eab03ecff61654e66a572e9328a5c0c0a437f8a5d41e3d755f8c7ab199"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000001/record.md",
+          "bytes": 2183,
+          "sha256": "f3a46f4bcc0431b262ac188847a1bffe365560f24d4fe13b447b64be9091d587"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000002/record.md",
+          "bytes": 1534,
+          "sha256": "d2fa5037d589b6cd84a8654e34867e83b2cc7e572527acfba7517090f36dda59"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000003/record.md",
+          "bytes": 1969,
+          "sha256": "7a47eacac24cb98d33462b9e7aa58b278c0bc4e5da697215d2d2e5ec45142e24"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000004/record.md",
+          "bytes": 3429,
+          "sha256": "f8b22256321c22972e28c3d32a81e97b04827a9340a836f2c06d178609eed48b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000005/record.md",
+          "bytes": 1694,
+          "sha256": "2c6a7d39241756523a7bece95972f23a98fe4d9efdb46da525b0c840e45d3c01"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000006/record.md",
+          "bytes": 2393,
+          "sha256": "480f8f9a1ef6ed263857600299931f57df741d5db27bd35d9038b005e7bc13c9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000007/record.md",
+          "bytes": 2380,
+          "sha256": "28aafd26b2c173dfed7db56eb44f7a4d301076bf21a56e3da80c405382a4d287"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000008/record.md",
+          "bytes": 3053,
+          "sha256": "0606a38af779ca8fe1f39fda8d2016a9fbdd9b398397b4fc83c11a17260d640e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+          "bytes": 1419,
+          "sha256": "9886db08d1b2da2b73c6fe8a242f7c114ce076eafa0d172c6e41722412e2770b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000001/record.md",
+          "bytes": 1881,
+          "sha256": "04123f01d0abeceeb89f4064b76fd948f071e8dc853c63cc9f01fd2f3b2cacf4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000002/record.md",
+          "bytes": 1479,
+          "sha256": "db9bde65eca5a8820649e26444c8fbddbb308be50284e385d2b8e7363a672b15"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000003/record.md",
+          "bytes": 1970,
+          "sha256": "89ce3697dafb59b1e9a921d88ac632c05d5e9371defe1ef4b31bf7cb90e4f305"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000004/record.md",
+          "bytes": 2870,
+          "sha256": "96ba22db9b4b230dc83f736d12dde90a90dc48ea199e511ef4f6d661ed832db7"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000005/record.md",
+          "bytes": 1951,
+          "sha256": "b5b668fb99f860ffbb972c81dbd883dae16786dae968342fc7421deb4914154b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000006/record.md",
+          "bytes": 1924,
+          "sha256": "24a5035906ba1694387fb4b52b3f02c77dd87ebe8307dfc84ce41c37d6d29f9f"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000007/record.md",
+          "bytes": 2353,
+          "sha256": "b6711980381add79a98aa58ff54cd8b6d877bcd87b2691439eb5322253c04f25"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+          "bytes": 927,
+          "sha256": "40e06c22b6cb4503449355f376216064f5581dbc8dd22652389d4233ba6f5329"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000001/record.md",
+          "bytes": 2570,
+          "sha256": "1243430e6b7dc8d0df3a72a72c932f44c710bb9ade152091ba64d9ecb07b8890"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000002/record.md",
+          "bytes": 2300,
+          "sha256": "eac70373d616ef764895822f870a68f63d64fa8e1055b0de0528259a5ce1c6a4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000003/record.md",
+          "bytes": 1442,
+          "sha256": "0155b288b3f09c7d0160bd19e745ee13b30fb919a062a0f225de56c5adcc7654"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000004/record.md",
+          "bytes": 1926,
+          "sha256": "3e6071dc7dfdca44ffaf6a44a2a2c73f5e5358fb2f6eaa6e58cf534ace1a843c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000005/record.md",
+          "bytes": 1532,
+          "sha256": "22d3a0590d8a4a9519727152303aa3d7b0d49e1b3ad2e91b97179785b51cf94e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000006/record.md",
+          "bytes": 1714,
+          "sha256": "82f020b998e090df9eedd67dcfe73ce93d598838aea0409eaf40f3cabce4f105"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000007/record.md",
+          "bytes": 1762,
+          "sha256": "e02a7fa2794e102b644e23030a80698637be95926396162ca4f6ae1934ac3025"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000008/record.md",
+          "bytes": 2072,
+          "sha256": "113391ca5aeb4e9681b4894ec47289bdf3d32cf86c39c90e7b3b521e6300f7b8"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+          "bytes": 713,
+          "sha256": "86d8f210c0638ac0da32710f96cc21f66b68426baf1c2b362add740ccf4e5bdd"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/stages/S-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/stages/S-000001/record.md",
+          "bytes": 3366,
+          "sha256": "74554d2357af5f0535965f91d79350a1383b618f66075ab1d600499ba48b32d0"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/stages/S-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/stages/S-000002/record.md",
+          "bytes": 2473,
+          "sha256": "3a079df8e5b80209bbe46a0ad499e7856da7b2ace897b5ffbbcf5123644ca260"
+        }
+      ],
+      "inputs_after": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/generate_ledger.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/generate_ledger.py",
+          "bytes": 3330,
+          "sha256": "8d5b7c17ffc0916cffcae00e773e1073f1fd58762f4d22ee8908988c7df81704"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/record.md",
+          "bytes": 28553,
+          "sha256": "d08209f1b0cd981cf7606d82bbac2c1cb3352eb4a3b65e526241fb543459ad3c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/request.md",
+          "bytes": 8056,
+          "sha256": "c19f7cbfa1a9260023cd8df6ee9f3db6c7bda4a3127d8425a7c3c4c3d310a89b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/record.md",
+          "bytes": 17531,
+          "sha256": "9d93fb6bd5baa8a39532172f89b6569c9adde0f454962dd7e53b4b5fd4320f16"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/request.md",
+          "bytes": 5056,
+          "sha256": "b2542c6246b1f6c878e0a97af75f6f5b10924b9c26fd83491fc1281d5a60f930"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/record.md",
+          "bytes": 16146,
+          "sha256": "6f31c3ea5a33c6ba86d79480dafd0fcfc481f5c753ec683fcfa9445a3d3156b9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/request.md",
+          "bytes": 6191,
+          "sha256": "61c04439cd7c709b49aa0ffc45652993b0a806c384468c115008c98720b13916"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/record.md",
+          "bytes": 16953,
+          "sha256": "f05eea6b8f89297f293b2ee304ecd10e218e6c513a136f140c59ae2cff7670da"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/request.md",
+          "bytes": 6453,
+          "sha256": "f130c3533c441d3203a496649ce8da10160c5d9da7f8f2017c8382bff615d275"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000001/record.md",
+          "bytes": 4938,
+          "sha256": "15cab507e37121aa959d027336ff5d83b1740f747fb3a65e20c06f2d9944238e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000002/record.md",
+          "bytes": 1601,
+          "sha256": "33da2ca6460bf7ab42aa59602a064a6676ff361aba19a391c18ac97321973af6"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000003/record.md",
+          "bytes": 1847,
+          "sha256": "da68de0bf48ce288b54a97f7f0814896a2d2b1976eb0e90557e6d93feaa31020"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000004/record.md",
+          "bytes": 1710,
+          "sha256": "ebfe85cc38e826780cf7c96da17df842e14eb34dab8ec24fcc09a373b8da01c2"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+          "bytes": 853,
+          "sha256": "3f27c9dcfe0b1050f6bccfe79bbfddb0c00dd7e46ce2dde73b69dc075ea954da"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000001/record.md",
+          "bytes": 3366,
+          "sha256": "335a556e97acff0270673399345513e6fa4d253235a920b6bba07b7b4f0634f4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000002/record.md",
+          "bytes": 2472,
+          "sha256": "e861da934ab20d21cee8675635b943f7b6f3d9241e855cf1aa04128cef621a3e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000003/record.md",
+          "bytes": 2344,
+          "sha256": "6b65750d1c8c41d258d374d7ff706364bb5176fe0c200d2c44d8a902d13fdfc3"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000004/record.md",
+          "bytes": 4245,
+          "sha256": "1c9354c7e32f04412fddb89260a4e6619492841b27e3e48a10043b3538a7ee01"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000005/record.md",
+          "bytes": 2075,
+          "sha256": "a969116362c121c245f1551c687124b9b21fa683cdec284cb2b5f2997ace4f0b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000006/record.md",
+          "bytes": 2457,
+          "sha256": "edd3f796be1d4f4e51ea16d8bfc2620c500278aa0972ee49c1feb97fea1180e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000007/record.md",
+          "bytes": 2418,
+          "sha256": "4075b5df77bd2307d87745fcf9cc3b4a74e6cc9336d38983862df95eb9e3ae50"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000008/record.md",
+          "bytes": 1965,
+          "sha256": "bd6685ef11dda9ed96d962a8ab19ba937d59025eeef09757bca6d00b0aaa9317"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000009/record.md",
+          "bytes": 3424,
+          "sha256": "798ceca851be63770cfaf2678cad5cbfadcdb01767b4c4a77d5edfdff46c1167"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000010/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000010/record.md",
+          "bytes": 3085,
+          "sha256": "6db484eca2fce9d89e266274147e63ae114740603e7b26908247dc2d94d67362"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000011/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000011/record.md",
+          "bytes": 1663,
+          "sha256": "eeb5dc1e1042379e7aa824cfb35e13d35b8e2a8362302fcd20b3b5fa3ef08608"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000012/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000012/record.md",
+          "bytes": 4053,
+          "sha256": "4b85159d0e36e23a83c1a4b8cf9282675f186c56abc692b1bf04a928518cb067"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000013/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000013/record.md",
+          "bytes": 5065,
+          "sha256": "dd3c2be0a01095207957dfb3b4a9b6e964670d428d76533840e5706820eb4e1e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000014/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000014/record.md",
+          "bytes": 3804,
+          "sha256": "6a56b007826cc8768e9a44c1337ecf41a46836daad92c8843e8f1a90aaf505e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000015/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000015/record.md",
+          "bytes": 2530,
+          "sha256": "a55d951027a2817098b0c769084698805df4a11bd8cf7c020ca4caf90eb32627"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000016/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000016/record.md",
+          "bytes": 2079,
+          "sha256": "063c3a935c55eeeae98b163afae7b2ecaf9c0cb3dc67c45fb0d7b753aa7dcebf"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000001/record.md",
+          "bytes": 1967,
+          "sha256": "e3830b02cf0d9677e1ebecca12a310ec777c5416bff788e3452165b98abad94a"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000002/record.md",
+          "bytes": 4686,
+          "sha256": "8fbfbf4263cc6c546cb4ba37db9d44c22f4ab82d2d136acf21881b05d4b00137"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000003/record.md",
+          "bytes": 1578,
+          "sha256": "5c531c51c868ad0ba10d3842a47c87ae88b2d876c60d7c02c172e4e9c7ef09e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000004/record.md",
+          "bytes": 1326,
+          "sha256": "4e2cc2cf17aa76769018be3fc7bc18a90d230145ff6d59e84acb1c088543278e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000005/record.md",
+          "bytes": 3261,
+          "sha256": "874eee1658ed8313de786ea8024d3c8b157fa702a00adc7b617160f2648aa2d3"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000006/record.md",
+          "bytes": 2177,
+          "sha256": "05fffa4fc07148792a6541c4bad98b77671a6a20741e569e2363fe13ea9629ab"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000007/record.md",
+          "bytes": 3575,
+          "sha256": "35da3f4985682f0487795c4866a81b2fb6bc001caa1cd82d94d11f603fcddba5"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000008/record.md",
+          "bytes": 1338,
+          "sha256": "d7df18bf3a2a409de6420a0a403928410a4b30218b14651026e396638dfb4e68"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+          "bytes": 907,
+          "sha256": "5bfb02eab03ecff61654e66a572e9328a5c0c0a437f8a5d41e3d755f8c7ab199"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000001/record.md",
+          "bytes": 2183,
+          "sha256": "f3a46f4bcc0431b262ac188847a1bffe365560f24d4fe13b447b64be9091d587"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000002/record.md",
+          "bytes": 1534,
+          "sha256": "d2fa5037d589b6cd84a8654e34867e83b2cc7e572527acfba7517090f36dda59"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000003/record.md",
+          "bytes": 1969,
+          "sha256": "7a47eacac24cb98d33462b9e7aa58b278c0bc4e5da697215d2d2e5ec45142e24"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000004/record.md",
+          "bytes": 3429,
+          "sha256": "f8b22256321c22972e28c3d32a81e97b04827a9340a836f2c06d178609eed48b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000005/record.md",
+          "bytes": 1694,
+          "sha256": "2c6a7d39241756523a7bece95972f23a98fe4d9efdb46da525b0c840e45d3c01"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000006/record.md",
+          "bytes": 2393,
+          "sha256": "480f8f9a1ef6ed263857600299931f57df741d5db27bd35d9038b005e7bc13c9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000007/record.md",
+          "bytes": 2380,
+          "sha256": "28aafd26b2c173dfed7db56eb44f7a4d301076bf21a56e3da80c405382a4d287"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000008/record.md",
+          "bytes": 3053,
+          "sha256": "0606a38af779ca8fe1f39fda8d2016a9fbdd9b398397b4fc83c11a17260d640e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+          "bytes": 1419,
+          "sha256": "9886db08d1b2da2b73c6fe8a242f7c114ce076eafa0d172c6e41722412e2770b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000001/record.md",
+          "bytes": 1881,
+          "sha256": "04123f01d0abeceeb89f4064b76fd948f071e8dc853c63cc9f01fd2f3b2cacf4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000002/record.md",
+          "bytes": 1479,
+          "sha256": "db9bde65eca5a8820649e26444c8fbddbb308be50284e385d2b8e7363a672b15"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000003/record.md",
+          "bytes": 1970,
+          "sha256": "89ce3697dafb59b1e9a921d88ac632c05d5e9371defe1ef4b31bf7cb90e4f305"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000004/record.md",
+          "bytes": 2870,
+          "sha256": "96ba22db9b4b230dc83f736d12dde90a90dc48ea199e511ef4f6d661ed832db7"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000005/record.md",
+          "bytes": 1951,
+          "sha256": "b5b668fb99f860ffbb972c81dbd883dae16786dae968342fc7421deb4914154b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000006/record.md",
+          "bytes": 1924,
+          "sha256": "24a5035906ba1694387fb4b52b3f02c77dd87ebe8307dfc84ce41c37d6d29f9f"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000007/record.md",
+          "bytes": 2353,
+          "sha256": "b6711980381add79a98aa58ff54cd8b6d877bcd87b2691439eb5322253c04f25"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+          "bytes": 927,
+          "sha256": "40e06c22b6cb4503449355f376216064f5581dbc8dd22652389d4233ba6f5329"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000001/record.md",
+          "bytes": 2570,
+          "sha256": "1243430e6b7dc8d0df3a72a72c932f44c710bb9ade152091ba64d9ecb07b8890"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000002/record.md",
+          "bytes": 2300,
+          "sha256": "eac70373d616ef764895822f870a68f63d64fa8e1055b0de0528259a5ce1c6a4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000003/record.md",
+          "bytes": 1442,
+          "sha256": "0155b288b3f09c7d0160bd19e745ee13b30fb919a062a0f225de56c5adcc7654"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000004/record.md",
+          "bytes": 1926,
+          "sha256": "3e6071dc7dfdca44ffaf6a44a2a2c73f5e5358fb2f6eaa6e58cf534ace1a843c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000005/record.md",
+          "bytes": 1532,
+          "sha256": "22d3a0590d8a4a9519727152303aa3d7b0d49e1b3ad2e91b97179785b51cf94e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000006/record.md",
+          "bytes": 1714,
+          "sha256": "82f020b998e090df9eedd67dcfe73ce93d598838aea0409eaf40f3cabce4f105"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000007/record.md",
+          "bytes": 1762,
+          "sha256": "e02a7fa2794e102b644e23030a80698637be95926396162ca4f6ae1934ac3025"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000008/record.md",
+          "bytes": 2072,
+          "sha256": "113391ca5aeb4e9681b4894ec47289bdf3d32cf86c39c90e7b3b521e6300f7b8"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+          "bytes": 713,
+          "sha256": "86d8f210c0638ac0da32710f96cc21f66b68426baf1c2b362add740ccf4e5bdd"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/stages/S-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/stages/S-000001/record.md",
+          "bytes": 3366,
+          "sha256": "74554d2357af5f0535965f91d79350a1383b618f66075ab1d600499ba48b32d0"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/stages/S-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/stages/S-000002/record.md",
+          "bytes": 2473,
+          "sha256": "3a079df8e5b80209bbe46a0ad499e7856da7b2ace897b5ffbbcf5123644ca260"
+        }
+      ],
+      "dependencies_before": "generate-ledger.dependencies-before.json",
+      "dependencies_after": "generate-ledger.dependencies-after.json",
+      "stdout": "generate-ledger.stdout.bin",
+      "stderr": "generate-ledger.stderr.txt",
+      "criterion_met": true
+    },
+    {
+      "label": "candidate",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/candidate-ledger.md",
+        "/home/alexturner/verifiable-practice/vp"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T08:03:21.441343+00:00",
+      "ended": "2026-10-20T08:03:21.460984+00:00",
+      "exit": 0,
+      "expected_exit": 0,
+      "executable_before": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "executable_after": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "inputs_before": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+          "bytes": 2636,
+          "sha256": "beebefb121e89f6e16abaf15222118db04ac9a3cf97ad2b7572d92ce82f3bd1e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/candidate-ledger.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/candidate-ledger.md",
+          "bytes": 20956,
+          "sha256": "5b24a5fe65171318ad2cb19ee1443694060b63df7ef0bba5ccbcb03e73731498"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/record.md",
+          "bytes": 28553,
+          "sha256": "d08209f1b0cd981cf7606d82bbac2c1cb3352eb4a3b65e526241fb543459ad3c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/request.md",
+          "bytes": 8056,
+          "sha256": "c19f7cbfa1a9260023cd8df6ee9f3db6c7bda4a3127d8425a7c3c4c3d310a89b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/record.md",
+          "bytes": 17531,
+          "sha256": "9d93fb6bd5baa8a39532172f89b6569c9adde0f454962dd7e53b4b5fd4320f16"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/request.md",
+          "bytes": 5056,
+          "sha256": "b2542c6246b1f6c878e0a97af75f6f5b10924b9c26fd83491fc1281d5a60f930"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/record.md",
+          "bytes": 16146,
+          "sha256": "6f31c3ea5a33c6ba86d79480dafd0fcfc481f5c753ec683fcfa9445a3d3156b9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/request.md",
+          "bytes": 6191,
+          "sha256": "61c04439cd7c709b49aa0ffc45652993b0a806c384468c115008c98720b13916"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/record.md",
+          "bytes": 16953,
+          "sha256": "f05eea6b8f89297f293b2ee304ecd10e218e6c513a136f140c59ae2cff7670da"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/request.md",
+          "bytes": 6453,
+          "sha256": "f130c3533c441d3203a496649ce8da10160c5d9da7f8f2017c8382bff615d275"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000001/record.md",
+          "bytes": 4938,
+          "sha256": "15cab507e37121aa959d027336ff5d83b1740f747fb3a65e20c06f2d9944238e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000002/record.md",
+          "bytes": 1601,
+          "sha256": "33da2ca6460bf7ab42aa59602a064a6676ff361aba19a391c18ac97321973af6"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000003/record.md",
+          "bytes": 1847,
+          "sha256": "da68de0bf48ce288b54a97f7f0814896a2d2b1976eb0e90557e6d93feaa31020"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000004/record.md",
+          "bytes": 1710,
+          "sha256": "ebfe85cc38e826780cf7c96da17df842e14eb34dab8ec24fcc09a373b8da01c2"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+          "bytes": 853,
+          "sha256": "3f27c9dcfe0b1050f6bccfe79bbfddb0c00dd7e46ce2dde73b69dc075ea954da"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000001/record.md",
+          "bytes": 3366,
+          "sha256": "335a556e97acff0270673399345513e6fa4d253235a920b6bba07b7b4f0634f4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000002/record.md",
+          "bytes": 2472,
+          "sha256": "e861da934ab20d21cee8675635b943f7b6f3d9241e855cf1aa04128cef621a3e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000003/record.md",
+          "bytes": 2344,
+          "sha256": "6b65750d1c8c41d258d374d7ff706364bb5176fe0c200d2c44d8a902d13fdfc3"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000004/record.md",
+          "bytes": 4245,
+          "sha256": "1c9354c7e32f04412fddb89260a4e6619492841b27e3e48a10043b3538a7ee01"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000005/record.md",
+          "bytes": 2075,
+          "sha256": "a969116362c121c245f1551c687124b9b21fa683cdec284cb2b5f2997ace4f0b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000006/record.md",
+          "bytes": 2457,
+          "sha256": "edd3f796be1d4f4e51ea16d8bfc2620c500278aa0972ee49c1feb97fea1180e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000007/record.md",
+          "bytes": 2418,
+          "sha256": "4075b5df77bd2307d87745fcf9cc3b4a74e6cc9336d38983862df95eb9e3ae50"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000008/record.md",
+          "bytes": 1965,
+          "sha256": "bd6685ef11dda9ed96d962a8ab19ba937d59025eeef09757bca6d00b0aaa9317"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000009/record.md",
+          "bytes": 3424,
+          "sha256": "798ceca851be63770cfaf2678cad5cbfadcdb01767b4c4a77d5edfdff46c1167"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000010/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000010/record.md",
+          "bytes": 3085,
+          "sha256": "6db484eca2fce9d89e266274147e63ae114740603e7b26908247dc2d94d67362"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000011/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000011/record.md",
+          "bytes": 1663,
+          "sha256": "eeb5dc1e1042379e7aa824cfb35e13d35b8e2a8362302fcd20b3b5fa3ef08608"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000012/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000012/record.md",
+          "bytes": 4053,
+          "sha256": "4b85159d0e36e23a83c1a4b8cf9282675f186c56abc692b1bf04a928518cb067"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000013/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000013/record.md",
+          "bytes": 5065,
+          "sha256": "dd3c2be0a01095207957dfb3b4a9b6e964670d428d76533840e5706820eb4e1e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000014/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000014/record.md",
+          "bytes": 3804,
+          "sha256": "6a56b007826cc8768e9a44c1337ecf41a46836daad92c8843e8f1a90aaf505e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000015/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000015/record.md",
+          "bytes": 2530,
+          "sha256": "a55d951027a2817098b0c769084698805df4a11bd8cf7c020ca4caf90eb32627"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000016/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000016/record.md",
+          "bytes": 2079,
+          "sha256": "063c3a935c55eeeae98b163afae7b2ecaf9c0cb3dc67c45fb0d7b753aa7dcebf"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000001/record.md",
+          "bytes": 1967,
+          "sha256": "e3830b02cf0d9677e1ebecca12a310ec777c5416bff788e3452165b98abad94a"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000002/record.md",
+          "bytes": 4686,
+          "sha256": "8fbfbf4263cc6c546cb4ba37db9d44c22f4ab82d2d136acf21881b05d4b00137"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000003/record.md",
+          "bytes": 1578,
+          "sha256": "5c531c51c868ad0ba10d3842a47c87ae88b2d876c60d7c02c172e4e9c7ef09e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000004/record.md",
+          "bytes": 1326,
+          "sha256": "4e2cc2cf17aa76769018be3fc7bc18a90d230145ff6d59e84acb1c088543278e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000005/record.md",
+          "bytes": 3261,
+          "sha256": "874eee1658ed8313de786ea8024d3c8b157fa702a00adc7b617160f2648aa2d3"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000006/record.md",
+          "bytes": 2177,
+          "sha256": "05fffa4fc07148792a6541c4bad98b77671a6a20741e569e2363fe13ea9629ab"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000007/record.md",
+          "bytes": 3575,
+          "sha256": "35da3f4985682f0487795c4866a81b2fb6bc001caa1cd82d94d11f603fcddba5"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000008/record.md",
+          "bytes": 1338,
+          "sha256": "d7df18bf3a2a409de6420a0a403928410a4b30218b14651026e396638dfb4e68"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+          "bytes": 907,
+          "sha256": "5bfb02eab03ecff61654e66a572e9328a5c0c0a437f8a5d41e3d755f8c7ab199"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000001/record.md",
+          "bytes": 2183,
+          "sha256": "f3a46f4bcc0431b262ac188847a1bffe365560f24d4fe13b447b64be9091d587"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000002/record.md",
+          "bytes": 1534,
+          "sha256": "d2fa5037d589b6cd84a8654e34867e83b2cc7e572527acfba7517090f36dda59"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000003/record.md",
+          "bytes": 1969,
+          "sha256": "7a47eacac24cb98d33462b9e7aa58b278c0bc4e5da697215d2d2e5ec45142e24"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000004/record.md",
+          "bytes": 3429,
+          "sha256": "f8b22256321c22972e28c3d32a81e97b04827a9340a836f2c06d178609eed48b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000005/record.md",
+          "bytes": 1694,
+          "sha256": "2c6a7d39241756523a7bece95972f23a98fe4d9efdb46da525b0c840e45d3c01"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000006/record.md",
+          "bytes": 2393,
+          "sha256": "480f8f9a1ef6ed263857600299931f57df741d5db27bd35d9038b005e7bc13c9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000007/record.md",
+          "bytes": 2380,
+          "sha256": "28aafd26b2c173dfed7db56eb44f7a4d301076bf21a56e3da80c405382a4d287"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000008/record.md",
+          "bytes": 3053,
+          "sha256": "0606a38af779ca8fe1f39fda8d2016a9fbdd9b398397b4fc83c11a17260d640e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+          "bytes": 1419,
+          "sha256": "9886db08d1b2da2b73c6fe8a242f7c114ce076eafa0d172c6e41722412e2770b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000001/record.md",
+          "bytes": 1881,
+          "sha256": "04123f01d0abeceeb89f4064b76fd948f071e8dc853c63cc9f01fd2f3b2cacf4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000002/record.md",
+          "bytes": 1479,
+          "sha256": "db9bde65eca5a8820649e26444c8fbddbb308be50284e385d2b8e7363a672b15"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000003/record.md",
+          "bytes": 1970,
+          "sha256": "89ce3697dafb59b1e9a921d88ac632c05d5e9371defe1ef4b31bf7cb90e4f305"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000004/record.md",
+          "bytes": 2870,
+          "sha256": "96ba22db9b4b230dc83f736d12dde90a90dc48ea199e511ef4f6d661ed832db7"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000005/record.md",
+          "bytes": 1951,
+          "sha256": "b5b668fb99f860ffbb972c81dbd883dae16786dae968342fc7421deb4914154b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000006/record.md",
+          "bytes": 1924,
+          "sha256": "24a5035906ba1694387fb4b52b3f02c77dd87ebe8307dfc84ce41c37d6d29f9f"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000007/record.md",
+          "bytes": 2353,
+          "sha256": "b6711980381add79a98aa58ff54cd8b6d877bcd87b2691439eb5322253c04f25"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+          "bytes": 927,
+          "sha256": "40e06c22b6cb4503449355f376216064f5581dbc8dd22652389d4233ba6f5329"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000001/record.md",
+          "bytes": 2570,
+          "sha256": "1243430e6b7dc8d0df3a72a72c932f44c710bb9ade152091ba64d9ecb07b8890"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000002/record.md",
+          "bytes": 2300,
+          "sha256": "eac70373d616ef764895822f870a68f63d64fa8e1055b0de0528259a5ce1c6a4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000003/record.md",
+          "bytes": 1442,
+          "sha256": "0155b288b3f09c7d0160bd19e745ee13b30fb919a062a0f225de56c5adcc7654"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000004/record.md",
+          "bytes": 1926,
+          "sha256": "3e6071dc7dfdca44ffaf6a44a2a2c73f5e5358fb2f6eaa6e58cf534ace1a843c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000005/record.md",
+          "bytes": 1532,
+          "sha256": "22d3a0590d8a4a9519727152303aa3d7b0d49e1b3ad2e91b97179785b51cf94e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000006/record.md",
+          "bytes": 1714,
+          "sha256": "82f020b998e090df9eedd67dcfe73ce93d598838aea0409eaf40f3cabce4f105"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000007/record.md",
+          "bytes": 1762,
+          "sha256": "e02a7fa2794e102b644e23030a80698637be95926396162ca4f6ae1934ac3025"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000008/record.md",
+          "bytes": 2072,
+          "sha256": "113391ca5aeb4e9681b4894ec47289bdf3d32cf86c39c90e7b3b521e6300f7b8"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+          "bytes": 713,
+          "sha256": "86d8f210c0638ac0da32710f96cc21f66b68426baf1c2b362add740ccf4e5bdd"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/stages/S-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/stages/S-000001/record.md",
+          "bytes": 3366,
+          "sha256": "74554d2357af5f0535965f91d79350a1383b618f66075ab1d600499ba48b32d0"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/stages/S-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/stages/S-000002/record.md",
+          "bytes": 2473,
+          "sha256": "3a079df8e5b80209bbe46a0ad499e7856da7b2ace897b5ffbbcf5123644ca260"
+        }
+      ],
+      "inputs_after": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+          "bytes": 2636,
+          "sha256": "beebefb121e89f6e16abaf15222118db04ac9a3cf97ad2b7572d92ce82f3bd1e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/candidate-ledger.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/candidate-ledger.md",
+          "bytes": 20956,
+          "sha256": "5b24a5fe65171318ad2cb19ee1443694060b63df7ef0bba5ccbcb03e73731498"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/record.md",
+          "bytes": 28553,
+          "sha256": "d08209f1b0cd981cf7606d82bbac2c1cb3352eb4a3b65e526241fb543459ad3c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/request.md",
+          "bytes": 8056,
+          "sha256": "c19f7cbfa1a9260023cd8df6ee9f3db6c7bda4a3127d8425a7c3c4c3d310a89b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/record.md",
+          "bytes": 17531,
+          "sha256": "9d93fb6bd5baa8a39532172f89b6569c9adde0f454962dd7e53b4b5fd4320f16"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/request.md",
+          "bytes": 5056,
+          "sha256": "b2542c6246b1f6c878e0a97af75f6f5b10924b9c26fd83491fc1281d5a60f930"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/record.md",
+          "bytes": 16146,
+          "sha256": "6f31c3ea5a33c6ba86d79480dafd0fcfc481f5c753ec683fcfa9445a3d3156b9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/request.md",
+          "bytes": 6191,
+          "sha256": "61c04439cd7c709b49aa0ffc45652993b0a806c384468c115008c98720b13916"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/record.md",
+          "bytes": 16953,
+          "sha256": "f05eea6b8f89297f293b2ee304ecd10e218e6c513a136f140c59ae2cff7670da"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/request.md",
+          "bytes": 6453,
+          "sha256": "f130c3533c441d3203a496649ce8da10160c5d9da7f8f2017c8382bff615d275"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000001/record.md",
+          "bytes": 4938,
+          "sha256": "15cab507e37121aa959d027336ff5d83b1740f747fb3a65e20c06f2d9944238e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000002/record.md",
+          "bytes": 1601,
+          "sha256": "33da2ca6460bf7ab42aa59602a064a6676ff361aba19a391c18ac97321973af6"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000003/record.md",
+          "bytes": 1847,
+          "sha256": "da68de0bf48ce288b54a97f7f0814896a2d2b1976eb0e90557e6d93feaa31020"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000004/record.md",
+          "bytes": 1710,
+          "sha256": "ebfe85cc38e826780cf7c96da17df842e14eb34dab8ec24fcc09a373b8da01c2"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+          "bytes": 853,
+          "sha256": "3f27c9dcfe0b1050f6bccfe79bbfddb0c00dd7e46ce2dde73b69dc075ea954da"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000001/record.md",
+          "bytes": 3366,
+          "sha256": "335a556e97acff0270673399345513e6fa4d253235a920b6bba07b7b4f0634f4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000002/record.md",
+          "bytes": 2472,
+          "sha256": "e861da934ab20d21cee8675635b943f7b6f3d9241e855cf1aa04128cef621a3e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000003/record.md",
+          "bytes": 2344,
+          "sha256": "6b65750d1c8c41d258d374d7ff706364bb5176fe0c200d2c44d8a902d13fdfc3"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000004/record.md",
+          "bytes": 4245,
+          "sha256": "1c9354c7e32f04412fddb89260a4e6619492841b27e3e48a10043b3538a7ee01"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000005/record.md",
+          "bytes": 2075,
+          "sha256": "a969116362c121c245f1551c687124b9b21fa683cdec284cb2b5f2997ace4f0b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000006/record.md",
+          "bytes": 2457,
+          "sha256": "edd3f796be1d4f4e51ea16d8bfc2620c500278aa0972ee49c1feb97fea1180e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000007/record.md",
+          "bytes": 2418,
+          "sha256": "4075b5df77bd2307d87745fcf9cc3b4a74e6cc9336d38983862df95eb9e3ae50"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000008/record.md",
+          "bytes": 1965,
+          "sha256": "bd6685ef11dda9ed96d962a8ab19ba937d59025eeef09757bca6d00b0aaa9317"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000009/record.md",
+          "bytes": 3424,
+          "sha256": "798ceca851be63770cfaf2678cad5cbfadcdb01767b4c4a77d5edfdff46c1167"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000010/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000010/record.md",
+          "bytes": 3085,
+          "sha256": "6db484eca2fce9d89e266274147e63ae114740603e7b26908247dc2d94d67362"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000011/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000011/record.md",
+          "bytes": 1663,
+          "sha256": "eeb5dc1e1042379e7aa824cfb35e13d35b8e2a8362302fcd20b3b5fa3ef08608"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000012/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000012/record.md",
+          "bytes": 4053,
+          "sha256": "4b85159d0e36e23a83c1a4b8cf9282675f186c56abc692b1bf04a928518cb067"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000013/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000013/record.md",
+          "bytes": 5065,
+          "sha256": "dd3c2be0a01095207957dfb3b4a9b6e964670d428d76533840e5706820eb4e1e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000014/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000014/record.md",
+          "bytes": 3804,
+          "sha256": "6a56b007826cc8768e9a44c1337ecf41a46836daad92c8843e8f1a90aaf505e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000015/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000015/record.md",
+          "bytes": 2530,
+          "sha256": "a55d951027a2817098b0c769084698805df4a11bd8cf7c020ca4caf90eb32627"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000016/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000016/record.md",
+          "bytes": 2079,
+          "sha256": "063c3a935c55eeeae98b163afae7b2ecaf9c0cb3dc67c45fb0d7b753aa7dcebf"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000001/record.md",
+          "bytes": 1967,
+          "sha256": "e3830b02cf0d9677e1ebecca12a310ec777c5416bff788e3452165b98abad94a"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000002/record.md",
+          "bytes": 4686,
+          "sha256": "8fbfbf4263cc6c546cb4ba37db9d44c22f4ab82d2d136acf21881b05d4b00137"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000003/record.md",
+          "bytes": 1578,
+          "sha256": "5c531c51c868ad0ba10d3842a47c87ae88b2d876c60d7c02c172e4e9c7ef09e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000004/record.md",
+          "bytes": 1326,
+          "sha256": "4e2cc2cf17aa76769018be3fc7bc18a90d230145ff6d59e84acb1c088543278e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000005/record.md",
+          "bytes": 3261,
+          "sha256": "874eee1658ed8313de786ea8024d3c8b157fa702a00adc7b617160f2648aa2d3"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000006/record.md",
+          "bytes": 2177,
+          "sha256": "05fffa4fc07148792a6541c4bad98b77671a6a20741e569e2363fe13ea9629ab"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000007/record.md",
+          "bytes": 3575,
+          "sha256": "35da3f4985682f0487795c4866a81b2fb6bc001caa1cd82d94d11f603fcddba5"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000008/record.md",
+          "bytes": 1338,
+          "sha256": "d7df18bf3a2a409de6420a0a403928410a4b30218b14651026e396638dfb4e68"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+          "bytes": 907,
+          "sha256": "5bfb02eab03ecff61654e66a572e9328a5c0c0a437f8a5d41e3d755f8c7ab199"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000001/record.md",
+          "bytes": 2183,
+          "sha256": "f3a46f4bcc0431b262ac188847a1bffe365560f24d4fe13b447b64be9091d587"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000002/record.md",
+          "bytes": 1534,
+          "sha256": "d2fa5037d589b6cd84a8654e34867e83b2cc7e572527acfba7517090f36dda59"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000003/record.md",
+          "bytes": 1969,
+          "sha256": "7a47eacac24cb98d33462b9e7aa58b278c0bc4e5da697215d2d2e5ec45142e24"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000004/record.md",
+          "bytes": 3429,
+          "sha256": "f8b22256321c22972e28c3d32a81e97b04827a9340a836f2c06d178609eed48b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000005/record.md",
+          "bytes": 1694,
+          "sha256": "2c6a7d39241756523a7bece95972f23a98fe4d9efdb46da525b0c840e45d3c01"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000006/record.md",
+          "bytes": 2393,
+          "sha256": "480f8f9a1ef6ed263857600299931f57df741d5db27bd35d9038b005e7bc13c9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000007/record.md",
+          "bytes": 2380,
+          "sha256": "28aafd26b2c173dfed7db56eb44f7a4d301076bf21a56e3da80c405382a4d287"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000008/record.md",
+          "bytes": 3053,
+          "sha256": "0606a38af779ca8fe1f39fda8d2016a9fbdd9b398397b4fc83c11a17260d640e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+          "bytes": 1419,
+          "sha256": "9886db08d1b2da2b73c6fe8a242f7c114ce076eafa0d172c6e41722412e2770b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000001/record.md",
+          "bytes": 1881,
+          "sha256": "04123f01d0abeceeb89f4064b76fd948f071e8dc853c63cc9f01fd2f3b2cacf4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000002/record.md",
+          "bytes": 1479,
+          "sha256": "db9bde65eca5a8820649e26444c8fbddbb308be50284e385d2b8e7363a672b15"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000003/record.md",
+          "bytes": 1970,
+          "sha256": "89ce3697dafb59b1e9a921d88ac632c05d5e9371defe1ef4b31bf7cb90e4f305"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000004/record.md",
+          "bytes": 2870,
+          "sha256": "96ba22db9b4b230dc83f736d12dde90a90dc48ea199e511ef4f6d661ed832db7"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000005/record.md",
+          "bytes": 1951,
+          "sha256": "b5b668fb99f860ffbb972c81dbd883dae16786dae968342fc7421deb4914154b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000006/record.md",
+          "bytes": 1924,
+          "sha256": "24a5035906ba1694387fb4b52b3f02c77dd87ebe8307dfc84ce41c37d6d29f9f"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000007/record.md",
+          "bytes": 2353,
+          "sha256": "b6711980381add79a98aa58ff54cd8b6d877bcd87b2691439eb5322253c04f25"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+          "bytes": 927,
+          "sha256": "40e06c22b6cb4503449355f376216064f5581dbc8dd22652389d4233ba6f5329"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000001/record.md",
+          "bytes": 2570,
+          "sha256": "1243430e6b7dc8d0df3a72a72c932f44c710bb9ade152091ba64d9ecb07b8890"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000002/record.md",
+          "bytes": 2300,
+          "sha256": "eac70373d616ef764895822f870a68f63d64fa8e1055b0de0528259a5ce1c6a4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000003/record.md",
+          "bytes": 1442,
+          "sha256": "0155b288b3f09c7d0160bd19e745ee13b30fb919a062a0f225de56c5adcc7654"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000004/record.md",
+          "bytes": 1926,
+          "sha256": "3e6071dc7dfdca44ffaf6a44a2a2c73f5e5358fb2f6eaa6e58cf534ace1a843c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000005/record.md",
+          "bytes": 1532,
+          "sha256": "22d3a0590d8a4a9519727152303aa3d7b0d49e1b3ad2e91b97179785b51cf94e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000006/record.md",
+          "bytes": 1714,
+          "sha256": "82f020b998e090df9eedd67dcfe73ce93d598838aea0409eaf40f3cabce4f105"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000007/record.md",
+          "bytes": 1762,
+          "sha256": "e02a7fa2794e102b644e23030a80698637be95926396162ca4f6ae1934ac3025"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000008/record.md",
+          "bytes": 2072,
+          "sha256": "113391ca5aeb4e9681b4894ec47289bdf3d32cf86c39c90e7b3b521e6300f7b8"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+          "bytes": 713,
+          "sha256": "86d8f210c0638ac0da32710f96cc21f66b68426baf1c2b362add740ccf4e5bdd"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/stages/S-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/stages/S-000001/record.md",
+          "bytes": 3366,
+          "sha256": "74554d2357af5f0535965f91d79350a1383b618f66075ab1d600499ba48b32d0"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/stages/S-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/stages/S-000002/record.md",
+          "bytes": 2473,
+          "sha256": "3a079df8e5b80209bbe46a0ad499e7856da7b2ace897b5ffbbcf5123644ca260"
+        }
+      ],
+      "dependencies_before": "candidate.dependencies-before.json",
+      "dependencies_after": "candidate.dependencies-after.json",
+      "stdout": "candidate.stdout.bin",
+      "stderr": "candidate.stderr.txt",
+      "criterion_met": true
+    },
+    {
+      "label": "deficient-predecessor",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000005/before/views/LEDGER.md",
+        "/home/alexturner/verifiable-practice/vp"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T08:03:21.572951+00:00",
+      "ended": "2026-10-20T08:03:21.594568+00:00",
+      "exit": 1,
+      "expected_exit": 1,
+      "executable_before": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "executable_after": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "inputs_before": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+          "bytes": 2636,
+          "sha256": "beebefb121e89f6e16abaf15222118db04ac9a3cf97ad2b7572d92ce82f3bd1e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/C-000005/before/views/LEDGER.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/C-000005/before/views/LEDGER.md",
+          "bytes": 18185,
+          "sha256": "725fafee329f5b029d8cd5de70e4fcc629eb79b1afb9287abbe99a460d7f3bfe"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/record.md",
+          "bytes": 28553,
+          "sha256": "d08209f1b0cd981cf7606d82bbac2c1cb3352eb4a3b65e526241fb543459ad3c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/request.md",
+          "bytes": 8056,
+          "sha256": "c19f7cbfa1a9260023cd8df6ee9f3db6c7bda4a3127d8425a7c3c4c3d310a89b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/record.md",
+          "bytes": 17531,
+          "sha256": "9d93fb6bd5baa8a39532172f89b6569c9adde0f454962dd7e53b4b5fd4320f16"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/request.md",
+          "bytes": 5056,
+          "sha256": "b2542c6246b1f6c878e0a97af75f6f5b10924b9c26fd83491fc1281d5a60f930"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/record.md",
+          "bytes": 16146,
+          "sha256": "6f31c3ea5a33c6ba86d79480dafd0fcfc481f5c753ec683fcfa9445a3d3156b9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/request.md",
+          "bytes": 6191,
+          "sha256": "61c04439cd7c709b49aa0ffc45652993b0a806c384468c115008c98720b13916"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/record.md",
+          "bytes": 16953,
+          "sha256": "f05eea6b8f89297f293b2ee304ecd10e218e6c513a136f140c59ae2cff7670da"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/request.md",
+          "bytes": 6453,
+          "sha256": "f130c3533c441d3203a496649ce8da10160c5d9da7f8f2017c8382bff615d275"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000001/record.md",
+          "bytes": 4938,
+          "sha256": "15cab507e37121aa959d027336ff5d83b1740f747fb3a65e20c06f2d9944238e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000002/record.md",
+          "bytes": 1601,
+          "sha256": "33da2ca6460bf7ab42aa59602a064a6676ff361aba19a391c18ac97321973af6"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000003/record.md",
+          "bytes": 1847,
+          "sha256": "da68de0bf48ce288b54a97f7f0814896a2d2b1976eb0e90557e6d93feaa31020"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000004/record.md",
+          "bytes": 1710,
+          "sha256": "ebfe85cc38e826780cf7c96da17df842e14eb34dab8ec24fcc09a373b8da01c2"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+          "bytes": 853,
+          "sha256": "3f27c9dcfe0b1050f6bccfe79bbfddb0c00dd7e46ce2dde73b69dc075ea954da"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000001/record.md",
+          "bytes": 3366,
+          "sha256": "335a556e97acff0270673399345513e6fa4d253235a920b6bba07b7b4f0634f4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000002/record.md",
+          "bytes": 2472,
+          "sha256": "e861da934ab20d21cee8675635b943f7b6f3d9241e855cf1aa04128cef621a3e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000003/record.md",
+          "bytes": 2344,
+          "sha256": "6b65750d1c8c41d258d374d7ff706364bb5176fe0c200d2c44d8a902d13fdfc3"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000004/record.md",
+          "bytes": 4245,
+          "sha256": "1c9354c7e32f04412fddb89260a4e6619492841b27e3e48a10043b3538a7ee01"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000005/record.md",
+          "bytes": 2075,
+          "sha256": "a969116362c121c245f1551c687124b9b21fa683cdec284cb2b5f2997ace4f0b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000006/record.md",
+          "bytes": 2457,
+          "sha256": "edd3f796be1d4f4e51ea16d8bfc2620c500278aa0972ee49c1feb97fea1180e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000007/record.md",
+          "bytes": 2418,
+          "sha256": "4075b5df77bd2307d87745fcf9cc3b4a74e6cc9336d38983862df95eb9e3ae50"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000008/record.md",
+          "bytes": 1965,
+          "sha256": "bd6685ef11dda9ed96d962a8ab19ba937d59025eeef09757bca6d00b0aaa9317"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000009/record.md",
+          "bytes": 3424,
+          "sha256": "798ceca851be63770cfaf2678cad5cbfadcdb01767b4c4a77d5edfdff46c1167"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000010/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000010/record.md",
+          "bytes": 3085,
+          "sha256": "6db484eca2fce9d89e266274147e63ae114740603e7b26908247dc2d94d67362"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000011/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000011/record.md",
+          "bytes": 1663,
+          "sha256": "eeb5dc1e1042379e7aa824cfb35e13d35b8e2a8362302fcd20b3b5fa3ef08608"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000012/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000012/record.md",
+          "bytes": 4053,
+          "sha256": "4b85159d0e36e23a83c1a4b8cf9282675f186c56abc692b1bf04a928518cb067"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000013/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000013/record.md",
+          "bytes": 5065,
+          "sha256": "dd3c2be0a01095207957dfb3b4a9b6e964670d428d76533840e5706820eb4e1e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000014/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000014/record.md",
+          "bytes": 3804,
+          "sha256": "6a56b007826cc8768e9a44c1337ecf41a46836daad92c8843e8f1a90aaf505e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000015/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000015/record.md",
+          "bytes": 2530,
+          "sha256": "a55d951027a2817098b0c769084698805df4a11bd8cf7c020ca4caf90eb32627"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000016/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000016/record.md",
+          "bytes": 2079,
+          "sha256": "063c3a935c55eeeae98b163afae7b2ecaf9c0cb3dc67c45fb0d7b753aa7dcebf"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000001/record.md",
+          "bytes": 1967,
+          "sha256": "e3830b02cf0d9677e1ebecca12a310ec777c5416bff788e3452165b98abad94a"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000002/record.md",
+          "bytes": 4686,
+          "sha256": "8fbfbf4263cc6c546cb4ba37db9d44c22f4ab82d2d136acf21881b05d4b00137"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000003/record.md",
+          "bytes": 1578,
+          "sha256": "5c531c51c868ad0ba10d3842a47c87ae88b2d876c60d7c02c172e4e9c7ef09e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000004/record.md",
+          "bytes": 1326,
+          "sha256": "4e2cc2cf17aa76769018be3fc7bc18a90d230145ff6d59e84acb1c088543278e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000005/record.md",
+          "bytes": 3261,
+          "sha256": "874eee1658ed8313de786ea8024d3c8b157fa702a00adc7b617160f2648aa2d3"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000006/record.md",
+          "bytes": 2177,
+          "sha256": "05fffa4fc07148792a6541c4bad98b77671a6a20741e569e2363fe13ea9629ab"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000007/record.md",
+          "bytes": 3575,
+          "sha256": "35da3f4985682f0487795c4866a81b2fb6bc001caa1cd82d94d11f603fcddba5"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000008/record.md",
+          "bytes": 1338,
+          "sha256": "d7df18bf3a2a409de6420a0a403928410a4b30218b14651026e396638dfb4e68"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+          "bytes": 907,
+          "sha256": "5bfb02eab03ecff61654e66a572e9328a5c0c0a437f8a5d41e3d755f8c7ab199"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000001/record.md",
+          "bytes": 2183,
+          "sha256": "f3a46f4bcc0431b262ac188847a1bffe365560f24d4fe13b447b64be9091d587"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000002/record.md",
+          "bytes": 1534,
+          "sha256": "d2fa5037d589b6cd84a8654e34867e83b2cc7e572527acfba7517090f36dda59"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000003/record.md",
+          "bytes": 1969,
+          "sha256": "7a47eacac24cb98d33462b9e7aa58b278c0bc4e5da697215d2d2e5ec45142e24"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000004/record.md",
+          "bytes": 3429,
+          "sha256": "f8b22256321c22972e28c3d32a81e97b04827a9340a836f2c06d178609eed48b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000005/record.md",
+          "bytes": 1694,
+          "sha256": "2c6a7d39241756523a7bece95972f23a98fe4d9efdb46da525b0c840e45d3c01"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000006/record.md",
+          "bytes": 2393,
+          "sha256": "480f8f9a1ef6ed263857600299931f57df741d5db27bd35d9038b005e7bc13c9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000007/record.md",
+          "bytes": 2380,
+          "sha256": "28aafd26b2c173dfed7db56eb44f7a4d301076bf21a56e3da80c405382a4d287"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000008/record.md",
+          "bytes": 3053,
+          "sha256": "0606a38af779ca8fe1f39fda8d2016a9fbdd9b398397b4fc83c11a17260d640e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+          "bytes": 1419,
+          "sha256": "9886db08d1b2da2b73c6fe8a242f7c114ce076eafa0d172c6e41722412e2770b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000001/record.md",
+          "bytes": 1881,
+          "sha256": "04123f01d0abeceeb89f4064b76fd948f071e8dc853c63cc9f01fd2f3b2cacf4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000002/record.md",
+          "bytes": 1479,
+          "sha256": "db9bde65eca5a8820649e26444c8fbddbb308be50284e385d2b8e7363a672b15"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000003/record.md",
+          "bytes": 1970,
+          "sha256": "89ce3697dafb59b1e9a921d88ac632c05d5e9371defe1ef4b31bf7cb90e4f305"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000004/record.md",
+          "bytes": 2870,
+          "sha256": "96ba22db9b4b230dc83f736d12dde90a90dc48ea199e511ef4f6d661ed832db7"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000005/record.md",
+          "bytes": 1951,
+          "sha256": "b5b668fb99f860ffbb972c81dbd883dae16786dae968342fc7421deb4914154b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000006/record.md",
+          "bytes": 1924,
+          "sha256": "24a5035906ba1694387fb4b52b3f02c77dd87ebe8307dfc84ce41c37d6d29f9f"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000007/record.md",
+          "bytes": 2353,
+          "sha256": "b6711980381add79a98aa58ff54cd8b6d877bcd87b2691439eb5322253c04f25"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+          "bytes": 927,
+          "sha256": "40e06c22b6cb4503449355f376216064f5581dbc8dd22652389d4233ba6f5329"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000001/record.md",
+          "bytes": 2570,
+          "sha256": "1243430e6b7dc8d0df3a72a72c932f44c710bb9ade152091ba64d9ecb07b8890"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000002/record.md",
+          "bytes": 2300,
+          "sha256": "eac70373d616ef764895822f870a68f63d64fa8e1055b0de0528259a5ce1c6a4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000003/record.md",
+          "bytes": 1442,
+          "sha256": "0155b288b3f09c7d0160bd19e745ee13b30fb919a062a0f225de56c5adcc7654"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000004/record.md",
+          "bytes": 1926,
+          "sha256": "3e6071dc7dfdca44ffaf6a44a2a2c73f5e5358fb2f6eaa6e58cf534ace1a843c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000005/record.md",
+          "bytes": 1532,
+          "sha256": "22d3a0590d8a4a9519727152303aa3d7b0d49e1b3ad2e91b97179785b51cf94e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000006/record.md",
+          "bytes": 1714,
+          "sha256": "82f020b998e090df9eedd67dcfe73ce93d598838aea0409eaf40f3cabce4f105"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000007/record.md",
+          "bytes": 1762,
+          "sha256": "e02a7fa2794e102b644e23030a80698637be95926396162ca4f6ae1934ac3025"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000008/record.md",
+          "bytes": 2072,
+          "sha256": "113391ca5aeb4e9681b4894ec47289bdf3d32cf86c39c90e7b3b521e6300f7b8"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+          "bytes": 713,
+          "sha256": "86d8f210c0638ac0da32710f96cc21f66b68426baf1c2b362add740ccf4e5bdd"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/stages/S-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/stages/S-000001/record.md",
+          "bytes": 3366,
+          "sha256": "74554d2357af5f0535965f91d79350a1383b618f66075ab1d600499ba48b32d0"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/stages/S-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/stages/S-000002/record.md",
+          "bytes": 2473,
+          "sha256": "3a079df8e5b80209bbe46a0ad499e7856da7b2ace897b5ffbbcf5123644ca260"
+        }
+      ],
+      "inputs_after": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+          "bytes": 2636,
+          "sha256": "beebefb121e89f6e16abaf15222118db04ac9a3cf97ad2b7572d92ce82f3bd1e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/C-000005/before/views/LEDGER.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/C-000005/before/views/LEDGER.md",
+          "bytes": 18185,
+          "sha256": "725fafee329f5b029d8cd5de70e4fcc629eb79b1afb9287abbe99a460d7f3bfe"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/record.md",
+          "bytes": 28553,
+          "sha256": "d08209f1b0cd981cf7606d82bbac2c1cb3352eb4a3b65e526241fb543459ad3c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/request.md",
+          "bytes": 8056,
+          "sha256": "c19f7cbfa1a9260023cd8df6ee9f3db6c7bda4a3127d8425a7c3c4c3d310a89b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/record.md",
+          "bytes": 17531,
+          "sha256": "9d93fb6bd5baa8a39532172f89b6569c9adde0f454962dd7e53b4b5fd4320f16"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/request.md",
+          "bytes": 5056,
+          "sha256": "b2542c6246b1f6c878e0a97af75f6f5b10924b9c26fd83491fc1281d5a60f930"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/record.md",
+          "bytes": 16146,
+          "sha256": "6f31c3ea5a33c6ba86d79480dafd0fcfc481f5c753ec683fcfa9445a3d3156b9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/request.md",
+          "bytes": 6191,
+          "sha256": "61c04439cd7c709b49aa0ffc45652993b0a806c384468c115008c98720b13916"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/record.md",
+          "bytes": 16953,
+          "sha256": "f05eea6b8f89297f293b2ee304ecd10e218e6c513a136f140c59ae2cff7670da"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/request.md",
+          "bytes": 6453,
+          "sha256": "f130c3533c441d3203a496649ce8da10160c5d9da7f8f2017c8382bff615d275"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000001/record.md",
+          "bytes": 4938,
+          "sha256": "15cab507e37121aa959d027336ff5d83b1740f747fb3a65e20c06f2d9944238e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000002/record.md",
+          "bytes": 1601,
+          "sha256": "33da2ca6460bf7ab42aa59602a064a6676ff361aba19a391c18ac97321973af6"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000003/record.md",
+          "bytes": 1847,
+          "sha256": "da68de0bf48ce288b54a97f7f0814896a2d2b1976eb0e90557e6d93feaa31020"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000004/record.md",
+          "bytes": 1710,
+          "sha256": "ebfe85cc38e826780cf7c96da17df842e14eb34dab8ec24fcc09a373b8da01c2"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+          "bytes": 853,
+          "sha256": "3f27c9dcfe0b1050f6bccfe79bbfddb0c00dd7e46ce2dde73b69dc075ea954da"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000001/record.md",
+          "bytes": 3366,
+          "sha256": "335a556e97acff0270673399345513e6fa4d253235a920b6bba07b7b4f0634f4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000002/record.md",
+          "bytes": 2472,
+          "sha256": "e861da934ab20d21cee8675635b943f7b6f3d9241e855cf1aa04128cef621a3e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000003/record.md",
+          "bytes": 2344,
+          "sha256": "6b65750d1c8c41d258d374d7ff706364bb5176fe0c200d2c44d8a902d13fdfc3"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000004/record.md",
+          "bytes": 4245,
+          "sha256": "1c9354c7e32f04412fddb89260a4e6619492841b27e3e48a10043b3538a7ee01"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000005/record.md",
+          "bytes": 2075,
+          "sha256": "a969116362c121c245f1551c687124b9b21fa683cdec284cb2b5f2997ace4f0b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000006/record.md",
+          "bytes": 2457,
+          "sha256": "edd3f796be1d4f4e51ea16d8bfc2620c500278aa0972ee49c1feb97fea1180e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000007/record.md",
+          "bytes": 2418,
+          "sha256": "4075b5df77bd2307d87745fcf9cc3b4a74e6cc9336d38983862df95eb9e3ae50"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000008/record.md",
+          "bytes": 1965,
+          "sha256": "bd6685ef11dda9ed96d962a8ab19ba937d59025eeef09757bca6d00b0aaa9317"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000009/record.md",
+          "bytes": 3424,
+          "sha256": "798ceca851be63770cfaf2678cad5cbfadcdb01767b4c4a77d5edfdff46c1167"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000010/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000010/record.md",
+          "bytes": 3085,
+          "sha256": "6db484eca2fce9d89e266274147e63ae114740603e7b26908247dc2d94d67362"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000011/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000011/record.md",
+          "bytes": 1663,
+          "sha256": "eeb5dc1e1042379e7aa824cfb35e13d35b8e2a8362302fcd20b3b5fa3ef08608"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000012/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000012/record.md",
+          "bytes": 4053,
+          "sha256": "4b85159d0e36e23a83c1a4b8cf9282675f186c56abc692b1bf04a928518cb067"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000013/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000013/record.md",
+          "bytes": 5065,
+          "sha256": "dd3c2be0a01095207957dfb3b4a9b6e964670d428d76533840e5706820eb4e1e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000014/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000014/record.md",
+          "bytes": 3804,
+          "sha256": "6a56b007826cc8768e9a44c1337ecf41a46836daad92c8843e8f1a90aaf505e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000015/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000015/record.md",
+          "bytes": 2530,
+          "sha256": "a55d951027a2817098b0c769084698805df4a11bd8cf7c020ca4caf90eb32627"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000016/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000016/record.md",
+          "bytes": 2079,
+          "sha256": "063c3a935c55eeeae98b163afae7b2ecaf9c0cb3dc67c45fb0d7b753aa7dcebf"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000001/record.md",
+          "bytes": 1967,
+          "sha256": "e3830b02cf0d9677e1ebecca12a310ec777c5416bff788e3452165b98abad94a"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000002/record.md",
+          "bytes": 4686,
+          "sha256": "8fbfbf4263cc6c546cb4ba37db9d44c22f4ab82d2d136acf21881b05d4b00137"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000003/record.md",
+          "bytes": 1578,
+          "sha256": "5c531c51c868ad0ba10d3842a47c87ae88b2d876c60d7c02c172e4e9c7ef09e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000004/record.md",
+          "bytes": 1326,
+          "sha256": "4e2cc2cf17aa76769018be3fc7bc18a90d230145ff6d59e84acb1c088543278e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000005/record.md",
+          "bytes": 3261,
+          "sha256": "874eee1658ed8313de786ea8024d3c8b157fa702a00adc7b617160f2648aa2d3"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000006/record.md",
+          "bytes": 2177,
+          "sha256": "05fffa4fc07148792a6541c4bad98b77671a6a20741e569e2363fe13ea9629ab"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000007/record.md",
+          "bytes": 3575,
+          "sha256": "35da3f4985682f0487795c4866a81b2fb6bc001caa1cd82d94d11f603fcddba5"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000008/record.md",
+          "bytes": 1338,
+          "sha256": "d7df18bf3a2a409de6420a0a403928410a4b30218b14651026e396638dfb4e68"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+          "bytes": 907,
+          "sha256": "5bfb02eab03ecff61654e66a572e9328a5c0c0a437f8a5d41e3d755f8c7ab199"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000001/record.md",
+          "bytes": 2183,
+          "sha256": "f3a46f4bcc0431b262ac188847a1bffe365560f24d4fe13b447b64be9091d587"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000002/record.md",
+          "bytes": 1534,
+          "sha256": "d2fa5037d589b6cd84a8654e34867e83b2cc7e572527acfba7517090f36dda59"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000003/record.md",
+          "bytes": 1969,
+          "sha256": "7a47eacac24cb98d33462b9e7aa58b278c0bc4e5da697215d2d2e5ec45142e24"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000004/record.md",
+          "bytes": 3429,
+          "sha256": "f8b22256321c22972e28c3d32a81e97b04827a9340a836f2c06d178609eed48b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000005/record.md",
+          "bytes": 1694,
+          "sha256": "2c6a7d39241756523a7bece95972f23a98fe4d9efdb46da525b0c840e45d3c01"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000006/record.md",
+          "bytes": 2393,
+          "sha256": "480f8f9a1ef6ed263857600299931f57df741d5db27bd35d9038b005e7bc13c9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000007/record.md",
+          "bytes": 2380,
+          "sha256": "28aafd26b2c173dfed7db56eb44f7a4d301076bf21a56e3da80c405382a4d287"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000008/record.md",
+          "bytes": 3053,
+          "sha256": "0606a38af779ca8fe1f39fda8d2016a9fbdd9b398397b4fc83c11a17260d640e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+          "bytes": 1419,
+          "sha256": "9886db08d1b2da2b73c6fe8a242f7c114ce076eafa0d172c6e41722412e2770b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000001/record.md",
+          "bytes": 1881,
+          "sha256": "04123f01d0abeceeb89f4064b76fd948f071e8dc853c63cc9f01fd2f3b2cacf4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000002/record.md",
+          "bytes": 1479,
+          "sha256": "db9bde65eca5a8820649e26444c8fbddbb308be50284e385d2b8e7363a672b15"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000003/record.md",
+          "bytes": 1970,
+          "sha256": "89ce3697dafb59b1e9a921d88ac632c05d5e9371defe1ef4b31bf7cb90e4f305"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000004/record.md",
+          "bytes": 2870,
+          "sha256": "96ba22db9b4b230dc83f736d12dde90a90dc48ea199e511ef4f6d661ed832db7"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000005/record.md",
+          "bytes": 1951,
+          "sha256": "b5b668fb99f860ffbb972c81dbd883dae16786dae968342fc7421deb4914154b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000006/record.md",
+          "bytes": 1924,
+          "sha256": "24a5035906ba1694387fb4b52b3f02c77dd87ebe8307dfc84ce41c37d6d29f9f"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000007/record.md",
+          "bytes": 2353,
+          "sha256": "b6711980381add79a98aa58ff54cd8b6d877bcd87b2691439eb5322253c04f25"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+          "bytes": 927,
+          "sha256": "40e06c22b6cb4503449355f376216064f5581dbc8dd22652389d4233ba6f5329"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000001/record.md",
+          "bytes": 2570,
+          "sha256": "1243430e6b7dc8d0df3a72a72c932f44c710bb9ade152091ba64d9ecb07b8890"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000002/record.md",
+          "bytes": 2300,
+          "sha256": "eac70373d616ef764895822f870a68f63d64fa8e1055b0de0528259a5ce1c6a4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000003/record.md",
+          "bytes": 1442,
+          "sha256": "0155b288b3f09c7d0160bd19e745ee13b30fb919a062a0f225de56c5adcc7654"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000004/record.md",
+          "bytes": 1926,
+          "sha256": "3e6071dc7dfdca44ffaf6a44a2a2c73f5e5358fb2f6eaa6e58cf534ace1a843c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000005/record.md",
+          "bytes": 1532,
+          "sha256": "22d3a0590d8a4a9519727152303aa3d7b0d49e1b3ad2e91b97179785b51cf94e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000006/record.md",
+          "bytes": 1714,
+          "sha256": "82f020b998e090df9eedd67dcfe73ce93d598838aea0409eaf40f3cabce4f105"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000007/record.md",
+          "bytes": 1762,
+          "sha256": "e02a7fa2794e102b644e23030a80698637be95926396162ca4f6ae1934ac3025"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000008/record.md",
+          "bytes": 2072,
+          "sha256": "113391ca5aeb4e9681b4894ec47289bdf3d32cf86c39c90e7b3b521e6300f7b8"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+          "bytes": 713,
+          "sha256": "86d8f210c0638ac0da32710f96cc21f66b68426baf1c2b362add740ccf4e5bdd"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/stages/S-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/stages/S-000001/record.md",
+          "bytes": 3366,
+          "sha256": "74554d2357af5f0535965f91d79350a1383b618f66075ab1d600499ba48b32d0"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/stages/S-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/stages/S-000002/record.md",
+          "bytes": 2473,
+          "sha256": "3a079df8e5b80209bbe46a0ad499e7856da7b2ace897b5ffbbcf5123644ca260"
+        }
+      ],
+      "dependencies_before": "deficient-predecessor.dependencies-before.json",
+      "dependencies_after": "deficient-predecessor.dependencies-after.json",
+      "stdout": "deficient-predecessor.stdout.bin",
+      "stderr": "deficient-predecessor.stderr.txt",
+      "criterion_met": true
+    },
+    {
+      "label": "missing-type",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/missing-type-ledger.md",
+        "/home/alexturner/verifiable-practice/vp"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T08:03:21.707540+00:00",
+      "ended": "2026-10-20T08:03:21.728087+00:00",
+      "exit": 1,
+      "expected_exit": 1,
+      "executable_before": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "executable_after": {
+        "path": "/usr/bin/python3",
+        "resolved": "/usr/bin/python3.9",
+        "bytes": 68488,
+        "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+      },
+      "inputs_before": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+          "bytes": 2636,
+          "sha256": "beebefb121e89f6e16abaf15222118db04ac9a3cf97ad2b7572d92ce82f3bd1e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/missing-type-ledger.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/missing-type-ledger.md",
+          "bytes": 20949,
+          "sha256": "2364c3b190c7d9a60a8fec856d03a898b948f02f24656237dce5905087aa0c89"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/record.md",
+          "bytes": 28553,
+          "sha256": "d08209f1b0cd981cf7606d82bbac2c1cb3352eb4a3b65e526241fb543459ad3c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/request.md",
+          "bytes": 8056,
+          "sha256": "c19f7cbfa1a9260023cd8df6ee9f3db6c7bda4a3127d8425a7c3c4c3d310a89b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/record.md",
+          "bytes": 17531,
+          "sha256": "9d93fb6bd5baa8a39532172f89b6569c9adde0f454962dd7e53b4b5fd4320f16"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/request.md",
+          "bytes": 5056,
+          "sha256": "b2542c6246b1f6c878e0a97af75f6f5b10924b9c26fd83491fc1281d5a60f930"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/record.md",
+          "bytes": 16146,
+          "sha256": "6f31c3ea5a33c6ba86d79480dafd0fcfc481f5c753ec683fcfa9445a3d3156b9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/request.md",
+          "bytes": 6191,
+          "sha256": "61c04439cd7c709b49aa0ffc45652993b0a806c384468c115008c98720b13916"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/record.md",
+          "bytes": 16953,
+          "sha256": "f05eea6b8f89297f293b2ee304ecd10e218e6c513a136f140c59ae2cff7670da"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/request.md",
+          "bytes": 6453,
+          "sha256": "f130c3533c441d3203a496649ce8da10160c5d9da7f8f2017c8382bff615d275"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000001/record.md",
+          "bytes": 4938,
+          "sha256": "15cab507e37121aa959d027336ff5d83b1740f747fb3a65e20c06f2d9944238e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000002/record.md",
+          "bytes": 1601,
+          "sha256": "33da2ca6460bf7ab42aa59602a064a6676ff361aba19a391c18ac97321973af6"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000003/record.md",
+          "bytes": 1847,
+          "sha256": "da68de0bf48ce288b54a97f7f0814896a2d2b1976eb0e90557e6d93feaa31020"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000004/record.md",
+          "bytes": 1710,
+          "sha256": "ebfe85cc38e826780cf7c96da17df842e14eb34dab8ec24fcc09a373b8da01c2"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+          "bytes": 853,
+          "sha256": "3f27c9dcfe0b1050f6bccfe79bbfddb0c00dd7e46ce2dde73b69dc075ea954da"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000001/record.md",
+          "bytes": 3366,
+          "sha256": "335a556e97acff0270673399345513e6fa4d253235a920b6bba07b7b4f0634f4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000002/record.md",
+          "bytes": 2472,
+          "sha256": "e861da934ab20d21cee8675635b943f7b6f3d9241e855cf1aa04128cef621a3e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000003/record.md",
+          "bytes": 2344,
+          "sha256": "6b65750d1c8c41d258d374d7ff706364bb5176fe0c200d2c44d8a902d13fdfc3"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000004/record.md",
+          "bytes": 4245,
+          "sha256": "1c9354c7e32f04412fddb89260a4e6619492841b27e3e48a10043b3538a7ee01"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000005/record.md",
+          "bytes": 2075,
+          "sha256": "a969116362c121c245f1551c687124b9b21fa683cdec284cb2b5f2997ace4f0b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000006/record.md",
+          "bytes": 2457,
+          "sha256": "edd3f796be1d4f4e51ea16d8bfc2620c500278aa0972ee49c1feb97fea1180e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000007/record.md",
+          "bytes": 2418,
+          "sha256": "4075b5df77bd2307d87745fcf9cc3b4a74e6cc9336d38983862df95eb9e3ae50"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000008/record.md",
+          "bytes": 1965,
+          "sha256": "bd6685ef11dda9ed96d962a8ab19ba937d59025eeef09757bca6d00b0aaa9317"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000009/record.md",
+          "bytes": 3424,
+          "sha256": "798ceca851be63770cfaf2678cad5cbfadcdb01767b4c4a77d5edfdff46c1167"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000010/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000010/record.md",
+          "bytes": 3085,
+          "sha256": "6db484eca2fce9d89e266274147e63ae114740603e7b26908247dc2d94d67362"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000011/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000011/record.md",
+          "bytes": 1663,
+          "sha256": "eeb5dc1e1042379e7aa824cfb35e13d35b8e2a8362302fcd20b3b5fa3ef08608"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000012/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000012/record.md",
+          "bytes": 4053,
+          "sha256": "4b85159d0e36e23a83c1a4b8cf9282675f186c56abc692b1bf04a928518cb067"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000013/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000013/record.md",
+          "bytes": 5065,
+          "sha256": "dd3c2be0a01095207957dfb3b4a9b6e964670d428d76533840e5706820eb4e1e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000014/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000014/record.md",
+          "bytes": 3804,
+          "sha256": "6a56b007826cc8768e9a44c1337ecf41a46836daad92c8843e8f1a90aaf505e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000015/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000015/record.md",
+          "bytes": 2530,
+          "sha256": "a55d951027a2817098b0c769084698805df4a11bd8cf7c020ca4caf90eb32627"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000016/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000016/record.md",
+          "bytes": 2079,
+          "sha256": "063c3a935c55eeeae98b163afae7b2ecaf9c0cb3dc67c45fb0d7b753aa7dcebf"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000001/record.md",
+          "bytes": 1967,
+          "sha256": "e3830b02cf0d9677e1ebecca12a310ec777c5416bff788e3452165b98abad94a"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000002/record.md",
+          "bytes": 4686,
+          "sha256": "8fbfbf4263cc6c546cb4ba37db9d44c22f4ab82d2d136acf21881b05d4b00137"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000003/record.md",
+          "bytes": 1578,
+          "sha256": "5c531c51c868ad0ba10d3842a47c87ae88b2d876c60d7c02c172e4e9c7ef09e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000004/record.md",
+          "bytes": 1326,
+          "sha256": "4e2cc2cf17aa76769018be3fc7bc18a90d230145ff6d59e84acb1c088543278e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000005/record.md",
+          "bytes": 3261,
+          "sha256": "874eee1658ed8313de786ea8024d3c8b157fa702a00adc7b617160f2648aa2d3"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000006/record.md",
+          "bytes": 2177,
+          "sha256": "05fffa4fc07148792a6541c4bad98b77671a6a20741e569e2363fe13ea9629ab"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000007/record.md",
+          "bytes": 3575,
+          "sha256": "35da3f4985682f0487795c4866a81b2fb6bc001caa1cd82d94d11f603fcddba5"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000008/record.md",
+          "bytes": 1338,
+          "sha256": "d7df18bf3a2a409de6420a0a403928410a4b30218b14651026e396638dfb4e68"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+          "bytes": 907,
+          "sha256": "5bfb02eab03ecff61654e66a572e9328a5c0c0a437f8a5d41e3d755f8c7ab199"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000001/record.md",
+          "bytes": 2183,
+          "sha256": "f3a46f4bcc0431b262ac188847a1bffe365560f24d4fe13b447b64be9091d587"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000002/record.md",
+          "bytes": 1534,
+          "sha256": "d2fa5037d589b6cd84a8654e34867e83b2cc7e572527acfba7517090f36dda59"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000003/record.md",
+          "bytes": 1969,
+          "sha256": "7a47eacac24cb98d33462b9e7aa58b278c0bc4e5da697215d2d2e5ec45142e24"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000004/record.md",
+          "bytes": 3429,
+          "sha256": "f8b22256321c22972e28c3d32a81e97b04827a9340a836f2c06d178609eed48b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000005/record.md",
+          "bytes": 1694,
+          "sha256": "2c6a7d39241756523a7bece95972f23a98fe4d9efdb46da525b0c840e45d3c01"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000006/record.md",
+          "bytes": 2393,
+          "sha256": "480f8f9a1ef6ed263857600299931f57df741d5db27bd35d9038b005e7bc13c9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000007/record.md",
+          "bytes": 2380,
+          "sha256": "28aafd26b2c173dfed7db56eb44f7a4d301076bf21a56e3da80c405382a4d287"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000008/record.md",
+          "bytes": 3053,
+          "sha256": "0606a38af779ca8fe1f39fda8d2016a9fbdd9b398397b4fc83c11a17260d640e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+          "bytes": 1419,
+          "sha256": "9886db08d1b2da2b73c6fe8a242f7c114ce076eafa0d172c6e41722412e2770b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000001/record.md",
+          "bytes": 1881,
+          "sha256": "04123f01d0abeceeb89f4064b76fd948f071e8dc853c63cc9f01fd2f3b2cacf4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000002/record.md",
+          "bytes": 1479,
+          "sha256": "db9bde65eca5a8820649e26444c8fbddbb308be50284e385d2b8e7363a672b15"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000003/record.md",
+          "bytes": 1970,
+          "sha256": "89ce3697dafb59b1e9a921d88ac632c05d5e9371defe1ef4b31bf7cb90e4f305"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000004/record.md",
+          "bytes": 2870,
+          "sha256": "96ba22db9b4b230dc83f736d12dde90a90dc48ea199e511ef4f6d661ed832db7"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000005/record.md",
+          "bytes": 1951,
+          "sha256": "b5b668fb99f860ffbb972c81dbd883dae16786dae968342fc7421deb4914154b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000006/record.md",
+          "bytes": 1924,
+          "sha256": "24a5035906ba1694387fb4b52b3f02c77dd87ebe8307dfc84ce41c37d6d29f9f"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000007/record.md",
+          "bytes": 2353,
+          "sha256": "b6711980381add79a98aa58ff54cd8b6d877bcd87b2691439eb5322253c04f25"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+          "bytes": 927,
+          "sha256": "40e06c22b6cb4503449355f376216064f5581dbc8dd22652389d4233ba6f5329"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000001/record.md",
+          "bytes": 2570,
+          "sha256": "1243430e6b7dc8d0df3a72a72c932f44c710bb9ade152091ba64d9ecb07b8890"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000002/record.md",
+          "bytes": 2300,
+          "sha256": "eac70373d616ef764895822f870a68f63d64fa8e1055b0de0528259a5ce1c6a4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000003/record.md",
+          "bytes": 1442,
+          "sha256": "0155b288b3f09c7d0160bd19e745ee13b30fb919a062a0f225de56c5adcc7654"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000004/record.md",
+          "bytes": 1926,
+          "sha256": "3e6071dc7dfdca44ffaf6a44a2a2c73f5e5358fb2f6eaa6e58cf534ace1a843c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000005/record.md",
+          "bytes": 1532,
+          "sha256": "22d3a0590d8a4a9519727152303aa3d7b0d49e1b3ad2e91b97179785b51cf94e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000006/record.md",
+          "bytes": 1714,
+          "sha256": "82f020b998e090df9eedd67dcfe73ce93d598838aea0409eaf40f3cabce4f105"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000007/record.md",
+          "bytes": 1762,
+          "sha256": "e02a7fa2794e102b644e23030a80698637be95926396162ca4f6ae1934ac3025"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000008/record.md",
+          "bytes": 2072,
+          "sha256": "113391ca5aeb4e9681b4894ec47289bdf3d32cf86c39c90e7b3b521e6300f7b8"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+          "bytes": 713,
+          "sha256": "86d8f210c0638ac0da32710f96cc21f66b68426baf1c2b362add740ccf4e5bdd"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/stages/S-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/stages/S-000001/record.md",
+          "bytes": 3366,
+          "sha256": "74554d2357af5f0535965f91d79350a1383b618f66075ab1d600499ba48b32d0"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/stages/S-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/stages/S-000002/record.md",
+          "bytes": 2473,
+          "sha256": "3a079df8e5b80209bbe46a0ad499e7856da7b2ace897b5ffbbcf5123644ca260"
+        }
+      ],
+      "inputs_after": [
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/check_ledger.py",
+          "bytes": 2636,
+          "sha256": "beebefb121e89f6e16abaf15222118db04ac9a3cf97ad2b7572d92ce82f3bd1e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/missing-type-ledger.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/missing-type-ledger.md",
+          "bytes": 20949,
+          "sha256": "2364c3b190c7d9a60a8fec856d03a898b948f02f24656237dce5905087aa0c89"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/record.md",
+          "bytes": 28553,
+          "sha256": "d08209f1b0cd981cf7606d82bbac2c1cb3352eb4a3b65e526241fb543459ad3c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000001/request.md",
+          "bytes": 8056,
+          "sha256": "c19f7cbfa1a9260023cd8df6ee9f3db6c7bda4a3127d8425a7c3c4c3d310a89b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/record.md",
+          "bytes": 17531,
+          "sha256": "9d93fb6bd5baa8a39532172f89b6569c9adde0f454962dd7e53b4b5fd4320f16"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000002/request.md",
+          "bytes": 5056,
+          "sha256": "b2542c6246b1f6c878e0a97af75f6f5b10924b9c26fd83491fc1281d5a60f930"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/record.md",
+          "bytes": 16146,
+          "sha256": "6f31c3ea5a33c6ba86d79480dafd0fcfc481f5c753ec683fcfa9445a3d3156b9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000003/request.md",
+          "bytes": 6191,
+          "sha256": "61c04439cd7c709b49aa0ffc45652993b0a806c384468c115008c98720b13916"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/record.md",
+          "bytes": 16953,
+          "sha256": "f05eea6b8f89297f293b2ee304ecd10e218e6c513a136f140c59ae2cff7670da"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/request.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/audits/A-000004/request.md",
+          "bytes": 6453,
+          "sha256": "f130c3533c441d3203a496649ce8da10160c5d9da7f8f2017c8382bff615d275"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000001/record.md",
+          "bytes": 4938,
+          "sha256": "15cab507e37121aa959d027336ff5d83b1740f747fb3a65e20c06f2d9944238e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000002/record.md",
+          "bytes": 1601,
+          "sha256": "33da2ca6460bf7ab42aa59602a064a6676ff361aba19a391c18ac97321973af6"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000003/record.md",
+          "bytes": 1847,
+          "sha256": "da68de0bf48ce288b54a97f7f0814896a2d2b1976eb0e90557e6d93feaa31020"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000004/record.md",
+          "bytes": 1710,
+          "sha256": "ebfe85cc38e826780cf7c96da17df842e14eb34dab8ec24fcc09a373b8da01c2"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/changes/C-000005/record.md",
+          "bytes": 853,
+          "sha256": "3f27c9dcfe0b1050f6bccfe79bbfddb0c00dd7e46ce2dde73b69dc075ea954da"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000001/record.md",
+          "bytes": 3366,
+          "sha256": "335a556e97acff0270673399345513e6fa4d253235a920b6bba07b7b4f0634f4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000002/record.md",
+          "bytes": 2472,
+          "sha256": "e861da934ab20d21cee8675635b943f7b6f3d9241e855cf1aa04128cef621a3e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000003/record.md",
+          "bytes": 2344,
+          "sha256": "6b65750d1c8c41d258d374d7ff706364bb5176fe0c200d2c44d8a902d13fdfc3"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000004/record.md",
+          "bytes": 4245,
+          "sha256": "1c9354c7e32f04412fddb89260a4e6619492841b27e3e48a10043b3538a7ee01"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000005/record.md",
+          "bytes": 2075,
+          "sha256": "a969116362c121c245f1551c687124b9b21fa683cdec284cb2b5f2997ace4f0b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000006/record.md",
+          "bytes": 2457,
+          "sha256": "edd3f796be1d4f4e51ea16d8bfc2620c500278aa0972ee49c1feb97fea1180e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000007/record.md",
+          "bytes": 2418,
+          "sha256": "4075b5df77bd2307d87745fcf9cc3b4a74e6cc9336d38983862df95eb9e3ae50"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000008/record.md",
+          "bytes": 1965,
+          "sha256": "bd6685ef11dda9ed96d962a8ab19ba937d59025eeef09757bca6d00b0aaa9317"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000009/record.md",
+          "bytes": 3424,
+          "sha256": "798ceca851be63770cfaf2678cad5cbfadcdb01767b4c4a77d5edfdff46c1167"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000010/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000010/record.md",
+          "bytes": 3085,
+          "sha256": "6db484eca2fce9d89e266274147e63ae114740603e7b26908247dc2d94d67362"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000011/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000011/record.md",
+          "bytes": 1663,
+          "sha256": "eeb5dc1e1042379e7aa824cfb35e13d35b8e2a8362302fcd20b3b5fa3ef08608"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000012/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000012/record.md",
+          "bytes": 4053,
+          "sha256": "4b85159d0e36e23a83c1a4b8cf9282675f186c56abc692b1bf04a928518cb067"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000013/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000013/record.md",
+          "bytes": 5065,
+          "sha256": "dd3c2be0a01095207957dfb3b4a9b6e964670d428d76533840e5706820eb4e1e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000014/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000014/record.md",
+          "bytes": 3804,
+          "sha256": "6a56b007826cc8768e9a44c1337ecf41a46836daad92c8843e8f1a90aaf505e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000015/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000015/record.md",
+          "bytes": 2530,
+          "sha256": "a55d951027a2817098b0c769084698805df4a11bd8cf7c020ca4caf90eb32627"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000016/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/decisions/D-000016/record.md",
+          "bytes": 2079,
+          "sha256": "063c3a935c55eeeae98b163afae7b2ecaf9c0cb3dc67c45fb0d7b753aa7dcebf"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000001/record.md",
+          "bytes": 1967,
+          "sha256": "e3830b02cf0d9677e1ebecca12a310ec777c5416bff788e3452165b98abad94a"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000002/record.md",
+          "bytes": 4686,
+          "sha256": "8fbfbf4263cc6c546cb4ba37db9d44c22f4ab82d2d136acf21881b05d4b00137"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000003/record.md",
+          "bytes": 1578,
+          "sha256": "5c531c51c868ad0ba10d3842a47c87ae88b2d876c60d7c02c172e4e9c7ef09e9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000004/record.md",
+          "bytes": 1326,
+          "sha256": "4e2cc2cf17aa76769018be3fc7bc18a90d230145ff6d59e84acb1c088543278e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000005/record.md",
+          "bytes": 3261,
+          "sha256": "874eee1658ed8313de786ea8024d3c8b157fa702a00adc7b617160f2648aa2d3"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000006/record.md",
+          "bytes": 2177,
+          "sha256": "05fffa4fc07148792a6541c4bad98b77671a6a20741e569e2363fe13ea9629ab"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000007/record.md",
+          "bytes": 3575,
+          "sha256": "35da3f4985682f0487795c4866a81b2fb6bc001caa1cd82d94d11f603fcddba5"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000008/record.md",
+          "bytes": 1338,
+          "sha256": "d7df18bf3a2a409de6420a0a403928410a4b30218b14651026e396638dfb4e68"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/events/V-000009/record.md",
+          "bytes": 907,
+          "sha256": "5bfb02eab03ecff61654e66a572e9328a5c0c0a437f8a5d41e3d755f8c7ab199"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000001/record.md",
+          "bytes": 2183,
+          "sha256": "f3a46f4bcc0431b262ac188847a1bffe365560f24d4fe13b447b64be9091d587"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000002/record.md",
+          "bytes": 1534,
+          "sha256": "d2fa5037d589b6cd84a8654e34867e83b2cc7e572527acfba7517090f36dda59"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000003/record.md",
+          "bytes": 1969,
+          "sha256": "7a47eacac24cb98d33462b9e7aa58b278c0bc4e5da697215d2d2e5ec45142e24"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000004/record.md",
+          "bytes": 3429,
+          "sha256": "f8b22256321c22972e28c3d32a81e97b04827a9340a836f2c06d178609eed48b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000005/record.md",
+          "bytes": 1694,
+          "sha256": "2c6a7d39241756523a7bece95972f23a98fe4d9efdb46da525b0c840e45d3c01"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000006/record.md",
+          "bytes": 2393,
+          "sha256": "480f8f9a1ef6ed263857600299931f57df741d5db27bd35d9038b005e7bc13c9"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000007/record.md",
+          "bytes": 2380,
+          "sha256": "28aafd26b2c173dfed7db56eb44f7a4d301076bf21a56e3da80c405382a4d287"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000008/record.md",
+          "bytes": 3053,
+          "sha256": "0606a38af779ca8fe1f39fda8d2016a9fbdd9b398397b4fc83c11a17260d640e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/experiments/E-000009/record.md",
+          "bytes": 1419,
+          "sha256": "9886db08d1b2da2b73c6fe8a242f7c114ce076eafa0d172c6e41722412e2770b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000001/record.md",
+          "bytes": 1881,
+          "sha256": "04123f01d0abeceeb89f4064b76fd948f071e8dc853c63cc9f01fd2f3b2cacf4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000002/record.md",
+          "bytes": 1479,
+          "sha256": "db9bde65eca5a8820649e26444c8fbddbb308be50284e385d2b8e7363a672b15"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000003/record.md",
+          "bytes": 1970,
+          "sha256": "89ce3697dafb59b1e9a921d88ac632c05d5e9371defe1ef4b31bf7cb90e4f305"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000004/record.md",
+          "bytes": 2870,
+          "sha256": "96ba22db9b4b230dc83f736d12dde90a90dc48ea199e511ef4f6d661ed832db7"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000005/record.md",
+          "bytes": 1951,
+          "sha256": "b5b668fb99f860ffbb972c81dbd883dae16786dae968342fc7421deb4914154b"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000006/record.md",
+          "bytes": 1924,
+          "sha256": "24a5035906ba1694387fb4b52b3f02c77dd87ebe8307dfc84ce41c37d6d29f9f"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000007/record.md",
+          "bytes": 2353,
+          "sha256": "b6711980381add79a98aa58ff54cd8b6d877bcd87b2691439eb5322253c04f25"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/hypotheses/H-000008/record.md",
+          "bytes": 927,
+          "sha256": "40e06c22b6cb4503449355f376216064f5581dbc8dd22652389d4233ba6f5329"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000001/record.md",
+          "bytes": 2570,
+          "sha256": "1243430e6b7dc8d0df3a72a72c932f44c710bb9ade152091ba64d9ecb07b8890"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000002/record.md",
+          "bytes": 2300,
+          "sha256": "eac70373d616ef764895822f870a68f63d64fa8e1055b0de0528259a5ce1c6a4"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000003/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000003/record.md",
+          "bytes": 1442,
+          "sha256": "0155b288b3f09c7d0160bd19e745ee13b30fb919a062a0f225de56c5adcc7654"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000004/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000004/record.md",
+          "bytes": 1926,
+          "sha256": "3e6071dc7dfdca44ffaf6a44a2a2c73f5e5358fb2f6eaa6e58cf534ace1a843c"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000005/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000005/record.md",
+          "bytes": 1532,
+          "sha256": "22d3a0590d8a4a9519727152303aa3d7b0d49e1b3ad2e91b97179785b51cf94e"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000006/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000006/record.md",
+          "bytes": 1714,
+          "sha256": "82f020b998e090df9eedd67dcfe73ce93d598838aea0409eaf40f3cabce4f105"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000007/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000007/record.md",
+          "bytes": 1762,
+          "sha256": "e02a7fa2794e102b644e23030a80698637be95926396162ca4f6ae1934ac3025"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000008/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000008/record.md",
+          "bytes": 2072,
+          "sha256": "113391ca5aeb4e9681b4894ec47289bdf3d32cf86c39c90e7b3b521e6300f7b8"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/runs/R-000009/record.md",
+          "bytes": 713,
+          "sha256": "86d8f210c0638ac0da32710f96cc21f66b68426baf1c2b362add740ccf4e5bdd"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/stages/S-000001/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/stages/S-000001/record.md",
+          "bytes": 3366,
+          "sha256": "74554d2357af5f0535965f91d79350a1383b618f66075ab1d600499ba48b32d0"
+        },
+        {
+          "path": "/home/alexturner/verifiable-practice/vp/records/stages/S-000002/record.md",
+          "resolved": "/home/alexturner/verifiable-practice/vp/records/stages/S-000002/record.md",
+          "bytes": 2473,
+          "sha256": "3a079df8e5b80209bbe46a0ad499e7856da7b2ace897b5ffbbcf5123644ca260"
+        }
+      ],
+      "dependencies_before": "missing-type.dependencies-before.json",
+      "dependencies_after": "missing-type.dependencies-after.json",
+      "stdout": "missing-type.stdout.bin",
+      "stderr": "missing-type.stderr.txt",
+      "criterion_met": true
+    }
+  ],
+  "criterion_met": true,
+  "candidate_identity": {
+    "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/candidate-ledger.md",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000009/candidate-ledger.md",
+    "bytes": 20956,
+    "sha256": "5b24a5fe65171318ad2cb19ee1443694060b63df7ef0bba5ccbcb03e73731498"
+  },
+  "claim": "H-000008 bounded ledger contract failed to falsify; mandatoryfinding closure pending independent A5",
+  "limits": "worker-controlled source-only metadata/navigation evidence; no authenticated history, full product efficacy or self-awarded conformance"
+}

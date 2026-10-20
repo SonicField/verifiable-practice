@@ -1,0 +1,9 @@
+{
+  "ledger": "/home/alexturner/verifiable-practice/vp/LEDGER.md",
+  "logical_base": "/home/alexturner/verifiable-practice/vp",
+  "rows": 65,
+  "expected_ids": 65,
+  "local_destinations": 201,
+  "errors": [],
+  "limits": "Metadata/navigation and selected original audit fields only; no independent conformance verdict"
+}

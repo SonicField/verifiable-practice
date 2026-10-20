@@ -1,5 +1,7 @@
 # Review and Audit
 
+Review, product-quality assessment and independent record assurance are distinct controls within [VP's full project quality management method](how-vp-works.md). Their scopes and evidence feed owner acceptance and improvement decisions.
+
 VP has two audit kinds: **Project Audit** (`project`) and **Code Audit**
 (`code`). “Independent record audit” is another name for Project Audit.
 Reasoning review is a separate, lighter activity.

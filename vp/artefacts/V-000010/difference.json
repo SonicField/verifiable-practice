@@ -1,0 +1,9 @@
+{
+  "recorded": "2026-10-20 08:05:36 UTC",
+  "original_input_sha256": "c3b81a9442f26b556e8a2e4c36b4950d71afcec26b4f817489b07ede5e8505b9",
+  "reconstructed_sha256": "c3b81a9442f26b556e8a2e4c36b4950d71afcec26b4f817489b07ede5e8505b9",
+  "altered_sha256": "22da60c46f890a2e97312fa26151bd4c4398a59282962ad9c46178cb930ba97f",
+  "method": "inverse of actual replacements A4outer/ownA4/A4artefact\u2192A5, matched exact R9final input digest",
+  "evidence": "R-000009/final-results.json inputs_before/input_after; final A5input frozen08:04:37",
+  "limits": "reconstruction now, not original raw capture; original issuance status retained, request edited after issue, no assessor dispatched"
+}

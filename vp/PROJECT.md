@@ -1,16 +1,16 @@
 # Verifiable Practice: Adoption Charter
 
-**As of:** 2026-10-19 12:35:26 UTC
+**As of:** 2026-10-20 08:13:43 UTC
 **Owner:** commissioning human user; account alexturner is environment attribution.
 **Mandate:** [D-000001](records/decisions/D-000001/record.md) and
 [transcribed current instruction](artefacts/D-000001/authority.md).
 **Worker:** Codex /root in this adoption invocation.
 **Record conformance start:** present adoption, not historical reconstruction.
-**Conformance verdict:** [A-000003](records/audits/A-000003/record.md), conformant for its 2026-10-19 12:28:18 UTC prospective freeze; accepted by [D-000009](records/decisions/D-000009/record.md). Current checkpoint projections are subsequent authorised records.
+**Conformance verdict:** A-000006 conformant for its exact frozen prospective scope; S2 accepted D-000020. Post-exit/checkpoint projections are later authorised records, not an extension of assessed input.
 
 ## Goal, Scope and Legacy Boundary
 
-Maintain a portable VP instruction/document framework whose current maintained
+Maintain a portable full project quality management system for human–AI collaboration whose current maintained
 units can be traced to present retention choices, appropriate fresh evidence,
 root authority and finite validity. All non-generated current project files
 are covered, including hidden configuration/community documents and forward
@@ -109,3 +109,11 @@ receive a bounded research disposition, not blanket acceptance.
 ## Version-control custody policy at 2026-10-19 19:22:46 UTC
 
 Owner instruction D-000010 selects version control for this repository. Track complete vp record root and retained evidence alongside framework source; D-000011 explicitly includes owned nested evidence despite ignore rules. V-000007 identifies initial checkpoint and receipt. Related source/record changes are committed together, followed by an outcome receipt where needed. Git author/date attribution does not authenticate actions; original sealed records use successor corrections and independent preserved copies remain required. This local policy does not make Git mandatory for other VP projects. Post-audit custody projections do not extend A-000003 assessed scope or renew evidence deadlines.
+
+## Accepted full-method documentation stage
+
+D12owner-selectedcontentassessment/repair →R7baseline →D13generalisedchoices/C4 →R8meaningfulQ1–Q10/evidence →D14retention. A4nonconformantledgerfinding →D16/C5/R9/D17/V9repair; A5withdrawnbeforedispatchafterrequestedit V10/D19; actualfreshA6conformantandD20acceptS2. Allfailures/rawbytesremain. Projectmetadata/currentviews and completeownedvp/source committedunderexistingD10/D11policy with R10/V11custodyreceipt. Independentproduct/contentefficacy and historicalauthenticity remainunverified; no newnormativestandard, remoteoperation or renewedbackgrounddates.
+
+## Scoped packet-description advisory
+
+A-000006/F-001 remains original open advisory, accepted with sourced [V-000012 counterdescriptor](records/events/V-000012/record.md) under D-000020. ActualA6consumer/archiveA4+A5inclusions/ownfuture-outputboundary are explicit against exact originalindex hashes. Originalfrozenlabels unchanged; workerdispositionisnotindependentclosure. No mandatorygate gap; review26OctUTC/earlier packet/consumer/authority/custodychange.

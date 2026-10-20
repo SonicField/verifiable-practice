@@ -1,0 +1,30 @@
+{
+  "time": "2026-10-20T08:02:02.705400+00:00",
+  "fixed": {
+    "request": "f130c3533c441d3203a496649ce8da10160c5d9da7f8f2017c8382bff615d275",
+    "preparation": "d81e7c543e9db0b10015b2f9d2a4a06716368093ad0c24cad939f0e644873a4e",
+    "manifest": "f1e3c857c6436d7716654832705a51cbea869d2c16d7fe71344c6dec9e38955c",
+    "inventory": "835ea79ae64b57bc05797c39e597d1237f65256e097dc81bb28713443e8e43ff",
+    "standard": "65e3e7a1aaefa4b9b954ba5b79a88d9e2a0d259802541c7b48a3f8257775f83a"
+  },
+  "fixed_unchanged": true,
+  "files": 2864,
+  "errors": [],
+  "extra_missing": {
+    "vp/artefacts/A-000004/input": {
+      "extra": [],
+      "missing": []
+    },
+    "/home/alexturner/vp-preserved/verifiable-practice/A-000004-input": {
+      "extra": [],
+      "missing": []
+    }
+  },
+  "copy_outer_match": true,
+  "request_frozen_match": true,
+  "report_sha256": "f05eea6b8f89297f293b2ee304ecd10e218e6c513a136f140c59ae2cff7670da",
+  "verdict": "nonconformant",
+  "open_mandatory": [
+    "A-000004/F-001"
+  ]
+}

@@ -1,0 +1,2105 @@
+{
+  "files": [
+    {
+      "path": ".github/pull_request_template.md",
+      "opening": "## Goal\n\nWhat outcome does this change serve?\n\n## Change\n\nWhat changed, and why does it belong at this layer of VP?\n\n## Evidence\n\nHow was the change checked? Include commands, scenarios, and observed results.\n\n## Falsification\n\nWhat result would show that this change is ineffective or wrong?\n",
+      "headings": [
+        [
+          1,
+          "Goal"
+        ],
+        [
+          5,
+          "Change"
+        ],
+        [
+          9,
+          "Evidence"
+        ],
+        [
+          13,
+          "Falsification"
+        ],
+        [
+          17,
+          "Limitations"
+        ],
+        [
+          21,
+          "Checklist"
+        ]
+      ]
+    },
+    {
+      "path": "CHANGELOG.md",
+      "opening": "# Changelog\n\nAll notable changes to Verifiable Practice will be documented here.\n\nThe format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The project uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html) for tagged releases.\n\n## Unreleased\n\n### Added\n\n- Full project quality management identity and lifecycle in README, WHY,\n  AI skill discovery/routing and explanatory guides, including quality planning,\n  control, independent assurance, improvement and human/AI responsibilities.\n- Sourced content-quality assessment and documented communication choices,\n  preserving the distinction between epistemic foundations, management\n  authority, product quality and record conformance.",
+      "headings": [
+        [
+          1,
+          "Changelog"
+        ],
+        [
+          7,
+          "Unreleased"
+        ],
+        [
+          9,
+          "Added"
+        ],
+        [
+          22,
+          "Fixed"
+        ]
+      ]
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "opening": "# Code of Conduct\n\n## Our Pledge\n\nWe commit to making participation in Verifiable Practice respectful and free from harassment for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity or expression, experience, education, socio-economic status, nationality, appearance, race, caste, colour, religion, or sexual identity and orientation.\n\nWe commit to acting and interacting in ways that support an open, welcoming, diverse, inclusive, and healthy community.\n\n## Expected Behaviour\n\nExamples include:\n\n- showing empathy and respect for different experiences and viewpoints;\n- giving and accepting constructive, evidence-based feedback;\n- acknowledging mistakes and learning from them;\n- focusing criticism on ideas and work rather than people;",
+      "headings": [
+        [
+          1,
+          "Code of Conduct"
+        ],
+        [
+          3,
+          "Our Pledge"
+        ],
+        [
+          9,
+          "Expected Behaviour"
+        ],
+        [
+          19,
+          "Unacceptable Behaviour"
+        ],
+        [
+          29,
+          "Scope"
+        ],
+        [
+          33,
+          "Enforcement"
+        ],
+        [
+          39,
+          "Attribution"
+        ]
+      ]
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "opening": "# Contributing to Verifiable Practice\n\nVP develops a full project quality management system for human\u2013AI collaboration. Governance, planning, verification, traceable records, independent assurance and revalidation form one method; its effectiveness and cost remain research questions. Contributions are welcome when they make the framework clearer, more useful, or easier to test.\n\nBy participating, you agree to follow the [Code of Conduct](CODE_OF_CONDUCT.md).\n\n## Before Opening an Issue\n\nSearch existing issues and read the relevant concept, playbook, or guide. For a problem report, include:\n\n- what you were trying to achieve;\n- the VP material and revision you used;\n- the AI host or execution environment when relevant;\n- what happened and what you expected;\n- the smallest reproducible example;\n- evidence such as prompts, outputs, or files, with secrets removed.",
+      "headings": [
+        [
+          1,
+          "Contributing to Verifiable Practice"
+        ],
+        [
+          7,
+          "Before Opening an Issue"
+        ],
+        [
+          20,
+          "Proposing a Change"
+        ],
+        [
+          32,
+          "Pull Requests"
+        ],
+        [
+          46,
+          "Validation"
+        ],
+        [
+          57,
+          "Licence"
+        ]
+      ]
+    },
+    {
+      "path": "ORIGIN.md",
+      "opening": "# Extraction Notes\n\nThis package was extracted from NBS Framework revision `a1084a3` on 2026-09-24.\n\nThe current VP method is a [full project quality management system for human\u2013AI collaboration](docs/how-vp-works.md). The extraction inventory below records its original provenance. Later extensions introduced portable owner, worker and independent auditor responsibilities, controlled project planning and record management. Those current responsibilities are distinct from the source framework's excluded persistent-team implementations.\n\n## Included\n\nThe original \u201cWhy NBS\u201d essay and the eight top-level concepts that concern human\u2013AI software reasoning were adapted. The generic playbooks were derived from the original review, audit, investigation, debugger, discovery, recovery, document-analysis, document-planning, document-description, and PTE command documents.\n\n| Core material | Source material |\n|---------------|-----------------|\n| `WHY.md` | `docs/framework/Why-NBS.md` |\n| `concepts/` | Directly under the source `concepts/`, except `coordination.md` |\n| `playbooks/review.md` | `claude_tools/nbs.md` and `docs/framework/nbs-review.md` |\n| `playbooks/code-audit.md` | `claude_tools/nbs-audit.md` and `docs/framework/nbs-audit.md` |",
+      "headings": [
+        [
+          1,
+          "Extraction Notes"
+        ],
+        [
+          7,
+          "Included"
+        ],
+        [
+          30,
+          "Excluded from the Original Extraction"
+        ],
+        [
+          39,
+          "Generalisation Choices"
+        ],
+        [
+          45,
+          "Later Extension: Independent Record Assessment"
+        ]
+      ]
+    },
+    {
+      "path": "README.md",
+      "opening": "# Verifiable Practice\n\nVerifiable Practice (VP) is a **full project quality management system for human\u2013AI collaboration**. It defines how a project establishes its goals and authority, plans controlled work, makes justified choices, verifies results, keeps an auditable history, accepts deliverables and maintains their justification over time.\n\nFalsification and honest reporting provide its evidence discipline. Project roles, stage gates, records, independent assessment and revalidation turn that discipline into a repeatable management method. VP applies to code, specifications, documents, experiments and other maintained project artefacts.\n\nThe method uses Markdown documents and directories. No specialised software, database, service or persistent AI team is required. This repository also packages the method as a reusable AI skill: [SKILL.md](SKILL.md) gives operating rules and routes an assistant to the references needed for its current responsibility.\n\n## Start Here\n\n- **Understand the complete method:** read [How VP Works](docs/how-vp-works.md), then [Why VP](WHY.md) for its motivation and evidence discipline.\n- **Start or adopt a project:** use [Project Planning and Records](playbooks/project-records.md), the [standard](standards/project-records.md) and [templates](templates/project-records/README.md).\n- **Give an AI working instructions:** provide [SKILL.md](SKILL.md), the project's charter and its current task. Keep owner, worker and assessor responsibilities explicit.\n- **Resume a project:** read its `PROJECT.md`, `PLAN.md`, `STATE.md`, `LEDGER.md` and `COVERAGE.md`; check source identity, open work, deadlines and triggers before proceeding.\n- **Learn the foundations:** use the concept sequence below. A bounded task loads the references relevant to that task.\n",
+      "headings": [
+        [
+          1,
+          "Verifiable Practice"
+        ],
+        [
+          9,
+          "Start Here"
+        ],
+        [
+          19,
+          "The Project Lifecycle"
+        ],
+        [
+          34,
+          "Human and AI Responsibilities"
+        ],
+        [
+          44,
+          "Quality, Traceability and Current Justification"
+        ],
+        [
+          52,
+          "Choose the Assessment"
+        ],
+        [
+          61,
+          "Foundations"
+        ],
+        [
+          74,
+          "This Repository's Records"
+        ],
+        [
+          78,
+          "Playbooks"
+        ],
+        [
+          99,
+          "Documentation"
+        ],
+        [
+          118,
+          "Using VP with Any AI Tool"
+        ],
+        [
+          134,
+          "Scope Boundary"
+        ],
+        [
+          142,
+          "Project Information"
+        ]
+      ]
+    },
+    {
+      "path": "SECURITY.md",
+      "opening": "# Security Policy\n\n## Supported Versions\n\nThe latest revision on the `main` branch is supported. Tagged releases, when available, document any different support status in their release notes.\n\n## Scope\n\nVerifiable Practice contains instructions rather than executable application code. Those instructions may nevertheless influence an AI system that can read files, execute commands, access networks, or modify external systems.\n\nSecurity-relevant issues include:\n\n- instructions that cause unintended or over-broad actions;\n- permission escalation or mutation beyond the user's request;\n- unsafe handling of untrusted repository content or prompt injection;\n- disclosure of secrets or private data in reports and evidence;",
+      "headings": [
+        [
+          1,
+          "Security Policy"
+        ],
+        [
+          3,
+          "Supported Versions"
+        ],
+        [
+          7,
+          "Scope"
+        ],
+        [
+          20,
+          "Reporting a Vulnerability"
+        ],
+        [
+          34,
+          "Safe Use"
+        ]
+      ]
+    },
+    {
+      "path": "SKILL.md",
+      "opening": "---\nname: verifiable-practice\ndescription: Use the full project quality management system for human\u2013AI collaboration, including governance, planning, verification, traceable records, independent assurance and revalidation. Use when the user asks for VP or Verifiable Practice, or requests a falsification-led review, project or code audit, investigation, project discovery or recovery, document analysis, or precise technical specification.\n---\n\n# Verifiable Practice\n\nVP is a full project quality management system for human\u2013AI collaboration. Its epistemology supplies evidence discipline; its owner/worker/auditor roles, controlled stages, quality criteria, records and review gates manage the complete project lifecycle. This skill distributes and routes the method.\n\nWhen working on this repository itself, read its [record root](vp/README.md)\nand [current state](vp/STATE.md). Its prospective charter governs tracking;\nlegacy history is not certified and a conformance claim needs independent A.\nThese repository-specific links do not enrol another project using this skill.\n\nTreat every material claim as something that must be possible to check. Establish what the user is trying to achieve, identify what would show the current approach is wrong, seek that evidence, and report the observed result\u2014including failures and uncertainty.\n",
+      "headings": [
+        [
+          6,
+          "Verifiable Practice"
+        ],
+        [
+          17,
+          "Manage the Whole Project"
+        ],
+        [
+          27,
+          "Working Rules"
+        ],
+        [
+          59,
+          "Route the Work"
+        ],
+        [
+          84,
+          "Explanatory References"
+        ],
+        [
+          107,
+          "Default Verification Loop"
+        ],
+        [
+          121,
+          "Completion Standard"
+        ]
+      ]
+    },
+    {
+      "path": "WHY.md",
+      "opening": "# Why Verifiable Practice\n\nVerifiable Practice (VP) is a **full project quality management system for human\u2013AI collaboration**. It manages the work from the originating goal and mandate through planning, implementation, quality checks, acceptance, maintenance and retirement. Its records let another person or AI inspect the choices and evidence that justify the work.\n\nHuman and AI contributors need shared criteria, bounded authority and continuity across sessions. Falsification gives them a way to challenge technical claims. Project management supplies the roles, stages, gates and durable history needed to act on that evidence.\n\nBullshit is not lying. Liars know the truth and conceal it. Bullshitters are indifferent to truth. They say what sounds right, what fits the meeting, what satisfies the prompt. Whether it happens to be true is incidental.\n\nSoftware engineering is drowning in bullshit. \"Best practice\" that nobody tested. Architecture decisions justified by vibes. AI-generated code that looks correct and compiles and passes the obvious tests and fails in production.\n\nVP makes goals, choices, quality criteria, evidence and acceptance decisions explicit and reviewable.\n\n## Why a Project Needs the Whole Method\n\nA good test is one part of a continuing project. Someone must decide what outcome matters, what work is authorised, how much uncertainty and cost are acceptable, which result justifies a choice, and when changed conditions require review. Those decisions must remain understandable after the original conversation disappears. Owned manifests explain retained inputs, byte identities, custody and retention; independent copies support recovery. Missing old history remains unknown, while new choices and evidence justify current work.\n",
+      "headings": [
+        [
+          1,
+          "Why Verifiable Practice"
+        ],
+        [
+          13,
+          "Why a Project Needs the Whole Method"
+        ],
+        [
+          30,
+          "The Core Question"
+        ],
+        [
+          38,
+          "Worked Example: Adversarial Testing"
+        ],
+        [
+          58,
+          "What Would Prove This Wrong?"
+        ],
+        [
+          70,
+          "The VP Approach"
+        ],
+        [
+          84,
+          "Epistemology: the Evidence Foundation"
+        ],
+        [
+          92,
+          "Supporting Evidence Concepts"
+        ],
+        [
+          105,
+          "The Practice"
+        ],
+        [
+          118,
+          "Summary"
+        ]
+      ]
+    },
+    {
+      "path": "concepts/bullshit-detection.md",
+      "opening": "# Bullshit Detection\n\nHonest reporting supports quality control and independent assurance in [VP's project quality management system](../docs/how-vp-works.md). Records preserve failures, uncertainty and rejected choices alongside successes.\n\nBullshit is not lying. Lying requires knowing the truth and choosing to contradict it. Bullshit is indifference to truth - saying what sounds good without caring whether it is accurate.\n\nAI systems bullshit constantly. They are trained to please. RLHF optimises for human satisfaction, not factual accuracy. Given ten results - nine good, one catastrophic - the system learns to emphasise the nine and bury the one.\n\nHumans bullshit for the same reason. We do not like bad news. We reward the messenger who sanitises.\n\n## The Problem\n\n\"The engine works nine times out of ten\" is bullshit. It sounds like information but contains none. What matters is:\n\n- When does it fail?\n- What conditions distinguish success from failure?",
+      "headings": [
+        [
+          1,
+          "Bullshit Detection"
+        ],
+        [
+          11,
+          "The Problem"
+        ],
+        [
+          21,
+          "Performed Confidence"
+        ],
+        [
+          31,
+          "The Bullshit Checklist"
+        ],
+        [
+          40,
+          "Cherry-Picking in Practice"
+        ],
+        [
+          52,
+          "The Practical Question"
+        ],
+        [
+          58,
+          "Optional Onboarding"
+        ]
+      ]
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "opening": "# Engineering Standards: A Verification-First Approach\n\nEngineering standards provide product-quality criteria within [VP's project quality management system](../docs/how-vp-works.md). Authorised changes, verification records and acceptance gates connect implementation checks to the project goal.\n\n> This document is the canonical engineering standards reference for Verifiable Practice.\n\n## Philosophy and Principles\n\nThis document defines engineering standards built on a fundamental insight: **safety comes from verbs, not nouns**. Correctness emerges from actions \u2014 checking, validating, asserting, testing, monitoring \u2014 not from static structures like type systems or design patterns. The act of verification matters more than the classification system.\n\n### Core Tenets\n\n- **Falsifiability as Foundation**: You cannot prove code correct, but you CAN prove it wrong. A single counterexample demolishes a claim. Tests should try to break code, not confirm it works. \"All tests pass\" provides weak confidence; \"I tried hard to break it and failed\" provides strong confidence.\n- **Verbs Over Nouns**: Correctness comes from actions, not classifications. \"This value was validated\" matters more than \"this has type ValidatedInput\". The verb happened or it didn't. The assertion passed or it failed. That's provable.\n- **Types Are Hints, Not Guarantees**: Type systems are incomplete \u2014 they cannot express \"this list is sorted\" or \"this connection is authenticated\". Types constrain design toward what the checker can verify, not what the problem demands. Use types as documentation, but rely on assertions and invariants for correctness.\n- **Test the Real System**: Mocks hide integration failures. Real systems have real network latency, real concurrency, real resource contention, real failure modes. Integration-first testing, with targeted unit tests only for complex isolated logic.",
+      "headings": [
+        [
+          1,
+          "Engineering Standards: A Verification-First Approach"
+        ],
+        [
+          7,
+          "Philosophy and Principles"
+        ],
+        [
+          11,
+          "Core Tenets"
+        ],
+        [
+          25,
+          "The Assertion Protocol"
+        ],
+        [
+          29,
+          "The Three-Level Hierarchy"
+        ],
+        [
+          47,
+          "Example: All Three Levels"
+        ],
+        [
+          79,
+          "Assertion Messages"
+        ],
+        [
+          102,
+          "Testing for Falsification"
+        ],
+        [
+          106,
+          "Property-Based Testing"
+        ],
+        [
+          133,
+          "Adversarial Input Generation"
+        ],
+        [
+          144,
+          "Integration-First Methodology"
+        ],
+        [
+          159,
+          "Decomposition Criterion: Testability"
+        ],
+        [
+          173,
+          "The Development Cycle in Practice"
+        ],
+        [
+          175,
+          "The Cycle of Verified Construction"
+        ],
+        [
+          206,
+          "Phase Entry and Exit Criteria"
+        ],
+        [
+          217,
+          "Runtime Verification"
+        ],
+        [
+          221,
+          "Health Checks and Watchdogs"
+        ],
+        [
+          228,
+          "Graceful Degradation"
+        ],
+        [
+          240,
+          "AI-Accelerated Development"
+        ],
+        [
+          244,
+          "AI Capabilities by Phase"
+        ],
+        [
+          255,
+          "Context Management Principles"
+        ],
+        [
+          263,
+          "AI-Assisted Test Generation"
+        ],
+        [
+          274,
+          "Language-Specific Patterns"
+        ],
+        [
+          279,
+          "Python"
+        ],
+        [
+          304,
+          "Shell/Bash"
+        ],
+        [
+          334,
+          "C/Systems Programming"
+        ],
+        [
+          371,
+          "Anti-Patterns and Failure Modes"
+        ],
+        [
+          373,
+          "Anti-Pattern 1: Silent Failure"
+        ],
+        [
+          396,
+          "Anti-Pattern 2: Unfalsifiable Claims"
+        ],
+        [
+          420,
+          "Anti-Pattern 3: Unreachable Guards"
+        ],
+        [
+          444,
+          "Anti-Pattern 4: Quick Fix Trap"
+        ],
+        [
+          464,
+          "Anti-Pattern 5: Type-System False Confidence"
+        ],
+        [
+          490,
+          "Anti-Pattern 6: Mock-Heavy Testing"
+        ],
+        [
+          520,
+          "Anti-Pattern 7: No Runtime Verification"
+        ],
+        [
+          564,
+          "Anti-Pattern 8: Missing Dynamic Analysis"
+        ],
+        [
+          578,
+          "Anti-Pattern 9: Skipping the Cycle"
+        ],
+        [
+          587,
+          "Summary and Quick Reference"
+        ],
+        [
+          589,
+          "The Cycle (Memorise This)"
+        ],
+        [
+          593,
+          "The Philosophy (Internalise This)"
+        ],
+        [
+          601,
+          "The Questions (Ask Every Time)"
+        ]
+      ]
+    },
+    {
+      "path": "concepts/falsifiability.md",
+      "opening": "# Falsifiability\n\nFalsifiability supplies the evidence discipline for empirical claims in [VP's project quality management system](../docs/how-vp-works.md). Protocols, identified attempts and review triggers make that discipline auditable.\n\nYou cannot prove code correct. You can prove it wrong.\n\nA single counterexample demolishes a claim. A thousand passing tests merely fail to falsify. This asymmetry is not a limitation - it is the only epistemically honest stance available.\n\n## The Contract\n\nAn empirical claim relied on by a project choice carries three obligations:\n\n1. I can articulate what would prove me wrong\n2. I have tried to find that counterexample\n3. I am reporting actual confidence, not performing confidence\n",
+      "headings": [
+        [
+          1,
+          "Falsifiability"
+        ],
+        [
+          9,
+          "The Contract"
+        ],
+        [
+          21,
+          "Application"
+        ],
+        [
+          32,
+          "Falsifying the Process"
+        ],
+        [
+          42,
+          "Layered Confidence"
+        ],
+        [
+          50,
+          "Property-Based Testing"
+        ],
+        [
+          82,
+          "The Practical Question"
+        ],
+        [
+          88,
+          "Optional Onboarding"
+        ]
+      ]
+    },
+    {
+      "path": "concepts/goals.md",
+      "opening": "# Goals\n\nGoals establish continuing value and owner authority in [VP's project quality management system](../docs/how-vp-works.md). The charter, stages and acceptance decisions keep technical work connected to the originating mandate.\n\nEverything else exists because of this.\n\nThe pillars - falsifiability, rhetoric, verification, all of it - are means. Goals are the end. Without clarity on what we are trying to achieve, rigorous method is just expensive wandering.\n\n## Terminal and Instrumental\n\nA **terminal goal** is what we actually want. An **instrumental goal** is a step toward it.\n\nConfusion between the two is the root of most project failure. We optimise an instrumental goal until it consumes all resources, forgetting it was supposed to serve something larger. The test suite passes, but the product is useless. The architecture is elegant, but it solves the wrong problem.\n\nThe question is always: what does this serve?\n",
+      "headings": [
+        [
+          1,
+          "Goals"
+        ],
+        [
+          9,
+          "Terminal and Instrumental"
+        ],
+        [
+          17,
+          "Strategic and Tactical"
+        ],
+        [
+          25,
+          "The Pathos Question"
+        ],
+        [
+          41,
+          "Drift"
+        ],
+        [
+          53,
+          "The Practical Questions"
+        ],
+        [
+          63,
+          "Optional Onboarding"
+        ]
+      ]
+    },
+    {
+      "path": "concepts/pte.md",
+      "opening": "# Precise Technical English (PTE)\n\nPrecise contracts make requirements and acceptance criteria checkable within [VP's project quality management system](../docs/how-vp-works.md). Use precision where ambiguity changes project choices or outcomes.\n\nNatural language fails at precision. Not because English lacks expressive power, but because it optimises for the wrong thing: speaker economy. Humans compress. They rely on context, shared assumptions, and the listener's willingness to infer. This works in conversation. It fails in specifications.\n\nPTE is a constrained subset of English designed for one purpose: eliminating ambiguity in technical communication. It is verbose, tedious, and unnatural. These are features. The goal is mutual intelligibility when precision is non-negotiable.\n\n## Why PTE Exists\n\nConsider: \"The service calls the API. It fails.\"\n\nWhich failed? The service? The API? The call? Natural English does not say. The reader guesses. The guess becomes an assumption. The assumption becomes code. Sometimes the code is wrong.\n\nThis is not an edge case. Every specification contains dozens of such ambiguities:\n",
+      "headings": [
+        [
+          1,
+          "Precise Technical English (PTE)"
+        ],
+        [
+          9,
+          "Why PTE Exists"
+        ],
+        [
+          28,
+          "The Connection to Falsifiability"
+        ],
+        [
+          39,
+          "The Rules"
+        ],
+        [
+          43,
+          "Verbs (Actions)"
+        ],
+        [
+          64,
+          "Nouns (Objects)"
+        ],
+        [
+          78,
+          "Extended Scope"
+        ],
+        [
+          92,
+          "The Workflow"
+        ],
+        [
+          105,
+          "When to Use PTE"
+        ],
+        [
+          119,
+          "The Value Proposition"
+        ],
+        [
+          129,
+          "Optional Onboarding"
+        ]
+      ]
+    },
+    {
+      "path": "concepts/rhetoric.md",
+      "opening": "# Rhetoric\n\nThis concept helps collaborators distinguish evidence, values and authority when making choices within [VP's project quality management system](../docs/how-vp-works.md). Decisions preserve those distinctions and their sources.\n\nAristotle proposed three modes of persuasion: Ethos (authority), Pathos (what people want), Logos (logic). Most engineers believe they operate purely in Logos. They are mistaken.\n\n## The Hidden Pathos\n\nThe logical requirements of any system are an attempt to meet the emotional requirements of the people paying for it. By not being explicit about this, we create constant misalignment between the real world - \"I need to please my client\" - and the imagined logical world - \"I need to please the type checker.\"\n\nLogic is tautologically correct. It has no truth value outside itself. When we attempt purely logical work, we smuggle in Pathos - a moral or aesthetic motivation - to convert the tautology into something externalisable.\n\nWhen someone insists that functional programming is \"cleaner\" or a particular architecture is \"more elegant,\" they are making Pathos claims dressed in Logos clothing. There is nothing wrong with this. But call it what it is.\n\n## The Ethos Problem\n",
+      "headings": [
+        [
+          1,
+          "Rhetoric"
+        ],
+        [
+          7,
+          "The Hidden Pathos"
+        ],
+        [
+          15,
+          "The Ethos Problem"
+        ],
+        [
+          23,
+          "The Information Problem"
+        ],
+        [
+          40,
+          "The Practical Questions"
+        ],
+        [
+          49,
+          "Optional Onboarding"
+        ]
+      ]
+    },
+    {
+      "path": "concepts/verification-cycle.md",
+      "opening": "# The Verification Cycle\n\nThe verification cycle governs implementation steps within [VP's full project quality management lifecycle](../docs/how-vp-works.md). Project authority, stages, records and gates supply its surrounding controls.\n\nSafety comes from verbs, not nouns. Correctness emerges from actions - checking, validating, asserting, testing - not from static structures like type systems or design patterns.\n\n\"This value was validated\" matters. \"This has type ValidatedInput\" does not, unless validation actually occurred. The verb happened or it did not. That is provable.\n\n## The Cycle\n\n```\nDesign \u2192 Plan \u2192 Deconstruct \u2192 [Test \u2192 Code \u2192 Document] \u2192 Next\n```\n\nEach phase has entry and exit criteria. Skipping phases is not speed; it is debt with compound interest.\n",
+      "headings": [
+        [
+          1,
+          "The Verification Cycle"
+        ],
+        [
+          9,
+          "The Cycle"
+        ],
+        [
+          28,
+          "The Decomposition Criterion"
+        ],
+        [
+          42,
+          "Assertions, Testing, and Dynamic Analysis"
+        ],
+        [
+          46,
+          "The Practical Question"
+        ],
+        [
+          52,
+          "Optional Onboarding"
+        ]
+      ]
+    },
+    {
+      "path": "concepts/zero-code-contract.md",
+      "opening": "# The Zero-Code Contract\n\nThe zero-code contract is one software-delivery arrangement within [VP's full project quality management system](../docs/how-vp-works.md). It is useful when an AI can produce implementation faster than a human owner can review every line. The human focuses on criteria and evidence while the AI performs authorised implementation.\n\nProjects can agree other allocations of human and AI technical work. Owner, worker, record keeping and independent-assessor responsibilities still need explicit mandates and boundaries.\n\nIf the human must review all code, the human becomes the bottleneck. Bottlenecks get bypassed. \"Looks good\" becomes the path of least resistance. Quality collapses.\n\n## The Roles\n\nThe table below describes the **default human-owner arrangement** for this zero-code pattern. For an\nAI owner, use the explicit [mandate and role contract](../standards/project-records.md)\nand [independent audit roles](../docs/independent-record-audit.md). An AI owner\nmay make delegated management decisions; the working AI still implements and\nmaintains records. An actor title never creates authority, and the auditor\nmust remain independent of the authors it assesses.",
+      "headings": [
+        [
+          1,
+          "The Zero-Code Contract"
+        ],
+        [
+          9,
+          "The Roles"
+        ],
+        [
+          27,
+          "The Throughput Solution"
+        ],
+        [
+          39,
+          "Cooperative Oversight"
+        ],
+        [
+          55,
+          "The Workflow"
+        ],
+        [
+          64,
+          "The Practical Question"
+        ],
+        [
+          70,
+          "Optional Onboarding"
+        ]
+      ]
+    },
+    {
+      "path": "docs/discovery-and-recovery.md",
+      "opening": "# Discovery and Recovery\n\nDiscovery and recovery manage uncertain history and controlled restoration within [VP's full project quality management method](how-vp-works.md). The owner mandate, retained evidence and reviewed changes govern both.\n\nSome projects contain useful work but lack a reliable account of what exists, what succeeded, and why decisions were made. Discovery maps that territory. Recovery changes it.\n\n## Discovery Is Read-Only\n\nDiscovery reconstructs:\n\n- the terminal goal;\n- the locations and provenance of artefacts;\n- which outcomes are valuable, failed, partial, or unknown;\n- which claims have supporting evidence;\n- what is still missing.\n",
+      "headings": [
+        [
+          1,
+          "Discovery and Recovery"
+        ],
+        [
+          7,
+          "Discovery Is Read-Only"
+        ],
+        [
+          23,
+          "Verification Is the Boundary"
+        ],
+        [
+          29,
+          "Recovery Is Controlled Mutation"
+        ],
+        [
+          44,
+          "Why the Boundary Matters"
+        ]
+      ]
+    },
+    {
+      "path": "docs/document-work.md",
+      "opening": "# Document Work\n\nDocument analysis, planning and description provide content-quality control within [VP's full project quality management method](how-vp-works.md). Record document requirements, sources, changes and evidence under the project's authority and acceptance gates.\n\nVP treats documents as instruments: they should change a reader's understanding, decision, or action. Three related modes address different failures.\n\n| Mode | Question | Use it when |\n|------|----------|-------------|\n| Analysis | What does this document claim, optimise, and cause? | Something feels wrong or unsupported |\n| Planning | What must this document accomplish, for whom? | An important document has not yet been drafted |\n| Description | What model will let this reader understand the thing? | The subject is understood but difficult to explain |\n\n## Analysis\n\nAnalysis separates direct statements from interpretation. It extracts stated goals, examines incentives and effects, identifies rhetorical modes, tests important claims for falsifiability, and shows the gap between what is promised and what is optimised.\n",
+      "headings": [
+        [
+          1,
+          "Document Work"
+        ],
+        [
+          13,
+          "Analysis"
+        ],
+        [
+          21,
+          "Planning"
+        ],
+        [
+          29,
+          "Description"
+        ],
+        [
+          37,
+          "Precision When Needed"
+        ]
+      ]
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "opening": "# How Verifiable Practice Works\n\nVerifiable Practice (VP) is a **full project quality management system for human\u2013AI collaboration**. It combines project governance and planning, evidence-based technical work, durable decision/artefact records, independent assurance, controlled acceptance and continuing revalidation.\n\nThe system covers a project from its originating goal to maintenance, recovery and retirement. Code, specifications, documents and experiments use the same management and traceability principles. Falsifiability and honest reporting are its epistemic foundation; roles, controls and records make those principles operational across sessions and contributors.\n\n## What the System Manages\n\n| Quality function | Required project work | Where VP defines it |\n|------------------|-----------------------|---------------------|\n| Planning | Goal and mandate, scope, requirements, acceptance/harm criteria, responsibilities, risks, stages, budgets and tolerances | [Project standard \u00a74](../standards/project-records.md), [project playbook](../playbooks/project-records.md), [templates](../templates/project-records/README.md) |\n| Control | Test important claims, inspect artefacts against their contracts, preserve inputs/results and contain failed or unsupported work | [Verification cycle](../concepts/verification-cycle.md), [engineering standards](../concepts/engineering-standards.md), [investigation](../playbooks/investigation.md), [document analysis](../playbooks/document-analysis.md) |\n| Assurance | Independently assess records, evidence support, traceability and current validity; respond to findings and check closure | [Project Audit](../playbooks/record-audit.md), [independent role guide](independent-record-audit.md), standard \u00a711 |\n| Improvement | Use failures, audit findings, invalidated premises and process-cost observations to revise choices and the method | [Reasoning review](../playbooks/review.md), standard \u00a7\u00a77/10\u201312, [behaviour evaluation](testing-ai-behaviour.md) |\n\nQuality management ties these activities to continuing project value and accountable acceptance. A passing test has a scope; a manager's authority has a mandate; a record-conformance verdict has a snapshot and time. Each needs the appropriate evidence or authorisation.",
+      "headings": [
+        [
+          1,
+          "How Verifiable Practice Works"
+        ],
+        [
+          7,
+          "What the System Manages"
+        ],
+        [
+          18,
+          "Responsibilities and Authority"
+        ],
+        [
+          30,
+          "The Lifecycle and Its Gates"
+        ],
+        [
+          43,
+          "Documents, Directories and the Audit Trail"
+        ],
+        [
+          72,
+          "Epistemology Within the Method"
+        ],
+        [
+          80,
+          "Choose the Assessment and Keep Its Verdict"
+        ],
+        [
+          89,
+          "Start a Project or Use a Bounded Task"
+        ],
+        [
+          97,
+          "Distribution and Limits"
+        ]
+      ]
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "opening": "# Project Audit: Independent Record Assessment\n\nIndependent record assessment is the assurance loop within [VP's full project quality management method](how-vp-works.md). It supports accountable management while the worker retains technical execution and record keeping.\n\n**Audit kind:** `project`. \u201cIndependent record audit\u201d is an alias. Code Audit\nhas kind `code` and a separate scope. Ambiguous requests require the owner\nto select the kind through [Audit Routing](../playbooks/audit-routing.md)\nbefore any audit begins.\n\nAn AI immersed in implementation can explain away gaps or begin solving the\nproblem it was meant to assess. VP therefore separates the working AI from\nthe record auditor by context, responsibility and write authority.\n\nThe [standard \u00a711](../standards/project-records.md) defines the contract; the\n[playbook](../playbooks/record-audit.md) gives the procedure. The\n[design record](project-records-design.md) preserves its derivation from",
+      "headings": [
+        [
+          1,
+          "Project Audit: Independent Record Assessment"
+        ],
+        [
+          20,
+          "Responsibilities"
+        ],
+        [
+          34,
+          "A Directory Handoff Loop"
+        ],
+        [
+          70,
+          "What \u201cRegenerate\u201d Means"
+        ],
+        [
+          83,
+          "Independence Has Two Meanings"
+        ],
+        [
+          97,
+          "Example: Missing Test Provenance"
+        ],
+        [
+          121,
+          "Gates without Role Drift"
+        ]
+      ]
+    },
+    {
+      "path": "docs/investigations.md",
+      "opening": "# Investigations\n\nInvestigations supply evidence for choices within [VP's full project quality management method](how-vp-works.md). Their budgets, authority, records and adopting decisions keep experiments connected to the managed project.\n\nAn investigation is a bounded, hypothesis-driven departure from implementation. It answers a question whose result could change the direction of the main work.\n\nInvestigations produce evidence. Any experimental code is scaffolding unless the user later chooses to integrate it.\n\n## A Good Hypothesis\n\nA useful hypothesis is:\n\n- specific enough to predict an observation;\n- falsifiable by a realistic experiment;\n- connected to a decision;\n- narrow enough to investigate without building the proposed solution first.",
+      "headings": [
+        [
+          1,
+          "Investigations"
+        ],
+        [
+          9,
+          "A Good Hypothesis"
+        ],
+        [
+          20,
+          "Isolation and Records"
+        ],
+        [
+          32,
+          "Three Honest Verdicts"
+        ],
+        [
+          42,
+          "Returning to Main Work"
+        ]
+      ]
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "opening": "# Design Record: VP Project Planning and Records\n\n**Status:** proposed design, 19 October 2026. These are design records for\nthis change, not a claim that VP or either inspected project already conforms.\n\n## Present Adoption and Historical Evidence Limits\n\nThe owner has now commissioned prospective adoption. Current operational\nrecords are in [the record root](../vp/README.md), beginning at D-000001.\nAll earlier verification accounts, user/source excerpts and ordering claims\nbelow remain authored legacy reports: their original execution captures or\ncontemporaneous choice records are unavailable in the adoption packet.\nThey must not be used as current verified evidence or proof of historical\nconformance. Fresh identified runs and present retention choices support the\nnew baseline; they do not authenticate or overwrite these earlier accounts.\n",
+      "headings": [
+        [
+          1,
+          "Design Record: VP Project Planning and Records"
+        ],
+        [
+          6,
+          "Present Adoption and Historical Evidence Limits"
+        ],
+        [
+          17,
+          "Goal and Document Plan"
+        ],
+        [
+          37,
+          "Inspected Evidence"
+        ],
+        [
+          68,
+          "Generalised Design Decisions"
+        ],
+        [
+          75,
+          "VP-DESIGN-01: An Explicit Conformance Contract"
+        ],
+        [
+          89,
+          "VP-DESIGN-02: One Record Root and Stable Typed IDs"
+        ],
+        [
+          103,
+          "VP-DESIGN-03: Stages, Baselines and Delegated Authority"
+        ],
+        [
+          118,
+          "VP-DESIGN-04: Observation, Generalisation and Choice Are Separate"
+        ],
+        [
+          133,
+          "VP-DESIGN-05: Preserve Contemporary Reasoning"
+        ],
+        [
+          146,
+          "VP-DESIGN-06: Exact Inputs and All Attempts"
+        ],
+        [
+          160,
+          "VP-DESIGN-07: Claims, Instruments and Reader Outcomes"
+        ],
+        [
+          174,
+          "VP-DESIGN-08: Finite Validity and Dependency Impact"
+        ],
+        [
+          188,
+          "VP-DESIGN-09: Complete Coverage at a Snapshot"
+        ],
+        [
+          202,
+          "VP-DESIGN-10: Custody and Recorded Disposition"
+        ],
+        [
+          216,
+          "VP-DESIGN-11: Honest Legacy Adoption"
+        ],
+        [
+          229,
+          "VP-DESIGN-12: Proportional Records without Lost Evidence"
+        ],
+        [
+          244,
+          "VP-DESIGN-13: Markdown and Directories as the Portable Interface"
+        ],
+        [
+          257,
+          "VP-DESIGN-14: Evaluate the Standard across Different Work"
+        ],
+        [
+          273,
+          "Review Horizon and Remaining Evidence"
+        ],
+        [
+          287,
+          "Implementation Verification: 19 October 2026"
+        ],
+        [
+          319,
+          "Extension: Independent Record Audit and Worker Remediation"
+        ],
+        [
+          338,
+          "VP-DESIGN-15: Separate Record Auditor and Working AI"
+        ],
+        [
+          358,
+          "VP-DESIGN-16: Frozen Inputs and Explicit Evidence Custody"
+        ],
+        [
+          376,
+          "VP-DESIGN-17: Findings, Responses and Independent Closure"
+        ],
+        [
+          395,
+          "VP-DESIGN-18: Scheduled, Bounded Audit Rounds and Declared Gates"
+        ],
+        [
+          414,
+          "Extension Verification"
+        ],
+        [
+          429,
+          "Extension: Owner as a Human or AI Role"
+        ],
+        [
+          431,
+          "VP-DESIGN-19: Ownership Is Defined by Mandate, Not Actor Type"
+        ],
+        [
+          462,
+          "Extension: Explicit Audit Kinds"
+        ],
+        [
+          464,
+          "VP-DESIGN-20: Select the Audit Contract before Inspecting"
+        ],
+        [
+          501,
+          "Later public-method explanation"
+        ]
+      ]
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "opening": "# Worked Record Traces\n\nThese traces illustrate the project planning and record layer of [VP's full quality management method](how-vp-works.md), across different artefact types.\n\nThese are illustrative histories, not measurements of `parallel_gc`, `honest`\nor this repository. IDs and outcomes below are fictional. Tables show the\nessential fields and links; they are not complete conformant project bundles.\nUse the [templates](../templates/project-records/README.md) for real records.\n\n## 1. Compiled CLI Output Handling\n\n**Inspiration:** Honest's historical CLI audit recorded output failures that\nreturned success. **Generalisation:** successful process status should mean\nthe promised operation completed, including observable output. This applies\nto writers beyond parsers; it does not define the semantics of every CLI.\n",
+      "headings": [
+        [
+          1,
+          "Worked Record Traces"
+        ],
+        [
+          10,
+          "1. Compiled CLI Output Handling"
+        ],
+        [
+          43,
+          "Start from a Piece of Code"
+        ],
+        [
+          56,
+          "Interpreted Variant"
+        ],
+        [
+          65,
+          "2. Document Self-Containment and Reader Comprehension"
+        ],
+        [
+          98,
+          "Start from a Document or Test"
+        ],
+        [
+          110,
+          "3. What Generalises and What Stays Local"
+        ]
+      ]
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "opening": "# Evaluating Project Record Behaviour\n\nThese scenarios evaluate project planning, traceability and assurance within [VP's full quality management method](how-vp-works.md).\n\nThese scenarios define tests of the\n[standard](../standards/project-records.md) and\n[playbook](../playbooks/project-records.md). They are not reports of executed\nindependent AI trials. Apply the isolation and provenance rules in\n[Testing AI Behaviour](testing-ai-behaviour.md).\n\n## Trial Protocol\n\nFor each scenario, give an assistant a disposable realistic project bundle,\nthe adopted standard and its templates, and the task in the second column.\nKeep this file, expected verdicts, and evaluator material outside that\nassistant's context. Preserve skill/standard/model revisions, configuration,",
+      "headings": [
+        [
+          1,
+          "Evaluating Project Record Behaviour"
+        ],
+        [
+          11,
+          "Trial Protocol"
+        ],
+        [
+          28,
+          "Adversarial and Control Cases"
+        ],
+        [
+          69,
+          "Process Cost and Recovery Outcomes"
+        ]
+      ]
+    },
+    {
+      "path": "docs/project-records.md",
+      "opening": "# Project Planning and Records\n\nProject planning, control and traceable records are the management layer of [VP's full project quality management system](how-vp-works.md). They connect the owner mandate and quality criteria to bounded stages, choices, implementation evidence, independent gates and continuing review. The working AI keeps the records under owner oversight; an independent assessor checks their support.\n\nA project can span many sessions, builds, contributors and machines. A status summary alone rarely explains what an earlier author knew, which alternatives failed, which exact binary produced a result or whether a premise remains current.\n\nThe [standard](../standards/project-records.md) supplies that implementation.\nIt is the explicit planning/record-conformance contract, version 1.0 proposed for adoption; the other VP procedures supply engineering, document and investigation quality checks.\nUse the [playbook](../playbooks/project-records.md) for actions and the\n[templates](../templates/project-records/README.md) for files.\n\nThe [independent audit loop](independent-record-audit.md) separates an assessor\nfrom the working AI: a frozen packet leads to sourced findings, worker\nresponses and a fresh closure audit. The assessor stays within record\nverification while the worker performs authorised technical investigation.\n",
+      "headings": [
+        [
+          1,
+          "Project Planning and Records"
+        ],
+        [
+          17,
+          "The Record Chain"
+        ],
+        [
+          47,
+          "What Each Inspiration Contributes"
+        ],
+        [
+          62,
+          "A Time Horizon Is Part of the Justification"
+        ],
+        [
+          79,
+          "Records Are More than a Clean Tree"
+        ],
+        [
+          91,
+          "Small Work and Legacy Work"
+        ],
+        [
+          104,
+          "How to Evaluate This Proposal"
+        ]
+      ]
+    },
+    {
+      "path": "docs/review-and-audit.md",
+      "opening": "# Review and Audit\n\nReview, product-quality assessment and independent record assurance are distinct controls within [VP's full project quality management method](how-vp-works.md). Their scopes and evidence feed owner acceptance and improvement decisions.\n\nVP has two audit kinds: **Project Audit** (`project`) and **Code Audit**\n(`code`). \u201cIndependent record audit\u201d is another name for Project Audit.\nReasoning review is a separate, lighter activity.\n\nFor \u201cPlease audit X\u201d or another ambiguous request, the AI must ask which kind\nis intended and wait before starting. A charter default or the contents of X\nmust not silently choose it. Use [Audit Routing](../playbooks/audit-routing.md).\n\n| Dimension | Project Audit | Code Audit | Reasoning review |\n|-----------|---------------|------------|------------------|\n| Subject | Plans, decisions, records, provenance, validity and code-to-root traceability | Implementation and executable contracts | Current reasoning and goal alignment |\n| Finds | Missing/unreliable history, unsupported reliance, expired claims and record gaps | Defects, silent failures, missing technical validation | Drift, weak falsifiers, selective reporting |",
+      "headings": [
+        [
+          1,
+          "Review and Audit"
+        ],
+        [
+          21,
+          "Reasoning Review"
+        ],
+        [
+          37,
+          "Code Audit"
+        ],
+        [
+          53,
+          "Project Audit (Independent Record Audit)"
+        ],
+        [
+          73,
+          "Why Audit and Repair Are Separate"
+        ]
+      ]
+    },
+    {
+      "path": "docs/skill-architecture.md",
+      "opening": "# Skill Architecture\n\nVerifiable Practice is a full project quality management system for human\u2013AI collaboration, distributed as a self-contained skill repository. The [method overview](how-vp-works.md) explains governance, planning, quality control/assurance, acceptance and maintenance. This architecture separates discovery, procedures, normative contracts, templates and actual project records so an AI loads the references needed for its role and task.\n\n## Repository Layers\n\n```text\nverifiable-practice/\n|-- SKILL.md       Skill metadata, shared rules, and routing\n|-- concepts/      Stable reasoning principles\n|-- playbooks/     Operational procedures for particular tasks\n|-- docs/          Explanation for human and AI readers\n|-- standards/     Normative contracts for explicitly adopted practices\n|-- templates/     Copyable Markdown documents and record fields\n|-- vp/            This project's instantiated charter, records and evidence\n|-- README.md      Project entry point",
+      "headings": [
+        [
+          1,
+          "Skill Architecture"
+        ],
+        [
+          5,
+          "Repository Layers"
+        ],
+        [
+          20,
+          "Skill Entry Point"
+        ],
+        [
+          24,
+          "Concepts"
+        ],
+        [
+          28,
+          "Playbooks"
+        ],
+        [
+          32,
+          "Documentation"
+        ],
+        [
+          36,
+          "Project Records and Evidence"
+        ],
+        [
+          40,
+          "Standards and Templates"
+        ],
+        [
+          48,
+          "Platform Adapters"
+        ],
+        [
+          61,
+          "Changing the Skill"
+        ]
+      ]
+    },
+    {
+      "path": "docs/testing-ai-behaviour.md",
+      "opening": "# Testing AI Behaviour\n\nBehaviour evaluation supplies evidence for the quality controls and improvement of [VP's full project management method](how-vp-works.md). It also tests AI instructions and workflows used within projects.\n\nAI output varies between runs and is sensitive to visible context. Testing an AI workflow therefore requires both deterministic checks and semantic evaluation, with careful isolation of the scenario.\n\n## Start with Observable Behaviour\n\nDefine the behaviour being tested before choosing an evaluator:\n\n- the input and visible context;\n- the required output or action;\n- prohibited output or action;\n- evidence that distinguishes success from a superficially plausible answer;\n- allowed variation in wording or sequence.\n",
+      "headings": [
+        [
+          1,
+          "Testing AI Behaviour"
+        ],
+        [
+          7,
+          "Start with Observable Behaviour"
+        ],
+        [
+          19,
+          "Use the Cheapest Reliable Oracle"
+        ],
+        [
+          31,
+          "Test Positive and Negative Behaviour"
+        ],
+        [
+          41,
+          "Isolate Context"
+        ],
+        [
+          49,
+          "Evaluate Non-Determinism Honestly"
+        ],
+        [
+          64,
+          "Preserve the Test Record"
+        ]
+      ]
+    },
+    {
+      "path": "playbooks/audit-routing.md",
+      "opening": "# Select the Audit Kind\n\nUse this entry point whenever an owner asks for a VP audit. Select its kind\nbefore loading an audit procedure or inspecting the project as an audit.\n\n| Kind | Canonical name | Subject | Procedure |\n|------|----------------|---------|-----------|\n| `project` | Project Audit | Goal/plan/decision history, records, provenance, evidence support, validity, custody and code-to-root traceability | [Project Audit](record-audit.md) |\n| `code` | Code Audit | Implementation defects, engineering standards, executable contracts and missing technical checks | [Code Audit](code-audit.md) |\n\n\u201cRecord audit\u201d, \u201cindependent record audit\u201d and \u201cproject conformance audit\u201d are\naliases for Project Audit. A short [reasoning review](review.md) is a separate\nreview activity; it is not a substitute for either declared audit.\n\n## Mandatory Clarification\n",
+      "headings": [
+        [
+          1,
+          "Select the Audit Kind"
+        ],
+        [
+          15,
+          "Mandatory Clarification"
+        ],
+        [
+          30,
+          "After the Kind Is Selected"
+        ],
+        [
+          40,
+          "Keep Verdicts Distinct"
+        ]
+      ]
+    },
+    {
+      "path": "playbooks/code-audit.md",
+      "opening": "# Code Audit\n\nAudit a codebase against the [engineering standards](../concepts/engineering-standards.md), produce a prioritised report, and\u2014only when authorised\u2014repair violations with adversarial tests.\n\nAuditing and fixing are separate decisions. A request to inspect code authorises a report, not source changes.\n\n**Audit kind:** `code`. Use this only after an explicit kind has been selected\nthrough [Audit Routing](audit-routing.md). For an ambiguous \u201cPlease audit X\u201d,\nask the intended kind and wait before inspecting. Project-record conformance\nuses [Project Audit](record-audit.md) with a separate assessor contract.\n\n## Phase 1: Scope\n\n1. Identify languages, source roots, test commands, generated code, vendored code, and build artefacts.\n2. Exclude trivial re-export files unless they contain behaviour.\n3. Record the exact file set and exclusions in the report.",
+      "headings": [
+        [
+          1,
+          "Code Audit"
+        ],
+        [
+          12,
+          "Phase 1: Scope"
+        ],
+        [
+          19,
+          "Phase 2: Audit"
+        ],
+        [
+          44,
+          "Phase 3: Consolidate"
+        ],
+        [
+          65,
+          "Phase 4: Repair, If Authorised"
+        ],
+        [
+          78,
+          "Completion Criteria"
+        ]
+      ]
+    },
+    {
+      "path": "playbooks/debugging.md",
+      "opening": "# Hypothesis-Driven Debugging\n\nUse a debugger as a measurement instrument. State the hypothesis and its falsifier before issuing commands.\n\n## 1. Verify the Subject\n\nBefore attaching a debugger, prove that the executable and symbols correspond to the source under investigation. Record an identifier such as a build ID, checksum, timestamp relationship, or reproducible build reference. If the executable is stale or provenance is uncertain, rebuild before drawing conclusions.\n\nAlso record the invocation, environment, inputs, and configuration needed to reproduce the fault.\n\n## 2. State Competing Hypotheses\n\nWrite at least two plausible explanations when possible. For each one state:\n\n- what you believe is happening;\n- the exact observation that would contradict it;",
+      "headings": [
+        [
+          1,
+          "Hypothesis-Driven Debugging"
+        ],
+        [
+          5,
+          "1. Verify the Subject"
+        ],
+        [
+          11,
+          "2. State Competing Hypotheses"
+        ],
+        [
+          21,
+          "3. Design a Discriminating Observation"
+        ],
+        [
+          33,
+          "4. Observe and Record"
+        ],
+        [
+          45,
+          "5. Conclude Carefully"
+        ],
+        [
+          49,
+          "Anti-Patterns"
+        ]
+      ]
+    },
+    {
+      "path": "playbooks/discovery-verification.md",
+      "opening": "# Discovery Verification\n\nVerify a discovery report before using it as the sole input to recovery. This is a completeness check, not a second discovery.\n\n## Checks\n\nConfirm that the report contains:\n\n- a one-sentence terminal goal confirmed by the user;\n- every searched location plus explicit exclusions;\n- an artefact triage table with evidence and rationale;\n- valuable outcomes and how they were verified;\n- ordered instrumental goals with dependencies;\n- full confirmed restatements from gap analysis;\n- open questions, uncertainty, and recommended next steps.\n",
+      "headings": [
+        [
+          1,
+          "Discovery Verification"
+        ],
+        [
+          5,
+          "Checks"
+        ],
+        [
+          26,
+          "Output"
+        ]
+      ]
+    },
+    {
+      "path": "playbooks/discovery.md",
+      "opening": "# Project Discovery\n\nDiscovery is a collaborative, read-only process for understanding a project whose artefacts, history, goals, or value are unclear. It produces a durable report for recovery; it does not reorganise the project.\n\n## Phase 1: Establish Context\n\nAsk the user what the project was trying to achieve, when the work occurred, where related artefacts may exist, what outcomes matter, and what they remember as false starts. Their memory supplies intent that files cannot establish.\n\nDo not treat memory as proof of technical behaviour. Treat it as primary evidence of purpose and value, then verify technical claims against artefacts where possible.\n\n## Phase 2: Archaeology\n\nFor each agreed location:\n\n1. inventory what exists without changing it;\n2. identify likely relevance from names, dates, version history, and small metadata reads;",
+      "headings": [
+        [
+          1,
+          "Project Discovery"
+        ],
+        [
+          5,
+          "Phase 1: Establish Context"
+        ],
+        [
+          11,
+          "Phase 2: Archaeology"
+        ],
+        [
+          23,
+          "Phase 3: Triage"
+        ],
+        [
+          35,
+          "Phase 4: Gap Analysis"
+        ],
+        [
+          41,
+          "Output"
+        ]
+      ]
+    },
+    {
+      "path": "playbooks/document-analysis.md",
+      "opening": "# Document Analysis\n\nAnalyse a document, proposal, idea, or communication by separating what it says from what it rewards or causes.\n\n## Process\n\n1. Acquire the complete target and establish its provenance, audience, date, and context.\n2. Read [Goals](../concepts/goals.md), [Rhetoric](../concepts/rhetoric.md), [Bullshit Detection](../concepts/bullshit-detection.md), and [Falsifiability](../concepts/falsifiability.md).\n3. Extract stated goals using direct quotations.\n4. Infer actual goals from incentives, resource allocation, requested actions, omissions, and who benefits.\n5. Separate Ethos, Pathos, and Logos. Identify where one is presented as another.\n6. List consequential claims and the evidence that would falsify each one.\n7. Compare stated and actual goals. Explain the practical consequence of any gap.\n8. Invite correction where intent cannot be established from the document.\n\n## Output",
+      "headings": [
+        [
+          1,
+          "Document Analysis"
+        ],
+        [
+          5,
+          "Process"
+        ],
+        [
+          16,
+          "Output"
+        ],
+        [
+          32,
+          "Rules"
+        ]
+      ]
+    },
+    {
+      "path": "playbooks/document-description.md",
+      "opening": "# Document Description\n\nHelp a user describe a system, codebase, process, or concept they understand but have not yet expressed clearly.\n\n## Process\n\n1. Establish what is being described and inspect it when source material is available.\n2. Identify the exact audience and the decision or task the description must enable.\n3. Ask for the three facts the audience must understand.\n4. Identify common misconceptions and confusing boundaries.\n5. Surface inputs, outputs, state changes, dependencies, failure modes, and non-goals as applicable.\n6. Test possible analogies. State where each analogy breaks.\n7. Propose an outline, then draft only after the user confirms the model.\n8. Check the draft against the real system and the stated reader outcome.\n\n## Suggested Structure",
+      "headings": [
+        [
+          1,
+          "Document Description"
+        ],
+        [
+          5,
+          "Process"
+        ],
+        [
+          16,
+          "Suggested Structure"
+        ]
+      ]
+    },
+    {
+      "path": "playbooks/document-planning.md",
+      "opening": "# Document Planning\n\nPlan an important document before drafting it. The goal is agreement about the outcome, reader, evidence, and structure\u2014not premature prose.\n\n## Process\n\nWork through these questions with the user:\n\n1. **Document type:** What is being written, and what decision or action surrounds it?\n2. **Terminal goal:** What should be different after the intended reader reads it?\n3. **Audience:** Who exactly will read it? What do they know, value, fear, and control?\n4. **Evidence:** Which claims require support, and what sources are authoritative for each?\n5. **Failure:** What reader response would show that the document failed?\n6. **Constraints:** Length, tone, format, deadline, review process, and required sections.\n7. **Structure:** What sequence gives the reader the context needed for each conclusion?\n",
+      "headings": [
+        [
+          1,
+          "Document Planning"
+        ],
+        [
+          5,
+          "Process"
+        ],
+        [
+          19,
+          "Output"
+        ]
+      ]
+    },
+    {
+      "path": "playbooks/investigation.md",
+      "opening": "# Investigation\n\nUse this playbook for a focused question that can be answered by experiment. An investigation produces evidence, not a feature.\n\n## 1. State the Hypothesis\n\nTurn the concern into one specific, testable claim. Confirm with the user:\n\n- the hypothesis;\n- the observation that would falsify it;\n- the practical decision the result will inform.\n\nDo not experiment until these are clear.\n\n## 2. Isolate the Work\n",
+      "headings": [
+        [
+          1,
+          "Investigation"
+        ],
+        [
+          5,
+          "1. State the Hypothesis"
+        ],
+        [
+          15,
+          "2. Isolate the Work"
+        ],
+        [
+          39,
+          "3. Design Experiments"
+        ],
+        [
+          51,
+          "4. Execute and Record"
+        ],
+        [
+          55,
+          "5. Reach a Verdict"
+        ]
+      ]
+    },
+    {
+      "path": "playbooks/precise-technical-english.md",
+      "opening": "# Precise Technical English\n\nUse this playbook to turn ambiguous requirements into falsifiable technical statements. Read [Precise Technical English](../concepts/pte.md) first.\n\n## Activation\n\nApply PTE only where ambiguity is costly: interfaces, invariants, state transitions, preconditions, postconditions, failure behaviour, security boundaries, and acceptance criteria. Use natural prose for rationale and explanation.\n\n## Resolution Loop\n\n1. Render the current understanding as explicit condition-action statements.\n2. Identify the one unresolved ambiguity that most affects implementation or verification.\n3. Ask one focused question.\n4. Record the answer as a requirement clause.\n5. Repeat until each material clause has one testable interpretation.\n",
+      "headings": [
+        [
+          1,
+          "Precise Technical English"
+        ],
+        [
+          5,
+          "Activation"
+        ],
+        [
+          9,
+          "Resolution Loop"
+        ],
+        [
+          17,
+          "Required Form"
+        ],
+        [
+          28,
+          "Output"
+        ]
+      ]
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "opening": "# Project Planning and Records\n\nUse when establishing VP record conformance, planning a conformant project,\nor working inside one that has already adopted the\n[standard](../standards/project-records.md). Templates are\n[here](../templates/project-records/README.md). This playbook implements the\nstandard; it does not grant authority to migrate, delete, publish or release.\n\n## 1. Identify the Contract\n\nRead the project's chosen record-root README, PROJECT, PLAN, STATE, ledger\nand coverage inventory. Establish scope, root goal, delegated authority,\nsource identity, active stage, open operations and last audit. Check actual\ndates, triggers and records; a stale current view is not sufficient.\n\nFor new adoption, create the six project views and root decision. For an",
+      "headings": [
+        [
+          1,
+          "Project Planning and Records"
+        ],
+        [
+          9,
+          "1. Identify the Contract"
+        ],
+        [
+          22,
+          "2. Generalise the Need before Choosing a Response"
+        ],
+        [
+          38,
+          "3. Baseline and Plan a Stage"
+        ],
+        [
+          49,
+          "4. Record Claims and Protocols before Acting"
+        ],
+        [
+          61,
+          "5. Modify, Build and Execute with Identity"
+        ],
+        [
+          77,
+          "6. Preserve, Interpret and Decide"
+        ],
+        [
+          93,
+          "7. Revalidate or Contain"
+        ],
+        [
+          104,
+          "8. Close the Stage and Handoff"
+        ],
+        [
+          119,
+          "9. Dispose Only with a Trace"
+        ]
+      ]
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "opening": "# Project Audit and Record Remediation\n\nUse with [standard \u00a711](../standards/project-records.md) when an independent\nAI assesses VP records and returns gaps to the working AI. This is a record\naudit. Technical execution belongs to the working AI or a separately\ncommissioned technical reviewer.\n\n**Audit kind:** `project`; \u201cindependent record audit\u201d is an alias. Select it\nthrough [Audit Routing](audit-routing.md). For an ambiguous \u201cPlease audit X\u201d,\nask which kind is intended and wait before starting. Do not substitute Code\nAudit or combine it with this assessor role.\n\n## 1. Coordinator: Commission a Bounded Audit\n\nRead the charter's owner identity/mandate, role, custody, gate and budget\npolicy. Ownership may be human or AI. Reserve A under an",
+      "headings": [
+        [
+          1,
+          "Project Audit and Record Remediation"
+        ],
+        [
+          13,
+          "1. Coordinator: Commission a Bounded Audit"
+        ],
+        [
+          30,
+          "2. Auditor: Establish Inputs and Independence"
+        ],
+        [
+          41,
+          "3. Auditor: Examine Records without Solving the Project"
+        ],
+        [
+          61,
+          "4. Auditor: Report and End"
+        ],
+        [
+          78,
+          "5. Worker: Respond with Records"
+        ],
+        [
+          99,
+          "6. Coordinator and Auditor: Re-Audit Closure"
+        ]
+      ]
+    },
+    {
+      "path": "playbooks/recovery.md",
+      "opening": "# Project Recovery\n\nRecovery restructures a project after discovery while preserving valuable outcomes. It is the action phase; use a verified discovery report whenever one exists.\n\n## 1. Load the Evidence\n\nRead the discovery report. Confirm with the user whether anything has changed and whether any verdict has been reconsidered. If no report exists, explain the risk and perform discovery first unless the user explicitly chooses a narrower recovery based on current evidence.\n\n## 2. Plan Reversible Steps\n\nFor each step record:\n\n| Field | Requirement |\n|-------|-------------|\n| Action | One precise filesystem or documentation change |\n| Reason | Link to the discovery finding it serves |",
+      "headings": [
+        [
+          1,
+          "Project Recovery"
+        ],
+        [
+          5,
+          "1. Load the Evidence"
+        ],
+        [
+          9,
+          "2. Plan Reversible Steps"
+        ],
+        [
+          24,
+          "3. Execute Incrementally"
+        ],
+        [
+          36,
+          "4. Establish Durable Structure"
+        ],
+        [
+          53,
+          "5. Verify Completion"
+        ]
+      ]
+    },
+    {
+      "path": "playbooks/review.md",
+      "opening": "# Reasoning Review\n\nUse this playbook to review reasoning quality, goal alignment, and falsification discipline for the current project or work session. The output must be concise enough to read in two minutes. This review is not a Project Audit or Code Audit; route audit requests through [Audit Routing](audit-routing.md).\n\n## Inputs\n\nRead:\n\n- the available conversation or task history;\n- current project instructions;\n- active plans and progress records;\n- version-control status and the relevant diff;\n- all concept documents in `concepts/` if they are not already fresh in context.\n\nIf an `INVESTIGATION-STATUS.md` file exists at the project root, review the investigation with the criteria in [Investigation](investigation.md). Do not substitute a general project review. If a discovery report has just been produced, apply [Discovery Verification](discovery-verification.md) first.\n",
+      "headings": [
+        [
+          1,
+          "Reasoning Review"
+        ],
+        [
+          5,
+          "Inputs"
+        ],
+        [
+          17,
+          "Review Dimensions"
+        ],
+        [
+          30,
+          "Output"
+        ],
+        [
+          48,
+          "Rules"
+        ]
+      ]
+    },
+    {
+      "path": "standards/project-records.md",
+      "opening": "# VP Project Planning and Records Standard\n\n**Version:** 1.0, proposed 19 October 2026.\n\nThis is the normative standard for a project declaring conformance to VP\nproject planning and records. \u201cMust\u201d is required for conformance; \u201cshould\u201d\nallows a documented reason for another approach; \u201cmay\u201d is optional.\nOrdinary use of VP does not itself declare this conformance.\n\nIn this standard, **Project Audit** (kind `project`) means independent\nassessment of project records, choices and justification. \u201cRecord audit\u201d is\nan alias. **Code Audit** (kind `code`) assesses implementation engineering\nquality under its separate playbook. Every audit request/report must identify\nits kind. For an ambiguous request such as \u201cPlease audit X\u201d, the AI must ask\nwhat sort of audit is intended and wait for the answer before starting.\nIt must not infer the kind, apply a default or silently perform both.",
+      "headings": [
+        [
+          1,
+          "VP Project Planning and Records Standard"
+        ],
+        [
+          31,
+          "1. Scope and Limits"
+        ],
+        [
+          47,
+          "2. Project Directory Contract"
+        ],
+        [
+          106,
+          "3. Record Identity and Common Fields"
+        ],
+        [
+          138,
+          "4. Planning and Authority"
+        ],
+        [
+          190,
+          "5. Choices and Relied-On Ideas"
+        ],
+        [
+          192,
+          "Decisions (`D`)"
+        ],
+        [
+          219,
+          "Hypotheses (`H`)"
+        ],
+        [
+          232,
+          "6. Experiments, Builds and Runs"
+        ],
+        [
+          234,
+          "Experiment protocols (`E`)"
+        ],
+        [
+          247,
+          "Build attempts (`B`)"
+        ],
+        [
+          279,
+          "Evidence executions (`R`)"
+        ],
+        [
+          306,
+          "7. Time Horizons and Reverification"
+        ],
+        [
+          369,
+          "8. Code and Artefact Traceability"
+        ],
+        [
+          414,
+          "9. Retention, Disposition and Recovery"
+        ],
+        [
+          452,
+          "10. Actions at Every Boundary"
+        ],
+        [
+          473,
+          "11. Project Audit and Conformance Verdict"
+        ],
+        [
+          501,
+          "11.1 Independent Roles and Write Boundaries"
+        ],
+        [
+          540,
+          "11.2 Audit Request, Frozen Packet and Evidence Strength"
+        ],
+        [
+          574,
+          "11.3 Finding, Worker Response and Closure Contract"
+        ],
+        [
+          617,
+          "11.4 Checkpoints, Budgets and Authority"
+        ],
+        [
+          642,
+          "12. Adopting the Standard in an Existing Project"
+        ],
+        [
+          662,
+          "13. Design Sources"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/README.md",
+      "opening": "# Project Record Templates\n\nThese documents instantiate the planning, control, traceability and assurance layer of [VP's full project quality management system](../../docs/how-vp-works.md). They record actual project authority, work and evidence; template examples themselves are not operational history.\n\nUse with the [standard](../../standards/project-records.md) and\n[playbook](../../playbooks/project-records.md). Copy project-view templates\ninto the chosen root, normally `vp/`. Copy operation templates to\n`records/<type-directory>/<ID>/record.md`. Replace every angle-bracket\nplaceholder; leave no blank required fields. Use `not applicable \u2014 reason`\nwhen a field genuinely does not apply. Placeholders are not valid records.\n\nReserve an ID in the ledger before acting. Fill pre-action sections first.\nAppend dated amendments to open records; never overwrite pre-action criteria.\nSeal terminal outcomes and use new events for subsequent corrections.\nValidity is derived from evidence, deadlines, dependencies and later events;\na completed record alone does not make a claim current.",
+      "headings": [
+        [
+          1,
+          "Project Record Templates"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "opening": "# Independent Record Audit Request: <A-ID>\n\n**Audit ID:** <reserved A-ID>\n**Audit kind:** project\n**Issued/frozen:** <UTC timestamp>\n**Commissioning decision:** <D link and delegated authority>\n**Working AI:** <identity/session; records produced or repaired>\n**Owner:** <human/AI identity, mandate and decisions included in scope>\n**Auditor:** <different identity/session; fresh context and independence limits>\n**Standard:** <version and preserved location>\n**Scope:** <repositories, units, records, exclusions and selected semantic traces>\n**Source/record snapshots:** <immutable identities and freeze time>\n**Validity reference time:** <UTC time used to assess deadlines>\n**Input packet:** <artefacts/A-ID/input/MANIFEST.md and immutable locators>\n**Previous findings/responses:** <A/F and V links or first audit>\n**Required checks:** <standard \u00a711; explicitly bounded selection>",
+      "headings": [
+        [
+          1,
+          "Independent Record Audit Request: <A-ID>"
+        ],
+        [
+          21,
+          "Auditor Role Instructions"
+        ],
+        [
+          42,
+          "Evidence Custody and Access Limits"
+        ],
+        [
+          49,
+          "Return Contract"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/audit-response.md",
+      "opening": "# <V-ID>: Response to <A-ID/F-ID>\n\n**ID:** <V-ID>\n**Type:** event \u2014 audit-response\n**Audit kind:** project\n**Created:** <UTC timestamp>\n**Author/operator:** <working AI identity/session>\n**Status:** <open; ready for re-audit; disputed; unavailable; terminal response>\n**Origin:** <audit finding and authorised response decision>\n**Goal served:** <root decision link>\n**Sealed:** <UTC timestamp when response complete>\n\n## Finding and Closure Requirement\n\n<Exact A-ID/F-ID, preserved report, evidence requirement; do not rewrite it.>\n",
+      "headings": [
+        [
+          1,
+          "<V-ID>: Response to <A-ID/F-ID>"
+        ],
+        [
+          13,
+          "Finding and Closure Requirement"
+        ],
+        [
+          17,
+          "Response and Authority"
+        ],
+        [
+          31,
+          "Outstanding Gaps"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "opening": "# <ID>: <Title>\n\n**ID:** <type-sequence>\n**Type:** <type>\n**Created:** <YYYY-MM-DD HH:MM:SS UTC>\n**Author/operator:** <identity>\n**Status:** <open or terminal outcome>\n**Origin:** <links to prior commissioning decision/stage/change>\n**Goal served:** <root decision link and outcome>\n**Sealed:** <UTC timestamp when terminal; open until then>\n\n## Scope and Method before Audit\n\n**Audit kind:** project\n**Standard:** <version and preserved location>\n**Snapshot/time:** <exact inventory boundary and UTC audit time>",
+      "headings": [
+        [
+          1,
+          "<ID>: <Title>"
+        ],
+        [
+          12,
+          "Scope and Method before Audit"
+        ],
+        [
+          30,
+          "Findings"
+        ],
+        [
+          36,
+          "<A-ID/F-001>: <Specific Gap>"
+        ],
+        [
+          48,
+          "Follow-Up Review"
+        ],
+        [
+          54,
+          "Verdict and Next Action"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/build.md",
+      "opening": "# <ID>: <Title>\n\n**ID:** <type-sequence>\n**Type:** <type>\n**Created:** <YYYY-MM-DD HH:MM:SS UTC>\n**Author/operator:** <identity>\n**Status:** <open or terminal outcome>\n**Origin:** <links to prior commissioning decision/stage/change>\n**Goal served:** <root decision link and outcome>\n**Sealed:** <UTC timestamp when terminal; open until then>\n\n## Inputs before Invocation\n\n**Classification:** <fresh/incremental/imported; reused inputs>\n**Predecessor build:** <B link or why none>\n**Source:** <exact snapshots for every repo/submodule; clean status or retained",
+      "headings": [
+        [
+          1,
+          "<ID>: <Title>"
+        ],
+        [
+          12,
+          "Inputs before Invocation"
+        ],
+        [
+          24,
+          "Actual Outcome"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/change.md",
+      "opening": "# <ID>: <Title>\n\n**ID:** <type-sequence>\n**Type:** <type>\n**Created:** <YYYY-MM-DD HH:MM:SS UTC>\n**Author/operator:** <identity>\n**Status:** <open or terminal outcome>\n**Origin:** <links to prior commissioning decision/stage/change>\n**Goal served:** <root decision link and outcome>\n**Sealed:** <UTC timestamp when terminal; open until then>\n\n## Before Modification\n\n**Authorising choice:** <D link>\n**Baseline identity:** <preserved source snapshot>\n**Intended change and falsifier:** <observable behaviour/contract>",
+      "headings": [
+        [
+          1,
+          "<ID>: <Title>"
+        ],
+        [
+          12,
+          "Before Modification"
+        ],
+        [
+          21,
+          "Outcome and Adoption"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/coverage.md",
+      "opening": "# Maintained Artefact Coverage\n\n**As of:** <UTC time>\n**Snapshot:** <repository/source identity and preserved locator>\n**Scope and completeness method:** <enumeration/component inventories>\n**Preserved inventories:** <C/A links for earlier accepted snapshots>\n\n| Repository/path/unit | Content identity | Introducing/retaining change | Adopting decision | Claims/evidence | Validity/events | Gap or boundary |\n|----------------------|------------------|-----------------------------|-------------------|-----------------|-----------------|-----------------|\n| <path and symbol/section/stable region> | <snapshot/digest> | <C link> | <D link> | <H/R links> | <status, dates, V links> | <explicit unknown/exclusion> |\n\n## Moves, Deleted Units and Third-Party Boundaries\n\n<Old/new unit mappings; removal decisions; immutable external versions and\nboundary decisions. Use finer rows if a file contains different rationales.\nInclude tests, generated recipes, configuration and contract documents.>",
+      "headings": [
+        [
+          1,
+          "Maintained Artefact Coverage"
+        ],
+        [
+          12,
+          "Moves, Deleted Units and Third-Party Boundaries"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/decision.md",
+      "opening": "# <ID>: <Title>\n\n**ID:** <type-sequence>\n**Type:** <type>\n**Created:** <YYYY-MM-DD HH:MM:SS UTC>\n**Author/operator:** <identity>\n**Status:** <open or terminal outcome>\n**Origin:** <links to prior commissioning decision/stage/change>\n**Goal served:** <root decision link and outcome>\n**Sealed:** <UTC timestamp when terminal; open until then>\n\n## Before the Choice\n\n**Question:** <choice to make>\n**Inspiration/observations:** <source, date, exact excerpt/result, evidence links>\n**General problem:** <what broader failure or need the observation illustrates>",
+      "headings": [
+        [
+          1,
+          "<ID>: <Title>"
+        ],
+        [
+          12,
+          "Before the Choice"
+        ],
+        [
+          23,
+          "Choice and Consequences"
+        ],
+        [
+          35,
+          "Dated Amendments and Final Limitations"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/event.md",
+      "opening": "# <ID>: <Title>\n\n**ID:** <type-sequence>\n**Type:** <type>\n**Created:** <YYYY-MM-DD HH:MM:SS UTC>\n**Author/operator:** <identity>\n**Status:** <open or terminal outcome>\n**Origin:** <links to prior commissioning decision/stage/change>\n**Goal served:** <root decision link and outcome>\n**Sealed:** <UTC timestamp when terminal; open until then>\n\n## Trigger and Affected History\n\n**Kind:** <correction/expiry/invalidation/supersession/disposition/exception>\n**Occurred/observed at:** <UTC time; distinguish the two if needed>\n**Trigger evidence:** <observation and retained sources>",
+      "headings": [
+        [
+          1,
+          "<ID>: <Title>"
+        ],
+        [
+          12,
+          "Trigger and Affected History"
+        ],
+        [
+          21,
+          "Impact and Action"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/experiment.md",
+      "opening": "# <ID>: <Title>\n\n**ID:** <type-sequence>\n**Type:** <type>\n**Created:** <YYYY-MM-DD HH:MM:SS UTC>\n**Author/operator:** <identity>\n**Status:** <open or terminal outcome>\n**Origin:** <links to prior commissioning decision/stage/change>\n**Goal served:** <root decision link and outcome>\n**Sealed:** <UTC timestamp when terminal; open until then>\n\n## Pre-Execution Protocol\n\n**Hypothesis and decision informed:** <H and commissioning D>\n**Input identities:** <source/build/dataset/harness/contract dependencies>\n**Procedure:** <commands or reproducible manual steps and working directory>",
+      "headings": [
+        [
+          1,
+          "<ID>: <Title>"
+        ],
+        [
+          12,
+          "Pre-Execution Protocol"
+        ],
+        [
+          26,
+          "Executions and Synthesis"
+        ],
+        [
+          31,
+          "Amendments"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/hypothesis.md",
+      "opening": "# <ID>: <Title>\n\n**ID:** <type-sequence>\n**Type:** <type>\n**Created:** <YYYY-MM-DD HH:MM:SS UTC>\n**Author/operator:** <identity>\n**Status:** <open or terminal outcome>\n**Origin:** <links to prior commissioning decision/stage/change>\n**Goal served:** <root decision link and outcome>\n**Sealed:** <UTC timestamp when terminal; open until then>\n\n## Claim before Reliance\n\n**Claim and prediction:** <empirical, measurable statement>\n**Scope and input identities:** <conditions under which it is claimed>\n**Assumptions/dependencies:** <H and input links; known unknowns>",
+      "headings": [
+        [
+          1,
+          "<ID>: <Title>"
+        ],
+        [
+          12,
+          "Claim before Reliance"
+        ],
+        [
+          24,
+          "Evidence and Outcome"
+        ],
+        [
+          30,
+          "Amendments and Next Action"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/ledger.md",
+      "opening": "# Record Ledger\n\n**As of:** <UTC time>\n**Project namespace:** <name>\n**ID reservations:** <writer/ranges if concurrent>\n\n| ID/link | Type/title | Created UTC | Current state | Origins | Supporting dependencies | Successors/events |\n|---------|------------|-------------|---------------|---------|-------------------------|-------------------|\n| <record link> | <type/title> | <time> | <status and validity> | <prior links> | <relied-on links> | <incoming changes/decisions/events> |\n\nKeep every allocated ID, including rejected/abandoned work. Incoming\nsupporting links permit impact tracing. A current status must cite its\nrecord/event; the ledger must not invent an outcome absent from records.\n",
+      "headings": [
+        [
+          1,
+          "Record Ledger"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/manifest.md",
+      "opening": "# Artefact Manifest: <Owner ID>\n\n**Owner record:** <link>\n**Created/sealed:** <UTC times>\n**Producer and input records:** <B/R/C and snapshot links>\n**Retention policy:** <charter section; project/post-retirement duration>\n\n| Relative path | Meaning/producer | Byte identity | Retention class | Earliest disposal | Redaction/loss |\n|---------------|------------------|---------------|-----------------|-------------------|----------------|\n| <file> | <what it represents, inputs> | <digest and algorithm> | <record/raw/derived/rebuildable> | <date or dependency condition> | <explicit limits> |\n\n## Recovery and Consumers\n\n<Independent copy/bundle locator and recovery verification; consumers that\nprevent disposal. Later moves/deletions are linked V events in the ledger;\ndo not rewrite a sealed manifest to hide the original locator.>",
+      "headings": [
+        [
+          1,
+          "Artefact Manifest: <Owner ID>"
+        ],
+        [
+          12,
+          "Recovery and Consumers"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/plan.md",
+      "opening": "# Current Project Plan\n\n**As of:** <UTC time>\n**Authorising decision:** <D link>\n**Preserved baseline:** <immutable prior plan or first-baseline declaration>\n\n| Stage | Dependencies/entry | Deliverable and falsifier | Budget/tolerance | Exit gate/decision | Status |\n|-------|--------------------|--------------------------|------------------|--------------------|--------|\n| <S link> | <prior stages, current claims> | <observable acceptance and harm> | <limits> | <evidence and D> | <state> |\n\n## Next Steps and Decisions\n\n<Independently checkable steps; uncertainties and decisions they could change.>\n\n## Exception and Stop Conditions\n",
+      "headings": [
+        [
+          1,
+          "Current Project Plan"
+        ],
+        [
+          11,
+          "Next Steps and Decisions"
+        ],
+        [
+          15,
+          "Exception and Stop Conditions"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "opening": "# Project Charter: <Name>\n\n**Owner:** <identity and human/AI actor type>\n**As of:** <UTC time>\n**Root decision:** <D link>\n**Standard version/location:** <preserved reference>\n**Conformance start and scope:** <time and exact boundary>\n**Legacy gaps:** <inventory and resolution actions>\n\n## Terminal Goal and Measurable Outcomes\n\n<Desired user outcome; acceptance, harm and stop criteria.>\n\n## Scope, Exclusions and Constraints\n\n<Repositories/components; explicit third-party boundaries and risks;",
+      "headings": [
+        [
+          1,
+          "Project Charter: <Name>"
+        ],
+        [
+          10,
+          "Terminal Goal and Measurable Outcomes"
+        ],
+        [
+          14,
+          "Scope, Exclusions and Constraints"
+        ],
+        [
+          19,
+          "Authority"
+        ],
+        [
+          29,
+          "Independent Project Audit Contract"
+        ],
+        [
+          37,
+          "Risks and Continuing Value"
+        ],
+        [
+          41,
+          "Snapshot and Record Policy"
+        ],
+        [
+          46,
+          "Validity Policy"
+        ],
+        [
+          52,
+          "Retention and Recovery Policy"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/root.md",
+      "opening": "# <Project> VP Records\n\n**Standard:** <version and preserved standard location>\n**Project namespace:** <unique name>\n**Conformance start:** <time; exact scope; legacy gaps>\n\nStart with `PROJECT.md`, `PLAN.md`, `STATE.md`, `LEDGER.md` and `COVERAGE.md`.\nAdd relative navigation links after copying these files into the record root.\n\n## Follow a Code Trace\n\nSelect the source snapshot and unit in COVERAGE.md. Follow its change and\nadopting decision, then evidence runs, protocols, claims and build inputs.\nFollow origin decisions to the root. Inspect deadlines, dependencies and\nlifecycle events before treating any justification as current.\n",
+      "headings": [
+        [
+          1,
+          "<Project> VP Records"
+        ],
+        [
+          10,
+          "Follow a Code Trace"
+        ],
+        [
+          17,
+          "Record Types and Layout"
+        ],
+        [
+          24,
+          "Authority and Known Gaps"
+        ],
+        [
+          28,
+          "Independent Audit Handoff"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/run.md",
+      "opening": "# <ID>: <Title>\n\n**ID:** <type-sequence>\n**Type:** <type>\n**Created:** <YYYY-MM-DD HH:MM:SS UTC>\n**Author/operator:** <identity>\n**Status:** <open or terminal outcome>\n**Origin:** <links to prior commissioning decision/stage/change>\n**Goal served:** <root decision link and outcome>\n**Sealed:** <UTC timestamp when terminal; open until then>\n\n## Inputs before Execution\n\n**Protocol/hypothesis:** <E/H links>\n**Build/executable:** <B links and digest checked at execution; no build with reason\nfor manual/source-only checks>",
+      "headings": [
+        [
+          1,
+          "<ID>: <Title>"
+        ],
+        [
+          12,
+          "Inputs before Execution"
+        ],
+        [
+          23,
+          "Outcome"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/stage.md",
+      "opening": "# <ID>: <Title>\n\n**ID:** <type-sequence>\n**Type:** <type>\n**Created:** <YYYY-MM-DD HH:MM:SS UTC>\n**Author/operator:** <identity>\n**Status:** <open or terminal outcome>\n**Origin:** <links to prior commissioning decision/stage/change>\n**Goal served:** <root decision link and outcome>\n**Sealed:** <UTC timestamp when terminal; open until then>\n\n## Entry and Baseline\n\n<Authorising D, dependencies, source/plan baseline, valid claims and authority.>\n\n## Deliverables and Steps",
+      "headings": [
+        [
+          1,
+          "<ID>: <Title>"
+        ],
+        [
+          12,
+          "Entry and Baseline"
+        ],
+        [
+          16,
+          "Deliverables and Steps"
+        ],
+        [
+          22,
+          "Tolerances and Control"
+        ],
+        [
+          27,
+          "Exit Evidence and Continuing Value"
+        ],
+        [
+          35,
+          "Amendments"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/state.md",
+      "opening": "# Current Project State\n\n**As of:** <UTC time>\n**Source/snapshot:** <exact identity and locator>\n**Active stage/authority:** <S/D links>\n**Most recent audit:** <A link and scoped verdict>\n\n## Current Reliance\n\n| Decision/claim/accepted outcome | Scope/input identity | Evidence | Owner | Review by UTC | Triggers/dependencies | Effective validity/events |\n|--------------------------------|----------------------|----------|-------|---------------|-----------------------|---------------------------|\n| <D/H/R link> | <tested boundary> | <R links> | <name> | <finite date> | <links and events> | <current/due/invalid/unknown/superseded> |\n\n## Failures, Unknowns, Exceptions and Blockers\n\n<Equal prominence for negative and incomplete outcomes; dependent work",
+      "headings": [
+        [
+          1,
+          "Current Project State"
+        ],
+        [
+          8,
+          "Current Reliance"
+        ],
+        [
+          14,
+          "Failures, Unknowns, Exceptions and Blockers"
+        ],
+        [
+          19,
+          "Audit Findings and Gates"
+        ],
+        [
+          29,
+          "Open Operations and Handoff"
+        ]
+      ]
+    },
+    {
+      "path": "templates/project-records/workspace.md",
+      "opening": "# Workspace Ownership\n\nWorking files are disposable. Relied-on inputs/results must be preserved\nunder the owning record's artefact directory before completion or cleanup.\n\n| Location (relative or external physical path) | Owner ID | Operation/last phase | Resume/abort | Retained evidence | Disposition |\n|---------------------------------------------|----------|----------------------|--------------|-------------------|-------------|\n| <path> | <ID link> | <process and state> | <safe procedure> | <manifest link> | <V link when removed> |\n\nUnknown ownership needs discovery before cleanup. Partial outputs do not\nestablish completed work.\n",
+      "headings": [
+        [
+          1,
+          "Workspace Ownership"
+        ]
+      ]
+    }
+  ],
+  "limits": "All public openings/headings; supplementary to manual semantic assessment"
+}

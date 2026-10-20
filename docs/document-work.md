@@ -1,5 +1,7 @@
 # Document Work
 
+Document analysis, planning and description provide content-quality control within [VP's full project quality management method](how-vp-works.md). Record document requirements, sources, changes and evidence under the project's authority and acceptance gates.
+
 VP treats documents as instruments: they should change a reader's understanding, decision, or action. Three related modes address different failures.
 
 | Mode | Question | Use it when |

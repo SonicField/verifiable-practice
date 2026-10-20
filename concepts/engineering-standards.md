@@ -1,5 +1,7 @@
 # Engineering Standards: A Verification-First Approach
 
+Engineering standards provide product-quality criteria within [VP's project quality management system](../docs/how-vp-works.md). Authorised changes, verification records and acceptance gates connect implementation checks to the project goal.
+
 > This document is the canonical engineering standards reference for Verifiable Practice.
 
 ## Philosophy and Principles

@@ -497,3 +497,7 @@ in the workspace and 406 relative destinations; routing, explicit project
 kind fields, skill frontmatter and tracked diff whitespace checks passed.
 T-29 through T-31 specify ambiguous-request waiting, separate dual audits
 and verdict classification. These behavioural trials were not executed.
+
+## Later public-method explanation
+
+The [full method overview](how-vp-works.md) connects these planning/record design choices to VP's governance, quality control, independent assurance and maintenance lifecycle. D-000012/013 and the current operational records preserve the 20 October content audit and communication changes. This current note does not reconstruct the original authorship, tests or authority of the historical design entries above.

@@ -1,5 +1,7 @@
 # Goals
 
+Goals establish continuing value and owner authority in [VP's project quality management system](../docs/how-vp-works.md). The charter, stages and acceptance decisions keep technical work connected to the originating mandate.
+
 Everything else exists because of this.
 
 The pillars - falsifiability, rhetoric, verification, all of it - are means. Goals are the end. Without clarity on what we are trying to achieve, rigorous method is just expensive wandering.
@@ -22,7 +24,9 @@ Both must be written down. Strategy without tactics is fantasy. Tactics without 
 
 ## The Pathos Question
 
-Every project has a human at its root who wants something. Understanding what they want - not what they said, not what they wrote in the specification, but what they actually want - is the foundation of useful work.
+A project serves an explicitly sourced need and mandate. In human–AI collaboration, understand the human or organisation's intended outcome and why it matters. An AI owner may coordinate under delegated authority; that does not create a new terminal goal.
+
+Use the explicit user instruction and recorded mandate as authority. Ask about unmet needs or ambiguous intent rather than silently replacing the specification with an inferred desire. Preserve clarified requirements and their sources in the root/charter and successor decisions.
 
 This is Pathos: the emotional reality that logical requirements attempt to satisfy.
 
@@ -50,7 +54,7 @@ The antidote is periodic re-grounding: stop, state the terminal goal, check alig
 
 1. What is the terminal goal? Can I state it in one sentence?
 2. What instrumental goals am I currently pursuing? Do they serve the terminal goal?
-3. Why does the human want this? Have I asked?
+3. Why does the owner or originating stakeholder want this? Is the mandate explicit, and have I clarified uncertainty?
 4. When did I last check alignment with the terminal goal?
 5. Am I fixing something that matters, or something that is merely in front of me?
 

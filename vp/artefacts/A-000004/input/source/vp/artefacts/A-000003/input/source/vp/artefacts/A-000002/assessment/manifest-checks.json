@@ -1,0 +1,37 @@
+[
+  {
+    "manifest": "artefacts/C-000001/MANIFEST.md",
+    "rows": 163,
+    "errors": []
+  },
+  {
+    "manifest": "artefacts/D-000001/MANIFEST.md",
+    "rows": 1,
+    "errors": []
+  },
+  {
+    "manifest": "artefacts/D-000004/MANIFEST.md",
+    "rows": 3,
+    "errors": []
+  },
+  {
+    "manifest": "artefacts/R-000001/MANIFEST.md",
+    "rows": 99,
+    "errors": []
+  },
+  {
+    "manifest": "artefacts/R-000002/MANIFEST.md",
+    "rows": 25,
+    "errors": []
+  },
+  {
+    "manifest": "artefacts/R-000003/MANIFEST.md",
+    "rows": 5,
+    "errors": []
+  },
+  {
+    "manifest": "artefacts/S-000001/MANIFEST.md",
+    "rows": 1,
+    "errors": []
+  }
+]

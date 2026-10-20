@@ -1,0 +1,12 @@
+{
+  "inventory": "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/unit-inventory.json",
+  "coverage_input": "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/coverage-wrong-digest.md",
+  "source": "/home/alexturner/verifiable-practice/vp/artefacts/C-000004/after/source",
+  "expected_units": 500,
+  "missing": [],
+  "wrong_digests": [
+    "templates/project-records/workspace.md:1 \u2014 Workspace Ownership"
+  ],
+  "duplicates": [],
+  "source_errors": []
+}

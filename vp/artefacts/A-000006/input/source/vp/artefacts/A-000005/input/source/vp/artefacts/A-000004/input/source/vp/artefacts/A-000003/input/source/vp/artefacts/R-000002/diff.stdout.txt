@@ -1,0 +1,495 @@
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 768f88c..1019e0d 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -8,6 +8,36 @@ ## Unreleased
+ 
+ ### Added
+ 
++- Prospective adoption of VP records in this repository: current mandate,
++  charter, stage, choices, coverage, preserved failures and independent audit.
++  Missing pre-adoption history remains explicitly unknown.
++
++### Fixed
++
++- Non-disappearing caller validation in the Python transfer illustration,
++  accurate email-example outcomes, selective-loading guidance, AI-owner
++  applicability and candidate syntax evidence in the document trace.
++
++- Explicit Project Audit and Code Audit kinds, mandatory clarification and
++  waiting for ambiguous audit requests, separate reports/verdicts and routing
++  scenarios; code reports have a distinct default filename.
++
++- Actor-neutral ownership: human or AI owners with explicit mandates,
++  decision limits and handoff; working-AI record keeping and independent
++  assessment also cover AI-owner decisions.
++
++- Independent record auditor/working AI role contract, frozen audit packets,
++  finding IDs, worker response events and fresh closure audits; request and
++  response templates, role boundaries and adversarial scenarios derived from
++  Medic/Pythia while retaining portable Markdown directory handoff.
++
++- Proposed Markdown-only project planning and records standard: stable IDs,
++  stages, decisions, hypotheses, build/run provenance, snapshot coverage,
++  finite validity, revalidation, retention and audit requirements.
++- Copyable project/operation templates, an execution playbook, design-choice
++  provenance, worked traces and adversarial evaluation scenarios informed by
++  parallel GC and Honest and generalised for different project types.
++
+ - Community health files and GitHub contribution templates.
+ - Vendor-neutral root skill with progressive reference routing.
+ - Core concepts for goals, falsifiability, rhetoric, honest reporting, verification, human–AI responsibilities, precise technical language, and engineering standards.
+diff --git a/README.md b/README.md
+index 91ee37e..aa133ff 100644
+--- a/README.md
++++ b/README.md
+@@ -6,6 +6,12 @@ # Verifiable Practice
+ 
+ The repository itself is a reusable AI skill. [SKILL.md](SKILL.md) contains the operating rules and routes an assistant to the relevant concepts and playbooks without loading the entire framework into context.
+ 
++This repository has adopted prospective record keeping under the
++[current project charter](vp/PROJECT.md). Its [operational records](vp/README.md)
++preserve current choices, evidence, coverage and open audit findings.
++Pre-adoption history remains explicitly incomplete; see the current
++[state and scoped audit verdict](vp/STATE.md) before assuming conformance.
++
+ ## Start Here
+ 
+ Read the concepts in this order:
+@@ -23,6 +29,37 @@ ## Start Here
+ 
+ > Establish what matters. Define what would prove you wrong. Try to prove yourself wrong. Build in testable steps. Report what happened, not what sounds reassuring.
+ 
++## Project Planning and Records
++
++For projects that need an auditable history across sessions, the proposed
++[Project Planning and Records Standard](standards/project-records.md) defines
++Markdown documents, directory structure and actions for choices, builds,
++experiments, changes, expiry and disposal. Its coverage inventory links
++maintained code to the evidence and root goal that justify it.
++
++Start with the [guide](docs/project-records.md), then the
++[templates](templates/project-records/README.md) and
++[execution playbook](playbooks/project-records.md). The
++[design register](docs/project-records-design.md) records the observations,
++generalisation and alternatives behind each material choice. Conformance is
++declared for a scope and snapshot; it is not a claim of software correctness.
++
++An [independent record auditor](docs/independent-record-audit.md) checks a frozen
++packet, reports gaps and specifies evidence needed for closure. The working
++AI repairs records and produces authorised technical evidence; a fresh
++independent re-audit closes findings. The auditor remains outside technical
++problem solving. This role split uses Markdown requests, reports and responses.
++
++## Choose the Audit Kind
++
++- **Project Audit:** records, decisions, evidence provenance, validity and
++  why code exists. “Independent record audit” is an alias.
++- **Code Audit:** implementation correctness and engineering quality.
++
++For an ambiguous request such as “Please audit X”, the AI **must ask which
++sort of audit is intended and wait before starting**. It must not guess or
++silently perform both. See [Audit Routing](playbooks/audit-routing.md).
++
+ ## Playbooks
+ 
+ Playbooks turn the concepts into repeatable work:
+@@ -36,6 +73,9 @@ ## Playbooks
+ | [Discovery](playbooks/discovery.md) | A project has scattered artefacts and unclear history |
+ | [Discovery Verification](playbooks/discovery-verification.md) | A discovery report must survive loss of conversation context |
+ | [Recovery](playbooks/recovery.md) | Valuable work must be reorganised without losing it |
++| [Project Planning and Records](playbooks/project-records.md) | A project needs durable plans, traceable choices and evidence, or revalidation |
++| [Project Audit](playbooks/record-audit.md) | A separate assessor reports project-record gaps and independently checks worker responses |
++| [Audit Routing](playbooks/audit-routing.md) | An audit kind must be explicit; ambiguous requests require a question and answer |
+ | [Document Analysis](playbooks/document-analysis.md) | A document's stated purpose may differ from what it actually optimises |
+ | [Document Planning](playbooks/document-planning.md) | An important document needs a clear outcome and audience before drafting |
+ | [Document Description](playbooks/document-description.md) | You understand a system but need to explain it clearly |
+@@ -48,12 +88,17 @@ ## Documentation
+ | Document | Subject |
+ |----------|---------|
+ | [How VP Works](docs/how-vp-works.md) | Failure modes, architecture, verification loop, and limits |
+-| [Review and Audit](docs/review-and-audit.md) | Why reasoning review and code audit are separate |
++| [Review and Audit](docs/review-and-audit.md) | Project Audit, Code Audit and lighter reasoning review have separate scopes and verdicts |
+ | [Discovery and Recovery](docs/discovery-and-recovery.md) | The boundary between learning and controlled mutation |
+ | [Investigations](docs/investigations.md) | Hypotheses, isolation, evidence, and honest verdicts |
+ | [Document Work](docs/document-work.md) | Analysis, planning, description, and local precision |
+ | [Testing AI Behaviour](docs/testing-ai-behaviour.md) | Scenario isolation, oracles, adversarial cases, and stochastic results |
+ | [Skill Architecture](docs/skill-architecture.md) | Progressive disclosure, platform adapters, and maintenance |
++| [Project Records](docs/project-records.md) | Planning, decision history, custody and finite validity |
++| [Project Records Design](docs/project-records-design.md) | Observations, generalisation, alternatives and falsifiers behind the proposed standard |
++| [Worked Record Traces](docs/project-records-examples.md) | Compiled, interpreted and document work using the same record structure |
++| [Project Records Scenarios](docs/project-records-scenarios.md) | Adversarial cases, cold-reader trials and process cost evaluation |
++| [Independent Record Audit](docs/independent-record-audit.md) | Separate assessor/worker contexts, frozen packets, finding responses and closure |
+ 
+ ## Using VP with Any AI Tool
+ 
+@@ -67,13 +112,16 @@ ## Using VP with Any AI Tool
+ | Ask the user | Normal conversation or a structured question interface |
+ | Run checks | Shell, CI, test runner, or debugger integration |
+ | Parallel review | Sub-agents when available; bounded sequential batches otherwise |
+-| Record evidence | A repository file, issue, notebook, or other durable log |
++| Record evidence | A durable file; conformant project records use Markdown and directory bundles |
+ 
+ A platform adapter may add permissions or command metadata, but the canonical skill and playbooks should remain platform-neutral.
+ 
+ ## Scope Boundary
+ 
+-VP includes reasoning, verification, project archaeology, recovery, document work, and single-assistant development practice. It does not include coordination infrastructure for persistent multi-agent teams.
++VP includes reasoning, verification, project archaeology, recovery, document
++work and independent record assessment with worker remediation. The roles
++can use separate sessions and directory handoff. VP does not include
++coordination infrastructure for persistent multi-agent teams.
+ 
+ The framework's origin and extraction boundary are recorded in [ORIGIN.md](ORIGIN.md).
+ 
+diff --git a/SKILL.md b/SKILL.md
+index 30e8966..32e1e25 100644
+--- a/SKILL.md
++++ b/SKILL.md
+@@ -1,10 +1,15 @@
+ ---
+ name: verifiable-practice
+-description: Apply goal-aligned, falsification-first, evidence-led practice to software work. Use when the user asks for VP or Verifiable Practice, or requests a falsification-led review, code audit, investigation, project discovery or recovery, document analysis, or precise technical specification.
++description: Apply goal-aligned, falsification-first, evidence-led practice to software work. Use when the user asks for VP or Verifiable Practice, or requests a falsification-led review, project or code audit, investigation, project discovery or recovery, document analysis, or precise technical specification.
+ ---
+ 
+ # Verifiable Practice
+ 
++When working on this repository itself, read its [record root](vp/README.md)
++and [current state](vp/STATE.md). Its prospective charter governs tracking;
++legacy history is not certified and a conformance claim needs independent A.
++These repository-specific links do not enrol another project using this skill.
++
+ Treat every material claim as something that must be possible to check. Establish what the user is trying to achieve, identify what would show the current approach is wrong, seek that evidence, and report the observed result—including failures and uncertainty.
+ 
+ ## Working Rules
+@@ -21,6 +26,24 @@ ## Working Rules
+ 
+ Apply these rules proportionally. A small, low-risk change needs a small verification loop; it does not need ceremonial paperwork.
+ 
++When a project declares conformance to VP project planning and records, use
++its chosen record root and the [Project Records Standard](standards/project-records.md).
++Check current validity, retain every relevant attempt, and link maintained
++artefacts to decisions and evidence. Adoption is explicit; do not silently
++claim that an existing project conforms or migrate it without authority.
++
++For any audit request, first use [Audit Routing](playbooks/audit-routing.md).
++For an ambiguous request such as “Please audit X”, ask which kind is intended
++and wait for the answer. Do not infer a kind, use a charter default or start
++both. An explicit typed request needs no repeated clarification.
++
++When assigned a Project Audit (also called independent record audit), use a fresh context and the
++[Record Audit](playbooks/record-audit.md) playbook. Assess the designated
++packet and write only audit outputs. Return evidence requirements to the
++working AI; technical execution and record repair belong to that AI. A
++worker response requires independent re-audit for closure. The implementation
++loop below applies to working tasks, not this assessor role.
++
+ ## Route the Work
+ 
+ Read only the references needed for the current task:
+@@ -30,13 +53,16 @@ ## Route the Work
+ | Understand VP's purpose | [Why Verifiable Practice](WHY.md) |
+ | Clarify outcomes or detect drift | [Goals](concepts/goals.md), then [Review](playbooks/review.md) when a formal review is requested |
+ | Evaluate a claim or proposed approach | [Falsifiability](concepts/falsifiability.md) and [Bullshit Detection](concepts/bullshit-detection.md) |
+-| Implement or assess software | [Verification Cycle](concepts/verification-cycle.md) and [Engineering Standards](concepts/engineering-standards.md) |
++| Implement software | [Verification Cycle](concepts/verification-cycle.md) and [Engineering Standards](concepts/engineering-standards.md) |
+ | Clarify human and AI responsibilities | [Zero-Code Contract](concepts/zero-code-contract.md) |
+-| Audit a codebase | [Code Audit](playbooks/code-audit.md) |
++| Select the kind for an audit request | [Audit Routing](playbooks/audit-routing.md) |
++| Audit implementation defects or engineering quality (`code`) | [Code Audit](playbooks/code-audit.md) |
+ | Test an uncertain technical claim | [Investigation](playbooks/investigation.md) |
+ | Diagnose with a debugger | [Hypothesis-Driven Debugging](playbooks/debugging.md) |
+ | Understand a disordered project | [Project Discovery](playbooks/discovery.md), followed by [Discovery Verification](playbooks/discovery-verification.md) |
+ | Restructure discovered work | [Project Recovery](playbooks/recovery.md) |
++| Plan a project, keep conformant records, or revalidate expired justification | [Project Records Standard](standards/project-records.md), [Project Planning and Records](playbooks/project-records.md), and [Templates](templates/project-records/README.md) |
++| Audit project records and justification (`project`) or respond to findings | [Project Audit and Remediation](playbooks/record-audit.md), [Audit Request](templates/project-records/audit-request.md), [Audit Report](templates/project-records/audit.md), and [Worker Response](templates/project-records/audit-response.md) |
+ | Analyse a document's claims and incentives | [Document Analysis](playbooks/document-analysis.md) and [Rhetoric](concepts/rhetoric.md) |
+ | Plan or explain a document | [Document Planning](playbooks/document-planning.md) or [Document Description](playbooks/document-description.md) |
+ | Remove ambiguity from a contract | [Precise Technical English](concepts/pte.md) and its [playbook](playbooks/precise-technical-english.md) |
+@@ -56,6 +82,11 @@ ## Explanatory References
+ | Explain VP's document methods | [Document Work](docs/document-work.md) |
+ | Test a VP skill, prompt, or AI workflow | [Testing AI Behaviour](docs/testing-ai-behaviour.md) |
+ | Maintain or adapt this skill | [Skill Architecture](docs/skill-architecture.md) |
++| Explain project planning, record custody and validity | [Project Records](docs/project-records.md) |
++| Review the record standard's design choices and inspirations | [Project Records Design](docs/project-records-design.md) |
++| See code and document traces through records | [Worked Record Traces](docs/project-records-examples.md) |
++| Evaluate record behaviour across projects | [Project Records Scenarios](docs/project-records-scenarios.md) |
++| Explain independent auditor/worker roles and handoff | [Independent Record Audit](docs/independent-record-audit.md) |
+ 
+ These documents are explanatory. For execution, use the corresponding playbook above.
+ 
+diff --git a/WHY.md b/WHY.md
+index bb6e44c..c9b2388 100644
+--- a/WHY.md
++++ b/WHY.md
+@@ -41,8 +41,8 @@ ### What Would Prove This Wrong?
+ The function claims to validate email addresses. What would falsify that claim?
+ 
+ - `"@."` passes but is not valid
+-- `"user@localhost"` fails but is valid
+-- `"user@[192.168.1.1]"` fails but is valid
++- `"user@localhost"` fails; that is a false rejection if the contract permits local domains
++- `"user@[192.168.1.1]"` passes; acceptance alone does not establish correct address-literal validation
+ - `"user+tag@example.com"` passes (good) but you did not check
+ - `"user@example..com"` passes but is not valid
+ 
+@@ -50,13 +50,13 @@ ### What Would Prove This Wrong?
+ 
+ ### The VP Approach
+ 
+-1. **State the goal**: Validate email addresses according to RFC 5321, rejecting common attack vectors.
++1. **State the goal**: Specify which address forms the application accepts, including its policy for local domains and address literals.
+ 
+ 2. **State the falsifier**: Find an input that is accepted when it should be rejected, or rejected when it should be accepted.
+ 
+ 3. **Try to falsify**: Generate adversarial inputs. Edge cases. Malformed data. Known attack patterns.
+ 
+-4. **Report honestly**: The simple regex fails on 40% of edge cases. Either accept limited validation and document the constraints, or use a proper parser.
++4. **Report honestly**: Record each input, expected outcome under the chosen contract and actual result. The displayed function is a substring check, not a regex; these observations provide no measured failure rate. Either document a bounded input contract or choose and test a parser suited to it.
+ 
+ The difference is not sophistication. The difference is asking what would prove you wrong and actually looking.
+ 
+diff --git a/concepts/bullshit-detection.md b/concepts/bullshit-detection.md
+index 78467a7..50bff2c 100644
+--- a/concepts/bullshit-detection.md
++++ b/concepts/bullshit-detection.md
+@@ -53,16 +53,9 @@ ## The Practical Question
+ 
+ ---
+ 
+-## Pillar Check
++## Optional Onboarding
+ 
+-Have you read all pillars in this session?
+-
+-- goals.md
+-- falsifiability.md
+-- rhetoric.md
+-- bullshit-detection.md *(you are here)*
+-- verification-cycle.md
+-- zero-code-contract.md
+-- engineering-standards.md
+-
+-If you cannot clearly recall reading each one, read them now. Next: `verification-cycle.md`
++For an explicit request to learn the whole framework, follow the concept
++sequence in [README](../README.md). For a bounded working task, use the
++[skill routing](../SKILL.md) and read only relevant references; this section
++does not require loading unrelated pillars.
+diff --git a/concepts/engineering-standards.md b/concepts/engineering-standards.md
+index f6dc575..ba1c72d 100644
+--- a/concepts/engineering-standards.md
++++ b/concepts/engineering-standards.md
+@@ -46,11 +46,13 @@ ### Example: All Three Levels
+ 
+ ```python
+ def transfer_funds(from_account, to_account, amount):
+-    # PRECONDITIONS - what must be true on entry
+-    assert from_account != to_account, "Cannot transfer to same account"
+-    assert amount > 0, f"Amount must be positive, got {amount}"
+-    assert from_account.balance >= amount, \
+-        f"Insufficient funds: {from_account.balance} < {amount}"
++    # Caller-controlled inputs use checks that survive optimisation.
++    if from_account is to_account:
++        raise ValueError("Source and destination must be different accounts")
++    if amount <= 0:
++        raise ValueError(f"Transfer amount must be positive, got {amount}")
++    if from_account.balance < amount:
++        raise ValueError(f"Insufficient funds: balance {from_account.balance}, requested {amount}")
+ 
+     # Capture state for postcondition
+     old_total = from_account.balance + to_account.balance
+@@ -60,14 +62,18 @@ ### Example: All Three Levels
+     to_account.balance += amount
+ 
+     # POSTCONDITION - what must be true on exit
+-    assert from_account.balance + to_account.balance == old_total, \
+-        "Invariant violated: money created or destroyed"
++    if from_account.balance + to_account.balance != old_total:
++        raise AssertionError("Total balance changed during transfer; internal invariant violated")
+ 
+     # INVARIANT - always true for accounts
+-    assert from_account.balance >= 0, "Account balance went negative"
+-    assert to_account.balance >= 0, "Account balance went negative"
++    if from_account.balance < 0 or to_account.balance < 0:
++        raise AssertionError("A balance became negative; internal invariant violated")
+ ```
+ 
++This is a simplified invariant example, not a transactional payment system.
++The explicit internal checks remain active under Python optimisation; caller
++rejection happens before either balance changes.
++
+ ### Assertion Messages
+ 
+ Every assertion message MUST answer three questions:
+diff --git a/concepts/falsifiability.md b/concepts/falsifiability.md
+index 7f2308c..3805c16 100644
+--- a/concepts/falsifiability.md
++++ b/concepts/falsifiability.md
+@@ -81,16 +81,9 @@ ## The Practical Question
+ 
+ ---
+ 
+-## Pillar Check
++## Optional Onboarding
+ 
+-Have you read all pillars in this session?
+-
+-- goals.md
+-- falsifiability.md *(you are here)*
+-- rhetoric.md
+-- bullshit-detection.md
+-- verification-cycle.md
+-- zero-code-contract.md
+-- engineering-standards.md
+-
+-If you cannot clearly recall reading each one, read them now. Next: `rhetoric.md`
++For an explicit request to learn the whole framework, follow the concept
++sequence in [README](../README.md). For a bounded working task, use the
++[skill routing](../SKILL.md) and read only relevant references; this section
++does not require loading unrelated pillars.
+diff --git a/concepts/goals.md b/concepts/goals.md
+index 07c3772..8a6bcdc 100644
+--- a/concepts/goals.md
++++ b/concepts/goals.md
+@@ -56,16 +56,9 @@ ## The Practical Questions
+ 
+ ---
+ 
+-## Pillar Check
++## Optional Onboarding
+ 
+-Have you read all pillars in this session?
+-
+-- goals.md *(you are here)*
+-- falsifiability.md
+-- rhetoric.md
+-- bullshit-detection.md
+-- verification-cycle.md
+-- zero-code-contract.md
+-- engineering-standards.md
+-
+-If you cannot clearly recall reading each one, read them now. Next: `falsifiability.md`
++For an explicit request to learn the whole framework, follow the concept
++sequence in [README](../README.md). For a bounded working task, use the
++[skill routing](../SKILL.md) and read only relevant references; this section
++does not require loading unrelated pillars.
+diff --git a/concepts/pte.md b/concepts/pte.md
+index e2b0105..d416b0c 100644
+--- a/concepts/pte.md
++++ b/concepts/pte.md
+@@ -124,17 +124,9 @@ ## The Value Proposition
+ 
+ ---
+ 
+-## Pillar Check
++## Optional Onboarding
+ 
+-Have you read all pillars in this session?
+-
+-- goals.md
+-- falsifiability.md
+-- rhetoric.md
+-- bullshit-detection.md
+-- verification-cycle.md
+-- zero-code-contract.md
+-- pte.md *(you are here)*
+-- engineering-standards.md
+-
+-If you cannot clearly recall reading each one, read them now. Next: `goals.md`
++For an explicit request to learn the whole framework, follow the concept
++sequence in [README](../README.md). For a bounded working task, use the
++[skill routing](../SKILL.md) and read only relevant references; this section
++does not require loading unrelated pillars.
+diff --git a/concepts/rhetoric.md b/concepts/rhetoric.md
+index 31bfc3b..0541528 100644
+--- a/concepts/rhetoric.md
++++ b/concepts/rhetoric.md
+@@ -44,16 +44,9 @@ ## The Practical Questions
+ 
+ ---
+ 
+-## Pillar Check
++## Optional Onboarding
+ 
+-Have you read all pillars in this session?
+-
+-- goals.md
+-- falsifiability.md
+-- rhetoric.md *(you are here)*
+-- bullshit-detection.md
+-- verification-cycle.md
+-- zero-code-contract.md
+-- engineering-standards.md
+-
+-If you cannot clearly recall reading each one, read them now. Next: `bullshit-detection.md`
++For an explicit request to learn the whole framework, follow the concept
++sequence in [README](../README.md). For a bounded working task, use the
++[skill routing](../SKILL.md) and read only relevant references; this section
++does not require loading unrelated pillars.
+diff --git a/concepts/verification-cycle.md b/concepts/verification-cycle.md
+index 29632da..c9374b2 100644
+--- a/concepts/verification-cycle.md
++++ b/concepts/verification-cycle.md
+@@ -45,16 +45,9 @@ ## The Practical Question
+ 
+ ---
+ 
+-## Pillar Check
++## Optional Onboarding
+ 
+-Have you read all pillars in this session?
+-
+-- goals.md
+-- falsifiability.md
+-- rhetoric.md
+-- bullshit-detection.md
+-- verification-cycle.md *(you are here)*
+-- zero-code-contract.md
+-- engineering-standards.md
+-
+-If you cannot clearly recall reading each one, read them now. Next: `zero-code-contract.md`
++For an explicit request to learn the whole framework, follow the concept
++sequence in [README](../README.md). For a bounded working task, use the
++[skill routing](../SKILL.md) and read only relevant references; this section
++does not require loading unrelated pillars.
+diff --git a/concepts/zero-code-contract.md b/concepts/zero-code-contract.md
+index a8695c1..3a04ba2 100644
+--- a/concepts/zero-code-contract.md
++++ b/concepts/zero-code-contract.md
+@@ -6,6 +6,13 @@ # The Zero-Code Contract
+ 
+ ## The Roles
+ 
++The table below describes the **default human-owner arrangement**. For an
++AI owner, use the explicit [mandate and role contract](../standards/project-records.md)
++and [independent audit roles](../docs/independent-record-audit.md). An AI owner
++may make delegated management decisions; the working AI still implements and
++maintains records. An actor title never creates authority, and the auditor
++must remain independent of the authors it assesses.
++
+ | Role | Does | Does Not |
+ |------|------|----------|
+ | Engineer (Human) | Specifies requirements, defines acceptance criteria, validates alignment, final sign-off | Write implementation code, rubber-stamp without evidence |
+@@ -56,16 +63,9 @@ ## The Practical Question
+ 
+ ---
+ 
+-## Pillar Check
+-
+-Have you read all pillars in this session?
+-
+-- goals.md
+-- falsifiability.md
+-- rhetoric.md
+-- bullshit-detection.md
+-- verification-cycle.md
+-- zero-code-contract.md *(you are here)*
+-- engineering-standards.md
++## Optional Onboarding
+ 
+-If you cannot clearly recall reading each one, read them now. Next: `goals.md`
++For an explicit request to learn the whole framework, follow the concept
++sequence in [README](../README.md). For a bounded working task, use the
++[skill routing](../SKILL.md) and read only relevant references; this section
++does not require loading unrelated pillars.

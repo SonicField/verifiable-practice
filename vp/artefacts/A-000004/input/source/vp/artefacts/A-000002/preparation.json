@@ -1,0 +1,51 @@
+{
+  "started": "2026-10-19T12:17:06.306945+00:00",
+  "ended": "2026-10-19T12:17:15.612422+00:00",
+  "captures": [
+    {
+      "member": "head",
+      "argv": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "start": "2026-10-19T12:17:14.141796+00:00",
+      "end": "2026-10-19T12:17:14.161808+00:00",
+      "exit": 0,
+      "stdout": "head.stdout.txt",
+      "stderr": "head.stderr.txt"
+    },
+    {
+      "member": "status",
+      "argv": [
+        "git",
+        "status",
+        "--short"
+      ],
+      "start": "2026-10-19T12:17:14.161823+00:00",
+      "end": "2026-10-19T12:17:14.182803+00:00",
+      "exit": 0,
+      "stdout": "status.stdout.txt",
+      "stderr": "status.stderr.txt"
+    },
+    {
+      "member": "runtime",
+      "argv": [
+        "/usr/bin/python3",
+        "-c",
+        "import sys; print(sys.version); print(sys.executable)"
+      ],
+      "start": "2026-10-19T12:17:14.182818+00:00",
+      "end": "2026-10-19T12:17:14.193798+00:00",
+      "exit": 0,
+      "stdout": "runtime.stdout.txt",
+      "stderr": "runtime.stderr.txt"
+    }
+  ],
+  "input_files": 579,
+  "independent_directory": "/home/alexturner/vp-preserved/verifiable-practice/A-000002-input",
+  "copy_differences": [],
+  "inventory_sha256": "cc0dec0cbeba813e39240791aa23e3949d75310b03dd3a49503de9c857c8a01b",
+  "manifest_sha256": "e7e3b9781ab1234920573718263839940e15ce02fd6000b1d2e524c79564c7f1",
+  "capture": "coordinator-controlled commands and per-file copy checks; not tamper-proof action capture"
+}

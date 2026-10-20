@@ -1,43 +1,27 @@
 # Current Project State
 
-**As of:** 2026-10-19 12:35:26 UTC
-**Stage:** S-000001 sealed; accepted by [D-000009](records/decisions/D-000009/record.md).
-**Independent conformance:** [A-000003](records/audits/A-000003/record.md), conformant for prospective input frozen 2026-10-19T12:28:18.203764+00:00. Later checkpoint projections are outside assessed input.
-**Product:** [exact after inventory](artefacts/C-000001/after/snapshot.json), unchanged 71 files / 540 covered units.
+**As of:** 2026-10-20 08:13:43 UTC
+**Stage:** S2sealed/accepted D-000020.
+**Product:** C4after71files/500units,27changed documents, exactbytesR8candidate unchanged.
+**Content-quality audit:** R7baseline six findings; worker R8semanticQ1–Q10/CQ closure and actual structural/example checks. Repairs authored by the worker; no independent population efficacy claim.
+**Independent record conformance:** A-000006 actual conformant for its exact inputfreeze. Later exit/currentviews/checkpointreceipts outside its assessedinput.
+
+## Findings and preserved history
+
+A4/F001metadata/navigation gap independentlyclosed in A6scope; A2/F001currentdependency now scopedclosed per A6. V9workerresponse didnot itselfclose. A1inconclusive/A2nonconformant/A3oldconformant/A4nonconformant remain their original freezes. A5requesteditedafterissue andwithdrawnbeforedispatch; V10preserves bothversions/reconstructionlimits, no A5verdict/report. A6is secondactualassessment. CodeAudit is separate; no engineeringfindings independentlyclosed here. CQworkercontentdispositions remain disclosedcontentassessment.
 
 ## Current reliance and validity
 
-| Item | Support | Owner | Review by UTC | Scope / earlier triggers |
-|------|---------|-------|---------------|--------------------------|
-| D-000001 root | attributed current owner mandate | commissioning owner | 2027-01-17 23:59:59 | present goal/delegation; authority/goal change |
-| D-000007/009 retention/acceptance | D-000004 reasons; H/R-000004; A-000003 | delegated worker/coordinator | 2026-10-26 23:59:59 | bounded current research/records; relevant source/runtime/instrument/criteria/custody/goal change, failed trace |
-| H-000004 H4a/b/c | R-000004 failed to falsify; independent evidence assessment A-000003 | current working AI | 2026-10-26 23:59:59 | identified limited source/example/coverage/recovery; same triggers |
-| H-000001 | historical baseline falsification; runtime identity unknown | /root record author | historical only | no current support |
-| H-000002/003 and R-000001–003 | V-000004 limitations/supersession | /root record author | historical only | old observations retained; old runtime/control support insufficient |
+RootD1/D12mandate reviewed17Jan2027UTC/earliergoal/authoritychange. D13/14full-methodcontent and R8boundedsemantic/structural/examples, D16/17/R9ledgerrepair and D19requestdiscipline/D20acceptance rely on exactsource/control/role/evidence identities. Effectivehorizon remains26Oct2026 23:59:59UTC via unchangedD4/D7researchrationales, earlier source/runtime/rubric/metadata/authority/custody/contraryevidence trigger. No date-onlyrenewal. V8containsnewsourceuseof oldH/R4whole-source/A3verdict; historicalresults remainexactscope. No universalreadercomprehension, sustainedAIcompliance, efficiency/productcorrectness/certification, authenticatedoriginalmandate/authorship/logs or offhostdurability claims.
 
-Effective current reliance expires no later than 26 October and any earlier trigger. Review needs actual fresh evidence/owner value review; no date-only renewal.
+## Operations, custody and safe handoff
 
-## Finding closure
+No build/backgroundtechnicalprocess; C4/C5/H7/E8/R8/H8/E9/R9andS2sealed. Local H9/E10/R10/V11custodycheckpoint open until actualcommit/verifiedcompletioncopy/Gitbundle/receipt. Owned source/snapshots/manifests/failures retainedlife+365daysafterretirement. Existing and new preserveddirectories samehost, worker-controlled; hashconsistency doesnotauthenticateactions or protecthost/diskloss. Final V11locator/manifest requiredforrecovery, not an old pre-resultcopy. Readsixviews/actualrecords/bytes/dates before newreliance, reserve new IDs/actions. RollbackC4beforeproduct/C5beforeviews onlythroughnewD/Vretainingoutcomes. No remoteoperation/disposal/publication.
 
-| Finding | Worker response | Independent successor status |
-|---------|-----------------|------------------------------|
-| A-000001/F-001–008 | V-000002, V-000005 where affected | closed only within A-000003 prospective/bounded/advisory-disposition limits |
-| A-000002/F-001–003 | V-000005 under D-000006/007 | closed within A-000003 current-reliance scope |
+## Scoped packet-description advisory
 
-No unresolved mandatory finding in accepted scope. Original A-000001 remains inconclusive and A-000002 remains nonconformant for their old inputs. The standalone Code Audit is a distinct kind/snapshot; its technical findings are not independently closed here.
+A-000006/F-001 remains original open advisory, accepted with sourced [V-000012 counterdescriptor](records/events/V-000012/record.md) under D-000020. ActualA6consumer/archiveA4+A5inclusions/ownfuture-outputboundary are explicit against exact originalindex hashes. Originalfrozenlabels unchanged; workerdispositionisnotindependentclosure. No mandatorygate gap; review26OctUTC/earlier packet/consumer/authority/custodychange.
 
-## Remaining unknowns and handoff
+## Custody first-attempt correction
 
-Lost original choices/authorship/experiments and original mandate authentication remain unknown. General framework efficacy, sustained AI reliability, reader population comprehension, comparison cost and physical host-loss protection remain unverified. D-000004/007/009 bound local research retention; these are not passing empirical claims.
-
-[V-000006](records/events/V-000006/record.md) identifies completed-stage preservation and external completion manifest. R-000004 actual recovery restored 1,238 files; A-000003 verified its complete 1,253-file input copy. Final handoff bundle contains later sealed report/assessment and checkpoint records; inspect its outer manifest before reliance. No background build/process, open technical operation or commissioned next stage. Resume by reading PROJECT/PLAN/LEDGER/COVERAGE, checking actual bytes/dates/triggers, then reserving new IDs. Reversal restores C-000001 before-product and/or C-000002 before-views with new D/V records; retain abandoned evidence. No disposal or publication occurred.
-
-## Owner-authorised version-control checkpoint at 2026-10-19 19:19:37 UTC
-
-D-000010/C-000003 commission committing all current unignored framework/VP files and a follow-up receipt commit. H/E/R-000005 staged-content comparison pending; V-000007 allocated for actual checkpoint receipt. Prior A-000003 conformance describes its unchanged frozen input; these management projections are later records. No fresh technical validity is claimed or deadline renewed. No remote operation authorised.
-
-R-000005 selected-byte check is insufficient complete-root support because ignore rules hid nested evidence. D-000011 contains that inference; R-000006 full retained-root and byte/omission controls passed at 2026-10-19 19:21:26 UTC. Commit pending; C-000003 remains open. Evidence/research deadlines unchanged.
-
-## Current version-control handoff at 2026-10-19 19:22:46 UTC
-
-[V-000007](records/events/V-000007/record.md) records committed checkpoint `e2f63e8cbd5b2c4cd46293a759f1d6c1531f5403` / tree `ce69f829039e7609f1c272250ca422d861acdc8c` with complete VP/raw evidence and existing framework changes. C-000003 is sealed; initial pending paragraphs above are superseded by this receipt. R-000006 full retained-root/byte checks passed; R-000005 incomplete-selection limitation and style preflight exit 2 remain retained. Current follow-up commit contains receipt/current-view completion; inspect Git history for its containing commit. No unfinished technical work or remote operation; source/evidence deadlines and prior audit scope unchanged. Independently located bundle preservation is declared by V-000007; require its external manifest before recovery.
+R10failedcomplete-rootstaging afterpreparingnewdependencyfile; originalfailure/rawoutputs preserved. D21/E11/R11separateattempt stagespreparedinputs beforecomparison; H9stillopen, V11actualreceiptpending. Product/A6scope/stageexit unchanged; no commitbeforefinalguard.

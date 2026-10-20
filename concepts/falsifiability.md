@@ -1,18 +1,22 @@
 # Falsifiability
 
+Falsifiability supplies the evidence discipline for empirical claims in [VP's project quality management system](../docs/how-vp-works.md). Protocols, identified attempts and review triggers make that discipline auditable.
+
 You cannot prove code correct. You can prove it wrong.
 
 A single counterexample demolishes a claim. A thousand passing tests merely fail to falsify. This asymmetry is not a limitation - it is the only epistemically honest stance available.
 
 ## The Contract
 
-Any claim worth making carries three obligations:
+An empirical claim relied on by a project choice carries three obligations:
 
 1. I can articulate what would prove me wrong
 2. I have tried to find that counterexample
 3. I am reporting actual confidence, not performing confidence
 
-A claim without a potential falsifier is not wrong. It is not even wrong. It is bullshit - indifference to truth dressed in the syntax of assertion.
+An empirical assertion presented as knowledge without a potential falsifier has no checkable basis for that reliance.
+
+Goals, value judgements, mandates and acceptance boundaries are different: record their authority, rationale and review conditions. Owner review addresses their continued relevance; an experiment tests the empirical claims used to achieve them. Evidence does not grant permission to change a goal or cross a reserved boundary.
 
 ## Application
 
@@ -27,11 +31,11 @@ A claim without a potential falsifier is not wrong. It is not even wrong. It is 
 
 ## Falsifying the Process
 
-Rules and documents are frozen claims. They encode evidence from a specific context — but contexts change, and a rule without a revision condition is unfalsifiable authority.
+Rules and documents can contain empirical assumptions as well as governance choices. Context changes can invalidate those assumptions; the project records an owner, horizon and change triggers for relied-on choices. Binding authority and conformance rules remain subject to authorised review, not unilateral suspension by the worker.
 
-"No X under any circumstances" is a strong claim. It carries the same three obligations as any other: what would prove it wrong, have we looked, and are we reporting honestly? A document that says "NO EXCEPTIONS" has declared itself beyond falsification. That is Ethos dressed as Logos.
+An unconditional empirical claim needs evidence across its stated scope and a falsifier. An unconditional permission or safety boundary expresses authority instead. Review the source, rationale and conditions for authorised revision; testing a mechanism does not waive that boundary. Mandatory audit-role and user-permission rules remain binding within the project mandate.
 
-Consider a project rule that mandates one implementation language. If measurement later shows that the language cannot reach the layer where the relevant behaviour occurs, the evidence falsifies the rule. The rule may have been reasonable in its original context and still become wrong when the context changes. A rule that cannot accommodate new evidence is not rigorous. It is brittle.
+Consider a project rule that mandates one implementation language. If measurement shows that the language cannot reach the layer where the required behaviour occurs, it challenges the technical assumption behind that choice. Record the evidence and affected dependencies, contain unsupported reliance and ask the authorised owner to review the rule. The worker cannot silently replace a binding constraint. A rule's suitability can change with context while its authority remains explicit.
 
 The practical question for any process rule: under what measured outcome would we change this? If you cannot answer, the rule is not a tool. It is a ritual.
 

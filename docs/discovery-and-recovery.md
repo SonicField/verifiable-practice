@@ -1,5 +1,7 @@
 # Discovery and Recovery
 
+Discovery and recovery manage uncertain history and controlled restoration within [VP's full project quality management method](how-vp-works.md). The owner mandate, retained evidence and reviewed changes govern both.
+
 Some projects contain useful work but lack a reliable account of what exists, what succeeded, and why decisions were made. Discovery maps that territory. Recovery changes it.
 
 ## Discovery Is Read-Only

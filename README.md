@@ -1,20 +1,66 @@
 # Verifiable Practice
 
-Verifiable Practice—VP—is a vendor-neutral framework for making AI-assisted software work inspectable, falsifiable, and evidence-led. It treats plausible output as a hypothesis, not a result: clarify the goal, state what would disprove a claim, seek counterexamples, and report the evidence—including failures.
+Verifiable Practice (VP) is a **full project quality management system for human–AI collaboration**. It defines how a project establishes its goals and authority, plans controlled work, makes justified choices, verifies results, keeps an auditable history, accepts deliverables and maintains their justification over time.
 
-For the motivation and a worked example, read [Why Verifiable Practice](WHY.md).
+Falsification and honest reporting provide its evidence discipline. Project roles, stage gates, records, independent assessment and revalidation turn that discipline into a repeatable management method. VP applies to code, specifications, documents, experiments and other maintained project artefacts.
 
-The repository itself is a reusable AI skill. [SKILL.md](SKILL.md) contains the operating rules and routes an assistant to the relevant concepts and playbooks without loading the entire framework into context.
-
-This repository has adopted prospective record keeping under the
-[current project charter](vp/PROJECT.md). Its [operational records](vp/README.md)
-preserve current choices, evidence, coverage and open audit findings.
-Pre-adoption history remains explicitly incomplete; see the current
-[state and scoped audit verdict](vp/STATE.md) before assuming conformance.
+The method uses Markdown documents and directories. No specialised software, database, service or persistent AI team is required. This repository also packages the method as a reusable AI skill: [SKILL.md](SKILL.md) gives operating rules and routes an assistant to the references needed for its current responsibility.
 
 ## Start Here
 
-Read the concepts in this order:
+- **Understand the complete method:** read [How VP Works](docs/how-vp-works.md), then [Why VP](WHY.md) for its motivation and evidence discipline.
+- **Start or adopt a project:** use [Project Planning and Records](playbooks/project-records.md), the [standard](standards/project-records.md) and [templates](templates/project-records/README.md).
+- **Give an AI working instructions:** provide [SKILL.md](SKILL.md), the project's charter and its current task. Keep owner, worker and assessor responsibilities explicit.
+- **Resume a project:** read its `PROJECT.md`, `PLAN.md`, `STATE.md`, `LEDGER.md` and `COVERAGE.md`; check source identity, open work, deadlines and triggers before proceeding.
+- **Learn the foundations:** use the concept sequence below. A bounded task loads the references relevant to that task.
+
+For a new conformant project, select a record root, normally `vp/`, and create its README plus those five project views. Record the owner's mandate, root decision, first stage, quality criteria, budgets, gates, retention and review policy before execution. Existing projects preserve their source and distinguish missing history from new choices; a new retention decision can justify current work without inventing the past.
+
+## The Project Lifecycle
+
+| Boundary | Management action | Durable evidence |
+|----------|-------------------|------------------|
+| Establish | Agree the goal, owner mandate, scope, quality/acceptance criteria, risks and authority | Root decision and project charter |
+| Plan | Divide work into bounded stages with deliverables, budgets, tolerances, review points and stop conditions | Plan and stage records |
+| Choose | Generalise observations, compare alternatives and explain how the choice serves the goal | Decisions with sources, rationale and finite horizons |
+| Build and verify | Set hypotheses and protocols before tests; make authorised changes; identify actual inputs and retain every relevant attempt | Change, hypothesis, experiment, build and run records |
+| Control and assure quality | Check technical/document quality; independently assess records and justification; respond to findings | Checks, content analysis, typed audit reports and linked responses |
+| Accept or redirect | Review evidence, open risks, gates and continuing value; accept, revise, continue or stop within authority | Owner/delegated checkpoint and exception decisions |
+| Maintain and hand off | Track changed premises, expiry, dependencies and unfinished work; revalidate affected justification | State, ledger, coverage and successor events/evidence |
+| Retire or recover | Preserve required inputs and history, verify copies and record moves, disposal or explicit loss | Artefact manifests, custody and disposition events |
+
+The [project standard](standards/project-records.md) defines the management and record contract. [Playbooks](#playbooks) provide the procedures, including implementation, investigation, document work, discovery and recovery.
+
+## Human and AI Responsibilities
+
+| Responsibility | Accountable work |
+|----------------|------------------|
+| Owner | Preserve the goal; appoint roles; define scope, criteria, budgets and authority; review value and make acceptance/exception decisions |
+| Working AI | Clarify gaps, propose choices/tests, implement authorised work, retain evidence and maintain VP's records/current views |
+| Independent Project Auditor | Assess a frozen record/evidence packet, report gaps and check closure; remain separate from authors and technical problem solving |
+
+A human owner and AI worker are a common arrangement. An AI owner can act under an explicit bounded mandate. Humans can also contribute technical work under the agreed project roles. The owner ensures tracking happens; the working AI performs routine tracking. The [zero-code contract](concepts/zero-code-contract.md) describes one arrangement for oversight when the AI writes implementation code.
+
+## Quality, Traceability and Current Justification
+
+Quality planning establishes what acceptable work means. Quality control checks the artefact against those criteria. Independent record assurance checks whether choices, results and current justification are supported. Failures, audit findings and process-cost observations inform improvement of the method itself.
+
+For any maintained unit, `COVERAGE.md` leads to its introducing/retaining change and decision, the hypothesis/protocol/build/run evidence supporting it, and the authorised root goal. Failed and abandoned attempts remain visible. Every relied-on decision and claim has an owner, a finite review horizon and change triggers. Expired or invalid support requires impact review and new evidence before fresh reliance.
+
+All required documentation is Markdown; raw evidence can retain native formats beside owned manifests. Version control can carry the records with source, and an independent preserved copy supports recovery. Conformance applies to an explicit scope and snapshot after independent Project Audit. It describes record discipline; product quality requires its own acceptance evidence.
+
+## Choose the Assessment
+
+- **Project Audit:** records, decisions, evidence provenance, validity and artefact-to-root traceability. “Independent record audit” is an alias.
+- **Code Audit:** implementation correctness and engineering quality.
+- **Document analysis:** content, claims, audience, purpose and whether a document achieves its intended effect.
+- **Reasoning review:** a shorter check of current alignment and evidence.
+
+For an ambiguous request such as “Please audit X”, the AI **must ask which sort of audit is intended and wait before starting**. It must not guess or silently perform both. See [Audit Routing](playbooks/audit-routing.md). Technical/content assessment and independent record conformance have separate scopes and verdicts. The worker repairs records and produces authorised evidence; a fresh independent follow-up report closes Project Audit findings.
+
+## Foundations
+
+These concepts support the complete management method:
 
 1. [Goals](concepts/goals.md)
 2. [Falsifiability](concepts/falsifiability.md)
@@ -25,40 +71,9 @@ Read the concepts in this order:
 7. [Precise Technical English](concepts/pte.md)
 8. [Engineering Standards](concepts/engineering-standards.md)
 
-The short form is:
+## This Repository's Records
 
-> Establish what matters. Define what would prove you wrong. Try to prove yourself wrong. Build in testable steps. Report what happened, not what sounds reassuring.
-
-## Project Planning and Records
-
-For projects that need an auditable history across sessions, the proposed
-[Project Planning and Records Standard](standards/project-records.md) defines
-Markdown documents, directory structure and actions for choices, builds,
-experiments, changes, expiry and disposal. Its coverage inventory links
-maintained code to the evidence and root goal that justify it.
-
-Start with the [guide](docs/project-records.md), then the
-[templates](templates/project-records/README.md) and
-[execution playbook](playbooks/project-records.md). The
-[design register](docs/project-records-design.md) records the observations,
-generalisation and alternatives behind each material choice. Conformance is
-declared for a scope and snapshot; it is not a claim of software correctness.
-
-An [independent record auditor](docs/independent-record-audit.md) checks a frozen
-packet, reports gaps and specifies evidence needed for closure. The working
-AI repairs records and produces authorised technical evidence; a fresh
-independent re-audit closes findings. The auditor remains outside technical
-problem solving. This role split uses Markdown requests, reports and responses.
-
-## Choose the Audit Kind
-
-- **Project Audit:** records, decisions, evidence provenance, validity and
-  why code exists. “Independent record audit” is an alias.
-- **Code Audit:** implementation correctness and engineering quality.
-
-For an ambiguous request such as “Please audit X”, the AI **must ask which
-sort of audit is intended and wait before starting**. It must not guess or
-silently perform both. See [Audit Routing](playbooks/audit-routing.md).
+This repository has adopted prospective record keeping under its [project charter](vp/PROJECT.md). Its [operational records](vp/README.md) preserve choices, evidence, coverage and scoped audits. Pre-adoption history remains incomplete; inspect [current state](vp/STATE.md) before assuming that an earlier verdict covers a later change.
 
 ## Playbooks
 
@@ -83,11 +98,11 @@ Playbooks turn the concepts into repeatable work:
 
 ## Documentation
 
-The documentation explains the framework for human readers; the playbooks direct an AI performing the work.
+The documentation explains the complete method and its components for human and AI readers. Playbooks give procedures for the selected responsibility; standards define adopted requirements.
 
 | Document | Subject |
 |----------|---------|
-| [How VP Works](docs/how-vp-works.md) | Failure modes, architecture, verification loop, and limits |
+| [How VP Works](docs/how-vp-works.md) | Full project lifecycle, quality functions, roles, records, assurance and limits |
 | [Review and Audit](docs/review-and-audit.md) | Project Audit, Code Audit and lighter reasoning review have separate scopes and verdicts |
 | [Discovery and Recovery](docs/discovery-and-recovery.md) | The boundary between learning and controlled mutation |
 | [Investigations](docs/investigations.md) | Hypotheses, isolation, evidence, and honest verdicts |
@@ -118,10 +133,9 @@ A platform adapter may add permissions or command metadata, but the canonical sk
 
 ## Scope Boundary
 
-VP includes reasoning, verification, project archaeology, recovery, document
-work and independent record assessment with worker remediation. The roles
-can use separate sessions and directory handoff. VP does not include
-coordination infrastructure for persistent multi-agent teams.
+VP defines project quality management, including governance, planning, verification, traceability, independent record assurance, maintenance, recovery and document work. Portable owner/worker/auditor responsibilities can use separate sessions and directory handoff. Persistent team orchestration software is outside this repository.
+
+VP is a research method whose effectiveness, cost and sustained compliance require evaluation. Describing the full management lifecycle does not claim product correctness, universal reader comprehension or ISO, PRINCE2, CMM or aviation certification.
 
 The framework's origin and extraction boundary are recorded in [ORIGIN.md](ORIGIN.md).
 

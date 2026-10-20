@@ -1,5 +1,7 @@
 # Project Audit: Independent Record Assessment
 
+Independent record assessment is the assurance loop within [VP's full project quality management method](how-vp-works.md). It supports accountable management while the worker retains technical execution and record keeping.
+
 **Audit kind:** `project`. “Independent record audit” is an alias. Code Audit
 has kind `code` and a separate scope. Ambiguous requests require the owner
 to select the kind through [Audit Routing](../playbooks/audit-routing.md)

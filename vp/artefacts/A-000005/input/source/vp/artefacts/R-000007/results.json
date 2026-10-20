@@ -1,0 +1,62 @@
+{
+  "started": "2026-10-20T07:44:32.229663+00:00",
+  "ended": "2026-10-20T07:44:32.287098+00:00",
+  "commands": [
+    {
+      "label": "product-files",
+      "argv": [
+        "/usr/bin/git",
+        "ls-files",
+        "--cached",
+        "--others",
+        "--exclude-standard",
+        "-z"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T07:44:32.229764+00:00",
+      "ended": "2026-10-20T07:44:32.244839+00:00",
+      "exit": 0,
+      "stdout": "product-files.stdout.bin",
+      "stderr": "product-files.stderr.txt",
+      "executable_sha256": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8"
+    },
+    {
+      "label": "head",
+      "argv": [
+        "/usr/bin/git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T07:44:32.247507+00:00",
+      "ended": "2026-10-20T07:44:32.249451+00:00",
+      "exit": 0,
+      "stdout": "head.stdout.bin",
+      "stderr": "head.stderr.txt",
+      "executable_sha256": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8"
+    },
+    {
+      "label": "status",
+      "argv": [
+        "/usr/bin/git",
+        "status",
+        "--short"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-20T07:44:32.251881+00:00",
+      "ended": "2026-10-20T07:44:32.267932+00:00",
+      "exit": 0,
+      "stdout": "status.stdout.bin",
+      "stderr": "status.stderr.txt",
+      "executable_sha256": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8"
+    }
+  ],
+  "files": 71,
+  "public_markdown_files": 64,
+  "python_executable": "/usr/bin/python3",
+  "python_resolved": "/usr/bin/python3.9",
+  "python_sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935",
+  "capture_instrument_sha256": "079c42d59e9236d2c6dccb517dced77d6dc04eaa98d424b41fb37b72c2778a05",
+  "snapshot": "../../C-000004/before/snapshot.json",
+  "assessment": "Manual content report follows; inventories/counts are not semantic or reader-comprehension proof"
+}

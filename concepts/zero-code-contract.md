@@ -1,12 +1,14 @@
 # The Zero-Code Contract
 
-The AI writes code faster than the human can review it. This is the fundamental asymmetry.
+The zero-code contract is one software-delivery arrangement within [VP's full project quality management system](../docs/how-vp-works.md). It is useful when an AI can produce implementation faster than a human owner can review every line. The human focuses on criteria and evidence while the AI performs authorised implementation.
+
+Projects can agree other allocations of human and AI technical work. Owner, worker, record keeping and independent-assessor responsibilities still need explicit mandates and boundaries.
 
 If the human must review all code, the human becomes the bottleneck. Bottlenecks get bypassed. "Looks good" becomes the path of least resistance. Quality collapses.
 
 ## The Roles
 
-The table below describes the **default human-owner arrangement**. For an
+The table below describes the **default human-owner arrangement** for this zero-code pattern. For an
 AI owner, use the explicit [mandate and role contract](../standards/project-records.md)
 and [independent audit roles](../docs/independent-record-audit.md). An AI owner
 may make delegated management decisions; the working AI still implements and
@@ -16,9 +18,11 @@ must remain independent of the authors it assesses.
 | Role | Does | Does Not |
 |------|------|----------|
 | Engineer (Human) | Specifies requirements, defines acceptance criteria, validates alignment, final sign-off | Write implementation code, rubber-stamp without evidence |
-| Machinist (AI) | Clarifies requirements, proposes falsifiers, implements, reports honestly, flags concerns | Decide what to build, declare "done" unilaterally, hide problems |
+| Machinist (AI) | Clarifies requirements, proposes falsifiers, makes delegated technical choices, implements, keeps evidence/records, flags concerns | Change the terminal goal or reserved criteria without authority, bypass acceptance gates, hide problems |
 
-Neither party trusts assertions. Both parties trust evidence.
+The owner ensures tracking happens; the working AI maintains the operational records and current views. A distinct Project Auditor checks record assurance and closure without implementing repairs. The [role guide](../docs/independent-record-audit.md) explains owner delegation, AI ownership, independent gates and handoff.
+
+Both parties evaluate claims against evidence and distinguish recorded authority from empirical support.
 
 ## The Throughput Solution
 

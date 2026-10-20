@@ -1,0 +1,23 @@
+ M CHANGELOG.md
+ M CONTRIBUTING.md
+ M ORIGIN.md
+ M README.md
+ M SKILL.md
+ M docs/investigations.md
+ M docs/review-and-audit.md
+ M docs/skill-architecture.md
+ M playbooks/code-audit.md
+ M playbooks/investigation.md
+ M playbooks/recovery.md
+ M playbooks/review.md
+?? docs/independent-record-audit.md
+?? docs/project-records-design.md
+?? docs/project-records-examples.md
+?? docs/project-records-scenarios.md
+?? docs/project-records.md
+?? playbooks/audit-routing.md
+?? playbooks/project-records.md
+?? playbooks/record-audit.md
+?? standards/
+?? templates/
+?? vp/

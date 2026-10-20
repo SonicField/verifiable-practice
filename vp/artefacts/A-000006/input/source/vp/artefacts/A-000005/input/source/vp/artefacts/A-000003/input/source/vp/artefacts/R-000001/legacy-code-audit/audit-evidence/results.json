@@ -1,0 +1,160 @@
+{
+  "environment": {
+    "python": "3.9.25",
+    "platform": "Linux-6.16.1-0_fbk3_0_gd6c130b80483-aarch64-with-glibc2.34"
+  },
+  "commands": [
+    {
+      "id": "C01",
+      "command": [
+        "/usr/bin/python3",
+        ".vp/audit-evidence/checks.py",
+        "verify"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "start_utc": "2026-10-19T11:49:04.786162+00:00",
+      "end_utc": "2026-10-19T11:49:04.814726+00:00",
+      "exit_status": 0,
+      "stdout": "{\"check\": \"input identities\", \"live\": false, \"files\": 70, \"differences\": []}\n",
+      "stderr": ""
+    },
+    {
+      "id": "C02",
+      "command": [
+        "/usr/bin/python3",
+        ".vp/audit-evidence/checks.py",
+        "verify",
+        "--live"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "start_utc": "2026-10-19T11:49:04.814780+00:00",
+      "end_utc": "2026-10-19T11:49:04.853656+00:00",
+      "exit_status": 0,
+      "stdout": "{\"check\": \"input identities\", \"live\": true, \"files\": 70, \"differences\": []}\n",
+      "stderr": ""
+    },
+    {
+      "id": "C03",
+      "command": [
+        "/usr/bin/python3",
+        ".vp/audit-evidence/checks.py",
+        "structural"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "start_utc": "2026-10-19T11:49:04.853715+00:00",
+      "end_utc": "2026-10-19T11:49:04.892507+00:00",
+      "exit_status": 0,
+      "stdout": "{\n  \"check\": \"structural\",\n  \"markdown_files\": 63,\n  \"relative_file_links\": 177,\n  \"external_links_not_fetched\": 3,\n  \"placeholder_destinations_skipped\": 0,\n  \"broken_file_links\": [],\n  \"unbalanced_fences\": [],\n  \"missing_final_newlines\": [],\n  \"missing_skill_routes\": [],\n  \"operation_templates\": 10,\n  \"missing_common_fields\": {},\n  \"limits\": \"No Markdown rendering, heading-anchor validation, placeholder instantiation or AI execution\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "id": "C04",
+      "command": [
+        "/usr/bin/python3",
+        ".vp/audit-evidence/checks.py",
+        "transfer"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "start_utc": "2026-10-19T11:49:04.892561+00:00",
+      "end_utc": "2026-10-19T11:49:04.920387+00:00",
+      "exit_status": 1,
+      "stdout": "{\n  \"check\": \"transfer\",\n  \"cases\": [\n    {\n      \"optimisation\": 0,\n      \"case\": \"negative\",\n      \"error\": \"AssertionError\",\n      \"balances\": [\n        10,\n        0\n      ],\n      \"rejects_before_mutation\": true\n    },\n    {\n      \"optimisation\": 0,\n      \"case\": \"overdraft\",\n      \"error\": \"AssertionError\",\n      \"balances\": [\n        10,\n        0\n      ],\n      \"rejects_before_mutation\": true\n    },\n    {\n      \"optimisation\": 1,\n      \"case\": \"negative\",\n      \"error\": null,\n      \"balances\": [\n        15,\n        -5\n      ],\n      \"rejects_before_mutation\": false\n    },\n    {\n      \"optimisation\": 1,\n      \"case\": \"overdraft\",\n      \"error\": null,\n      \"balances\": [\n        -10,\n        20\n      ],\n      \"rejects_before_mutation\": false\n    },\n    {\n      \"optimisation\": 2,\n      \"case\": \"negative\",\n      \"error\": null,\n      \"balances\": [\n        15,\n        -5\n      ],\n      \"rejects_before_mutation\": false\n    },\n    {\n      \"optimisation\": 2,\n      \"case\": \"overdraft\",\n      \"error\": null,\n      \"balances\": [\n        -10,\n        20\n      ],\n      \"rejects_before_mutation\": false\n    }\n  ],\n  \"unsafe_cases\": 4\n}\n",
+      "stderr": ""
+    },
+    {
+      "id": "C05",
+      "command": [
+        "/usr/bin/python3",
+        ".vp/audit-evidence/checks.py",
+        "email"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "start_utc": "2026-10-19T11:49:04.920442+00:00",
+      "end_utc": "2026-10-19T11:49:04.947251+00:00",
+      "exit_status": 1,
+      "stdout": "{\"check\": \"email\", \"input\": \"user@[192.168.1.1]\", \"actual\": true, \"document_claims_rejection\": true, \"contradiction\": true}\n",
+      "stderr": ""
+    },
+    {
+      "id": "C06",
+      "command": [
+        "/usr/bin/python3",
+        "/home/alexturner/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+        ".vp/audit-evidence/source"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "start_utc": "2026-10-19T11:49:04.947294+00:00",
+      "end_utc": "2026-10-19T11:49:04.973651+00:00",
+      "exit_status": 0,
+      "stdout": "Skill is valid!\n",
+      "stderr": ""
+    },
+    {
+      "id": "C07",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "start_utc": "2026-10-19T11:49:04.973704+00:00",
+      "end_utc": "2026-10-19T11:49:04.985723+00:00",
+      "exit_status": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "id": "C08",
+      "command": [
+        "rg",
+        "-n",
+        "Pillar Check|read them now|Next:",
+        "concepts"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "start_utc": "2026-10-19T11:49:04.985782+00:00",
+      "end_utc": "2026-10-19T11:49:04.997229+00:00",
+      "exit_status": 0,
+      "stdout": "concepts/pte.md:127:## Pillar Check\nconcepts/pte.md:140:If you cannot clearly recall reading each one, read them now. Next: `goals.md`\nconcepts/zero-code-contract.md:59:## Pillar Check\nconcepts/zero-code-contract.md:71:If you cannot clearly recall reading each one, read them now. Next: `goals.md`\nconcepts/verification-cycle.md:48:## Pillar Check\nconcepts/verification-cycle.md:60:If you cannot clearly recall reading each one, read them now. Next: `zero-code-contract.md`\nconcepts/bullshit-detection.md:56:## Pillar Check\nconcepts/bullshit-detection.md:68:If you cannot clearly recall reading each one, read them now. Next: `verification-cycle.md`\nconcepts/rhetoric.md:47:## Pillar Check\nconcepts/rhetoric.md:59:If you cannot clearly recall reading each one, read them now. Next: `bullshit-detection.md`\nconcepts/falsifiability.md:84:## Pillar Check\nconcepts/falsifiability.md:96:If you cannot clearly recall reading each one, read them now. Next: `rhetoric.md`\nconcepts/goals.md:59:## Pillar Check\nconcepts/goals.md:71:If you cannot clearly recall reading each one, read them now. Next: `falsifiability.md`\n",
+      "stderr": ""
+    },
+    {
+      "id": "C09",
+      "command": [
+        "rg",
+        "-n",
+        "Claude|ChatGPT|OpenAI|Anthropic|Codex|NBS|Medic|Pythia|GC|parallel_gc",
+        "SKILL.md",
+        "concepts",
+        "playbooks",
+        "docs",
+        "standards",
+        "templates"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "start_utc": "2026-10-19T11:49:04.997286+00:00",
+      "end_utc": "2026-10-19T11:49:05.002491+00:00",
+      "exit_status": 0,
+      "stdout": "docs/independent-record-audit.md:10:Medic and Pythia in NBS, including limits of evidence searches and observer\ndocs/project-records-examples.md:3:These are illustrative histories, not measurements of `parallel_gc`, `honest`\ndocs/project-records.md:55:| Parallel GC observations | Repeated builds and defective measurement instruments can detach conclusions from actual inputs | Attempt identities, instrument testing, incoming dependency impact tracing |\ndocs/project-records-design.md:23:derivation explicit. Early drafting began from parallel GC; these decisions\ndocs/project-records-design.md:32:- `parallel_gc`: `91012c763e88b597e2bc58f2bce25c151767a212`;\ndocs/project-records-design.md:35:The GC checkout also had untracked builds/results and a submodule with\ndocs/project-records-design.md:44:| O-01 | `parallel_gc` root listing: dozens of directories including `build-baseline-ft`, `build-benchmark-restored-gil`, `build-fidelity-ft`, `build-lazy-ft-tsan` and `build-upstream-ft-fresh`; names encode different kinds of information without a shared record identity |\ndocs/project-records-design.md:249:to avoid designing around GC.\ndocs/project-records-design.md:256:**Alternative:** claim general validity from a GC migration; rejected because\ndocs/project-records-design.md:259:**Falsifier:** either domain needs mandatory GC-specific fields, or a cold\ndocs/project-records-design.md:294:  vendor or GC-specific operating requirements in the standard, templates or\ndocs/project-records-design.md:325:| O-16 | `blog/The-Medic-Report.md`: reports false positives caused by incomplete log searches and a chained command missed by a search pattern; reports later transparent self-corrections; also reports the team treating Medic's silence as evidence of validity |\ndocs/project-records-design.md:358:**Alternative:** require NBS terminal machinery or call all Markdown logs\ndocs/project-records-design.md:408:frontmatter. A terminology search found no NBS runtime or vendor requirements\ndocs/project-records-design.md:416:unverified. No NBS runtime was invoked and no source project was modified.\ndocs/project-records-design.md:422:**Instruction:** the user identifies a future AI owner, similar to the NBS\ndocs/project-records-design.md:425:`docs/team/nbs-supervisor.md` and `claude_tools/nbs-supervisor.md` at NBS HEAD\n",
+      "stderr": ""
+    },
+    {
+      "id": "C10",
+      "command": [
+        "rg",
+        "-n",
+        "not.*executed|not run|unverified|not a claim.*conforms|not.*already conforms|conformance",
+        "docs/project-records-design.md",
+        "docs/project-records-scenarios.md",
+        "README.md"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "start_utc": "2026-10-19T11:49:05.002529+00:00",
+      "end_utc": "2026-10-19T11:49:05.009322+00:00",
+      "exit_status": 0,
+      "stdout": "docs/project-records-scenarios.md:5:[playbook](../playbooks/project-records.md). They are not reports of executed\ndocs/project-records-scenarios.md:54:| T-25 | Same working session changes its role name to auditor, or an observer emits no warning | Label self-check preparation; request separate context and explicit report | Declare independent conformance from role renaming, silence or reputation |\ndocs/project-records-design.md:4:this change, not a claim that VP or either inspected project already conforms.\ndocs/project-records-design.md:49:| O-06 | `honest/AGENTS.md`: authority order is specification, checked grammar, conformance tests, guides/examples, historical addendum; \u201cDo not silently choose code over the specification or the specification over code when they disagree\u201d |\ndocs/project-records-design.md:69:that opt into record conformance, with scope, snapshot, time and legacy gaps.\ndocs/project-records-design.md:211:new retain/replace decisions and explicit nonconformance until gaps resolve.\ndocs/project-records-design.md:290:  Its first invocation with the shell's `python3` could not run because that\ndocs/project-records-design.md:304:full adoption audits and process-cost comparisons were not run. Both source\ndocs/project-records-design.md:305:projects were inspected read-only. No conformance claim or migration was made\ndocs/project-records-design.md:393:exhaustion; predeclared conformance gates, with advisory risks distinguished\ndocs/project-records-design.md:414:These are evaluation specifications, not executed independent AI trials.\ndocs/project-records-design.md:416:unverified. No NBS runtime was invoked and no source project was modified.\n",
+      "stderr": ""
+    }
+  ],
+  "limitations": "Captured by the auditor; not independent capture of historical author actions."
+}

@@ -1,0 +1,162 @@
+{
+  "started": "2026-10-19T12:09:31.780396+00:00",
+  "ended": "2026-10-19T12:09:31.988714+00:00",
+  "members": [
+    {
+      "member": "inventory",
+      "argv": [
+        "git",
+        "ls-files",
+        "--cached",
+        "--others",
+        "--exclude-standard",
+        "-z"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:09:31.780406+00:00",
+      "ended": "2026-10-19T12:09:31.792209+00:00",
+      "exit": 0,
+      "stdout": "inventory.stdout.txt",
+      "stderr": "inventory.stderr.txt"
+    },
+    {
+      "member": "head",
+      "argv": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:09:31.807020+00:00",
+      "ended": "2026-10-19T12:09:31.816767+00:00",
+      "exit": 0,
+      "stdout": "head.stdout.txt",
+      "stderr": "head.stderr.txt"
+    },
+    {
+      "member": "git-status",
+      "argv": [
+        "git",
+        "status",
+        "--short"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:09:31.816784+00:00",
+      "ended": "2026-10-19T12:09:31.827342+00:00",
+      "exit": 0,
+      "stdout": "git-status.stdout.txt",
+      "stderr": "git-status.stderr.txt"
+    },
+    {
+      "member": "runtime",
+      "argv": [
+        "/usr/bin/python3",
+        "-c",
+        "import sys,yaml; print(sys.version); print(yaml.__version__); print(yaml.__file__)"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:09:31.827954+00:00",
+      "ended": "2026-10-19T12:09:31.849935+00:00",
+      "exit": 0,
+      "stdout": "runtime.stdout.txt",
+      "stderr": "runtime.stderr.txt"
+    },
+    {
+      "member": "structural",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000002/checks.py",
+        "structural",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/source",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/snapshot.json"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:09:31.849964+00:00",
+      "ended": "2026-10-19T12:09:31.884304+00:00",
+      "exit": 0,
+      "stdout": "structural.stdout.txt",
+      "stderr": "structural.stderr.txt"
+    },
+    {
+      "member": "behavior",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000002/checks.py",
+        "behavior",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/source",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/snapshot.json"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:09:31.884332+00:00",
+      "ended": "2026-10-19T12:09:31.909292+00:00",
+      "exit": 0,
+      "stdout": "behavior.stdout.txt",
+      "stderr": "behavior.stderr.txt"
+    },
+    {
+      "member": "baseline-negative",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000002/checks.py",
+        "behavior",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/before/source",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/before/snapshot.json"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:09:31.909317+00:00",
+      "ended": "2026-10-19T12:09:31.934389+00:00",
+      "exit": 1,
+      "stdout": "baseline-negative.stdout.txt",
+      "stderr": "baseline-negative.stderr.txt"
+    },
+    {
+      "member": "frontmatter",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000002/skill-validator.py",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/after/source"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:09:31.934412+00:00",
+      "ended": "2026-10-19T12:09:31.961349+00:00",
+      "exit": 0,
+      "stdout": "frontmatter.stdout.txt",
+      "stderr": "frontmatter.stderr.txt"
+    },
+    {
+      "member": "diff-whitespace",
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:09:31.961360+00:00",
+      "ended": "2026-10-19T12:09:31.974897+00:00",
+      "exit": 0,
+      "stdout": "diff-whitespace.stdout.txt",
+      "stderr": "diff-whitespace.stderr.txt"
+    },
+    {
+      "member": "diff",
+      "argv": [
+        "git",
+        "diff",
+        "--",
+        "README.md",
+        "SKILL.md",
+        "WHY.md",
+        "concepts",
+        "CHANGELOG.md"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:09:31.974908+00:00",
+      "ended": "2026-10-19T12:09:31.988373+00:00",
+      "exit": 0,
+      "stdout": "diff.stdout.txt",
+      "stderr": "diff.stderr.txt"
+    }
+  ],
+  "expected_negative_member": "baseline-negative exit 1",
+  "capture": "worker controlled"
+}

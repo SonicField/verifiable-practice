@@ -1,0 +1,47 @@
+{
+  "started": "2026-10-20T07:55:27.827695+00:00",
+  "ended": "2026-10-20T07:55:28.986711+00:00",
+  "argv": [
+    "/usr/bin/python3",
+    "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/custody.py"
+  ],
+  "cwd": "/home/alexturner/verifiable-practice",
+  "instrument": {
+    "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/custody.py",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/custody.py",
+    "bytes": 2781,
+    "sha256": "7b97505ba259956f1e496e3181d94b305c737fa6652b7bd806dea29a3c7a0d08"
+  },
+  "operation": "shutil.copytree + exact same full-inventory SHA256 comparison before/planted/after restoration",
+  "copy": "/home/alexturner/vp-preserved/verifiable-practice/R-000008-candidate-evidence",
+  "restore": "/tmp/vp-R8-restored-ka_lt7c8/project",
+  "inventory": "copy-inventory.json",
+  "inventory_identity": {
+    "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/copy-inventory.json",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/copy-inventory.json",
+    "bytes": 635948,
+    "sha256": "46ea6ccc4649253d385fc4fc563f65d3925d95f2cf08dbbc9c34835eedb598d3"
+  },
+  "files": 2853,
+  "differences_before": [],
+  "planted_differences": [
+    ".gitattributes"
+  ],
+  "differences_after": [],
+  "executable_before": {
+    "path": "/usr/bin/python3",
+    "resolved": "/usr/bin/python3.9",
+    "bytes": 68488,
+    "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+  },
+  "executable_after": {
+    "path": "/usr/bin/python3",
+    "resolved": "/usr/bin/python3.9",
+    "bytes": 68488,
+    "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+  },
+  "dependency_before": "custody.dependencies-before.json",
+  "dependency_after": "custody.dependencies-after.json",
+  "criterion_met": true,
+  "limits": "same host, independently located pre-result bundle; does not contain future R8 seal/retention/audit or its own later custody output, not authenticated/off-host protection"
+}

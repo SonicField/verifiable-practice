@@ -1,0 +1,22 @@
+{
+  "started": "2026-10-20T07:57:39.873412+00:00",
+  "ended": "2026-10-20T07:57:40.836114+00:00",
+  "freeze": "2026-10-20T07:57:40.394475+00:00",
+  "argv": [
+    "/usr/bin/python3",
+    "/tmp/vp-A4-freeze.py"
+  ],
+  "cwd": "/home/alexturner/verifiable-practice",
+  "capture_instrument_sha256": "1f71a33048278bf40553ea88f4dc4c544af7757d2805945a5313fb0a75025d84",
+  "python_executable_before": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935",
+  "python_executable_after": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935",
+  "operation": "exact file copy plus complete perfileSHA256 verified independent-directory copy",
+  "input": "/home/alexturner/verifiable-practice/vp/artefacts/A-000004/input",
+  "copy": "/home/alexturner/vp-preserved/verifiable-practice/A-000004-input",
+  "files": 2864,
+  "differences": [],
+  "request_sha256": "f130c3533c441d3203a496649ce8da10160c5d9da7f8f2017c8382bff615d275",
+  "manifest_sha256": "f1e3c857c6436d7716654832705a51cbea869d2c16d7fe71344c6dec9e38955c",
+  "inventory_sha256": "835ea79ae64b57bc05797c39e597d1237f65256e097dc81bb28713443e8e43ff",
+  "limits": "worker-controlled samehost capture, futureoutputs excluded, no authentic historic/currentaction guarantee"
+}

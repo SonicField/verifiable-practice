@@ -2,6 +2,8 @@
 
 This package was extracted from NBS Framework revision `a1084a3` on 2026-09-24.
 
+The current VP method is a [full project quality management system for human–AI collaboration](docs/how-vp-works.md). The extraction inventory below records its original provenance. Later extensions introduced portable owner, worker and independent auditor responsibilities, controlled project planning and record management. Those current responsibilities are distinct from the source framework's excluded persistent-team implementations.
+
 ## Included
 
 The original “Why NBS” essay and the eight top-level concepts that concern human–AI software reasoning were adapted. The generic playbooks were derived from the original review, audit, investigation, debugger, discovery, recovery, document-analysis, document-planning, document-description, and PTE command documents.
@@ -25,7 +27,7 @@ The original “Why NBS” essay and the eight top-level concepts that concern h
 | `docs/testing-ai-behaviour.md` | `docs/tools/testing-strategy.md` and the portable parts of `docs/tools/interactive-testing.md` |
 | `docs/skill-architecture.md` | The portable design principles from `docs/framework/skill-system.md` |
 
-## Deliberately Excluded
+## Excluded from the Original Extraction
 
 - `concepts/teams/` and the top-level coordination concept;
 - supervisor, worker, gatekeeper, testkeeper, theologian, scribe, medic, librarian, and other team roles;

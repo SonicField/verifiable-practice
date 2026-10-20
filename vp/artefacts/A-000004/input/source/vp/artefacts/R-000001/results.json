@@ -1,0 +1,126 @@
+{
+  "started": "2026-10-19T12:08:06.533845+00:00",
+  "ended": "2026-10-19T12:08:06.708083+00:00",
+  "members": [
+    {
+      "member": "inventory",
+      "argv": [
+        "git",
+        "ls-files",
+        "--cached",
+        "--others",
+        "--exclude-standard",
+        "-z"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:08:06.533855+00:00",
+      "ended": "2026-10-19T12:08:06.545018+00:00",
+      "exit": 0,
+      "stdout": "inventory.stdout.txt",
+      "stderr": "inventory.stderr.txt"
+    },
+    {
+      "member": "head",
+      "argv": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:08:06.554947+00:00",
+      "ended": "2026-10-19T12:08:06.564913+00:00",
+      "exit": 0,
+      "stdout": "head.stdout.txt",
+      "stderr": "head.stderr.txt"
+    },
+    {
+      "member": "git-status",
+      "argv": [
+        "git",
+        "status",
+        "--short"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:08:06.564929+00:00",
+      "ended": "2026-10-19T12:08:06.575560+00:00",
+      "exit": 0,
+      "stdout": "git-status.stdout.txt",
+      "stderr": "git-status.stderr.txt"
+    },
+    {
+      "member": "runtime",
+      "argv": [
+        "/usr/bin/python3",
+        "-c",
+        "import sys,yaml; print(sys.version); print(yaml.__version__); print(yaml.__file__)"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:08:06.587475+00:00",
+      "ended": "2026-10-19T12:08:06.609599+00:00",
+      "exit": 0,
+      "stdout": "runtime.stdout.txt",
+      "stderr": "runtime.stderr.txt"
+    },
+    {
+      "member": "structural",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000001/checks.py",
+        "structural",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/before/source",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/before/snapshot.json"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:08:06.609812+00:00",
+      "ended": "2026-10-19T12:08:06.643923+00:00",
+      "exit": 0,
+      "stdout": "structural.stdout.txt",
+      "stderr": "structural.stderr.txt"
+    },
+    {
+      "member": "behavior",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000001/checks.py",
+        "behavior",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/before/source",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/before/snapshot.json"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:08:06.643948+00:00",
+      "ended": "2026-10-19T12:08:06.668918+00:00",
+      "exit": 1,
+      "stdout": "behavior.stdout.txt",
+      "stderr": "behavior.stderr.txt"
+    },
+    {
+      "member": "frontmatter",
+      "argv": [
+        "/usr/bin/python3",
+        "/home/alexturner/verifiable-practice/vp/artefacts/R-000001/skill-validator.py",
+        "/home/alexturner/verifiable-practice/vp/artefacts/C-000001/before/source"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:08:06.668940+00:00",
+      "ended": "2026-10-19T12:08:06.695817+00:00",
+      "exit": 0,
+      "stdout": "frontmatter.stdout.txt",
+      "stderr": "frontmatter.stderr.txt"
+    },
+    {
+      "member": "diff-whitespace",
+      "argv": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "started": "2026-10-19T12:08:06.695828+00:00",
+      "ended": "2026-10-19T12:08:06.708063+00:00",
+      "exit": 0,
+      "stdout": "diff-whitespace.stdout.txt",
+      "stderr": "diff-whitespace.stderr.txt"
+    }
+  ],
+  "capture": "worker-controlled subprocess captures; wrapper success is not an aggregate test pass"
+}

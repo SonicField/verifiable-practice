@@ -1,0 +1,10 @@
+{
+  "inventory": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/unit-inventory.json",
+  "coverage_input": "/home/alexturner/verifiable-practice/vp/artefacts/R-000004/coverage-complete.md",
+  "source": "/home/alexturner/verifiable-practice",
+  "expected_units": 540,
+  "missing": [],
+  "wrong_digests": [],
+  "duplicates": [],
+  "source_errors": []
+}

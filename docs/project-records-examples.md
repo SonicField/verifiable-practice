@@ -1,5 +1,7 @@
 # Worked Record Traces
 
+These traces illustrate the project planning and record layer of [VP's full quality management method](how-vp-works.md), across different artefact types.
+
 These are illustrative histories, not measurements of `parallel_gc`, `honest`
 or this repository. IDs and outcomes below are fictional. Tables show the
 essential fields and links; they are not complete conformant project bundles.
