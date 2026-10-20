@@ -4,21 +4,20 @@ This package was extracted from NBS Framework revision `a1084a3` on 2026-09-24.
 
 The current VP method is a [full project quality management system for human–AI collaboration](docs/how-vp-works.md). The extraction inventory below records its original provenance. Later extensions introduced portable owner, worker and independent auditor responsibilities, controlled project planning and record management. Those current responsibilities are distinct from the source framework's excluded persistent-team implementations.
 
-## Included
+## Retained Material and Extraction Sources
 
-The original “Why NBS” essay and the eight top-level concepts that concern human–AI software reasoning were adapted. The generic playbooks were derived from the original review, audit, investigation, debugger, discovery, recovery, document-analysis, document-planning, document-description, and PTE command documents.
+The original “Why NBS” essay and selected concepts concerning human–AI software reasoning were adapted. The retained generic playbooks derive from the original review, audit, investigation, debugger, discovery, recovery, document-analysis, document-planning and document-description commands. This inventory describes current retained material; earlier inventories remain in Git history.
 
 | Core material | Source material |
 |---------------|-----------------|
 | `WHY.md` | `docs/framework/Why-NBS.md` |
-| `concepts/` | Directly under the source `concepts/`, except `coordination.md` |
+| `concepts/` | Selected documents directly under the source `concepts/` |
 | `playbooks/review.md` | `claude_tools/nbs.md` and `docs/framework/nbs-review.md` |
 | `playbooks/code-audit.md` | `claude_tools/nbs-audit.md` and `docs/framework/nbs-audit.md` |
 | `playbooks/investigation.md` | `claude_tools/nbs-investigation.md` |
 | `playbooks/debugging.md` | `claude_tools/nbs-gdb.md` |
 | Discovery and recovery playbooks | Corresponding `claude_tools/nbs-*.md` files |
 | Document playbooks | `claude_tools/nbs-doc-*.md` |
-| PTE playbook | `claude_tools/nbs-pte.md` |
 | `docs/how-vp-works.md` | `docs/framework/overview.md` and `docs/getting-started/01-what-nbs-is.md` |
 | `docs/review-and-audit.md` | `docs/framework/nbs-review.md` and `docs/framework/nbs-audit.md` |
 | `docs/discovery-and-recovery.md` | `docs/framework/discovery.md` |

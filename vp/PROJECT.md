@@ -1,12 +1,12 @@
 # Verifiable Practice: Adoption Charter
 
-**As of:** 2026-10-20 08:13:43 UTC
+**As of:** 2026-10-20 20:36:14 UTC
 **Owner:** commissioning human user; account alexturner is environment attribution.
 **Mandate:** [D-000001](records/decisions/D-000001/record.md) and
 [transcribed current instruction](artefacts/D-000001/authority.md).
 **Worker:** Codex /root in this adoption invocation.
 **Record conformance start:** present adoption, not historical reconstruction.
-**Conformance verdict:** A-000006 conformant for its exact frozen prospective scope; S2 accepted D-000020. Post-exit/checkpoint projections are later authorised records, not an extension of assessed input.
+**Conformance verdict:** A6historicalexactfreeze; currentS3changedcandidateD22/D23 requiresfreshA7gatependingD24.
 
 ## Goal, Scope and Legacy Boundary
 
@@ -121,3 +121,15 @@ A-000006/F-001 remains original open advisory, accepted with sourced [V-000012 c
 ## Actual version-control handoff
 
 [V-000011](records/events/V-000011/record.md) records full-method checkpoint c74c9ee471103e14a5e5859a145f4a0c99a57809 and verifiedinitialbundle; latestreceiptcontainingcommit/finalcompletecopy/Gitbundle identity is external in its mandatoryverifiedcompletionmanifest, avoiding self-commit claims. Source/ownedvpbytes together, originalfailuresretained; no remoteoperation, newA6scope or date-renewal.
+
+## Active semantic removal stage 2026-10-20 20:31:05 UTC
+
+D22/S3/C6/H10/E12/R12commission owner-authorised removal of dedicatedgrammar and active references, with substantiveclaritymap/criteria beforeaction. Gitbaseline eb83267ff4598e4400bc08be8fceef98e467806f and perfile/viewidentities C6before.json provide historicalrecovery; no archive copy ofobsolete tracked docs. New productacceptance requires meaningfulQ1–Q8/evidence and freshindependentProjectAudit; priorA6/R8verdicts exacthistoricalscope V13. Currentstagebudget90minworker+two20minaudits, effective26OctUTC/earlier relevanttrigger.
+
+## Tracked-document custody selection under D-000022
+
+For this stage the owner selects Git history for obsolete tracked material. Exactcommit/path/blob/SHA and completepatch establish before/afterinspectability; extra archive copies are unnecessary. Auditinputs may resolve a fixed Git snapshot and verifiedindependentlylocatedGitbundle instead of another copied source tree. This is repositorypolicy using optionalGit, not a new portableframeworksoftware requirement. Existing earlier sealed evidence/copies retain meaning and are notmassdeleted. New unique rawoutcomes/records remain owned/versioncontrolled; commit snapshot for audit is a candidate checkpoint, notstage acceptance.
+
+## Semantic retirement stage
+
+D22ownerexplicitsemanticremoval/S3Q1–Q8plannedbeforeactions; C6/R12meaningfulresponsibilitymap, sourcechecks/deletedGitbyteidentity; D23retainsboundedcandidate. Ordinary-Englishcontractquestionsroute existingauthority/acceptance/verification; no renamedgrammar. A7D24freshProjectAuditmandatorygate, first20minroundpending. Gitbaseline/perpathOID/SHA+patch/history suppliesobsolete-sourcecustody; fixedGitcandidate/index/bundle avoidsdirectorypacketreplication. Standard1.0 unchanged. S3budget90minworker+two20minrounds, effectivebackground26OctUTC.

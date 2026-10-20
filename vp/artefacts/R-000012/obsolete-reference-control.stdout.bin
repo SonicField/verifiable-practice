@@ -1,0 +1,18 @@
+{
+  "files": 69,
+  "hits": [
+    {
+      "path": "docs/document-work.md",
+      "line": 68,
+      "text": "Use PTE through concepts/pte.md."
+    }
+  ],
+  "errors": [
+    {
+      "path": "docs/document-work.md",
+      "line": 68,
+      "text": "Use PTE through concepts/pte.md."
+    }
+  ],
+  "scope": "all maintained product Markdown only; immutablehistoricalrecords/rawsnapshots/requiredremovalprovenance are not activeinstruction"
+}

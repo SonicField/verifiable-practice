@@ -1,0 +1,22 @@
+{
+  "executable": {
+    "path": "/usr/bin/python3",
+    "resolved": "/usr/bin/python3.9",
+    "bytes": 68488,
+    "sha256": "d764e5d452410c8e7f1fc6b449dbc4880b53df736222c7c3e9900c914e721935"
+  },
+  "version": "3.9.25 (main, Aug 13 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+  "dependencies": "dependencies-before.json",
+  "instrument": {
+    "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000012/capture.py",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000012/capture.py",
+    "bytes": 5262,
+    "sha256": "7128cfd76b2885b5c2486e6771dd5b52ec2a0e9804ad1aa078e5eed403093002"
+  },
+  "helper": {
+    "path": "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/capture.py",
+    "resolved": "/home/alexturner/verifiable-practice/vp/artefacts/R-000008/capture.py",
+    "bytes": 11025,
+    "sha256": "c8b3ef7dc05d19877ee486f5e8d12bd4933100b29bedf872d1220ed49db44e57"
+  }
+}

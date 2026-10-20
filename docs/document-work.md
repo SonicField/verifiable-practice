@@ -34,6 +34,33 @@ Analogies can reduce cognitive load, but every analogy has a break point. State 
 
 See [Document Description](../playbooks/document-description.md).
 
-## Precision When Needed
+## Clear and Testable Requirements
 
-Natural language is appropriate for rationale and explanation. Contracts, invariants, state transitions, and failure behaviour may need [Precise Technical English](../concepts/pte.md). Precision is local: do not make an entire document mechanical when only one section is ambiguous.
+Use ordinary English to express requirements. A consequential clause needs enough meaning for another reader to identify the permitted behaviour and an observable acceptance or failure check. Apply this review to interfaces, invariants, state transitions, failure behaviour and acceptance criteria, as well as implementation specifications.
+
+Check the information that matters to the clause:
+
+- Who performs the action, and who has authority to approve it?
+- What inputs, outputs or states do the technical terms identify?
+- Under which conditions does the requirement apply?
+- Which ordering, deadline or quantity affects the outcome?
+- What happens on failure, including any retry or escalation?
+- What observation would distinguish compliance from a defect?
+
+Identify whether a clause is a requirement, recommendation or option. The adopted project standard defines those distinctions; its meanings do not depend on capitalisation.
+
+Define a term when different interpretations could change a choice or test. State timing and quantities when the outcome depends on them. Split or rewrite a sentence when its actors, conditions or ordering are unclear. Readability and checkable meaning determine whether the wording succeeds; a prescribed capitalisation, sentence pattern or vocabulary does not establish that result.
+
+Use the project's existing [planning and record contract](../standards/project-records.md): the charter and stage define authority and acceptance criteria; decisions record selected requirements and their sources; protocols record inputs, checks and thresholds; runs record actual outcomes. [Document Analysis](../playbooks/document-analysis.md) checks whether the wording supports the intended decision or action. A Project Auditor checks the records and evidence support under its separate commission.
+
+When the owner's intended behaviour or threshold is unresolved, identify the consequential ambiguity and ask the owner. Record the answer and its authority before dependent work proceeds. A worker must not invent a value to make a requirement appear complete. An experiment can test a selected mechanism; the experiment cannot grant permission or choose a reserved goal.
+
+### Worked Review Scenarios
+
+These are illustrative requirements and expected review responses, not reports of executed reader experiments.
+
+**Failure response.** “Retry failed requests” leaves the actor, eligible failures and limit unclear. With owner-confirmed values, a checkable clause could read: “The request worker retries a timed-out request at most twice. The request worker reports failure to the caller after the second unsuccessful retry. The request worker does not retry an authorisation rejection.” A check observes the attempts and caller outcome for each failure class. Without those confirmed values, the correct review response is to ask which failures permit retries and what limit applies.
+
+**Timing and quantity.** “Write the results soon” supplies no acceptance boundary. An owner-confirmed requirement could read: “The results writer writes one result file for each completed run before the stage review begins. The review cannot accept a run whose result file is missing.” A check compares completed run IDs with identified result files at the review boundary. The requirement does not invent a duration when an ordering constraint is sufficient.
+
+**Authority and uncertainty.** “Use a faster method if necessary” does not establish a performance threshold or permission to change a reserved method. Record the unknown threshold and the owner's method constraint. Ask for the missing decision before changing the method. Preserve any authorised measurement as evidence for that decision; a faster result does not itself authorise the change.

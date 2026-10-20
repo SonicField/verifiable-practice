@@ -77,7 +77,7 @@ Read only the references needed for the current task:
 | Audit project records and justification (`project`) or respond to findings | [Project Audit and Remediation](playbooks/record-audit.md), [Audit Request](templates/project-records/audit-request.md), [Audit Report](templates/project-records/audit.md), and [Worker Response](templates/project-records/audit-response.md) |
 | Analyse a document's claims and incentives | [Document Analysis](playbooks/document-analysis.md) and [Rhetoric](concepts/rhetoric.md) |
 | Plan or explain a document | [Document Planning](playbooks/document-planning.md) or [Document Description](playbooks/document-description.md) |
-| Remove ambiguity from a contract | [Precise Technical English](concepts/pte.md) and its [playbook](playbooks/precise-technical-english.md) |
+| Clarify a requirement or contract | [Document Work](docs/document-work.md#clear-and-testable-requirements), supported by [Document Analysis](playbooks/document-analysis.md) |
 
 Do not load every reference by default. Begin with the smallest applicable set and follow links only when they affect the task.
 

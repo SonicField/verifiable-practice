@@ -6,6 +6,13 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The
 
 ## Unreleased
 
+### Removed
+
+- Dedicated constrained-English concept and playbook, their routes and active
+  references. Ordinary-English requirement review now connects consequential
+  ambiguities, actor/condition/failure meaning and observable checks to the
+  existing planning, authority and evidence records.
+
 ### Added
 
 - Full project quality management identity and lifecycle in README, WHY,

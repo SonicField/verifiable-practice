@@ -1,0 +1,44 @@
+{
+  "observations": [
+    {
+      "path": "concepts/pte.md",
+      "locator": "eb83267ff4598e4400bc08be8fceef98e467806f:concepts/pte.md",
+      "blob": "e4178c34d2a49d6e3114d6e7a61edcd70c661fa1",
+      "argv": [
+        "/usr/bin/git",
+        "show",
+        "eb83267ff4598e4400bc08be8fceef98e467806f:concepts/pte.md"
+      ],
+      "exit": 0,
+      "executable_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+      "executable_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+      "raw_bytes_retained": "existing Gitblob, notduplicatedasarchivefile",
+      "bytes": 6876,
+      "sha256": "bc87d962cde2e9042b7af6a7f3a1cb3f4d41f1ac8d757bbc08704046160cd3f3",
+      "expected_sha256": "bc87d962cde2e9042b7af6a7f3a1cb3f4d41f1ac8d757bbc08704046160cd3f3",
+      "stderr": "",
+      "criterion_met": true
+    },
+    {
+      "path": "playbooks/precise-technical-english.md",
+      "locator": "eb83267ff4598e4400bc08be8fceef98e467806f:playbooks/precise-technical-english.md",
+      "blob": "b74bee5db8daa18149638dc1896d1f0ec653abb6",
+      "argv": [
+        "/usr/bin/git",
+        "show",
+        "eb83267ff4598e4400bc08be8fceef98e467806f:playbooks/precise-technical-english.md"
+      ],
+      "exit": 0,
+      "executable_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+      "executable_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+      "raw_bytes_retained": "existing Gitblob, notduplicatedasarchivefile",
+      "bytes": 1530,
+      "sha256": "cf8b548d1ce5863b6db7a9e54753d24bbfca40c7d7ddf55a918a87449bbd2a8a",
+      "expected_sha256": "cf8b548d1ce5863b6db7a9e54753d24bbfca40c7d7ddf55a918a87449bbd2a8a",
+      "stderr": "",
+      "criterion_met": true
+    }
+  ],
+  "errors": [],
+  "scope": "exact deleted trackedbytes recoverable from fixedGitbaseline; no replicaobsolete source documents created"
+}

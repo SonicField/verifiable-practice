@@ -68,8 +68,7 @@ These concepts support the complete management method:
 4. [Bullshit Detection](concepts/bullshit-detection.md)
 5. [Verification Cycle](concepts/verification-cycle.md)
 6. [Zero-Code Contract](concepts/zero-code-contract.md)
-7. [Precise Technical English](concepts/pte.md)
-8. [Engineering Standards](concepts/engineering-standards.md)
+7. [Engineering Standards](concepts/engineering-standards.md)
 
 ## This Repository's Records
 
@@ -94,7 +93,6 @@ Playbooks turn the concepts into repeatable work:
 | [Document Analysis](playbooks/document-analysis.md) | A document's stated purpose may differ from what it actually optimises |
 | [Document Planning](playbooks/document-planning.md) | An important document needs a clear outcome and audience before drafting |
 | [Document Description](playbooks/document-description.md) | You understand a system but need to explain it clearly |
-| [Precise Technical English](playbooks/precise-technical-english.md) | A contract, state machine, or requirement cannot tolerate ambiguity |
 
 ## Documentation
 
@@ -106,7 +104,7 @@ The documentation explains the complete method and its components for human and 
 | [Review and Audit](docs/review-and-audit.md) | Project Audit, Code Audit and lighter reasoning review have separate scopes and verdicts |
 | [Discovery and Recovery](docs/discovery-and-recovery.md) | The boundary between learning and controlled mutation |
 | [Investigations](docs/investigations.md) | Hypotheses, isolation, evidence, and honest verdicts |
-| [Document Work](docs/document-work.md) | Analysis, planning, description, and local precision |
+| [Document Work](docs/document-work.md) | Analysis, planning, description and clear, testable requirements |
 | [Testing AI Behaviour](docs/testing-ai-behaviour.md) | Scenario isolation, oracles, adversarial cases, and stochastic results |
 | [Skill Architecture](docs/skill-architecture.md) | Progressive disclosure, platform adapters, and maintenance |
 | [Project Records](docs/project-records.md) | Planning, decision history, custody and finite validity |
