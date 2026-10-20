@@ -4,10 +4,10 @@
 **Type:** stage
 **Created:** 2026-10-20 20:31:05 UTC
 **Author/operator:** Codex worker /root
-**Status:** open
+**Status:** accepted; sealed under D-000025
 **Origin:** [D-000022](../../decisions/D-000022/record.md)
 **Goal served:** [D-000001](../../decisions/D-000001/record.md)
-**Sealed:** open
+**Sealed:** 2026-10-20 20:48:07 UTC
 
 ## Intended outcome and audience
 
@@ -26,3 +26,7 @@ Human/AI readers can state, clarify and check material requirements using ordina
 Q1 two obsolete documents absent; Q2 no active technique-name/path routes/mentions; Q3 all seven substantive clarity responsibilities have meaningful ordinary-English controls/locators; Q4 owner ambiguity/unknowns and empirical-versus-authority distinctions explicit; Q5 full management/audit/roles/storage narrative unchanged/coherent with seven foundations; Q6 all current product links/fences/routes/frontmatter pass; Q7 entire change inspectable through base+patch and exact candidate, deleted files recoverable inGit without archives; Q8 all current units trace through choices/evidence/root/finite validity, old verdicts historical, independent Project Audit acceptance gate satisfied. No claim of general grammar uselessness, reader population improvement or guaranteed AI adherence.
 
 Budget90minworker+two20minauditrounds; extension requires recorded delegated exception before overrun. Owner user, worker /root; scope authority D22/rootD1. Effective dependency deadline26OctUTC/earlier triggers. No background process or compiled build. Reversal baseline Git paths/patch under new decision/event; required history remains. Open until actual evidence/independent gate/exitdecision.
+
+## Actual exit at 2026-10-20 20:48:07 UTC
+
+Accepted D25 after R12 semantic responsibility/dependency analysis, nine expected-status members with actual controls and Git deleted-byte recovery, D23 retention, and fresh A7 conformant exact freeze `2026-10-20T20:41:17.391502+00:00` at `c17d269bfafcda229ce9fe8734d4709499584fa7`. Q1–Q8 are accounted for in D25. No compiled build, actual reader experiment or universal usefulness claim. The failed custody preparation and corrected attempt remain disclosed in designated A7 outer preparation. Source stays unchanged at R12 identities; later views/receipt are outside the audit snapshot. Within the 90-minute worker plus first 20-minute audit allocation. Review by 26 October UTC or earlier trigger; receipt/custody follow V14.

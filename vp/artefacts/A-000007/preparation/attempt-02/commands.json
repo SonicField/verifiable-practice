@@ -1,0 +1,152 @@
+[
+  {
+    "label": "head",
+    "argv": [
+      "/usr/bin/git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/home/alexturner/verifiable-practice",
+    "started": "2026-10-20T20:41:16.112284+00:00",
+    "ended": "2026-10-20T20:41:16.116186+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdin_sha256": null,
+    "stdout_sha256": "6d4032bfb52447b8ac6fd571eb83afb2d47a66cea89b36cde2e3001190e95954",
+    "stdout_bytes": 41,
+    "stderr": ""
+  },
+  {
+    "label": "tree",
+    "argv": [
+      "/usr/bin/git",
+      "rev-parse",
+      "c17d269bfafcda229ce9fe8734d4709499584fa7^{tree}"
+    ],
+    "cwd": "/home/alexturner/verifiable-practice",
+    "started": "2026-10-20T20:41:16.118628+00:00",
+    "ended": "2026-10-20T20:41:16.122309+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdin_sha256": null,
+    "stdout_sha256": "2ba333285557049902fdf8207a45d2168a4a72f6a7d62ff676e0624fe940e8f4",
+    "stdout_bytes": 41,
+    "stderr": ""
+  },
+  {
+    "label": "tree-index",
+    "argv": [
+      "/usr/bin/git",
+      "ls-tree",
+      "-r",
+      "-z",
+      "c17d269bfafcda229ce9fe8734d4709499584fa7"
+    ],
+    "cwd": "/home/alexturner/verifiable-practice",
+    "started": "2026-10-20T20:41:16.124779+00:00",
+    "ended": "2026-10-20T20:41:16.138730+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdin_sha256": null,
+    "stdout_sha256": "aa884b99e96d94ed80be9b3d559b3bf5e15620b9d358099de68de946f218a6cd",
+    "stdout_bytes": 4502719,
+    "stderr": ""
+  },
+  {
+    "label": "blob-identities",
+    "argv": [
+      "/usr/bin/git",
+      "cat-file",
+      "--batch"
+    ],
+    "cwd": "/home/alexturner/verifiable-practice",
+    "started": "2026-10-20T20:41:16.160142+00:00",
+    "ended": "2026-10-20T20:41:16.310531+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdin_sha256": "0b02a9bcc157b835fb0f9a132dad02385dc9928e2b1e395ac3c6723cd9298569",
+    "stdout_sha256": "2f2a02be2bd9ba12e1298b1cfd000dc8e29d6814bcce19e1883b6cab556ccc7d",
+    "stdout_bytes": 66328979,
+    "stderr": ""
+  },
+  {
+    "label": "bundle-create",
+    "argv": [
+      "/usr/bin/git",
+      "bundle",
+      "create",
+      "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/A-000007.bundle",
+      "HEAD"
+    ],
+    "cwd": "/home/alexturner/verifiable-practice",
+    "started": "2026-10-20T20:41:16.482581+00:00",
+    "ended": "2026-10-20T20:41:17.372773+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdin_sha256": null,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stdout_bytes": 0,
+    "stderr": ""
+  },
+  {
+    "label": "head-after-bundle",
+    "argv": [
+      "/usr/bin/git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/home/alexturner/verifiable-practice",
+    "started": "2026-10-20T20:41:17.375415+00:00",
+    "ended": "2026-10-20T20:41:17.379278+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdin_sha256": null,
+    "stdout_sha256": "6d4032bfb52447b8ac6fd571eb83afb2d47a66cea89b36cde2e3001190e95954",
+    "stdout_bytes": 41,
+    "stderr": ""
+  },
+  {
+    "label": "bundle-verify",
+    "argv": [
+      "/usr/bin/git",
+      "bundle",
+      "verify",
+      "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/A-000007.bundle"
+    ],
+    "cwd": "/home/alexturner/verifiable-practice",
+    "started": "2026-10-20T20:41:17.381772+00:00",
+    "ended": "2026-10-20T20:41:17.385346+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdin_sha256": null,
+    "stdout_sha256": "aced31b2591f767b06a8117030e7052f3e4de6cd1a641eb5aac0407f013d9a26",
+    "stdout_bytes": 157,
+    "stderr": "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/A-000007.bundle is okay\n"
+  },
+  {
+    "label": "bundle-heads",
+    "argv": [
+      "/usr/bin/git",
+      "bundle",
+      "list-heads",
+      "/home/alexturner/vp-preserved/verifiable-practice/PTE-removal-20261020/A-000007.bundle"
+    ],
+    "cwd": "/home/alexturner/verifiable-practice",
+    "started": "2026-10-20T20:41:17.387815+00:00",
+    "ended": "2026-10-20T20:41:17.391303+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdin_sha256": null,
+    "stdout_sha256": "9dd9920ef744af1ed855c62de628fe1a5967ea8c99bde947f18a6231afc093b0",
+    "stdout_bytes": 46,
+    "stderr": ""
+  }
+]

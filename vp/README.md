@@ -17,8 +17,10 @@ Project Audit kind project uses independent contexts; technical work remains
 with the worker. Manifests identify all owned raw files and copies.
 
 
-## Accepted current baseline
+## Latest accepted stage
 
-[A-000003](records/audits/A-000003/record.md) reports conformant for the exact prospective freeze, accepted by [D-000009](records/decisions/D-000009/record.md). Start with STATE for current validity and COVERAGE for a unit-to-root trace. A-000001 inconclusive and A-000002 nonconformant remain their historical verdicts. Review current support by 2026-10-26 23:59:59 UTC or earlier trigger. [V-000006](records/events/V-000006/record.md) locates completed handoff preservation.
+[S-000003](records/stages/S-000003/record.md) is accepted under [D-000025](records/decisions/D-000025/record.md), following the owner-authorised semantic removal in D22 and R12's content evidence. [A-000007](records/audits/A-000007/record.md) is conformant for its fixed candidate and designated outer packet at 2026-10-20T20:41:17.391502+00:00; later exit/receipt views are outside that snapshot. Start with STATE for actual handoff progress and COVERAGE for unit-to-root traces.
+
+A7/F001's earlier-stage navigation labels are corrected in current views under [V-000015](records/events/V-000015/record.md); this is a bounded disposition, not independent closure. A3/D9 and A6/D20 are historical accepted snapshots. A1 inconclusive and A2/A4 nonconformant retain their original verdicts; A5 was withdrawn without assessment. Review current support by 2026-10-26 23:59:59 UTC or earlier trigger.
 
 The complete record root and practical-sized retained evidence are version controlled with the framework. [V-000007](records/events/V-000007/record.md) records the first checkpoint, follow-up receipt and independent bundle locator. Treat Git identities as source/custody evidence with the recorded authentication limits.

@@ -1,8 +1,8 @@
 # Current Maintained Artefact Coverage
 
-**As of:** 2026-10-20 20:36:14 UTC
+**As of:** 2026-10-20 20:48:07 UTC
 **Product snapshot:** R12source-inventory.json,69files/484units; completepatch C6change.patch against recordedimmutableGitbaseline.
-**Origin/retention:** D22/C6/D23/rootD1; independentS3A7gatepending.
+**Origin/retention:** D22/C6/D23/D25/rootD1; S3 accepted after A7 conformant at `2026-10-20T20:41:17.391502+00:00` for `c17d269bfafcda229ce9fe8734d4709499584fa7` and designated outer metadata.
 **Validity:** currentresearch/evidenceeffective26Oct2026UTC/earlier relevantsource/role/rubric/runtime/authority/custodytrigger.
 **Semantics:** changedunitreasons in R12semantic-analysis; oldunchangedregionreasons explicitlyretainedbelow. Currentviews/records/rawinputs each content-identifiedby fixedGitcandidateauditindex, no viewself-hash.
 
@@ -503,3 +503,9 @@
 ## Operational records and raw evidence
 
 All current record IDs/canonicalmetadata/root/successors indexedLEDGER; each record has author/time/status/origin/root and appropriateinputscope. Current views and newlymaintainedoperations retainedunder D22/S3/C6/D23/D24/H10/E12/R12/V13/rootD1; theycannotextend A6oldfreeze. Exact fixedGitcandidateauditindex identifies everycurrentview/record/rawfile bypath/blob/SHA, owner/meaning/retention. Oldsealedrecords/packets are originalhistoricaldata, not activegrammarrecommendations. No duplicateoldsourcearchive introduced; requirednewrecords identifyremovedPTE. Nativecontrolinputs intentionallycontainplantedobsolete/brokenreferences as negativeevidence, not instruction. Manifests identify each owning raw directory; currentviews cannotself-digest. Effective26OctUTC/earlier statedtrigger, projectlife+365daysretention.
+
+## Accepted stage and later handoff projections
+
+The unchanged 69-file/484-unit product inventory above remains R12's exact source. A7 independently assessed the fixed candidate plus designated outer preparation; its own report/assessment, D25 exit, S3 seal, V14 receipt and later current views are authorised post-freeze bookkeeping, not additional A7-assessed source. Each is owned by its canonical record or A7/V14 manifest and covered by the completed Git checkpoint/index identified in V14's external completion manifest. Root D1, effective 26 October UTC/earlier trigger, retention life plus 365 days. The original frozen current-view baseline remains in the fixed candidate Git tree.
+
+V15 owns the sourced post-audit README/ledger label correction and advisory disposition; D25 authorises it. Original current-view baseline hashes/locators are in V15 and the fixed A7 candidate; later current-view identities are in V14’s completed Git index. A7/F001 remains advisory pending independent closure.

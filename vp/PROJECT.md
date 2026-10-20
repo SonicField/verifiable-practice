@@ -1,12 +1,12 @@
 # Verifiable Practice: Adoption Charter
 
-**As of:** 2026-10-20 20:36:14 UTC
+**As of:** 2026-10-20 20:48:07 UTC
 **Owner:** commissioning human user; account alexturner is environment attribution.
 **Mandate:** [D-000001](records/decisions/D-000001/record.md) and
 [transcribed current instruction](artefacts/D-000001/authority.md).
 **Worker:** Codex /root in this adoption invocation.
 **Record conformance start:** present adoption, not historical reconstruction.
-**Conformance verdict:** A6historicalexactfreeze; currentS3changedcandidateD22/D23 requiresfreshA7gatependingD24.
+**Conformance verdict:** A7 conformant for candidate `c17d269bfafcda229ce9fe8734d4709499584fa7` at `2026-10-20T20:41:17.391502+00:00` and designated outer inputs; later D25/V14 handoff projections are outside that snapshot.
 
 ## Goal, Scope and Legacy Boundary
 
@@ -133,3 +133,11 @@ For this stage the owner selects Git history for obsolete tracked material. Exac
 ## Semantic retirement stage
 
 D22ownerexplicitsemanticremoval/S3Q1–Q8plannedbeforeactions; C6/R12meaningfulresponsibilitymap, sourcechecks/deletedGitbyteidentity; D23retainsboundedcandidate. Ordinary-Englishcontractquestionsroute existingauthority/acceptance/verification; no renamedgrammar. A7D24freshProjectAuditmandatorygate, first20minroundpending. Gitbaseline/perpathOID/SHA+patch/history suppliesobsolete-sourcecustody; fixedGitcandidate/index/bundle avoidsdirectorypacketreplication. Standard1.0 unchanged. S3budget90minworker+two20minrounds, effectivebackground26OctUTC.
+
+## Accepted semantic removal stage at 2026-10-20 20:48:07 UTC
+
+D25 accepts S3 after R12 content checks and A7's separate conformant project audit. D22 records the owner mandate, generalised rationale and semantic plan; C6/Git retain exact before/after identities, not a duplicate obsolete-document archive. Ordinary-English requirement review now uses existing document methods and authority/acceptance/protocol/run records. The standard and roles remain unchanged. Failed audit-input packing is retained as an explicitly limited reconstruction alongside the corrected attempt. V14 completes local custody; later bookkeeping cannot expand the fixed audit verdict or renew review dates. Earlier stage descriptions above are historical.
+
+## Current navigation advisory disposition
+
+A7/F001 is corrected in current README/ledger labels under D25/V15, with original fixed candidate/report preserved. The open advisory awaits independent closure; acceptance does not assert that closure. A7 separately verifies the narrow A6/F001 descriptor/future-packet condition in its exact packet. Current STATE is the authority for handoff progress.
