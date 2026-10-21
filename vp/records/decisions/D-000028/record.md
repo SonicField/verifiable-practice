@@ -3,7 +3,8 @@
 **ID:** verifiable-practice:D-000028
 **Created:** 2026-10-21 16:06:02 UTC
 **Author/operator:** Codex /root, working AI/coordinator
-**Status:** open; audit commissioning only
+**Status:** sealed audit commissioning/result; local handoff requires matching receipt
+**Sealed:** 2026-10-21 16:14:26 UTC
 **Level:** C. An incorrect conformance assessment can obscure a binding control
 gap and cause significant rework. This does not lower earlier B work to C.
 **Authority:** human owner's current instruction: “Please use a 'new context'
@@ -77,3 +78,30 @@ Then check exact report/manifest custody and full containing-commit recovery
 outside worktree, retain native evidence and replica in external completion
 reference without circular in-record final commit identity. Until matching receipt,
 local custody completion remains conditional. This does not close A11/F001.
+
+## Terminal outcome and remaining action
+
+Fresh reader `/root/a11_handoff_cold_reader` read only
+c6937f896fd6a64c4cb10295e1adb8c0e7175ea9:vp/STATE.md and matched input SHA256
+`282e45d488f2a1593eda33bda797bcfba59a1bb8a95a0052733437496785a703`.
+Worker evaluation at16:14:26: PASS all four predeclared criteria. Answer identifies
+complete scoped C audit, open advisory/no mandatory findings, owner decision/no
+repair authority and matching containing revision/receipt prerequisite. Reader
+explicitly leaves detailed trigger/custody method and actual receipt unverified;
+not a population/comprehensiveness or independent conformance claim. Exact answer
+is unique under `vp/artefacts/D-000028/cold-reader/response.md` and its manifest.
+STATE bytes remain unchanged after this read.
+
+Worker custody check: sealed A11 report SHA256 matches, all11 unique assessment
+manifest sizes/digests match, and Git comparison shows no product changes from
+assessed c100fbd. Actual result PASS; no failed attempt in this coordinator check.
+Request recovery succeeded with no mismatches; final containing revision recovery
+is performed after sealing/commit and identified in the external completion
+reference with raw proof and verified replica. No circular self-commit assertion.
+
+Audit completed within20minutes; coordinator preparation/handoff within40minutes.
+No repair, re-audit, remote publication or new owner/product acceptance occurred.
+A11/F001 remains open advisory; original report/evidence and all earlier failed
+verdicts remain intact. Owner reviews report and selects any separately authorised
+response/independent closure assessment. Missing final receipt resumes only
+custody completion; it never silently closes or repairs the finding.

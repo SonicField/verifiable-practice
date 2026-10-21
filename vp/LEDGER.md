@@ -2,7 +2,7 @@
 
 | Record | State | Origin / purpose |
 |---|---|---|
-| [D28](records/decisions/D-000028/record.md) | C audit complete; handoff checks pending | Current owner's explicit fresh-context level-C Project Audit request |
+| [D28](records/decisions/D-000028/record.md) | Sealed C audit completion; receipt-conditioned handoff | Current owner; fresh A11, STATE reader/checks; F001 still open advisory |
 | [A11](records/audits/A-000011/record.md) | Sealed conformant at c100fbd, open advisory F001 | D28; immutable request d995976; no mandatory gaps established |
 | [C7](records/changes/C-000007/record.md) | Completed D terminology clarification; receipt-conditioned custody | Current owner; pre-action0639294, D26/D27/root custody |
 | [D26](records/decisions/D-000026/record.md) | Sealed accepted via D27 | Owner feedback; original D25/D1 at baseline |
