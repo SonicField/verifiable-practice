@@ -1,0 +1,4466 @@
+[
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+    "line": 14,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+    "line": 21,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+    "line": 28,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+    "line": 35,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+    "line": 42,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+    "line": 49,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+    "line": 56,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/change_proposal.yml",
+    "line": 11,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/change_proposal.yml",
+    "line": 18,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/change_proposal.yml",
+    "line": 25,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/change_proposal.yml",
+    "line": 32,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": ".github/ISSUE_TEMPLATE/change_proposal.yml",
+    "line": 39,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "CHANGELOG.md",
+    "line": 9,
+    "terms": [
+      "custody",
+      "recoverable",
+      "recovery"
+    ]
+  },
+  {
+    "path": "CHANGELOG.md",
+    "line": 13,
+    "terms": [
+      "trigger"
+    ]
+  },
+  {
+    "path": "CHANGELOG.md",
+    "line": 14,
+    "terms": [
+      "recovery",
+      "replica"
+    ]
+  },
+  {
+    "path": "CHANGELOG.md",
+    "line": 15,
+    "terms": [
+      "custody"
+    ]
+  },
+  {
+    "path": "CHANGELOG.md",
+    "line": 29,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "CHANGELOG.md",
+    "line": 32,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "CHANGELOG.md",
+    "line": 35,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "CHANGELOG.md",
+    "line": 44,
+    "terms": [
+      "mandatory"
+    ]
+  },
+  {
+    "path": "CHANGELOG.md",
+    "line": 49,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "CHANGELOG.md",
+    "line": 52,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "CHANGELOG.md",
+    "line": 67,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "CODE_OF_CONDUCT.md",
+    "line": 14,
+    "terms": [
+      "accepting"
+    ]
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "line": 3,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "ORIGIN.md",
+    "line": 5,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "ORIGIN.md",
+    "line": 9,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "ORIGIN.md",
+    "line": 19,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "ORIGIN.md",
+    "line": 23,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "ORIGIN.md",
+    "line": 44,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 3,
+    "terms": [
+      "accepts"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 5,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 7,
+    "terms": [
+      "independent",
+      "must",
+      "replica",
+      "required"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 17,
+    "terms": [
+      "conformant"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 23,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 27,
+    "terms": [
+      "independently"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 28,
+    "terms": [
+      "Accept",
+      "accept"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 29,
+    "terms": [
+      "expiry",
+      "successor"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 30,
+    "terms": [
+      "recover",
+      "replica"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 32,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 38,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 40,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 46,
+    "terms": [
+      "Independent",
+      "acceptable"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 48,
+    "terms": [
+      "expiry",
+      "independent"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 50,
+    "terms": [
+      "Conformance",
+      "acceptance",
+      "independent",
+      "must",
+      "recovery",
+      "replica",
+      "required"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 54,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 59,
+    "terms": [
+      "conformance",
+      "independent",
+      "must"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 88,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 89,
+    "terms": [
+      "Recovery",
+      "must",
+      "recovery"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 91,
+    "terms": [
+      "independently"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 92,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 105,
+    "terms": [
+      "Recovery",
+      "recovery"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 110,
+    "terms": [
+      "custody"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 114,
+    "terms": [
+      "Independent",
+      "independent"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 128,
+    "terms": [
+      "conformant"
+    ]
+  },
+  {
+    "path": "README.md",
+    "line": 134,
+    "terms": [
+      "independent",
+      "recovery"
+    ]
+  },
+  {
+    "path": "SECURITY.md",
+    "line": 18,
+    "terms": [
+      "recoverable"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 3,
+    "terms": [
+      "independent",
+      "recovery"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 12,
+    "terms": [
+      "conformance",
+      "independent"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 15,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 19,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 21,
+    "terms": [
+      "independence"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 23,
+    "terms": [
+      "acceptance",
+      "independent",
+      "replica",
+      "required",
+      "successor"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 25,
+    "terms": [
+      "Conformance",
+      "acceptance",
+      "conformance",
+      "must",
+      "replica",
+      "required"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 33,
+    "terms": [
+      "independently",
+      "reversible"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 39,
+    "terms": [
+      "D/H/E/R/A",
+      "acceptance",
+      "conformance",
+      "expiry",
+      "independent",
+      "recovery",
+      "reversed",
+      "trigger"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 41,
+    "terms": [
+      "custody",
+      "recoverable",
+      "recovery",
+      "replica"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 43,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 47,
+    "terms": [
+      "conforms"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 54,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 58,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 77,
+    "terms": [
+      "Recovery",
+      "recovery"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 78,
+    "terms": [
+      "conformant"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 94,
+    "terms": [
+      "Recovery",
+      "recovery"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 99,
+    "terms": [
+      "custody"
+    ]
+  },
+  {
+    "path": "SKILL.md",
+    "line": 103,
+    "terms": [
+      "Independent",
+      "independent"
+    ]
+  },
+  {
+    "path": "WHY.md",
+    "line": 3,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "WHY.md",
+    "line": 11,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "WHY.md",
+    "line": 15,
+    "terms": [
+      "acceptable",
+      "custody",
+      "independent",
+      "must",
+      "recovery"
+    ]
+  },
+  {
+    "path": "WHY.md",
+    "line": 21,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "WHY.md",
+    "line": 23,
+    "terms": [
+      "Independently"
+    ]
+  },
+  {
+    "path": "WHY.md",
+    "line": 26,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "WHY.md",
+    "line": 28,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "WHY.md",
+    "line": 64,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "WHY.md",
+    "line": 72,
+    "terms": [
+      "accepts"
+    ]
+  },
+  {
+    "path": "WHY.md",
+    "line": 74,
+    "terms": [
+      "accepted"
+    ]
+  },
+  {
+    "path": "WHY.md",
+    "line": 82,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "WHY.md",
+    "line": 107,
+    "terms": [
+      "acceptance",
+      "conformance",
+      "independent"
+    ]
+  },
+  {
+    "path": "WHY.md",
+    "line": 120,
+    "terms": [
+      "acceptance",
+      "required"
+    ]
+  },
+  {
+    "path": "WHY.md",
+    "line": 122,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "concepts/bullshit-detection.md",
+    "line": 3,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 3,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 17,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 27,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 31,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 36,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 43,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 53,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 55,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 66,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 81,
+    "terms": [
+      "MUST"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 89,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 92,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 96,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 108,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 171,
+    "terms": [
+      "independently"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 186,
+    "terms": [
+      "independently"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 187,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 236,
+    "terms": [
+      "Recover",
+      "recovery"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 258,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 348,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 494,
+    "terms": [
+      "acceptable"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 524,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 530,
+    "terms": [
+      "Recover"
+    ]
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 576,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/falsifiability.md",
+    "line": 19,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "concepts/falsifiability.md",
+    "line": 34,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "concepts/falsifiability.md",
+    "line": 36,
+    "terms": [
+      "Mandatory"
+    ]
+  },
+  {
+    "path": "concepts/falsifiability.md",
+    "line": 38,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "concepts/falsifiability.md",
+    "line": 54,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/goals.md",
+    "line": 3,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "concepts/goals.md",
+    "line": 21,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/goals.md",
+    "line": 23,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/goals.md",
+    "line": 29,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "concepts/verification-cycle.md",
+    "line": 26,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "concepts/verification-cycle.md",
+    "line": 40,
+    "terms": [
+      "independently"
+    ]
+  },
+  {
+    "path": "concepts/zero-code-contract.md",
+    "line": 5,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "concepts/zero-code-contract.md",
+    "line": 7,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/zero-code-contract.md",
+    "line": 13,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "concepts/zero-code-contract.md",
+    "line": 16,
+    "terms": [
+      "independent",
+      "must"
+    ]
+  },
+  {
+    "path": "concepts/zero-code-contract.md",
+    "line": 20,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "concepts/zero-code-contract.md",
+    "line": 21,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "concepts/zero-code-contract.md",
+    "line": 23,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "concepts/zero-code-contract.md",
+    "line": 61,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "docs/discovery-and-recovery.md",
+    "line": 1,
+    "terms": [
+      "Recovery"
+    ]
+  },
+  {
+    "path": "docs/discovery-and-recovery.md",
+    "line": 3,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "docs/discovery-and-recovery.md",
+    "line": 5,
+    "terms": [
+      "Recovery"
+    ]
+  },
+  {
+    "path": "docs/discovery-and-recovery.md",
+    "line": 19,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "docs/discovery-and-recovery.md",
+    "line": 25,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "docs/discovery-and-recovery.md",
+    "line": 29,
+    "terms": [
+      "Recovery"
+    ]
+  },
+  {
+    "path": "docs/discovery-and-recovery.md",
+    "line": 31,
+    "terms": [
+      "Recovery"
+    ]
+  },
+  {
+    "path": "docs/discovery-and-recovery.md",
+    "line": 37,
+    "terms": [
+      "reversal"
+    ]
+  },
+  {
+    "path": "docs/discovery-and-recovery.md",
+    "line": 40,
+    "terms": [
+      "independent",
+      "must",
+      "recovery",
+      "replica"
+    ]
+  },
+  {
+    "path": "docs/discovery-and-recovery.md",
+    "line": 42,
+    "terms": [
+      "Recovery",
+      "recovery"
+    ]
+  },
+  {
+    "path": "docs/document-work.md",
+    "line": 3,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "docs/document-work.md",
+    "line": 10,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "docs/document-work.md",
+    "line": 39,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "docs/document-work.md",
+    "line": 54,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "docs/document-work.md",
+    "line": 56,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "docs/document-work.md",
+    "line": 64,
+    "terms": [
+      "accept",
+      "acceptance"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 3,
+    "terms": [
+      "acceptance",
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 5,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 9,
+    "terms": [
+      "Required"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 11,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 13,
+    "terms": [
+      "Independently",
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 16,
+    "terms": [
+      "acceptance",
+      "conformance"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 22,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 24,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 26,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 33,
+    "terms": [
+      "independent",
+      "reversal"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 34,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 36,
+    "terms": [
+      "acceptance",
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 37,
+    "terms": [
+      "Accept",
+      "conformance"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 39,
+    "terms": [
+      "independent",
+      "recover",
+      "recovery",
+      "replica"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 41,
+    "terms": [
+      "conformance",
+      "required"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 50,
+    "terms": [
+      "custody"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 56,
+    "terms": [
+      "Custody",
+      "acceptance",
+      "independent",
+      "replica",
+      "required"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 70,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 84,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 87,
+    "terms": [
+      "conformance",
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 91,
+    "terms": [
+      "conformance",
+      "independent",
+      "trigger"
+    ]
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 93,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 1,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 3,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 5,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 18,
+    "terms": [
+      "independence",
+      "required"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 25,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 38,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 41,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 47,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 48,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 52,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 62,
+    "terms": [
+      "recoverable",
+      "replica"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 63,
+    "terms": [
+      "custody",
+      "recovery"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 67,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 69,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 75,
+    "terms": [
+      "independence"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 79,
+    "terms": [
+      "recover"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 80,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 90,
+    "terms": [
+      "Independence"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 92,
+    "terms": [
+      "independence"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 93,
+    "terms": [
+      "independently"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 97,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 102,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 112,
+    "terms": [
+      "mandatory"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 117,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 131,
+    "terms": [
+      "acceptance",
+      "conformance"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 132,
+    "terms": [
+      "Required"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 133,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 134,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "docs/investigations.md",
+    "line": 22,
+    "terms": [
+      "reversible"
+    ]
+  },
+  {
+    "path": "docs/investigations.md",
+    "line": 26,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "docs/investigations.md",
+    "line": 29,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "docs/investigations.md",
+    "line": 31,
+    "terms": [
+      "trigger"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 8,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 16,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 20,
+    "terms": [
+      "must",
+      "recoverable"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 31,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 32,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 33,
+    "terms": [
+      "expiry"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 38,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 59,
+    "terms": [
+      "independent",
+      "replica"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 65,
+    "terms": [
+      "replica"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 69,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 82,
+    "terms": [
+      "expiry"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 87,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 92,
+    "terms": [
+      "custody"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 93,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 96,
+    "terms": [
+      "recoverable"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 97,
+    "terms": [
+      "recovery",
+      "replica"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 99,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 102,
+    "terms": [
+      "recoverable"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 105,
+    "terms": [
+      "recoverable"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 108,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 112,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "docs/project-records-design.md",
+    "line": 115,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 17,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 23,
+    "terms": [
+      "reversal"
+    ]
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 26,
+    "terms": [
+      "acceptance",
+      "replica"
+    ]
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 27,
+    "terms": [
+      "acceptance",
+      "conformant"
+    ]
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 30,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 32,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 36,
+    "terms": [
+      "recoverable"
+    ]
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 37,
+    "terms": [
+      "replica"
+    ]
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 44,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 61,
+    "terms": [
+      "Acceptance",
+      "acceptance",
+      "conformant"
+    ]
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 63,
+    "terms": [
+      "H/E/R"
+    ]
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 73,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 74,
+    "terms": [
+      "reversal"
+    ]
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 80,
+    "terms": [
+      "D/H/E/R/A"
+    ]
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 81,
+    "terms": [
+      "custody",
+      "expiry"
+    ]
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 89,
+    "terms": [
+      "expiry"
+    ]
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 94,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 8,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 18,
+    "terms": [
+      "custody",
+      "independent",
+      "recovery",
+      "replica"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 21,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 30,
+    "terms": [
+      "mandatory"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 32,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 33,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 34,
+    "terms": [
+      "accept",
+      "independent",
+      "must"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 37,
+    "terms": [
+      "Required"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 39,
+    "terms": [
+      "recovered"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 43,
+    "terms": [
+      "trigger"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 47,
+    "terms": [
+      "custody",
+      "recovery",
+      "required"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 48,
+    "terms": [
+      "required",
+      "successor"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 52,
+    "terms": [
+      "Accept",
+      "custody",
+      "independent",
+      "replica"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 55,
+    "terms": [
+      "Recover",
+      "accepted"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 56,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 57,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 58,
+    "terms": [
+      "custody",
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 59,
+    "terms": [
+      "Accept",
+      "independent",
+      "required",
+      "successor"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 62,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 63,
+    "terms": [
+      "conformance",
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 65,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 66,
+    "terms": [
+      "accept",
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 69,
+    "terms": [
+      "conformance",
+      "independent",
+      "independently"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 70,
+    "terms": [
+      "accept"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 71,
+    "terms": [
+      "recoverable",
+      "recovery",
+      "replica"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 72,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 76,
+    "terms": [
+      "accepting",
+      "must"
+    ]
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 79,
+    "terms": [
+      "Recovery"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 1,
+    "terms": [
+      "Custody"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 12,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 13,
+    "terms": [
+      "reversed"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 16,
+    "terms": [
+      "acceptance",
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 20,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 24,
+    "terms": [
+      "reversal"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 32,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 33,
+    "terms": [
+      "independent",
+      "recovery",
+      "replica"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 34,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 37,
+    "terms": [
+      "recoverable"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 38,
+    "terms": [
+      "Recovery",
+      "recovery",
+      "replica"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 40,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 44,
+    "terms": [
+      "recovery",
+      "replica"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 47,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 51,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 52,
+    "terms": [
+      "recover"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 61,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 64,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 65,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 70,
+    "terms": [
+      "expiry",
+      "trigger"
+    ]
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 71,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 3,
+    "terms": [
+      "acceptance",
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 6,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 9,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 11,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 17,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 19,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 39,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 53,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 63,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 65,
+    "terms": [
+      "custody",
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 69,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 77,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "docs/skill-architecture.md",
+    "line": 3,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "docs/skill-architecture.md",
+    "line": 26,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/skill-architecture.md",
+    "line": 38,
+    "terms": [
+      "Independent",
+      "custody",
+      "replica"
+    ]
+  },
+  {
+    "path": "docs/skill-architecture.md",
+    "line": 42,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "docs/skill-architecture.md",
+    "line": 43,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "docs/skill-architecture.md",
+    "line": 50,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "docs/skill-architecture.md",
+    "line": 52,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "docs/skill-architecture.md",
+    "line": 54,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "docs/skill-architecture.md",
+    "line": 59,
+    "terms": [
+      "custody"
+    ]
+  },
+  {
+    "path": "docs/testing-ai-behaviour.md",
+    "line": 12,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "docs/testing-ai-behaviour.md",
+    "line": 17,
+    "terms": [
+      "accepts"
+    ]
+  },
+  {
+    "path": "docs/testing-ai-behaviour.md",
+    "line": 23,
+    "terms": [
+      "Required"
+    ]
+  },
+  {
+    "path": "docs/testing-ai-behaviour.md",
+    "line": 26,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "docs/testing-ai-behaviour.md",
+    "line": 33,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "docs/testing-ai-behaviour.md",
+    "line": 66,
+    "terms": [
+      "must",
+      "replica"
+    ]
+  },
+  {
+    "path": "playbooks/audit-routing.md",
+    "line": 8,
+    "terms": [
+      "custody"
+    ]
+  },
+  {
+    "path": "playbooks/audit-routing.md",
+    "line": 11,
+    "terms": [
+      "conformance",
+      "independent"
+    ]
+  },
+  {
+    "path": "playbooks/audit-routing.md",
+    "line": 15,
+    "terms": [
+      "Mandatory"
+    ]
+  },
+  {
+    "path": "playbooks/audit-routing.md",
+    "line": 17,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "playbooks/audit-routing.md",
+    "line": 26,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "playbooks/audit-routing.md",
+    "line": 36,
+    "terms": [
+      "independent",
+      "must"
+    ]
+  },
+  {
+    "path": "playbooks/audit-routing.md",
+    "line": 42,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "playbooks/audit-routing.md",
+    "line": 43,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "playbooks/audit-routing.md",
+    "line": 44,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "playbooks/audit-routing.md",
+    "line": 45,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "playbooks/audit-routing.md",
+    "line": 48,
+    "terms": [
+      "conformant"
+    ]
+  },
+  {
+    "path": "playbooks/audit-routing.md",
+    "line": 57,
+    "terms": [
+      "conformance",
+      "independent",
+      "required"
+    ]
+  },
+  {
+    "path": "playbooks/code-audit.md",
+    "line": 9,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "playbooks/code-audit.md",
+    "line": 42,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "playbooks/code-audit.md",
+    "line": 59,
+    "terms": [
+      "conforming"
+    ]
+  },
+  {
+    "path": "playbooks/code-audit.md",
+    "line": 62,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "playbooks/code-audit.md",
+    "line": 77,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "playbooks/debugging.md",
+    "line": 31,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "playbooks/discovery-verification.md",
+    "line": 3,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "playbooks/discovery-verification.md",
+    "line": 28,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "playbooks/discovery-verification.md",
+    "line": 30,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "playbooks/discovery-verification.md",
+    "line": 32,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "playbooks/discovery.md",
+    "line": 3,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "playbooks/discovery.md",
+    "line": 37,
+    "terms": [
+      "recovered"
+    ]
+  },
+  {
+    "path": "playbooks/discovery.md",
+    "line": 52,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "playbooks/discovery.md",
+    "line": 54,
+    "terms": [
+      "Recovery",
+      "must"
+    ]
+  },
+  {
+    "path": "playbooks/document-description.md",
+    "line": 8,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "playbooks/document-description.md",
+    "line": 9,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "playbooks/document-planning.md",
+    "line": 14,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "playbooks/document-planning.md",
+    "line": 26,
+    "terms": [
+      "Required"
+    ]
+  },
+  {
+    "path": "playbooks/investigation.md",
+    "line": 17,
+    "terms": [
+      "reversible"
+    ]
+  },
+  {
+    "path": "playbooks/investigation.md",
+    "line": 19,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "playbooks/investigation.md",
+    "line": 22,
+    "terms": [
+      "H/E/R"
+    ]
+  },
+  {
+    "path": "playbooks/investigation.md",
+    "line": 23,
+    "terms": [
+      "H/E/R"
+    ]
+  },
+  {
+    "path": "playbooks/investigation.md",
+    "line": 24,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 11,
+    "terms": [
+      "custody",
+      "replica"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 19,
+    "terms": [
+      "conformance",
+      "must"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 21,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 22,
+    "terms": [
+      "acceptance",
+      "independent"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 23,
+    "terms": [
+      "acceptance",
+      "independent"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 24,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 27,
+    "terms": [
+      "D/H/E/R/A"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 46,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 51,
+    "terms": [
+      "recovery",
+      "replica"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 55,
+    "terms": [
+      "Accept"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 58,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 60,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 64,
+    "terms": [
+      "expiry"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 68,
+    "terms": [
+      "Recover"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 70,
+    "terms": [
+      "replica"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 73,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 76,
+    "terms": [
+      "replica"
+    ]
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 79,
+    "terms": [
+      "mandatory"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 3,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 8,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 15,
+    "terms": [
+      "custody"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 16,
+    "terms": [
+      "conformance",
+      "independent"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 21,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 24,
+    "terms": [
+      "replica"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 26,
+    "terms": [
+      "independently"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 29,
+    "terms": [
+      "Independence"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 32,
+    "terms": [
+      "independence"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 33,
+    "terms": [
+      "conformance",
+      "independent"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 43,
+    "terms": [
+      "custody"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 49,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 56,
+    "terms": [
+      "mandatory"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 81,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 83,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 90,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 92,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 99,
+    "terms": [
+      "recover"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 101,
+    "terms": [
+      "independently"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 106,
+    "terms": [
+      "recoverable"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 108,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 119,
+    "terms": [
+      "acceptance",
+      "mandatory"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 120,
+    "terms": [
+      "conformant"
+    ]
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 121,
+    "terms": [
+      "independently"
+    ]
+  },
+  {
+    "path": "playbooks/recovery.md",
+    "line": 1,
+    "terms": [
+      "Recovery"
+    ]
+  },
+  {
+    "path": "playbooks/recovery.md",
+    "line": 3,
+    "terms": [
+      "Recovery"
+    ]
+  },
+  {
+    "path": "playbooks/recovery.md",
+    "line": 7,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "playbooks/recovery.md",
+    "line": 9,
+    "terms": [
+      "Reversible"
+    ]
+  },
+  {
+    "path": "playbooks/recovery.md",
+    "line": 17,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "playbooks/recovery.md",
+    "line": 19,
+    "terms": [
+      "Reversal"
+    ]
+  },
+  {
+    "path": "playbooks/recovery.md",
+    "line": 32,
+    "terms": [
+      "reverse"
+    ]
+  },
+  {
+    "path": "playbooks/recovery.md",
+    "line": 34,
+    "terms": [
+      "independent",
+      "recovery",
+      "replica"
+    ]
+  },
+  {
+    "path": "playbooks/recovery.md",
+    "line": 38,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "playbooks/recovery.md",
+    "line": 41,
+    "terms": [
+      "recover"
+    ]
+  },
+  {
+    "path": "playbooks/recovery.md",
+    "line": 48,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "playbooks/recovery.md",
+    "line": 57,
+    "terms": [
+      "must",
+      "recovery"
+    ]
+  },
+  {
+    "path": "playbooks/review.md",
+    "line": 3,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "playbooks/review.md",
+    "line": 23,
+    "terms": [
+      "recover"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 5,
+    "terms": [
+      "Must"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 6,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 11,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 13,
+    "terms": [
+      "Custody",
+      "must"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 15,
+    "terms": [
+      "independent",
+      "replica"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 16,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 18,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 27,
+    "terms": [
+      "Conformance"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 29,
+    "terms": [
+      "mandatory"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 42,
+    "terms": [
+      "recovery",
+      "reversal"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 43,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 45,
+    "terms": [
+      "Required",
+      "independence"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 47,
+    "terms": [
+      "acceptance",
+      "independent"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 48,
+    "terms": [
+      "acceptance",
+      "recovery"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 50,
+    "terms": [
+      "reversed"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 53,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 54,
+    "terms": [
+      "D/H/E/R/A",
+      "conformance"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 55,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 61,
+    "terms": [
+      "independently"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 72,
+    "terms": [
+      "acceptance",
+      "recovery"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 75,
+    "terms": [
+      "reversal"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 79,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 85,
+    "terms": [
+      "Reversal"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 88,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 90,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 92,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 122,
+    "terms": [
+      "custody"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 130,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 133,
+    "terms": [
+      "replica"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 139,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 155,
+    "terms": [
+      "custody"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 160,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 162,
+    "terms": [
+      "must",
+      "successor"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 169,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 178,
+    "terms": [
+      "acceptance",
+      "independent"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 179,
+    "terms": [
+      "reversal"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 180,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 181,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 198,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 199,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 211,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 224,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 225,
+    "terms": [
+      "recovery",
+      "replica"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 233,
+    "terms": [
+      "trigger"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 234,
+    "terms": [
+      "expiry",
+      "required"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 238,
+    "terms": [
+      "custody"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 239,
+    "terms": [
+      "custody",
+      "recovery"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 240,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 246,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 256,
+    "terms": [
+      "custody",
+      "expiry"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 264,
+    "terms": [
+      "accepted"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 275,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 277,
+    "terms": [
+      "H/E/R"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 278,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 280,
+    "terms": [
+      "Custody"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 282,
+    "terms": [
+      "Custody",
+      "must"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 283,
+    "terms": [
+      "independent",
+      "replica"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 287,
+    "terms": [
+      "replica"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 289,
+    "terms": [
+      "replica"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 293,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 297,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 301,
+    "terms": [
+      "recovery",
+      "replica"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 303,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 305,
+    "terms": [
+      "replica"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 306,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 307,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 312,
+    "terms": [
+      "must",
+      "recover"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 316,
+    "terms": [
+      "custody"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 318,
+    "terms": [
+      "Recoverable"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 320,
+    "terms": [
+      "recoverable"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 321,
+    "terms": [
+      "independent",
+      "replica"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 322,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 323,
+    "terms": [
+      "recovery",
+      "replica"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 324,
+    "terms": [
+      "Recovery"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 331,
+    "terms": [
+      "Custody",
+      "independence",
+      "independent",
+      "replica"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 332,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 334,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 335,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 336,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 337,
+    "terms": [
+      "custody"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 347,
+    "terms": [
+      "Accept"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 348,
+    "terms": [
+      "Trigger",
+      "expiry"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 349,
+    "terms": [
+      "recovery",
+      "replica"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 351,
+    "terms": [
+      "conformance",
+      "independent"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 355,
+    "terms": [
+      "Conformance"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 358,
+    "terms": [
+      "conformant"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 362,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 366,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 367,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 373,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 384,
+    "terms": [
+      "recoverable",
+      "recovery"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 387,
+    "terms": [
+      "replica"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 392,
+    "terms": [
+      "replica"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 396,
+    "terms": [
+      "recovery",
+      "replica"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 398,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 402,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 405,
+    "terms": [
+      "independently"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 407,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 413,
+    "terms": [
+      "mandatory"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 419,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 420,
+    "terms": [
+      "acceptance",
+      "successor"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 421,
+    "terms": [
+      "conformance",
+      "mandatory"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 422,
+    "terms": [
+      "mandatory"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 426,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 427,
+    "terms": [
+      "conformance",
+      "independent"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 432,
+    "terms": [
+      "trigger"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 442,
+    "terms": [
+      "custody",
+      "replica"
+    ]
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 444,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 9,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 12,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 17,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 40,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 41,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 48,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 50,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit-request.md",
+    "line": 1,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit-request.md",
+    "line": 9,
+    "terms": [
+      "independence"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit-request.md",
+    "line": 14,
+    "terms": [
+      "replica"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit-request.md",
+    "line": 15,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit-request.md",
+    "line": 17,
+    "terms": [
+      "Required"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit-request.md",
+    "line": 19,
+    "terms": [
+      "acceptance",
+      "conformance"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit-request.md",
+    "line": 25,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit-request.md",
+    "line": 43,
+    "terms": [
+      "Custody"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit-request.md",
+    "line": 46,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit-request.md",
+    "line": 47,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit-request.md",
+    "line": 57,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit-request.md",
+    "line": 58,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit-response.md",
+    "line": 4,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit-response.md",
+    "line": 29,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit.md",
+    "line": 17,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit.md",
+    "line": 19,
+    "terms": [
+      "independence"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit.md",
+    "line": 20,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit.md",
+    "line": 21,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit.md",
+    "line": 23,
+    "terms": [
+      "custody",
+      "independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit.md",
+    "line": 28,
+    "terms": [
+      "Required",
+      "recovery"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit.md",
+    "line": 34,
+    "terms": [
+      "independent",
+      "mandatory"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit.md",
+    "line": 56,
+    "terms": [
+      "Conformant"
+    ]
+  },
+  {
+    "path": "templates/project-records/audit.md",
+    "line": 65,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "templates/project-records/change.md",
+    "line": 6,
+    "terms": [
+      "reversal"
+    ]
+  },
+  {
+    "path": "templates/project-records/change.md",
+    "line": 8,
+    "terms": [
+      "custody",
+      "expiry",
+      "required"
+    ]
+  },
+  {
+    "path": "templates/project-records/change.md",
+    "line": 10,
+    "terms": [
+      "D/H/E/R/A"
+    ]
+  },
+  {
+    "path": "templates/project-records/change.md",
+    "line": 15,
+    "terms": [
+      "acceptance",
+      "independent",
+      "mandatory"
+    ]
+  },
+  {
+    "path": "templates/project-records/change.md",
+    "line": 18,
+    "terms": [
+      "reversal"
+    ]
+  },
+  {
+    "path": "templates/project-records/change.md",
+    "line": 20,
+    "terms": [
+      "Acceptance"
+    ]
+  },
+  {
+    "path": "templates/project-records/coverage.md",
+    "line": 10,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "templates/project-records/decision.md",
+    "line": 32,
+    "terms": [
+      "required",
+      "trigger"
+    ]
+  },
+  {
+    "path": "templates/project-records/decision.md",
+    "line": 39,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "templates/project-records/decision.md",
+    "line": 41,
+    "terms": [
+      "required",
+      "successor"
+    ]
+  },
+  {
+    "path": "templates/project-records/event.md",
+    "line": 13,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "templates/project-records/event.md",
+    "line": 14,
+    "terms": [
+      "conform"
+    ]
+  },
+  {
+    "path": "templates/project-records/event.md",
+    "line": 16,
+    "terms": [
+      "Trigger"
+    ]
+  },
+  {
+    "path": "templates/project-records/event.md",
+    "line": 18,
+    "terms": [
+      "expiry"
+    ]
+  },
+  {
+    "path": "templates/project-records/event.md",
+    "line": 20,
+    "terms": [
+      "Trigger"
+    ]
+  },
+  {
+    "path": "templates/project-records/event.md",
+    "line": 30,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "templates/project-records/event.md",
+    "line": 33,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "templates/project-records/experiment.md",
+    "line": 12,
+    "terms": [
+      "required"
+    ]
+  },
+  {
+    "path": "templates/project-records/experiment.md",
+    "line": 33,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "templates/project-records/experiment.md",
+    "line": 38,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "templates/project-records/hypothesis.md",
+    "line": 19,
+    "terms": [
+      "Required"
+    ]
+  },
+  {
+    "path": "templates/project-records/hypothesis.md",
+    "line": 22,
+    "terms": [
+      "required",
+      "trigger"
+    ]
+  },
+  {
+    "path": "templates/project-records/hypothesis.md",
+    "line": 33,
+    "terms": [
+      "required",
+      "successor"
+    ]
+  },
+  {
+    "path": "templates/project-records/ledger.md",
+    "line": 12,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "templates/project-records/ledger.md",
+    "line": 13,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "templates/project-records/manifest.md",
+    "line": 5,
+    "terms": [
+      "custody",
+      "independent",
+      "replica"
+    ]
+  },
+  {
+    "path": "templates/project-records/manifest.md",
+    "line": 11,
+    "terms": [
+      "recovery",
+      "replica",
+      "successor"
+    ]
+  },
+  {
+    "path": "templates/project-records/plan.md",
+    "line": 9,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "templates/project-records/plan.md",
+    "line": 13,
+    "terms": [
+      "Independently"
+    ]
+  },
+  {
+    "path": "templates/project-records/project.md",
+    "line": 8,
+    "terms": [
+      "Conformance"
+    ]
+  },
+  {
+    "path": "templates/project-records/project.md",
+    "line": 13,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "templates/project-records/project.md",
+    "line": 24,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "templates/project-records/project.md",
+    "line": 30,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/project.md",
+    "line": 33,
+    "terms": [
+      "custody"
+    ]
+  },
+  {
+    "path": "templates/project-records/project.md",
+    "line": 34,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "templates/project-records/project.md",
+    "line": 36,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/project.md",
+    "line": 49,
+    "terms": [
+      "trigger"
+    ]
+  },
+  {
+    "path": "templates/project-records/project.md",
+    "line": 53,
+    "terms": [
+      "Recovery"
+    ]
+  },
+  {
+    "path": "templates/project-records/project.md",
+    "line": 56,
+    "terms": [
+      "independent",
+      "replica"
+    ]
+  },
+  {
+    "path": "templates/project-records/project.md",
+    "line": 57,
+    "terms": [
+      "recovery"
+    ]
+  },
+  {
+    "path": "templates/project-records/root.md",
+    "line": 5,
+    "terms": [
+      "Conformance"
+    ]
+  },
+  {
+    "path": "templates/project-records/root.md",
+    "line": 27,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/root.md",
+    "line": 30,
+    "terms": [
+      "independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/root.md",
+    "line": 31,
+    "terms": [
+      "conformance"
+    ]
+  },
+  {
+    "path": "templates/project-records/run.md",
+    "line": 35,
+    "terms": [
+      "Accepted",
+      "trigger"
+    ]
+  },
+  {
+    "path": "templates/project-records/run.md",
+    "line": 36,
+    "terms": [
+      "accepted"
+    ]
+  },
+  {
+    "path": "templates/project-records/run.md",
+    "line": 37,
+    "terms": [
+      "accept"
+    ]
+  },
+  {
+    "path": "templates/project-records/stage.md",
+    "line": 14,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "templates/project-records/stage.md",
+    "line": 29,
+    "terms": [
+      "reversal"
+    ]
+  },
+  {
+    "path": "templates/project-records/stage.md",
+    "line": 34,
+    "terms": [
+      "accept",
+      "acceptance"
+    ]
+  },
+  {
+    "path": "templates/project-records/stage.md",
+    "line": 36,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/stage.md",
+    "line": 37,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "templates/project-records/state.md",
+    "line": 10,
+    "terms": [
+      "accepted"
+    ]
+  },
+  {
+    "path": "templates/project-records/state.md",
+    "line": 12,
+    "terms": [
+      "trigger"
+    ]
+  },
+  {
+    "path": "templates/project-records/state.md",
+    "line": 17,
+    "terms": [
+      "expiry"
+    ]
+  },
+  {
+    "path": "templates/project-records/state.md",
+    "line": 21,
+    "terms": [
+      "Independent"
+    ]
+  },
+  {
+    "path": "templates/project-records/state.md",
+    "line": 25,
+    "terms": [
+      "mandatory"
+    ]
+  },
+  {
+    "path": "templates/project-records/state.md",
+    "line": 26,
+    "terms": [
+      "acceptance"
+    ]
+  },
+  {
+    "path": "templates/project-records/state.md",
+    "line": 27,
+    "terms": [
+      "successor"
+    ]
+  },
+  {
+    "path": "templates/project-records/workspace.md",
+    "line": 3,
+    "terms": [
+      "must"
+    ]
+  },
+  {
+    "path": "templates/project-records/workspace.md",
+    "line": 5,
+    "terms": [
+      "replica"
+    ]
+  },
+  {
+    "path": "templates/project-records/workspace.md",
+    "line": 10,
+    "terms": [
+      "required"
+    ]
+  }
+]

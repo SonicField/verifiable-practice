@@ -1,0 +1,79 @@
+[
+  {
+    "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000008-candidate.bundle",
+    "expected_sha256": "741ce7844ad71792ca3d1dcd13ae10c82f5949b0abe20a5b824125625124cbe2",
+    "actual_sha256": "741ce7844ad71792ca3d1dcd13ae10c82f5949b0abe20a5b824125625124cbe2",
+    "matches": true,
+    "verify_exit": 0
+  },
+  {
+    "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle",
+    "expected_sha256": "d6a700b563433ee68a3415a60b19c301f52e8b638141b0cae74154abf45abd67",
+    "actual_sha256": "d6a700b563433ee68a3415a60b19c301f52e8b638141b0cae74154abf45abd67",
+    "matches": true,
+    "verify_exit": 0
+  },
+  {
+    "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/trial-01.bundle",
+    "expected_sha256": "09fb3eb9fde9ba471154dcf33a132cd2943de7b23c6b992c56a0ce086d791bdc",
+    "actual_sha256": "09fb3eb9fde9ba471154dcf33a132cd2943de7b23c6b992c56a0ce086d791bdc",
+    "matches": true,
+    "verify_exit": 0
+  },
+  {
+    "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-baseline.bundle",
+    "expected_sha256": "40a51feef7cae5f9be37dbff0f544a0af1667e98ccca8656f26ab9934f0ffc66",
+    "actual_sha256": "40a51feef7cae5f9be37dbff0f544a0af1667e98ccca8656f26ab9934f0ffc66",
+    "matches": true,
+    "verify_exit": 0
+  },
+  {
+    "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-result.bundle",
+    "expected_sha256": "895fbc668493802f2eccc251c0ca226b628eb6d1f3bca1be9688ece5c8649d1f",
+    "actual_sha256": "895fbc668493802f2eccc251c0ca226b628eb6d1f3bca1be9688ece5c8649d1f",
+    "matches": true,
+    "verify_exit": 0
+  },
+  {
+    "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000009-candidate.bundle",
+    "expected_sha256": "d19da757b8e2cf7c04ecf25ef0d2382239a05d1d0cb10eec567b4e49354ed657",
+    "actual_sha256": "d19da757b8e2cf7c04ecf25ef0d2382239a05d1d0cb10eec567b4e49354ed657",
+    "matches": true,
+    "verify_exit": 0
+  },
+  {
+    "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000010-candidate.bundle",
+    "expected_sha256": "a3c39804a73d1014493e89e1c800d8fdad650a218faabf6e030d4ad6cf9d85da",
+    "actual_sha256": "a3c39804a73d1014493e89e1c800d8fdad650a218faabf6e030d4ad6cf9d85da",
+    "matches": true,
+    "verify_exit": 0
+  },
+  {
+    "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/c7-recovery.bundle",
+    "expected_sha256": "bb4f692a4752aa07ca18676f784aa1286d0918d3ff0397888c1fec6beab62bba",
+    "actual_sha256": "bb4f692a4752aa07ca18676f784aa1286d0918d3ff0397888c1fec6beab62bba",
+    "matches": true,
+    "verify_exit": 0
+  },
+  {
+    "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/a11-request-recovery.bundle",
+    "expected_sha256": "3383ec3100b2b7f75d1f731bb927c9de5240962dc14493a7e02d7283f912ea50",
+    "actual_sha256": "3383ec3100b2b7f75d1f731bb927c9de5240962dc14493a7e02d7283f912ea50",
+    "matches": true,
+    "verify_exit": 0
+  },
+  {
+    "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/completion-replica/sha256/f78f30593597131d9b85da58c4080b8f6fa80d6641393124254664ea9a9782bd/check.py",
+    "sha256": "f78f30593597131d9b85da58c4080b8f6fa80d6641393124254664ea9a9782bd",
+    "expected_sha256": "f78f30593597131d9b85da58c4080b8f6fa80d6641393124254664ea9a9782bd",
+    "hash_matches": true,
+    "primary_matches": true
+  },
+  {
+    "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/completion-replica/sha256/f9cd9583a043dd176a95ebee77b90248e8c98ab5d22a22bd377fffceb3d066f8/MANIFEST.md",
+    "sha256": "f9cd9583a043dd176a95ebee77b90248e8c98ab5d22a22bd377fffceb3d066f8",
+    "expected_sha256": "f9cd9583a043dd176a95ebee77b90248e8c98ab5d22a22bd377fffceb3d066f8",
+    "hash_matches": true,
+    "assessor_attempt01": "Guessed immutable primary metadata SHA-directory path absent; request identifies immutable replica, not that guessed primary. Retry checks supplied replica; no custody-loss inference."
+  }
+]

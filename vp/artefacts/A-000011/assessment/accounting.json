@@ -1,0 +1,281 @@
+{
+  "created_utc": "2026-10-21T16:08:47.929240+00:00",
+  "revision": "c100fbd7f7a735e8216156223c59aa97f9ad8fa6",
+  "tree": "602fc6af2237c80f61585c9d626232aa26fc84af",
+  "files": 244,
+  "bytes": 31745325,
+  "product_files": 69,
+  "components": {
+    "product": 69,
+    "views-workspace": 7,
+    "artefacts": 155,
+    "canonical-records": 13
+  },
+  "coverage_rows": 69,
+  "coverage_errors": [],
+  "coverage_extras": [],
+  "manifest_rows": 112,
+  "manifest_errors": [],
+  "successor_checks": [
+    {
+      "path": "vp/artefacts/A-000002/MANIFEST.md",
+      "original_sha256": "8ace026d40b1bb7707fad64cc55de9ea55f9f1c7d34faaeab3ebf7b4e670af3f",
+      "original_oid": "ab0700a713cd4226b143c088b200ae0d4ad70a7e",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/A-000003/MANIFEST.md",
+      "original_sha256": "d7dc1140c078b3b72751cb44767fecfb93287c232bd46a4f7b68a0e6bebd39b9",
+      "original_oid": "c89666482702a1100d1f96e24d867dab0c7cb8ee",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/A-000007/MANIFEST.md",
+      "original_sha256": "db0a416d651463d99f43dd31bc9dca7713bdf59906d594ca9f905c509ad7a0a7",
+      "original_oid": "d6ee5ef899cf3d2786c9bef9cf927e94787868b1",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/C-000001/MANIFEST.md",
+      "original_sha256": "71db04486a7815e658175b18a53a16e445cd6824cc7be5656d5a73761ed57c07",
+      "original_oid": "064958372bc78443c565ca2cf10a0091efcb1b45",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/C-000002/MANIFEST.md",
+      "original_sha256": "e818d62b1f0911df7f9ba25e2eb5bd278d084efd8e992b933dc8d8935b8ee022",
+      "original_oid": "b67ba6886aad2f91fea0cbef10ca67052d46d40f",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/C-000003/MANIFEST.md",
+      "original_sha256": "93f88fd1e09bfbdd01977d7a8ab644cfbc47ab99f4079facdf1cb3c717461d25",
+      "original_oid": "45ae2ee70b6d6178fd2e600a2a92abf532324acc",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/C-000004/MANIFEST.md",
+      "original_sha256": "b831002dfff8e8178311f50ced46185c2571adbb9b13d719d407c97b0bb874fa",
+      "original_oid": "0c1cd61961c8f096e8bface35f9ca3e5ff3a7f04",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/C-000005/MANIFEST.md",
+      "original_sha256": "ef6f38882c2e6f00f58fd2ff90cc09b3e6788223145f383cebf2d0b5916d43be",
+      "original_oid": "7e5983b04278df0dfbfd3cc4ee870f064183d5ac",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/C-000006/MANIFEST.md",
+      "original_sha256": "5f44ad4569185f4f917bb2a190fef7abc47c8937192e39b6955197a08a2ec0cd",
+      "original_oid": "e0a8d91500bf1b66bb15f445234aee4a77a71f41",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/D-000001/MANIFEST.md",
+      "original_sha256": "319b262c3eed813ef3c54c1f62d58365b2adcf7d9ddae0c9e1e64c96b4f30397",
+      "original_oid": "61d3775ddd5ca845bfbf7a919725035346ccafc9",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/D-000004/MANIFEST.md",
+      "original_sha256": "78b0e9abb840a1c72c7c391d91e65ad5bd9cc39e4c3a3a18f38078b185f4883e",
+      "original_oid": "81f98c7aafe7dfa57878d0f4c23344d2d6609417",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/D-000010/MANIFEST.md",
+      "original_sha256": "22e49837921be69034f683d90ca83f6c6453fcd8c9b38bd74ab1ce63b3b4c0dd",
+      "original_oid": "e0227070293ce98b9d5649da2df8bd1761eb2ba8",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/D-000012/MANIFEST.md",
+      "original_sha256": "c8cbd8e1e16e6c2021064a3b7da8e429e919a475b2d8c2a673f1e54ba8a6693d",
+      "original_oid": "9b672c3270a56bb7e80651400fed7055f948160c",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/D-000022/MANIFEST.md",
+      "original_sha256": "ff39534822541dab55a1e2a8f9cbe5c81dd0844588d7a9cfde09c2c09c6a4026",
+      "original_oid": "65da691c48999ed32c1962e54908162bc93c4bee",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/R-000001/MANIFEST.md",
+      "original_sha256": "e0b9f438f2add73a2687c64ccb5f95a4af39610e50c339672d6a89c920a11c8f",
+      "original_oid": "dd5522933a27eef8fe711140e4eda6431e7b4724",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/R-000002/MANIFEST.md",
+      "original_sha256": "034e891b4796111ae0f84d40fa298ab84ca8a55e4cdbd8c2ad9954565f4cacf1",
+      "original_oid": "a4615a2ddbcf9b1a87d410582c4b0196dfb5f625",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/R-000003/MANIFEST.md",
+      "original_sha256": "22351e706f78945bc01cb62bf255ebffe5c0c6bf1e94a9906abdf7eb33730689",
+      "original_oid": "a0c841b07ea7e561acd3e86d51378e5ce14c8cab",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/R-000004/MANIFEST.md",
+      "original_sha256": "7e08c29bbde8619d1a33d7c83105bb6150a02b15994882f9306510eeb97a7d52",
+      "original_oid": "d0cf2b36b482844c8ab63887820234329962cad9",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/R-000005/MANIFEST.md",
+      "original_sha256": "ead5541e3906a82cfceed18ccabe02c6d8b6d5d727992734ba47bf1fd02a3022",
+      "original_oid": "17848d59472af3f1c1f615c7a293162aae2539ee",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/R-000006/MANIFEST.md",
+      "original_sha256": "a5796d3e0c881e1a59d907a76a6873afe0f4e8dce2055ce77297781ff28cab36",
+      "original_oid": "1363ee08503aeda88f890f07ce7e1585c58e6faf",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/R-000007/MANIFEST.md",
+      "original_sha256": "0df5c102c4b370c0e8effdbfbc51190a886fc205f8873581e97dbf58e3021315",
+      "original_oid": "053ae02645bdb93b543b8ea124fa7c89b318f53b",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/R-000008/MANIFEST.md",
+      "original_sha256": "2382af7894c092eae9fd37d4d4c3dbe5c206c748fdc93ec0af49575492cf3c9e",
+      "original_oid": "d7f0199eb29d9b9f9d5be31001242f6a0fedb462",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/R-000009/MANIFEST.md",
+      "original_sha256": "2ff523cadd274fbcd112c4297fd5c084f23b0d6ab58914e10398646cef20125c",
+      "original_oid": "875c8ecb337838f635efa5c2b60bae5a79319904",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/R-000010/MANIFEST.md",
+      "original_sha256": "ca036f79b78ab1bc691b81a4e113f447da05115d3d74504ce38cd5988554d961",
+      "original_oid": "925698e5c54851bd6c3c7ee572d337d4c9450083",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/R-000011/MANIFEST.md",
+      "original_sha256": "1d9246395a5fb7c2290fa29adc5cfd10180ad79450856d289672e202268a7f63",
+      "original_oid": "3604058c059649d4e9ee1e8950add87b56f83d31",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/R-000012/MANIFEST.md",
+      "original_sha256": "043647e28b8fce7bd4eb21d4bfd74ea9c936594fdac3b302bbef9ce5d7be18ba",
+      "original_oid": "98619496eeb101a33cab98588fdd5ad73baac6b6",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/S-000001/MANIFEST.md",
+      "original_sha256": "df5763883cc143af9c836b647e21d8e25602c08161aea8a11748267a330d69bc",
+      "original_oid": "3eac93339246b5ae2713f1f7352691e4959a26b1",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/V-000006/MANIFEST.md",
+      "original_sha256": "904ea80db989d3cef2162c54beef803d6ddead4d372ea5cf079a32328689a32f",
+      "original_oid": "64c5e3720349d999f24098f7408f2c768ba03b00",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/V-000007/MANIFEST.md",
+      "original_sha256": "a5788a6598029607491a38d3fc968b782d907a53a6dd58c026c9176ae9034f19",
+      "original_oid": "00ca62e2d70a3f4f6ec15fe95b93e5c58e76cd05",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/V-000010/MANIFEST.md",
+      "original_sha256": "0093432fefa6c40713232a4bfcc53da7efccc0c308c348676a7230ec7e8e18a7",
+      "original_oid": "79a8970726ee39b8aa0d1642988534ace3466e25",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/V-000011/MANIFEST.md",
+      "original_sha256": "2b0bcb5ab6d809fea60a7167793becf40fba2666ffa221440fb257c7977a7225",
+      "original_oid": "2d484012b309ad70d65268e4bced3e7735e23974",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    },
+    {
+      "path": "vp/artefacts/V-000014/MANIFEST.md",
+      "original_sha256": "5005cca688b1af51d9e8bfa779fa088d1693e0b113a789856d7eae0c7f8ce314",
+      "original_oid": "96dfdf649998662c5e4fd6e4b1a6436d3f9594f7",
+      "sha_in_manifest": true,
+      "oid_in_manifest": true
+    }
+  ],
+  "links": 358,
+  "unresolved": [],
+  "product_changes_after_A10": [
+    "CHANGELOG.md",
+    "README.md",
+    "SKILL.md",
+    "WHY.md",
+    "docs/how-vp-works.md",
+    "docs/independent-record-audit.md",
+    "docs/project-records-design.md",
+    "docs/project-records-scenarios.md",
+    "docs/project-records.md",
+    "docs/review-and-audit.md",
+    "docs/skill-architecture.md",
+    "playbooks/audit-routing.md",
+    "playbooks/project-records.md",
+    "playbooks/record-audit.md",
+    "standards/project-records.md",
+    "templates/project-records/README.md",
+    "templates/project-records/audit-request.md",
+    "templates/project-records/audit-response.md",
+    "templates/project-records/audit.md",
+    "templates/project-records/build.md",
+    "templates/project-records/coverage.md",
+    "templates/project-records/manifest.md",
+    "templates/project-records/project.md",
+    "templates/project-records/root.md",
+    "templates/project-records/state.md"
+  ],
+  "SKILL_paths": [
+    "SKILL.md"
+  ],
+  "pte_paths": [],
+  "equal_product_groups": [],
+  "assessor_attempt01": "Broad successor keyword selected A8 assessment manifest absent at baseline; inspection exited before outputs. Retry selects only direct historical owner indexes; this is assessor selection error, no project custody finding.",
+  "assessor_link_correction": "Inspection concatenated empty root directory with slash, falsely flagging root-file links. Normalized repository-relative root paths; no source changed."
+}

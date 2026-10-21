@@ -1,0 +1,2150 @@
+[
+  {
+    "path": "CONTRIBUTING.md",
+    "line": 5,
+    "target": "CODE_OF_CONDUCT.md",
+    "resolves": true
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "line": 18,
+    "target": "SECURITY.md",
+    "resolves": true
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "line": 59,
+    "target": "LICENSE",
+    "resolves": true
+  },
+  {
+    "path": "ORIGIN.md",
+    "line": 5,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "ORIGIN.md",
+    "line": 50,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "ORIGIN.md",
+    "line": 51,
+    "target": "playbooks/record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "ORIGIN.md",
+    "line": 52,
+    "target": "docs/project-records-design.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 7,
+    "target": "SKILL.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 11,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 11,
+    "target": "WHY.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 12,
+    "target": "playbooks/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 12,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 12,
+    "target": "templates/project-records/README.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 13,
+    "target": "SKILL.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 32,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 42,
+    "target": "concepts/zero-code-contract.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 59,
+    "target": "playbooks/audit-routing.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 65,
+    "target": "concepts/goals.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 66,
+    "target": "concepts/falsifiability.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 67,
+    "target": "concepts/rhetoric.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 68,
+    "target": "concepts/bullshit-detection.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 69,
+    "target": "concepts/verification-cycle.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 70,
+    "target": "concepts/zero-code-contract.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 71,
+    "target": "concepts/engineering-standards.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 75,
+    "target": "vp/PROJECT.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 75,
+    "target": "vp/README.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 75,
+    "target": "vp/STATE.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 83,
+    "target": "playbooks/review.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 84,
+    "target": "playbooks/code-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 85,
+    "target": "playbooks/investigation.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 86,
+    "target": "playbooks/debugging.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 87,
+    "target": "playbooks/discovery.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 88,
+    "target": "playbooks/discovery-verification.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 89,
+    "target": "playbooks/recovery.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 90,
+    "target": "playbooks/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 91,
+    "target": "playbooks/record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 92,
+    "target": "playbooks/audit-routing.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 93,
+    "target": "playbooks/document-analysis.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 94,
+    "target": "playbooks/document-planning.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 95,
+    "target": "playbooks/document-description.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 103,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 104,
+    "target": "docs/review-and-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 105,
+    "target": "docs/discovery-and-recovery.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 106,
+    "target": "docs/investigations.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 107,
+    "target": "docs/document-work.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 108,
+    "target": "docs/testing-ai-behaviour.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 109,
+    "target": "docs/skill-architecture.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 110,
+    "target": "docs/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 111,
+    "target": "docs/project-records-design.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 112,
+    "target": "docs/project-records-examples.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 113,
+    "target": "docs/project-records-scenarios.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 114,
+    "target": "docs/independent-record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 138,
+    "target": "ORIGIN.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 142,
+    "target": "CONTRIBUTING.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 143,
+    "target": "CODE_OF_CONDUCT.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 144,
+    "target": "SECURITY.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 145,
+    "target": "CHANGELOG.md",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 146,
+    "target": "CITATION.cff",
+    "resolves": true
+  },
+  {
+    "path": "README.md",
+    "line": 147,
+    "target": "LICENSE",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 10,
+    "target": "vp/README.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 11,
+    "target": "vp/STATE.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 23,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 23,
+    "target": "playbooks/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 23,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 39,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 44,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 49,
+    "target": "playbooks/audit-routing.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 55,
+    "target": "playbooks/record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 67,
+    "target": "WHY.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 68,
+    "target": "concepts/goals.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 68,
+    "target": "playbooks/review.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 69,
+    "target": "concepts/falsifiability.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 69,
+    "target": "concepts/bullshit-detection.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 70,
+    "target": "concepts/verification-cycle.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 70,
+    "target": "concepts/engineering-standards.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 71,
+    "target": "concepts/zero-code-contract.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 72,
+    "target": "playbooks/audit-routing.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 73,
+    "target": "playbooks/code-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 74,
+    "target": "playbooks/investigation.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 75,
+    "target": "playbooks/debugging.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 76,
+    "target": "playbooks/discovery.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 76,
+    "target": "playbooks/discovery-verification.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 77,
+    "target": "playbooks/recovery.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 78,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 78,
+    "target": "playbooks/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 78,
+    "target": "templates/project-records/README.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 79,
+    "target": "playbooks/record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 79,
+    "target": "templates/project-records/audit-request.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 79,
+    "target": "templates/project-records/audit.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 79,
+    "target": "templates/project-records/audit-response.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 80,
+    "target": "playbooks/document-analysis.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 80,
+    "target": "concepts/rhetoric.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 81,
+    "target": "playbooks/document-planning.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 81,
+    "target": "playbooks/document-description.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 82,
+    "target": "docs/document-work.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 82,
+    "target": "playbooks/document-analysis.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 92,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 93,
+    "target": "docs/review-and-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 94,
+    "target": "docs/discovery-and-recovery.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 95,
+    "target": "docs/investigations.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 96,
+    "target": "docs/document-work.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 97,
+    "target": "docs/testing-ai-behaviour.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 98,
+    "target": "docs/skill-architecture.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 99,
+    "target": "docs/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 100,
+    "target": "docs/project-records-design.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 101,
+    "target": "docs/project-records-examples.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 102,
+    "target": "docs/project-records-scenarios.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 103,
+    "target": "docs/independent-record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 107,
+    "target": "CONTRIBUTING.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 107,
+    "target": "SECURITY.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 107,
+    "target": "CHANGELOG.md",
+    "resolves": true
+  },
+  {
+    "path": "SKILL.md",
+    "line": 107,
+    "target": "CODE_OF_CONDUCT.md",
+    "resolves": true
+  },
+  {
+    "path": "WHY.md",
+    "line": 26,
+    "target": "docs/independent-record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "WHY.md",
+    "line": 28,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "WHY.md",
+    "line": 28,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "WHY.md",
+    "line": 94,
+    "target": "README.md",
+    "resolves": true
+  },
+  {
+    "path": "WHY.md",
+    "line": 94,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "WHY.md",
+    "line": 107,
+    "target": "templates/project-records/README.md",
+    "resolves": true
+  },
+  {
+    "path": "WHY.md",
+    "line": 109,
+    "target": "playbooks/review.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/bullshit-detection.md",
+    "line": 3,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/bullshit-detection.md",
+    "line": 61,
+    "target": "README.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/bullshit-detection.md",
+    "line": 62,
+    "target": "SKILL.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/engineering-standards.md",
+    "line": 3,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/falsifiability.md",
+    "line": 3,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/falsifiability.md",
+    "line": 91,
+    "target": "README.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/falsifiability.md",
+    "line": 92,
+    "target": "SKILL.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/goals.md",
+    "line": 3,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/goals.md",
+    "line": 66,
+    "target": "README.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/goals.md",
+    "line": 67,
+    "target": "SKILL.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/rhetoric.md",
+    "line": 3,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/rhetoric.md",
+    "line": 52,
+    "target": "README.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/rhetoric.md",
+    "line": 53,
+    "target": "SKILL.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/verification-cycle.md",
+    "line": 3,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/verification-cycle.md",
+    "line": 55,
+    "target": "README.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/verification-cycle.md",
+    "line": 56,
+    "target": "SKILL.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/zero-code-contract.md",
+    "line": 3,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/zero-code-contract.md",
+    "line": 12,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/zero-code-contract.md",
+    "line": 13,
+    "target": "docs/independent-record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/zero-code-contract.md",
+    "line": 23,
+    "target": "docs/independent-record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/zero-code-contract.md",
+    "line": 73,
+    "target": "README.md",
+    "resolves": true
+  },
+  {
+    "path": "concepts/zero-code-contract.md",
+    "line": 74,
+    "target": "SKILL.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/discovery-and-recovery.md",
+    "line": 3,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/discovery-and-recovery.md",
+    "line": 21,
+    "target": "playbooks/discovery.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/discovery-and-recovery.md",
+    "line": 27,
+    "target": "playbooks/discovery-verification.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/discovery-and-recovery.md",
+    "line": 42,
+    "target": "playbooks/recovery.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/document-work.md",
+    "line": 3,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/document-work.md",
+    "line": 19,
+    "target": "playbooks/document-analysis.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/document-work.md",
+    "line": 27,
+    "target": "playbooks/document-planning.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/document-work.md",
+    "line": 35,
+    "target": "playbooks/document-description.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/document-work.md",
+    "line": 54,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/document-work.md",
+    "line": 54,
+    "target": "playbooks/document-analysis.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 11,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 11,
+    "target": "playbooks/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 11,
+    "target": "templates/project-records/README.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 12,
+    "target": "concepts/verification-cycle.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 12,
+    "target": "concepts/engineering-standards.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 12,
+    "target": "playbooks/investigation.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 12,
+    "target": "playbooks/document-analysis.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 13,
+    "target": "playbooks/record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 13,
+    "target": "docs/independent-record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 14,
+    "target": "playbooks/review.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 14,
+    "target": "docs/testing-ai-behaviour.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 28,
+    "target": "concepts/zero-code-contract.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 41,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 41,
+    "target": "playbooks/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 87,
+    "target": "playbooks/audit-routing.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 91,
+    "target": "templates/project-records/README.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/how-vp-works.md",
+    "line": 99,
+    "target": "docs/skill-architecture.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 3,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 7,
+    "target": "playbooks/audit-routing.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 14,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 15,
+    "target": "playbooks/record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/independent-record-audit.md",
+    "line": 16,
+    "target": "docs/project-records-design.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/investigations.md",
+    "line": 3,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/investigations.md",
+    "line": 26,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/investigations.md",
+    "line": 48,
+    "target": "playbooks/investigation.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/investigations.md",
+    "line": 48,
+    "target": "playbooks/debugging.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 4,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/project-records-examples.md",
+    "line": 5,
+    "target": "templates/project-records/README.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 3,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 6,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 7,
+    "target": "playbooks/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/project-records-scenarios.md",
+    "line": 9,
+    "target": "docs/testing-ai-behaviour.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 5,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 6,
+    "target": "playbooks/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 80,
+    "target": "docs/project-records-examples.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/project-records.md",
+    "line": 81,
+    "target": "docs/project-records-scenarios.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 3,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 11,
+    "target": "playbooks/audit-routing.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 35,
+    "target": "playbooks/review.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 39,
+    "target": "concepts/engineering-standards.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 51,
+    "target": "playbooks/code-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 61,
+    "target": "playbooks/record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/review-and-audit.md",
+    "line": 65,
+    "target": "docs/independent-record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/skill-architecture.md",
+    "line": 3,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "docs/testing-ai-behaviour.md",
+    "line": 3,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/audit-routing.md",
+    "line": 8,
+    "target": "playbooks/record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/audit-routing.md",
+    "line": 9,
+    "target": "playbooks/code-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/audit-routing.md",
+    "line": 12,
+    "target": "playbooks/review.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/code-audit.md",
+    "line": 3,
+    "target": "concepts/engineering-standards.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/code-audit.md",
+    "line": 8,
+    "target": "playbooks/audit-routing.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/code-audit.md",
+    "line": 10,
+    "target": "playbooks/record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/document-analysis.md",
+    "line": 8,
+    "target": "concepts/goals.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/document-analysis.md",
+    "line": 8,
+    "target": "concepts/rhetoric.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/document-analysis.md",
+    "line": 8,
+    "target": "concepts/bullshit-detection.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/document-analysis.md",
+    "line": 8,
+    "target": "concepts/falsifiability.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/investigation.md",
+    "line": 19,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/investigation.md",
+    "line": 21,
+    "target": "playbooks/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 3,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/project-records.md",
+    "line": 4,
+    "target": "templates/project-records/README.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 3,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 9,
+    "target": "playbooks/audit-routing.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 18,
+    "target": "templates/project-records/audit-request.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 62,
+    "target": "templates/project-records/audit.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/record-audit.md",
+    "line": 80,
+    "target": "templates/project-records/audit-response.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/recovery.md",
+    "line": 39,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/recovery.md",
+    "line": 40,
+    "target": "playbooks/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/review.md",
+    "line": 3,
+    "target": "playbooks/audit-routing.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/review.md",
+    "line": 15,
+    "target": "playbooks/investigation.md",
+    "resolves": true
+  },
+  {
+    "path": "playbooks/review.md",
+    "line": 15,
+    "target": "playbooks/discovery-verification.md",
+    "resolves": true
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 23,
+    "target": "playbooks/audit-routing.md",
+    "resolves": true
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 456,
+    "target": "docs/project-records-design.md",
+    "resolves": true
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 457,
+    "target": "playbooks/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "standards/project-records.md",
+    "line": 458,
+    "target": "templates/project-records/README.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 3,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 5,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 6,
+    "target": "playbooks/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 25,
+    "target": "templates/project-records/root.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 26,
+    "target": "templates/project-records/project.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 27,
+    "target": "templates/project-records/plan.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 28,
+    "target": "templates/project-records/state.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 29,
+    "target": "templates/project-records/ledger.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 30,
+    "target": "templates/project-records/coverage.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 31,
+    "target": "templates/project-records/decision.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 32,
+    "target": "templates/project-records/stage.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 33,
+    "target": "templates/project-records/hypothesis.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 34,
+    "target": "templates/project-records/experiment.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 35,
+    "target": "templates/project-records/build.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 36,
+    "target": "templates/project-records/run.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 37,
+    "target": "templates/project-records/change.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 38,
+    "target": "templates/project-records/event.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 39,
+    "target": "templates/project-records/audit.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 40,
+    "target": "templates/project-records/audit-request.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 41,
+    "target": "templates/project-records/audit-response.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 42,
+    "target": "templates/project-records/manifest.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 43,
+    "target": "templates/project-records/workspace.md",
+    "resolves": true
+  },
+  {
+    "path": "templates/project-records/README.md",
+    "line": 50,
+    "target": "playbooks/record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 9,
+    "target": ".gitattributes",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 10,
+    "target": ".github/ISSUE_TEMPLATE/bug_report.yml",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 11,
+    "target": ".github/ISSUE_TEMPLATE/change_proposal.yml",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 12,
+    "target": ".github/ISSUE_TEMPLATE/config.yml",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 13,
+    "target": ".github/pull_request_template.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 14,
+    "target": ".gitignore",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 15,
+    "target": "CHANGELOG.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 16,
+    "target": "CITATION.cff",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 17,
+    "target": "CODE_OF_CONDUCT.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 18,
+    "target": "CONTRIBUTING.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 19,
+    "target": "LICENSE",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 20,
+    "target": "ORIGIN.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 21,
+    "target": "README.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 22,
+    "target": "SECURITY.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 23,
+    "target": "SKILL.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 24,
+    "target": "WHY.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 25,
+    "target": "concepts/bullshit-detection.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 26,
+    "target": "concepts/engineering-standards.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 27,
+    "target": "concepts/falsifiability.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 28,
+    "target": "concepts/goals.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 29,
+    "target": "concepts/rhetoric.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 30,
+    "target": "concepts/verification-cycle.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 31,
+    "target": "concepts/zero-code-contract.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 32,
+    "target": "docs/discovery-and-recovery.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 33,
+    "target": "docs/document-work.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 34,
+    "target": "docs/how-vp-works.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 35,
+    "target": "docs/independent-record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 36,
+    "target": "docs/investigations.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 37,
+    "target": "docs/project-records-design.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 38,
+    "target": "docs/project-records-examples.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 39,
+    "target": "docs/project-records-scenarios.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 40,
+    "target": "docs/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 41,
+    "target": "docs/review-and-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 42,
+    "target": "docs/skill-architecture.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 43,
+    "target": "docs/testing-ai-behaviour.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 44,
+    "target": "playbooks/audit-routing.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 45,
+    "target": "playbooks/code-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 46,
+    "target": "playbooks/debugging.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 47,
+    "target": "playbooks/discovery-verification.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 48,
+    "target": "playbooks/discovery.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 49,
+    "target": "playbooks/document-analysis.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 50,
+    "target": "playbooks/document-description.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 51,
+    "target": "playbooks/document-planning.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 52,
+    "target": "playbooks/investigation.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 53,
+    "target": "playbooks/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 54,
+    "target": "playbooks/record-audit.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 55,
+    "target": "playbooks/recovery.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 56,
+    "target": "playbooks/review.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 57,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 58,
+    "target": "templates/project-records/README.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 59,
+    "target": "templates/project-records/audit-request.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 60,
+    "target": "templates/project-records/audit-response.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 61,
+    "target": "templates/project-records/audit.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 62,
+    "target": "templates/project-records/build.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 63,
+    "target": "templates/project-records/change.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 64,
+    "target": "templates/project-records/coverage.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 65,
+    "target": "templates/project-records/decision.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 66,
+    "target": "templates/project-records/event.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 67,
+    "target": "templates/project-records/experiment.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 68,
+    "target": "templates/project-records/hypothesis.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 69,
+    "target": "templates/project-records/ledger.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 70,
+    "target": "templates/project-records/manifest.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 71,
+    "target": "templates/project-records/plan.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 72,
+    "target": "templates/project-records/project.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 73,
+    "target": "templates/project-records/root.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 74,
+    "target": "templates/project-records/run.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 75,
+    "target": "templates/project-records/stage.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 76,
+    "target": "templates/project-records/state.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/COVERAGE.md",
+    "line": 77,
+    "target": "templates/project-records/workspace.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/LEDGER.md",
+    "line": 5,
+    "target": "vp/records/changes/C-000007/record.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/LEDGER.md",
+    "line": 6,
+    "target": "vp/records/decisions/D-000026/record.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/LEDGER.md",
+    "line": 7,
+    "target": "vp/records/runs/R-000013/record.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/LEDGER.md",
+    "line": 8,
+    "target": "vp/records/audits/A-000008/record.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/LEDGER.md",
+    "line": 9,
+    "target": "vp/records/audits/A-000009/record.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/LEDGER.md",
+    "line": 10,
+    "target": "vp/records/audits/A-000010/record.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/LEDGER.md",
+    "line": 11,
+    "target": "vp/records/decisions/D-000027/record.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/LEDGER.md",
+    "line": 12,
+    "target": "vp/records/events/V-000018/record.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/LEDGER.md",
+    "line": 13,
+    "target": "vp/records/events/V-000017/record.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/LEDGER.md",
+    "line": 14,
+    "target": "vp/records/events/V-000016/record.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/README.md",
+    "line": 3,
+    "target": "vp/STATE.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/README.md",
+    "line": 4,
+    "target": "vp/PROJECT.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/README.md",
+    "line": 4,
+    "target": "vp/PLAN.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/README.md",
+    "line": 5,
+    "target": "vp/LEDGER.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/README.md",
+    "line": 5,
+    "target": "vp/COVERAGE.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/README.md",
+    "line": 6,
+    "target": "standards/project-records.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/README.md",
+    "line": 10,
+    "target": "vp/records/events/V-000016/record.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000008/record.md",
+    "line": 8,
+    "target": "vp/records/audits/A-000008/request.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000008/record.md",
+    "line": 17,
+    "target": "vp/artefacts/A-000008/assessment/semantic-traces.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000008/record.md",
+    "line": 21,
+    "target": "vp/artefacts/A-000008/assessment/structural.json",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000008/record.md",
+    "line": 21,
+    "target": "vp/artefacts/A-000008/assessment/end-identities.json",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000008/record.md",
+    "line": 37,
+    "target": "vp/artefacts/A-000008/assessment/custody-and-trials.json",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000008/record.md",
+    "line": 47,
+    "target": "vp/artefacts/A-000008/assessment/isolated-replay.json",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000009/record.md",
+    "line": 8,
+    "target": "vp/records/audits/A-000009/request.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000009/record.md",
+    "line": 18,
+    "target": "vp/artefacts/A-000009/assessment/semantic-traces.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000009/record.md",
+    "line": 22,
+    "target": "vp/artefacts/A-000009/assessment/start-accounting.json",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000009/record.md",
+    "line": 22,
+    "target": "vp/artefacts/A-000009/assessment/end-accounting.json",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000009/record.md",
+    "line": 22,
+    "target": "vp/artefacts/A-000009/assessment/consistency.json",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000009/record.md",
+    "line": 22,
+    "target": "vp/artefacts/A-000009/assessment/links.json",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000009/record.md",
+    "line": 65,
+    "target": "vp/artefacts/A-000009/assessment/obligation-search.json",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000010/record.md",
+    "line": 8,
+    "target": "vp/records/audits/A-000010/request.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000010/record.md",
+    "line": 13,
+    "target": "vp/artefacts/A-000010/assessment/semantic-traces.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000010/record.md",
+    "line": 19,
+    "target": "vp/artefacts/A-000010/assessment/start-accounting.json",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000010/record.md",
+    "line": 23,
+    "target": "vp/artefacts/A-000010/assessment/consistency-and-custody.json",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000010/record.md",
+    "line": 37,
+    "target": "vp/artefacts/A-000010/assessment/referenced-replicas.json",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000010/record.md",
+    "line": 41,
+    "target": "vp/artefacts/A-000010/assessment/evidence-accounting.json",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000010/record.md",
+    "line": 47,
+    "target": "vp/artefacts/A-000010/assessment/obligation-search.json",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/audits/A-000010/record.md",
+    "line": 76,
+    "target": "vp/artefacts/A-000010/assessment/end-accounting.json",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/decisions/D-000026/record.md",
+    "line": 8,
+    "target": "vp/artefacts/D-000026/feedback.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/events/V-000016/record.md",
+    "line": 8,
+    "target": "vp/records/decisions/D-000026/record.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/runs/R-000013/record.md",
+    "line": 8,
+    "target": "vp/records/decisions/D-000026/record.md",
+    "resolves": true
+  },
+  {
+    "path": "vp/records/runs/R-000013/record.md",
+    "line": 16,
+    "target": "vp/artefacts/R-000013/MANIFEST.md",
+    "resolves": true
+  }
+]

@@ -7,12 +7,14 @@ an authorised reason and appropriately tested evidence. D26 is the current
 mandate to address the review's three concerns; original D1 is preserved at
 `9605ad0:vp/records/decisions/D-000001/record.md`.
 
-**Current stage:** D28/A11 owner-requested level-C Project Audit of c100fbd;
+**Current stage:** D28/A11 level-C Project Audit complete, conformant within
+declared scope at c100fbd with one open advisory;
 prior S4 transition acceptance under D27/A10 retains its exact scope.
-**Open findings:** none. A10 closes A8/F001 and A9/F001; A7/F001 remains closed.
-**Next action:** auditor reports; coordinator exposes verdict/findings to the
-owner without repair. New audit budget: one20-minute round/up to40minutes
-coordinator work under D28; unresolved gaps route the owner's decision.
+**Open findings:** A11/F001 advisory about COVERAGE's stale aggregate statements;
+no mandatory findings. A10 closes A8/F001 and A9/F001; A7/F001 remains closed.
+**Next action:** owner reviews A11 and commissions any response/re-audit.
+No repair is authorised by the audit. D28's one20-minute round/up to40minutes
+coordinator budget is distinct from the prior S4 plan; findings remain visible.
 
 ## Scope and Authority
 

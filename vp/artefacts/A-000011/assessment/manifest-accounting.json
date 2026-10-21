@@ -1,0 +1,786 @@
+[
+  {
+    "manifest": "vp/artefacts/A-000008/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000008/assessment/custody-and-trials.json",
+    "bytes": 12612,
+    "sha256": "618566a6d09affb131df3047a9b7056c649aca930ac711d66aa4dd34b4910988",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000008/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000008/assessment/end-identities.json",
+    "bytes": 1735,
+    "sha256": "f974f45cc9c4bfb24372dd6794862911bafebaeda928e810ccf033b4db0ff8fe",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000008/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000008/assessment/isolated-replay.json",
+    "bytes": 1523,
+    "sha256": "e237786622a2252a853683cb5ef8d38eb070ded592055aae7f534d53e31f8907",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000008/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000008/assessment/links.json",
+    "bytes": 65877,
+    "sha256": "25d31242f64ad607fe6612abd1a6526fcb2857eb0e4a5e42c41d5972d568ffd0",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000008/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000008/assessment/semantic-traces.md",
+    "bytes": 9030,
+    "sha256": "0a8eef53ce4588bf2530a30109272dbbe020d2b633d10d0d4774a43ddd4a96a4",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000008/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000008/assessment/structural.json",
+    "bytes": 59594,
+    "sha256": "53834e622e447eab1fbef4ce89806770bbc6f7c3d24bdb671a5f36b21fdc38cb",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000009/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000009/assessment/consistency.json",
+    "bytes": 18585,
+    "sha256": "25489adf240a0abafbd901c5c7f209a5aa16abc31ff6358978ad1ee294eb04a6",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000009/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000009/assessment/end-accounting.json",
+    "bytes": 6076,
+    "sha256": "f72971dd41af403bd7c93bddae5124e0fcabf964be28f53a0fe621e296009e85",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000009/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000009/assessment/links.json",
+    "bytes": 63831,
+    "sha256": "e1482d1de4e280df4cd0ab636606c755f420c55596e1ccd8f90734250b828a43",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000009/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000009/assessment/obligation-search.json",
+    "bytes": 66222,
+    "sha256": "287ce6c0d59ceea739a1f421d0f947798b63e873a5d87e22de32c1ff35e10d8b",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000009/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000009/assessment/semantic-traces.md",
+    "bytes": 7321,
+    "sha256": "e9aaf586307d712fc7cbb8bf2e82bd28e42e806efe643ada6a6765683f95a6f1",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000009/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000009/assessment/start-accounting.json",
+    "bytes": 91484,
+    "sha256": "309222fb3bd733051521d83d8f12706db02e05bf3599f2ad2c3b53331d25c222",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000010/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000010/assessment/consistency-and-custody.json",
+    "bytes": 6698,
+    "sha256": "0c5b3b43bb2ecbfd6f8f3fcb58e4d07a08f0f994bfaad0599ea673c3edb22b28",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000010/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000010/assessment/end-accounting.json",
+    "bytes": 2615,
+    "sha256": "4bb6f9d25e8305536924a4b68e0193d63668ee87b8f5f88a93ff227e7f83ce81",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000010/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000010/assessment/evidence-accounting.json",
+    "bytes": 10751,
+    "sha256": "37c23196d233aa047b3eccd10cf591c31f4b58b92f14c225d3eab95d0c7a1f04",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000010/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000010/assessment/links.json",
+    "bytes": 78301,
+    "sha256": "74a2b4826f6da1545119502735407a857601641bfc3a84b28b4687e4a451d78e",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000010/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000010/assessment/obligation-search.json",
+    "bytes": 156268,
+    "sha256": "784454ef457057b0ffc4323cd64d00006e3930d32107c5eff65437499081a048",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000010/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000010/assessment/referenced-replicas.json",
+    "bytes": 3712,
+    "sha256": "2747dc14a3591d2d330ad93a29f2672b799c51f1f7c58fa95cbedde3fb5c30d3",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000010/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000010/assessment/semantic-traces.md",
+    "bytes": 6710,
+    "sha256": "2093d7492b349a7e34c4d34ee57967abb0a5f6cb2c9f8e31141b5e3ae185e870",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/A-000010/assessment/MANIFEST.md",
+    "path": "vp/artefacts/A-000010/assessment/start-accounting.json",
+    "bytes": 104530,
+    "sha256": "e778cde1f40414fd696d97686d198de59b82055b072fb049cb920f78c8de4201",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/D-000026/MANIFEST.md",
+    "path": "vp/artefacts/D-000026/feedback.md",
+    "bytes": 12303,
+    "sha256": "4aa9040b3087039b130238572fae8d47a5e710211ac9a78f59f384b9d0ee94cd",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/capture-disposition.md",
+    "bytes": 667,
+    "sha256": "bb567cc5c6eeb00e8f4e5ab67f4a449b2727bc55c618a95213564fc93d5273b4",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/check-current-02.py",
+    "bytes": 6109,
+    "sha256": "4ebc7715a7b39fca8ecaf52dd06d76496db52227f9177e9250cee0ab05551375",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/check-current.py",
+    "bytes": 6106,
+    "sha256": "072b0d2aa965161f9847641ca5b0c6f4a71454d1c4ca6d23e18bc7aec644ebd6",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/classification-01/cases.md",
+    "bytes": 50710,
+    "sha256": "dfc711f4b1cd5f6695b5e07d346da97c337741dda45d157c264b59d10314ea87",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/classification-01/comparison.json",
+    "bytes": 383,
+    "sha256": "328f530f419fb7e92f2f335f55de05570ad3038bdd5ffadfbf944fa3d744fcec",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/classification-01/outcome.md",
+    "bytes": 770,
+    "sha256": "5b9a6eac74de28c9688d48876926cea25c5bb4fd526130ea2e82d7716dda9099",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/classification-01/participant-1.json",
+    "bytes": 6595,
+    "sha256": "8fdb2683dbcd163cd60ceb702f8126fa457d191b9760cc56eca630b0de410559",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/classification-01/participant-1.md",
+    "bytes": 13979,
+    "sha256": "c8fd16589eeec1cd48d186f802590ead67fdd46c84db2ae234bde35068f19043",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/classification-01/participant-2.json",
+    "bytes": 9780,
+    "sha256": "23207f36b2e2e4bbe8e008547b74faedfeaf79f9d7dbaf25f4447fe10fb86cb3",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/classification-01/participant-2.md",
+    "bytes": 12539,
+    "sha256": "14ae03696bce380b7d561cf009a0c9a7545f114fa6a52521fee7a1f5fe0106b7",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/classification-01/request.md",
+    "bytes": 780,
+    "sha256": "5529c99932ac93bc15960c18681f8c05611d619e8caa106157eb5443e3731862",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/classification-01/revision-custody.json",
+    "bytes": 772,
+    "sha256": "c24772b12a52f11cb3ccbe452cae242fe1390c3a6d02fa9536e1ca7623bdbb20",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/classification-02/cases.md",
+    "bytes": 51618,
+    "sha256": "e9751b01dc4c848caf9b0e0185b96700178055097e4aafd36756a0a079ddd535",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/classification-02/comparison.json",
+    "bytes": 601,
+    "sha256": "b66544c5f2680a5ee654ccf1bee271970fe7d9e95fa85860c2ee5eee9a977032",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/classification-02/outcome.md",
+    "bytes": 482,
+    "sha256": "2cff59d23488fec67ccdc4481593b270598d29898c0696756284905ed0222158",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/classification-02/participant-1.json",
+    "bytes": 5619,
+    "sha256": "71cb581dfe9a158ea76313b0b580c9b3cf16ffcfc1c9481f46a06e5e55aa2e8e",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/classification-02/participant-1.md",
+    "bytes": 8623,
+    "sha256": "6559269195f64bb65241709afdd7fb74a663211ab52f549b460a09489103be76",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/classification-02/participant-2.json",
+    "bytes": 8864,
+    "sha256": "e8c8f46a2a9c50c82262683a9c3a86cc962c3742c6291a9c894fd0e3ec5a3ad1",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/classification-02/participant-2.md",
+    "bytes": 11340,
+    "sha256": "0b94cea14ba2fc3fcd8be39795c0437c43c15761ab5184b9cca3709eb1a3d9b1",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/classification-02/request.md",
+    "bytes": 815,
+    "sha256": "294f9c804e0c504944804dfdca912fd994448f0c61a39da44120b4e2d1cc68a4",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/cold-reader-01/evaluation.md",
+    "bytes": 694,
+    "sha256": "49f24e077f4ac0511ecab86dc4f3193e666fff42666d15bf690750e789b1cb54",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/cold-reader-01/request.md",
+    "bytes": 1755,
+    "sha256": "a66cbf63d818970c66ab56e5aa5447efe2826a45e9c61013c1a3c3d7753cf1a5",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/cold-reader-01/response.md",
+    "bytes": 1414,
+    "sha256": "a48bd8a2bd1072d2c869be4a8c686baa48197790e5704bd7468db984646c3079",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/cold-reader-01/rubric.md",
+    "bytes": 571,
+    "sha256": "d2ef1618c2a01d090a1b7de58a7f91680c9b7f03020184443ca1636f83e4dddf",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/cold-reader-02/dispatch.json",
+    "bytes": 732,
+    "sha256": "f1129fb9892ad5ee43b79a5b61d620fa5f8413b49dd7eadb16afe93a39f4d605",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/cold-reader-02/evaluation.md",
+    "bytes": 1132,
+    "sha256": "cf1821c6a4bc6c97f352c1356b17c96ed774bfa71ea36eb25714ddd916a2eac6",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/cold-reader-02/request.md",
+    "bytes": 884,
+    "sha256": "dec3c48f0fb4c3e11594df8e8d2a271861be2334de2d5c9d88b291addf8164e8",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/cold-reader-02/response.md",
+    "bytes": 1959,
+    "sha256": "4803619d23726b2c705ea5f432d42c54a83a7715380c6ae634b6394e758018a1",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/cold-reader-02/rubric.md",
+    "bytes": 777,
+    "sha256": "6f9c343981d87601260db0b935746a53403ff07af5d4b31a1ba2bce0928e26df",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/current-check-01/outcome.md",
+    "bytes": 509,
+    "sha256": "d255c8e4d8382b877b92a9305e769e68a10f9954d4f8bf9ff67874f477067460",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/current-check-01/results.json",
+    "bytes": 12624,
+    "sha256": "54a108a0896a780d83bccff08acf7e65faa27b5168b29dc3d96d22e86a06c481",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/current-check-02/pte-retirement-replay.md",
+    "bytes": 828,
+    "sha256": "dfc248892d92c7943db6044ab174897cca7a8996005c7fad30d12d27c587f38a",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/current-check-02/results.json",
+    "bytes": 12562,
+    "sha256": "64fdafb7e363e64ff6d0d6995fc0e9930c180ec5098f8b45a51f057a576b8042",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/current-check-03/pte-retirement-replay.md",
+    "bytes": 828,
+    "sha256": "dfc248892d92c7943db6044ab174897cca7a8996005c7fad30d12d27c587f38a",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/current-check-03/results.json",
+    "bytes": 12561,
+    "sha256": "6fdbb1870a0579f4702c3e4cda914d33246cc154a92a137280bce8e61acf2af3",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/current-check-04/pte-retirement-replay.md",
+    "bytes": 828,
+    "sha256": "dfc248892d92c7943db6044ab174897cca7a8996005c7fad30d12d27c587f38a",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/current-check-04/results.json",
+    "bytes": 12561,
+    "sha256": "278dcd82e1ce58e298d82cd74bfd00edc0e9d90c829901207b2c666758e178a7",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/current-check-04-setup-failure.md",
+    "bytes": 451,
+    "sha256": "b63b660bb1fecf377905997ba27b1089f4a6f3dddb1e3acbcd97d9db3aa29a5c",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/current-check-05/pte-retirement-replay.md",
+    "bytes": 828,
+    "sha256": "dfc248892d92c7943db6044ab174897cca7a8996005c7fad30d12d27c587f38a",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/current-check-05/results.json",
+    "bytes": 12561,
+    "sha256": "aa490419f2e7e573df9c1088a1eaddd45ce8fcd08099c59883476f09775845d7",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/current-check-06/pte-retirement-replay.md",
+    "bytes": 828,
+    "sha256": "dfc248892d92c7943db6044ab174897cca7a8996005c7fad30d12d27c587f38a",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/current-check-06/results.json",
+    "bytes": 12561,
+    "sha256": "4fbff84bc94af69d42ecdcea8c7bea55938c43954fba9a40954c489635c356b8",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/current-check-07/pte-retirement-replay.md",
+    "bytes": 828,
+    "sha256": "dfc248892d92c7943db6044ab174897cca7a8996005c7fad30d12d27c587f38a",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/current-check-07/results.json",
+    "bytes": 12561,
+    "sha256": "c3ae889ed7d0934a9f5516c6d2668c58bbc788b43c173c841a9205facfb5e906",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/current-check-08/pte-retirement-replay.md",
+    "bytes": 828,
+    "sha256": "dfc248892d92c7943db6044ab174897cca7a8996005c7fad30d12d27c587f38a",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/current-check-08/results.json",
+    "bytes": 12561,
+    "sha256": "bd7a8257f480cfed91e948e68004356f5727efe26c697fd87b3d6350132f9344",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/design-source-check.md",
+    "bytes": 572,
+    "sha256": "7644b1ed593df4799a7325749ab4c8e54722a18049be55c501613d8f08bc1f3c",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/handoff-01/results.json",
+    "bytes": 190617,
+    "sha256": "e5e7fcbf8933242a9f40119dfb6b2c3478e27e8c674074422e7488792012f1fa",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/handoff-custody.py",
+    "bytes": 3768,
+    "sha256": "e8c99930e758d93420761cba86d96d799596d45ef682133bb86db3ecc29201ae",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/ignored-legacy-inventory.json",
+    "bytes": 24617,
+    "sha256": "bae6ebe19b5f1e574a91bd20416b33bec8ccf079fdd268aeee1e29188d4272c7",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/minimal-D-replay-01/evaluation-01-failure.md",
+    "bytes": 605,
+    "sha256": "6c67e65244ca21bb014e9bd0a1373fcccb0e7aefe8161c93ea0927ee3a6984b8",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/minimal-D-replay-01/evaluation.json",
+    "bytes": 18866,
+    "sha256": "73c97b763b995f991d13ab2c4d260bd352b1d05ff68614d68db4ffa851e5961f",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/minimal-D-replay-01/evaluation.md",
+    "bytes": 992,
+    "sha256": "39880fa920aaa46f581dae4c5ff258a055f04bff309475a2bd32930e497f15d5",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/minimal-D-replay-01/request.md",
+    "bytes": 710,
+    "sha256": "33fa5a71b910b9cffe08ff5bb3496b8f3b68f1a165906888ebc00f0c8627e400",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/minimal-D-replay-01/setup.json",
+    "bytes": 8464,
+    "sha256": "2fcc8ce0f3b37e99fcdd770e489bfcb6d09f953be31be86222941d6ee84ae401",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/minimal-D-replay-01/worker-response.md",
+    "bytes": 1557,
+    "sha256": "9d53dbee1706eeb4573e5a95488aaf838d6b3381cf22df619594b1f2d8825856",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/packet-shape-01/cycle1.md",
+    "bytes": 873,
+    "sha256": "7fdb038a3639defe3d48f814c4c0ab15572f6497254e833cc9b309a37ade5ec2",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/packet-shape-01/cycle2.md",
+    "bytes": 928,
+    "sha256": "073716fbff9e8f071cd03485c2d06da9051376bb90af0c2de8ec1d4dfeadba18",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/packet-shape-01/cycle3.md",
+    "bytes": 928,
+    "sha256": "b812668d354962ff872ba8973d1955992a9c12666bde66fff5b05b7b6dce703a",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/packet-shape-01/results.json",
+    "bytes": 1721,
+    "sha256": "78bfc3e37a9054110e2cd439f210e5b3b0e4650d7f9276fe8f55f83f00fdf1da",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/packet-shape.py",
+    "bytes": 3381,
+    "sha256": "a0e69611a6e882120f803de496118fb5565d62f7e1c3f3f448e8013cd30ef682",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/prune-01-failure.md",
+    "bytes": 709,
+    "sha256": "7676399730f1b44b276745a4008daecdd66f2cd27d0c090fe39ad8f60558b44d",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/prune-02-batches.json",
+    "bytes": 6887534,
+    "sha256": "ae333f50f1ab7aae5d96f49e8f643bbce0f0101d9b311bde3dff5e2f36057492",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/prune-02.py",
+    "bytes": 3647,
+    "sha256": "bb63feda53b60be9796f4ee40da79f1679f839da6f95d83ae0c3ec6756a447db",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/prune.py",
+    "bytes": 3298,
+    "sha256": "63b02f7b9e45c9957bf9d9212be38eddfa391f27c8b275d4fdc84c00c548282b",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/pruning.json",
+    "bytes": 3435141,
+    "sha256": "09e265059bfc3382aae9b9e52e522308b34519e81868aa3a93295ba00596732e",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/pte-retirement-replay.md",
+    "bytes": 863,
+    "sha256": "1fca8a37977b2e4cc3662ddd75f6ccdc1f4cce640f1f433df798fd9973ab67da",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/baseline-blobs.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/baseline-head.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/baseline-head.stdout.bin",
+    "bytes": 41,
+    "sha256": "2909127eebb7933f332f6678307358eced97f1e1aff90f4a62fc6b2fb6334556",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/baseline-index.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/baseline-index.stdout.bin",
+    "bytes": 4505487,
+    "sha256": "abf2c41ae16da7dac4a975357277187f60f311c6ad571057c04d98721a464ba9",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/bundle-verify.stderr.bin",
+    "bytes": 90,
+    "sha256": "4a7d1d8016388d2c7d0afe9ece2b69dc01ff3555ce00e3c02c287bd489f576ea",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/bundle-verify.stdout.bin",
+    "bytes": 186,
+    "sha256": "466283a8c3e7ef59b855ed326b3e388da8e07e4d2c5f5cf8bbc5fb535e20ead4",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/bundle.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/bundle.stdout.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/checkout.stderr.bin",
+    "bytes": 75,
+    "sha256": "4f632650acf5138ae04afe5506e5772b124ff2e9bda97590d6f815d101dd16de",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/checkout.stdout.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/clone.stderr.bin",
+    "bytes": 742,
+    "sha256": "2de2d5cbc21efbe9718fa0a16fc72f80b73c903d328b5e7483dee30f15cd91fb",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/clone.stdout.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/commands.json",
+    "bytes": 8569,
+    "sha256": "c8d3caddd99465c5602d7eaaac2c641ea50571b99300a9d9d40b83e7fbcaf605",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/restored-index.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/restored-index.stdout.bin",
+    "bytes": 4505487,
+    "sha256": "abf2c41ae16da7dac4a975357277187f60f311c6ad571057c04d98721a464ba9",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/restored-status.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/restored-status.stdout.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/results.json",
+    "bytes": 10528406,
+    "sha256": "743e30bdd49094e91fa6706a98651f4326e7447f99be595f224844c9170eef4d",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/tag.stderr.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore-01/tag.stdout.bin",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/restore.py",
+    "bytes": 4654,
+    "sha256": "55da900d7bc6bff14f940010938f2a8e315682b0c226c6d2ac0053a07b9a512d",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/route-review-02/review.md",
+    "bytes": 2258,
+    "sha256": "8a33a8b6c2a61ebc926d70ffdf672ef998735e23562d4ef4ea6403143ea07cfb",
+    "matches": true
+  },
+  {
+    "manifest": "vp/artefacts/R-000013/MANIFEST.md",
+    "path": "vp/artefacts/R-000013/route-review-02/scope.json",
+    "bytes": 16634,
+    "sha256": "ac0640d6d90db582124ef442cd34d21e80c054c26a7ffa8ac37b7ef7baa067c5",
+    "matches": true
+  }
+]

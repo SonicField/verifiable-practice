@@ -1,0 +1,52 @@
+{
+  "baseline": {
+    "revision": "9605ad0dccea157880a05208babfdac5aa5a5fcd",
+    "paths": 23353,
+    "bytes": 390493640,
+    "read_only_present_restore_comparison_errors": [],
+    "reported_errors": [],
+    "restored_before_pruning": true,
+    "absent_paths": 23245,
+    "replaced_manifests": 32,
+    "recorded_removed": 23277,
+    "removal_accounting_equal": true,
+    "limits": "Read identified preserved files only, no new restore; producer timing not authenticated. No recursive enumeration of earlier audit input directories."
+  },
+  "classification_recalculation": [
+    {
+      "trial": "01",
+      "sample": 10,
+      "agreement": 10,
+      "nonadjacent": 0,
+      "T01": [
+        "C",
+        "C"
+      ],
+      "threshold_met": false
+    },
+    {
+      "trial": "02",
+      "sample": 10,
+      "agreement": 8,
+      "nonadjacent": 0,
+      "T01": [
+        "D",
+        "D"
+      ],
+      "threshold_met": true
+    }
+  ],
+  "minimal_D": {
+    "new_record_paths": [
+      "vp/records/changes/C-000001/record.md"
+    ],
+    "unchanged_contract_errors": [],
+    "ordered_ancestry": true,
+    "limits": "Existing isolated fixture Git inspected; no project execution. Attributed action/check narrative, not original historical occurrence or universal adherence."
+  },
+  "final_reader": {
+    "state_matches_fixed_trial": true,
+    "response_hash_matches": true,
+    "independent_semantic_review": "Read request/rubric/answer/evaluation; answer meets stage, finding status, next action and receipt condition. One attributed isolated answer, no universal comprehension."
+  }
+}

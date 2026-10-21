@@ -1,23 +1,20 @@
 # Current Plan
 
-**Current stage:** D28/A11 owner-requested level-C Project Audit, standard1.1.
-**Open findings:** none. A10 independently closes A8/F001/A9/F001; A7 stays closed.
-**Next action:** independent fresh-context auditor assesses c100fbd under the
-immutable A11 request; coordinator records the report and exposes findings.
+**Stage:** D28/A11 level-C Project Audit complete, standard1.1.
+**Result:** independently conformant at c100fbd7 within the declared scope;
+A11/F001 is an open advisory concerning COVERAGE's aggregate statements.
+No mandatory gaps were established; earlier A7/A8/A9 closure remains scoped.
+**Next action:** owner reviews the report and selects any response/re-audit.
+No repairs, re-audit loop or product-quality acceptance are commissioned.
 
-D28 is a new bounded plan: one20-minute auditor round, up to40minutes coordinator
-preparation/handoff. Deliverable is the sealed report, current findings/next action
-and replicated local records. Missing evidence or budget exhaustion remains visible
-for the owner; no repair or re-audit loop is commissioned. Prior S4 acceptance
-under D27/A10 is preserved and does not predetermine A11's verdict.
+D28's new bounded plan commissioned one fresh20-minute audit round and up to
+40minutes coordinator preparation/handoff. The sealed report, unique assessment
+and current tracking are deliverables. Local completion requires the matching
+containing revision/verified completion receipt; no background process remains.
+Missing custody or new authorised work has explicit safe resume in STATE.
 
-Baseline23,353-file restore/pruning, bounded classifier02/actual D replay,
-packet/source criteria and independent gates are recorded in R13/D27. Actual
-handoff checkpoint47ea2e2 restores235 files with zero mismatches. Final STATE
-reader and seal/commit/custody outputs are later bookkeeping outside A10.
-Completion requires the matching external receipt; if absent, resume R13
-custody before reliance. All failures and unknown efficacy remain visible.
-
-Previous four-hour worker/three20-minute audit policy met. A11 is now active;
-technical implementation is idle. B review19April2027/earlier triggers, root17January dependency;
-D/E trigger-only. New work starts a new bounded plan, not date-only renewal.
+Prior S4 acceptance remains D27 after A10 at20bb26b; C7 records the25 later
+terminology changes. A11 does not enlarge A10 or certify its own later outputs.
+All original failed verdicts/retries and unknown efficacy remain in history/evidence.
+B review19April2027/C21October2027 are capped by root17January2027 and earlier
+triggers. D/E are trigger-only; this audit does not renew prior empirical evidence.

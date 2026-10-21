@@ -43,5 +43,37 @@ earlier input/meaning/authority/evidence/custody changes. Date is policy, not ne
 
 ## Actual result
 
-Pending A11. Original baseline remains unchanged; request/administrative revisions
-and future auditor outputs are outside the assessed baseline.
+Fresh assessor `/root/level_c_project_auditor`, fork without inherited turns,
+sealed A11 at2026-10-21 16:13:07 UTC: conformant within fixed c100fbd structural/
+selected semantic scope, no mandatory/access finding and one open advisory
+A11/F001 about stale COVERAGE aggregate statements. Prior findings remain
+closed in their original scopes. Report SHA256
+`aeae9e5fd2f2893a518778df69ce41a0dc8947a4ea556f4d518f5f7938e4bc41`.
+All244 paths and69 product identities accounted; scope/search/custody and
+unauthenticated action limits are sealed in its report/unique assessment.
+No project execution/repair/acceptance or commit by the assessor; disclosed
+assessor accounting selection/locator retries remain in its own evidence.
+
+Immutable request d995976 SHA25661dbd3f37bc21b9fce4c9d6a9c51a0f3924469124ac60c3c0014c02104a2aa58
+was actually recovered from independent bundle3383ec3100b2b7f75d1f731bb927c9de5240962dc14493a7e02d7283f912ea50:
+246 files/31,754,211 bytes, zero mismatches. Native proof stays at external
+`review-20261021/a11-request-recovery/results.json` SHA256
+`6c505e177f195e3f07f16557dccb923b923025c11a2952a498658d50874533b8`,
+with matching completion-replica content address. Original baseline product
+bytes remain unchanged by commissioning/tracking. Request/admin and own outputs
+are outside the assessed baseline; no new owner acceptance or repair is claimed.
+
+## Final current-view and custody checks before handoff
+
+Because STATE changes from the previous stage, commission a separate fresh
+cold reader of only its immutable new bytes. This is a bounded working check,
+not an extension of the Project Auditor role. Before dispatch, criteria are:
+reader identifies audit complete/scoped C verdict, A11/F001 open advisory/no
+mandatory findings, owner review/response decision with no authorised repair,
+and current receipt/containing revision prerequisite. A missing/incorrect answer
+fails; retain it and do not claim handoff understanding until resolved. One
+five-minute read, answer retained under D28; no project inspection/repair.
+Then check exact report/manifest custody and full containing-commit recovery
+outside worktree, retain native evidence and replica in external completion
+reference without circular in-record final commit identity. Until matching receipt,
+local custody completion remains conditional. This does not close A11/F001.

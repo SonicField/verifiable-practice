@@ -1,0 +1,187 @@
+[
+  {
+    "path": "vp/artefacts/A-000008/assessment/MANIFEST.md",
+    "first_containing_commit": "d997f6e0d8869e77bbce0e721a182e4a2b4b8e46",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000008/assessment/custody-and-trials.json",
+    "first_containing_commit": "d997f6e0d8869e77bbce0e721a182e4a2b4b8e46",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000008/assessment/end-identities.json",
+    "first_containing_commit": "d997f6e0d8869e77bbce0e721a182e4a2b4b8e46",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000008/assessment/isolated-replay.json",
+    "first_containing_commit": "d997f6e0d8869e77bbce0e721a182e4a2b4b8e46",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000008/assessment/links.json",
+    "first_containing_commit": "d997f6e0d8869e77bbce0e721a182e4a2b4b8e46",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000008/assessment/semantic-traces.md",
+    "first_containing_commit": "d997f6e0d8869e77bbce0e721a182e4a2b4b8e46",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000008/assessment/structural.json",
+    "first_containing_commit": "d997f6e0d8869e77bbce0e721a182e4a2b4b8e46",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000008/input/MANIFEST.md",
+    "first_containing_commit": "d997f6e0d8869e77bbce0e721a182e4a2b4b8e46",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000008/input/preparation.json",
+    "first_containing_commit": "d997f6e0d8869e77bbce0e721a182e4a2b4b8e46",
+    "unchanged": true
+  },
+  {
+    "path": "vp/records/audits/A-000008/record.md",
+    "first_containing_commit": "d997f6e0d8869e77bbce0e721a182e4a2b4b8e46",
+    "unchanged": true
+  },
+  {
+    "path": "vp/records/audits/A-000008/request.md",
+    "first_containing_commit": "42ba9ee819b958248ca34aea00cfe7a44d7b7516",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000009/assessment/MANIFEST.md",
+    "first_containing_commit": "20bb26b935056c7b256b478fa224799ab923a80f",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000009/assessment/consistency.json",
+    "first_containing_commit": "20bb26b935056c7b256b478fa224799ab923a80f",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000009/assessment/end-accounting.json",
+    "first_containing_commit": "20bb26b935056c7b256b478fa224799ab923a80f",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000009/assessment/links.json",
+    "first_containing_commit": "20bb26b935056c7b256b478fa224799ab923a80f",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000009/assessment/obligation-search.json",
+    "first_containing_commit": "20bb26b935056c7b256b478fa224799ab923a80f",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000009/assessment/semantic-traces.md",
+    "first_containing_commit": "20bb26b935056c7b256b478fa224799ab923a80f",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000009/assessment/start-accounting.json",
+    "first_containing_commit": "20bb26b935056c7b256b478fa224799ab923a80f",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000009/input/MANIFEST.md",
+    "first_containing_commit": "20bb26b935056c7b256b478fa224799ab923a80f",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000009/input/preparation.json",
+    "first_containing_commit": "20bb26b935056c7b256b478fa224799ab923a80f",
+    "unchanged": true
+  },
+  {
+    "path": "vp/records/audits/A-000009/record.md",
+    "first_containing_commit": "20bb26b935056c7b256b478fa224799ab923a80f",
+    "unchanged": true
+  },
+  {
+    "path": "vp/records/audits/A-000009/request.md",
+    "first_containing_commit": "d997f6e0d8869e77bbce0e721a182e4a2b4b8e46",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000010/assessment/MANIFEST.md",
+    "first_containing_commit": "47ea2e2d5f7879a6d92fe191d0964166b269003c",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000010/assessment/consistency-and-custody.json",
+    "first_containing_commit": "47ea2e2d5f7879a6d92fe191d0964166b269003c",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000010/assessment/end-accounting.json",
+    "first_containing_commit": "47ea2e2d5f7879a6d92fe191d0964166b269003c",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000010/assessment/evidence-accounting.json",
+    "first_containing_commit": "47ea2e2d5f7879a6d92fe191d0964166b269003c",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000010/assessment/links.json",
+    "first_containing_commit": "47ea2e2d5f7879a6d92fe191d0964166b269003c",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000010/assessment/obligation-search.json",
+    "first_containing_commit": "47ea2e2d5f7879a6d92fe191d0964166b269003c",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000010/assessment/referenced-replicas.json",
+    "first_containing_commit": "47ea2e2d5f7879a6d92fe191d0964166b269003c",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000010/assessment/semantic-traces.md",
+    "first_containing_commit": "47ea2e2d5f7879a6d92fe191d0964166b269003c",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000010/assessment/start-accounting.json",
+    "first_containing_commit": "47ea2e2d5f7879a6d92fe191d0964166b269003c",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000010/input/MANIFEST.md",
+    "first_containing_commit": "47ea2e2d5f7879a6d92fe191d0964166b269003c",
+    "unchanged": true
+  },
+  {
+    "path": "vp/artefacts/A-000010/input/preparation.json",
+    "first_containing_commit": "47ea2e2d5f7879a6d92fe191d0964166b269003c",
+    "unchanged": true
+  },
+  {
+    "path": "vp/records/audits/A-000010/record.md",
+    "first_containing_commit": "47ea2e2d5f7879a6d92fe191d0964166b269003c",
+    "unchanged": true
+  },
+  {
+    "path": "vp/records/audits/A-000010/request.md",
+    "first_containing_commit": "20bb26b935056c7b256b478fa224799ab923a80f",
+    "unchanged": true
+  },
+  {
+    "path": "vp/records/events/V-000017/record.md",
+    "sealed_reference": "d997f6e",
+    "unchanged": true
+  },
+  {
+    "path": "vp/records/events/V-000018/record.md",
+    "sealed_reference": "20bb26b",
+    "unchanged": true
+  }
+]
