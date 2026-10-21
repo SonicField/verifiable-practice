@@ -37,7 +37,7 @@ The [project standard](standards/project-records.md) defines the management and 
 |----------------|------------------|
 | Owner | Preserve the goal; appoint roles; define scope, criteria, budgets and authority; review value and make acceptance/exception decisions |
 | Working AI | Clarify gaps, propose choices/tests, implement authorised work, retain evidence and maintain VP's records/current views |
-| Independent Project Auditor | Assess a frozen record/evidence packet, report gaps and check closure; remain separate from authors and technical problem solving |
+| Independent Project Auditor | Assess a revision identified by an audit reference, report gaps and check closure; remain separate from authors and technical problem solving |
 
 A human owner and AI worker are a common arrangement. An AI owner can act under an explicit bounded mandate. Humans can also contribute technical work under the agreed project roles. The owner ensures tracking happens; the working AI performs routine tracking. The [zero-code contract](concepts/zero-code-contract.md) describes one arrangement for oversight when the AI writes implementation code.
 
@@ -47,7 +47,7 @@ Quality planning establishes what acceptable work means. Quality control checks 
 
 For any maintained unit, `COVERAGE.md` leads to its level-appropriate reason and check, then the authorised root goal. A/B have fuller evidence and independent gates; C uses declared samples/stages; D has one change/check, E its commit message. Failed and abandoned attempts remain accessible in revision history. A/B/C have justified finite reviews; D/E use change triggers without default expiry. Expired or invalid support requires impact review before fresh reliance.
 
-All required documentation is Markdown; raw evidence can retain native formats beside owned manifests. Revision control must preserve immutable content-addressed history, with a verified independent replica for recovery. Historical source is cited by commit/path or blob, never copied into worktree audit packets. Conformance applies to an explicit scope and snapshot after independent Project Audit. It describes record discipline; product quality requires its own acceptance evidence.
+All required documentation is Markdown; raw evidence can retain native formats beside owned manifests. Revision control must preserve immutable content-addressed history, with a verified independent replica for recovery. Historical source is cited by commit/path or blob, never copied into worktree audit references. Conformance applies to an explicit scope and revision after independent Project Audit. It describes record discipline; product quality requires its own acceptance evidence.
 
 ## Choose the Assessment
 
@@ -111,7 +111,7 @@ The documentation explains the complete method and its components for human and 
 | [Project Records Design](docs/project-records-design.md) | Observations, generalisation, alternatives and falsifiers behind the proposed standard |
 | [Worked Record Traces](docs/project-records-examples.md) | Compiled, interpreted and document work using the same record structure |
 | [Project Records Scenarios](docs/project-records-scenarios.md) | Adversarial cases, cold-reader trials and process cost evaluation |
-| [Independent Record Audit](docs/independent-record-audit.md) | Separate assessor/worker contexts, frozen packets, finding responses and closure |
+| [Independent Record Audit](docs/independent-record-audit.md) | Separate assessor/worker contexts, audit references, finding responses and closure |
 
 ## Using VP with Any AI Tool
 

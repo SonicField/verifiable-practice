@@ -16,7 +16,7 @@ must not silently choose it. Use [Audit Routing](../playbooks/audit-routing.md).
 | Finds | Missing/unreliable history, unsupported reliance, expired claims and record gaps | Defects, silent failures, missing technical validation | Drift, weak falsifiers, selective reporting |
 | Output | A report with kind `project`, findings, evidence requirements and independent closure | Report with kind `code`, technical findings and proposed tests | Concise findings, questions and recommendations |
 | Technical execution | Assessor does not run or repair the project | Technical scope is explicit; repairs separately authorised | None unless separately requested |
-| Verdict | Record conformance for a snapshot/time | Engineering findings within the inspected code scope | No conformance verdict |
+| Verdict | Record conformance for a revision/time | Engineering findings within the inspected code scope | No conformance verdict |
 
 ## Reasoning Review
 
@@ -62,7 +62,7 @@ Use the [record audit playbook](../playbooks/record-audit.md). Findings carry
 stable IDs and observable evidence requirements. Worker responses create new
 records; a fresh independent report closes or retains findings. Preserved
 original reports prevent either worker or assessor mistakes from disappearing.
-The [role guide](independent-record-audit.md) explains packet custody and gates.
+The [role guide](independent-record-audit.md) explains audit reference custody and gates.
 
 If both kinds are requested, commission two tasks and reports. A Code Audit
 may supply technical evidence cited by a Project Audit, but does not itself

@@ -13,7 +13,7 @@ The system covers a project from its originating goal to maintenance, recovery a
 | Assurance | Independently assess records, evidence support, traceability and current validity; respond to findings and check closure | [Project Audit](../playbooks/record-audit.md), [independent role guide](independent-record-audit.md), standard §11 |
 | Improvement | Use failures, audit findings, invalidated premises and process-cost observations to revise choices and the method | [Reasoning review](../playbooks/review.md), standard §§7/10–12, [behaviour evaluation](testing-ai-behaviour.md) |
 
-Quality management ties these activities to continuing project value and accountable acceptance. A passing test has a scope; a manager's authority has a mandate; a record-conformance verdict has a snapshot and time. Each needs the appropriate evidence or authorisation.
+Quality management ties these activities to continuing project value and accountable acceptance. A passing test has a scope; a manager's authority has a mandate; a record-conformance verdict has a revision and time. Each needs the appropriate evidence or authorisation.
 
 ## Responsibilities and Authority
 
@@ -21,7 +21,7 @@ Quality management ties these activities to continuing project value and account
 |------|-----------------|----------|
 | Owner | Terminal goal, scope, criteria, roles, budgets/tolerances, delegated authority, continuing value and acceptance/exception decisions | Act within its originating mandate; make reserved decisions explicit |
 | Working AI | Clarification, proposed choices/falsifiers, authorised implementation, experiments, results, records and current views | Report gaps and all relevant outcomes; use the owner's delegation rather than inventing approval |
-| Independent Project Auditor | Frozen-packet record assessment, sourced findings, evidence requirements, verdict and closure review | Be distinct from authors; write only audit outputs; avoid technical execution and repair |
+| Independent Project Auditor | Record assessment of the referenced revision, sourced findings, evidence requirements, verdict and closure review | Be distinct from authors; write only audit outputs; avoid technical execution and repair |
 
 A human owner with an AI worker is common. An AI owner can coordinate under an explicit bounded mandate, including duration, reserved decisions, escalation and handoff. Humans may also perform technical work under the charter. The owner ensures tracking is done; the working AI maintains routine VP records. A worker can coordinate within already delegated authority but remains an author rather than its own independent auditor.
 
@@ -36,7 +36,7 @@ The [zero-code contract](../concepts/zero-code-contract.md) describes one softwa
 5. **Review quality and assurance.** Assess the artefact against its acceptance criteria with appropriate code checks, document analysis or investigation. Separately commission an independent Project Audit where the adopted charter requires it. The worker supplies repairs, level-appropriate entries and evidence; fresh assessment closes record findings.
 6. **Accept, redirect or stop.** Review gates, outstanding risks, costs, failures and continuing value. Record the owner's or delegated coordinator's decision. Record conformance does not itself approve a product or publication.
 7. **Maintain and hand off.** Update source coverage, current state, ledger and ownership. Check actual deadlines and change triggers. Trace affected dependencies when evidence expires or a premise changes; contain reliance and commission new evidence/choices. Describe open work and safe resume/abort steps.
-8. **Preserve, recover or retire.** Keep unique evidence under owned manifests and immutable revision history with a verified independent replica; never copy historical source or nested audit packets into the worktree. Verify recovery within the declared assurance. Before moves/disposal, check consumers and retention, preserve substitutes and record disposition or irreversible loss. Missing evidence downgrades dependent claims.
+8. **Preserve, recover or retire.** Keep unique evidence under owned manifests and immutable revision history with a verified independent replica; never copy historical source or nested audit references into the worktree. Verify recovery within the declared assurance. Before moves/disposal, check consumers and retention, preserve substitutes and record disposition or irreversible loss. Missing evidence downgrades dependent claims.
 
 The [standard](../standards/project-records.md) defines required fields, timing and boundaries for adopted record conformance. The [project playbook](../playbooks/project-records.md) supplies the action order. Scope and criteria can change through authorised decisions; an old pass or a rewritten date cannot justify new work by itself.
 
@@ -59,7 +59,7 @@ A reader can start with a maintained unit and follow:
 
 ```mermaid
 flowchart LR
-    Unit[Code, document or other artefact] --> Coverage[Exact snapshot coverage]
+    Unit[Code, document or other artefact] --> Coverage[Exact revision coverage]
     Coverage --> Change[Introducing or retaining change]
     Change --> Choice[Adopting choice and alternatives]
     Choice --> Evidence[Claims, protocols, builds and runs]
@@ -79,7 +79,7 @@ The short implementation loop—goal, claim, falsifier, check, change, verify, r
 
 ## Choose the Assessment and Keep Its Verdict
 
-- **Project Audit** checks record discipline, provenance, choices, current validity and artefact-to-root justification. It uses a distinct assessor context and a frozen packet. The assessor returns gaps to the worker and does not execute/repair the project.
+- **Project Audit** checks record discipline, provenance, choices, current validity and artefact-to-root justification. It uses a distinct assessor context and an audit reference locating the revision and evidence. The assessor returns gaps to the worker and does not execute/repair the project.
 - **Code Audit** checks engineering implementation/contracts and missing technical checks under its own scope. Repairs require authority.
 - **Document analysis** checks content, claims, audience and whether a document serves the required understanding or decision.
 - **Reasoning review** provides a shorter alignment/evidence check during work.

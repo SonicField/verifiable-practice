@@ -13,13 +13,13 @@
 
 **Audit kind:** project
 **Standard:** <version and preserved location>
-**Snapshot/time:** <exact inventory boundary and UTC audit time>
+**Revision/time:** <exact inventory boundary and UTC audit time>
 **Auditor:** <identity; author/self-review/independent status>
 **Request:** <immutable request.md; commissioning D and scope/budget>
 **Context independence:** <different worker/auditor sessions; no inherited
 worker/owner conversation; independent of every assessed author, including
 an AI owner; preparation self-check is not an independent pass>
-**Input packet:** <manifest, source/record snapshots; pre/post digest checks>
+**Input audit reference:** <manifest, source/record revisions; pre/post digest checks>
 **Evidence custody/access:** <authored versus captured versus independent
 capture; who could alter inputs; omissions and search ranges>
 **Previous audit/responses:** <A/F and level-appropriate response entry links; prior findings may be wrong>
@@ -47,9 +47,9 @@ without prescribing a technical solution>
 
 ## Follow-Up Review
 
-<For every prior finding: response reviewed, new packet evidence, closed/still
+<For every prior finding: response reviewed, new identified evidence, closed/still
 open/inconclusive/finding corrected or superseded. Worker acknowledgement is
-not closure; preserve original reports and their snapshot verdicts.>
+not closure; preserve original reports and their revision verdicts.>
 
 ## Verdict and Next Action
 

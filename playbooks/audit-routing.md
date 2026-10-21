@@ -29,7 +29,7 @@ has already selected its kind and needs no repeated question.
 
 ## After the Kind Is Selected
 
-1. State and record kind, subject, snapshot, role boundary and intended output.
+1. State and record kind, subject, revision, role boundary and intended output.
 2. Load and apply the selected playbook only.
 3. If both are selected, create two scopes, role assignments and reports.
    Cross-reference them without merging permissions or verdicts. The same

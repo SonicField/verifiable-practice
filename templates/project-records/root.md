@@ -9,7 +9,7 @@ Add relative navigation links after copying these files into the record root.
 
 ## Follow a Code Trace
 
-Select the source snapshot and unit in COVERAGE.md. Follow its level-appropriate reason/check: A/B full evidence, C combined records, D change/check, E commit reason. Resolve historical records by immutable revision/path/hash instead of copies.
+Select the source revision and unit in COVERAGE.md. Follow its level-appropriate reason/check: A/B full evidence, C combined records, D change/check, E commit reason. Resolve historical records by immutable revision/path/hash instead of copies.
 Follow origin decisions to the root. Inspect A/B/C deadlines, all-level triggers/dependencies and
 lifecycle events before treating any justification as current.
 

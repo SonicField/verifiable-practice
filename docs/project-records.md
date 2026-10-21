@@ -34,9 +34,16 @@ a verified independent replica provides recovery. Git is one ordinary
 implementation, not a VP-specific service. Alternatives must demonstrate
 those properties. Same-host replicas cannot protect against whole-host loss.
 
-An audit packet names a fixed commit, its bounded scope and verified replica
-or bundle. It contains no source copy and no earlier packet. Its size follows
-present scope, not audit count. Native large evidence is kept once in a declared
+A **recoverable revision** identifies retained bytes by immutable revision ID,
+history, verified replica and a tested recovery route. Recovery evidence names
+the revision and scope actually restored. A tag is an optional label; a hash
+identifies content; neither alone establishes recovery. **Byte-exact recovery**
+describes restored bytes, not rebuilding or executing software.
+
+An **audit reference** is small metadata locating that revision, bounded scope,
+replica and recovery evidence/limits. Source and earlier reports are read by
+immutable locators, never collected into a new input directory. Reference
+size follows present scope, not audit count. Native large evidence is kept once in a declared
 store, cited by hash and replicated for recovery.
 
 Pruning the worktree is allowed after actual restore/byte verification. A short

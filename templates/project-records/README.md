@@ -27,7 +27,7 @@ a completed record alone does not make a claim current.
 | [plan.md](plan.md) | PLAN.md current stage sequence |
 | [state.md](state.md) | STATE.md current handoff/validity |
 | [ledger.md](ledger.md) | LEDGER.md complete record navigation |
-| [coverage.md](coverage.md) | COVERAGE.md snapshot inventory |
+| [coverage.md](coverage.md) | COVERAGE.md revision inventory |
 | [decision.md](decision.md) | D: decisions |
 | [stage.md](stage.md) | S: stages |
 | [hypothesis.md](hypothesis.md) | H: hypotheses |
@@ -37,7 +37,7 @@ a completed record alone does not make a claim current.
 | [change.md](change.md) | C: changes |
 | [event.md](event.md) | V: lifecycle events |
 | [audit.md](audit.md) | A: Project Audit reports, kind project |
-| [audit-request.md](audit-request.md) | records/audits/<A-ID>/request.md: frozen scope, packet and independent role |
+| [audit-request.md](audit-request.md) | records/audits/<A-ID>/request.md: identified revision/scope, audit reference and independent role |
 | [audit-response.md](audit-response.md) | A/B response event; C/D may use a change entry, always pending independent closure |
 | [manifest.md](manifest.md) | artefacts/<owner-ID>/MANIFEST.md |
 | [workspace.md](workspace.md) | workspace/README.md ownership |

@@ -1,7 +1,7 @@
 # Current Project State
 
 **As of:** <UTC time>
-**Source/snapshot:** <exact identity and locator>
+**Source/revision:** <exact identity and locator>
 **Active stage/authority:** <stage label/entry, root/task authority and consequence level>
 **Most recent audit:** <A link and scoped verdict>
 
@@ -24,7 +24,7 @@ contained; temporary exception authority and expiry.>
 
 <Keep every unresolved mandatory finding visible. Owner deferral or risk
 acceptance does not count as closing a gap. An old verdict remains scoped
-to its original packet, even when a successor audit passes.>
+to its original audit reference, even when a successor audit passes.>
 
 ## Open Operations and Handoff
 

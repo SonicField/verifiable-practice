@@ -23,7 +23,7 @@ VP supplies four connected quality functions:
 | Quality assurance | Independently inspect records, provenance and current justification; return gaps to the worker and check closure |
 | Quality improvement | Use failures, review findings and process observations to revise methods, controls and future choices |
 
-The owner preserves the goal and mandate and makes or delegates management decisions. The working AI performs authorised work and keeps the records. A distinct record auditor checks a frozen packet without becoming an implementer. An owner can be human or AI, with explicit authority; the [role guide](docs/independent-record-audit.md) explains that contract.
+The owner preserves the goal and mandate and makes or delegates management decisions. The working AI performs authorised work and keeps the records. A distinct record auditor checks the identified revision and evidence using an audit reference, without becoming an implementer. An owner can be human or AI, with explicit authority; the [role guide](docs/independent-record-audit.md) explains that contract.
 
 The [overview](docs/how-vp-works.md) explains the whole lifecycle. The [project standard](standards/project-records.md) defines the adopted documents, directory structure and actions. Markdown and directories preserve meaning; no particular AI vendor, database or team runtime is required.
 

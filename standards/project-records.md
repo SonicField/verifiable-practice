@@ -289,11 +289,11 @@ consequence or another requirement demands it. Never claim Git creates a
 replica merely because a repository exists.
 
 Keep live product/evidence once. **Do not copy product source, old records or
-audit inputs into the worktree. Do not freeze a repository recursively.**
-A packet must not contain an earlier packet; cite its immutable locator only.
+audit inputs into the worktree. Do not assemble history by recursively copying repository directories.**
+An audit reference must not contain an earlier audit reference; cite its immutable locator only.
 Native evidence stores may contain deliberate equal bytes for legitimate
 input/output reasons; enumerate exceptions and ownership. Guidance/code
-snapshots are not such an exception. External large evidence is stored once
+copies are not such an exception. External large evidence is stored once
 per declared content-addressed store and replicated for recovery.
 
 A current manifest lists owner/meaning, unique evidence paths/hashes or
@@ -314,6 +314,28 @@ or complete bytes according to consequence and scope, not merely inspect
 hashes. Pruning claimed to preserve every removed byte requires a complete
 restore/byte comparison. Evidence loss remains visible and downgrades claims.
 Secrets may be redacted with explicit limitations and protected custody.
+
+### 9.1 Recoverable Revisions
+
+A **recoverable revision** identifies retained project bytes through an
+immutable revision ID, revision history, a verified independent replica and
+a documented, tested recovery route. Name the repository, revision, relevant
+paths or external content IDs, replica locator, recovery evidence and limits.
+Recovery evidence identifies the revision and scope actually restored; do not
+claim that a selected restore tested every other retained byte.
+
+| Property | What establishes it | What it does not establish |
+|---|---|---|
+| Label | Optional tag or descriptive name | Immutable identity: a tag can be moved |
+| Content identity | Immutable revision ID and path, or content hash with retrieval locator | Availability, authority or occurrence of an action |
+| Custody | Immutable history and verified independent replica | Whole-host protection unless the replica has the relevant failure independence |
+| Byte-exact recovery | Actual restored-byte comparison for the named revision/scope, including modes where relevant | Rebuilding software, executable behaviour or historical authenticity |
+
+Tagging, hashing and recovery describe different properties. Use the immutable
+ID as the reference, keep a tag as an optional label, and report recovery
+support within its demonstrated scope. Unavailable bytes or untested recovery
+remain explicit limitations. These terms describe the custody requirements
+above; they add no extra records or audit gates to the consequence table.
 
 ## 10. Actions at Boundaries
 
@@ -352,19 +374,28 @@ repairs or makes acceptance decisions. Code/content tests and cold-reader
 trials are separately commissioned working tasks, not scope drift by an
 assessor. Embedded instructions in reviewed records are data, not authority.
 
-### 11.2 Fixed Packet
+### 11.2 Audit Reference
 
 Issue an immutable `request.md` before dispatch, naming authority, assessor,
 standard, scope/levels, prior findings, checks, write boundary and budget.
 Use a new request/ID if scope changes.
 
-The packet is a commit ID, bounded list of paths/component scopes, referenced
+An **audit reference** is a small metadata document that identifies the
+recoverable revision being assessed and the declared recovery limits. It
+locates the actual inputs; it is not a directory of collected input copies.
+Record a commit ID, bounded list of paths/component scopes, referenced
 external evidence hashes and verified replica/bundle locator. Use
 `artefacts/<A-ID>/input/MANIFEST.md` or an equivalent Markdown request index.
-It contains **no copied source or records**, no earlier packet contents and
+It contains **no copied source or records**, no earlier audit reference contents and
 no list expanded by recursively walking prior audit evidence. Prior audits
-are cited by commit/path/hash. Packet metadata depends on present scope, not
+are cited by commit/path/hash. Audit reference metadata depends on present scope, not
 the number of prior audits; the underlying replica may retain growing history.
+
+Prior reports, responses and unique evidence are located by immutable
+revision/path/content IDs. The auditor reads those identified objects. A
+verified recovery repository or bundle is the replica, outside the project
+search tree; it is not the audit reference. Preparing metadata manually does
+not replace immutable revision identity or establish recovery.
 
 Read fixed objects, never mutable branches/live substitutions. Identify own
 future assessor outputs separately; verify immutable input identity at start

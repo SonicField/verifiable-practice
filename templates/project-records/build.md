@@ -14,7 +14,7 @@
 
 **Classification:** <fresh/incremental/imported; reused inputs>
 **Predecessor build:** <B link or why none>
-**Source:** <exact snapshots for every repo/submodule; clean status or retained
+**Source:** <exact revisions for every repo/submodule; clean status or retained
 base+patch+untracked/generated inputs; no guessed identity>
 **Dependencies:** <versions, content identities, native modules and configuration>
 **Toolchain/environment:** <compiler/version, OS/architecture, relevant variables>

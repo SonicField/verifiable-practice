@@ -8,4 +8,4 @@
 |---|---|---|---|
 | <unique current path or immutable historical locator> | <input/output/original manifest> | <SHA/object and accessible locator> | <policy, redaction/loss> |
 
-No copied source, old record trees or earlier packets. External large data lives once per declared store, cited by hash and replicated. A successor manifest identifies its original exact revision/path rather than pretending to rewrite a sealed capture. Record pruning/disposition in the level’s record and commit only after actual recovery verification; retain original history/replica.
+No copied source, old record trees or earlier audit references. External large data lives once per declared store, cited by hash and replicated. A successor manifest identifies its original exact revision/path rather than pretending to rewrite a sealed capture. Record pruning/disposition in the level’s record and commit only after actual recovery verification; retain original history/replica.

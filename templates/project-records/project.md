@@ -30,7 +30,7 @@ and current views. Any transcription preserves source, attribution and date.>
 ## Independent Project Audit Contract
 
 <Worker/auditor identities and separate contexts; coordinator delegation;
-source/evidence custody and capture limits; frozen packet method; auditor
+source/evidence custody and capture limits; audit reference method; auditor
 write boundary; applicable A/B and declared C stage/conformance/invalidation triggers and periodic
 cadence; round/time budgets; response owner; unresolved-finding escalation
 and predeclared gates. Self-review and silence are not independent passes.>
@@ -39,7 +39,7 @@ and predeclared gates. Self-review and silence are not independent passes.>
 
 <Risk owners, tolerances, review gates, reasons to continue or stop.>
 
-## Snapshot and Record Policy
+## Revision and Record Policy
 
 <Source identity method, including dirty/generated/dependency inputs;
 ID allocation; unit granularity; preserved baseline location.>

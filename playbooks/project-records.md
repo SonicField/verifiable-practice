@@ -73,8 +73,8 @@ complete comparison. Retire current copies/verbose history with a commit and
 appropriate record/summary. Keep successor manifests resolving original
 commit/path/hash; never rewrite an original capture as if it were new.
 
-An audit packet is a fixed commit, bounded scope list and verified replica/
-external-evidence locators. Earlier packets are referenced, never included.
+An audit reference is a fixed commit, bounded scope list and verified replica/
+external-evidence locators. Earlier audit references are referenced, never included.
 Check tree growth/duplicates and cold-reader understanding of STATE when
 changing this machinery. Missing evidence or open mandatory gates remains
 visible; no positive result or elapsed budget grants authority.

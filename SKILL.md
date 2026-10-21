@@ -18,11 +18,11 @@ Treat every material claim as something that must be possible to check. Establis
 
 For project work, identify the owner mandate, terminal goal, scope, acceptance/harm criteria and delegated authority. Plan bounded stages with budgets, tolerances, review points and stop conditions. Generalise observations before choosing an approach. Commission falsifiable claims/protocols before evidence executions; identify actual inputs and retain relevant failures and retries. Link authorised changes and retained artefacts to decisions, evidence and the root goal.
 
-The owner controls goals, scope and management decisions; the working AI produces authorised work and maintains records, ledger, coverage and current views. An AI owner requires an explicit bounded originating mandate. A distinct Project Auditor checks a frozen packet and closure conditions without technical execution or repair. Humans may contribute work under the charter; role names do not grant authority or independence.
+The owner controls goals, scope and management decisions; the working AI produces authorised work and maintains records, ledger, coverage and current views. An AI owner requires an explicit bounded originating mandate. A distinct Project Auditor checks the revision and evidence identified by an audit reference, and verifies closure conditions without technical execution or repair. Humans may contribute work under the charter; role names do not grant authority or independence.
 
-Review quality evidence and unresolved risks at gates; record acceptance, exceptions, continuation or stopping. Check validity and dependency impact at handoff and on relevant changes. Revalidate expired/invalid support with new evidence and level-appropriate successor choices/entries. Preserve unique evidence and immutable revision history with a verified independent replica; cite earlier bytes instead of copying source or audit packets into the worktree. Use the [complete overview](docs/how-vp-works.md), [project playbook](playbooks/project-records.md) and [standard](standards/project-records.md) for the required documents and actions.
+Review quality evidence and unresolved risks at gates; record acceptance, exceptions, continuation or stopping. Check validity and dependency impact at handoff and on relevant changes. Revalidate expired/invalid support with new evidence and level-appropriate successor choices/entries. Preserve unique evidence and immutable revision history with a verified independent replica; cite earlier bytes instead of copying source or audit references into the worktree. Use the [complete overview](docs/how-vp-works.md), [project playbook](playbooks/project-records.md) and [standard](standards/project-records.md) for the required documents and actions.
 
-A bounded use of VP applies the relevant method to the authorised task. Full project record conformance is explicitly adopted for a scope and snapshot; an existing charter must be followed, and a new project is not silently enrolled. Conformance assessment and product-quality acceptance are separate gates. The method uses Markdown/directories and revision control with content-addressed identity, immutable history and a verified replica. Git is an ordinary implementation; equivalent alternatives must demonstrate those properties. No VP-specific software or persistent team infrastructure is required.
+A bounded use of VP applies the relevant method to the authorised task. Full project record conformance is explicitly adopted for a scope and revision; an existing charter must be followed, and a new project is not silently enrolled. Conformance assessment and product-quality acceptance are separate gates. The method uses Markdown/directories and revision control with content-addressed identity, immutable history and a verified replica. Git is an ordinary implementation; equivalent alternatives must demonstrate those properties. No VP-specific software or persistent team infrastructure is required.
 
 ## Working Rules
 
@@ -38,7 +38,7 @@ A bounded use of VP applies the relevant method to the authorised task. Full pro
 
 Classify consequence before work using [standard §1.1](standards/project-records.md#11-consequence-determines-assurance): A harm/regulatory breach/irreversible loss; B serious loss/costly recovery; C significant rework or more than minor user defect; D minor and easily reversed; E no behaviour/meaning effect. Use the higher level on disagreement or unresolved credible consequence. A/B need independent gates and owner acceptance; C uses declared samples/stages; D needs one change record with its reason and actual check; E its commit message only. Full-project conformance does not add D/H/E/R/A files to D or a change record to E. D/E have trigger-only review, not calendar expiry. Binding contracts cannot be lowered merely by calling them documentation.
 
-Audit packets contain a fixed commit, bounded scope and verified replica/external-evidence locators, never copied source or earlier packets. Preserve failures in history and current evidence once. Test actual recovery and cold-reader understanding when changing custody/current views.
+An audit reference locates a recoverable revision: immutable commit, bounded scope, verified replica and scoped recovery/external-evidence locators. It contains no copied source or earlier references. Preserve failures in history and current evidence once. Test actual recovery and cold-reader understanding when changing custody/current views.
 
 When a project declares conformance to VP project planning and records, use
 its chosen record root and the [Project Records Standard](standards/project-records.md).
@@ -53,7 +53,7 @@ both. An explicit typed request needs no repeated clarification.
 
 When assigned a Project Audit (also called independent record audit), use a fresh context and the
 [Record Audit](playbooks/record-audit.md) playbook. Assess the designated
-packet and write only audit outputs. Return evidence requirements to the
+audit reference and write only audit outputs. Return evidence requirements to the
 working AI; technical execution and record repair belong to that AI. A
 worker response requires independent re-audit for closure. The implementation
 loop below applies to working tasks, not this assessor role.

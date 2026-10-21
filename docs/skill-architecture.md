@@ -35,7 +35,7 @@ Documentation explains the complete method or a component to human and AI reader
 
 ### Project Records and Evidence
 
-A project's selected record root contains its charter, plan, state, ledger, coverage, typed records and owned raw evidence. The working AI maintains them under owner authority. These files are the actual project history and management state; explanatory guides and template examples cannot substitute for them. Source/decision/evidence identities, failed attempts, validity and custody remain inspectable across sessions. Independent Project Audit assesses an immutable commit/scope/replica index through a distinct context, with no copied source or earlier packet. Consequence levels determine the minimum records and applicable gates.
+A project's selected record root contains its charter, plan, state, ledger, coverage, typed records and owned raw evidence. The working AI maintains them under owner authority. These files are the actual project history and management state; explanatory guides and template examples cannot substitute for them. Source/decision/evidence identities, failed attempts, validity and custody remain inspectable across sessions. Independent Project Audit assesses an immutable commit/scope/replica index through a distinct context, with no copied source or earlier audit reference. Consequence levels determine the minimum records and applicable gates.
 
 ### Standards and Templates
 
@@ -52,7 +52,7 @@ A host may require installation metadata, permission declarations, command wrapp
 Grant the minimum capabilities required for the selected mode. A review should not receive write permission merely because another VP playbook can modify files. A code audit should remain read-only until repair is separately authorised.
 
 For independent record audit, give a fresh assessor context the immutable
-request and packet, read access to referenced evidence, and write access only
+request and audit reference, read access to referenced evidence, and write access only
 to its own audit outputs. Keep technical execution and worker-record repair
 in a separate working context. Host permissions can enforce this boundary;
 directory requests and role instructions still define it when enforcement

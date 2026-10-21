@@ -6,10 +6,12 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The
 
 ## Unreleased
 
+- Define recoverable revisions, byte-exact recovery and audit references; replace preservation/container metaphors throughout active audit guidance. Tags, content identity, custody and recovery evidence have separate stated roles.
+
 ### Changed
 
 - Scale assurance by A–E consequence levels, including one change/check for D and commit-message-only E, with trigger-only D/E review.
-- Require content-addressed immutable revision history and a verified recovery replica. Audit packets contain commit/scope/replica locators, never copied source or nested earlier packets.
+- Require content-addressed immutable revision history and a verified recovery replica. Audit references contain commit/scope/replica locators, never copied source or nested earlier audit references.
 - Prune historical evidence copies and detailed self-adoption records from the working tree after an actual baseline restore; retain one summary and immutable custody locators. Rewrite current views for a cold reader.
 
 
@@ -47,13 +49,13 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The
   decision limits and handoff; working-AI record keeping and independent
   assessment also cover AI-owner decisions.
 
-- Independent record auditor/working AI role contract, frozen audit packets,
+- Independent record auditor/working AI role contract, audit references,
   finding IDs, worker response events and fresh closure audits; request and
   response templates, role boundaries and adversarial scenarios derived from
   Medic/Pythia while retaining portable Markdown directory handoff.
 
 - Proposed Markdown-only project planning and records standard: stable IDs,
-  stages, decisions, hypotheses, build/run provenance, snapshot coverage,
+  stages, decisions, hypotheses, build/run provenance, revision coverage,
   finite validity, revalidation, retention and audit requirements.
 - Copyable project/operation templates, an execution playbook, design-choice
   provenance, worked traces and adversarial evaluation scenarios informed by

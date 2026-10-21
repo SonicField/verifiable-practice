@@ -22,8 +22,8 @@ independence. Their team runtime and communication tools are not required.
 | Role | Question it answers | Output |
 |------|---------------------|--------|
 | Working AI | What work and evidence should we produce under the authorised plan? | Technical work, durable records and finding responses |
-| Independent record auditor | Does this packet support the recorded history, choices and current justification? | Scoped findings, evidence requirements, verdict and closure review |
-| Owner/delegated coordinator | What scope, authority, gates and next task apply? | Audit requests, packets, routing and exception decisions |
+| Independent record auditor | Do the identified revision and evidence support the recorded history, choices and current justification? | Scoped findings, evidence requirements, verdict and closure review |
+| Owner/delegated coordinator | What scope, authority, gates and next task apply? | Audit requests, audit references, routing and exception decisions |
 
 The auditor can notice that a test does not support the claim attached to it.
 It returns the unsupported claim and evidence requirement. Designing and
@@ -44,11 +44,11 @@ work and gates; replacement does not erase findings or renew evidence.
 
 ```mermaid
 flowchart TD
-    Work[Worker produces work and records] --> Packet[Coordinator freezes request and packet]
-    Packet --> Audit[Fresh independent auditor checks records]
+    Work[Worker produces work and records] --> Reference[Coordinator records revision, scope and recovery locators]
+    Reference --> Audit[Fresh independent auditor checks records]
     Audit --> Report[Sealed report with finding IDs and closure conditions]
     Report --> Response[Worker supplies or reconstructs records and new evidence]
-    Response --> Next[New frozen packet and fresh re-audit]
+    Response --> Next[New audit reference and fresh re-audit]
     Next --> Closed[Independent closure report]
     Next --> Unresolved[Unresolved finding]
     Unresolved --> Budget{Within declared budget?}
@@ -57,13 +57,17 @@ flowchart TD
 ```
 
 For each A, `request.md` identifies inputs, scope, role and budget;
-`record.md` is the assessor's report. Packet metadata has a manifest under
-`artefacts/<A-ID>/input/`: fixed commit, bounded scope and verified replica/external-evidence locators only, with no source copy or earlier packet contents. Findings have IDs such as `A-000001/F-001`.
+`record.md` is the assessor's report. Audit reference metadata has a manifest under
+`artefacts/<A-ID>/input/`: immutable revision ID, bounded scope and verified
+replica/external-evidence locators only. The **recoverable revision** is the
+identified project state backed by custody and scoped recovery evidence;
+the **audit reference** is metadata locating it. It holds no source copy or
+earlier reference contents. Findings have IDs such as `A-000001/F-001`.
 At A/B the working AI answers using a V event of kind `audit-response`;
 at C/D it may use a dated change/successor entry, preserving the original
 sealed revision and identifying the finding, evidence and proposed disposition.
 No separate V is imposed solely by VP at C/D. A successor
-A report closes the finding against a new snapshot. State and ledger provide
+A report closes the finding against a new revision. State and ledger provide
 the current view while all original reports remain readable.
 
 This can run with two separate AI sessions and file handoff. The coordinator
@@ -87,10 +91,10 @@ repair from manufacturing provenance.
 
 A fresh auditor context provides role independence. It does not make the
 worker's authored records independently captured evidence of actual actions.
-The packet therefore identifies evidence producer, custodian, capture method,
+The audit reference therefore identifies evidence producer, custodian, capture method,
 coverage and alteration authority. Existing terminal/CI/operator captures can
 strengthen provenance when preserved, but no particular capture software is
-required. Digests bind bytes to the packet; they do not authenticate history.
+required. Digests bind bytes to the audit reference; they do not authenticate history.
 
 An incomplete search can miss a real action. Findings state what was searched
 and what was not available. Unsupported or uncertain is a useful verdict;
@@ -104,22 +108,22 @@ records do not impose the same form on C/D:
 
 1. A-000001/F-001 observes that D-000014 cites “all tests passed”, but its
    cited R lacks executable identity and raw output. The auditor searched the
-   designated packet; other session logs were not supplied. The finding is a
+   identified revision and referenced evidence; other session logs were not supplied. The finding is a
    mandatory provenance gap, without an accusation of fabrication.
 2. Its closure condition asks for original run/build identity and retained
    evidence, or an explicit loss declaration plus current revalidation and
    dependent decision review. It does not prescribe a product fix.
 3. The worker creates V-000008: original evidence is unavailable. New H/E,
-   B/R and a successor D justify the current snapshot; the old run remains
+   B/R and a successor D justify the current revision; the old run remains
    unknown. V links all new evidence and marks the response ready for re-audit.
-4. A-000002 inspects the new frozen packet. It may close current-snapshot
+4. A-000002 reads the revision/evidence located by the new audit reference. It may close current-revision
    justification while keeping historical provenance nonconformant if that
    historical scope is still claimed. It does not change A-000001's verdict.
 5. The coordinator updates STATE with both scoped outcomes. Only a separate
    owner decision can change the declared scope; no historical gap is erased.
 
 If the original finding was wrong and evidence already existed in an omitted
-packet file, the follow-up report corrects it with the exact evidence and
+referenced evidence file, the follow-up report corrects it with the exact evidence and
 access limitation. The worker cannot self-certify closure in either case.
 
 ## Gates without Role Drift

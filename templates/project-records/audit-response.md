@@ -18,7 +18,7 @@
 
 **Action:** <supply existing evidence/reconstruct/dispute/commission new work/acknowledge loss>
 **Authority:** <delegation or new D; technical actions require their own authority>
-**Original records/snapshots:** <preserved locators>
+**Original records/revisions:** <preserved locators>
 **Sources and search coverage:** <evidence used; actual access limits>
 **New records/evidence:** <V corrections, D/H/E/B/R/C links as applicable>
 **Reconstruction date and limits:** <separate from historical occurrence time;

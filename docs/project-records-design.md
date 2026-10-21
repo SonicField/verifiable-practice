@@ -50,22 +50,22 @@ when applying domain regulation; that domain's actual requirements prevail.
 
 ## 2. Identity, Availability and Restoration
 
-**Observation:** copied audit packets nested earlier packets and stale
+**Observation:** copied audit input directories nested earlier copies and stale
 instructions outnumbered current ones. A Git bundle reduced storage but did
 not remove searchable obsolete copies.
-**General problem:** identity was confused with availability, and the snapshot
-boundary had no stopping rule. A copy looked safer while its cost landed later.
+**General problem:** identity was confused with availability, and input
+selection had no stopping rule. A copy looked safer while its cost landed later.
 **Choice:** require immutable content-addressed revision history and a verified
 independent replica; reference historical bytes, never copy source or earlier
-packets into today's worktree. Large external evidence is stored once per
-content-addressed store and replicated. Packet metadata depends on present
+audit references into today's worktree. Large external evidence is stored once per
+content-addressed store and replicated. Audit reference metadata depends on present
 scope, not the number of past audits. Current locator manifests resolve the
 original exact manifests instead of repeating every old source inventory.
-**Alternatives rejected:** directory snapshots without revision history;
+**Alternatives rejected:** directory copies without revision history;
 hashes without retrievable bytes; assuming Git supplies a replica; recursive
 scope expansion; silent loss disguised as cleanup.
-**Falsifiers:** later audit packets contain earlier packet/source contents,
-working-tree growth follows packet history, product hashes have undocumented
+**Falsifiers:** later audit references contain earlier audit reference/source contents,
+working-tree growth follows audit reference history, product hashes have undocumented
 duplicates, or a promised recovery is never actually performed.
 
 ## 3. Keep Current Views Useful
@@ -85,6 +85,27 @@ for understanding.
 removed bytes cannot be restored, or a fresh reader given only STATE misstates
 stage/open findings/next action. R13 captures actual evidence and limits;
 independent Project Audit checks that evidence without performing repairs.
+
+## 4. Name Preservation Properties Directly
+
+**Observation:** container language in the re-audit route still suggested
+collecting old reports, despite the explicit reference-only custody contract.
+The owner requested terminology that describes tags, hashes and recovery.
+**General problem:** a preservation metaphor obscures which properties are
+actually established, and encourages manual copies as a substitute.
+**Choice:** call the retained identified state a **recoverable revision**,
+with immutable identity/history, verified replica and scoped recovery evidence.
+Call the small metadata locator an **audit reference**. State **byte-exact
+recovery** only for the tested revision/paths, separate from build reproduction
+or executable behaviour. These names apply to code, documents and native data.
+**Alternatives rejected:** tagged alone (labels can move); hashed alone
+(missing bytes are still missing); binary recoverable (can imply execution or
+a reproducible build); directory collections (reintroduce duplicate history).
+**Falsifiers:** a route instructs copying inputs; a moved tag changes an
+identified audit input; unavailable hashed bytes are called recoverable; a
+source restore is represented as a successful build. The repository C7
+records the current choice/check; other projects do not need that record.
+Existing consequence forms and independent gates remain the contract.
 
 ## Remaining Research Question
 
