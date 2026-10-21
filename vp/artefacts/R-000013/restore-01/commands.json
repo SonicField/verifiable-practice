@@ -1,0 +1,193 @@
+[
+  {
+    "label": "baseline-head",
+    "argv": [
+      "/usr/bin/git",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/home/alexturner/verifiable-practice",
+    "started": "2026-10-21T12:37:18.928421+00:00",
+    "ended": "2026-10-21T12:37:18.932627+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdout": "vp/artefacts/R-000013/restore-01/baseline-head.stdout.bin",
+    "stdout_sha256": "2909127eebb7933f332f6678307358eced97f1e1aff90f4a62fc6b2fb6334556",
+    "stderr": "vp/artefacts/R-000013/restore-01/baseline-head.stderr.bin",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "label": "tag",
+    "argv": [
+      "/usr/bin/git",
+      "tag",
+      "records-archive-2026-10",
+      "9605ad0dccea157880a05208babfdac5aa5a5fcd"
+    ],
+    "cwd": "/home/alexturner/verifiable-practice",
+    "started": "2026-10-21T12:37:18.937523+00:00",
+    "ended": "2026-10-21T12:37:18.941676+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdout": "vp/artefacts/R-000013/restore-01/tag.stdout.bin",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "vp/artefacts/R-000013/restore-01/tag.stderr.bin",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "label": "bundle",
+    "argv": [
+      "/usr/bin/git",
+      "bundle",
+      "create",
+      "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle",
+      "records-archive-2026-10"
+    ],
+    "cwd": "/home/alexturner/verifiable-practice",
+    "started": "2026-10-21T12:37:18.946420+00:00",
+    "ended": "2026-10-21T12:37:20.364114+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdout": "vp/artefacts/R-000013/restore-01/bundle.stdout.bin",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "vp/artefacts/R-000013/restore-01/bundle.stderr.bin",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "label": "bundle-verify",
+    "argv": [
+      "/usr/bin/git",
+      "bundle",
+      "verify",
+      "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle"
+    ],
+    "cwd": "/home/alexturner/verifiable-practice",
+    "started": "2026-10-21T12:37:20.369094+00:00",
+    "ended": "2026-10-21T12:37:20.373069+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdout": "vp/artefacts/R-000013/restore-01/bundle-verify.stdout.bin",
+    "stdout_sha256": "466283a8c3e7ef59b855ed326b3e388da8e07e4d2c5f5cf8bbc5fb535e20ead4",
+    "stderr": "vp/artefacts/R-000013/restore-01/bundle-verify.stderr.bin",
+    "stderr_sha256": "4a7d1d8016388d2c7d0afe9ece2b69dc01ff3555ce00e3c02c287bd489f576ea"
+  },
+  {
+    "label": "clone",
+    "argv": [
+      "/usr/bin/git",
+      "clone",
+      "--no-checkout",
+      "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle",
+      "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/restored-baseline"
+    ],
+    "cwd": "/home/alexturner/verifiable-practice",
+    "started": "2026-10-21T12:37:20.377899+00:00",
+    "ended": "2026-10-21T12:37:20.682067+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdout": "vp/artefacts/R-000013/restore-01/clone.stdout.bin",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "vp/artefacts/R-000013/restore-01/clone.stderr.bin",
+    "stderr_sha256": "2de2d5cbc21efbe9718fa0a16fc72f80b73c903d328b5e7483dee30f15cd91fb"
+  },
+  {
+    "label": "checkout",
+    "argv": [
+      "/usr/bin/git",
+      "checkout",
+      "--detach",
+      "9605ad0dccea157880a05208babfdac5aa5a5fcd"
+    ],
+    "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/restored-baseline",
+    "started": "2026-10-21T12:37:20.687031+00:00",
+    "ended": "2026-10-21T12:37:22.372635+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdout": "vp/artefacts/R-000013/restore-01/checkout.stdout.bin",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "vp/artefacts/R-000013/restore-01/checkout.stderr.bin",
+    "stderr_sha256": "4f632650acf5138ae04afe5506e5772b124ff2e9bda97590d6f815d101dd16de"
+  },
+  {
+    "label": "baseline-index",
+    "argv": [
+      "/usr/bin/git",
+      "ls-tree",
+      "-r",
+      "-z",
+      "9605ad0dccea157880a05208babfdac5aa5a5fcd"
+    ],
+    "cwd": "/home/alexturner/verifiable-practice",
+    "started": "2026-10-21T12:37:22.377680+00:00",
+    "ended": "2026-10-21T12:37:22.392980+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdout": "vp/artefacts/R-000013/restore-01/baseline-index.stdout.bin",
+    "stdout_sha256": "abf2c41ae16da7dac4a975357277187f60f311c6ad571057c04d98721a464ba9",
+    "stderr": "vp/artefacts/R-000013/restore-01/baseline-index.stderr.bin",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "label": "restored-index",
+    "argv": [
+      "/usr/bin/git",
+      "ls-tree",
+      "-r",
+      "-z",
+      "9605ad0dccea157880a05208babfdac5aa5a5fcd"
+    ],
+    "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/restored-baseline",
+    "started": "2026-10-21T12:37:22.415706+00:00",
+    "ended": "2026-10-21T12:37:22.425593+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdout": "vp/artefacts/R-000013/restore-01/restored-index.stdout.bin",
+    "stdout_sha256": "abf2c41ae16da7dac4a975357277187f60f311c6ad571057c04d98721a464ba9",
+    "stderr": "vp/artefacts/R-000013/restore-01/restored-index.stderr.bin",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "label": "baseline-blobs",
+    "argv": [
+      "/usr/bin/git",
+      "cat-file",
+      "--batch"
+    ],
+    "cwd": "/home/alexturner/verifiable-practice",
+    "started": "2026-10-21T12:37:22.434095+00:00",
+    "ended": "2026-10-21T12:37:22.624179+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdout": "vp/artefacts/R-000013/restore-01/baseline-blobs.stdout.bin",
+    "stdout_sha256": "e92db4dfce1cea6094a7dba093b330bb3affc7cc7f7db89788a1088cbac605b6",
+    "stderr": "vp/artefacts/R-000013/restore-01/baseline-blobs.stderr.bin",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "label": "restored-status",
+    "argv": [
+      "/usr/bin/git",
+      "status",
+      "--porcelain"
+    ],
+    "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/restored-baseline",
+    "started": "2026-10-21T12:37:24.015463+00:00",
+    "ended": "2026-10-21T12:37:25.022990+00:00",
+    "exit": 0,
+    "exe_sha_before": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "exe_sha_after": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+    "stdout": "vp/artefacts/R-000013/restore-01/restored-status.stdout.bin",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr": "vp/artefacts/R-000013/restore-01/restored-status.stderr.bin",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

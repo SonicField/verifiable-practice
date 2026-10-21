@@ -1,14 +1,13 @@
-# Artefact Manifest: R-000005
+# R-000005: current locator for historical evidence
 
-**Owner:** R-000005. **Producer/custodian:** worker /root.
-**Retention:** project life + 365 days after retirement; active reliance blocks disposal.
-**Consumers:** D-000010/011 version-control checkpoint, C-000003 and V-000007.
-**Limits:** worker-controlled capture; original audit/technical evidence is not recertified.
+This is a successor custody index under D26, not the original sealed manifest.
+Original: `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/R-000005/MANIFEST.md`, blob `17848d59472af3f1c1f615c7a293162aae2539ee`, SHA256 `ead5541e3906a82cfceed18ccabe02c6d8b6d5d727992734ba47bf1fd02a3022`.
+The owner's historical evidence resolves under `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/R-000005/`.
+Its original manifest supplies per-file meaning, producer, consumers and limits.
 
-| Path | Meaning | SHA-256 |
-|------|---------|---------|
-| check_index.py | identified staged-byte instrument/input/output; Git stores actual blob bytes | `b1cbe17def9f0ab3f990b1ff86a53e3d201100bc1db66a92202ecbf822b8e979` |
-| checkpoint-comparison/index.stdout.bin | identified staged-byte instrument/input/output; Git stores actual blob bytes | `b26a847de6dbf3054a61c01c01285500ca1022b6fa898d91497a09478953a352` |
-| checkpoint-comparison/results.json | identified staged-byte instrument/input/output; Git stores actual blob bytes | `e3db7c4649370b4d0595d2e806ca2c6c421fd740508cdd5b4b179697db34780c` |
-
-Manifest identity is retained by committed Git tree. No sealed original or captured result rewritten.
+All baseline bytes were actually restored from `records-archive-2026-10` in
+`/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle`
+and compared, with zero mismatches (R13 restore-01). Current source copies
+are removed; historical positives, failures, requests and unknowns remain in
+that revision and replica. This index does not certify historical actions.
+Retention: project life plus 365 days; no history/replica disposal authorised.

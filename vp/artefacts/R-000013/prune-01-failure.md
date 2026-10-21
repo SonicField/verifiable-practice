@@ -1,0 +1,3 @@
+# Pruning attempt 01: failed before execution
+
+Recorded 2026-10-21T12:41:03.591714+00:00. Original instrument prune.py. Tool response: OSError errno7, Argument list too long, starting /usr/bin/git. No subprocess was created, so no Git removal or subprocess stdout/status exists. Original command construction is in the retained instrument; baseline source list is the fully restored inventory. Corrected attempt 02 is allocated before execution: split the same verified path list into at most 1000 paths per invocation, retain all individual argv/status/outputs, stop on any failed batch. Original attempted deletion had not begun; no historical log is regenerated. Authority and no-loss criteria remain D26.

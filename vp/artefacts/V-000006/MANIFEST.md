@@ -1,11 +1,13 @@
-# V-000006 Custody Instrument
+# V-000006: current locator for historical evidence
 
-**Owner:** V-000006 under D-000009. **Producer/custodian:** worker /root.
-**Retention:** project life + 365 days after retirement; no scheduled disposal.
-**Consumer:** completed handoff and future recovery/audits.
+This is a successor custody index under D26, not the original sealed manifest.
+Original: `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/V-000006/MANIFEST.md`, blob `64c5e3720349d999f24098f7408f2c768ba03b00`, SHA256 `904ea80db989d3cef2162c54beef803d6ddead4d372ea5cf079a32328689a32f`.
+The owner's historical evidence resolves under `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/V-000006/`.
+Its original manifest supplies per-file meaning, producer, consumers and limits.
 
-| Path | Meaning | SHA-256 |
-|------|---------|---------|
-| preserve.py | optional directory copy/checkpoint metadata instrument | `c430b3c74fa5f6250fd49e2e565250a1e5fbce1c5cf905acda775b9af6ba3ead` |
-
-Actual completion metadata is the outer inventory/MANIFEST at `/home/alexturner/vp-preserved/verifiable-practice/completed-adoption-20261019`; it identifies this manifest and all current sealed source bytes. Same-host protection and worker-controlled capture limits apply. No historical action authentication.
+All baseline bytes were actually restored from `records-archive-2026-10` in
+`/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle`
+and compared, with zero mismatches (R13 restore-01). Current source copies
+are removed; historical positives, failures, requests and unknowns remain in
+that revision and replica. This index does not certify historical actions.
+Retention: project life plus 365 days; no history/replica disposal authorised.

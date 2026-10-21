@@ -1,0 +1,3 @@
+# Current evidence-copy disposition
+
+The restore instrument initially retained Git cat-file transport output containing historical blob contents. That current duplicate is unnecessary under D26 custody and is removed before the evidence batch seals. Its captured output SHA256 is e92db4dfce1cea6094a7dba093b330bb3affc7cc7f7db89788a1088cbac605b6. Original command metadata and complete ordered blob/path identities remain in restore-01; the exact source bytes resolve through the restored baseline revision and its verified bundle. The actual checkout/byte comparison result is retained, not regenerated. This disposition does not delete any history or sole evidence.

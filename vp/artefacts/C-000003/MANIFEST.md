@@ -1,18 +1,13 @@
-# Artefact Manifest: C-000003
+# C-000003: current locator for historical evidence
 
-**Owner:** C-000003. **Producer/custodian:** worker /root.
-**Retention:** project life + 365 days after retirement; active reliance blocks disposal.
-**Consumers:** D-000010/011 version-control checkpoint, C-000003 and V-000007.
-**Limits:** worker-controlled capture; original audit/technical evidence is not recertified.
+This is a successor custody index under D26, not the original sealed manifest.
+Original: `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/C-000003/MANIFEST.md`, blob `45ae2ee70b6d6178fd2e600a2a92abf532324acc`, SHA256 `93f88fd1e09bfbdd01977d7a8ab644cfbc47ab99f4079facdf1cb3c717461d25`.
+The owner's historical evidence resolves under `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/C-000003/`.
+Its original manifest supplies per-file meaning, producer, consumers and limits.
 
-| Path | Meaning | SHA-256 |
-|------|---------|---------|
-| before/COVERAGE.md | predecessor view or attributed current authority | `2428c76c8cae732018a1e7eb175f66ed4d5f42b53c73e126664f2cec7ad445f5` |
-| before/LEDGER.md | predecessor view or attributed current authority | `035d560ff0f0fe78b2c7bf3ab29105d1f06a46468592683eceb5ef29cc8fa111` |
-| before/PLAN.md | predecessor view or attributed current authority | `644020dbc13871c0bb2f15fd38cad5188a96a0b49460673b48beeb64172abaeb` |
-| before/PROJECT.md | predecessor view or attributed current authority | `b1fefeae0ed86d0d69d50d471494d71202f2fafe106cd4c6fd86179a9b190024` |
-| before/README.md | predecessor view or attributed current authority | `eacda15c079ff2e541a0d6672b3362963a0b357c61cb922a55f71b606fcf1fd9` |
-| before/STATE.md | predecessor view or attributed current authority | `0ac614234580bc79b71c55499624c0b5b9c9d153a78f2fbbf778ac4da539fade` |
-| before/git-status.txt | predecessor view or attributed current authority | `3e88b09c3c212c0501834a4f4321a6fac0178ebd05f619ad92d221c69be54508` |
-
-Manifest identity is retained by committed Git tree. No sealed original or captured result rewritten.
+All baseline bytes were actually restored from `records-archive-2026-10` in
+`/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle`
+and compared, with zero mismatches (R13 restore-01). Current source copies
+are removed; historical positives, failures, requests and unknowns remain in
+that revision and replica. This index does not certify historical actions.
+Retention: project life plus 365 days; no history/replica disposal authorised.

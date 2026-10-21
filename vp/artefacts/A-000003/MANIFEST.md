@@ -1,12 +1,13 @@
-# A-000003 Preparation Evidence
+# A-000003: current locator for historical evidence
 
-**Owner:** A-000003 / D-000008. **Producer/custodian:** worker /root.
-**Retention:** life + 365 days after retirement, active reliance blocks disposal.
-**Meaning:** prepare_packet.py is copy instrument; preparation.json records actual copy/count/identities. Input and future independent assessment have nested own manifests.
+This is a successor custody index under D26, not the original sealed manifest.
+Original: `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/A-000003/MANIFEST.md`, blob `c89666482702a1100d1f96e24d867dab0c7cb8ee`, SHA256 `d7dc1140c078b3b72751cb44767fecfb93287c232bd46a4f7b68a0e6bebd39b9`.
+The owner's historical evidence resolves under `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/A-000003/`.
+Its original manifest supplies per-file meaning, producer, consumers and limits.
 
-| Path | SHA-256 |
-|------|---------|
-| prepare_packet.py | `0290da7ad4379c468d07ec164be0fb24de42bf66e5e5da83434a9959e4876b5b` |
-| preparation.json | `2acbd833e3f5a965c72e54b01e1df9bf43e42ad5f980170b8a3ec2e4c2f4fcfa` |
-
-Separate copy/input manifest above owns exact bundle. No authenticated capture or physical host-loss claim.
+All baseline bytes were actually restored from `records-archive-2026-10` in
+`/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle`
+and compared, with zero mismatches (R13 restore-01). Current source copies
+are removed; historical positives, failures, requests and unknowns remain in
+that revision and replica. This index does not certify historical actions.
+Retention: project life plus 365 days; no history/replica disposal authorised.

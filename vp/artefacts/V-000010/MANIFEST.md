@@ -1,11 +1,13 @@
-# V-000010 request-withdrawal evidence manifest
+# V-000010: current locator for historical evidence
 
-**Owner/producer:** V-000010, worker /root; D-000019/D-000012 authority, A-000006/S2consumers.
-**Meaning:** original issuedA5bytes reconstructed now from known literal replacements and matched previouslycaptured R9inputdigest; final alteredrequest copiedexactly; both are evidence of the workererror, not an authentic originalconversation/actionlog.
-**Custody/retention:** completeA6packet and independentlylocatedmatchingcopy, samehost; life+365days afterretirement/no disposal, effective26OctUTC/earlier relevanttrigger. A5withdrawn beforedispatch/noverdict. Manifest identified by outerinventory.
+This is a successor custody index under D26, not the original sealed manifest.
+Original: `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/V-000010/MANIFEST.md`, blob `79a8970726ee39b8aa0d1642988534ace3466e25`, SHA256 `0093432fefa6c40713232a4bfcc53da7efccc0c308c348676a7230ec7e8e18a7`.
+The owner's historical evidence resolves under `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/V-000010/`.
+Its original manifest supplies per-file meaning, producer, consumers and limits.
 
-| Path | Bytes | SHA-256 |
-|---|---|---|
-| altered-pre-dispatch-request.md | 7250 | `22da60c46f890a2e97312fa26151bd4c4398a59282962ad9c46178cb930ba97f` |
-| difference.json | 684 | `74949e196ca81b29fcd354c8d04d2c3791a1852c125cac9ff6ac4ff926240c0a` |
-| original-issued-request.reconstructed.md | 7250 | `c3b81a9442f26b556e8a2e4c36b4950d71afcec26b4f817489b07ede5e8505b9` |
+All baseline bytes were actually restored from `records-archive-2026-10` in
+`/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle`
+and compared, with zero mismatches (R13 restore-01). Current source copies
+are removed; historical positives, failures, requests and unknowns remain in
+that revision and replica. This index does not certify historical actions.
+Retention: project life plus 365 days; no history/replica disposal authorised.

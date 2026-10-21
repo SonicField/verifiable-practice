@@ -1,0 +1,12 @@
+{
+  "exact_agreements": 10,
+  "sample_count": 10,
+  "nonadjacent_disagreements": 0,
+  "T01_levels": [
+    "C",
+    "C"
+  ],
+  "predeclared_acceptance_met": false,
+  "failure": "Both classify PTE retirement C, not the predeclared D. Agreement alone does not meet the acceptance criterion.",
+  "source_rule_sha256": "bb6b9d7cec41d2fb121cd525117dc3c10f04a6ea2c8354a69fa7847a8571b94f"
+}

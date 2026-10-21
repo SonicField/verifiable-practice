@@ -1,0 +1,3 @@
+# Independent classification trial 01
+
+D26 fixes acceptance before this trial: two independent fresh participants, at least 8/10 exact agreements, no more than one non-adjacent disagreement; PTE replay separately evaluated by worker. Input cases.md SHA256 dfc711f4b1cd5f6695b5e07d346da97c337741dda45d157c264b59d10314ea87; standards/project-records.md draft1.1 SHA256 bb6b9d7cec41d2fb121cd525117dc3c10f04a6ea2c8354a69fa7847a8571b94f. Read only these and fixed baseline Git sources when necessary. No other participant output or worker chat. Write your own numbered T01–T10 answers, stated assumptions, level and rationale, and identity/time/limits; do not edit source or other answers. No project scripts/tests/audit/repair. Input standard will remain stable through this trial.

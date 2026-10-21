@@ -1,12 +1,13 @@
-# Artefact Manifest: D-000010
+# D-000010: current locator for historical evidence
 
-**Owner:** D-000010. **Producer/custodian:** worker /root.
-**Retention:** project life + 365 days after retirement; active reliance blocks disposal.
-**Consumers:** D-000010/011 version-control checkpoint, C-000003 and V-000007.
-**Limits:** worker-controlled capture; original audit/technical evidence is not recertified.
+This is a successor custody index under D26, not the original sealed manifest.
+Original: `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/D-000010/MANIFEST.md`, blob `e0227070293ce98b9d5649da2df8bd1761eb2ba8`, SHA256 `22e49837921be69034f683d90ca83f6c6453fcd8c9b38bd74ab1ce63b3b4c0dd`.
+The owner's historical evidence resolves under `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/D-000010/`.
+Its original manifest supplies per-file meaning, producer, consumers and limits.
 
-| Path | Meaning | SHA-256 |
-|------|---------|---------|
-| authority.md | predecessor view or attributed current authority | `13e5df68aaa5bd771c3b1046df9eea9ccfab44dbf2640ff14d937882c7ebacaf` |
-
-Manifest identity is retained by committed Git tree. No sealed original or captured result rewritten.
+All baseline bytes were actually restored from `records-archive-2026-10` in
+`/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle`
+and compared, with zero mismatches (R13 restore-01). Current source copies
+are removed; historical positives, failures, requests and unknowns remain in
+that revision and replica. This index does not certify historical actions.
+Retention: project life plus 365 days; no history/replica disposal authorised.

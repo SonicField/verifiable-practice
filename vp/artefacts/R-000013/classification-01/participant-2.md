@@ -1,0 +1,102 @@
+# Independent classification participant 2
+
+## Identity, context and limits
+
+- Participant: Codex classification agent `/root/assurance_classifier_two`; observable system identity: based on GPT-6. Exact served model build, seed and session configuration are unavailable.
+- Context: fresh parent commission, environment/platform instructions; no inherited worker development conversation, private plan or other participant output. No delegation or inspection of project current views.
+- Initial request/cases reading preceded the first recorded clock/digest capture at 2026-10-21 12:39:52 UTC. Exact first-read time was not recorded. Completion/input recheck: 2026-10-21 12:41:40 UTC. Host times and attribution are not independently authenticated.
+- Method: independent consequence classification under the pinned draft section 1.1, in the stated document-project context. Historical ceremony, file counts and audit verdicts do not assign severity. Custody, authority and dependent-work effects are considered.
+- Limits: no project scripts/tests/builds, recovery experiment, repair, design, Project Audit or acceptance decision. Supplied custody/recovery assertions are not independently tested; source reversal does not reverse every dependent effect. Historical action authenticity and general effectiveness remain unknown.
+- Tool limitation: an initial output-writing invocation failed because `python` was unavailable; it wrote nothing. The same classification task used `python3` for authorised output files. This is administrative writing, not a project test.
+- All ten changes affect meaning or behaviour, so none is a proven E typo/format correction. Within the supplied bounded uses and preserved evidence, no described change itself establishes serious loss, harm, regulatory breach or irreversible loss. Higher exposure calls for reclassification, not an acceptance inference.
+
+## Input identities
+
+Cases and draft matched their declared SHA256 at initial capture and completion. Request has no declared hash; the measured identity follows.
+
+- `vp/artefacts/R-000013/classification-01/request.md`: SHA256 `5529c99932ac93bc15960c18681f8c05611d619e8caa106157eb5443e3731862`.
+- `vp/artefacts/R-000013/classification-01/cases.md`: SHA256 `dfc711f4b1cd5f6695b5e07d346da97c337741dda45d157c264b59d10314ea87`.
+- `standards/project-records.md`: SHA256 `bb6b9d7cec41d2fb121cd525117dc3c10f04a6ea2c8354a69fa7847a8571b94f`.
+
+Additional complete baseline sources read, restricted to paths cited by cases:
+
+- `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000013/record.md`: SHA256 `dd3c2be0a01095207957dfb3b4a9b6e964670d428d76533840e5706820eb4e1e`.
+- `9605ad0dccea157880a05208babfdac5aa5a5fcd:CONTRIBUTING.md`: SHA256 `7336906e3dba88254cf047015a7205d8f898de4b32512c404a95478fb1be93b3`.
+- `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000004/record.md`: SHA256 `1c9354c7e32f04412fddb89260a4e6619492841b27e3e48a10043b3538a7ee01`.
+- `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000022/record.md`: SHA256 `d52829e2e2f1e0220045d8a1b1fc3de0ec7e8aff553a9f00c294f8bced254b5b`.
+- `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000010/record.md`: SHA256 `6db484eca2fce9d89e266274147e63ae114740603e7b26908247dc2d94d67362`.
+
+## Classifications
+
+| Case | Level |
+|---|---|
+| T01 | C |
+| T02 | C |
+| T03 | C |
+| T04 | C |
+| T05 | C |
+| T06 | D |
+| T07 | D |
+| T08 | C |
+| T09 | D |
+| T10 | D |
+
+### T01 — C
+
+Removing a prescribed language mechanism changes instruction meaning. A wrong responsibility mapping can leave ambiguous actors, timing, failure responses or acceptance conditions, causing significant document and dependent-work rework. This exceeds minor inconvenience in the stated local method project. Preserved baseline/patch and the recorded independent bundle bound source recovery; no sole-evidence disposal is described. Source restoration cannot automatically undo work performed under ambiguous guidance.
+
+Assumptions: bounded local document use, unchanged normative authority and preserved historical bytes/recovery route. Actual AI adherence, reader effects and restored-byte success are not independently established here. Owner clarification: not needed for the stated scope; needed if removal authorises irreversible operations or the recovery route is unavailable.
+
+### T02 — C
+
+Record-wide extraction and destination repair can still produce incorrect states, creation/issuance meanings or unreachable evidence. Those errors significantly obstruct traceability and can misdirect a stage handoff; the consequence is broader than one inconvenient link. Original sealed sources and before views are preserved, so regeneration or reversal can recover the view without rewriting history. The stated blocked gate and separate assessment limit downstream authority effects.
+
+Assumptions: the ledger is derived navigation, not the only evidence store or an automatic authorisation engine. Neither 111 links nor file count determines severity. Actual recovery effort is unknown. Owner clarification: not needed as described; needed if downstream decisions rely exclusively on ledger status without the retained gate.
+
+### T03 — C
+
+Public entry points and AI instructions alter understanding of governance, ownership, adopted obligations and evidence. A wrong clarification can cause role drift or systematic use of an incomplete method, requiring significant correction of dependent local work. This is a meaningful user-visible change. Preserved before source enables source reversal; misunderstandings already acted upon require separate correction. The normative standard and executable teaching blocks remain unchanged.
+
+Assumptions: bounded document-project use; no new legal obligation, deployment approval or unbounded worker mandate. Reader comprehension and frequency of misuse are unknown. Owner clarification: not needed for the supplied repair; needed if these instructions govern serious financial or irreversible actions outside this context.
+
+### T04 — C
+
+Withdrawal and a fresh audit request change the issued assurance interface and chronology. If wrong, an assessor can review the wrong scope, or readers can mistake a withdrawn request/reconstruction for original input or a verdict, requiring significant reassessment and trace repair. A5 was undispatched and had no verdict. Altered bytes and a digest-matched, explicitly attributed reconstruction remain preserved; this change does not itself destroy sole original evidence or undo completed independent work. Successor records enable correction without erasing history.
+
+Assumptions: A6 retains authorised scope, mandatory gaps remain blocking, and there is no silent substitution or disposal. Original action authenticity remains unknown; matching a digest does not authenticate actions. Owner clarification: not needed within those boundaries; needed if an externally relied-on verdict exists or sole evidence would be discarded.
+
+### T05 — C
+
+Selection completeness determines whether a checkout carries source justification, failures and independent evidence. A wrong forced-add selection or completeness check can create an apparently complete checkpoint with missing evidence, causing significant recovery and traceability rework. This changes custody behaviour. Local tracking is additive and retains working bytes and independent copies, with no publication or deletion; irreversible loss is not an effect of the described operation itself. Unstaging or a successor correction can recover selection.
+
+Assumptions: working evidence and preserved copies remain available, no secrets are published, and no later pruning is bundled into this action. Actual replica restoration is not checked here. Owner clarification: not needed for additive local tracking; needed if this checkpoint becomes sole custody before deletion or is published with sensitive content.
+
+### T06 — D
+
+The change narrowly reorders preparation capture, staging and comparison, preserves the failed attempt and retains a distinct final guard. The existing complete-root guard detected the omitted preparation path and stopped. A wrong reorder can cause another failed local check and minor repeat work. No product change, disposal or acceptance reversal is described; preserved preparation/attempt records permit an explicit retry. Retained fail-closed comparison and final checking bound serious custody consequences for this ordering edit.
+
+Assumptions: the guard still compares the complete declared root, rejects missing/different bytes and distinguishes later outputs; comparison logic is not weakened. Those claims are not independently tested here. Owner clarification: not needed for the stated ordering fix; needed if it bypasses checking or permits deleting sole evidence on an unchecked success.
+
+### T07 — D
+
+The sourced descriptor corrects bounded labels in an already fixed audit transaction and explains consumer/archive/output boundaries. Issued requests, indexes, reports and their actual byte scope remain unchanged. A wrong descriptor can cause limited handoff/navigation confusion requiring consultation of fixed sources. A new sourced successor readily corrects it. The unchanged transaction still determines authority/scope; no expanded verdict or independent closure is granted.
+
+Assumptions: the descriptor remains explanatory, original locators stay accessible and readers do not treat it as permission to enlarge a verdict. Reader effects are unmeasured. Owner clarification: not needed as described; needed if the descriptor becomes the sole authoritative scope definition or substitutes for missing original evidence.
+
+### T08 — C
+
+Prospective retention changes which imported claims and governance choices the project relies upon. Wrong present purposes, unsupported empirical reliance or hidden provenance limits can cause significant research rework and defective guidance despite unchanged product bytes. Preserved originals and owner revision/stop allow reversal of present reliance, while dependent work needs separate review. Explicit bounded local research, unknown original authority, no publication/effectiveness claim and a pending stage gate exclude implied certification or irreversible release from the described change.
+
+Assumptions: unknown history stays disclosed, historical mandates do not authorise current decisions and research remains reversible. Long-term efficacy, reader comprehension and overhead are unmeasured. Owner clarification: not needed for this bounded prospective choice; needed before serious operational reliance or treating unknown history as authoritative.
+
+### T09 — D
+
+Contribution guidance and a reporting form change participation and information-entry behaviour. Wrong fields or routing can cause limited contributor rework, incomplete reports or misplaced ordinary feedback; the files are narrow and readily corrected. The supplied text excludes secrets/private evidence and routes sensitive security reports separately. No actual sensitive-data submission/publication or underlying licence change is described; irreversible disclosure or legal breach is not inferred merely from adding these files.
+
+Assumptions: ordinary voluntary reporting, existing contribution/licence policies remain applicable and no automated sensitive-data collection or changed legal agreement is included. Referenced security/code-of-conduct/licence files were not read because they are not separately cited baseline sources; their adequacy is unknown. Owner clarification: not needed for the supplied addition; needed if binding terms change or confidential submissions are directed to public issues.
+
+### T10 — D
+
+Current/historical stage labels change navigation meaning but are a narrow correction against retained decisions and exact-snapshot reports. A wrong label can briefly misdirect a reader to an earlier stage or require a handoff correction. All sealed inputs/reports remain preserved, the advisory stays exposed, and no enlarged verdict or worker closure is granted. Another current revision readily corrects the labels; source history remains intact. These boundaries keep the consequence minor.
+
+Assumptions: labels reflect already authorised outcomes and do not independently open mandatory gates or grant acceptance authority. Cold-reader effects and actual reversal are not tested here. Owner clarification: not needed for those stated limits; needed if a label directly authorises substantial work despite a blocked gate.

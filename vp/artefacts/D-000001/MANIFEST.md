@@ -1,14 +1,13 @@
-# Artefact Manifest: D-000001
+# D-000001: current locator for historical evidence
 
-**Owner:** records for D-000001; current worker /root.
-**Recorded:** 2026-10-19 12:12:16 UTC
-**Retention:** project life + 365 days after recorded retirement; active consumers prevent disposal.
-**Custody:** worker-controlled directory; SHA-256 consistency is not authenticated action history.
-**Independent copy:** R-000003 will identify recovery location; pending until its result.
+This is a successor custody index under D26, not the original sealed manifest.
+Original: `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/D-000001/MANIFEST.md`, blob `61d3775ddd5ca845bfbf7a919725035346ccafc9`, SHA256 `319b262c3eed813ef3c54c1f62d58365b2adcf7d9ddae0c9e1e64c96b4f30397`.
+The owner's historical evidence resolves under `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/D-000001/`.
+Its original manifest supplies per-file meaning, producer, consumers and limits.
 
-| Relative path | Meaning / producer | SHA-256 | Retention |
-|---------------|--------------------|---------|-----------|
-| authority.md | retained input/check instrument/index/rationale; owner D-000001 | `7f23499589f35c23781a211143dc757273af629258bbd9703c04d8598732ebee` | retained while relied on; life + 365 days |
-
-This manifest is an index; its own identity is in external frozen packet inventories.
-No redaction or disposition has occurred in these copies. The original missing history remains unknown.
+All baseline bytes were actually restored from `records-archive-2026-10` in
+`/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle`
+and compared, with zero mismatches (R13 restore-01). Current source copies
+are removed; historical positives, failures, requests and unknowns remain in
+that revision and replica. This index does not certify historical actions.
+Retention: project life plus 365 days; no history/replica disposal authorised.

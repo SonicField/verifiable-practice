@@ -1,0 +1,3 @@
+# Classification trial 01 — failed stated acceptance
+
+Both independent participants agreed on all ten cases, but classified the PTE retirement C; D26 required D. The wording still lets a hypothetical chain from any changed instruction to future rework inflate assurance, and case excerpts did not establish the verified recovery/current-consumer boundary. Revise the general C/D rule with operational criteria for existing binding requirements, identified consumers and demonstrated reversal, and supply the same ten historical changes with explicit factual scope. Preserve this rule revision and both outputs; a fresh trial must not read the old answers. This is not a claim that the previous trial passed or that universal classification reliability is established.

@@ -1,16 +1,13 @@
-# Artefact Manifest: D-000004
+# D-000004: current locator for historical evidence
 
-**Owner:** records for D-000004; current worker /root.
-**Recorded:** 2026-10-19 12:12:16 UTC
-**Retention:** project life + 365 days after recorded retirement; active consumers prevent disposal.
-**Custody:** worker-controlled directory; SHA-256 consistency is not authenticated action history.
-**Independent copy:** R-000003 will identify recovery location; pending until its result.
+This is a successor custody index under D26, not the original sealed manifest.
+Original: `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/D-000004/MANIFEST.md`, blob `81f98c7aafe7dfa57878d0f4c23344d2d6609417`, SHA256 `78b0e9abb840a1c72c7c391d91e65ad5bd9cc39e4c3a3a18f38078b185f4883e`.
+The owner's historical evidence resolves under `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/D-000004/`.
+Its original manifest supplies per-file meaning, producer, consumers and limits.
 
-| Relative path | Meaning / producer | SHA-256 | Retention |
-|---------------|--------------------|---------|-----------|
-| coverage-rationale.md | retained input/check instrument/index/rationale; owner D-000004 | `095438a2948692a5ff96b7291bf244122d2eeceaea0102d80797dad1e53b9c21` | retained while relied on; life + 365 days |
-| prepare_records.py | retained input/check instrument/index/rationale; owner D-000004 | `203a8330db8b72a727427bdcf68f7f309d65fe87c5f0868297558c92a983c9fd` | retained while relied on; life + 365 days |
-| unit-inventory.json | retained input/check instrument/index/rationale; owner D-000004 | `7be3451795bb53b304dabcfdf887c61b9de886dc67d9f6075c21bcc0e685663a` | retained while relied on; life + 365 days |
-
-This manifest is an index; its own identity is in external frozen packet inventories.
-No redaction or disposition has occurred in these copies. The original missing history remains unknown.
+All baseline bytes were actually restored from `records-archive-2026-10` in
+`/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle`
+and compared, with zero mismatches (R13 restore-01). Current source copies
+are removed; historical positives, failures, requests and unknowns remain in
+that revision and replica. This index does not certify historical actions.
+Retention: project life plus 365 days; no history/replica disposal authorised.

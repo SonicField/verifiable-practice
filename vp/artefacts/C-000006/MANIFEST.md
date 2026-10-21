@@ -1,11 +1,13 @@
-# C-000006 evidence manifest
+# C-000006: current locator for historical evidence
 
-**Owner/producer/custodian:** C-000006, worker /root; D22/D23/S3; currentGitcheckpoint/A7/handoffconsumers.
-**Meaning:** exactbaselineGitpath/blob/size/SHA map and completecurrentproductpatch, no obsolete-sourcecopy.
-**Capture:** actual localscript/command output and authoredMarkdown explicitlydistinguished by owningrecord/filenames; workercapture notauthenticatedoldactions. Gitblobbaseline is historical recovery; no archiveofobsolete trackedfiles created.
-**Retention/review:** projectlife+365days after retirement/no disposal; currentrelianceeffective26OctUTC/earlier source/rubric/tool/role/authority/custodytrigger. Recovery: declaredGitbaseline/candidatecommit, selfcontainedindependentbundle inA7outerpacket. Manifest identified by exactcandidateindex/Git, no self-hash.
+This is a successor custody index under D26, not the original sealed manifest.
+Original: `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/C-000006/MANIFEST.md`, blob `e0a8d91500bf1b66bb15f445234aee4a77a71f41`, SHA256 `5f44ad4569185f4f917bb2a190fef7abc47c8937192e39b6955197a08a2ec0cd`.
+The owner's historical evidence resolves under `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/C-000006/`.
+Its original manifest supplies per-file meaning, producer, consumers and limits.
 
-| Path | Bytes | SHA-256 |
-|---|---|---|
-| before.json | 29156 | `f21cb36713bd8dc37d8cd82a70318184d05202dbfb634555abe215ed71098f58` |
-| change.patch | 19544 | `8378820321c3dc5f195770efd1c07ad455ca21cb25426963adcd8149c029730b` |
+All baseline bytes were actually restored from `records-archive-2026-10` in
+`/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle`
+and compared, with zero mismatches (R13 restore-01). Current source copies
+are removed; historical positives, failures, requests and unknowns remain in
+that revision and replica. This index does not certify historical actions.
+Retention: project life plus 365 days; no history/replica disposal authorised.

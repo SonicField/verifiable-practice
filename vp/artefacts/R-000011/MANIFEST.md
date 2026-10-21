@@ -1,20 +1,13 @@
-# R-000011 staged-custody evidence manifest
+# R-000011: current locator for historical evidence
 
-**Owner/producer/custodian:** R-000011, Codex /root; D20/D21andE10/E11; H9/V11consumers.
-**Meaning:** exactfirstattempt/checkphase/instruments/rawoutputs/dependencyidentity; R10failedsetup retained, R11newattemptpassed. Initialindexbeforefutureoutputs; finalcommitgate/receipt retainedunderV11.
-**Capture/limits:** worker-controlledsource/Gitbytecomparison; no authactions/generalproductefficacy/offhostdurability.
-**Retention/review:** life+365daysafterretirement/no disposal; effective26OctUTC/earlier custody/source/tool/authoritychange. Recovery V11independentlylocatedverifiedcompletion/Gitbundle; manifestidentifiedbyfinalcompletioninventory/Git, no selfhash.
+This is a successor custody index under D26, not the original sealed manifest.
+Original: `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/R-000011/MANIFEST.md`, blob `3604058c059649d4e9ee1e8950add87b56f83d31`, SHA256 `1d9246395a5fb7c2290fa29adc5cfd10180ad79450856d289672e202268a7f63`.
+The owner's historical evidence resolves under `9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/R-000011/`.
+Its original manifest supplies per-file meaning, producer, consumers and limits.
 
-| Path | Bytes | SHA-256 |
-|---|---|---|
-| capture.py | 2466 | `b6a17d96265d4f81f4971b11c760d7b96786480397594f8817fa776200ce4a90` |
-| check_index.py | 5004 | `7db667867f0caba7356514d9edb38de6fea3af35567042f44d3ffb88ad207151` |
-| dependencies-after.json | 171227 | `e2a11cc166ed962dce425c5837892c1f9d38a4d93b4d9c188d13739144f4ef54` |
-| dependencies-before.json | 171227 | `e2a11cc166ed962dce425c5837892c1f9d38a4d93b4d9c188d13739144f4ef54` |
-| initial-index/index.stdout.bin | 4424983 | `58a704998f60ca7bedb3dea6ec556dfbd1ec37b13e0553845dd2df2b565ba86d` |
-| initial-index/results.json | 10584310 | `377d96f3fd10edf598f117b3f00b8dea37b951a627f9a594963e0b8cd78316bf` |
-| member.json | 3424 | `1ae750dcdf47a92624abd30b1f79326ec22b543e60eaaccf61c8756572795575` |
-| member.stderr.txt | 0 | `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` |
-| member.stdout.bin | 243 | `b8568a74b499662114b20daa859243ac71c70c51b4db777ae90c7d4469094037` |
-| prepare.stderr.txt | 0 | `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` |
-| prepare.stdout.bin | 0 | `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` |
+All baseline bytes were actually restored from `records-archive-2026-10` in
+`/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle`
+and compared, with zero mismatches (R13 restore-01). Current source copies
+are removed; historical positives, failures, requests and unknowns remain in
+that revision and replica. This index does not certify historical actions.
+Retention: project life plus 365 days; no history/replica disposal authorised.

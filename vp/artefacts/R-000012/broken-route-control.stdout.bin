@@ -1,8 +1,0 @@
-{
-  "files": 69,
-  "local_destinations": 258,
-  "errors": [
-    "SKILL.md -> docs/nonexistent-clarity-route.md"
-  ],
-  "limits": "File destinations/fences/routes/fields only; no rendering or external URL certification."
-}
