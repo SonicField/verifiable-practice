@@ -3,10 +3,10 @@
 **Stage:** C8 evidence-role/retention contract correction in progress; standard1.2
 adopted prospectively. Earlier A11 conformant verdict covers1.1 atc100fbd only.
 **Open findings/gates:** A11/F001 open advisory; C8 provides a coverage-view response,
-not independent closure. Fresh C-stage Project Audit A12 is pending before acceptance.
+not independent closure. Fresh C-stage Project Audit A12 is active before acceptance.
 No other mandatory finding is currently open; prior A7/A8/A9 closures retain scope.
-**Next action:** worker completes source checks and bounded fresh instruction probe,
-then commissions A12 on a fixed recoverable candidate. Auditor reports only;
+**Next action:** fresh A12 auditor assesses fixed e4389a0 and reports only;
+source checks and the bounded instruction probe passed within their stated scope;
 worker records results under C8, keeping any gaps visible for the owner.
 
 No existing evidence/binaries are being deleted. Preserve experiment records,

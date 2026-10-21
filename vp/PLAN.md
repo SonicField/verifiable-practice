@@ -3,9 +3,9 @@
 **Stage:** C8 standard1.2 evidence-role/retention correction, actual consequence C.
 **Goal:** retain experiment source/specifications/results and provenance without
 requiring preservation of every executable/toolchain/environment.
-**Open:** fresh C-stage audit A12 pending; A11/F001 advisory response awaits review.
-**Next:** focused source/structure checks and eight-case fresh instruction probe;
-then fixed-candidate independent Project Audit, C acceptance only after its gate.
+**Open:** fresh C-stage audit A12 active; A11/F001 advisory response awaits review.
+**Next:** fresh A12 auditor reports on e4389a0; source checks/probe passed within
+stated scope. Worker records outcome, C acceptance only after its gate.
 
 Deliverables: consistent standard/routes/forms/design and scenario oracles,
 identified source/probe results, fresh audit report, accurate coverage/current views,

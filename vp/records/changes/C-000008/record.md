@@ -160,3 +160,20 @@ coverage identity adjustment: exit0, same69/21products,256destinations/12fragmen
 frontmatter/routes/fences/negative controls/unique-product and unchanged assurance
 outcomes. `git diff --check` passed. STATE has not yet received its final handoff
 reader; source checks do not substitute for it. Gate A12 pending.
+
+### Fixed candidate and independent dispatch
+
+Candidatee4389a09eed77ef09b6ee728b448e5f7e9b1bfb6/tree792df96ad9dd5d8250ba6805cdce78e4c614c684
+actually restored265 paths/32,063,045bytes/zero mode-byte mismatches from independent
+bundlef195501ab0597cec2f329d331597798c3f7be8a87ff7bfd035303f5835ece892;
+raw proof external c8-candidate-recovery/results.json SHA256
+b7d6452e28b7c1f32605ca8caeee79c4b3cd112c29f6d6d0f82f977c85d9516b, verified replica.
+Immutable requestd9e38ec/A12 SHA256ecd36e7ff4d3d3843f2d8c0c39f1c0e3075cddaa9e60b80b56a5152af124797e
+actually restored266 paths/32,070,499bytes/zero mismatches from independent
+bundleb7f80144adc6cc17bc2095a60aba30b3f9d846f1d1125c8f194ea0fa2ec92b7a;
+request proof SHA256fd51421b327f78c81ab01ee26833a3f4749c83c42f036415301cc6e3b2941c54, original external a12-request-recovery/results.json
+and matching completion-replica content address. All are scoped byte recovery,
+not experiment/build/environment reproduction. No runtime binary archived.
+Fresh auditor `/root/c8_evidence_contract_project_auditor`, no inherited turns,
+is active under immutable request; one20-minute first round. Own later assessment/
+acceptance/views/receipt are outside its fixed candidate. Results pending.
