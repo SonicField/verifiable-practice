@@ -17,3 +17,6 @@ source check tool is not a requirement to install special VP software.
 |---|---:|---|---|
 | instruction-probe/request.md | 2639 | `da99d5bbf538f1c97038841db043cd4bc6cf9602fffe1d495977f02afeeef12c` | Unique probe input/answer |
 | instruction-probe/response.md | 9008 | `b9b32880423f0d0aade6a28985284a61d724696ac96159f51622bf4d2c7b6a29` | Unique probe input/answer |
+| cold-reader/response.md | 4005 | `5374b6c61430aeeb57173eb5adb3720f75c8ed275c1aa5ade48eb6b1a92a408f` | Unique fresh final STATE answer, evaluated inline in C8 |
+
+Final STATE reader input76dcdc4514728dd447dac2960677f3d23c4d5569:vp/STATE.md, SHA25664d6aeab954e135ec9aba7b4fd0d8b02e23d08387f0b864dd1bc7d3bf26e321b; fresh reader /root/c8_final_state_reader, no inherited worker/owner turns. One bounded response; attribution/context/policy/receipt limits remain in its exact answer. Worker evaluation is not independent conformance closure or experimental reproduction.

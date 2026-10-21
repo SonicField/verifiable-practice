@@ -3,7 +3,8 @@
 **ID:** verifiable-practice:C-000008
 **Created:** 2026-10-21 17:25:51 UTC
 **Author/operator:** working AI/coordinator Codex /root
-**Status:** open; pre-action choice and checks
+**Status:** sealed scoped C acceptance/completion; receipt-conditioned handoff
+**Sealed:** 2026-10-21 17:39:58 UTC
 **Level/reason:** C. Changing an operative retention/custody contract can cause
 loss of evidence or significant unnecessary preservation work. This is not a
 terminology-only D change; A–E consequence thresholds remain unchanged.
@@ -213,3 +214,31 @@ resolved. Then verify final containing-commit recovery/replica outside worktree,
 preserve native proof and update external completion reference without circular
 self-commit identity. These boundary checks do not expand A12 or establish
 experimental reproducibility. Final completion pending those checks/receipt.
+
+### Terminal handoff outcome, 17:39:58 UTC
+
+Fresh bounded reader `/root/c8_final_state_reader` read only immutable
+76dcdc4514728dd447dac2960677f3d23c4d5569:vp/STATE.md, hash
+64d6aeab954e135ec9aba7b4fd0d8b02e23d08387f0b864dd1bc7d3bf26e321b,
+matching expected bytes. Worker evaluation PASS: identifies scoped1.2 acceptance/
+A12, no findings/A11F001 closure, owner verification/review/new-work decision and
+matching containing-revision/receipt prerequisite; correctly distinguishes
+binary identity/temporary-resource disposal/raw-data retention and no experiment
+reproduction claim. Exact response retained uniquely in C8/cold-reader with
+manifest. It discloses receipt/policy-detail and compact-reference ambiguities;
+not an underlying verification or empty-system-context claim. Actual dispatch
+used no inherited turns, and no worker/owner chat or private plans were supplied.
+No failed reader/retry. These are single-answer comprehension limits, not a
+population reliability or independent conformance verdict.
+
+Final worker consistency check PASS: all69 product bytes equal A12's e4389a09
+candidate; current coverage hashes and aggregate acceptance/revision boundaries
+match; every prior b9984e5 canonical record and A12 report remains byte-exact.
+Final STATE stays at its tested hash after this check. No further product edits.
+C8 gate/acceptance and reader/source outputs complete within declared budgets;
+no background technical process remains. Owner verifies final receipt/reviews
+C8/A12 and selects further work. Containing commit is replicated and actually
+restored after this seal, with native result and verified replica referenced
+externally so no record claims to contain its own final commit ID. Missing or
+mismatched receipt resumes custody only. This concludes local scoped C work;
+no existing binary/evidence deletion, publication or reproduced experiment.

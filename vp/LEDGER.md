@@ -3,7 +3,7 @@
 | Record | State | Origin / purpose |
 |---|---|---|
 | [A12](records/audits/A-000012/record.md) | Sealed conformant1.2 at e4389a09; A11/F001 closed | C8; request d9e38ec; no new findings |
-| [C8](records/changes/C-000008/record.md) | C acceptance after A12; handoff checks pending | Current owner binary-retention feedback; prospective1.2 at e4389a09 |
+| [C8](records/changes/C-000008/record.md) | Sealed C acceptance after A12; receipt-conditioned handoff | Current owner binary-retention feedback; prospective1.2 at e4389a09 |
 | [D28](records/decisions/D-000028/record.md) | Sealed C audit completion; receipt-conditioned handoff | Current owner; fresh A11, STATE reader/checks; F001 subsequently closed by A12 |
 | [A11](records/audits/A-000011/record.md) | Sealed conformant at c100fbd; original F001 advisory closed by A12 | D28; immutable request d995976; no mandatory gaps established |
 | [C7](records/changes/C-000007/record.md) | Completed D terminology clarification; receipt-conditioned custody | Current owner; pre-action0639294, D26/D27/root custody |
