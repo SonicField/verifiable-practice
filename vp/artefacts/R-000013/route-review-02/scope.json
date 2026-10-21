@@ -1,0 +1,553 @@
+{
+  "time": "2026-10-21T13:16:20.862176+00:00",
+  "source_baseline": "94ff0e3",
+  "product_paths": 69,
+  "pattern": "\\bV\\b|H/E|B/R|canonical.*(record|ID)|new (event|record)|owning R|successor decision|\\b[DERHB] (record|link)|seal|disposition|audit.response",
+  "inventory": [
+    {
+      "path": ".gitattributes",
+      "sha256": "bfaf744e63e327c78056b794fb5309501c6cdea0c42ba292e353a56a63bf9b27",
+      "searched_lines": 3,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha256": "6966e8a08971b9d513f1d6be821e6ba91464ef73b8f68e733cb1150f2a2e9d22",
+      "searched_lines": 56,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/change_proposal.yml",
+      "sha256": "f04f0c6641944db00bcd453728bceb09a328df31431ecc0789f796a20a10227a",
+      "searched_lines": 39,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha256": "13064e7bea658e01e718b414fbb7b3b244f36411fe25ee2055c151f7b534547a",
+      "searched_lines": 1,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "sha256": "8629421291451911f78b5af5ba2676e1e2a5c5c306d75095137ad0df0fcd7f80",
+      "searched_lines": 27,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "6c036c38309173b38c0e013954e7b5d2f293d2d8cfa8f4cb798ff5f04b906a57",
+      "searched_lines": 9,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "193219dcf767a8af001c5db10ba9f0c08d089e88f5b3732e97cc0dbbe97b875d",
+      "searched_lines": 66,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "58f12332dbbb0825d349ab72d94d4ce4bdbd9720bd749245882630b6df89847c",
+      "searched_lines": 8,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "sha256": "708993720e9d14929b2395a744ba2c48a3e9a3370b00586fb48319aeafd06a7d",
+      "searched_lines": 41,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "7336906e3dba88254cf047015a7205d8f898de4b32512c404a95478fb1be93b3",
+      "searched_lines": 59,
+      "record_prescription_hit_lines": [
+        53
+      ]
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "01709c8719ee6e9c87f2a51a7a02b28297ce34835387a312555d4c2975e021e0",
+      "searched_lines": 21,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "ORIGIN.md",
+      "sha256": "30395af7921e63fd828381a9d8ee613b88a89d13d6d080ad56526a159a8f1bcd",
+      "searched_lines": 56,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "README.md",
+      "sha256": "6bf13fffa4f1ec7cb92ac087f37f5c5b2ac6d34ce1889990f34f2e184cad3502",
+      "searched_lines": 147,
+      "record_prescription_hit_lines": [
+        30
+      ]
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "9820c942aa013eee092b8f66d11a3297db906d1bcbb0005a27a681c970072575",
+      "searched_lines": 36,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "ee660649d7e605fe7e151690f9a32aa5599557e10e41093c3cf982cc17a5cb61",
+      "searched_lines": 133,
+      "record_prescription_hit_lines": [
+        39,
+        79
+      ]
+    },
+    {
+      "path": "WHY.md",
+      "sha256": "a46154830c1c55636cac9ef8004bc704876c7a6aa434e624994050ecdf485023",
+      "searched_lines": 122,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "concepts/bullshit-detection.md",
+      "sha256": "5db9ac284fa02b140fb7b14a1e66af05c0ad296caf84eac0e6f93f9eaa477b21",
+      "searched_lines": 63,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "sha256": "b4d6057386ad92120cf08566006af0ec2b513d5d44c1708ae32d7084056f6db8",
+      "searched_lines": 609,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "concepts/falsifiability.md",
+      "sha256": "9e75001c23aeca82d2b4221fde004af3cc77db6c7cef1b713717fe179da1f8da",
+      "searched_lines": 93,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "concepts/goals.md",
+      "sha256": "8deafbad414f270a6f573183ecbefbe3000d20f9c287da6fc383d1971827c89b",
+      "searched_lines": 68,
+      "record_prescription_hit_lines": [
+        29
+      ]
+    },
+    {
+      "path": "concepts/rhetoric.md",
+      "sha256": "8f12166062b6c4b27ee049dfeac793a3875f75267776e41f8ef45b05c8f16b9a",
+      "searched_lines": 54,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "concepts/verification-cycle.md",
+      "sha256": "f5fa4d35c44ba20a75ba8b47fffcbaff1e64ec1912b9d8219dd6ecf5535d4c0a",
+      "searched_lines": 57,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "concepts/zero-code-contract.md",
+      "sha256": "b1c00fd1ed030b49114e597c43df7ec7cf87543f6bafb644858fea155be235d7",
+      "searched_lines": 75,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "docs/discovery-and-recovery.md",
+      "sha256": "a7c213d1d3285c4e2f89045f2f6037a952551f98e4e4aa49a6746f0a018760c2",
+      "searched_lines": 46,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "docs/document-work.md",
+      "sha256": "1ba6f3a35329c0e08abb152236cc89ec4eea490e1ee9a7e1e03e1b62bbbc8903",
+      "searched_lines": 66,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "sha256": "a25033545e5f43f94f14cab7294706b51ab171be5b4e024ea75aec8824b551c3",
+      "searched_lines": 101,
+      "record_prescription_hit_lines": [
+        36,
+        39
+      ]
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "sha256": "e98d09d5f5c0920a6cbd25bbba335fc0629f33f80befe1f8685800e8eef73cfa",
+      "searched_lines": 136,
+      "record_prescription_hit_lines": [
+        49,
+        62,
+        64,
+        65,
+        78,
+        112,
+        113,
+        114
+      ]
+    },
+    {
+      "path": "docs/investigations.md",
+      "sha256": "ef77cbacf748d98bc5a23d43fc98b4eca083f5206c38a8a218a3fa7bc5f3caed",
+      "searched_lines": 48,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "sha256": "5f3d1294362e0e1d5c874b1a408831860993531be3168e82cc86bb280e39422b",
+      "searched_lines": 94,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "sha256": "53cd0b18b655225631ca8aad6a6c58466ed66f8cc04f5ffce3f8d1cccc451a18",
+      "searched_lines": 94,
+      "record_prescription_hit_lines": [
+        29,
+        32,
+        63,
+        80
+      ]
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "sha256": "65409146a5ab23cb84cfe164af8b04016cbc68f7b579f43ff5903e444663339d",
+      "searched_lines": 88,
+      "record_prescription_hit_lines": [
+        31,
+        32,
+        45,
+        47,
+        48,
+        59,
+        60
+      ]
+    },
+    {
+      "path": "docs/project-records.md",
+      "sha256": "a1b4e199f5571e3af7a105868c39d9108fc19f335b6247b6b3dc0550d67cde6b",
+      "searched_lines": 74,
+      "record_prescription_hit_lines": [
+        44,
+        52
+      ]
+    },
+    {
+      "path": "docs/review-and-audit.md",
+      "sha256": "56488fdc85eacc5baa55aec1aacef9b8213e83a3d610b0d8445afc0bd8261c4c",
+      "searched_lines": 77,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "docs/skill-architecture.md",
+      "sha256": "7e800f7ac4d2fccef43e30921d496dc01273be38fa69bbba95be677497e4a721",
+      "searched_lines": 72,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "docs/testing-ai-behaviour.md",
+      "sha256": "754ee5ccd54e77215dc0267c7e895260b1132ad2617fe87deb83e30b24e2a654",
+      "searched_lines": 66,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "playbooks/audit-routing.md",
+      "sha256": "77761118f61ebf17b8f65a35c53ac42bea44b783be512e55d132f1be278fc12b",
+      "searched_lines": 57,
+      "record_prescription_hit_lines": [
+        43,
+        44
+      ]
+    },
+    {
+      "path": "playbooks/code-audit.md",
+      "sha256": "1fe29ed8b8b8089fb6c7fa5552adb406db56e1fd7f7077b6682472d0f33402b0",
+      "searched_lines": 81,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "playbooks/debugging.md",
+      "sha256": "92aab54e1a58a4f3e98cbdfcd39e951c89c4d07d82671e8711ccd83a78bb5ebb",
+      "searched_lines": 56,
+      "record_prescription_hit_lines": [
+        56
+      ]
+    },
+    {
+      "path": "playbooks/discovery-verification.md",
+      "sha256": "f9c4398e238bb90028656f55b86d262197578fc463f15b9d1206add2facd3247",
+      "searched_lines": 34,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "playbooks/discovery.md",
+      "sha256": "10212f438dd713549baafa04b061d6d0068291e25848eb64d9a36cdfe88db028",
+      "searched_lines": 54,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "playbooks/document-analysis.md",
+      "sha256": "b42892bb673aaa0d20cdb0ec61edbe52f589efba0db0cdb649e29bb1f704a4e9",
+      "searched_lines": 38,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "playbooks/document-description.md",
+      "sha256": "68ff33cf37011705e137b5df9692f33ae39f02dae470070415ad0a12dd239458",
+      "searched_lines": 29,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "playbooks/document-planning.md",
+      "sha256": "cf03a3196dccff1c4d6ec52be016d39cdbf738be2fcc5a84a013b7ed712dea0b",
+      "searched_lines": 33,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "playbooks/investigation.md",
+      "sha256": "87fd7125063176c40d3c9cc9b3fbc2854ab05cfcd8eadd11452597eee34ce19b",
+      "searched_lines": 65,
+      "record_prescription_hit_lines": [
+        22,
+        23
+      ]
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "sha256": "d356f0d154cb9a2fb4191e7841b638deae7c7ff0b202ba63ccfa54b5b7b153ba",
+      "searched_lines": 80,
+      "record_prescription_hit_lines": [
+        27
+      ]
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "sha256": "3511e3b4b8999cd22694d9ec3010f8c7da53f816c4fe49c5497807fa335890e2",
+      "searched_lines": 120,
+      "record_prescription_hit_lines": [
+        44,
+        72,
+        80,
+        82,
+        83,
+        90,
+        93
+      ]
+    },
+    {
+      "path": "playbooks/recovery.md",
+      "sha256": "d94544e92827d85ab3e205b4e354ef7fa537b46d9f4013db9a8440e175a42bdc",
+      "searched_lines": 57,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "playbooks/review.md",
+      "sha256": "e6c2218df45527eb36e3e4b363044254d675850ae8262412f589d681c0d6a996",
+      "searched_lines": 54,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "standards/project-records.md",
+      "sha256": "390202a946965838cb2b783673714d69531fd6c28795ce49270b05c0b2f732ca",
+      "searched_lines": 427,
+      "record_prescription_hit_lines": [
+        54,
+        59,
+        148,
+        159,
+        193,
+        199,
+        212,
+        277,
+        307,
+        327,
+        384,
+        389
+      ]
+    },
+    {
+      "path": "templates/project-records/README.md",
+      "sha256": "c95332e6de27214f7e3c743e3e660f7093752a888dece4f4bec8569fdca5faad",
+      "searched_lines": 54,
+      "record_prescription_hit_lines": [
+        16,
+        18,
+        38,
+        41
+      ]
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "sha256": "692d0099e93ad498676662a041911bda0e29f31142aa71b2fa04d70c1ce45c21",
+      "searched_lines": 58,
+      "record_prescription_hit_lines": [
+        6,
+        52,
+        56,
+        57
+      ]
+    },
+    {
+      "path": "templates/project-records/audit-response.md",
+      "sha256": "2d85611880967d36ef81a166605d920e3097739ef8d49792dc0e6f6639e0dd73",
+      "searched_lines": 34,
+      "record_prescription_hit_lines": [
+        1,
+        3,
+        4,
+        11,
+        23,
+        27
+      ]
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "sha256": "17c70b5e985076e457b78198288cf79d2b84f9a75e7662bc57335ec9371f5546",
+      "searched_lines": 66,
+      "record_prescription_hit_lines": [
+        10,
+        25
+      ]
+    },
+    {
+      "path": "templates/project-records/build.md",
+      "sha256": "a96c8893c335d73420e3b0b5aeb42d2103d0846e2c321ed71fce92d0a07bfd46",
+      "searched_lines": 34,
+      "record_prescription_hit_lines": [
+        11,
+        16
+      ]
+    },
+    {
+      "path": "templates/project-records/change.md",
+      "sha256": "8eaa485f2c1f4d565783b9b9fa6645040c60e9a2f89580e510209c9d19b7ab51",
+      "searched_lines": 20,
+      "record_prescription_hit_lines": [
+        10
+      ]
+    },
+    {
+      "path": "templates/project-records/coverage.md",
+      "sha256": "ec1d85077a4551a427129dbc05ebd55429826dac310a83f426e5ac5c181e81a4",
+      "searched_lines": 10,
+      "record_prescription_hit_lines": [
+        8
+      ]
+    },
+    {
+      "path": "templates/project-records/decision.md",
+      "sha256": "b0548b1b2d787437e6701901bf046fdc567b7db92b3c1622806b04d5cb024af4",
+      "searched_lines": 42,
+      "record_prescription_hit_lines": [
+        11,
+        27,
+        38
+      ]
+    },
+    {
+      "path": "templates/project-records/event.md",
+      "sha256": "16dc95aaba089a2ccd283065744dae80535a8e74bff38a079568ce9b428a2449",
+      "searched_lines": 34,
+      "record_prescription_hit_lines": [
+        10,
+        14,
+        18,
+        29
+      ]
+    },
+    {
+      "path": "templates/project-records/experiment.md",
+      "sha256": "6768ec50e199920ac38945f3359e362a62a174325ddae42247c84abe283084bd",
+      "searched_lines": 39,
+      "record_prescription_hit_lines": [
+        10,
+        12,
+        32
+      ]
+    },
+    {
+      "path": "templates/project-records/hypothesis.md",
+      "sha256": "3b5870fea69a752719e8bd1253956af8c75b27a93fb3e383b69f101e7a598f81",
+      "searched_lines": 34,
+      "record_prescription_hit_lines": [
+        11,
+        27,
+        33
+      ]
+    },
+    {
+      "path": "templates/project-records/ledger.md",
+      "sha256": "c0025e8c306b4ba1f9f8e205a99deb17619544f695b1493508196f61140b9e18",
+      "searched_lines": 14,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "templates/project-records/manifest.md",
+      "sha256": "5b2ca0d1fd7a3484ace72b3ad82da5df8e1ba053e37e1120b409fc28a3c0cfaa",
+      "searched_lines": 11,
+      "record_prescription_hit_lines": [
+        11
+      ]
+    },
+    {
+      "path": "templates/project-records/plan.md",
+      "sha256": "03c091c7f9fe7eb00783539587b083ea34efe465357ddd615400f8f9e920e8b3",
+      "searched_lines": 18,
+      "record_prescription_hit_lines": [
+        4
+      ]
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "sha256": "70b8f0e5c3d92d5739b1abe7f14b4b0882fa76644b3852ca3260ae5eb7c09711",
+      "searched_lines": 58,
+      "record_prescription_hit_lines": [
+        5
+      ]
+    },
+    {
+      "path": "templates/project-records/root.md",
+      "sha256": "83e0f69fe9da42452ad3e21032978a005a021db896262f9fd6ec00ea9e051002",
+      "searched_lines": 32,
+      "record_prescription_hit_lines": [
+        19
+      ]
+    },
+    {
+      "path": "templates/project-records/run.md",
+      "sha256": "9a6439687bc974eb8ec021a0b790f75fcfc0e735146e8fa10660b137b0c62112",
+      "searched_lines": 38,
+      "record_prescription_hit_lines": [
+        11,
+        15,
+        16
+      ]
+    },
+    {
+      "path": "templates/project-records/stage.md",
+      "sha256": "b2215a593e5f586d2cfc1f2d7d4e013efd67282a33e22983fb7a092ab662d3f7",
+      "searched_lines": 42,
+      "record_prescription_hit_lines": [
+        10,
+        34
+      ]
+    },
+    {
+      "path": "templates/project-records/state.md",
+      "sha256": "42ee4dd22f32be864721e3c7825d8b834ba327d892213b2e3e5a9d024f04a525",
+      "searched_lines": 33,
+      "record_prescription_hit_lines": []
+    },
+    {
+      "path": "templates/project-records/workspace.md",
+      "sha256": "1b95b294eb3b0c6ffe0e94f6ded88f0a10e30b86cda9ffbd9c9e6b4b4a2e8de9",
+      "searched_lines": 14,
+      "record_prescription_hit_lines": [
+        8,
+        10
+      ]
+    }
+  ],
+  "limits": "Whole69-path text search; matching clauses/context and relevant whole route/oracle/form documents inspected by worker. Code examples/database uses are not VP record mandates. Search is candidate selection, not proof of universal semantic consistency. No source files copied; exact lines resolve Git/current containing revision."
+}

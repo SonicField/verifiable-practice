@@ -9,6 +9,10 @@
 **Goal served:** <root decision link and outcome>
 **Sealed:** <UTC timestamp when terminal; open until then>
 
+Use this separate event where A/B or external requirements demand it. C/D
+may put the relevant information in a dated change/successor entry or commit;
+do not instantiate V solely to conform. Preserve original sealed revisions.
+
 ## Trigger and Affected History
 
 **Kind:** <correction/expiry/invalidation/supersession/disposition/exception>
@@ -24,7 +28,7 @@
 **Containment/authority:** <pause/revert or delegated exception D, finite limits>
 **Disposition if applicable:** <reason, retention check, preserved substitute,
 new locator, byte verification, recovery method or irreversible loss>
-**Revalidation:** <new H/E/R/D links; no date-only renewal>
+**Revalidation:** <level-appropriate hypothesis/protocol/check/choice evidence; inline where permitted; no date-only renewal>
 **Views updated:** <state/ledger/coverage updates>
 **Limitations and next action:** <open work and successor>
 

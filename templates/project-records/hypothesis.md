@@ -16,7 +16,7 @@
 **Scope and input identities:** <conditions under which it is claimed>
 **Assumptions/dependencies:** <H and input links; known unknowns>
 **Falsifier:** <valid observation that contradicts it>
-**Required evidence/instrument:** <E protocol; controls testing the check>
+**Required evidence/instrument:** <A E protocol; B/C may use inline protocol fields; controls testing the check>
 **Decision informed:** <commissioning D; not a future adoption presented as history>
 **Owner:** <reviewer>
 **Review by:** <A/B/C finite UTC timestamp; D/E trigger-only, no date required>
@@ -30,5 +30,5 @@ through dependencies and later events, separately from historical verdict.>
 
 ## Amendments and Next Action
 
-<Dated pre-reliance amendments, successor decision or new testing required.>
+<Dated pre-reliance amendments, level-appropriate successor choice/entry or new testing required.>
 

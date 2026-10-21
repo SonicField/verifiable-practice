@@ -26,7 +26,7 @@ For a new conformant project, select a record root, normally `vp/`, and create i
 | Build and verify | Set hypotheses and protocols before tests; make authorised changes; identify actual inputs and retain every relevant attempt | Records scaled by consequence: full forms for A/B, combined C, one change/check for D, commit message for E |
 | Control and assure quality | Check technical/document quality; independently assess records and justification; respond to findings | Checks, content analysis, typed audit reports and linked responses |
 | Accept or redirect | Review evidence, open risks, gates and continuing value; accept, revise, continue or stop within authority | Owner/delegated checkpoint and exception decisions |
-| Maintain and hand off | Track changed premises, expiry, dependencies and unfinished work; revalidate affected justification | State, ledger, coverage and successor events/evidence |
+| Maintain and hand off | Track changed premises, expiry, dependencies and unfinished work; revalidate affected justification | State, ledger, coverage and level-appropriate successor entries/evidence |
 | Retire or recover | Preserve revision history and replica, actually verify restoration and record pruning or explicit loss | Unique evidence and commit/path/hash locators, with level-appropriate disposition |
 
 The [project standard](standards/project-records.md) defines the management and record contract. [Playbooks](#playbooks) provide the procedures, including implementation, investigation, document work, discovery and recovery.

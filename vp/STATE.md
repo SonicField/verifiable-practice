@@ -4,13 +4,13 @@
 **Stage:** S4, implementing assurance/custody simplification under D26,
 level B. It is not accepted; this candidate has no conformant verdict.
 
-**Open findings:** A8/F001 is a mandatory source-alignment gap. V17 repaired
-unconditional separate-event routes; fresh A9 must assess closure. A8 is
-nonconformant. A7/F001 navigation advisory is independently closed by A8.
+**Open findings:** A8/F001 and its residual A9/F001 are mandatory and open.
+V18 fixes further routing/oracle prescriptions; only fresh A10 can close them.
+A9 is nonconformant. A7/F001 navigation advisory is independently closed.
 
-**Next action:** commission fresh A9 against V17 and the fixed current candidate.
-B acceptance is blocked until its conformant report. Then record D27, finish
-recovery handoff, test final STATE with a fresh reader and commit all records.
+**Next action:** commission fresh A10 against V18 and the fixed candidate.
+B acceptance waits for conformance. Then record D27, finish actual recovery,
+test final STATE with a fresh reader and commit all source/records.
 
 Baseline 9605ad0 is tagged records-archive-2026-10 and fully restored from its
 separate bundle with zero mismatches. Old detailed records/current-source

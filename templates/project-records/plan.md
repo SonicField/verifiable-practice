@@ -6,7 +6,7 @@
 
 | Stage | Dependencies/entry | Deliverable and falsifier | Budget/tolerance | Exit gate/decision | Status |
 |-------|--------------------|--------------------------|------------------|--------------------|--------|
-| <S link> | <prior stages, current claims> | <observable acceptance and harm> | <limits> | <evidence and D> | <state> |
+| <stage label/entry> | <prior stages, current claims> | <observable acceptance and harm> | <limits> | <evidence and level-appropriate acceptance> | <state> |
 
 ## Next Steps and Decisions
 

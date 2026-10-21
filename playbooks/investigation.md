@@ -17,9 +17,11 @@ Do not experiment until these are clear.
 Use a reversible isolation mechanism appropriate to the project, such as an `investigation/<topic>` branch or a temporary worktree. Do not create or switch branches without checking for uncommitted work.
 
 For a project that has adopted [record conformance](../standards/project-records.md),
-use its canonical H/E/R records and current state through the
+classify first and use its level-appropriate records/current state through the
 [records playbook](project-records.md). Keep the investigation linked to its
-commissioning decision; do not create a competing record root.
+commissioning authority; A uses explicit H/E/R, B/C may combine permitted
+fields, D its change/check. Do not create a competing root or extra H/E/R
+solely for lower-level conformance.
 
 For other VP work, create `INVESTIGATION-STATUS.md`:
 
@@ -50,7 +52,7 @@ Prefer direct, minimal measurements over proxies. Change one variable at a time 
 
 ## 4. Execute and Record
 
-Run experiments one at a time. Append the command or procedure, environment, raw observation, and separate interpretation to the status file. Preserve unexpected results; do not normalise them away.
+Run experiments one at a time. Append the command or procedure, environment, raw observation, and separate interpretation to the status file or adopted level-appropriate entry. Preserve unexpected results; do not normalise them away.
 
 ## 5. Reach a Verdict
 

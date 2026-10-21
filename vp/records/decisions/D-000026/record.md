@@ -46,3 +46,7 @@ After textual replay and independent classification, test whether a fresh worker
 ## Dated amendment after independent A8
 
 A8 is nonconformant at42ba9ee: an unconditional separate-event instruction survives in secondary routes. Its structural/custody/bounded trials pass and A7/F001 navigation advisory is independently closed. V17 records the general downstream-minimum-form problem and pre-action response at8d84aa0; affected guide/template routes now consistently permit C/D forms and preserve sealed originals/independent closure. Worker check05 passes; none of this closes A8/F001. A9 is the second fresh20-minute round, required before B acceptance. One further round remains. Later boundary custody instrument and final-state reader are separately identified post-freeze work; they do not enlarge earlier audit verdicts.
+
+## Dated amendment after A9
+
+A9 remains nonconformant for residual routing/scenario prescriptions, with A8/F001 still open/A9/F001 added. V18 corrects V17's overbroad search claim and fixes the general information-versus-file prescription across canonical entry points, oracles, investigation/templates and successor language. Whole69 search and bounded semantic dispositions, checks06/07 and failure history remain owned R13. A10 is the third declared fresh round; no acceptance or automatic closure before its verdict. No thresholds, standard, claimed history, authority or budget silently changed.

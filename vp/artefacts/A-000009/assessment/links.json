@@ -1,0 +1,2371 @@
+{
+  "method": "Explicit local inline Markdown links outside fenced blocks; anchors, reference definitions, external URLs, renderer omitted",
+  "links": [
+    {
+      "source": "CONTRIBUTING.md",
+      "line": 5,
+      "destination": "CODE_OF_CONDUCT.md",
+      "resolved": "CODE_OF_CONDUCT.md",
+      "exists": true
+    },
+    {
+      "source": "CONTRIBUTING.md",
+      "line": 18,
+      "destination": "SECURITY.md",
+      "resolved": "SECURITY.md",
+      "exists": true
+    },
+    {
+      "source": "CONTRIBUTING.md",
+      "line": 59,
+      "destination": "LICENSE",
+      "resolved": "LICENSE",
+      "exists": true
+    },
+    {
+      "source": "ORIGIN.md",
+      "line": 5,
+      "destination": "docs/how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "ORIGIN.md",
+      "line": 50,
+      "destination": "standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "ORIGIN.md",
+      "line": 51,
+      "destination": "playbooks/record-audit.md",
+      "resolved": "playbooks/record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "ORIGIN.md",
+      "line": 52,
+      "destination": "docs/project-records-design.md",
+      "resolved": "docs/project-records-design.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 7,
+      "destination": "SKILL.md",
+      "resolved": "SKILL.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 11,
+      "destination": "docs/how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 11,
+      "destination": "WHY.md",
+      "resolved": "WHY.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 12,
+      "destination": "playbooks/project-records.md",
+      "resolved": "playbooks/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 12,
+      "destination": "standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 12,
+      "destination": "templates/project-records/README.md",
+      "resolved": "templates/project-records/README.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 13,
+      "destination": "SKILL.md",
+      "resolved": "SKILL.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 32,
+      "destination": "standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 42,
+      "destination": "concepts/zero-code-contract.md",
+      "resolved": "concepts/zero-code-contract.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 59,
+      "destination": "playbooks/audit-routing.md",
+      "resolved": "playbooks/audit-routing.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 65,
+      "destination": "concepts/goals.md",
+      "resolved": "concepts/goals.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 66,
+      "destination": "concepts/falsifiability.md",
+      "resolved": "concepts/falsifiability.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 67,
+      "destination": "concepts/rhetoric.md",
+      "resolved": "concepts/rhetoric.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 68,
+      "destination": "concepts/bullshit-detection.md",
+      "resolved": "concepts/bullshit-detection.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 69,
+      "destination": "concepts/verification-cycle.md",
+      "resolved": "concepts/verification-cycle.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 70,
+      "destination": "concepts/zero-code-contract.md",
+      "resolved": "concepts/zero-code-contract.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 71,
+      "destination": "concepts/engineering-standards.md",
+      "resolved": "concepts/engineering-standards.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 75,
+      "destination": "vp/PROJECT.md",
+      "resolved": "vp/PROJECT.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 75,
+      "destination": "vp/README.md",
+      "resolved": "vp/README.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 75,
+      "destination": "vp/STATE.md",
+      "resolved": "vp/STATE.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 83,
+      "destination": "playbooks/review.md",
+      "resolved": "playbooks/review.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 84,
+      "destination": "playbooks/code-audit.md",
+      "resolved": "playbooks/code-audit.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 85,
+      "destination": "playbooks/investigation.md",
+      "resolved": "playbooks/investigation.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 86,
+      "destination": "playbooks/debugging.md",
+      "resolved": "playbooks/debugging.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 87,
+      "destination": "playbooks/discovery.md",
+      "resolved": "playbooks/discovery.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 88,
+      "destination": "playbooks/discovery-verification.md",
+      "resolved": "playbooks/discovery-verification.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 89,
+      "destination": "playbooks/recovery.md",
+      "resolved": "playbooks/recovery.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 90,
+      "destination": "playbooks/project-records.md",
+      "resolved": "playbooks/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 91,
+      "destination": "playbooks/record-audit.md",
+      "resolved": "playbooks/record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 92,
+      "destination": "playbooks/audit-routing.md",
+      "resolved": "playbooks/audit-routing.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 93,
+      "destination": "playbooks/document-analysis.md",
+      "resolved": "playbooks/document-analysis.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 94,
+      "destination": "playbooks/document-planning.md",
+      "resolved": "playbooks/document-planning.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 95,
+      "destination": "playbooks/document-description.md",
+      "resolved": "playbooks/document-description.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 103,
+      "destination": "docs/how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 104,
+      "destination": "docs/review-and-audit.md",
+      "resolved": "docs/review-and-audit.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 105,
+      "destination": "docs/discovery-and-recovery.md",
+      "resolved": "docs/discovery-and-recovery.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 106,
+      "destination": "docs/investigations.md",
+      "resolved": "docs/investigations.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 107,
+      "destination": "docs/document-work.md",
+      "resolved": "docs/document-work.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 108,
+      "destination": "docs/testing-ai-behaviour.md",
+      "resolved": "docs/testing-ai-behaviour.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 109,
+      "destination": "docs/skill-architecture.md",
+      "resolved": "docs/skill-architecture.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 110,
+      "destination": "docs/project-records.md",
+      "resolved": "docs/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 111,
+      "destination": "docs/project-records-design.md",
+      "resolved": "docs/project-records-design.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 112,
+      "destination": "docs/project-records-examples.md",
+      "resolved": "docs/project-records-examples.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 113,
+      "destination": "docs/project-records-scenarios.md",
+      "resolved": "docs/project-records-scenarios.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 114,
+      "destination": "docs/independent-record-audit.md",
+      "resolved": "docs/independent-record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 138,
+      "destination": "ORIGIN.md",
+      "resolved": "ORIGIN.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 142,
+      "destination": "CONTRIBUTING.md",
+      "resolved": "CONTRIBUTING.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 143,
+      "destination": "CODE_OF_CONDUCT.md",
+      "resolved": "CODE_OF_CONDUCT.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 144,
+      "destination": "SECURITY.md",
+      "resolved": "SECURITY.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 145,
+      "destination": "CHANGELOG.md",
+      "resolved": "CHANGELOG.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 146,
+      "destination": "CITATION.cff",
+      "resolved": "CITATION.cff",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "line": 147,
+      "destination": "LICENSE",
+      "resolved": "LICENSE",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 10,
+      "destination": "vp/README.md",
+      "resolved": "vp/README.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 11,
+      "destination": "vp/STATE.md",
+      "resolved": "vp/STATE.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 23,
+      "destination": "docs/how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 23,
+      "destination": "playbooks/project-records.md",
+      "resolved": "playbooks/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 23,
+      "destination": "standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 39,
+      "destination": "standards/project-records.md#11-consequence-determines-assurance",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 44,
+      "destination": "standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 49,
+      "destination": "playbooks/audit-routing.md",
+      "resolved": "playbooks/audit-routing.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 55,
+      "destination": "playbooks/record-audit.md",
+      "resolved": "playbooks/record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 67,
+      "destination": "WHY.md",
+      "resolved": "WHY.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 68,
+      "destination": "concepts/goals.md",
+      "resolved": "concepts/goals.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 68,
+      "destination": "playbooks/review.md",
+      "resolved": "playbooks/review.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 69,
+      "destination": "concepts/falsifiability.md",
+      "resolved": "concepts/falsifiability.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 69,
+      "destination": "concepts/bullshit-detection.md",
+      "resolved": "concepts/bullshit-detection.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 70,
+      "destination": "concepts/verification-cycle.md",
+      "resolved": "concepts/verification-cycle.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 70,
+      "destination": "concepts/engineering-standards.md",
+      "resolved": "concepts/engineering-standards.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 71,
+      "destination": "concepts/zero-code-contract.md",
+      "resolved": "concepts/zero-code-contract.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 72,
+      "destination": "playbooks/audit-routing.md",
+      "resolved": "playbooks/audit-routing.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 73,
+      "destination": "playbooks/code-audit.md",
+      "resolved": "playbooks/code-audit.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 74,
+      "destination": "playbooks/investigation.md",
+      "resolved": "playbooks/investigation.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 75,
+      "destination": "playbooks/debugging.md",
+      "resolved": "playbooks/debugging.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 76,
+      "destination": "playbooks/discovery.md",
+      "resolved": "playbooks/discovery.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 76,
+      "destination": "playbooks/discovery-verification.md",
+      "resolved": "playbooks/discovery-verification.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 77,
+      "destination": "playbooks/recovery.md",
+      "resolved": "playbooks/recovery.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 78,
+      "destination": "standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 78,
+      "destination": "playbooks/project-records.md",
+      "resolved": "playbooks/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 78,
+      "destination": "templates/project-records/README.md",
+      "resolved": "templates/project-records/README.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 79,
+      "destination": "playbooks/record-audit.md",
+      "resolved": "playbooks/record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 79,
+      "destination": "templates/project-records/audit-request.md",
+      "resolved": "templates/project-records/audit-request.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 79,
+      "destination": "templates/project-records/audit.md",
+      "resolved": "templates/project-records/audit.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 79,
+      "destination": "templates/project-records/audit-response.md",
+      "resolved": "templates/project-records/audit-response.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 80,
+      "destination": "playbooks/document-analysis.md",
+      "resolved": "playbooks/document-analysis.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 80,
+      "destination": "concepts/rhetoric.md",
+      "resolved": "concepts/rhetoric.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 81,
+      "destination": "playbooks/document-planning.md",
+      "resolved": "playbooks/document-planning.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 81,
+      "destination": "playbooks/document-description.md",
+      "resolved": "playbooks/document-description.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 82,
+      "destination": "docs/document-work.md#clear-and-testable-requirements",
+      "resolved": "docs/document-work.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 82,
+      "destination": "playbooks/document-analysis.md",
+      "resolved": "playbooks/document-analysis.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 92,
+      "destination": "docs/how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 93,
+      "destination": "docs/review-and-audit.md",
+      "resolved": "docs/review-and-audit.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 94,
+      "destination": "docs/discovery-and-recovery.md",
+      "resolved": "docs/discovery-and-recovery.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 95,
+      "destination": "docs/investigations.md",
+      "resolved": "docs/investigations.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 96,
+      "destination": "docs/document-work.md",
+      "resolved": "docs/document-work.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 97,
+      "destination": "docs/testing-ai-behaviour.md",
+      "resolved": "docs/testing-ai-behaviour.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 98,
+      "destination": "docs/skill-architecture.md",
+      "resolved": "docs/skill-architecture.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 99,
+      "destination": "docs/project-records.md",
+      "resolved": "docs/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 100,
+      "destination": "docs/project-records-design.md",
+      "resolved": "docs/project-records-design.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 101,
+      "destination": "docs/project-records-examples.md",
+      "resolved": "docs/project-records-examples.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 102,
+      "destination": "docs/project-records-scenarios.md",
+      "resolved": "docs/project-records-scenarios.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 103,
+      "destination": "docs/independent-record-audit.md",
+      "resolved": "docs/independent-record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 107,
+      "destination": "CONTRIBUTING.md",
+      "resolved": "CONTRIBUTING.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 107,
+      "destination": "SECURITY.md",
+      "resolved": "SECURITY.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 107,
+      "destination": "CHANGELOG.md",
+      "resolved": "CHANGELOG.md",
+      "exists": true
+    },
+    {
+      "source": "SKILL.md",
+      "line": 107,
+      "destination": "CODE_OF_CONDUCT.md",
+      "resolved": "CODE_OF_CONDUCT.md",
+      "exists": true
+    },
+    {
+      "source": "WHY.md",
+      "line": 26,
+      "destination": "docs/independent-record-audit.md",
+      "resolved": "docs/independent-record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "WHY.md",
+      "line": 28,
+      "destination": "docs/how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "WHY.md",
+      "line": 28,
+      "destination": "standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "WHY.md",
+      "line": 88,
+      "destination": "README.md#foundations",
+      "resolved": "README.md",
+      "exists": true
+    },
+    {
+      "source": "WHY.md",
+      "line": 88,
+      "destination": "docs/how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "WHY.md",
+      "line": 101,
+      "destination": "templates/project-records/README.md",
+      "resolved": "templates/project-records/README.md",
+      "exists": true
+    },
+    {
+      "source": "WHY.md",
+      "line": 103,
+      "destination": "playbooks/review.md",
+      "resolved": "playbooks/review.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/bullshit-detection.md",
+      "line": 3,
+      "destination": "../docs/how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/bullshit-detection.md",
+      "line": 61,
+      "destination": "../README.md",
+      "resolved": "README.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/bullshit-detection.md",
+      "line": 62,
+      "destination": "../SKILL.md",
+      "resolved": "SKILL.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/engineering-standards.md",
+      "line": 3,
+      "destination": "../docs/how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/falsifiability.md",
+      "line": 3,
+      "destination": "../docs/how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/falsifiability.md",
+      "line": 73,
+      "destination": "../README.md",
+      "resolved": "README.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/falsifiability.md",
+      "line": 74,
+      "destination": "../SKILL.md",
+      "resolved": "SKILL.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/goals.md",
+      "line": 3,
+      "destination": "../docs/how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/goals.md",
+      "line": 66,
+      "destination": "../README.md",
+      "resolved": "README.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/goals.md",
+      "line": 67,
+      "destination": "../SKILL.md",
+      "resolved": "SKILL.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/rhetoric.md",
+      "line": 3,
+      "destination": "../docs/how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/rhetoric.md",
+      "line": 52,
+      "destination": "../README.md",
+      "resolved": "README.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/rhetoric.md",
+      "line": 53,
+      "destination": "../SKILL.md",
+      "resolved": "SKILL.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/verification-cycle.md",
+      "line": 3,
+      "destination": "../docs/how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/verification-cycle.md",
+      "line": 53,
+      "destination": "../README.md",
+      "resolved": "README.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/verification-cycle.md",
+      "line": 54,
+      "destination": "../SKILL.md",
+      "resolved": "SKILL.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/zero-code-contract.md",
+      "line": 3,
+      "destination": "../docs/how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/zero-code-contract.md",
+      "line": 12,
+      "destination": "../standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/zero-code-contract.md",
+      "line": 13,
+      "destination": "../docs/independent-record-audit.md",
+      "resolved": "docs/independent-record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/zero-code-contract.md",
+      "line": 23,
+      "destination": "../docs/independent-record-audit.md",
+      "resolved": "docs/independent-record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/zero-code-contract.md",
+      "line": 73,
+      "destination": "../README.md",
+      "resolved": "README.md",
+      "exists": true
+    },
+    {
+      "source": "concepts/zero-code-contract.md",
+      "line": 74,
+      "destination": "../SKILL.md",
+      "resolved": "SKILL.md",
+      "exists": true
+    },
+    {
+      "source": "docs/discovery-and-recovery.md",
+      "line": 3,
+      "destination": "how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "docs/discovery-and-recovery.md",
+      "line": 21,
+      "destination": "../playbooks/discovery.md",
+      "resolved": "playbooks/discovery.md",
+      "exists": true
+    },
+    {
+      "source": "docs/discovery-and-recovery.md",
+      "line": 27,
+      "destination": "../playbooks/discovery-verification.md",
+      "resolved": "playbooks/discovery-verification.md",
+      "exists": true
+    },
+    {
+      "source": "docs/discovery-and-recovery.md",
+      "line": 42,
+      "destination": "../playbooks/recovery.md",
+      "resolved": "playbooks/recovery.md",
+      "exists": true
+    },
+    {
+      "source": "docs/document-work.md",
+      "line": 3,
+      "destination": "how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "docs/document-work.md",
+      "line": 19,
+      "destination": "../playbooks/document-analysis.md",
+      "resolved": "playbooks/document-analysis.md",
+      "exists": true
+    },
+    {
+      "source": "docs/document-work.md",
+      "line": 27,
+      "destination": "../playbooks/document-planning.md",
+      "resolved": "playbooks/document-planning.md",
+      "exists": true
+    },
+    {
+      "source": "docs/document-work.md",
+      "line": 35,
+      "destination": "../playbooks/document-description.md",
+      "resolved": "playbooks/document-description.md",
+      "exists": true
+    },
+    {
+      "source": "docs/document-work.md",
+      "line": 54,
+      "destination": "../standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "docs/document-work.md",
+      "line": 54,
+      "destination": "../playbooks/document-analysis.md",
+      "resolved": "playbooks/document-analysis.md",
+      "exists": true
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "line": 11,
+      "destination": "../standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "line": 11,
+      "destination": "../playbooks/project-records.md",
+      "resolved": "playbooks/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "line": 11,
+      "destination": "../templates/project-records/README.md",
+      "resolved": "templates/project-records/README.md",
+      "exists": true
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "line": 12,
+      "destination": "../concepts/verification-cycle.md",
+      "resolved": "concepts/verification-cycle.md",
+      "exists": true
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "line": 12,
+      "destination": "../concepts/engineering-standards.md",
+      "resolved": "concepts/engineering-standards.md",
+      "exists": true
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "line": 12,
+      "destination": "../playbooks/investigation.md",
+      "resolved": "playbooks/investigation.md",
+      "exists": true
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "line": 12,
+      "destination": "../playbooks/document-analysis.md",
+      "resolved": "playbooks/document-analysis.md",
+      "exists": true
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "line": 13,
+      "destination": "../playbooks/record-audit.md",
+      "resolved": "playbooks/record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "line": 13,
+      "destination": "independent-record-audit.md",
+      "resolved": "docs/independent-record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "line": 14,
+      "destination": "../playbooks/review.md",
+      "resolved": "playbooks/review.md",
+      "exists": true
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "line": 14,
+      "destination": "testing-ai-behaviour.md",
+      "resolved": "docs/testing-ai-behaviour.md",
+      "exists": true
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "line": 28,
+      "destination": "../concepts/zero-code-contract.md",
+      "resolved": "concepts/zero-code-contract.md",
+      "exists": true
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "line": 41,
+      "destination": "../standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "line": 41,
+      "destination": "../playbooks/project-records.md",
+      "resolved": "playbooks/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "line": 79,
+      "destination": "../playbooks/audit-routing.md",
+      "resolved": "playbooks/audit-routing.md",
+      "exists": true
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "line": 83,
+      "destination": "../templates/project-records/README.md",
+      "resolved": "templates/project-records/README.md",
+      "exists": true
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "line": 91,
+      "destination": "skill-architecture.md",
+      "resolved": "docs/skill-architecture.md",
+      "exists": true
+    },
+    {
+      "source": "docs/independent-record-audit.md",
+      "line": 3,
+      "destination": "how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "docs/independent-record-audit.md",
+      "line": 7,
+      "destination": "../playbooks/audit-routing.md",
+      "resolved": "playbooks/audit-routing.md",
+      "exists": true
+    },
+    {
+      "source": "docs/independent-record-audit.md",
+      "line": 14,
+      "destination": "../standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "docs/independent-record-audit.md",
+      "line": 15,
+      "destination": "../playbooks/record-audit.md",
+      "resolved": "playbooks/record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "docs/independent-record-audit.md",
+      "line": 16,
+      "destination": "project-records-design.md",
+      "resolved": "docs/project-records-design.md",
+      "exists": true
+    },
+    {
+      "source": "docs/investigations.md",
+      "line": 3,
+      "destination": "how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "docs/investigations.md",
+      "line": 26,
+      "destination": "../standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "docs/investigations.md",
+      "line": 46,
+      "destination": "../playbooks/investigation.md",
+      "resolved": "playbooks/investigation.md",
+      "exists": true
+    },
+    {
+      "source": "docs/investigations.md",
+      "line": 46,
+      "destination": "../playbooks/debugging.md",
+      "resolved": "playbooks/debugging.md",
+      "exists": true
+    },
+    {
+      "source": "docs/project-records-examples.md",
+      "line": 4,
+      "destination": "../standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "docs/project-records-examples.md",
+      "line": 5,
+      "destination": "../templates/project-records/README.md",
+      "resolved": "templates/project-records/README.md",
+      "exists": true
+    },
+    {
+      "source": "docs/project-records-scenarios.md",
+      "line": 3,
+      "destination": "how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "docs/project-records-scenarios.md",
+      "line": 6,
+      "destination": "../standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "docs/project-records-scenarios.md",
+      "line": 7,
+      "destination": "../playbooks/project-records.md",
+      "resolved": "playbooks/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "docs/project-records-scenarios.md",
+      "line": 9,
+      "destination": "testing-ai-behaviour.md",
+      "resolved": "docs/testing-ai-behaviour.md",
+      "exists": true
+    },
+    {
+      "source": "docs/project-records.md",
+      "line": 5,
+      "destination": "../standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "docs/project-records.md",
+      "line": 6,
+      "destination": "../playbooks/project-records.md",
+      "resolved": "playbooks/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "docs/project-records.md",
+      "line": 73,
+      "destination": "project-records-examples.md",
+      "resolved": "docs/project-records-examples.md",
+      "exists": true
+    },
+    {
+      "source": "docs/project-records.md",
+      "line": 74,
+      "destination": "project-records-scenarios.md",
+      "resolved": "docs/project-records-scenarios.md",
+      "exists": true
+    },
+    {
+      "source": "docs/review-and-audit.md",
+      "line": 3,
+      "destination": "how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "docs/review-and-audit.md",
+      "line": 11,
+      "destination": "../playbooks/audit-routing.md",
+      "resolved": "playbooks/audit-routing.md",
+      "exists": true
+    },
+    {
+      "source": "docs/review-and-audit.md",
+      "line": 35,
+      "destination": "../playbooks/review.md",
+      "resolved": "playbooks/review.md",
+      "exists": true
+    },
+    {
+      "source": "docs/review-and-audit.md",
+      "line": 39,
+      "destination": "../concepts/engineering-standards.md",
+      "resolved": "concepts/engineering-standards.md",
+      "exists": true
+    },
+    {
+      "source": "docs/review-and-audit.md",
+      "line": 51,
+      "destination": "../playbooks/code-audit.md",
+      "resolved": "playbooks/code-audit.md",
+      "exists": true
+    },
+    {
+      "source": "docs/review-and-audit.md",
+      "line": 61,
+      "destination": "../playbooks/record-audit.md",
+      "resolved": "playbooks/record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "docs/review-and-audit.md",
+      "line": 65,
+      "destination": "independent-record-audit.md",
+      "resolved": "docs/independent-record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "docs/skill-architecture.md",
+      "line": 3,
+      "destination": "how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "docs/testing-ai-behaviour.md",
+      "line": 3,
+      "destination": "how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/audit-routing.md",
+      "line": 8,
+      "destination": "record-audit.md",
+      "resolved": "playbooks/record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/audit-routing.md",
+      "line": 9,
+      "destination": "code-audit.md",
+      "resolved": "playbooks/code-audit.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/audit-routing.md",
+      "line": 12,
+      "destination": "review.md",
+      "resolved": "playbooks/review.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/code-audit.md",
+      "line": 3,
+      "destination": "../concepts/engineering-standards.md",
+      "resolved": "concepts/engineering-standards.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/code-audit.md",
+      "line": 8,
+      "destination": "audit-routing.md",
+      "resolved": "playbooks/audit-routing.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/code-audit.md",
+      "line": 10,
+      "destination": "record-audit.md",
+      "resolved": "playbooks/record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/document-analysis.md",
+      "line": 8,
+      "destination": "../concepts/goals.md",
+      "resolved": "concepts/goals.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/document-analysis.md",
+      "line": 8,
+      "destination": "../concepts/rhetoric.md",
+      "resolved": "concepts/rhetoric.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/document-analysis.md",
+      "line": 8,
+      "destination": "../concepts/bullshit-detection.md",
+      "resolved": "concepts/bullshit-detection.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/document-analysis.md",
+      "line": 8,
+      "destination": "../concepts/falsifiability.md",
+      "resolved": "concepts/falsifiability.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/investigation.md",
+      "line": 19,
+      "destination": "../standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/investigation.md",
+      "line": 21,
+      "destination": "project-records.md",
+      "resolved": "playbooks/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/project-records.md",
+      "line": 3,
+      "destination": "../standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/project-records.md",
+      "line": 4,
+      "destination": "../templates/project-records/README.md",
+      "resolved": "templates/project-records/README.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/record-audit.md",
+      "line": 3,
+      "destination": "../standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/record-audit.md",
+      "line": 9,
+      "destination": "audit-routing.md",
+      "resolved": "playbooks/audit-routing.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/record-audit.md",
+      "line": 18,
+      "destination": "../templates/project-records/audit-request.md",
+      "resolved": "templates/project-records/audit-request.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/record-audit.md",
+      "line": 62,
+      "destination": "../templates/project-records/audit.md",
+      "resolved": "templates/project-records/audit.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/record-audit.md",
+      "line": 80,
+      "destination": "../templates/project-records/audit-response.md",
+      "resolved": "templates/project-records/audit-response.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/recovery.md",
+      "line": 39,
+      "destination": "../standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/recovery.md",
+      "line": 40,
+      "destination": "project-records.md",
+      "resolved": "playbooks/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/review.md",
+      "line": 3,
+      "destination": "audit-routing.md",
+      "resolved": "playbooks/audit-routing.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/review.md",
+      "line": 15,
+      "destination": "investigation.md",
+      "resolved": "playbooks/investigation.md",
+      "exists": true
+    },
+    {
+      "source": "playbooks/review.md",
+      "line": 15,
+      "destination": "discovery-verification.md",
+      "resolved": "playbooks/discovery-verification.md",
+      "exists": true
+    },
+    {
+      "source": "standards/project-records.md",
+      "line": 23,
+      "destination": "../playbooks/audit-routing.md",
+      "resolved": "playbooks/audit-routing.md",
+      "exists": true
+    },
+    {
+      "source": "standards/project-records.md",
+      "line": 409,
+      "destination": "../docs/project-records-design.md",
+      "resolved": "docs/project-records-design.md",
+      "exists": true
+    },
+    {
+      "source": "standards/project-records.md",
+      "line": 410,
+      "destination": "../playbooks/project-records.md",
+      "resolved": "playbooks/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "standards/project-records.md",
+      "line": 411,
+      "destination": "../templates/project-records/README.md",
+      "resolved": "templates/project-records/README.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 3,
+      "destination": "../../docs/how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 5,
+      "destination": "../../standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 6,
+      "destination": "../../playbooks/project-records.md",
+      "resolved": "playbooks/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 25,
+      "destination": "root.md",
+      "resolved": "templates/project-records/root.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 26,
+      "destination": "project.md",
+      "resolved": "templates/project-records/project.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 27,
+      "destination": "plan.md",
+      "resolved": "templates/project-records/plan.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 28,
+      "destination": "state.md",
+      "resolved": "templates/project-records/state.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 29,
+      "destination": "ledger.md",
+      "resolved": "templates/project-records/ledger.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 30,
+      "destination": "coverage.md",
+      "resolved": "templates/project-records/coverage.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 31,
+      "destination": "decision.md",
+      "resolved": "templates/project-records/decision.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 32,
+      "destination": "stage.md",
+      "resolved": "templates/project-records/stage.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 33,
+      "destination": "hypothesis.md",
+      "resolved": "templates/project-records/hypothesis.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 34,
+      "destination": "experiment.md",
+      "resolved": "templates/project-records/experiment.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 35,
+      "destination": "build.md",
+      "resolved": "templates/project-records/build.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 36,
+      "destination": "run.md",
+      "resolved": "templates/project-records/run.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 37,
+      "destination": "change.md",
+      "resolved": "templates/project-records/change.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 38,
+      "destination": "event.md",
+      "resolved": "templates/project-records/event.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 39,
+      "destination": "audit.md",
+      "resolved": "templates/project-records/audit.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 40,
+      "destination": "audit-request.md",
+      "resolved": "templates/project-records/audit-request.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 41,
+      "destination": "audit-response.md",
+      "resolved": "templates/project-records/audit-response.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 42,
+      "destination": "manifest.md",
+      "resolved": "templates/project-records/manifest.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 43,
+      "destination": "workspace.md",
+      "resolved": "templates/project-records/workspace.md",
+      "exists": true
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "line": 50,
+      "destination": "../../playbooks/record-audit.md",
+      "resolved": "playbooks/record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 9,
+      "destination": "../.gitattributes",
+      "resolved": ".gitattributes",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 10,
+      "destination": "../.github/ISSUE_TEMPLATE/bug_report.yml",
+      "resolved": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 11,
+      "destination": "../.github/ISSUE_TEMPLATE/change_proposal.yml",
+      "resolved": ".github/ISSUE_TEMPLATE/change_proposal.yml",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 12,
+      "destination": "../.github/ISSUE_TEMPLATE/config.yml",
+      "resolved": ".github/ISSUE_TEMPLATE/config.yml",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 13,
+      "destination": "../.github/pull_request_template.md",
+      "resolved": ".github/pull_request_template.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 14,
+      "destination": "../.gitignore",
+      "resolved": ".gitignore",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 15,
+      "destination": "../CHANGELOG.md",
+      "resolved": "CHANGELOG.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 16,
+      "destination": "../CITATION.cff",
+      "resolved": "CITATION.cff",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 17,
+      "destination": "../CODE_OF_CONDUCT.md",
+      "resolved": "CODE_OF_CONDUCT.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 18,
+      "destination": "../CONTRIBUTING.md",
+      "resolved": "CONTRIBUTING.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 19,
+      "destination": "../LICENSE",
+      "resolved": "LICENSE",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 20,
+      "destination": "../ORIGIN.md",
+      "resolved": "ORIGIN.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 21,
+      "destination": "../README.md",
+      "resolved": "README.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 22,
+      "destination": "../SECURITY.md",
+      "resolved": "SECURITY.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 23,
+      "destination": "../SKILL.md",
+      "resolved": "SKILL.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 24,
+      "destination": "../WHY.md",
+      "resolved": "WHY.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 25,
+      "destination": "../concepts/bullshit-detection.md",
+      "resolved": "concepts/bullshit-detection.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 26,
+      "destination": "../concepts/engineering-standards.md",
+      "resolved": "concepts/engineering-standards.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 27,
+      "destination": "../concepts/falsifiability.md",
+      "resolved": "concepts/falsifiability.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 28,
+      "destination": "../concepts/goals.md",
+      "resolved": "concepts/goals.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 29,
+      "destination": "../concepts/rhetoric.md",
+      "resolved": "concepts/rhetoric.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 30,
+      "destination": "../concepts/verification-cycle.md",
+      "resolved": "concepts/verification-cycle.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 31,
+      "destination": "../concepts/zero-code-contract.md",
+      "resolved": "concepts/zero-code-contract.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 32,
+      "destination": "../docs/discovery-and-recovery.md",
+      "resolved": "docs/discovery-and-recovery.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 33,
+      "destination": "../docs/document-work.md",
+      "resolved": "docs/document-work.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 34,
+      "destination": "../docs/how-vp-works.md",
+      "resolved": "docs/how-vp-works.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 35,
+      "destination": "../docs/independent-record-audit.md",
+      "resolved": "docs/independent-record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 36,
+      "destination": "../docs/investigations.md",
+      "resolved": "docs/investigations.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 37,
+      "destination": "../docs/project-records-design.md",
+      "resolved": "docs/project-records-design.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 38,
+      "destination": "../docs/project-records-examples.md",
+      "resolved": "docs/project-records-examples.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 39,
+      "destination": "../docs/project-records-scenarios.md",
+      "resolved": "docs/project-records-scenarios.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 40,
+      "destination": "../docs/project-records.md",
+      "resolved": "docs/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 41,
+      "destination": "../docs/review-and-audit.md",
+      "resolved": "docs/review-and-audit.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 42,
+      "destination": "../docs/skill-architecture.md",
+      "resolved": "docs/skill-architecture.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 43,
+      "destination": "../docs/testing-ai-behaviour.md",
+      "resolved": "docs/testing-ai-behaviour.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 44,
+      "destination": "../playbooks/audit-routing.md",
+      "resolved": "playbooks/audit-routing.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 45,
+      "destination": "../playbooks/code-audit.md",
+      "resolved": "playbooks/code-audit.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 46,
+      "destination": "../playbooks/debugging.md",
+      "resolved": "playbooks/debugging.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 47,
+      "destination": "../playbooks/discovery-verification.md",
+      "resolved": "playbooks/discovery-verification.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 48,
+      "destination": "../playbooks/discovery.md",
+      "resolved": "playbooks/discovery.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 49,
+      "destination": "../playbooks/document-analysis.md",
+      "resolved": "playbooks/document-analysis.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 50,
+      "destination": "../playbooks/document-description.md",
+      "resolved": "playbooks/document-description.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 51,
+      "destination": "../playbooks/document-planning.md",
+      "resolved": "playbooks/document-planning.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 52,
+      "destination": "../playbooks/investigation.md",
+      "resolved": "playbooks/investigation.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 53,
+      "destination": "../playbooks/project-records.md",
+      "resolved": "playbooks/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 54,
+      "destination": "../playbooks/record-audit.md",
+      "resolved": "playbooks/record-audit.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 55,
+      "destination": "../playbooks/recovery.md",
+      "resolved": "playbooks/recovery.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 56,
+      "destination": "../playbooks/review.md",
+      "resolved": "playbooks/review.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 57,
+      "destination": "../standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 58,
+      "destination": "../templates/project-records/README.md",
+      "resolved": "templates/project-records/README.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 59,
+      "destination": "../templates/project-records/audit-request.md",
+      "resolved": "templates/project-records/audit-request.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 60,
+      "destination": "../templates/project-records/audit-response.md",
+      "resolved": "templates/project-records/audit-response.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 61,
+      "destination": "../templates/project-records/audit.md",
+      "resolved": "templates/project-records/audit.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 62,
+      "destination": "../templates/project-records/build.md",
+      "resolved": "templates/project-records/build.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 63,
+      "destination": "../templates/project-records/change.md",
+      "resolved": "templates/project-records/change.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 64,
+      "destination": "../templates/project-records/coverage.md",
+      "resolved": "templates/project-records/coverage.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 65,
+      "destination": "../templates/project-records/decision.md",
+      "resolved": "templates/project-records/decision.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 66,
+      "destination": "../templates/project-records/event.md",
+      "resolved": "templates/project-records/event.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 67,
+      "destination": "../templates/project-records/experiment.md",
+      "resolved": "templates/project-records/experiment.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 68,
+      "destination": "../templates/project-records/hypothesis.md",
+      "resolved": "templates/project-records/hypothesis.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 69,
+      "destination": "../templates/project-records/ledger.md",
+      "resolved": "templates/project-records/ledger.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 70,
+      "destination": "../templates/project-records/manifest.md",
+      "resolved": "templates/project-records/manifest.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 71,
+      "destination": "../templates/project-records/plan.md",
+      "resolved": "templates/project-records/plan.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 72,
+      "destination": "../templates/project-records/project.md",
+      "resolved": "templates/project-records/project.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 73,
+      "destination": "../templates/project-records/root.md",
+      "resolved": "templates/project-records/root.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 74,
+      "destination": "../templates/project-records/run.md",
+      "resolved": "templates/project-records/run.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 75,
+      "destination": "../templates/project-records/stage.md",
+      "resolved": "templates/project-records/stage.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 76,
+      "destination": "../templates/project-records/state.md",
+      "resolved": "templates/project-records/state.md",
+      "exists": true
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "line": 77,
+      "destination": "../templates/project-records/workspace.md",
+      "resolved": "templates/project-records/workspace.md",
+      "exists": true
+    },
+    {
+      "source": "vp/LEDGER.md",
+      "line": 5,
+      "destination": "records/decisions/D-000026/record.md",
+      "resolved": "vp/records/decisions/D-000026/record.md",
+      "exists": true
+    },
+    {
+      "source": "vp/LEDGER.md",
+      "line": 6,
+      "destination": "records/runs/R-000013/record.md",
+      "resolved": "vp/records/runs/R-000013/record.md",
+      "exists": true
+    },
+    {
+      "source": "vp/LEDGER.md",
+      "line": 7,
+      "destination": "records/audits/A-000008/record.md",
+      "resolved": "vp/records/audits/A-000008/record.md",
+      "exists": true
+    },
+    {
+      "source": "vp/LEDGER.md",
+      "line": 8,
+      "destination": "records/events/V-000017/record.md",
+      "resolved": "vp/records/events/V-000017/record.md",
+      "exists": true
+    },
+    {
+      "source": "vp/LEDGER.md",
+      "line": 9,
+      "destination": "records/events/V-000016/record.md",
+      "resolved": "vp/records/events/V-000016/record.md",
+      "exists": true
+    },
+    {
+      "source": "vp/README.md",
+      "line": 3,
+      "destination": "STATE.md",
+      "resolved": "vp/STATE.md",
+      "exists": true
+    },
+    {
+      "source": "vp/README.md",
+      "line": 4,
+      "destination": "PROJECT.md",
+      "resolved": "vp/PROJECT.md",
+      "exists": true
+    },
+    {
+      "source": "vp/README.md",
+      "line": 4,
+      "destination": "PLAN.md",
+      "resolved": "vp/PLAN.md",
+      "exists": true
+    },
+    {
+      "source": "vp/README.md",
+      "line": 5,
+      "destination": "LEDGER.md",
+      "resolved": "vp/LEDGER.md",
+      "exists": true
+    },
+    {
+      "source": "vp/README.md",
+      "line": 5,
+      "destination": "COVERAGE.md",
+      "resolved": "vp/COVERAGE.md",
+      "exists": true
+    },
+    {
+      "source": "vp/README.md",
+      "line": 6,
+      "destination": "../standards/project-records.md",
+      "resolved": "standards/project-records.md",
+      "exists": true
+    },
+    {
+      "source": "vp/README.md",
+      "line": 10,
+      "destination": "records/events/V-000016/record.md",
+      "resolved": "vp/records/events/V-000016/record.md",
+      "exists": true
+    },
+    {
+      "source": "vp/records/audits/A-000008/record.md",
+      "line": 8,
+      "destination": "request.md",
+      "resolved": "vp/records/audits/A-000008/request.md",
+      "exists": true
+    },
+    {
+      "source": "vp/records/audits/A-000008/record.md",
+      "line": 17,
+      "destination": "../../../artefacts/A-000008/assessment/semantic-traces.md",
+      "resolved": "vp/artefacts/A-000008/assessment/semantic-traces.md",
+      "exists": true
+    },
+    {
+      "source": "vp/records/audits/A-000008/record.md",
+      "line": 21,
+      "destination": "../../../artefacts/A-000008/assessment/structural.json",
+      "resolved": "vp/artefacts/A-000008/assessment/structural.json",
+      "exists": true
+    },
+    {
+      "source": "vp/records/audits/A-000008/record.md",
+      "line": 21,
+      "destination": "../../../artefacts/A-000008/assessment/end-identities.json",
+      "resolved": "vp/artefacts/A-000008/assessment/end-identities.json",
+      "exists": true
+    },
+    {
+      "source": "vp/records/audits/A-000008/record.md",
+      "line": 37,
+      "destination": "../../../artefacts/A-000008/assessment/custody-and-trials.json",
+      "resolved": "vp/artefacts/A-000008/assessment/custody-and-trials.json",
+      "exists": true
+    },
+    {
+      "source": "vp/records/audits/A-000008/record.md",
+      "line": 47,
+      "destination": "../../../artefacts/A-000008/assessment/isolated-replay.json",
+      "resolved": "vp/artefacts/A-000008/assessment/isolated-replay.json",
+      "exists": true
+    },
+    {
+      "source": "vp/records/decisions/D-000026/record.md",
+      "line": 8,
+      "destination": "../../../artefacts/D-000026/feedback.md",
+      "resolved": "vp/artefacts/D-000026/feedback.md",
+      "exists": true
+    },
+    {
+      "source": "vp/records/events/V-000016/record.md",
+      "line": 8,
+      "destination": "../../decisions/D-000026/record.md",
+      "resolved": "vp/records/decisions/D-000026/record.md",
+      "exists": true
+    },
+    {
+      "source": "vp/records/runs/R-000013/record.md",
+      "line": 8,
+      "destination": "../../decisions/D-000026/record.md",
+      "resolved": "vp/records/decisions/D-000026/record.md",
+      "exists": true
+    },
+    {
+      "source": "vp/records/runs/R-000013/record.md",
+      "line": 16,
+      "destination": "../../../artefacts/R-000013/MANIFEST.md",
+      "resolved": "vp/artefacts/R-000013/MANIFEST.md",
+      "exists": true
+    }
+  ]
+}

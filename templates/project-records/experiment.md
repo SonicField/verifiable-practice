@@ -9,6 +9,10 @@
 **Goal served:** <root decision link and outcome>
 **Sealed:** <UTC timestamp when terminal; open until then>
 
+Separate H/E forms are required at A; B/C may use these fields inline in the
+decision/change. D uses its one change/check, E commit only. Do not instantiate
+this form solely to add lower-level paperwork.
+
 ## Pre-Execution Protocol
 
 **Hypothesis and decision informed:** <H and commissioning D>
@@ -30,5 +34,6 @@ interpretation, unknowns and verdict; successor adoption/rejection D.>
 
 ## Amendments
 
-<A post-result protocol change requires a new E, preserving this protocol.>
+<A post-result protocol change is a new labelled protocol, preserving this
+original; A uses a new E, B/C may use an identified inline successor section.>
 

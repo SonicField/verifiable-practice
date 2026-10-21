@@ -1,0 +1,131 @@
+{
+  "ended": "2026-10-21T13:13:15.587802+00:00",
+  "candidate": "94ff0e38ab27d389059eb8d9b0418b01b494a7f3",
+  "tree": "b769e49bd06c4ad732bf10f086294df09b08dbfe",
+  "head": "94ff0e38ab27d389059eb8d9b0418b01b494a7f3",
+  "paths_reverified": 204,
+  "exact_path_set": true,
+  "fixed_object_errors": [],
+  "packet": [
+    {
+      "path": "vp/records/audits/A-000009/request.md",
+      "bytes": 3428,
+      "sha256": "bc95edf25ef9eb6bf934090a150b3f9b00b61233b2d289fd6613f6d91d9f66a4",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/A-000009/input/MANIFEST.md",
+      "bytes": 2642,
+      "sha256": "72c5f333f4ee581affc340e4d2cc5cc4cf4bcb9281d22360b201fcbab7096281",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/A-000009/input/preparation.json",
+      "bytes": 2959,
+      "sha256": "9656bea0a416272f5ab05cb911d1bb727bc46498334941f6005d15e936b20d5d",
+      "match": true
+    }
+  ],
+  "bundles": [
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle",
+      "sha256": "d6a700b563433ee68a3415a60b19c301f52e8b638141b0cae74154abf45abd67",
+      "match": true,
+      "exit": 0,
+      "stdout": "The bundle contains this ref:\n9605ad0dccea157880a05208babfdac5aa5a5fcd refs/tags/records-archive-2026-10\nThe bundle records a complete history.\nThe bundle uses this hash algorithm: sha1\n",
+      "stderr": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle is okay\n"
+    },
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/trial-01.bundle",
+      "sha256": "09fb3eb9fde9ba471154dcf33a132cd2943de7b23c6b992c56a0ce086d791bdc",
+      "match": true,
+      "exit": 0,
+      "stdout": "The bundle contains this ref:\n66b38013798df7063374c872f0716c8bc81aad5d HEAD\nThe bundle records a complete history.\nThe bundle uses this hash algorithm: sha1\n",
+      "stderr": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/trial-01.bundle is okay\n"
+    },
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-result.bundle",
+      "sha256": "895fbc668493802f2eccc251c0ca226b628eb6d1f3bca1be9688ece5c8649d1f",
+      "match": true,
+      "exit": 0,
+      "stdout": "The bundle contains this ref:\n184b62fd18a33bd82d595f3285cc26427bc11086 HEAD\nThe bundle records a complete history.\nThe bundle uses this hash algorithm: sha1\n",
+      "stderr": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-result.bundle is okay\n"
+    },
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000009-candidate.bundle",
+      "sha256": "d19da757b8e2cf7c04ecf25ef0d2382239a05d1d0cb10eec567b4e49354ed657",
+      "match": true,
+      "exit": 0,
+      "stdout": "The bundle contains this ref:\n94ff0e38ab27d389059eb8d9b0418b01b494a7f3 HEAD\nThe bundle records a complete history.\nThe bundle uses this hash algorithm: sha1\n",
+      "stderr": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000009-candidate.bundle is okay\n"
+    },
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-baseline.bundle",
+      "sha256": "40a51feef7cae5f9be37dbff0f544a0af1667e98ccca8656f26ab9934f0ffc66",
+      "match": true,
+      "exit": 0,
+      "stdout": "The bundle contains this ref:\n26e45364135920bed096fc8d3739e1f804d8fa66 HEAD\nThe bundle records a complete history.\nThe bundle uses this hash algorithm: sha1\n",
+      "stderr": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-baseline.bundle is okay\n"
+    },
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000008-candidate.bundle",
+      "sha256": "741ce7844ad71792ca3d1dcd13ae10c82f5949b0abe20a5b824125625124cbe2",
+      "match": true,
+      "exit": 0,
+      "stdout": "The bundle contains this ref:\n42ba9ee819b958248ca34aea00cfe7a44d7b7516 HEAD\nThe bundle records a complete history.\nThe bundle uses this hash algorithm: sha1\n",
+      "stderr": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000008-candidate.bundle is okay\n"
+    }
+  ],
+  "live_files": 212,
+  "live_bytes": 31046913,
+  "live_missing": [],
+  "live_mismatch": [],
+  "live_extras": [
+    {
+      "path": "vp/records/audits/A-000009/record.md",
+      "bytes": 12942,
+      "sha256": "1ec418b2c9c870e9d85d88b109e3d644307fc255f16845041fbfa62a0720b317"
+    },
+    {
+      "path": "vp/artefacts/A-000009/input/MANIFEST.md",
+      "bytes": 2642,
+      "sha256": "72c5f333f4ee581affc340e4d2cc5cc4cf4bcb9281d22360b201fcbab7096281"
+    },
+    {
+      "path": "vp/artefacts/A-000009/input/preparation.json",
+      "bytes": 2959,
+      "sha256": "9656bea0a416272f5ab05cb911d1bb727bc46498334941f6005d15e936b20d5d"
+    },
+    {
+      "path": "vp/artefacts/A-000009/assessment/start-accounting.json",
+      "bytes": 91484,
+      "sha256": "309222fb3bd733051521d83d8f12706db02e05bf3599f2ad2c3b53331d25c222"
+    },
+    {
+      "path": "vp/artefacts/A-000009/assessment/links.json",
+      "bytes": 63831,
+      "sha256": "e1482d1de4e280df4cd0ab636606c755f420c55596e1ccd8f90734250b828a43"
+    },
+    {
+      "path": "vp/artefacts/A-000009/assessment/consistency.json",
+      "bytes": 18585,
+      "sha256": "25489adf240a0abafbd901c5c7f209a5aa16abc31ff6358978ad1ee294eb04a6"
+    },
+    {
+      "path": "vp/artefacts/A-000009/assessment/obligation-search.json",
+      "bytes": 66222,
+      "sha256": "287ce6c0d59ceea739a1f421d0f947798b63e873a5d87e22de32c1ff35e10d8b"
+    },
+    {
+      "path": "vp/artefacts/A-000009/assessment/semantic-traces.md",
+      "bytes": 7321,
+      "sha256": "e9aaf586307d712fc7cbb8bf2e82bd28e42e806efe643ada6a6765683f95a6f1"
+    }
+  ],
+  "unexpected_extra_paths": [],
+  "SKILL": [
+    "SKILL.md"
+  ],
+  "pte": [],
+  "limits": "Own future report/assessment/input metadata and later acceptance/sealing/final-reader/receipt are outside their own frozen input. Every earlier candidate object is checked. Assessor outputs are later custody, no self-freeze claimed."
+}

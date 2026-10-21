@@ -79,7 +79,7 @@ You did not try to break it. You tried to confirm it.
 
 These checks challenge the function. The surrounding project still needs to record which input contract the owner authorised, why the chosen mechanism serves it, which exact version was tested and what result justifies retaining it.
 
-In an adopted project, that history travels through the root decision and charter, a bounded stage, the commissioning choice and protocol, identified build/run attempts, and a later adopting decision/change. Coverage links the maintained function to those records. A changed contract, runtime or expired review horizon triggers impact review and revalidation. This is an illustrative application of the method, not a report of additional executed tests.
+In an adopted project, that history reaches the root/charter through level-appropriate choice/check evidence: A/B fuller forms and separate acceptance, C combined entries, D one change/check, E commit reason. Coverage links the maintained function to that history. A changed contract, runtime or applicable review horizon triggers impact review and revalidation. This is an illustrative application, not a report of additional executed tests or a requirement for a full chain on every edit.
 
 ## Epistemology: the Evidence Foundation
 

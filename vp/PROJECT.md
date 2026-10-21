@@ -1,11 +1,17 @@
 # Project Charter
 
-**As of:** 2026-10-21 12:46:24 UTC
+**As of:** after A9 response, 21 October2026 UTC
 **Owner:** human commissioning user; worker/coordinator Codex /root.
 **Goal:** maintain a portable, usable VP method whose work can be traced to
 an authorised reason and appropriately tested evidence. D26 is the current
 mandate to address the review's three concerns; original D1 is preserved at
 `9605ad0:vp/records/decisions/D-000001/record.md`.
+
+**Current stage:** S4, B migration not accepted.
+**Open findings:** A8/F001 and its residual A9/F001 remain open; V18 response
+requires fresh A10. A7/F001 is independently closed.
+**Next action:** A10 closure/current consistency, then separate acceptance,
+final recovery and fresh STATE reader before committed handoff.
 
 ## Scope and Authority
 
@@ -46,7 +52,7 @@ retirement. Never prune Git objects or replicas as routine worktree cleanup.
 No recursive audit packets or worktree source copies. A packet is a fixed
 commit, bounded scope and verified replica/external evidence locators. The
 fresh Project Auditor writes only its assessment/report, not repairs/tests.
-A8 gates this B acceptance and checks A7/F001's response. Cold-reader and
+A10 must close the A8/A9 mandatory gap before this B acceptance. Cold-reader and
 classification trials are separate working tests. Budget: four hours worker,
 three 20-minute audit rounds; unresolved mandatory gaps block acceptance and
 route an owner decision. No perpetual debate or permission inferred from a pass.

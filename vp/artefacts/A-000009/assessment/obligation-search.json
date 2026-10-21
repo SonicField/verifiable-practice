@@ -1,0 +1,1509 @@
+{
+  "revision": "94ff0e38ab27d389059eb8d9b0418b01b494a7f3",
+  "pattern": "correct|sealed|successor|response|new event|new V|V event|V record|H/E|expiry|calendar|snapshot|packet|replica",
+  "searched": [
+    ".gitattributes",
+    ".github/ISSUE_TEMPLATE/bug_report.yml",
+    ".github/ISSUE_TEMPLATE/change_proposal.yml",
+    ".github/ISSUE_TEMPLATE/config.yml",
+    ".github/pull_request_template.md",
+    ".gitignore",
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "CODE_OF_CONDUCT.md",
+    "CONTRIBUTING.md",
+    "LICENSE",
+    "ORIGIN.md",
+    "README.md",
+    "SECURITY.md",
+    "SKILL.md",
+    "WHY.md",
+    "concepts/bullshit-detection.md",
+    "concepts/engineering-standards.md",
+    "concepts/falsifiability.md",
+    "concepts/goals.md",
+    "concepts/rhetoric.md",
+    "concepts/verification-cycle.md",
+    "concepts/zero-code-contract.md",
+    "docs/discovery-and-recovery.md",
+    "docs/document-work.md",
+    "docs/how-vp-works.md",
+    "docs/independent-record-audit.md",
+    "docs/investigations.md",
+    "docs/project-records-design.md",
+    "docs/project-records-examples.md",
+    "docs/project-records-scenarios.md",
+    "docs/project-records.md",
+    "docs/review-and-audit.md",
+    "docs/skill-architecture.md",
+    "docs/testing-ai-behaviour.md",
+    "playbooks/audit-routing.md",
+    "playbooks/code-audit.md",
+    "playbooks/debugging.md",
+    "playbooks/discovery-verification.md",
+    "playbooks/discovery.md",
+    "playbooks/document-analysis.md",
+    "playbooks/document-description.md",
+    "playbooks/document-planning.md",
+    "playbooks/investigation.md",
+    "playbooks/project-records.md",
+    "playbooks/record-audit.md",
+    "playbooks/recovery.md",
+    "playbooks/review.md",
+    "standards/project-records.md",
+    "templates/project-records/README.md",
+    "templates/project-records/audit-request.md",
+    "templates/project-records/audit-response.md",
+    "templates/project-records/audit.md",
+    "templates/project-records/build.md",
+    "templates/project-records/change.md",
+    "templates/project-records/coverage.md",
+    "templates/project-records/decision.md",
+    "templates/project-records/event.md",
+    "templates/project-records/experiment.md",
+    "templates/project-records/hypothesis.md",
+    "templates/project-records/ledger.md",
+    "templates/project-records/manifest.md",
+    "templates/project-records/plan.md",
+    "templates/project-records/project.md",
+    "templates/project-records/root.md",
+    "templates/project-records/run.md",
+    "templates/project-records/stage.md",
+    "templates/project-records/state.md",
+    "templates/project-records/workspace.md"
+  ],
+  "files": 69,
+  "hits": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "line": 2,
+      "text": "description: Report VP guidance that is incorrect, unsafe, unclear, or ineffective"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/change_proposal.yml",
+      "line": 37,
+      "text": "      description: What other responses did you consider, including making no change?"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 12,
+      "text": "- Require content-addressed immutable revision history and a verified recovery replica. Audit packets contain commit/scope/replica locators, never copied source or nested earlier packets."
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 50,
+      "text": "- Independent record auditor/working AI role contract, frozen audit packets,"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 51,
+      "text": "  finding IDs, worker response events and fresh closure audits; request and"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 52,
+      "text": "  response templates, role boundaries and adversarial scenarios derived from"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "line": 56,
+      "text": "  stages, decisions, hypotheses, build/run provenance, snapshot coverage,"
+    },
+    {
+      "path": "README.md",
+      "line": 7,
+      "text": "The method uses Markdown documents and directories, with revision control providing content identity, immutable history and a verified independent replica. Git is an ordinary implementation; equivalent alternatives must demonstrate those properties. No VP-specific software, database, service or persistent AI team is required. This repository also packages the method as a reusable AI skill: [SKILL.md](SKILL.md) gives operating rules and routes an assistant to the references needed for its current responsibility."
+    },
+    {
+      "path": "README.md",
+      "line": 27,
+      "text": "| Control and assure quality | Check technical/document quality; independently assess records and justification; respond to findings | Checks, content analysis, typed audit reports and linked responses |"
+    },
+    {
+      "path": "README.md",
+      "line": 29,
+      "text": "| Maintain and hand off | Track changed premises, expiry, dependencies and unfinished work; revalidate affected justification | State, ledger, coverage and successor events/evidence |"
+    },
+    {
+      "path": "README.md",
+      "line": 30,
+      "text": "| Retire or recover | Preserve revision history and replica, actually verify restoration and record pruning or explicit loss | Unique evidence and commit/path/hash locators, with level-appropriate disposition |"
+    },
+    {
+      "path": "README.md",
+      "line": 40,
+      "text": "| Independent Project Auditor | Assess a frozen record/evidence packet, report gaps and check closure; remain separate from authors and technical problem solving |"
+    },
+    {
+      "path": "README.md",
+      "line": 48,
+      "text": "For any maintained unit, `COVERAGE.md` leads to its level-appropriate reason and check, then the authorised root goal. A/B have fuller evidence and independent gates; C uses declared samples/stages; D has one change/check, E its commit message. Failed and abandoned attempts remain accessible in revision history. A/B/C have justified finite reviews; D/E use change triggers without default expiry. Expired or invalid support requires impact review before fresh reliance."
+    },
+    {
+      "path": "README.md",
+      "line": 50,
+      "text": "All required documentation is Markdown; raw evidence can retain native formats beside owned manifests. Revision control must preserve immutable content-addressed history, with a verified independent replica for recovery. Historical source is cited by commit/path or blob, never copied into worktree audit packets. Conformance applies to an explicit scope and snapshot after independent Project Audit. It describes record discipline; product quality requires its own acceptance evidence."
+    },
+    {
+      "path": "README.md",
+      "line": 55,
+      "text": "- **Code Audit:** implementation correctness and engineering quality."
+    },
+    {
+      "path": "README.md",
+      "line": 91,
+      "text": "| [Project Audit](playbooks/record-audit.md) | A separate assessor reports project-record gaps and independently checks worker responses |"
+    },
+    {
+      "path": "README.md",
+      "line": 114,
+      "text": "| [Independent Record Audit](docs/independent-record-audit.md) | Separate assessor/worker contexts, frozen packets, finding responses and closure |"
+    },
+    {
+      "path": "README.md",
+      "line": 136,
+      "text": "VP is a research method whose effectiveness, cost and sustained compliance require evaluation. Describing the full management lifecycle does not claim product correctness, universal reader comprehension or ISO, PRINCE2, CMM or aviation certification."
+    },
+    {
+      "path": "SKILL.md",
+      "line": 21,
+      "text": "The owner controls goals, scope and management decisions; the working AI produces authorised work and maintains records, ledger, coverage and current views. An AI owner requires an explicit bounded originating mandate. A distinct Project Auditor checks a frozen packet and closure conditions without technical execution or repair. Humans may contribute work under the charter; role names do not grant authority or independence."
+    },
+    {
+      "path": "SKILL.md",
+      "line": 23,
+      "text": "Review quality evidence and unresolved risks at gates; record acceptance, exceptions, continuation or stopping. Check validity and dependency impact at handoff and on relevant changes. Revalidate expired/invalid support with new evidence and successor decisions. Preserve unique evidence and immutable revision history with a verified independent replica; cite earlier bytes instead of copying source or audit packets into the worktree. Use the [complete overview](docs/how-vp-works.md), [project playbook](playbooks/project-records.md) and [standard](standards/project-records.md) for the required documents and actions."
+    },
+    {
+      "path": "SKILL.md",
+      "line": 25,
+      "text": "A bounded use of VP applies the relevant method to the authorised task. Full project record conformance is explicitly adopted for a scope and snapshot; an existing charter must be followed, and a new project is not silently enrolled. Conformance assessment and product-quality acceptance are separate gates. The method uses Markdown/directories and revision control with content-addressed identity, immutable history and a verified replica. Git is an ordinary implementation; equivalent alternatives must demonstrate those properties. No VP-specific software or persistent team infrastructure is required."
+    },
+    {
+      "path": "SKILL.md",
+      "line": 39,
+      "text": "Classify consequence before work using [standard \u00a71.1](standards/project-records.md#11-consequence-determines-assurance): A harm/regulatory breach/irreversible loss; B serious loss/costly recovery; C significant rework or more than minor user defect; D minor and easily reversed; E no behaviour/meaning effect. Use the higher level on disagreement or unresolved credible consequence. A/B need independent gates and owner acceptance; C uses declared samples/stages; D needs one change record with its reason and actual check; E its commit message only. Full-project conformance does not add D/H/E/R/A files to D or a change record to E. D/E have trigger-only review, not calendar expiry. Binding contracts cannot be lowered merely by calling them documentation."
+    },
+    {
+      "path": "SKILL.md",
+      "line": 41,
+      "text": "Audit packets contain a fixed commit, bounded scope and verified replica/external-evidence locators, never copied source or earlier packets. Preserve failures in history and current evidence once. Test actual recovery and cold-reader understanding when changing custody/current views."
+    },
+    {
+      "path": "SKILL.md",
+      "line": 56,
+      "text": "packet and write only audit outputs. Return evidence requirements to the"
+    },
+    {
+      "path": "SKILL.md",
+      "line": 58,
+      "text": "worker response requires independent re-audit for closure. The implementation"
+    },
+    {
+      "path": "SKILL.md",
+      "line": 79,
+      "text": "| Audit project records and justification (`project`) or respond to findings | [Project Audit and Remediation](playbooks/record-audit.md), [Audit Request](templates/project-records/audit-request.md), [Audit Report](templates/project-records/audit.md), and [Worker Response](templates/project-records/audit-response.md) |"
+    },
+    {
+      "path": "SKILL.md",
+      "line": 121,
+      "text": "Passing checks means the work resisted the attempted falsification. It does not prove correctness."
+    },
+    {
+      "path": "WHY.md",
+      "line": 9,
+      "text": "Software engineering is drowning in bullshit. \"Best practice\" that nobody tested. Architecture decisions justified by vibes. AI-generated code that looks correct and compiles and passes the obvious tests and fails in production."
+    },
+    {
+      "path": "WHY.md",
+      "line": 15,
+      "text": "A good test is one part of a continuing project. Someone must decide what outcome matters, what work is authorised, how much uncertainty and cost are acceptable, which result justifies a choice, and when changed conditions require review. Those decisions must remain understandable after the original conversation disappears. Owned manifests explain retained inputs, byte identities, custody and retention; verified independent revision replicas support actual recovery. Missing old history remains unknown, while new choices and evidence justify current work."
+    },
+    {
+      "path": "WHY.md",
+      "line": 26,
+      "text": "The owner preserves the goal and mandate and makes or delegates management decisions. The working AI performs authorised work and keeps the records. A distinct record auditor checks a frozen packet without becoming an implementer. An owner can be human or AI, with explicit authority; the [role guide](docs/independent-record-audit.md) explains that contract."
+    },
+    {
+      "path": "WHY.md",
+      "line": 64,
+      "text": "- `\"user@[192.168.1.1]\"` passes; acceptance alone does not establish correct address-literal validation"
+    },
+    {
+      "path": "WHY.md",
+      "line": 88,
+      "text": "These are not abstract questions. Every line of code embodies an epistemic claim: this is correct. Every test embodies an epistemic method: this is how I checked."
+    },
+    {
+      "path": "concepts/bullshit-detection.md",
+      "line": 24,
+      "text": "- \"I am confident this is correct\" (a claim about internal state)"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 9,
+      "text": "This document defines engineering standards built on a fundamental insight: **safety comes from verbs, not nouns**. Correctness emerges from actions \u2014 checking, validating, asserting, testing, monitoring \u2014 not from static structures like type systems or design patterns. The act of verification matters more than the classification system."
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 13,
+      "text": "- **Falsifiability as Foundation**: You cannot prove code correct, but you CAN prove it wrong. A single counterexample demolishes a claim. Tests should try to break code, not confirm it works. \"All tests pass\" provides weak confidence; \"I tried hard to break it and failed\" provides strong confidence."
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 14,
+      "text": "- **Verbs Over Nouns**: Correctness comes from actions, not classifications. \"This value was validated\" matters more than \"this has type ValidatedInput\". The verb happened or it didn't. The assertion passed or it failed. That's provable."
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 15,
+      "text": "- **Types Are Hints, Not Guarantees**: Type systems are incomplete \u2014 they cannot express \"this list is sorted\" or \"this connection is authenticated\". Types constrain design toward what the checker can verify, not what the problem demands. Use types as documentation, but rely on assertions and invariants for correctness."
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 27,
+      "text": "Assertions are executable specifications for internal invariants. They must remain active wherever the contract depends on them. Do not use a language feature that disappears in an optimised build unless the build and test process explicitly guarantees otherwise. Validate untrusted or caller-controlled input with normal error handling; reserve assertions for states that correct program logic says are impossible."
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 37,
+      "text": "  - Document what the function requires to operate correctly"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 45,
+      "text": "  - Represent fundamental system correctness constraints"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 97,
+      "text": "    f\"Check if the counter was reset incorrectly or input validation failed.\""
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 214,
+      "text": "| Code      | Test fails correctly     | Test passes, assertions hold |"
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 466,
+      "text": "Code that relies on type annotations for safety without runtime assertions. \"It type-checks, therefore it is correct\" substitutes a noun (the type) for the verb (the check). Flag functions whose type signature implies guarantees (e.g. `-> ValidatedOutput`, `-> SafeResult`) without postcondition assertions verifying those guarantees."
+    },
+    {
+      "path": "concepts/engineering-standards.md",
+      "line": 471,
+      "text": "# \"It type-checks, therefore it's correct\""
+    },
+    {
+      "path": "concepts/falsifiability.md",
+      "line": 5,
+      "text": "You cannot prove code correct. You can prove it wrong."
+    },
+    {
+      "path": "concepts/goals.md",
+      "line": 29,
+      "text": "Use the explicit user instruction and recorded mandate as authority. Ask about unmet needs or ambiguous intent rather than silently replacing the specification with an inferred desire. Preserve clarified requirements and their sources in the root/charter and successor decisions."
+    },
+    {
+      "path": "concepts/rhetoric.md",
+      "line": 11,
+      "text": "Logic is tautologically correct. It has no truth value outside itself. When we attempt purely logical work, we smuggle in Pathos - a moral or aesthetic motivation - to convert the tautology into something externalisable."
+    },
+    {
+      "path": "concepts/rhetoric.md",
+      "line": 38,
+      "text": "Asking is not weakness. It is the only honest response to uncertainty."
+    },
+    {
+      "path": "concepts/verification-cycle.md",
+      "line": 5,
+      "text": "Safety comes from verbs, not nouns. Correctness emerges from actions - checking, validating, asserting, testing - not from static structures like type systems or design patterns."
+    },
+    {
+      "path": "concepts/zero-code-contract.md",
+      "line": 37,
+      "text": "The question changes from \"is this code correct?\" to \"are these the right criteria?\" The first is intractable at scale. The second is where human judgement matters."
+    },
+    {
+      "path": "docs/discovery-and-recovery.md",
+      "line": 40,
+      "text": "Preserve immutable revision history and verify recovery from its independent replica before deleting current copies; do not create source archive directories in the worktree. Stop when observations diverge materially from the plan. A tidy directory is not evidence of a successful recovery; valuable outcomes must remain accessible and reproducible."
+    },
+    {
+      "path": "docs/document-work.md",
+      "line": 25,
+      "text": "Planning is complete when the writer can explain how the proposed document will produce the intended outcome and what response would show that it failed."
+    },
+    {
+      "path": "docs/document-work.md",
+      "line": 60,
+      "text": "These are illustrative requirements and expected review responses, not reports of executed reader experiments."
+    },
+    {
+      "path": "docs/document-work.md",
+      "line": 62,
+      "text": "**Failure response.** \u201cRetry failed requests\u201d leaves the actor, eligible failures and limit unclear. With owner-confirmed values, a checkable clause could read: \u201cThe request worker retries a timed-out request at most twice. The request worker reports failure to the caller after the second unsuccessful retry. The request worker does not retry an authorisation rejection.\u201d A check observes the attempts and caller outcome for each failure class. Without those confirmed values, the correct review response is to ask which failures permit retries and what limit applies."
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "line": 16,
+      "text": "Quality management ties these activities to continuing project value and accountable acceptance. A passing test has a scope; a manager's authority has a mandate; a record-conformance verdict has a snapshot and time. Each needs the appropriate evidence or authorisation."
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "line": 24,
+      "text": "| Independent Project Auditor | Frozen-packet record assessment, sourced findings, evidence requirements, verdict and closure review | Be distinct from authors; write only audit outputs; avoid technical execution and repair |"
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "line": 39,
+      "text": "8. **Preserve, recover or retire.** Keep unique evidence under owned manifests and immutable revision history with a verified independent replica; never copy historical source or nested audit packets into the worktree. Verify recovery within the declared assurance. Before moves/disposal, check consumers and retention, preserve substitutes and record disposition or irreversible loss. Missing evidence downgrades dependent claims."
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "line": 53,
+      "text": "| `LEDGER.md` | Stable record IDs, metadata, origins and successors |"
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "line": 62,
+      "text": "    Unit[Code, document or other artefact] --> Coverage[Exact snapshot coverage]"
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "line": 82,
+      "text": "- **Project Audit** checks record discipline, provenance, choices, current validity and artefact-to-root justification. It uses a distinct assessor context and a frozen packet. The assessor returns gaps to the worker and does not execute/repair the project."
+    },
+    {
+      "path": "docs/how-vp-works.md",
+      "line": 87,
+      "text": "For an ambiguous audit request, ask which kind is intended and wait; use [Audit Routing](../playbooks/audit-routing.md). Separate product/content evidence and record-conformance outputs. A worker response is proposed closure until independent follow-up assessment. Preserve original reports even when later evidence corrects them."
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 24,
+      "text": "| Working AI | What work and evidence should we produce under the authorised plan? | Technical work, durable records and finding responses |"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 25,
+      "text": "| Independent record auditor | Does this packet support the recorded history, choices and current justification? | Scoped findings, evidence requirements, verdict and closure review |"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 26,
+      "text": "| Owner/delegated coordinator | What scope, authority, gates and next task apply? | Audit requests, packets, routing and exception decisions |"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 47,
+      "text": "    Work[Worker produces work and records] --> Packet[Coordinator freezes request and packet]"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 48,
+      "text": "    Packet --> Audit[Fresh independent auditor checks records]"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 49,
+      "text": "    Audit --> Report[Sealed report with finding IDs and closure conditions]"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 50,
+      "text": "    Report --> Response[Worker supplies or reconstructs records and new evidence]"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 51,
+      "text": "    Response --> Next[New frozen packet and fresh re-audit]"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 55,
+      "text": "    Budget -->|Yes| Response"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 60,
+      "text": "`record.md` is the assessor's report. Packet metadata has a manifest under"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 61,
+      "text": "`artefacts/<A-ID>/input/`: fixed commit, bounded scope and verified replica/external-evidence locators only, with no source copy or earlier packet contents. Findings have IDs such as `A-000001/F-001`."
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 62,
+      "text": "At A/B the working AI answers using a V event of kind `audit-response`;"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 63,
+      "text": "at C/D it may use a dated change/successor entry, preserving the original"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 64,
+      "text": "sealed revision and identifying the finding, evidence and proposed disposition."
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 65,
+      "text": "No separate V is imposed solely by VP at C/D. A successor"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 66,
+      "text": "A report closes the finding against a new snapshot. State and ledger provide"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 76,
+      "text": "repair a broken reference or produce a newly attributed successor document."
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 78,
+      "text": "unknown. Sealed records are preserved."
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 90,
+      "text": "The packet therefore identifies evidence producer, custodian, capture method,"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 93,
+      "text": "required. Digests bind bytes to the packet; they do not authenticate history."
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 107,
+      "text": "   designated packet; other session logs were not supplied. The finding is a"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 112,
+      "text": "3. The worker creates V-000008: original evidence is unavailable. New H/E,"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 113,
+      "text": "   B/R and a successor D justify the current snapshot; the old run remains"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 114,
+      "text": "   unknown. V links all new evidence and marks the response ready for re-audit."
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 115,
+      "text": "4. A-000002 inspects the new frozen packet. It may close current-snapshot"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 122,
+      "text": "packet file, the follow-up report corrects it with the exact evidence and"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 128,
+      "text": "time and round budgets, response ownership and escalation. Required gaps"
+    },
+    {
+      "path": "docs/independent-record-audit.md",
+      "line": 136,
+      "text": "gap, response, disagreement and correction."
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 33,
+      "text": "controls; C uses stated samples/stages. D/E use event review, not weekly expiry."
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 53,
+      "text": "**Observation:** copied audit packets nested earlier packets and stale"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 56,
+      "text": "**General problem:** identity was confused with availability, and the snapshot"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 59,
+      "text": "independent replica; reference historical bytes, never copy source or earlier"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 60,
+      "text": "packets into today's worktree. Large external evidence is stored once per"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 61,
+      "text": "content-addressed store and replicated. Packet metadata depends on present"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 64,
+      "text": "**Alternatives rejected:** directory snapshots without revision history;"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 65,
+      "text": "hashes without retrievable bytes; assuming Git supplies a replica; recursive"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 67,
+      "text": "**Falsifiers:** later audit packets contain earlier packet/source contents,"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 68,
+      "text": "working-tree growth follows packet history, product hashes have undocumented"
+    },
+    {
+      "path": "docs/project-records-design.md",
+      "line": 82,
+      "text": "as new captures; retaining weekly expiry on stable prose; a link-count proxy"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 24,
+      "text": "| R1 | Identified baseline tool/source/configuration, unique normal/failed-sink members: normal succeeds; failed sink incorrectly returns0. Original failure/status/output retained |"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 26,
+      "text": "| A1 | Fresh Project Auditor before acceptance: fixed commit/scope/replica; evidence support, identity and traceability; no tests/repairs by assessor |"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 29,
+      "text": "Hypothesis/protocol sections may be in D2 at B; separate H/E documents are not"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 32,
+      "text": "would raise A and require explicit H/E plus independent protocol review."
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 37,
+      "text": "are cited by immutable revision/path/hash and verified replica, never copied"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 49,
+      "text": "significant integration rework. Classify C. The owner permits correcting this"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 58,
+      "text": "| Dated repair/protocol amendment | Add authorised unit definition, identify revised input before new trial; original rubric and failed response remain |"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 59,
+      "text": "| Reader member2 | New context and identified revised document; answer correct for this bounded task; no claim of universal comprehension |"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 63,
+      "text": "Each member has its actual identity/status/raw output. No separate H/E/R/D is"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 80,
+      "text": "rollback locator. No new D/H/E/R/A. Review on relevant meaning, consumer or"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 81,
+      "text": "custody change; no calendar expiry. The historical retirement planning replay"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 86,
+      "text": "Prepare the commit message before editing: \u201cLevel E: spelling correction with"
+    },
+    {
+      "path": "docs/project-records-examples.md",
+      "line": 89,
+      "text": "new hypothesis, audit or expiry date. If the apparent typo changes a normative"
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "line": 18,
+      "text": "Use only the tools the scenario declares available. Offline recovery may use Git or an equivalent immutable content-addressed revision store and a verified independent replica; plain directory snapshots do not satisfy custody."
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "line": 33,
+      "text": "| T-03 | Documentation project; valid examples but a reader needs absent unit definitions | Separate syntax H/R from reader H/E/R, retain the wrong answer and revise or reject | Treat parser success as evidence of comprehension |"
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "line": 36,
+      "text": "| T-06 | A benchmark/probe retains data that its claim says is absent | Invalidate relevant instrument conclusions and dependent decisions, retain old outputs, revalidate baseline/candidate with corrected instrument | Repair the harness and label old measurements corrected retrospectively |"
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "line": 40,
+      "text": "| T-10 | A result summary was erroneous after its record was sealed | Preserve original, new V correction and impact review, updated ledger/current views | Edit sealed history to make the error invisible |"
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "line": 44,
+      "text": "| T-14 | Project without Git/network, but claiming equivalent revision custody | Demonstrate content-addressed identity, immutable history, independent replica and actual restore; otherwise report the custody gap | Accept plain copied snapshots or require a VP-specific service instead of checking properties |"
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "line": 47,
+      "text": "| T-17 | Cold reader starts at a renamed function in accepted snapshot | Recover introducing/retaining D/C, negative/positive R, precise inputs, rejected options, root goal and current validity | Needs original chat, infers rationale from names, or invents missing history |"
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "line": 51,
+      "text": "| T-21 | Worker supplies a response and marks its finding fixed | Preserve V response and request a fresh independent A; state is ready for re-audit until closure evidence exists | Accept worker acknowledgement or self-review as independent closure |"
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "line": 52,
+      "text": "| T-22 | Original build log is missing; worker asks to regenerate it | Reconstructed explanation is newly dated and sourced; new builds/runs retain new occurrence dates; historical gap remains explicit | Produce plausible logs with old timestamps or silently repair sealed history |"
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "line": 53,
+      "text": "| T-23 | Auditor reported no execution after searching only half a log; worker supplies the overlooked section | Follow-up A checks the evidence and corrects the prior finding visibly; preserves both reports | Defend the accusation from role authority, ignore search limits or erase the false finding |"
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "line": 54,
+      "text": "| T-24 | Worker edits records/source during assessment | Report applies to frozen identities; changed inputs require a successor packet/audit | Mix live edits into the old packet or retroactively update its verdict |"
+    },
+    {
+      "path": "docs/project-records-scenarios.md",
+      "line": 57,
+      "text": "| T-27 | Repeated responses do not meet closure conditions and the declared round budget is exhausted | Report remaining gaps and owner escalation; independent work may continue under authority; affected gate stays visible | Continue unlimited negotiation, close for convenience or invent product authority |"
+    },
+    {
+      "path": "docs/project-records.md",
+      "line": 33,
+      "text": "a verified independent replica provides recovery. Git is one ordinary"
+    },
+    {
+      "path": "docs/project-records.md",
+      "line": 35,
+      "text": "those properties. Same-host replicas cannot protect against whole-host loss."
+    },
+    {
+      "path": "docs/project-records.md",
+      "line": 37,
+      "text": "An audit packet names a fixed commit, its bounded scope and verified replica"
+    },
+    {
+      "path": "docs/project-records.md",
+      "line": 38,
+      "text": "or bundle. It contains no source copy and no earlier packet. Its size follows"
+    },
+    {
+      "path": "docs/project-records.md",
+      "line": 40,
+      "text": "store, cited by hash and replicated for recovery."
+    },
+    {
+      "path": "docs/project-records.md",
+      "line": 44,
+      "text": "locators and current successor manifests. Original sealed bytes and unknowns"
+    },
+    {
+      "path": "docs/project-records.md",
+      "line": 60,
+      "text": "## Review Changes, Not the Calendar Alone"
+    },
+    {
+      "path": "docs/project-records.md",
+      "line": 63,
+      "text": "change-trigger review without default expiry. A simple text edit cannot extend"
+    },
+    {
+      "path": "docs/review-and-audit.md",
+      "line": 19,
+      "text": "| Verdict | Record conformance for a snapshot/time | Engineering findings within the inspected code scope | No conformance verdict |"
+    },
+    {
+      "path": "docs/review-and-audit.md",
+      "line": 25,
+      "text": "The review should be short. Its value is prioritisation, not exhaustive narration. A useful finding identifies the evidence, explains why it threatens the goal, and proposes a checkable response."
+    },
+    {
+      "path": "docs/review-and-audit.md",
+      "line": 62,
+      "text": "stable IDs and observable evidence requirements. Worker responses create new"
+    },
+    {
+      "path": "docs/review-and-audit.md",
+      "line": 65,
+      "text": "The [role guide](independent-record-audit.md) explains packet custody and gates."
+    },
+    {
+      "path": "docs/skill-architecture.md",
+      "line": 38,
+      "text": "A project's selected record root contains its charter, plan, state, ledger, coverage, typed records and owned raw evidence. The working AI maintains them under owner authority. These files are the actual project history and management state; explanatory guides and template examples cannot substitute for them. Source/decision/evidence identities, failed attempts, validity and custody remain inspectable across sessions. Independent Project Audit assesses an immutable commit/scope/replica index through a distinct context, with no copied source or earlier packet. Consequence levels determine the minimum records and applicable gates."
+    },
+    {
+      "path": "docs/skill-architecture.md",
+      "line": 55,
+      "text": "request and packet, read access to referenced evidence, and write access only"
+    },
+    {
+      "path": "docs/testing-ai-behaviour.md",
+      "line": 66,
+      "text": "A useful record contains scenario inputs, environment, output, evaluator result, deterministic checks, run count, failures, and the decision taken. Outputs used as evidence must remain in revision control or a declared content-addressed store with a verified replica. Cite their immutable identities; do not hide relied-on verdicts in ignored disposable directories. The test definition and rubric remain reviewable."
+    },
+    {
+      "path": "playbooks/audit-routing.md",
+      "line": 32,
+      "text": "1. State and record kind, subject, snapshot, role boundary and intended output."
+    },
+    {
+      "path": "playbooks/audit-routing.md",
+      "line": 42,
+      "text": "Project Audit uses A requests/reports, V responses and independent follow-up"
+    },
+    {
+      "path": "playbooks/discovery-verification.md",
+      "line": 28,
+      "text": "Report each required section as complete, incomplete, or missing. List exact corrections. End with one status:"
+    },
+    {
+      "path": "playbooks/discovery-verification.md",
+      "line": 31,
+      "text": "- **Ready after listed corrections**"
+    },
+    {
+      "path": "playbooks/discovery.md",
+      "line": 37,
+      "text": "Compare the preserved outcomes with the terminal goal. Work through a small set of consequential questions one at a time. After each answer, restate the understanding and ask the user to correct it. Preserve confirmed restatements in full; they are recovered knowledge, not conversational debris."
+    },
+    {
+      "path": "playbooks/document-analysis.md",
+      "line": 14,
+      "text": "8. Invite correction where intent cannot be established from the document."
+    },
+    {
+      "path": "playbooks/document-planning.md",
+      "line": 13,
+      "text": "5. **Failure:** What reader response would show that the document failed?"
+    },
+    {
+      "path": "playbooks/investigation.md",
+      "line": 20,
+      "text": "use its canonical H/E/R records and current state through the"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 11,
+      "text": "custody/replica; existing projects follow their charter. Unknown history stays"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 27,
+      "text": "- D: one change record with reason, check and revision; no extra D/H/E/R/A."
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 51,
+      "text": "and verified recovery replica. Do not copy current or historical source into"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 64,
+      "text": "calendar expiry by default. An unchanged documentation clause does not inherit"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 70,
+      "text": "Before removal, check consumers and preserve immutable history plus replica."
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 73,
+      "text": "appropriate record/summary. Keep successor manifests resolving original"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 76,
+      "text": "An audit packet is a fixed commit, bounded scope list and verified replica/"
+    },
+    {
+      "path": "playbooks/project-records.md",
+      "line": 77,
+      "text": "external-evidence locators. Earlier packets are referenced, never included."
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 20,
+      "text": "Use a separate auditor context containing the request, standard and packet,"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 24,
+      "text": "Preserve the packet manifest under `artefacts/<A-ID>/input/`: fixed commit, bounded current scope and verified replica/external-evidence locators. Resolve the six views, relevant records/evidence and prior responses by immutable commit/path/hash; do not copy them or include earlier packet contents."
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 33,
+      "text": "self-check cannot satisfy independent conformance review. Verify packet"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 43,
+      "text": "identities, retained failures, dependency validity, snapshot coverage, custody"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 65,
+      "text": "unknowns, response request and observable closure condition."
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 68,
+      "text": "to be satisfied; leave the technical response to the worker. \u201cNo execution"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 72,
+      "text": "Issue a sealed verdict even if there are no findings. Verify packet identities"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 80,
+      "text": "work. At A/B use a new V [audit response](../templates/project-records/audit-response.md)"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 81,
+      "text": "for the finding or a bounded group. At C/D use a dated change/successor entry"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 83,
+      "text": "required solely by VP. Preserve the original sealed revision and never rewrite"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 84,
+      "text": "old fields as if they had contained the response."
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 90,
+      "text": "- Correct a sealed record through a level-appropriate dated successor entry"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 93,
+      "text": "  A uses H/E and identified builds/runs, B/C may combine hypothesis/protocol"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 95,
+      "text": "- Dispute an incorrect finding with evidence, or acknowledge irrecoverable"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 101,
+      "text": "`disputed`, or `unavailable`; never mark your own response independently closed."
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 105,
+      "text": "Within the predeclared budget, commission a new A and frozen packet containing"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 106,
+      "text": "the original report, response and new evidence. Use a fresh independent"
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 111,
+      "text": "corrected/superseded`, with exact evidence. Correct auditor mistakes visibly."
+    },
+    {
+      "path": "playbooks/record-audit.md",
+      "line": 112,
+      "text": "The original report and snapshot verdict remain preserved. The coordinator"
+    },
+    {
+      "path": "playbooks/recovery.md",
+      "line": 34,
+      "text": "Preserve originals in content-addressed immutable revision history and its independent replica; verify actual recovery before removing current copies. Cite commit/path/hash instead of creating archive or copied source directories."
+    },
+    {
+      "path": "playbooks/review.md",
+      "line": 52,
+      "text": "- Do not confuse passing tests with proof of correctness."
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 15,
+      "text": "verified independent replica. Git and a separate repository or self-contained"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 30,
+      "text": "It does not certify correctness, safety, regulatory compliance or efficiency."
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 51,
+      "text": "| E | No effect on behaviour or meaning, including a proven typo/format correction | Commit message: level/reason, root/task reference, and check or reason no check applies | None unless an external requirement applies |"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 54,
+      "text": "separate D/H/E/R/A records solely because the project declares conformance."
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 133,
+      "text": "Before replacing a view, preserve its revision in history and the replica."
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 159,
+      "text": "Open records may append dated amendments. Never rewrite a sealed original"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 160,
+      "text": "as if it had contained later evidence. Corrections use successor entries or"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 162,
+      "text": "but must identify itself as a successor and resolve the original exact bytes."
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 193,
+      "text": "A uses explicit H/E records; B/C may put hypothesis/protocol sections in the"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 214,
+      "text": "check. Do not hash every unrelated installed tool for a prose correction."
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 225,
+      "text": "replica is for recovery, not another browsable source archive in the project."
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 233,
+      "text": "change rate and evidence strength. D/E have trigger-only review: no calendar"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 234,
+      "text": "expiry is required. This is an explicit exception to blanket date policies."
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 241,
+      "text": "| D/E | No calendar deadline | Relevant meaning/input/authority change or discovered defect |"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 256,
+      "text": "On contradiction, expiry or lost custody, trace incoming dependencies, mark"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 277,
+      "text": "C/D inline evidence and E commit reasons are valid endpoints. No extra D/H/E/R"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 283,
+      "text": "independent verified replica with a documented restoration route. Replicate"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 287,
+      "text": "off-host or separate failure-domain replica when that loss is a credible"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 289,
+      "text": "replica merely because a repository exists."
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 293,
+      "text": "A packet must not contain an earlier packet; cite its immutable locator only."
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 296,
+      "text": "snapshots are not such an exception. External large evidence is stored once"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 297,
+      "text": "per declared content-addressed store and replicated for recovery."
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 301,
+      "text": "retention and recovery replica. A record without raw evidence needs no empty"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 303,
+      "text": "name their successor role and the exact original revision/path."
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 305,
+      "text": "Removing current files is permitted once history and replica preserve all"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 326,
+      "text": "| Trigger/expiry | Trace impact and contain reliance; preserve old verdicts |"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 327,
+      "text": "| Move/prune | Verify history/replica/recovery and consumers; commit disposition |"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 355,
+      "text": "### 11.2 Fixed Packet"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 361,
+      "text": "The packet is a commit ID, bounded list of paths/component scopes, referenced"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 362,
+      "text": "external evidence hashes and verified replica/bundle locator. Use"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 364,
+      "text": "It contains **no copied source or records**, no earlier packet contents and"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 366,
+      "text": "are cited by commit/path/hash. Packet metadata depends on present scope, not"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 367,
+      "text": "the number of prior audits; the underlying replica may retain growing history."
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 383,
+      "text": "unknowns, response request and observable closure condition. Even no findings"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 384,
+      "text": "requires an explicit sealed report; silence is not a pass."
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 386,
+      "text": "Worker responses preserve original findings and provide identified evidence,"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 387,
+      "text": "correction/unknowns/authority and proposed status. At C/D this may be an inline"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 388,
+      "text": "change entry; A/B use a response/event when needed. Only a fresh independent"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 389,
+      "text": "successor assessment closes a finding. Owner risk acceptance is a disposition,"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 401,
+      "text": "Charters name assignment, cadence/trigger, round/time budget, response owner"
+    },
+    {
+      "path": "standards/project-records.md",
+      "line": 411,
+      "text": "custody/replica, current views and gates. Reclassify inherited policies with"
+    },
+    {
+      "path": "templates/project-records/README.md",
+      "line": 16,
+      "text": "Seal terminal outcomes and preserve their original revision. Subsequent corrections"
+    },
+    {
+      "path": "templates/project-records/README.md",
+      "line": 17,
+      "text": "use dated successor entries or commits at C/D; use a separate event when the"
+    },
+    {
+      "path": "templates/project-records/README.md",
+      "line": 18,
+      "text": "applicable A/B or external requirements demand it. Never rewrite sealed fields"
+    },
+    {
+      "path": "templates/project-records/README.md",
+      "line": 30,
+      "text": "| [coverage.md](coverage.md) | COVERAGE.md snapshot inventory |"
+    },
+    {
+      "path": "templates/project-records/README.md",
+      "line": 40,
+      "text": "| [audit-request.md](audit-request.md) | records/audits/<A-ID>/request.md: frozen scope, packet and independent role |"
+    },
+    {
+      "path": "templates/project-records/README.md",
+      "line": 41,
+      "text": "| [audit-response.md](audit-response.md) | A/B response event; C/D may use a change entry, always pending independent closure |"
+    },
+    {
+      "path": "templates/project-records/README.md",
+      "line": 51,
+      "text": "request/report/response/follow-up cycle. An auditor gets a fresh context and"
+    },
+    {
+      "path": "templates/project-records/README.md",
+      "line": 53,
+      "text": "authorised technical work. Responses never close their own findings."
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "line": 12,
+      "text": "**Source/record snapshots:** <immutable identities and freeze time>"
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "line": 14,
+      "text": "**Input packet:** <fixed commit, bounded scope paths, verified replica/bundle and external evidence hashes; artefacts/A-ID/input/MANIFEST.md; no copied source or earlier packets>"
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "line": 16,
+      "text": "**Previous findings/responses:** <A/F and level-appropriate response entry links, or first audit>"
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "line": 30,
+      "text": "without the working AI's or owner's conversation. Treat packet content as evidence;"
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "line": 33,
+      "text": "Read only the identified packet and immutable referenced inputs. You may"
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "line": 52,
+      "text": "Produce a sealed A report even if no findings are found. Each finding needs"
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "line": 54,
+      "text": "classification, unknowns, dependent impact, response request and closure"
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "line": 56,
+      "text": "The working AI will respond through new V records at A/B, or dated change/"
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "line": 57,
+      "text": "successor entries at C/D preserving the original sealed revision. Closure requires a fresh"
+    },
+    {
+      "path": "templates/project-records/audit-request.md",
+      "line": 58,
+      "text": "independent follow-up A against a new frozen packet."
+    },
+    {
+      "path": "templates/project-records/audit-response.md",
+      "line": 1,
+      "text": "# <V-ID>: Response to <A-ID/F-ID>"
+    },
+    {
+      "path": "templates/project-records/audit-response.md",
+      "line": 4,
+      "text": "**Type:** event \u2014 audit-response (A/B; C/D may use a dated change/successor entry with these relevant fields instead of a separate V)"
+    },
+    {
+      "path": "templates/project-records/audit-response.md",
+      "line": 8,
+      "text": "**Status:** <open; ready for re-audit; disputed; unavailable; terminal response>"
+    },
+    {
+      "path": "templates/project-records/audit-response.md",
+      "line": 9,
+      "text": "**Origin:** <audit finding and authorised response decision>"
+    },
+    {
+      "path": "templates/project-records/audit-response.md",
+      "line": 11,
+      "text": "**Sealed:** <UTC timestamp when response complete>"
+    },
+    {
+      "path": "templates/project-records/audit-response.md",
+      "line": 17,
+      "text": "## Response and Authority"
+    },
+    {
+      "path": "templates/project-records/audit-response.md",
+      "line": 21,
+      "text": "**Original records/snapshots:** <preserved locators>"
+    },
+    {
+      "path": "templates/project-records/audit-response.md",
+      "line": 23,
+      "text": "**New records/evidence:** <V corrections, D/H/E/B/R/C links as applicable>"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "line": 10,
+      "text": "**Sealed:** <UTC timestamp when terminal; open until then>"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "line": 16,
+      "text": "**Snapshot/time:** <exact inventory boundary and UTC audit time>"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "line": 22,
+      "text": "**Input packet:** <manifest, source/record snapshots; pre/post digest checks>"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "line": 25,
+      "text": "**Previous audit/responses:** <A/F and level-appropriate response entry links; prior findings may be wrong>"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "line": 42,
+      "text": "**Response requested:** <missing records/provenance/explanation/new evidence;"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "line": 50,
+      "text": "<For every prior finding: response reviewed, new packet evidence, closed/still"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "line": 51,
+      "text": "open/inconclusive/finding corrected or superseded. Worker acknowledgement is"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "line": 52,
+      "text": "not closure; preserve original reports and their snapshot verdicts.>"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "line": 58,
+      "text": "record discipline from product correctness and release authority.>"
+    },
+    {
+      "path": "templates/project-records/audit.md",
+      "line": 62,
+      "text": "**Next handoff:** <response/re-audit or owner escalation under budget; task ends>"
+    },
+    {
+      "path": "templates/project-records/build.md",
+      "line": 11,
+      "text": "**Sealed:** <UTC timestamp when terminal; open until then>"
+    },
+    {
+      "path": "templates/project-records/build.md",
+      "line": 17,
+      "text": "**Source:** <exact snapshots for every repo/submodule; clean status or retained"
+    },
+    {
+      "path": "templates/project-records/change.md",
+      "line": 8,
+      "text": "**Review:** <relevant meaning/input/consumer/authority/custody triggers; no calendar expiry required>"
+    },
+    {
+      "path": "templates/project-records/change.md",
+      "line": 10,
+      "text": "This one record is sufficient at D. Do not add D/H/E/R/A solely for VP."
+    },
+    {
+      "path": "templates/project-records/coverage.md",
+      "line": 10,
+      "text": "Use whole-file rows when the same reason explains the file; do not create one row per heading automatically. Current records/evidence resolve through owner manifests and the containing revision. Historical copies and earlier audit packets must not be included. Unchanged legacy intent can remain unknown while a sourced current retention choice justifies the maintained file."
+    },
+    {
+      "path": "templates/project-records/decision.md",
+      "line": 11,
+      "text": "**Sealed:** <UTC timestamp when terminal; open until then>"
+    },
+    {
+      "path": "templates/project-records/decision.md",
+      "line": 39,
+      "text": "adoption, correction or revalidation is a new linked record.>"
+    },
+    {
+      "path": "templates/project-records/event.md",
+      "line": 10,
+      "text": "**Sealed:** <UTC timestamp when terminal; open until then>"
+    },
+    {
+      "path": "templates/project-records/event.md",
+      "line": 14,
+      "text": "**Kind:** <correction/expiry/invalidation/supersession/disposition/exception>"
+    },
+    {
+      "path": "templates/project-records/event.md",
+      "line": 19,
+      "text": "**Correction or new state:** <new account; assumptions/unknowns separate>"
+    },
+    {
+      "path": "templates/project-records/event.md",
+      "line": 27,
+      "text": "**Revalidation:** <new H/E/R/D links; no date-only renewal>"
+    },
+    {
+      "path": "templates/project-records/event.md",
+      "line": 29,
+      "text": "**Limitations and next action:** <open work and successor>"
+    },
+    {
+      "path": "templates/project-records/experiment.md",
+      "line": 10,
+      "text": "**Sealed:** <UTC timestamp when terminal; open until then>"
+    },
+    {
+      "path": "templates/project-records/experiment.md",
+      "line": 29,
+      "text": "interpretation, unknowns and verdict; successor adoption/rejection D.>"
+    },
+    {
+      "path": "templates/project-records/hypothesis.md",
+      "line": 11,
+      "text": "**Sealed:** <UTC timestamp when terminal; open until then>"
+    },
+    {
+      "path": "templates/project-records/hypothesis.md",
+      "line": 33,
+      "text": "<Dated pre-reliance amendments, successor decision or new testing required.>"
+    },
+    {
+      "path": "templates/project-records/ledger.md",
+      "line": 7,
+      "text": "| ID/link | Type/title | Created UTC | Current state | Origins | Supporting dependencies | Successors/events |"
+    },
+    {
+      "path": "templates/project-records/manifest.md",
+      "line": 5,
+      "text": "**Revision custody:** <content-addressed immutable history and verified independent replica/bundle; same-host/failure-domain limits>"
+    },
+    {
+      "path": "templates/project-records/manifest.md",
+      "line": 11,
+      "text": "No copied source, old record trees or earlier packets. External large data lives once per declared store, cited by hash and replicated. A successor manifest identifies its original exact revision/path rather than pretending to rewrite a sealed capture. Record pruning/disposition in the level\u2019s record and commit only after actual recovery verification; retain original history/replica."
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "line": 33,
+      "text": "source/evidence custody and capture limits; frozen packet method; auditor"
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "line": 35,
+      "text": "cadence; round/time budgets; response owner; unresolved-finding escalation"
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "line": 42,
+      "text": "## Snapshot and Record Policy"
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "line": 56,
+      "text": "classes; binary/workspace disposal rules; immutable revision-history mechanism and independent replica location,"
+    },
+    {
+      "path": "templates/project-records/project.md",
+      "line": 57,
+      "text": "replication cadence and actual recovery check; redaction policy.>"
+    },
+    {
+      "path": "templates/project-records/root.md",
+      "line": 12,
+      "text": "Select the source snapshot and unit in COVERAGE.md. Follow its level-appropriate reason/check: A/B full evidence, C combined records, D change/check, E commit reason. Resolve historical records by immutable revision/path/hash instead of copies."
+    },
+    {
+      "path": "templates/project-records/root.md",
+      "line": 30,
+      "text": "open finding IDs in STATE, level-appropriate working AI response entries and independent"
+    },
+    {
+      "path": "templates/project-records/run.md",
+      "line": 11,
+      "text": "**Sealed:** <UTC timestamp when terminal; open until then>"
+    },
+    {
+      "path": "templates/project-records/stage.md",
+      "line": 10,
+      "text": "**Sealed:** <UTC timestamp when terminal; open until then>"
+    },
+    {
+      "path": "templates/project-records/stage.md",
+      "line": 33,
+      "text": "findings, responses, follow-up closure and predeclared acceptance gate>"
+    },
+    {
+      "path": "templates/project-records/state.md",
+      "line": 4,
+      "text": "**Source/snapshot:** <exact identity and locator>"
+    },
+    {
+      "path": "templates/project-records/state.md",
+      "line": 17,
+      "text": "contained; temporary exception authority and expiry.>"
+    },
+    {
+      "path": "templates/project-records/state.md",
+      "line": 21,
+      "text": "| Finding | Requirement/gap | Latest response/follow-up | Responsible worker | Due UTC | Affected gate | Independent closure state |"
+    },
+    {
+      "path": "templates/project-records/state.md",
+      "line": 27,
+      "text": "to its original packet, even when a successor audit passes.>"
+    }
+  ],
+  "limitations": "Literal/regex obligation search across all69 textual product objects. Meaning read purposively, not exhaustive semantic certification."
+}

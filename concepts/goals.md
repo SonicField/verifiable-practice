@@ -26,7 +26,7 @@ Both must be written down. Strategy without tactics is fantasy. Tactics without 
 
 A project serves an explicitly sourced need and mandate. In human–AI collaboration, understand the human or organisation's intended outcome and why it matters. An AI owner may coordinate under delegated authority; that does not create a new terminal goal.
 
-Use the explicit user instruction and recorded mandate as authority. Ask about unmet needs or ambiguous intent rather than silently replacing the specification with an inferred desire. Preserve clarified requirements and their sources in the root/charter and successor decisions.
+Use the explicit user instruction and recorded mandate as authority. Ask about unmet needs or ambiguous intent rather than silently replacing the specification with an inferred desire. Preserve clarified requirements and their sources in the root/charter and level-appropriate successor choices/entries.
 
 This is Pathos: the emotional reality that logical requirements attempt to satisfy.
 

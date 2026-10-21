@@ -57,7 +57,8 @@ Write a durable code-audit report, by default `.vp/code-audit-report.md`, contai
 Present this report before changing code.
 
 In a project conforming to the record standard, preserve the report as
-technical evidence under its owning R record and manifest in the chosen
+technical evidence with its owning level-appropriate entry and a manifest
+when raw evidence requires one (A/B run records, C inline run, D change/check), in the chosen
 record root. It is not an A project-conformance report. Existing historical
 `audit-report.md` files remain preserved; identify their kind in the catalogue
 rather than renaming or rewriting their evidence.

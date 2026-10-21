@@ -39,13 +39,16 @@ has already selected its kind and needs no repeated question.
 
 ## Keep Verdicts Distinct
 
-Project Audit uses A requests/reports, V responses and independent follow-up
-A closure. It grants a scoped record-conformance verdict, not product quality
+Project Audit uses A requests/reports and independent follow-up A closure.
+A/B use V response events; C/D may use dated change/successor entries preserving
+the original sealed revision. No extra V is required solely by VP at C/D.
+It grants a scoped record-conformance verdict, not product quality
 or release approval. Its assessor does not execute or repair the project.
 
 Code Audit produces an explicitly labelled code report. In a conformant
-project, preserve that report as technical evidence under the owning R
-record and manifest; it may be cited by a Project Audit. It is not itself an
+project, preserve that report as technical evidence with the owning
+level-appropriate entry and a manifest when raw evidence needs one; A/B may
+use R, C inline run evidence, D its change/check. It may be cited by a Project Audit. It is not itself an
 A project audit. Code repairs need separate authority and working records.
 
 Missing project records do not authorise code-quality analysis. A code defect

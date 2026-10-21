@@ -1,18 +1,17 @@
 # Current Plan
 
-**Stage S4:** D26 B assurance/custody migration, acceptance blocked.
+**Stage S4:** D26 B assurance/custody migration, not accepted.
+**Open findings:** A8/F001 and residual A9/F001; V18 ready for fresh A10.
+A7/F001 advisory is independently closed.
+**Next action:** third fresh A10 closes the relevant source-consistency scope;
+accept separately only if conformant, then final recovery/STATE reader/commit.
 
-Baseline fully restored and pruning complete. Standard1.1 aligned; classifier02,
-actual one-record D replay and packet/source checks pass their bounded criteria.
-A8 was nonconformant: F001 secondary routes required extra V records. V17
-records the pre-action response; check05 passes, independent closure pending.
-A7/F001 navigation advisory is independently closed by A8.
+Baseline complete restore/pruning and bounded classifier02/actual-D replay/
+packet checks pass. A8/A9 failed on surviving universal event prescriptions;
+original verdicts and V17's overly broad search claim remain preserved. V18
+corrects the claim and aligns downstream route/oracle/form information by level.
 
-Next: fresh A9 closure/current-consistency assessment, then separate D27
-acceptance only if conformant. Actual recovery handoff and final fresh STATE
-reader precede final record seal/commit/verified replica. Source/capture limits
-remain explicit; old failed trials and verdicts are never rewritten.
-
-Budget: four-hour worker/three20-minute audit rounds, two used/commissioned
-including A9. Stop on recovery loss, active inconsistency, failed declared
-criterion or mandatory gap. No lower gate to fit budget. No compiled build.
+Four-hour worker budget, three20-minute audit rounds (A10 final round).
+Unresolved mandatory gap blocks acceptance and routes an owner decision;
+no lower criteria to fit budget. Final handoff has source+records together,
+verified independent recovery, no background build or remote publication.

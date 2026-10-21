@@ -18,13 +18,13 @@
 **Applicability and limits:** <conditions; where generalisation would fail>
 **Goal relationship:** <why solving that problem serves the terminal goal>
 **Options:** <select/retain/defer/reject; consequences and rejected alternatives>
-**Evidence available now:** <H/R links; observations separate from assumptions>
+**Evidence available now:** <identified records or inline fields; observations separate from assumptions>
 **Authority:** <user instruction/delegation; chooser and date; unknown is not approval>
 
 ## Choice and Consequences
 
 **Selected option and reason:** <apply general reasoning to this scope>
-**Relied-on claims:** <H records; goals/value judgements identified separately>
+**Relied-on claims:** <A H records; B/C may use inline fields; goals/value judgements separate>
 **Scope/input identity:** <where choice applies>
 **Provisional limits:** <test, stop condition, exception authority if needed>
 **Expected effect and falsifier:** <what would show this choice is unsuitable>
@@ -36,5 +36,7 @@
 ## Dated Amendments and Final Limitations
 
 <Amendments while open; unresolved evidence; seal after the choice. Later
-adoption, correction or revalidation is a new linked record.>
+adoption/acceptance at A/B is a separate record; C may use a combined entry.
+Corrections preserve the original revision and use the level-appropriate
+successor entry/commit or required event, never rewritten historical fields.>
 
