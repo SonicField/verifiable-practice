@@ -1,0 +1,44 @@
+{
+  "ended": "2026-10-21T13:04:12.840020+00:00",
+  "candidate": "42ba9ee819b958248ca34aea00cfe7a44d7b7516",
+  "tree": "bbece560015b4bbaa3c3b1a1bccb712d6c1cdbfe",
+  "candidate_paths_reverified": 189,
+  "candidate_oid_size_sha256_errors": [],
+  "input_manifest_sha256": "e81548e5a16d1352f6aaf960af1621e190f82f57bcccbf220f4a7d9009097f9d",
+  "preparation_sha256": "850c420aa828d4a6285ae370f4df23c1ac525b5dea7d197808907f8ae4c3a502",
+  "request_sha256": "f8205da719cc3254d7954e0634594ad50ddb2a3fe4dcdd8739275220769fc087",
+  "bundles": [
+    {
+      "name": "baseline.bundle",
+      "sha256": "d6a700b563433ee68a3415a60b19c301f52e8b638141b0cae74154abf45abd67",
+      "expected_matches": true,
+      "verify_exit": 0
+    },
+    {
+      "name": "trial-01.bundle",
+      "sha256": "09fb3eb9fde9ba471154dcf33a132cd2943de7b23c6b992c56a0ce086d791bdc",
+      "expected_matches": true,
+      "verify_exit": 0
+    },
+    {
+      "name": "minimal-D-baseline.bundle",
+      "sha256": "40a51feef7cae5f9be37dbff0f544a0af1667e98ccca8656f26ab9934f0ffc66",
+      "expected_matches": true,
+      "verify_exit": 0
+    },
+    {
+      "name": "minimal-D-result.bundle",
+      "sha256": "895fbc668493802f2eccc251c0ca226b628eb6d1f3bca1be9688ece5c8649d1f",
+      "expected_matches": true,
+      "verify_exit": 0
+    },
+    {
+      "name": "A-000008-candidate.bundle",
+      "sha256": "741ce7844ad71792ca3d1dcd13ae10c82f5949b0abe20a5b824125625124cbe2",
+      "expected_matches": true,
+      "verify_exit": 0
+    }
+  ],
+  "head_observed": "42ba9ee819b958248ca34aea00cfe7a44d7b7516",
+  "limits": "End checks re-read fixed objects and exact input metadata/bundles. Head is observed, not substituted for the fixed candidate. Own outputs are outside candidate inputs."
+}

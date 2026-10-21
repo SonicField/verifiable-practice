@@ -1,0 +1,2323 @@
+{
+  "scope": "All candidate Markdown explicit inline links outside fenced blocks; file/directory destinations checked; anchors, reference-definition syntax, renderer and external URLs not certified.",
+  "checks": [
+    {
+      "source": "vp/records/decisions/D-000026/record.md",
+      "destination": "../../../artefacts/D-000026/feedback.md",
+      "target": "vp/artefacts/D-000026/feedback.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../.gitattributes",
+      "target": ".gitattributes",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../.github/ISSUE_TEMPLATE/bug_report.yml",
+      "target": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../.github/ISSUE_TEMPLATE/change_proposal.yml",
+      "target": ".github/ISSUE_TEMPLATE/change_proposal.yml",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../.github/ISSUE_TEMPLATE/config.yml",
+      "target": ".github/ISSUE_TEMPLATE/config.yml",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../.github/pull_request_template.md",
+      "target": ".github/pull_request_template.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../.gitignore",
+      "target": ".gitignore",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../CHANGELOG.md",
+      "target": "CHANGELOG.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../CITATION.cff",
+      "target": "CITATION.cff",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../CODE_OF_CONDUCT.md",
+      "target": "CODE_OF_CONDUCT.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../CONTRIBUTING.md",
+      "target": "CONTRIBUTING.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../LICENSE",
+      "target": "LICENSE",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../ORIGIN.md",
+      "target": "ORIGIN.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../README.md",
+      "target": "README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../SECURITY.md",
+      "target": "SECURITY.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../SKILL.md",
+      "target": "SKILL.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../WHY.md",
+      "target": "WHY.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../concepts/bullshit-detection.md",
+      "target": "concepts/bullshit-detection.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../concepts/engineering-standards.md",
+      "target": "concepts/engineering-standards.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../concepts/falsifiability.md",
+      "target": "concepts/falsifiability.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../concepts/goals.md",
+      "target": "concepts/goals.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../concepts/rhetoric.md",
+      "target": "concepts/rhetoric.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../concepts/verification-cycle.md",
+      "target": "concepts/verification-cycle.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../concepts/zero-code-contract.md",
+      "target": "concepts/zero-code-contract.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../docs/discovery-and-recovery.md",
+      "target": "docs/discovery-and-recovery.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../docs/document-work.md",
+      "target": "docs/document-work.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../docs/how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../docs/independent-record-audit.md",
+      "target": "docs/independent-record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../docs/investigations.md",
+      "target": "docs/investigations.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../docs/project-records-design.md",
+      "target": "docs/project-records-design.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../docs/project-records-examples.md",
+      "target": "docs/project-records-examples.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../docs/project-records-scenarios.md",
+      "target": "docs/project-records-scenarios.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../docs/project-records.md",
+      "target": "docs/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../docs/review-and-audit.md",
+      "target": "docs/review-and-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../docs/skill-architecture.md",
+      "target": "docs/skill-architecture.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../docs/testing-ai-behaviour.md",
+      "target": "docs/testing-ai-behaviour.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../playbooks/audit-routing.md",
+      "target": "playbooks/audit-routing.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../playbooks/code-audit.md",
+      "target": "playbooks/code-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../playbooks/debugging.md",
+      "target": "playbooks/debugging.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../playbooks/discovery-verification.md",
+      "target": "playbooks/discovery-verification.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../playbooks/discovery.md",
+      "target": "playbooks/discovery.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../playbooks/document-analysis.md",
+      "target": "playbooks/document-analysis.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../playbooks/document-description.md",
+      "target": "playbooks/document-description.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../playbooks/document-planning.md",
+      "target": "playbooks/document-planning.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../playbooks/investigation.md",
+      "target": "playbooks/investigation.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../playbooks/project-records.md",
+      "target": "playbooks/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../playbooks/record-audit.md",
+      "target": "playbooks/record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../playbooks/recovery.md",
+      "target": "playbooks/recovery.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../playbooks/review.md",
+      "target": "playbooks/review.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/README.md",
+      "target": "templates/project-records/README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/audit-request.md",
+      "target": "templates/project-records/audit-request.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/audit-response.md",
+      "target": "templates/project-records/audit-response.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/audit.md",
+      "target": "templates/project-records/audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/build.md",
+      "target": "templates/project-records/build.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/change.md",
+      "target": "templates/project-records/change.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/coverage.md",
+      "target": "templates/project-records/coverage.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/decision.md",
+      "target": "templates/project-records/decision.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/event.md",
+      "target": "templates/project-records/event.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/experiment.md",
+      "target": "templates/project-records/experiment.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/hypothesis.md",
+      "target": "templates/project-records/hypothesis.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/ledger.md",
+      "target": "templates/project-records/ledger.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/manifest.md",
+      "target": "templates/project-records/manifest.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/plan.md",
+      "target": "templates/project-records/plan.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/project.md",
+      "target": "templates/project-records/project.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/root.md",
+      "target": "templates/project-records/root.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/run.md",
+      "target": "templates/project-records/run.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/stage.md",
+      "target": "templates/project-records/stage.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/state.md",
+      "target": "templates/project-records/state.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/COVERAGE.md",
+      "destination": "../templates/project-records/workspace.md",
+      "target": "templates/project-records/workspace.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/falsifiability.md",
+      "destination": "../docs/how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/falsifiability.md",
+      "destination": "../README.md",
+      "target": "README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/falsifiability.md",
+      "destination": "../SKILL.md",
+      "target": "SKILL.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/project-records-examples.md",
+      "destination": "../standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/project-records-examples.md",
+      "destination": "../templates/project-records/README.md",
+      "target": "templates/project-records/README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "SKILL.md",
+      "target": "SKILL.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "docs/how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "WHY.md",
+      "target": "WHY.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "playbooks/project-records.md",
+      "target": "playbooks/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "templates/project-records/README.md",
+      "target": "templates/project-records/README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "SKILL.md",
+      "target": "SKILL.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "#playbooks",
+      "target": "README.md",
+      "file_resolves": true,
+      "fragment": "playbooks"
+    },
+    {
+      "source": "README.md",
+      "destination": "concepts/zero-code-contract.md",
+      "target": "concepts/zero-code-contract.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "playbooks/audit-routing.md",
+      "target": "playbooks/audit-routing.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "concepts/goals.md",
+      "target": "concepts/goals.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "concepts/falsifiability.md",
+      "target": "concepts/falsifiability.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "concepts/rhetoric.md",
+      "target": "concepts/rhetoric.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "concepts/bullshit-detection.md",
+      "target": "concepts/bullshit-detection.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "concepts/verification-cycle.md",
+      "target": "concepts/verification-cycle.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "concepts/zero-code-contract.md",
+      "target": "concepts/zero-code-contract.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "concepts/engineering-standards.md",
+      "target": "concepts/engineering-standards.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "vp/PROJECT.md",
+      "target": "vp/PROJECT.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "vp/README.md",
+      "target": "vp/README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "vp/STATE.md",
+      "target": "vp/STATE.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "playbooks/review.md",
+      "target": "playbooks/review.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "playbooks/code-audit.md",
+      "target": "playbooks/code-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "playbooks/investigation.md",
+      "target": "playbooks/investigation.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "playbooks/debugging.md",
+      "target": "playbooks/debugging.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "playbooks/discovery.md",
+      "target": "playbooks/discovery.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "playbooks/discovery-verification.md",
+      "target": "playbooks/discovery-verification.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "playbooks/recovery.md",
+      "target": "playbooks/recovery.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "playbooks/project-records.md",
+      "target": "playbooks/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "playbooks/record-audit.md",
+      "target": "playbooks/record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "playbooks/audit-routing.md",
+      "target": "playbooks/audit-routing.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "playbooks/document-analysis.md",
+      "target": "playbooks/document-analysis.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "playbooks/document-planning.md",
+      "target": "playbooks/document-planning.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "playbooks/document-description.md",
+      "target": "playbooks/document-description.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "docs/how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "docs/review-and-audit.md",
+      "target": "docs/review-and-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "docs/discovery-and-recovery.md",
+      "target": "docs/discovery-and-recovery.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "docs/investigations.md",
+      "target": "docs/investigations.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "docs/document-work.md",
+      "target": "docs/document-work.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "docs/testing-ai-behaviour.md",
+      "target": "docs/testing-ai-behaviour.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "docs/skill-architecture.md",
+      "target": "docs/skill-architecture.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "docs/project-records.md",
+      "target": "docs/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "docs/project-records-design.md",
+      "target": "docs/project-records-design.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "docs/project-records-examples.md",
+      "target": "docs/project-records-examples.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "docs/project-records-scenarios.md",
+      "target": "docs/project-records-scenarios.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "docs/independent-record-audit.md",
+      "target": "docs/independent-record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "ORIGIN.md",
+      "target": "ORIGIN.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "CONTRIBUTING.md",
+      "target": "CONTRIBUTING.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "CODE_OF_CONDUCT.md",
+      "target": "CODE_OF_CONDUCT.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "SECURITY.md",
+      "target": "SECURITY.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "CHANGELOG.md",
+      "target": "CHANGELOG.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "CITATION.cff",
+      "target": "CITATION.cff",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "README.md",
+      "destination": "LICENSE",
+      "target": "LICENSE",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "destination": "../standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "destination": "../playbooks/project-records.md",
+      "target": "playbooks/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "destination": "../templates/project-records/README.md",
+      "target": "templates/project-records/README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "destination": "../concepts/verification-cycle.md",
+      "target": "concepts/verification-cycle.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "destination": "../concepts/engineering-standards.md",
+      "target": "concepts/engineering-standards.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "destination": "../playbooks/investigation.md",
+      "target": "playbooks/investigation.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "destination": "../playbooks/document-analysis.md",
+      "target": "playbooks/document-analysis.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "destination": "../playbooks/record-audit.md",
+      "target": "playbooks/record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "destination": "independent-record-audit.md",
+      "target": "docs/independent-record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "destination": "../playbooks/review.md",
+      "target": "playbooks/review.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "destination": "testing-ai-behaviour.md",
+      "target": "docs/testing-ai-behaviour.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "destination": "../concepts/zero-code-contract.md",
+      "target": "concepts/zero-code-contract.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "destination": "../standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "destination": "../playbooks/project-records.md",
+      "target": "playbooks/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "destination": "../playbooks/audit-routing.md",
+      "target": "playbooks/audit-routing.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "destination": "../templates/project-records/README.md",
+      "target": "templates/project-records/README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/how-vp-works.md",
+      "destination": "skill-architecture.md",
+      "target": "docs/skill-architecture.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/review.md",
+      "destination": "audit-routing.md",
+      "target": "playbooks/audit-routing.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/review.md",
+      "destination": "investigation.md",
+      "target": "playbooks/investigation.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/review.md",
+      "destination": "discovery-verification.md",
+      "target": "playbooks/discovery-verification.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/project-records.md",
+      "destination": "../standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/project-records.md",
+      "destination": "../playbooks/project-records.md",
+      "target": "playbooks/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/project-records.md",
+      "destination": "project-records-examples.md",
+      "target": "docs/project-records-examples.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/project-records.md",
+      "destination": "project-records-scenarios.md",
+      "target": "docs/project-records-scenarios.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/records/events/V-000016/record.md",
+      "destination": "../../decisions/D-000026/record.md",
+      "target": "vp/records/decisions/D-000026/record.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/investigation.md",
+      "destination": "../standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/investigation.md",
+      "destination": "project-records.md",
+      "target": "playbooks/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/records/runs/R-000013/record.md",
+      "destination": "../../decisions/D-000026/record.md",
+      "target": "vp/records/decisions/D-000026/record.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/records/runs/R-000013/record.md",
+      "destination": "../../../artefacts/R-000013/MANIFEST.md",
+      "target": "vp/artefacts/R-000013/MANIFEST.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "standards/project-records.md",
+      "destination": "../playbooks/audit-routing.md",
+      "target": "playbooks/audit-routing.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "standards/project-records.md",
+      "destination": "../docs/project-records-design.md",
+      "target": "docs/project-records-design.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "standards/project-records.md",
+      "destination": "../playbooks/project-records.md",
+      "target": "playbooks/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "standards/project-records.md",
+      "destination": "../templates/project-records/README.md",
+      "target": "templates/project-records/README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/independent-record-audit.md",
+      "destination": "how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/independent-record-audit.md",
+      "destination": "../playbooks/audit-routing.md",
+      "target": "playbooks/audit-routing.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/independent-record-audit.md",
+      "destination": "../standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/independent-record-audit.md",
+      "destination": "../playbooks/record-audit.md",
+      "target": "playbooks/record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/independent-record-audit.md",
+      "destination": "project-records-design.md",
+      "target": "docs/project-records-design.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "vp/README.md",
+      "target": "vp/README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "vp/STATE.md",
+      "target": "vp/STATE.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "docs/how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "playbooks/project-records.md",
+      "target": "playbooks/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "standards/project-records.md#11-consequence-determines-assurance",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": "11-consequence-determines-assurance"
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "playbooks/audit-routing.md",
+      "target": "playbooks/audit-routing.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "playbooks/record-audit.md",
+      "target": "playbooks/record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "WHY.md",
+      "target": "WHY.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "concepts/goals.md",
+      "target": "concepts/goals.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "playbooks/review.md",
+      "target": "playbooks/review.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "concepts/falsifiability.md",
+      "target": "concepts/falsifiability.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "concepts/bullshit-detection.md",
+      "target": "concepts/bullshit-detection.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "concepts/verification-cycle.md",
+      "target": "concepts/verification-cycle.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "concepts/engineering-standards.md",
+      "target": "concepts/engineering-standards.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "concepts/zero-code-contract.md",
+      "target": "concepts/zero-code-contract.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "playbooks/audit-routing.md",
+      "target": "playbooks/audit-routing.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "playbooks/code-audit.md",
+      "target": "playbooks/code-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "playbooks/investigation.md",
+      "target": "playbooks/investigation.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "playbooks/debugging.md",
+      "target": "playbooks/debugging.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "playbooks/discovery.md",
+      "target": "playbooks/discovery.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "playbooks/discovery-verification.md",
+      "target": "playbooks/discovery-verification.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "playbooks/recovery.md",
+      "target": "playbooks/recovery.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "playbooks/project-records.md",
+      "target": "playbooks/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "templates/project-records/README.md",
+      "target": "templates/project-records/README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "playbooks/record-audit.md",
+      "target": "playbooks/record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "templates/project-records/audit-request.md",
+      "target": "templates/project-records/audit-request.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "templates/project-records/audit.md",
+      "target": "templates/project-records/audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "templates/project-records/audit-response.md",
+      "target": "templates/project-records/audit-response.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "playbooks/document-analysis.md",
+      "target": "playbooks/document-analysis.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "concepts/rhetoric.md",
+      "target": "concepts/rhetoric.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "playbooks/document-planning.md",
+      "target": "playbooks/document-planning.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "playbooks/document-description.md",
+      "target": "playbooks/document-description.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "docs/document-work.md#clear-and-testable-requirements",
+      "target": "docs/document-work.md",
+      "file_resolves": true,
+      "fragment": "clear-and-testable-requirements"
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "playbooks/document-analysis.md",
+      "target": "playbooks/document-analysis.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "docs/how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "docs/review-and-audit.md",
+      "target": "docs/review-and-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "docs/discovery-and-recovery.md",
+      "target": "docs/discovery-and-recovery.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "docs/investigations.md",
+      "target": "docs/investigations.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "docs/document-work.md",
+      "target": "docs/document-work.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "docs/testing-ai-behaviour.md",
+      "target": "docs/testing-ai-behaviour.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "docs/skill-architecture.md",
+      "target": "docs/skill-architecture.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "docs/project-records.md",
+      "target": "docs/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "docs/project-records-design.md",
+      "target": "docs/project-records-design.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "docs/project-records-examples.md",
+      "target": "docs/project-records-examples.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "docs/project-records-scenarios.md",
+      "target": "docs/project-records-scenarios.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "docs/independent-record-audit.md",
+      "target": "docs/independent-record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "CONTRIBUTING.md",
+      "target": "CONTRIBUTING.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "SECURITY.md",
+      "target": "SECURITY.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "CHANGELOG.md",
+      "target": "CHANGELOG.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "SKILL.md",
+      "destination": "CODE_OF_CONDUCT.md",
+      "target": "CODE_OF_CONDUCT.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/LEDGER.md",
+      "destination": "records/decisions/D-000026/record.md",
+      "target": "vp/records/decisions/D-000026/record.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/LEDGER.md",
+      "destination": "records/runs/R-000013/record.md",
+      "target": "vp/records/runs/R-000013/record.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/LEDGER.md",
+      "destination": "records/events/V-000016/record.md",
+      "target": "vp/records/events/V-000016/record.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "ORIGIN.md",
+      "destination": "docs/how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "ORIGIN.md",
+      "destination": "standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "ORIGIN.md",
+      "destination": "playbooks/record-audit.md",
+      "target": "playbooks/record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "ORIGIN.md",
+      "destination": "docs/project-records-design.md",
+      "target": "docs/project-records-design.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "WHY.md",
+      "destination": "docs/independent-record-audit.md",
+      "target": "docs/independent-record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "WHY.md",
+      "destination": "docs/how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "WHY.md",
+      "destination": "standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "WHY.md",
+      "destination": "README.md#foundations",
+      "target": "README.md",
+      "file_resolves": true,
+      "fragment": "foundations"
+    },
+    {
+      "source": "WHY.md",
+      "destination": "docs/how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "WHY.md",
+      "destination": "templates/project-records/README.md",
+      "target": "templates/project-records/README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "WHY.md",
+      "destination": "playbooks/review.md",
+      "target": "playbooks/review.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/skill-architecture.md",
+      "destination": "how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/document-work.md",
+      "destination": "how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/document-work.md",
+      "destination": "../playbooks/document-analysis.md",
+      "target": "playbooks/document-analysis.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/document-work.md",
+      "destination": "../playbooks/document-planning.md",
+      "target": "playbooks/document-planning.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/document-work.md",
+      "destination": "../playbooks/document-description.md",
+      "target": "playbooks/document-description.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/document-work.md",
+      "destination": "../standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/document-work.md",
+      "destination": "../playbooks/document-analysis.md",
+      "target": "playbooks/document-analysis.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/audit-routing.md",
+      "destination": "record-audit.md",
+      "target": "playbooks/record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/audit-routing.md",
+      "destination": "code-audit.md",
+      "target": "playbooks/code-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/audit-routing.md",
+      "destination": "review.md",
+      "target": "playbooks/review.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/record-audit.md",
+      "destination": "../standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/record-audit.md",
+      "destination": "audit-routing.md",
+      "target": "playbooks/audit-routing.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/record-audit.md",
+      "destination": "../templates/project-records/audit-request.md",
+      "target": "templates/project-records/audit-request.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/record-audit.md",
+      "destination": "../templates/project-records/audit.md",
+      "target": "templates/project-records/audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/record-audit.md",
+      "destination": "../templates/project-records/audit-response.md",
+      "target": "templates/project-records/audit-response.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/recovery.md",
+      "destination": "../standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/recovery.md",
+      "destination": "project-records.md",
+      "target": "playbooks/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/investigations.md",
+      "destination": "how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/investigations.md",
+      "destination": "../standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/investigations.md",
+      "destination": "../playbooks/investigation.md",
+      "target": "playbooks/investigation.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/investigations.md",
+      "destination": "../playbooks/debugging.md",
+      "target": "playbooks/debugging.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/project-records.md",
+      "destination": "../standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/project-records.md",
+      "destination": "../templates/project-records/README.md",
+      "target": "templates/project-records/README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/testing-ai-behaviour.md",
+      "destination": "how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/project-records-scenarios.md",
+      "destination": "how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/project-records-scenarios.md",
+      "destination": "../standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/project-records-scenarios.md",
+      "destination": "../playbooks/project-records.md",
+      "target": "playbooks/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/project-records-scenarios.md",
+      "destination": "testing-ai-behaviour.md",
+      "target": "docs/testing-ai-behaviour.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/README.md",
+      "destination": "STATE.md",
+      "target": "vp/STATE.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/README.md",
+      "destination": "PROJECT.md",
+      "target": "vp/PROJECT.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/README.md",
+      "destination": "PLAN.md",
+      "target": "vp/PLAN.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/README.md",
+      "destination": "LEDGER.md",
+      "target": "vp/LEDGER.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/README.md",
+      "destination": "COVERAGE.md",
+      "target": "vp/COVERAGE.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/README.md",
+      "destination": "../standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "vp/README.md",
+      "destination": "records/events/V-000016/record.md",
+      "target": "vp/records/events/V-000016/record.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "CONTRIBUTING.md",
+      "destination": "CODE_OF_CONDUCT.md",
+      "target": "CODE_OF_CONDUCT.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "CONTRIBUTING.md",
+      "destination": "SECURITY.md",
+      "target": "SECURITY.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "CONTRIBUTING.md",
+      "destination": "LICENSE",
+      "target": "LICENSE",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/verification-cycle.md",
+      "destination": "../docs/how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/verification-cycle.md",
+      "destination": "../README.md",
+      "target": "README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/verification-cycle.md",
+      "destination": "../SKILL.md",
+      "target": "SKILL.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/rhetoric.md",
+      "destination": "../docs/how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/rhetoric.md",
+      "destination": "../README.md",
+      "target": "README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/rhetoric.md",
+      "destination": "../SKILL.md",
+      "target": "SKILL.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/goals.md",
+      "destination": "../docs/how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/goals.md",
+      "destination": "../README.md",
+      "target": "README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/goals.md",
+      "destination": "../SKILL.md",
+      "target": "SKILL.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/code-audit.md",
+      "destination": "../concepts/engineering-standards.md",
+      "target": "concepts/engineering-standards.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/code-audit.md",
+      "destination": "audit-routing.md",
+      "target": "playbooks/audit-routing.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/code-audit.md",
+      "destination": "record-audit.md",
+      "target": "playbooks/record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/document-analysis.md",
+      "destination": "../concepts/goals.md",
+      "target": "concepts/goals.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/document-analysis.md",
+      "destination": "../concepts/rhetoric.md",
+      "target": "concepts/rhetoric.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/document-analysis.md",
+      "destination": "../concepts/bullshit-detection.md",
+      "target": "concepts/bullshit-detection.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "playbooks/document-analysis.md",
+      "destination": "../concepts/falsifiability.md",
+      "target": "concepts/falsifiability.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/review-and-audit.md",
+      "destination": "how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/review-and-audit.md",
+      "destination": "../playbooks/audit-routing.md",
+      "target": "playbooks/audit-routing.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/review-and-audit.md",
+      "destination": "../playbooks/review.md",
+      "target": "playbooks/review.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/review-and-audit.md",
+      "destination": "../concepts/engineering-standards.md",
+      "target": "concepts/engineering-standards.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/review-and-audit.md",
+      "destination": "../playbooks/code-audit.md",
+      "target": "playbooks/code-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/review-and-audit.md",
+      "destination": "../playbooks/record-audit.md",
+      "target": "playbooks/record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/review-and-audit.md",
+      "destination": "independent-record-audit.md",
+      "target": "docs/independent-record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/engineering-standards.md",
+      "destination": "../docs/how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/zero-code-contract.md",
+      "destination": "../docs/how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/zero-code-contract.md",
+      "destination": "../standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/zero-code-contract.md",
+      "destination": "../docs/independent-record-audit.md",
+      "target": "docs/independent-record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/zero-code-contract.md",
+      "destination": "../docs/independent-record-audit.md",
+      "target": "docs/independent-record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/zero-code-contract.md",
+      "destination": "../README.md",
+      "target": "README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/zero-code-contract.md",
+      "destination": "../SKILL.md",
+      "target": "SKILL.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/bullshit-detection.md",
+      "destination": "../docs/how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/bullshit-detection.md",
+      "destination": "../README.md",
+      "target": "README.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "concepts/bullshit-detection.md",
+      "destination": "../SKILL.md",
+      "target": "SKILL.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "../../docs/how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "../../standards/project-records.md",
+      "target": "standards/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "../../playbooks/project-records.md",
+      "target": "playbooks/project-records.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "root.md",
+      "target": "templates/project-records/root.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "project.md",
+      "target": "templates/project-records/project.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "plan.md",
+      "target": "templates/project-records/plan.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "state.md",
+      "target": "templates/project-records/state.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "ledger.md",
+      "target": "templates/project-records/ledger.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "coverage.md",
+      "target": "templates/project-records/coverage.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "decision.md",
+      "target": "templates/project-records/decision.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "stage.md",
+      "target": "templates/project-records/stage.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "hypothesis.md",
+      "target": "templates/project-records/hypothesis.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "experiment.md",
+      "target": "templates/project-records/experiment.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "build.md",
+      "target": "templates/project-records/build.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "run.md",
+      "target": "templates/project-records/run.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "change.md",
+      "target": "templates/project-records/change.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "event.md",
+      "target": "templates/project-records/event.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "audit.md",
+      "target": "templates/project-records/audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "audit-request.md",
+      "target": "templates/project-records/audit-request.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "audit-response.md",
+      "target": "templates/project-records/audit-response.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "manifest.md",
+      "target": "templates/project-records/manifest.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "workspace.md",
+      "target": "templates/project-records/workspace.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "templates/project-records/README.md",
+      "destination": "../../playbooks/record-audit.md",
+      "target": "playbooks/record-audit.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/discovery-and-recovery.md",
+      "destination": "how-vp-works.md",
+      "target": "docs/how-vp-works.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/discovery-and-recovery.md",
+      "destination": "../playbooks/discovery.md",
+      "target": "playbooks/discovery.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/discovery-and-recovery.md",
+      "destination": "../playbooks/discovery-verification.md",
+      "target": "playbooks/discovery-verification.md",
+      "file_resolves": true,
+      "fragment": null
+    },
+    {
+      "source": "docs/discovery-and-recovery.md",
+      "destination": "../playbooks/recovery.md",
+      "target": "playbooks/recovery.md",
+      "file_resolves": true,
+      "fragment": null
+    }
+  ],
+  "unresolved": []
+}

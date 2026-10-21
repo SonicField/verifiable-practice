@@ -27,6 +27,6 @@ manifest. Working files live in declared disposable workspaces.
 ## Independent Audit Handoff
 
 <Charter role/budget policy; audit requests and input manifests; latest A,
-open finding IDs in STATE, working AI response V records and independent
+open finding IDs in STATE, level-appropriate working AI response entries and independent
 follow-up closure. Self-review and silence do not establish conformance.>
 

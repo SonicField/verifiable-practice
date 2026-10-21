@@ -1,0 +1,402 @@
+{
+  "assessed": "2026-10-21T13:02:24.061914+00:00",
+  "baseline": "9605ad0dccea157880a05208babfdac5aa5a5fcd",
+  "tag_target": "9605ad0dccea157880a05208babfdac5aa5a5fcd",
+  "baseline_file_count": 23353,
+  "baseline_bytes": 390493640,
+  "distinct_baseline_blobs": 616,
+  "reported_restore_paths": 23353,
+  "actual_retained_restore_matches": true,
+  "restore_errors": [],
+  "ignored_count": 77,
+  "ignored_locator_errors": [],
+  "prune_record_count": 23277,
+  "actual_deleted_count": 23233,
+  "prune_unlisted": [],
+  "listed_not_deleted": [
+    "vp/artefacts/A-000002/MANIFEST.md",
+    "vp/artefacts/A-000002/input/head.stderr.txt",
+    "vp/artefacts/A-000002/input/runtime.stderr.txt",
+    "vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/behavior.stderr.txt",
+    "vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/diff-whitespace.stderr.txt",
+    "vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/diff-whitespace.stdout.txt",
+    "vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/frontmatter.stderr.txt",
+    "vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/git-status.stderr.txt",
+    "vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/head.stderr.txt",
+    "vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/inventory.stderr.txt",
+    "vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/runtime.stderr.txt",
+    "vp/artefacts/A-000002/input/source/vp/artefacts/R-000001/structural.stderr.txt",
+    "vp/artefacts/A-000002/input/source/vp/artefacts/R-000002/baseline-negative.stderr.txt",
+    "vp/artefacts/A-000003/MANIFEST.md",
+    "vp/artefacts/A-000007/MANIFEST.md",
+    "vp/artefacts/C-000001/MANIFEST.md",
+    "vp/artefacts/C-000002/MANIFEST.md",
+    "vp/artefacts/C-000003/MANIFEST.md",
+    "vp/artefacts/C-000004/MANIFEST.md",
+    "vp/artefacts/C-000005/MANIFEST.md",
+    "vp/artefacts/C-000006/MANIFEST.md",
+    "vp/artefacts/D-000001/MANIFEST.md",
+    "vp/artefacts/D-000004/MANIFEST.md",
+    "vp/artefacts/D-000010/MANIFEST.md",
+    "vp/artefacts/D-000012/MANIFEST.md",
+    "vp/artefacts/D-000022/MANIFEST.md",
+    "vp/artefacts/R-000001/MANIFEST.md",
+    "vp/artefacts/R-000002/MANIFEST.md",
+    "vp/artefacts/R-000003/MANIFEST.md",
+    "vp/artefacts/R-000004/MANIFEST.md",
+    "vp/artefacts/R-000005/MANIFEST.md",
+    "vp/artefacts/R-000006/MANIFEST.md",
+    "vp/artefacts/R-000007/MANIFEST.md",
+    "vp/artefacts/R-000008/MANIFEST.md",
+    "vp/artefacts/R-000009/MANIFEST.md",
+    "vp/artefacts/R-000010/MANIFEST.md",
+    "vp/artefacts/R-000011/MANIFEST.md",
+    "vp/artefacts/R-000012/MANIFEST.md",
+    "vp/artefacts/S-000001/MANIFEST.md",
+    "vp/artefacts/V-000006/MANIFEST.md",
+    "vp/artefacts/V-000007/MANIFEST.md",
+    "vp/artefacts/V-000010/MANIFEST.md",
+    "vp/artefacts/V-000011/MANIFEST.md",
+    "vp/artefacts/V-000014/MANIFEST.md"
+  ],
+  "classification02_pairs": [
+    {
+      "case": "T01",
+      "levels": [
+        "D",
+        "D"
+      ],
+      "exact": true,
+      "distance": 0
+    },
+    {
+      "case": "T02",
+      "levels": [
+        "C",
+        "D"
+      ],
+      "exact": false,
+      "distance": 1
+    },
+    {
+      "case": "T03",
+      "levels": [
+        "C",
+        "C"
+      ],
+      "exact": true,
+      "distance": 0
+    },
+    {
+      "case": "T04",
+      "levels": [
+        "C",
+        "C"
+      ],
+      "exact": true,
+      "distance": 0
+    },
+    {
+      "case": "T05",
+      "levels": [
+        "C",
+        "C"
+      ],
+      "exact": true,
+      "distance": 0
+    },
+    {
+      "case": "T06",
+      "levels": [
+        "C",
+        "C"
+      ],
+      "exact": true,
+      "distance": 0
+    },
+    {
+      "case": "T07",
+      "levels": [
+        "D",
+        "D"
+      ],
+      "exact": true,
+      "distance": 0
+    },
+    {
+      "case": "T08",
+      "levels": [
+        "C",
+        "C"
+      ],
+      "exact": true,
+      "distance": 0
+    },
+    {
+      "case": "T09",
+      "levels": [
+        "D",
+        "C"
+      ],
+      "exact": false,
+      "distance": 1
+    },
+    {
+      "case": "T10",
+      "levels": [
+        "D",
+        "D"
+      ],
+      "exact": true,
+      "distance": 0
+    }
+  ],
+  "classification02_exact": 8,
+  "classification02_nonadjacent": 0,
+  "historical_case_source_hashes": [
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/changes/C-000006/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000022/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/changes/C-000005/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000016/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/changes/C-000004/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000013/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/events/V-000010/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000019/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000011/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000010/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000021/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/runs/R-000011/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/events/V-000012/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000020/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000004/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000007/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:.github/ISSUE_TEMPLATE/bug_report.yml",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:CONTRIBUTING.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/events/V-000015/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/audits/A-000007/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/changes/C-000006/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000022/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/changes/C-000005/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000016/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/changes/C-000004/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000013/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/events/V-000010/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000019/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000011/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000010/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000021/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/runs/R-000011/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/events/V-000012/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000020/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000004/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000007/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:.github/ISSUE_TEMPLATE/bug_report.yml",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:CONTRIBUTING.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/events/V-000015/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/audits/A-000007/record.md",
+      "match": true
+    }
+  ],
+  "cold_STATE_sha256": "0bbe82d399b1d67d1c5bbca2aad45b044c7f8a2a1822c912c3ad7b006bb91c33",
+  "current_STATE_sha256": "0bbe82d399b1d67d1c5bbca2aad45b044c7f8a2a1822c912c3ad7b006bb91c33",
+  "cold_STATE_equals_current": true,
+  "original_A7_sha256": "37b3c303491d89a252ec60cb32dc8e80f6aeee6bcb5a714eb2dd3713f31daf74",
+  "original_V15_sha256": "ebfcbdc0db612639c5797b329457a7b083596db223027b64462d392429cb3a85",
+  "prune_final_path_set_comparison": {
+    "baseline_paths_absent_at_candidate": 23245,
+    "recorded_removed_then_recreated_successor_manifests": [
+      "vp/artefacts/A-000002/MANIFEST.md",
+      "vp/artefacts/A-000003/MANIFEST.md",
+      "vp/artefacts/A-000007/MANIFEST.md",
+      "vp/artefacts/C-000001/MANIFEST.md",
+      "vp/artefacts/C-000002/MANIFEST.md",
+      "vp/artefacts/C-000003/MANIFEST.md",
+      "vp/artefacts/C-000004/MANIFEST.md",
+      "vp/artefacts/C-000005/MANIFEST.md",
+      "vp/artefacts/C-000006/MANIFEST.md",
+      "vp/artefacts/D-000001/MANIFEST.md",
+      "vp/artefacts/D-000004/MANIFEST.md",
+      "vp/artefacts/D-000010/MANIFEST.md",
+      "vp/artefacts/D-000012/MANIFEST.md",
+      "vp/artefacts/D-000022/MANIFEST.md",
+      "vp/artefacts/R-000001/MANIFEST.md",
+      "vp/artefacts/R-000002/MANIFEST.md",
+      "vp/artefacts/R-000003/MANIFEST.md",
+      "vp/artefacts/R-000004/MANIFEST.md",
+      "vp/artefacts/R-000005/MANIFEST.md",
+      "vp/artefacts/R-000006/MANIFEST.md",
+      "vp/artefacts/R-000007/MANIFEST.md",
+      "vp/artefacts/R-000008/MANIFEST.md",
+      "vp/artefacts/R-000009/MANIFEST.md",
+      "vp/artefacts/R-000010/MANIFEST.md",
+      "vp/artefacts/R-000011/MANIFEST.md",
+      "vp/artefacts/R-000012/MANIFEST.md",
+      "vp/artefacts/S-000001/MANIFEST.md",
+      "vp/artefacts/V-000006/MANIFEST.md",
+      "vp/artefacts/V-000007/MANIFEST.md",
+      "vp/artefacts/V-000010/MANIFEST.md",
+      "vp/artefacts/V-000011/MANIFEST.md",
+      "vp/artefacts/V-000014/MANIFEST.md"
+    ],
+    "unlisted_absent": [],
+    "explanation": "Initial diff-based comparison used Git rename heuristics and reported 12 empty historical paths as renames to legitimate empty capture files; authoritative path-set comparison excludes rename inference. 32 listed removals were recreated at the same path as successor manifests."
+  }
+}

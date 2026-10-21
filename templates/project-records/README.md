@@ -13,7 +13,10 @@ Classify before acting under standard §1.1. A/B use full forms and independent 
 
 Reserve an ID in the ledger when the level requires a record. Fill pre-action sections first.
 Append dated amendments to open records; never overwrite pre-action criteria.
-Seal terminal outcomes and use new events for subsequent corrections.
+Seal terminal outcomes and preserve their original revision. Subsequent corrections
+use dated successor entries or commits at C/D; use a separate event when the
+applicable A/B or external requirements demand it. Never rewrite sealed fields
+as if later evidence had been present originally.
 Validity is derived from evidence, A/B/C deadlines, all-level dependencies/triggers and later events;
 a completed record alone does not make a claim current.
 
@@ -35,7 +38,7 @@ a completed record alone does not make a claim current.
 | [event.md](event.md) | V: lifecycle events |
 | [audit.md](audit.md) | A: Project Audit reports, kind project |
 | [audit-request.md](audit-request.md) | records/audits/<A-ID>/request.md: frozen scope, packet and independent role |
-| [audit-response.md](audit-response.md) | V: working AI response to audit findings, pending independent closure |
+| [audit-response.md](audit-response.md) | A/B response event; C/D may use a change entry, always pending independent closure |
 | [manifest.md](manifest.md) | artefacts/<owner-ID>/MANIFEST.md |
 | [workspace.md](workspace.md) | workspace/README.md ownership |
 

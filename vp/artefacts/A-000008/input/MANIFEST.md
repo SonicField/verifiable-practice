@@ -1,0 +1,15 @@
+# A-000008 fixed input packet
+
+Prepared 2026-10-21T13:00:16.810695+00:00 by worker/coordinator /root. Authorised consumer: fresh Project Auditor and B gate under D26. Immutable request: `42ba9ee819b958248ca34aea00cfe7a44d7b7516:vp/records/audits/A-000008/request.md`, SHA256 `f8205da719cc3254d7954e0634594ad50ddb2a3fe4dcdd8739275220769fc087`. Version1.1 at this same commit. Retain project life plus365days; B21April2027/earlier relevant trigger.
+
+Fixed repository `/home/alexturner/verifiable-practice`, commit `42ba9ee819b958248ca34aea00cfe7a44d7b7516`, tree `bbece560015b4bbaa3c3b1a1bccb712d6c1cdbfe`. Scope: all product paths outside `vp/` (69), current `vp/` views/records/workspace and unique evidence/historical successor indexes at this commit. Enumerate fixed Git objects independently; no live substitutions. Historic baseline `9605ad0dccea157880a05208babfdac5aa5a5fcd`, tag records-archive-2026-10; original A7/V15 and root/retired records resolve their unchanged baseline paths. Own future A8 report/assessment/input metadata, later D27/seals/final-reader/receipt are outside this freeze. Their exclusion does not exclude any earlier copied packet/source.
+
+Verified self-contained candidate replica: `/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000008-candidate.bundle`, SHA256 `741ce7844ad71792ca3d1dcd13ae10c82f5949b0abe20a5b824125625124cbe2`. Earlier evidence replicas in the same independent directory `/home/alexturner/vp-preserved/verifiable-practice/review-20261021`:
+- `baseline.bundle` SHA256 `d6a700b563433ee68a3415a60b19c301f52e8b638141b0cae74154abf45abd67`
+- `trial-01.bundle` SHA256 `09fb3eb9fde9ba471154dcf33a132cd2943de7b23c6b992c56a0ce086d791bdc`
+- `minimal-D-baseline.bundle` SHA256 `40a51feef7cae5f9be37dbff0f544a0af1667e98ccca8656f26ab9934f0ffc66`
+- `minimal-D-result.bundle` SHA256 `895fbc668493802f2eccc251c0ca226b628eb6d1f3bca1be9688ece5c8649d1f`
+
+Actual baseline restore: `/home/alexturner/vp-preserved/verifiable-practice/review-20261021/restored-baseline`, all23,353 files compared, R13/restore-01. Isolated fixture outcome `/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture` at184b62fd18a33bd82d595f3285cc26427bc11086; read immutable Git objects/result bundle, not live edits. Its78-file baseline restore is at minimal-D-restored. No product bytes copied into this packet. R13's fixed objects supply source/hash/path/capture/evaluation details for current unique evidence, failures and trial limitations.
+
+Custodian worker/coordinator; ordinary Git SHA1 object IDs plus SHA256 bundle/evidence identities. Same-host separately retained bundles survive worktree/repository deletion, not host loss or malicious coordinated edits. Raw worker captures/narratives and fresh agent outputs are attributed, not authenticated action logs. Original detailed records/packets are locators only. preparation.json captures actual identity/bundle commands and reference time; no recursively expanded historic inventory. This packet has two small metadata files, with size bounded by present components/replica locators rather than earlier audit count.

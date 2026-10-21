@@ -1,0 +1,23 @@
+{
+  "start": "3c09749c6c71d348fb2b3172e86c10ee06bf0506",
+  "final": "184b62fd18a33bd82d595f3285cc26427bc11086",
+  "pre_action": "7a8a54b33192c3e6eb660d19e9b909bea76e1dab",
+  "product": "1cdd2bc89c1c4e7cb620f326bd13db26b271b6fd",
+  "new_paths": [
+    "vp/records/changes/C-000001/record.md"
+  ],
+  "change_listing": "M\tCHANGELOG.md\nM\tORIGIN.md\nM\tREADME.md\nM\tSKILL.md\nD\tconcepts/pte.md\nM\tdocs/document-work.md\nM\tdocs/project-records-scenarios.md\nM\tplaybooks/document-analysis.md\nD\tplaybooks/precise-technical-english.md\nM\tvp/COVERAGE.md\nM\tvp/LEDGER.md\nM\tvp/PLAN.md\nM\tvp/STATE.md\nA\tvp/records/changes/C-000001/record.md\n",
+  "new_canonical_records": [
+    "vp/records/changes/C-000001/record.md"
+  ],
+  "unchanged_contracts": {
+    "standards/project-records.md": true,
+    "SECURITY.md": true,
+    "concepts/zero-code-contract.md": true,
+    "concepts/verification-cycle.md": true,
+    "vp/PROJECT.md": true
+  },
+  "chronology": "184b62fd18a33bd82d595f3285cc26427bc11086 2026-10-21T05:56:47-07:00 Complete C1 D retirement checks, coverage and custody handoff\n1cdd2bc89c1c4e7cb620f326bd13db26b271b6fd 2026-10-21T05:56:04-07:00 Retire optional PTE technique while preserving substantive checks (D, C1, D1)\n7a8a54b33192c3e6eb660d19e9b909bea76e1dab 2026-10-21T05:54:35-07:00 Record D retirement rationale and checks before implementation (C1, D1)\n",
+  "record_oid": "ae9a610a1f54e8fbd1963c4cc039be0bd6e6ba93",
+  "record_sha256": "546139b1a098f8cccd0eaf1ef3e25631e5e4d8cc354512cd761f80a976cbce2d"
+}

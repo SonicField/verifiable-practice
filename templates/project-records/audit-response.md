@@ -1,7 +1,7 @@
 # <V-ID>: Response to <A-ID/F-ID>
 
 **ID:** <V-ID>
-**Type:** event — audit-response
+**Type:** event — audit-response (A/B; C/D may use a dated change/successor entry with these relevant fields instead of a separate V)
 **Audit kind:** project
 **Created:** <UTC timestamp>
 **Author/operator:** <working AI identity/session>

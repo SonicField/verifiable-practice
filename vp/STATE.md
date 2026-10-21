@@ -1,16 +1,16 @@
 # Current State
 
-**As of:** 2026-10-21 12:46:24 UTC
+**As of:** after A8 response, 21 October2026 UTC
 **Stage:** S4, implementing assurance/custody simplification under D26,
 level B. It is not accepted and has no current conformance verdict.
 
-**Open findings:** A7/F001 is a historical navigation advisory. V15 corrected
-labels in the old views; current plain views also name this stage. Fresh A8
-must assess independent closure. No new mandatory finding has been issued.
+**Open findings:** A8/F001 is a mandatory source-alignment gap. V17 repaired
+unconditional separate-event routes; fresh A9 must assess closure. A8 is
+nonconformant. A7/F001 navigation advisory is independently closed by A8.
 
-**Next action:** finish R13's minimal-record/duplicate/packet/consistency checks
-and coverage, then commission A8 for the B acceptance gate. After a conformant
-report, record D27, test final STATE with a fresh reader and commit the handoff.
+**Next action:** commission fresh A9 against V17 and the fixed current candidate.
+B acceptance is blocked until its conformant report. Then record D27, finish
+recovery handoff, test final STATE with a fresh reader and commit all records.
 
 Baseline 9605ad0 is tagged records-archive-2026-10 and fully restored from its
 separate bundle with zero mismatches. Old detailed records/current-source

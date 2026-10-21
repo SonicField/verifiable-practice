@@ -59,7 +59,10 @@ flowchart TD
 For each A, `request.md` identifies inputs, scope, role and budget;
 `record.md` is the assessor's report. Packet metadata has a manifest under
 `artefacts/<A-ID>/input/`: fixed commit, bounded scope and verified replica/external-evidence locators only, with no source copy or earlier packet contents. Findings have IDs such as `A-000001/F-001`.
-The working AI answers using a V event of kind `audit-response`. A successor
+At A/B the working AI answers using a V event of kind `audit-response`;
+at C/D it may use a dated change/successor entry, preserving the original
+sealed revision and identifying the finding, evidence and proposed disposition.
+No separate V is imposed solely by VP at C/D. A successor
 A report closes the finding against a new snapshot. State and ledger provide
 the current view while all original reports remain readable.
 
@@ -96,7 +99,8 @@ The assessor must also issue an explicit report: silence can mean no review.
 
 ## Example: Missing Test Provenance
 
-This history is illustrative, not an executed trial:
+This level-B history is illustrative, not an executed trial. Its expanded
+records do not impose the same form on C/D:
 
 1. A-000001/F-001 observes that D-000014 cites “all tests passed”, but its
    cited R lacks executable identity and raw output. The auditor searched the

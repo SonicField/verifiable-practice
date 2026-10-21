@@ -22,7 +22,7 @@ an AI owner; preparation self-check is not an independent pass>
 **Input packet:** <manifest, source/record snapshots; pre/post digest checks>
 **Evidence custody/access:** <authored versus captured versus independent
 capture; who could alter inputs; omissions and search ranges>
-**Previous audit/responses:** <A/F and V links; prior findings may be wrong>
+**Previous audit/responses:** <A/F and level-appropriate response entry links; prior findings may be wrong>
 **Structural coverage:** <complete inventory and completeness method>
 **Semantic trace selection:** <all units or declared sample method/limitations>
 **Required checks:** <standard §11 checklist; evidence recovery check>

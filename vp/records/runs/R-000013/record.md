@@ -24,3 +24,7 @@ Worker summary, 21 October2026; exact captures/inputs and per-attempt limits res
 - Cold-reader01 received only the earlier STATE, identified S4/open advisory/next action correctly against predeclared rubric. Final changed STATE still needs a new fresh trial. External design-source fetch unavailable; references explicitly remain owner-supplied inspirations, not verified certification/objective counts.
 
 Independent A8 gate, separate D27 acceptance and final-state reader/replica/handoff are pending. Batch remains open for those labelled boundary outcomes; none is implied by passing worker checks. All relevant observed failures above remain retained.
+
+## A8 gate and response check
+
+A8 at42ba9ee returned sealed nonconformant: F001 secondary routes mandate V despite permitted C/D forms; A7/F001 independently closed. Auditor separately retains whole structural/custody and selected semantic accounting. V17 pre-action response preserves the original report and repairs the general route inconsistency; current-check05 passes69 product/338 local targets and identity/no-copy controls. V preparation and product patch each had one failed context match before mutation; both are disclosed inline. A9 fresh closure and separate B acceptance remain pending. Later full-recovery handoff instrument is optional worker boundary evidence, not auditor technical execution or part of A8's own freeze.

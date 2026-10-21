@@ -13,7 +13,7 @@
 **Validity reference time:** <UTC time used to assess deadlines>
 **Input packet:** <fixed commit, bounded scope paths, verified replica/bundle and external evidence hashes; artefacts/A-ID/input/MANIFEST.md; no copied source or earlier packets>
 **Applicable assurance gates:** <A protocol/results; B acceptance; C declared sample/stage; D/E none automatic>
-**Previous findings/responses:** <A/F and V links or first audit>
+**Previous findings/responses:** <A/F and level-appropriate response entry links, or first audit>
 **Required checks:** <standard §11; explicitly bounded selection>
 **Output:** <records/audits/A-ID/record.md; own retained evidence location>
 **Gate:** <predeclared acceptance/conformance consequence, not new authority>
@@ -53,5 +53,6 @@ Produce a sealed A report even if no findings are found. Each finding needs
 an A-ID/F-ID, requirement/claim, affected records, exact evidence/search scope,
 classification, unknowns, dependent impact, response request and closure
 condition. Do not infer fabrication merely from absent evidence.
-The working AI will respond through new V records; closure requires a fresh
+The working AI will respond through new V records at A/B, or dated change/
+successor entries at C/D preserving the original sealed revision. Closure requires a fresh
 independent follow-up A against a new frozen packet.

@@ -77,16 +77,21 @@ an implementation conversation. The coordinator routes the report.
 ## 5. Worker: Respond with Records
 
 Read each finding and closure condition. Check authority before technical
-work. Use a new V [audit response](../templates/project-records/audit-response.md)
-for the finding or a bounded group of findings.
+work. At A/B use a new V [audit response](../templates/project-records/audit-response.md)
+for the finding or a bounded group. At C/D use a dated change/successor entry
+with the same finding/evidence/disposition information; no separate V is
+required solely by VP. Preserve the original sealed revision and never rewrite
+old fields as if they had contained the response.
 
 - Supply preserved evidence that already exists, with exact identity and
   original capture information.
 - Reconstruct missing explanation with current attribution, sources and
   unknowns; preserve the old record and reconstruction date.
-- Correct a sealed record through a new event or successor record.
-- Where new technical evidence is required, commission H/E and execute new
-  B/R/C/D work as appropriate. Record new occurrence dates and every outcome.
+- Correct a sealed record through a level-appropriate dated successor entry
+  or commit; use a separate event where A/B or external requirements demand it.
+- Where new technical evidence is required, apply the consequence level:
+  A uses H/E and identified builds/runs, B/C may combine hypothesis/protocol
+  fields, D its inline check. Record new occurrence dates and every outcome.
 - Dispute an incorrect finding with evidence, or acknowledge irrecoverable
   history and request a prospective retention/investigation decision.
 
