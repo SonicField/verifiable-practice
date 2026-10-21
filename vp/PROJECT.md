@@ -7,11 +7,12 @@ an authorised reason and appropriately tested evidence. D26 is the current
 mandate to address the review's three concerns; original D1 is preserved at
 `9605ad0:vp/records/decisions/D-000001/record.md`.
 
-**Current stage:** S4 product/control transition accepted by D27 after A10;
-local handoff requires the matching final completion receipt.
+**Current stage:** D28/A11 owner-requested level-C Project Audit of c100fbd;
+prior S4 transition acceptance under D27/A10 retains its exact scope.
 **Open findings:** none. A10 closes A8/F001 and A9/F001; A7/F001 remains closed.
-**Next action:** owner verifies the containing revision/completion receipt,
-reviews results and selects further work within the unchanged mandate.
+**Next action:** auditor reports; coordinator exposes verdict/findings to the
+owner without repair. New audit budget: one20-minute round/up to40minutes
+coordinator work under D28; unresolved gaps route the owner's decision.
 
 ## Scope and Authority
 

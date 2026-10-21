@@ -1,12 +1,14 @@
 # Current State
 
-**Stage:** S4 accepted under D27 after independent conformant A10, standard1.1.
+**Stage:** D28 owner-requested level-C Project Audit A11 in progress, standard1.1.
 **Open findings:** none. A10 independently closes A8/F001 and A9/F001;
 A7/F001 remains closed. The original A8/A9 verdicts remain nonconformant.
-**Next action:** owner verifies the containing commit against the completion
-receipt, reviews the results and chooses further work within the mandate.
+**Next action:** fresh independent auditor reports on fixed revision c100fbd;
+coordinator records its verdict/findings and hands them to the owner. No repair
+or new conformance claim is authorised by this inspection.
 
-No technical work or background process remains. Local handoff is verified
+The auditor is active; technical implementation is idle. The prior S4 acceptance
+under D27/A10 retains its exact scope. Local handoff is verified
 only when the receipt in
 `/home/alexturner/vp-preserved/verifiable-practice/review-20261021/completion/MANIFEST.md`
 matches the containing Git revision and recovered-byte results. If missing or

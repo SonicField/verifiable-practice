@@ -2,6 +2,8 @@
 
 | Record | State | Origin / purpose |
 |---|---|---|
+| [D28](records/decisions/D-000028/record.md) | Open C audit commissioning | Current owner's explicit fresh-context level-C Project Audit request |
+| [A11 request](records/audits/A-000011/request.md) | Independent audit in progress at c100fbd | D28; immutable request d995976, own report pending |
 | [C7](records/changes/C-000007/record.md) | Completed D terminology clarification; receipt-conditioned custody | Current owner; pre-action0639294, D26/D27/root custody |
 | [D26](records/decisions/D-000026/record.md) | Sealed accepted via D27 | Owner feedback; original D25/D1 at baseline |
 | [R13](records/runs/R-000013/record.md) | Sealed bounded evidence batch | D26; actual restore, failures, classification, final reader/source/custody |
@@ -17,7 +19,7 @@ Retired IDs resolve to `9605ad0:vp/records/<type>/<ID>/record.md` (audit request
 at request.md). Baseline tag is records-archive-2026-10; successor owner
 manifests give original evidence/manifest locators. Original maximum IDs are
 D25/S3/H10/E12/R12/C6/V15/A7; never reuse them. D26/R13/V16 are allocated above;
-S4 names this stage in D26. D27/A10 are now allocated; next unused C8/D28/V19/R14/A11.
+S4 names this stage in D26. D28/A11 are now allocated; next unused C8/D29/V19/R14/A12.
 
 A7/F001 is closed by A8; its old report/response remain baseline history.
 A8/F001 and residual A9/F001 are independently closed by A10. Original inconclusive/failed/pass/withdrawn
