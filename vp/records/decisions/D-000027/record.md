@@ -4,11 +4,11 @@
 **Type:** separate acceptance and handoff disposition
 **Created:** 2026-10-21 13:23:00 UTC
 **Author/operator:** Codex /root, delegated local completion coordinator; not the independent assessor
-**Status:** scoped product/control transition accepted; final handoff evidence open
+**Status:** sealed scoped acceptance; handoff reliance requires matching final receipt
 **Origin:** D26/current human owner's explicit instruction to complete the three-concern repair; R13 and sealed independent A10
 **Goal served:** original D1 at9605ad0; portable, traceable VP under the owner's unchanged purpose
 **Assurance:** B for combined governance/custody transition
-**Sealed:** open until final boundary results
+**Sealed:** 2026-10-21 13:25:52 UTC
 
 ## Authority and acceptance after evidence
 
@@ -30,3 +30,7 @@ Custody is independently retained on the same host: protects directory/repositor
 ## Boundary work before final completion
 
 Under already declared D26/R13 protocol, commit source/current records together, actually restore the complete handoff checkpoint outside the project and compare all paths/modes/bytes, present final plain STATE to a fresh reader with no extra context, preserve evaluation/failed attempts, seal this acceptance and open batch, then commit complete local records and verify final replica. Containing Git revision and external completion receipt supply final identity without circular self-commit claims. Stop on failed recovery/reader/identity or new mandatory gap. No new product edit, independent closure claim or date renewal is implied by later bookkeeping.
+
+## Terminal local disposition at 2026-10-21 13:25:52 UTC
+
+Actual handoff47ea2e2 full independent recovery235 files/zero mismatches; final STATE reader02 at702c723 passes stage/findings/next-action and receipt-condition criteria; check08 and actual Git comparison preserve all69 A10-assessed product bytes. R13 is sealed with exact raw outcomes and limitations. No technical work, active process or open finding remains. Current STATE/PROJECT/PLAN give the next owner action: verify final containing commit against `/home/alexturner/vp-preserved/verifiable-practice/review-20261021/completion/MANIFEST.md`, review results, choose further work. This receipt is generated only after the containing commit and independently verifies/restores that complete tree; until matching, local completion is unverified and worker resumes custody. Final receipt evidence is native content-addressed and independently replicated outside the worktree. No additional product source, publication, enlarged audit scope or date-only renewal.

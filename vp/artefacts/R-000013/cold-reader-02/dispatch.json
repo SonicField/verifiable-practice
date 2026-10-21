@@ -1,0 +1,13 @@
+{
+  "time": "2026-10-21T13:25:20.896381+00:00",
+  "participant": "/root/final_state_cold_reader",
+  "fork": "none",
+  "input_revision": "702c723a35f4ab3502d854f87f941ad087c86e9e",
+  "input_path": "vp/STATE.md",
+  "input_sha256": "618957fa9b13d4b8fc96edafa8c817a80ebec5c9026a8a2943868388c24bc134",
+  "write_boundary": "vp/artefacts/R-000013/cold-reader-02/response.md",
+  "other_input_access": "prohibited; only immutable STATE via git show",
+  "response_sha256": "4803619d23726b2c705ea5f432d42c54a83a7715380c6ae634b6394e758018a1",
+  "outcome": "pass three semantic criteria",
+  "limits": "Task/input/isolation/response attribution, not authenticated served build/access logs. No product source copy or inherited private context."
+}

@@ -4,10 +4,10 @@
 **Type:** evidence batch
 **Created:** 2026-10-21 12:36:42 UTC
 **Author/operator:** Codex worker /root and separately attributed fresh trial participants
-**Status:** open; no execution outcome assumed
+**Status:** sealed; labelled outcomes support bounded criteria
 **Origin:** [D-000026](../../decisions/D-000026/record.md)
 **Goal served:** D-000001 through D26
-**Sealed:** open
+**Sealed:** 2026-10-21 13:25:52 UTC
 
 D26 fixes inputs, predictions/falsifiers, acceptance, controls and stop rules before this batch. No compiled build is applicable. Each member/attempt retains its exact source, command or participant request, identity, individual time/status/raw result and limitations under artefacts/R-000013. Capture original restore, classification, packet-growth/duplicate scan, source consistency, cold-reader and independent-gate evidence; never overwrite a failed attempt with a retry. Results support only their stated scope. Independent audit is a separate A, not a worker self-check. Trigger review/B horizon and retained baseline/replica are D26's policy.
 
@@ -40,3 +40,9 @@ A10 at20bb26b is independently conformant within its declared structural/relevan
 ## Actual handoff recovery01
 
 Fixed checkpoint `47ea2e2d5f7879a6d92fe191d0964166b269003c` independently bundled/verified and actually cloned/checked out externally. All235 paths/modes/bytes compared, zero mismatches, 31514483 bytes. Actual instrument/tool/commands/identities and negative changed-byte control retained in handoff-01/results.json. Source bytes exist only Git/replica and external recovery checkout, never copied into project evidence. Same-host recovery, not authenticated actions or host-loss protection. Final STATE has a new immutable reader protocol/rubric in cold-reader-02; its result and final record/replica seal remain pending.
+
+## Final boundary outcome at 2026-10-21 13:25:52 UTC
+
+Final reader02 at fixed702c723 STATE passes all three predeclared semantic criteria; exact source SHA/input/response/evaluation and isolation limits retained. Final current-check08 passes69 product identities/359 local destinations, frontmatter/fences and negative controls, oneSKILL/no-pte/no equal-byte product copy. Its scan241 files/31,713,181 bytes precedes its own two generated outputs and final seal edits; use the containing final Git tree for terminal count, not an invented earlier scan count. All69 product bytes equal independently assessed20bb26b (actual Git diff exits0). Actual complete handoff47ea2e2 recovery235 files has zero mismatches. Native evidence/manifests are retained/version-controlled; original failures remain.
+
+This seals actual batch outcomes and bounded support, not universal efficacy/authentication. D27 is separate B acceptance; final containing commit/complete replica and recovered-byte proof are necessarily captured afterwards in the external completion receipt, never a circular self-commit assertion. Receipt must match before local handoff reliance; missing/mismatching custody means resume worker completion. Same-host limits and root/dependency cap persist; accepted B review19April2027 per D27 shortens the initial planning window. No source/gate change or new audit verdict is created by these final records.

@@ -2,12 +2,12 @@
 
 | Record | State | Origin / purpose |
 |---|---|---|
-| [D26](records/decisions/D-000026/record.md) | Accepted via D27; final seal pending | Owner feedback; original D25/D1 at baseline |
-| [R13](records/runs/R-000013/record.md) | Open labelled evidence batch | D26; actual restore, failures, classification and remaining checks |
+| [D26](records/decisions/D-000026/record.md) | Sealed accepted via D27 | Owner feedback; original D25/D1 at baseline |
+| [R13](records/runs/R-000013/record.md) | Sealed bounded evidence batch | D26; actual restore, failures, classification, final reader/source/custody |
 | [A8](records/audits/A-000008/record.md) | Original nonconformant; F001 closed by A10 | D26; B gate, A7 advisory closed |
 | [A9](records/audits/A-000009/record.md) | Original nonconformant; F001 closed by A10 | D26; V17 closure failed |
 | [A10](records/audits/A-000010/record.md) | Conformant at20bb26b, prior gaps closed | D26/V18; fixed scope only |
-| [D27](records/decisions/D-000027/record.md) | Separate accepted B transition; handoff open | D26/R13/A10, existing owner delegation |
+| [D27](records/decisions/D-000027/record.md) | Sealed B acceptance; receipt-conditioned handoff | D26/R13/A10, existing owner delegation |
 | [V18](records/events/V-000018/record.md) | Sealed response; A10 independently closes findings | A9/F001; correct search claim/general downstream prescriptions |
 | [V17](records/events/V-000017/record.md) | Sealed first response; A9 closure failed | A8/F001; general minimum-form route correction |
 | [V16](records/events/V-000016/record.md) | Sealed adoption summary/retirement | D26; full original history at baseline/replica |

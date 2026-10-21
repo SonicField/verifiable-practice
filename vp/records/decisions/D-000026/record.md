@@ -4,10 +4,10 @@
 **Type:** decision and transition plan
 **Created:** 2026-10-21 12:36:42 UTC
 **Author/operator:** Codex worker /root, under the current human owner's active goal
-**Status:** selected; implementation open
+**Status:** sealed; implemented and separately accepted by D27
 **Origin:** `9605ad0:vp/records/decisions/D-000025/record.md` (retired original, baseline tag/replica); current owner instruction to action all three concerns in [feedback](../../../artefacts/D-000026/feedback.md)
 **Goal served:** D-000001, portable and inspectably justified VP work; preserve the authorised root and missing-history limits
-**Sealed:** open until transition results are accepted
+**Sealed:** 2026-10-21 13:25:52 UTC
 **Assurance:** B for this combined governance/custody migration: a defective history migration could conceal serious record loss. Ordinary typo/removal work must not inherit B from this task. Classification fixed before maintained edits.
 
 ## Observations → general problems → choices
@@ -50,3 +50,7 @@ A8 is nonconformant at42ba9ee: an unconditional separate-event instruction survi
 ## Dated amendment after A9
 
 A9 remains nonconformant for residual routing/scenario prescriptions, with A8/F001 still open/A9/F001 added. V18 corrects V17's overbroad search claim and fixes the general information-versus-file prescription across canonical entry points, oracles, investigation/templates and successor language. Whole69 search and bounded semantic dispositions, checks06/07 and failure history remain owned R13. A10 is the third declared fresh round; no acceptance or automatic closure before its verdict. No thresholds, standard, claimed history, authority or budget silently changed.
+
+## Terminal disposition at 2026-10-21 13:25:52 UTC
+
+R13 retains complete restoration/pruning, failed and successful independent classifiers, actual one-record D replay, bounded packets, source checks and final STATE reader. A8/A9 were nonconformant; V17/V18 responses preserve failures and correct the overstated first search. Fresh A10 at20bb26b independently closes both F001s and is conformant within scope. D27 separately accepts the portable1.1 transition; no pre-action criterion was weakened. Final STATE is immutable-tested702c723, actual handoff47ea2e2 restored235 files without mismatch. Source/record commit and final independent complete replica are witnessed by the matching external completion receipt. Accepted B window is shortened by D27 to19April2027, with root17January/earlier triggers capping reliance; prior evidence is not renewed. This sealed choice links later outcomes without rewriting original missing-history or efficacy limits.
