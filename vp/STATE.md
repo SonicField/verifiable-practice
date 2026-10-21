@@ -2,7 +2,7 @@
 
 **As of:** after A8 response, 21 October2026 UTC
 **Stage:** S4, implementing assurance/custody simplification under D26,
-level B. It is not accepted and has no current conformance verdict.
+level B. It is not accepted; this candidate has no conformant verdict.
 
 **Open findings:** A8/F001 is a mandatory source-alignment gap. V17 repaired
 unconditional separate-event routes; fresh A9 must assess closure. A8 is
