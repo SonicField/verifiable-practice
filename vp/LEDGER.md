@@ -2,10 +2,10 @@
 
 | Record | State | Origin / purpose |
 |---|---|---|
-| [A12 request](records/audits/A-000012/request.md) | Fresh C-stage Project Audit active at e4389a0 | C8; request d9e38ec; report pending |
-| [C8](records/changes/C-000008/record.md) | Open C evidence-role contract correction; gate pending | Current owner binary-retention feedback; prospective1.2, A12 reserved |
-| [D28](records/decisions/D-000028/record.md) | Sealed C audit completion; receipt-conditioned handoff | Current owner; fresh A11, STATE reader/checks; F001 still open advisory |
-| [A11](records/audits/A-000011/record.md) | Sealed conformant at c100fbd, open advisory F001 | D28; immutable request d995976; no mandatory gaps established |
+| [A12](records/audits/A-000012/record.md) | Sealed conformant1.2 at e4389a09; A11/F001 closed | C8; request d9e38ec; no new findings |
+| [C8](records/changes/C-000008/record.md) | C acceptance after A12; handoff checks pending | Current owner binary-retention feedback; prospective1.2 at e4389a09 |
+| [D28](records/decisions/D-000028/record.md) | Sealed C audit completion; receipt-conditioned handoff | Current owner; fresh A11, STATE reader/checks; F001 subsequently closed by A12 |
+| [A11](records/audits/A-000011/record.md) | Sealed conformant at c100fbd; original F001 advisory closed by A12 | D28; immutable request d995976; no mandatory gaps established |
 | [C7](records/changes/C-000007/record.md) | Completed D terminology clarification; receipt-conditioned custody | Current owner; pre-action0639294, D26/D27/root custody |
 | [D26](records/decisions/D-000026/record.md) | Sealed accepted via D27 | Owner feedback; original D25/D1 at baseline |
 | [R13](records/runs/R-000013/record.md) | Sealed bounded evidence batch | D26; actual restore, failures, classification, final reader/source/custody |
@@ -27,6 +27,6 @@ A7/F001 is closed by A8; its old report/response remain baseline history.
 A8/F001 and residual A9/F001 are independently closed by A10. Original inconclusive/failed/pass/withdrawn
 verdicts remain in V16's sourced historical summary, not silently changed.
 
-A11/F001 remains open advisory; no worker response or owner disposition is
-independent closure. A11's verdict covers c100fbd and its declared selection,
+A11/F001 independently closed by A12 at e4389a09; original advisory and
+1.1 verdict remain preserved. Worker response/owner disposition was not closure. A11's verdict covers c100fbd and its declared selection,
 not its own later assessment or current tracking outputs.

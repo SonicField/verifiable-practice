@@ -1,26 +1,29 @@
 # Current State
 
-**Stage:** C8 evidence-role/retention contract correction in progress; standard1.2
-adopted prospectively. Earlier A11 conformant verdict covers1.1 atc100fbd only.
-**Open findings/gates:** A11/F001 open advisory; C8 provides a coverage-view response,
-not independent closure. Fresh C-stage Project Audit A12 is active before acceptance.
-No other mandatory finding is currently open; prior A7/A8/A9 closures retain scope.
-**Next action:** fresh A12 auditor assesses fixed e4389a0 and reports only;
-source checks and the bounded instruction probe passed within their stated scope;
-worker records results under C8, keeping any gaps visible for the owner.
+**Stage:** C8 standard1.2 evidence-role/retention correction accepted locally
+at e4389a09 after fresh independent Project Audit A12. Later handoff records
+are outside A12's assessed revision; they do not enlarge its verdict.
+**Open findings:** none. A12 independently closes A11/F001; prior A7/A8/A9
+closures retain their original scopes and historical verdicts remain preserved.
+**Next action:** owner verifies the containing revision/completion receipt,
+reviews C8/A12 and selects further work. No auditor or technical work is active.
 
-No existing evidence/binaries are being deleted. Preserve experiment records,
-raw results and required unique inputs; executable identity alone creates no
-binary-retention obligation. Owned temporary resources follow standard §6.1.
-Recipe, reconstruction, experiment repetition and byte recovery are separate claims.
+The durable record retains relevant source/patches, dependency/toolchain
+specifications, commands/configuration/workloads, unique raw inputs/results and
+analysis with environment limits. Executable digests identify what ran without
+requiring the binaries. Owned working binaries/tools are disposable unless
+actual bytes have a specific evidence/deliverable obligation and period.
+Binary-format raw measurements remain evidence. Recipe, tested reconstruction,
+experiment repetition and byte recovery are separate claims; no successful
+build or experimental reproduction was established by this document change.
 
-Safe resume: read C8, current charter/plan and exact source revision. C gate
-must pass before accepting the changed contract. Historical D27/A10 acceptance
-and A11 verdict do not cover this candidate. Root17January2027 caps reliance;
-C21October2027/earlier triggers and D/E trigger-only policies remain.
+Safe resume: read C8/A12 and exact revision, preserve failures/limits, classify
+new work and apply its gates. Earlier A11 atc100fbd and D27/A10 at20bb26b are
+historical1.1 scopes. Root17January2027 caps C21October2027/B19April2027 policies
+and earlier triggers; D/E trigger-only. No existing binary/evidence was deleted.
 
 Local handoff requires the containing commit to match the verified completion
 receipt at
 `/home/alexturner/vp-preserved/verifiable-practice/review-20261021/completion/MANIFEST.md`.
-If absent/mismatched, complete worker custody before relying on the handoff.
+If absent/mismatched, complete worker custody before relying on this handoff.
 Same-host replicas do not protect whole-host loss or authenticate past actions.

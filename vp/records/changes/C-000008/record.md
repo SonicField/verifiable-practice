@@ -177,3 +177,39 @@ not experiment/build/environment reproduction. No runtime binary archived.
 Fresh auditor `/root/c8_evidence_contract_project_auditor`, no inherited turns,
 is active under immutable request; one20-minute first round. Own later assessment/
 acceptance/views/receipt are outside its fixed candidate. Results pending.
+
+### Independent result and C acceptance, 17:38:32 UTC
+
+Fresh A12 sealed17:38:05, conformant1.2 at e4389a09/tree792df96,265-path structural
+scope/all21 changed products, no new findings. A11/F001 independently closed for
+its original aggregate acceptance/revision condition, preserving A11's original
+1.1 advisory/verdict. Report SHA256f08d0785c1b32c773af9613fe5db7c9bd49917863dab4bce8620a858039f9ac1.
+Assessor performed only fixed Git/file/link/digest/accounting inspections; no
+project execution/restore/technical repair/commit or acceptance, and no agents
+were delegated. Same-host custody, unauthenticated actions/configuration and
+selected semantic scope remain explicit. It independently compared existing
+265/266-file recoveries; it did not reproduce any experiment. Its four unique
+assessment manifest sizes/digests and sealed report identity match worker custody
+check, PASS. Gate completed in first permitted20-minute round; no audit retry.
+
+Under the current owner-authorised local correction and C combined-record
+acceptance rule, worker accepts the21 changed product files at e4389a09 after
+A12: required durable data/source/specifications preserved, no default binary/
+machine capture, executable provenance separate from custody, temporary-resource
+checks and exact-byte obligations scoped, and reproduction claims separately
+bounded. All eight reader oracles and source checks passed with recorded limits.
+This is delegated local C completion, not a statement that the human reviewed
+these bytes or accepted product quality; no publication or other-project migration.
+Later handoff records/reader/custody are outside A12's assessed candidate.
+
+Final STATE cold-reader protocol before dispatch: a fresh reader receives only
+its immutable new STATE bytes, not C8/A12/expected answers. In one five-minute
+answer, it must identify C8 accepted locally under1.2 after scoped A12, no open
+findings/A11/F001 independently closed, next owner verification/review/new-work
+decision, and matching containing revision/receipt prerequisite. It must not
+infer successful experimental reproduction or binary/machine retention obligation.
+Missing/wrong answers fail; retain outcome and do not claim understanding until
+resolved. Then verify final containing-commit recovery/replica outside worktree,
+preserve native proof and update external completion reference without circular
+self-commit identity. These boundary checks do not expand A12 or establish
+experimental reproducibility. Final completion pending those checks/receipt.

@@ -1,23 +1,20 @@
 # Current Plan
 
-**Stage:** C8 standard1.2 evidence-role/retention correction, actual consequence C.
-**Goal:** retain experiment source/specifications/results and provenance without
-requiring preservation of every executable/toolchain/environment.
-**Open:** fresh C-stage audit A12 active; A11/F001 advisory response awaits review.
-**Next:** fresh A12 auditor reports on e4389a0; source checks/probe passed within
-stated scope. Worker records outcome, C acceptance only after its gate.
+**Stage:** C8 evidence-role/retention contract correction complete, standard1.2.
+**Result:**21changed product files at e4389a09 accepted under C8 after fresh
+conformant A12; A11/F001 independently closed, no open findings.
+**Next action:** owner verifies matching containing revision/completion receipt,
+reviews C8/A12 and selects further work. No active auditor/technical process.
 
-Deliverables: consistent standard/routes/forms/design and scenario oracles,
-identified source/probe results, fresh audit report, accurate coverage/current views,
-fresh final STATE read and independently recoverable containing records.
-No existing binary/data deletion or other-project migration is authorised here.
+All69 products accounted; source/frontmatter/routes/link/fence/coverage checks
+passed; the single fresh eight-case instruction probe passed its bounded oracles.
+No actual build/environment reconstruction/experiment repetition or universal
+AI reliability/benefit claim follows. No existing evidence or binary was deleted.
+Final STATE reader and containing-commit byte recovery are separate handoff checks
+recorded in C8/its external receipt; until matching, custody completion is conditional.
 
-Budget: up to60minutes worker and two20-minute independent rounds. Retain failed
-checks/retries. A failed probe or mandatory gap blocks affected acceptance; at
-limits expose gaps and route the owner. Project Auditor never executes technical
-tests, chooses repairs or accepts owner work. A recipe or byte restore is not
-experiment reproduction; missing environment/raw-data limits remain visible.
-
-C8 changes are prospective1.2, not retroactive1.1 conformance. Prior A11 atc100fbd
-and D27/A10 at20bb26b retain scope. Root17January2027 caps C21October2027 and
-B19April2027 policies; relevant triggers remain, D/E trigger-only.
+C8 used one of two permitted20-minute independent rounds within its60-minute
+worker budget. The stage gate is satisfied; later handoff outputs do not enlarge
+A12's source scope. Historical failures and1.1 verdicts remain intact. Future
+work classifies its own consequence/gates; root17January2027 caps the justified
+C21October2027/B19April2027 policies and relevant triggers, D/E trigger-only.

@@ -1,0 +1,134 @@
+{
+  "captured": "2026-10-21T17:35:39.310848+00:00",
+  "revision": "e4389a09eed77ef09b6ee728b448e5f7e9b1bfb6",
+  "tree": "792df96ad9dd5d8250ba6805cdce78e4c614c684",
+  "paths": 265,
+  "bytes": 32063045,
+  "components": {
+    "products": 69,
+    "views_workspace": 7,
+    "records": 17,
+    "artefacts": 172
+  },
+  "request_sha256": "ecd36e7ff4d3d3843f2d8c0c39f1c0e3075cddaa9e60b80b56a5152af124797e",
+  "changed_products": [
+    "CHANGELOG.md",
+    "README.md",
+    "SKILL.md",
+    "docs/discovery-and-recovery.md",
+    "docs/how-vp-works.md",
+    "docs/independent-record-audit.md",
+    "docs/project-records-design.md",
+    "docs/project-records-examples.md",
+    "docs/project-records-scenarios.md",
+    "docs/project-records.md",
+    "playbooks/project-records.md",
+    "playbooks/record-audit.md",
+    "playbooks/recovery.md",
+    "standards/project-records.md",
+    "templates/project-records/README.md",
+    "templates/project-records/build.md",
+    "templates/project-records/manifest.md",
+    "templates/project-records/project.md",
+    "templates/project-records/root.md",
+    "templates/project-records/run.md",
+    "templates/project-records/workspace.md"
+  ],
+  "coverage": {
+    "rows": 69,
+    "missing": [],
+    "extra": [],
+    "mismatches": []
+  },
+  "product_duplicates": [],
+  "skill_paths": [
+    "SKILL.md"
+  ],
+  "pte_paths": [],
+  "assurance_1_1_identical": true,
+  "c7_changed_products_from_A10": 25,
+  "old_products_unchanged_c100fbd_to_b9984e5": true,
+  "links": {
+    "scope": "all tracked Markdown Git objects; inline links outside fenced blocks",
+    "destinations": 375,
+    "product_destinations": 256,
+    "fragments_not_assessed": 12,
+    "external_not_assessed": 8,
+    "errors": []
+  },
+  "manifests": {
+    "current_entries": 126,
+    "historical_indexes": 32,
+    "errors": []
+  },
+  "recovery": [
+    {
+      "label": "c8-candidate",
+      "revision": "e4389a09eed77ef09b6ee728b448e5f7e9b1bfb6",
+      "paths_compared": 265,
+      "bytes_compared": 32063045,
+      "proof_sha256": "b7d6452e28b7c1f32605ca8caeee79c4b3cd112c29f6d6d0f82f977c85d9516b",
+      "replica_exists": true,
+      "replica_matches": true,
+      "bundle_sha256": "f195501ab0597cec2f329d331597798c3f7be8a87ff7bfd035303f5835ece892",
+      "bundle_matches_claim": true,
+      "bundle_verify_exit": 0,
+      "advertised_heads": [
+        "e4389a09eed77ef09b6ee728b448e5f7e9b1bfb6 HEAD"
+      ],
+      "worker_reported_errors": [],
+      "independent_existing_files_errors": []
+    },
+    {
+      "label": "a12-request",
+      "revision": "d9e38ec98fb4704211720988d6c353f1c5fd471c",
+      "paths_compared": 266,
+      "bytes_compared": 32070499,
+      "proof_sha256": "fd51421b327f78c81ab01ee26833a3f4749c83c42f036415301cc6e3b2941c54",
+      "replica_exists": true,
+      "replica_matches": true,
+      "bundle_sha256": "b7f80144adc6cc17bc2095a60aba30b3f9d846f1d1125c8f194ea0fa2ec92b7a",
+      "bundle_matches_claim": true,
+      "bundle_verify_exit": 0,
+      "advertised_heads": [
+        "d9e38ec98fb4704211720988d6c353f1c5fd471c HEAD"
+      ],
+      "worker_reported_errors": [],
+      "independent_existing_files_errors": []
+    }
+  ],
+  "external": [
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/completion/MANIFEST.md",
+      "expected_sha256": "1220fe7430e1fb98063c882faf5accfaa08cf54f8ea2c26b24afb1d331038bcd",
+      "actual_sha256": "1220fe7430e1fb98063c882faf5accfaa08cf54f8ea2c26b24afb1d331038bcd",
+      "replica": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/completion-replica/sha256/1220fe7430e1fb98063c882faf5accfaa08cf54f8ea2c26b24afb1d331038bcd/MANIFEST.md",
+      "replica_matches": true
+    },
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/completion/sha256/a3269e4c9894c3e7c610d522ba7ce86aac3eb85e8251b750ea76a9a83e945e58/check.py",
+      "expected_sha256": "a3269e4c9894c3e7c610d522ba7ce86aac3eb85e8251b750ea76a9a83e945e58",
+      "actual_sha256": "a3269e4c9894c3e7c610d522ba7ce86aac3eb85e8251b750ea76a9a83e945e58",
+      "replica": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/completion-replica/sha256/a3269e4c9894c3e7c610d522ba7ce86aac3eb85e8251b750ea76a9a83e945e58/check.py",
+      "replica_matches": true
+    }
+  ],
+  "probe_inputs": {
+    "vp/artefacts/C-000008/instruction-probe/request.md": "da99d5bbf538f1c97038841db043cd4bc6cf9602fffe1d495977f02afeeef12c",
+    "standards/project-records.md": "65ba8be4727515a13151a434f37bcd41c418f21a09b3c518077219148f74f11e",
+    "templates/project-records/build.md": "a758866b070f417a27e9364123d06fe693ccaa827b25642f9dd976ec2ad45007",
+    "templates/project-records/run.md": "531fd0bea5377b1b984c28b4ef1a2b58a52759cf44c92bdd638d7c6f2d8c4c4c",
+    "templates/project-records/manifest.md": "4c490718edc36e29430ea0e55db95704da6ca3779865f6b811f890a4c10a1537",
+    "templates/project-records/workspace.md": "f30b570464f9ace60e5845471ffdacda03c6ae6547f3de638b849664a58b7567"
+  },
+  "probe_later_changed_input_paths": [
+    "standards/project-records.md"
+  ],
+  "limits": "Read-only Git/file/link/digest/accounting. No project execution, new restore, external URLs, anchors, reference-style links, rendering, authenticated action/timing/authority or whole-host failure claim. Existing full input inventories referenced, not copied.",
+  "product_equal_bytes_elsewhere": [],
+  "request_only_later_path": [
+    "vp/records/audits/A-000012/request.md"
+  ],
+  "original_A11_report_unchanged": true,
+  "standard_sha256": "408b932d23efa9fd519fad0024c75daa5f98fc98a4d2309a98addb635b7fbefb"
+}

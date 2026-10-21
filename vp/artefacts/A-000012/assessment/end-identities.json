@@ -1,0 +1,31 @@
+{
+  "captured": "2026-10-21T17:36:50.314692+00:00",
+  "candidate": "e4389a09eed77ef09b6ee728b448e5f7e9b1bfb6",
+  "tree": "792df96ad9dd5d8250ba6805cdce78e4c614c684",
+  "request_sha256": "ecd36e7ff4d3d3843f2d8c0c39f1c0e3075cddaa9e60b80b56a5152af124797e",
+  "standard_sha256": "408b932d23efa9fd519fad0024c75daa5f98fc98a4d2309a98addb635b7fbefb",
+  "tracked_paths": 265,
+  "tracked_bytes": 32063045,
+  "request_only_later_path": [
+    "vp/records/audits/A-000012/request.md"
+  ],
+  "original_A11_report_unchanged": true,
+  "external_end_digests": [
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/c8-candidate-recovery.bundle",
+      "sha256": "f195501ab0597cec2f329d331597798c3f7be8a87ff7bfd035303f5835ece892"
+    },
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/a12-request-recovery.bundle",
+      "sha256": "b7f80144adc6cc17bc2095a60aba30b3f9d846f1d1125c8f194ea0fa2ec92b7a"
+    },
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/c8-candidate-recovery/results.json",
+      "sha256": "b7d6452e28b7c1f32605ca8caeee79c4b3cd112c29f6d6d0f82f977c85d9516b"
+    },
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/a12-request-recovery/results.json",
+      "sha256": "fd51421b327f78c81ab01ee26833a3f4749c83c42f036415301cc6e3b2941c54"
+    }
+  ]
+}

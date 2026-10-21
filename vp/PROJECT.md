@@ -1,18 +1,18 @@
 # Project Charter
 
-**As of:** final S4 handoff view, 21 October2026 UTC
+**As of:** C8 local handoff view, 21 October2026 UTC
 **Owner:** human commissioning user; worker/coordinator Codex /root.
 **Goal:** maintain a portable, usable VP method whose work can be traced to
 an authorised reason and appropriately tested evidence. D26 is the current
 mandate to address the review's three concerns; original D1 is preserved at
 `9605ad0:vp/records/decisions/D-000001/record.md`.
 
-**Current stage:** C8 evidence-role/retention correction under current owner feedback;
-standard1.2 adopted prospectively, C acceptance requires fresh A12 stage gate.
-**Open findings:** A11/F001 advisory, response in C8/current COVERAGE pending
-independent closure. Previous mandatory findings remain scoped closed.
-**Next action:** worker source/probe checks, fresh fixed-candidate Project Audit,
-then level-C completion only after declared gates; no other-project data deletion.
+**Current stage:** C8 standard1.2 correction accepted locally at e4389a09 after
+fresh conformant A12, within declared C stage scope.
+**Open findings:** none; A12 independently closed A11/F001. Prior closures and
+historical1.1 verdicts remain scoped, not rewritten.
+**Next action:** owner verifies containing revision/completion receipt, reviews
+C8/A12 and selects further work. No active auditor or technical work.
 
 ## Scope and Authority
 
@@ -66,5 +66,5 @@ custody; owned temporary resources follow §6.1. Actual byte-retention exception
 need a concrete evidence/deliverable obligation, owner/consumers and period.
 No machine/toolchain capture or experimental reproduction is inferred from a recipe
 or recovery. Existing retained historical bytes/evidence remain under prior policy.
-C8 budget is60minutes worker/two20-minute independent rounds; missing gates/limits
+C8 completed its gate in one20-minute round within60minutes worker/two permitted rounds; missing custody/limits
 expose gaps for the owner. No blanket reliability or efficacy claim is accepted.
