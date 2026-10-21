@@ -2,14 +2,14 @@
 
 **As of:** <UTC time>
 **Source/snapshot:** <exact identity and locator>
-**Active stage/authority:** <S/D links>
+**Active stage/authority:** <S/D links and consequence level>
 **Most recent audit:** <A link and scoped verdict>
 
 ## Current Reliance
 
 | Decision/claim/accepted outcome | Scope/input identity | Evidence | Owner | Review by UTC | Triggers/dependencies | Effective validity/events |
 |--------------------------------|----------------------|----------|-------|---------------|-----------------------|---------------------------|
-| <D/H/R link> | <tested boundary> | <R links> | <name> | <finite date> | <links and events> | <current/due/invalid/unknown/superseded> |
+| <D/H/R link> | <tested boundary> | <R links> | <name> | <A/B/C date or D/E trigger-only> | <links and events> | <current/due/invalid/unknown/superseded> |
 
 ## Failures, Unknowns, Exceptions and Blockers
 

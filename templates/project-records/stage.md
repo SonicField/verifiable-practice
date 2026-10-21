@@ -29,7 +29,7 @@ exception process, reversal/containment.>
 <Delivered/failed/skipped/inconclusive items, all run links, remaining gaps,
 value review, exit D to continue/revise/stop/accept.>
 
-**Independent record audit:** <A request/report and snapshot; unresolved
+**Independent record audit:** <applicable A/B gate or declared C sample/stage; none automatic for D/E; A request/report and revision; unresolved
 findings, responses, follow-up closure and predeclared acceptance gate>
 
 ## Amendments

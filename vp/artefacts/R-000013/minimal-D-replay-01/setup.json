@@ -1,0 +1,171 @@
+{
+  "fixture": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+  "owner": "D26/R13",
+  "started": "2026-10-21 12:52:58 UTC",
+  "baseline": "26e45364135920bed096fc8d3739e1f804d8fa66",
+  "worker_start_commit": "3c09749c6c71d348fb2b3172e86c10ee06bf0506",
+  "baseline_bundle": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-baseline.bundle",
+  "baseline_bundle_sha256": "40a51feef7cae5f9be37dbff0f544a0af1667e98ccca8656f26ab9934f0ffc66",
+  "restored_files": 78,
+  "restore_mismatches": [],
+  "initial_records": [
+    "vp/records/decisions/D-000001/record.md"
+  ],
+  "commands": [
+    {
+      "argv": [
+        "/usr/bin/git",
+        "init",
+        "-q"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "config",
+        "user.name",
+        "VP replay worker"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "config",
+        "user.email",
+        "vp-replay@localhost"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "add",
+        "-A"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "commit",
+        "-q",
+        "-m",
+        "Owner fixture inputs before D retirement replay"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "26e45364135920bed096fc8d3739e1f804d8fa66\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "bundle",
+        "create",
+        "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-baseline.bundle",
+        "HEAD"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "bundle",
+        "verify",
+        "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-baseline.bundle"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "The bundle contains this ref:\n26e45364135920bed096fc8d3739e1f804d8fa66 HEAD\nThe bundle records a complete history.\nThe bundle uses this hash algorithm: sha1\n",
+      "stderr": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-baseline.bundle is okay\n"
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "clone",
+        "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-baseline.bundle",
+        "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-restored"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "Cloning into '/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-restored'...\nerror: bundle-uri operation not supported by protocol\nNote: switching to '26e45364135920bed096fc8d3739e1f804d8fa66'.\n\nYou are in 'detached HEAD' state. You can look around, make experimental\nchanges and commit them, and you can discard any commits you make in this\nstate without impacting any branches by switching back to a branch.\n\nIf you want to create a new branch to retain commits you create, you may\ndo so (now or later) by using -c with the switch command. Example:\n\n  git switch -c <new-branch-name>\n\nOr undo this operation with:\n\n  git switch -\n\nTurn off this advice by setting config variable advice.detachedHead to false\n\n"
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "ls-files",
+        "-z"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": ".gitattributes\u0000.github/ISSUE_TEMPLATE/bug_report.yml\u0000.github/ISSUE_TEMPLATE/change_proposal.yml\u0000.github/ISSUE_TEMPLATE/config.yml\u0000.github/pull_request_template.md\u0000.gitignore\u0000CHANGELOG.md\u0000CITATION.cff\u0000CODE_OF_CONDUCT.md\u0000CONTRIBUTING.md\u0000LICENSE\u0000ORIGIN.md\u0000README.md\u0000SECURITY.md\u0000SKILL.md\u0000WHY.md\u0000concepts/bullshit-detection.md\u0000concepts/engineering-standards.md\u0000concepts/falsifiability.md\u0000concepts/goals.md\u0000concepts/pte.md\u0000concepts/rhetoric.md\u0000concepts/verification-cycle.md\u0000concepts/zero-code-contract.md\u0000docs/discovery-and-recovery.md\u0000docs/document-work.md\u0000docs/how-vp-works.md\u0000docs/independent-record-audit.md\u0000docs/investigations.md\u0000docs/project-records-design.md\u0000docs/project-records-examples.md\u0000docs/project-records-scenarios.md\u0000docs/project-records.md\u0000docs/review-and-audit.md\u0000docs/skill-architecture.md\u0000docs/testing-ai-behaviour.md\u0000playbooks/audit-routing.md\u0000playbooks/code-audit.md\u0000playbooks/debugging.md\u0000playbooks/discovery-verification.md\u0000playbooks/discovery.md\u0000playbooks/document-analysis.md\u0000playbooks/document-description.md\u0000playbooks/document-planning.md\u0000playbooks/investigation.md\u0000playbooks/precise-technical-english.md\u0000playbooks/project-records.md\u0000playbooks/record-audit.md\u0000playbooks/recovery.md\u0000playbooks/review.md\u0000standards/project-records.md\u0000templates/project-records/README.md\u0000templates/project-records/audit-request.md\u0000templates/project-records/audit-response.md\u0000templates/project-records/audit.md\u0000templates/project-records/build.md\u0000templates/project-records/change.md\u0000templates/project-records/coverage.md\u0000templates/project-records/decision.md\u0000templates/project-records/event.md\u0000templates/project-records/experiment.md\u0000templates/project-records/hypothesis.md\u0000templates/project-records/ledger.md\u0000templates/project-records/manifest.md\u0000templates/project-records/plan.md\u0000templates/project-records/project.md\u0000templates/project-records/root.md\u0000templates/project-records/run.md\u0000templates/project-records/stage.md\u0000templates/project-records/state.md\u0000templates/project-records/workspace.md\u0000vp/COVERAGE.md\u0000vp/LEDGER.md\u0000vp/PLAN.md\u0000vp/PROJECT.md\u0000vp/README.md\u0000vp/STATE.md\u0000vp/records/decisions/D-000001/record.md\u0000",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "add",
+        "vp/STATE.md"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "commit",
+        "-q",
+        "-m",
+        "Record actual fixture baseline restoration"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "1920689d9feede9cf18e703379ce26e410db26b2\n",
+      "stderr": ""
+    }
+  ],
+  "limits": "isolated created experiment, mixed current1.1 method and intentional pre-retirement sources; not original project execution/history",
+  "initial_setup_amendment": "Removed a source-project operational-record link from portable method rationale before participant dispatch; original setup commit remains historical."
+}

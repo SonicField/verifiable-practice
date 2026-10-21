@@ -1,5 +1,5 @@
-# VP working evidence generated in repositories using the skill
-.vp/
+# Never hide historical source/evidence copies in this project.
+# Current unique evidence is tracked under vp/ with an owning manifest.
 
 # Editor and operating-system files
 .DS_Store

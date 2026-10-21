@@ -9,10 +9,12 @@ into the chosen root, normally `vp/`. Copy operation templates to
 placeholder; leave no blank required fields. Use `not applicable — reason`
 when a field genuinely does not apply. Placeholders are not valid records.
 
-Reserve an ID in the ledger before acting. Fill pre-action sections first.
+Classify before acting under standard §1.1. A/B use full forms and independent gates; C may combine reason/results; D uses only change.md’s minimal form; E its prepared final commit message and no VP file. Do not instantiate every template.
+
+Reserve an ID in the ledger when the level requires a record. Fill pre-action sections first.
 Append dated amendments to open records; never overwrite pre-action criteria.
 Seal terminal outcomes and use new events for subsequent corrections.
-Validity is derived from evidence, deadlines, dependencies and later events;
+Validity is derived from evidence, A/B/C deadlines, all-level dependencies/triggers and later events;
 a completed record alone does not make a claim current.
 
 | File | Destination/purpose |

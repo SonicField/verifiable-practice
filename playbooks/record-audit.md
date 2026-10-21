@@ -12,8 +12,8 @@ Audit or combine it with this assessor role.
 
 ## 1. Coordinator: Commission a Bounded Audit
 
-Read the charter's owner identity/mandate, role, custody, gate and budget
-policy. Ownership may be human or AI. Reserve A under an
+Read the charter's owner identity/mandate, consequence levels, role, custody, applicable gate and budget
+policy. A/B require independent gates, C declared samples/stages, D/E no automatic audit; adopting conformance does not raise those levels. Ownership may be human or AI. Reserve A under an
 authorised D; create its immutable
 [request](../templates/project-records/audit-request.md). Identify worker and
 auditor sessions, scope, reference time, prior findings and output location.
@@ -21,8 +21,7 @@ Use a separate auditor context containing the request, standard and packet,
 without inherited worker/owner chat or private plans. The assessor must be
 distinct from every author whose records it assesses, including an AI owner.
 
-Preserve the packet and manifest under `artefacts/<A-ID>/input/`. Include the
-six project views, relevant records/snapshots/evidence and prior responses.
+Preserve the packet manifest under `artefacts/<A-ID>/input/`: fixed commit, bounded current scope and verified replica/external-evidence locators. Resolve the six views, relevant records/evidence and prior responses by immutable commit/path/hash; do not copy them or include earlier packet contents.
 Identify unavailable evidence; distinguish authored reports from captured
 outputs and independently captured action logs. Fix and record identities.
 If live project work continues, it creates later inputs for a new audit.

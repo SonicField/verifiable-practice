@@ -1,17 +1,11 @@
 # Artefact Manifest: <Owner ID>
 
-**Owner record:** <link>
-**Created/sealed:** <UTC times>
-**Producer and input records:** <B/R/C and snapshot links>
-**Retention policy:** <charter section; project/post-retirement duration>
+**Owner / producer / consumers:** <record, actor/capture limits, reliance>
+**Retention:** <project life and declared post-retirement period; no loss hidden>
+**Revision custody:** <content-addressed immutable history and verified independent replica/bundle; same-host/failure-domain limits>
 
-| Relative path | Meaning/producer | Byte identity | Retention class | Earliest disposal | Redaction/loss |
-|---------------|------------------|---------------|-----------------|-------------------|----------------|
-| <file> | <what it represents, inputs> | <digest and algorithm> | <record/raw/derived/rebuildable> | <date or dependency condition> | <explicit limits> |
+| Current unique evidence or historical commit/path/blob | Meaning | Identity / retrieval | Retention / limits |
+|---|---|---|---|
+| <unique current path or immutable historical locator> | <input/output/original manifest> | <SHA/object and accessible locator> | <policy, redaction/loss> |
 
-## Recovery and Consumers
-
-<Independent copy/bundle locator and recovery verification; consumers that
-prevent disposal. Later moves/deletions are linked V events in the ledger;
-do not rewrite a sealed manifest to hide the original locator.>
-
+No copied source, old record trees or earlier packets. External large data lives once per declared store, cited by hash and replicated. A successor manifest identifies its original exact revision/path rather than pretending to rewrite a sealed capture. Record pruning/disposition in the level’s record and commit only after actual recovery verification; retain original history/replica.

@@ -2,6 +2,7 @@
 
 **ID:** <type-sequence>
 **Type:** <type>
+**Assurance level/reason:** <A/B/C and consequence; D uses minimal change form, E commit only>
 **Created:** <YYYY-MM-DD HH:MM:SS UTC>
 **Author/operator:** <identity>
 **Status:** <open or terminal outcome>
@@ -28,7 +29,7 @@
 **Provisional limits:** <test, stop condition, exception authority if needed>
 **Expected effect and falsifier:** <what would show this choice is unsuitable>
 **Owner:** <responsible reviewer>
-**Review by:** <finite UTC timestamp>
+**Review by:** <A/B/C finite UTC timestamp; D/E trigger-only, no date required>
 **Earlier triggers/dependencies:** <changes that require review>
 **Next action:** <stage/protocol/change or stop>
 

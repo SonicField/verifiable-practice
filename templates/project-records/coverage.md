@@ -1,17 +1,10 @@
 # Maintained Artefact Coverage
 
-**As of:** <UTC time>
-**Snapshot:** <repository/source identity and preserved locator>
-**Scope and completeness method:** <enumeration/component inventories>
-**Preserved inventories:** <C/A links for earlier accepted snapshots>
+**Revision:** <fixed commit and bounded scope>
+**Historical locators:** <revision/path/blob, not copied source inventories>
 
-| Repository/path/unit | Content identity | Introducing/retaining change | Adopting decision | Claims/evidence | Validity/events | Gap or boundary |
-|----------------------|------------------|-----------------------------|-------------------|-----------------|-----------------|-----------------|
-| <path and symbol/section/stable region> | <snapshot/digest> | <C link> | <D link> | <H/R links> | <status, dates, V links> | <explicit unknown/exclusion> |
+| Maintained path / meaningful unit | Content identity | Level-appropriate retaining reason / root | Check / evidence | Validity / gaps |
+|---|---|---|---|---|
+| <file or genuinely different region> | <commit/path/hash> | <A/B record chain; C combined; D change; E commit reason> | <identified outcome, inline where sufficient> | <A/B/C date or D/E triggers; explicit unknowns> |
 
-## Moves, Deleted Units and Third-Party Boundaries
-
-<Old/new unit mappings; removal decisions; immutable external versions and
-boundary decisions. Use finer rows if a file contains different rationales.
-Include tests, generated recipes, configuration and contract documents.>
-
+Use whole-file rows when the same reason explains the file; do not create one row per heading automatically. Current records/evidence resolve through owner manifests and the containing revision. Historical copies and earlier audit packets must not be included. Unchanged legacy intent can remain unknown while a sourced current retention choice justifies the maintained file.

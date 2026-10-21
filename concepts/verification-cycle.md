@@ -23,7 +23,7 @@ Each phase has entry and exit criteria. Skipping phases is not speed; it is debt
 | Code | Authorised change and meaningful check defined | Criteria survive relevant checks; outcomes and limits retained |
 | Document | Check outcomes available | Evidence, choices, source coverage and next action recorded |
 
-This cycle applies to an implementation step. The adopted project also records the commissioning decision, protocol, exact build/run inputs and later acceptance decision. Failures and inconclusive checks remain visible. Stage gates, finite review horizons and triggered revalidation manage integration, handoff and subsequent changes. A useful positive control or deliberately planted defect can establish check sensitivity; a previous natural failure is not the only valid starting point.
+This cycle applies to an implementation step. The adopted project records the reason and check at its consequence level: A/B need fuller commissioning/execution/acceptance records, C may combine them, D one change/check, E its commit message. Failures and inconclusive checks remain visible. Applicable gates, justified A/B/C dates and all-level change triggers manage integration, handoff and later changes. A useful positive control or deliberately planted defect can establish check sensitivity; a previous natural failure is not the only valid starting point.
 
 ## The Decomposition Criterion
 

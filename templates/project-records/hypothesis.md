@@ -2,6 +2,7 @@
 
 **ID:** <type-sequence>
 **Type:** <type>
+**Assurance level/reason:** <A/B/C and consequence; D uses minimal change form, E commit only>
 **Created:** <YYYY-MM-DD HH:MM:SS UTC>
 **Author/operator:** <identity>
 **Status:** <open or terminal outcome>
@@ -18,7 +19,7 @@
 **Required evidence/instrument:** <E protocol; controls testing the check>
 **Decision informed:** <commissioning D; not a future adoption presented as history>
 **Owner:** <reviewer>
-**Review by:** <finite UTC timestamp>
+**Review by:** <A/B/C finite UTC timestamp; D/E trigger-only, no date required>
 **Earlier triggers:** <relevant source/instrument/environment changes>
 
 ## Evidence and Outcome

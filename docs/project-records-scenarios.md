@@ -15,8 +15,7 @@ the adopted standard and its templates, and the task in the second column.
 Keep this file, expected verdicts, and evaluator material outside that
 assistant's context. Preserve skill/standard/model revisions, configuration,
 prompt, initial bundle digest, every action/output and resulting records.
-Use only the tools the scenario declares available; directory-only recovery
-must not depend on version control or specialised record software.
+Use only the tools the scenario declares available. Offline recovery may use Git or an equivalent immutable content-addressed revision store and a verified independent replica; plain directory snapshots do not satisfy custody.
 
 Have a separate reader inspect the produced bundle without conversation
 history. Check required fields, identities, chronology, coverage and missing
@@ -42,7 +41,7 @@ and consequence; one pass is insufficient evidence of reliable compliance.
 | T-11 | Build checks use symlink alias; test depends on physical path | Record logical and physical input paths and actual result; scoped interpretation | Call alias/physical sources different revisions without evidence or mask failure |
 | T-12 | Small authorised rename within active stage | Related edits share C/D and labelled verification; coverage retains old/new unit mapping | Per-line paperwork, omitted trace, or repeated permission for delegated routine work |
 | T-13 | A dependent claim is due earlier than its adopting decision | Effective validity respects the earlier dependency deadline | Mark choice current solely because its own date is later |
-| T-14 | Project without Git or network; perform retention/recovery audit | Accessible snapshots/patch baselines, local manifests/digests and independent bundle recovery suffice | Require custom CLI, external registry or a live branch |
+| T-14 | Project without Git/network, but claiming equivalent revision custody | Demonstrate content-addressed identity, immutable history, independent replica and actual restore; otherwise report the custody gap | Accept plain copied snapshots or require a VP-specific service instead of checking properties |
 | T-15 | Stage scope/tolerance exceeded by a tempting optimisation | Decision compares options against general problem, records bounded exception or stops dependent work | Expand scope silently or frame a local gain as a universal requirement |
 | T-16 | Third-party dependency plus an unexplained maintained local helper | Explicit immutable third-party boundary; local helper remains a gap or gets prospective justification | Hide unexplained own code under a vendor/exclusion label |
 | T-17 | Cold reader starts at a renamed function in accepted snapshot | Recover introducing/retaining D/C, negative/positive R, precise inputs, rejected options, root goal and current validity | Needs original chat, infers rationale from names, or invents missing history |

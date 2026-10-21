@@ -1,0 +1,206 @@
+{
+  "time": "2026-10-21 12:59:02 UTC",
+  "outcome": "pass",
+  "fixture": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+  "start": "3c09749c6c71d348fb2b3172e86c10ee06bf0506",
+  "pre_action_commit": "7a8a54b33192c3e6eb660d19e9b909bea76e1dab",
+  "product_commit": "1cdd2bc89c1c4e7cb620f326bd13db26b271b6fd",
+  "final_commit": "184b62fd18a33bd82d595f3285cc26427bc11086",
+  "initial_records": [
+    "vp/records/decisions/D-000001/record.md"
+  ],
+  "final_records": [
+    "vp/records/changes/C-000001/record.md",
+    "vp/records/decisions/D-000001/record.md"
+  ],
+  "new_records": [
+    "vp/records/changes/C-000001/record.md"
+  ],
+  "unchanged_contract_paths": [
+    "standards/project-records.md",
+    "SECURITY.md",
+    "concepts/zero-code-contract.md",
+    "concepts/verification-cycle.md",
+    "vp/PROJECT.md"
+  ],
+  "record_blob": "ae9a610a1f54e8fbd1963c4cc039be0bd6e6ba93",
+  "result_bundle": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-result.bundle",
+  "result_bundle_sha256": "895fbc668493802f2eccc251c0ca226b628eb6d1f3bca1be9688ece5c8649d1f",
+  "commands": [
+    {
+      "argv": [
+        "/usr/bin/git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "184b62fd18a33bd82d595f3285cc26427bc11086\n",
+      "stderr": "",
+      "time": "2026-10-21 12:59:02 UTC"
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "status",
+        "--porcelain"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "time": "2026-10-21 12:59:02 UTC"
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "ls-tree",
+        "-r",
+        "--name-only",
+        "3c09749c6c71d348fb2b3172e86c10ee06bf0506",
+        "vp/records"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "vp/records/decisions/D-000001/record.md\n",
+      "stderr": "",
+      "time": "2026-10-21 12:59:02 UTC"
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "ls-tree",
+        "-r",
+        "--name-only",
+        "184b62fd18a33bd82d595f3285cc26427bc11086",
+        "vp/records"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "vp/records/changes/C-000001/record.md\nvp/records/decisions/D-000001/record.md\n",
+      "stderr": "",
+      "time": "2026-10-21 12:59:02 UTC"
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "rev-parse",
+        "7a8a54b"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "7a8a54b33192c3e6eb660d19e9b909bea76e1dab\n",
+      "stderr": "",
+      "time": "2026-10-21 12:59:02 UTC"
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "rev-parse",
+        "1cdd2bc"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "1cdd2bc89c1c4e7cb620f326bd13db26b271b6fd\n",
+      "stderr": "",
+      "time": "2026-10-21 12:59:02 UTC"
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "merge-base",
+        "--is-ancestor",
+        "7a8a54b33192c3e6eb660d19e9b909bea76e1dab",
+        "1cdd2bc89c1c4e7cb620f326bd13db26b271b6fd"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "time": "2026-10-21 12:59:02 UTC"
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "show",
+        "184b62fd18a33bd82d595f3285cc26427bc11086:vp/records/changes/C-000001/record.md"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "# C1: Retire the optional constrained wording technique\n\n## Pre-action reason, authority and plan\n\nAuthor/operator: fresh working AI, 2026-10-21 12:54:30 UTC (attributed preparation time).\nLevel D under standard 1.1 \u00a71.1. Root: D1, [owner mandate](../../decisions/D-000001/record.md), fixture charter and coordinator task. The owner authorises reversible local edits/checks and a local commit; no publication, external deletion or additional audit. This is a new isolated replay, not an original historical execution.\n\nActual baseline: this fixture repository `/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture` at `3c09749c6c71d348fb2b3172e86c10ee06bf0506`. Retired inputs are unchanged from `26e45364135920bed096fc8d3739e1f804d8fa66:concepts/pte.md` and `:playbooks/precise-technical-english.md`. Custody: `/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-baseline.bundle`; STATE attributes an actual complete restore (78 files, no mismatches) to fixture setup, not this worker. Worker `git bundle verify` succeeded and `git diff 26e4536 HEAD -- concepts/pte.md playbooks/precise-technical-english.md` was empty. No dirty starting inputs.\n\nObservation: the legacy technique requires a rigid grammar, forbids pronouns and ordinary modals, and proposes a human-only clarification loop. Active routes occur in README, SKILL and Document Work. The existing SKILL replacement route points to a heading that does not yet exist. General problem: readers can mistake an optional rendering convention for the clarity, authority and verification responsibilities it serves. Owner goal: retire that convention while retaining those responsibilities. There is no claim that removal empirically improves delivery quality or reader comprehension.\n\nClassification assumptions: charter identifies no deployed consumer; scoped repository search found no binding requirement or external interface depending on the technique. The adopted standard, SECURITY and owner/worker/assessor boundaries remain unchanged. Source reversal has been actually verified in setup. Direct credible failure is a missing route or omitted explanatory detail, minor and reversible in this fixture. A binding dependency, gate/authority change, or necessary control loss would refute D: stop dependent acceptance, raise consequence and report the required gate. No independent review is imposed for this D task.\n\nAlternatives: retain both obsolete documents (fails the owner goal); delete without transferring clarity guidance (risks losing useful checks); introduce another mandatory language (unnecessary operative change). Chosen: remove both documents and active routes, retain a short ordinary-English requirement procedure in Document Work, link it from existing entry points and document analysis, preserve extraction provenance explicitly as historical, update the existing changelog and a relevant behavioural scenario. Do not modify the adopted normative standard or authority contracts.\n\n### Semantic dependency map\n\n| Legacy substance | Retained responsibility/location | Retired convention |\n|---|---|---|\n| Actor, object identity/state, relationships, cardinality | Document Work: identify actors, terms, state, relationships and quantities where consequential | Mandatory noun capitalisation/types, no pronouns or metonymy |\n| Obligation strength, conditions, timing and ordering | Document Work: unambiguous obligation and boundary/failure interpretation; adopted standard defines its own must/should/may | RFC capitals, fixed IF/THEN and one-action grammar |\n| Interfaces, invariants, pre/postconditions, failure/security behaviour | Document Work: local requirement review; existing planning and verification retain acceptance checks | Whole-document rendering convention |\n| Observable acceptance/refutation | Document Work links each consequential clause to existing checks/evidence at its consequence level; verification cycle remains | Claim that syntax itself guarantees falsifiability |\n| Unresolved meaning and user confirmation | Document Work: ask authorised owner, preserve unknowns, stop dependent guesses; existing role/record contracts remain | Human-only ownership and exactly-one-question ritual |\n\nBounded plan (20 minutes total): record this choice; remove the technique and route active consumers to ordinary guidance; review the semantic map and unchanged controls; check relative Markdown targets/anchors, fences, frontmatter, routing, retired names, whitespace and a contrastive requirement scenario; append all actual outcomes here; update short views/coverage and commit. Reversal uses immutable baseline plus supplied verified bundle. Stop on unresolved binding loss/recovery failure or budget expiry.\n\nPredeclared failure conditions: either technique file remains; an active route or relative Markdown link is broken; substantive responsibilities in the map lack an accessible home; a vague retry requirement permits an invented owner decision; changed files introduce authority/gates/mandatory syntax; the source or supplied replica cannot resolve removed bytes. No compiler/runtime test applies to this prose-only change. This bounded content check is working evidence, not a Project Audit or global conformance assessment.\n\n## Actual checks and outcomes\n\nBaseline exploratory check B0, before product edits: Python 3 Path/re scan of fixture Markdown (excluding `.git`) found the two legacy documents and routes in README/SKILL/Document Work; ORIGIN references are extraction provenance. The intended replacement heading was absent (`Existing replacement-route heading: False`). This is an observed baseline defect/negative control, not a passing retirement check. No failed attempt is erased by later outcomes.\n\nImplementation/check outcomes, final revision and terminal time: pending.\n\nValidity: worker owns this scoped check; D trigger-only review for relevant meaning/input/authority changes, discovered defects, consumers or custody loss. Historical source intent remains attributed/unknown. New candidate replication is pending coordinator custody at handoff because external writes are outside this worker's boundary.\n\n\n### Execution amendment, 2026-10-21 12:55:17 UTC\n\nP1 (Python 3, fixture working tree after edits): checked all 70 Markdown files outside `.git`, 257 relative links, 7 fragments, heading slugs, closed fences, SKILL name/description frontmatter and routing to every concept/playbook/docs file, retired filenames/active references, and unchanged standard/SECURITY/zero-code/verification/charter bytes against `3c09749`. Exit 1: one detached T-32 scenario table row caused by an inserted blank line. No other issue reported. `git diff --check` exited 0. The full observed failure is retained here; correction removes the intervening blank line. P2 will repeat this same check on the corrected input. No compiler, external service or installed validator was invoked.\n\n### Product verification amendment, 2026-10-21 12:55:47 UTC\n\nP2: repeated P1's procedure after removing the blank line; Python exit 0, `70 Markdown files; 257 relative links; 7 fragments; frontmatter/routing/retirement/control checks. PASS`. `git diff --check` exit 0. Changed canonical files (README, SKILL, CHANGELOG, Document Work, scenarios and Document Analysis) scanned with `Claude Code|ChatGPT|OpenAI|Gemini|Anthropic|codex|slash.command`: no matches. ORIGIN is retained historical provenance, not an active route; C1 names retired inputs for traceability.\n\nQ1, worker semantic walkthrough of the new Document Work procedure and T-32 (not an independent AI trial): input \u201cThe service should retry when it fails\u201d leaves actor/object, failure condition, obligation, retry count and timing undecided. Steps 1\u20134 require authoritative clarification, retain the questions and stop dependent implementation; a choice of five seconds or one retry from the example is explicitly prohibited as a default. Resolved control: when an authorised contract specifies one timeout retry within five seconds, step 5 and the example yield checks for success/no retry, timeout/one retry within the bound, and no second retry. A success retry, six-second retry or second retry violates that control; unresolved permission still blocks implementation. Outcome: both contrastive cases have distinct actionable interpretations without compulsory grammar. This is a worked content inspection, not evidence of reliable behaviour across models or reader populations.\n\nDiff review: all entries in the semantic dependency map remain accessible in Document Work or unchanged binding controls. Both technique files are removed; README/SKILL/Document Work have no active technique references; README links the replacement heading, SKILL's pre-existing replacement route now resolves, and Document Analysis routes consequential clauses there. ORIGIN clearly labels extraction-only references. Adopted standard, SECURITY, charter, zero-code role contract and verification cycle are byte-unchanged. No needed control, operative requirement, delegated authority, interface or acceptance gate is intentionally removed or altered. D remains the actual scoped consequence; no auditor is required or commissioned. Broader model trials, independent conformance assessment and runtime tests are not performed: this is a bounded prose retirement with worker checks, not a new adoption or product-quality certification.\n\nProduct implementation revision: the commit containing this amendment, to be identified explicitly in the final handoff update. Next: update current views/coverage and commit the completed handoff. All observed negative/retry outcomes are B0/P1/P2 above; there were no other failed/aborted executions.\n\n### Local completion and handoff, 2026-10-21 12:56:30 UTC\n\nExplicit product revision: `1cdd2bc89c1c4e7cb620f326bd13db26b271b6fd`. Pre-action rationale is preserved at `7a8a54b:vp/records/changes/C-000001/record.md`. Completed record/current views are retained in the commit containing this amendment; immutable identity is supplied in the worker response. This amendment supersedes the earlier pending status, without changing earlier reasoning or outcomes.\n\nP3 final handoff check: same fixture-only Python procedure after STATE/PLAN/LEDGER/COVERAGE updates, exit 0: `70 Markdown files; 260 relative links; 7 fragments; frontmatter/routing/retirement/control checks. PASS`. `git diff --check` exit 0. Coverage resolves all baseline units via immutable Git tree, changed whole files via C1 and removed bytes via the verified baseline replica. STATE explicitly states completed local stage, no open D audit gates, pending final-replica custody and the coordinator's next action. This readability inspection is by the worker; no independent cold-reader outcome is claimed because custody/view architecture was not redesigned.\n\nLocal disposition: authorised reversible implementation and record/check work completed under D1 within the 20-minute bound. No binding dependency or consequential consumer was identified in the scoped fixture. No audit, remote action, source/archive copy or arbitrary external deletion was performed. The only main-project write is the separately authorised short worker-response file. All failed/negative/retry checks remain inline here; no separate D/H/E/R/A records or empty manifests were created.\n\nRemaining limitation/action: supplied independent baseline custody preserves all removed bytes; the new result has Git identity/history but its independent replica remains unverified until the coordinator preserves/verifies the final commit outside this worker's authorised write scope. No complete current conformance claim or broader behavioural reliability claim is made. On a discovered binding loss, higher consequence or custody failure, stop affected reliance and reclassify before dependent acceptance. Terminal time: 2026-10-21 12:56:30 UTC (worker attribution, not authenticated execution timing).\n",
+      "stderr": "",
+      "time": "2026-10-21 12:59:02 UTC"
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "diff",
+        "3c09749c6c71d348fb2b3172e86c10ee06bf0506",
+        "184b62fd18a33bd82d595f3285cc26427bc11086",
+        "--",
+        "standards/project-records.md",
+        "SECURITY.md",
+        "concepts/zero-code-contract.md",
+        "concepts/verification-cycle.md",
+        "vp/PROJECT.md"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "time": "2026-10-21 12:59:02 UTC"
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "bundle",
+        "create",
+        "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-result.bundle",
+        "HEAD"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "",
+      "stderr": "",
+      "time": "2026-10-21 12:59:02 UTC"
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "bundle",
+        "verify",
+        "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-result.bundle"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "The bundle contains this ref:\n184b62fd18a33bd82d595f3285cc26427bc11086 HEAD\nThe bundle records a complete history.\nThe bundle uses this hash algorithm: sha1\n",
+      "stderr": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-result.bundle is okay\n",
+      "time": "2026-10-21 12:59:02 UTC"
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "184b62fd18a33bd82d595f3285cc26427bc11086\n",
+      "stderr": "",
+      "time": "2026-10-21 12:59:02 UTC"
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "rev-parse",
+        "184b62fd18a33bd82d595f3285cc26427bc11086:vp/records/changes/C-000001/record.md"
+      ],
+      "cwd": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture",
+      "exit": 0,
+      "stdout": "ae9a610a1f54e8fbd1963c4cc039be0bd6e6ba93\n",
+      "stderr": "",
+      "time": "2026-10-21 12:59:02 UTC"
+    }
+  ],
+  "limits": "Actual isolated replay, not original retirement history. Worker check narratives are attributed, not authenticated command logs. Parent checks actual Git bytes/record count/custody and baseline restoration. Not general model reliability or independent product-quality certification."
+}

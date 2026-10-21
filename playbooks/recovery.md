@@ -31,7 +31,7 @@ For each step:
 4. record the result and unexpected observations;
 5. stop on failure or material divergence and decide whether to revise, skip, or reverse.
 
-Copy or archive before removing originals. Prefer version-controlled, recoverable operations.
+Preserve originals in content-addressed immutable revision history and its independent replica; verify actual recovery before removing current copies. Cite commit/path/hash instead of creating archive or copied source directories.
 
 ## 4. Establish Durable Structure
 

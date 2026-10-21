@@ -2,6 +2,7 @@
 
 **ID:** <type-sequence>
 **Type:** <type>
+**Assurance:** <A/B separate build record; C may use inline identified build notes; D/E do not instantiate this for prose checks>
 **Created:** <YYYY-MM-DD HH:MM:SS UTC>
 **Author/operator:** <identity>
 **Status:** <open or terminal outcome>

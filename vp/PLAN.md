@@ -1,16 +1,19 @@
-# Current Project Plan
+# Current Plan
 
-**As of:** 2026-10-20 20:49:23 UTC
-**Owner:** commissioning human; worker/coordinator /root under D1 and D22.
-**Latest stage:** [S-000003](records/stages/S-000003/record.md), accepted under [D-000025](records/decisions/D-000025/record.md).
+**As of:** 2026-10-21 12:46:24 UTC
+**Stage S4:** address all three review concerns under D26, level B.
 
-| Work | Actual outcome / next action |
-|---|---|
-| Decision, rationale and semantic plan | D22 and S3 preceded implementation; R12 records the responsibility/dependency analysis. |
-| Removal and content checks | C6 removed two obsolete files and edited five documents. R12's nine expected outcomes passed, including actual negative controls and Git recovery. |
-| Independent project gate | A7 conformant for `c17d269bfafcda229ce9fe8734d4709499584fa7`, freeze `2026-10-20T20:41:17.391502+00:00`, and its designated outer preparation. |
-| Local custody / handoff | V14 records checkpoint `a7add63d20ed0d0a8dc6764a11ac38cb1acb204b` and passed full-root accounting. The receipt-containing commit and completion bundle/index are identified by the required external completion manifest; verify at handoff. No source changes planned. |
+1. Preserve/tag baseline and actually restore every removed byte — completed
+   R13 restore-01; no mismatches. Retire copied sources and detailed adoption
+   records, retaining summary/Git locators — completed, verification pending.
+2. Implement standard 1.1 and align all guides/templates — draft implemented.
+   Trial01 failed PTE-D; revised trial02 meets 8/10 agreement and PTE-D.
+3. Verify minimal D replay, packet growth, duplicates and active consistency;
+   complete current coverage and independent A8 gate.
+4. Accept only after those criteria and fresh audit; test the final STATE
+   with a fresh reader, commit records/source and verify recovery handoff.
 
-S3 allocation: 90 minutes worker plus up to two 20-minute independent rounds; first round used. No further technical stage or background build is active. New work requires a new authorised decision/stage. Current evidence review is due 2026-10-26 23:59:59 UTC or earlier relevant source, role, rubric, runtime, authority, custody or contrary-evidence trigger; root review is 2027-01-17 UTC. Rollback uses the recorded Git baseline and complete patch under a new D/V, retaining attempts. Later handoff views do not expand A7's exact verdict.
-
-A7/F001’s current labels are corrected under V15/D25; the advisory remains open pending a future independently commissioned closure assessment. No mandatory gate or new technical stage remains.
+Stop on lost recovery, active inconsistency, failed stated trial or mandatory
+audit gap. Keep failed attempts and use a new labelled retry. No lower criterion
+to fit budget. Four hours worker/three 20-minute audit rounds under D26. No build
+or background technical process. Next decision is D27 acceptance after evidence.

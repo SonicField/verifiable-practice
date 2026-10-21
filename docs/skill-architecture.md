@@ -35,7 +35,7 @@ Documentation explains the complete method or a component to human and AI reader
 
 ### Project Records and Evidence
 
-A project's selected record root contains its charter, plan, state, ledger, coverage, typed records and owned raw evidence. The working AI maintains them under owner authority. These files are the actual project history and management state; explanatory guides and template examples cannot substitute for them. Source/decision/evidence identities, failed attempts, validity and custody remain inspectable across sessions. Independent Project Audit assesses a frozen copy through a distinct context.
+A project's selected record root contains its charter, plan, state, ledger, coverage, typed records and owned raw evidence. The working AI maintains them under owner authority. These files are the actual project history and management state; explanatory guides and template examples cannot substitute for them. Source/decision/evidence identities, failed attempts, validity and custody remain inspectable across sessions. Independent Project Audit assesses an immutable commit/scope/replica index through a distinct context, with no copied source or earlier packet. Consequence levels determine the minimum records and applicable gates.
 
 ### Standards and Templates
 

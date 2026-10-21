@@ -31,12 +31,12 @@ The [zero-code contract](../concepts/zero-code-contract.md) describes one softwa
 
 1. **Establish the project.** Record the goal, its source/mandate, owner, scope, success/harm criteria and constraints. Agree authority, risks, retention, review and audit policy. A root decision explains why the project should exist.
 2. **Plan bounded stages.** Specify entry conditions, exact baseline, deliverables, independent checks, dependencies, budgets/tolerances and stop/reversal conditions. Preserve the plan baseline. Changes beyond delegation or tolerance require an authorised exception decision.
-3. **Make justified choices.** Preserve observations and sources, generalise the problem, compare alternatives and record the chosen approach, authority, evidence, consequences and finite horizon. Commissioning an experiment and adopting its result are separate decisions.
+3. **Make justified choices.** Preserve observations and sources, generalise the problem, compare alternatives and record the chosen approach, authority, evidence, consequence level and review triggers/date. A/B commissioning and acceptance are separate decisions; C/D may use combined records and E its commit message.
 4. **Produce and challenge the work.** Open an authorised change. Set hypotheses and protocols before running evidence. Identify actual source, executable, environment and inputs for builds/runs; retain positive, negative, aborted and inconclusive attempts. Choose checks that can expose the claimed failure.
 5. **Review quality and assurance.** Assess the artefact against its acceptance criteria with appropriate code checks, document analysis or investigation. Separately commission an independent Project Audit where the adopted charter requires it. The worker supplies repairs/new records and evidence; fresh assessment closes record findings.
 6. **Accept, redirect or stop.** Review gates, outstanding risks, costs, failures and continuing value. Record the owner's or delegated coordinator's decision. Record conformance does not itself approve a product or publication.
 7. **Maintain and hand off.** Update source coverage, current state, ledger and ownership. Check actual deadlines and change triggers. Trace affected dependencies when evidence expires or a premise changes; contain reliance and commission new evidence/choices. Describe open work and safe resume/abort steps.
-8. **Preserve, recover or retire.** Keep required history and raw inputs under owned manifests and independent copies. Verify recovery within the declared assurance. Before moves/disposal, check consumers and retention, preserve substitutes and record disposition or irreversible loss. Missing evidence downgrades dependent claims.
+8. **Preserve, recover or retire.** Keep unique evidence under owned manifests and immutable revision history with a verified independent replica; never copy historical source or nested audit packets into the worktree. Verify recovery within the declared assurance. Before moves/disposal, check consumers and retention, preserve substitutes and record disposition or irreversible loss. Missing evidence downgrades dependent claims.
 
 The [standard](../standards/project-records.md) defines required fields, timing and boundaries for adopted record conformance. The [project playbook](../playbooks/project-records.md) supplies the action order. Scope and criteria can change through authorised decisions; an old pass or a rewritten date cannot justify new work by itself.
 
@@ -88,7 +88,7 @@ For an ambiguous audit request, ask which kind is intended and wait; use [Audit 
 
 ## Start a Project or Use a Bounded Task
 
-For complete project use, agree the charter/mandate, copy the [project-view templates](../templates/project-records/README.md), record a root/first stage and adopt the record standard explicitly for a scope and time. Use the skill to route each role's work. Independent gates and finite validity then apply throughout the adopted scope.
+For complete project use, agree the charter/mandate, copy the [project-view templates](../templates/project-records/README.md), record a root/first stage and adopt the record standard explicitly for a scope and time. Use the skill to route each role's work. The standard’s A–E consequence levels determine minimum records, independent gates and dates versus trigger-only review throughout the adopted scope; conformance does not inflate D/E changes.
 
 For a bounded task, apply the relevant VP procedures within existing authority. A request to use VP does not silently migrate an unrelated project or certify its history. An already adopted project remains governed by its charter. Keep the distinction between using part of the method and declaring complete record conformance explicit.
 

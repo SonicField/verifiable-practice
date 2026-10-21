@@ -1,31 +1,20 @@
-# <ID>: <Title>
+# <C-ID>: <Change>
 
-**ID:** <type-sequence>
-**Type:** <type>
-**Created:** <YYYY-MM-DD HH:MM:SS UTC>
-**Author/operator:** <identity>
-**Status:** <open or terminal outcome>
-**Origin:** <links to prior commissioning decision/stage/change>
-**Goal served:** <root decision link and outcome>
-**Sealed:** <UTC timestamp when terminal; open until then>
+## Minimal D Form
 
-## Before Modification
+**ID / level / created UTC / author:** <C-ID / D / time / worker>
+**Before work:** <reason, direct minor consequence, verified reversal, root/authority, baseline commit/path, intended change and check>
+**After work:** <actual check/outcome including failure/limits, changed paths/final revision, rollback locator, terminal timestamp>
+**Review:** <relevant meaning/input/consumer/authority/custody triggers; no calendar expiry required>
 
-**Authorising choice:** <D link>
-**Baseline identity:** <preserved source snapshot>
-**Intended change and falsifier:** <observable behaviour/contract>
-**Touched units:** <paths/symbols including configuration/tests/documents>
-**Verification plan:** <H/E links, baseline check and relevant gates>
-**Reversal/containment:** <restore procedure and dependencies>
+This one record is sufficient at D. Do not add D/H/E/R/A solely for VP.
+E uses its prepared final commit message and no change record.
 
-## Outcome and Adoption
+## C or Higher Detail When Applicable
 
-**After identity:** <snapshot, complete patch or preserved files>
-**Actual edits/moves/deletions:** <complete inventory and rationale>
-**Evidence:** <all B/R links, failed/skipped/inconclusive checks>
-**Observations versus interpretation:** <what changed; implications>
-**Alternatives rejected and limitations:** <material choices in linked Ds>
-**Adopting/rejecting decision:** <new D based on evidence>
-**Coverage:** <preserved inventory for accepted snapshot and current view>
-**Next action:** <handoff/reversal/further work>
+<For C, extend this same record with consequential assumptions, generalised observation/alternatives, falsifier and identified results; apply declared sampling/stage gates. For A/B, link the pre-action decision, applicable protocol/build/run evidence and separate acceptance/independent gates. Do not make those fields mandatory for D.>
 
+**Affected units / source identity:** <commit/path/blob, dirty/generated/external inputs if relevant>
+**Pre-action criteria:** <observable outcome/failure and stop/reversal>
+**Results:** <actual labelled checks and failed/skipped/inconclusive attempts>
+**Acceptance / coverage:** <inline C or separate A/B decision; current meaningful coverage and history locators>

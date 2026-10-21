@@ -1,125 +1,80 @@
 # Project Planning and Records
 
-Use when establishing VP record conformance, planning a conformant project,
-or working inside one that has already adopted the
-[standard](../standards/project-records.md). Templates are
-[here](../templates/project-records/README.md). This playbook implements the
-standard; it does not grant authority to migrate, delete, publish or release.
+Use the adopted [standard](../standards/project-records.md) and
+[templates](../templates/project-records/README.md). This procedure preserves
+reason/evidence without assigning the same ceremony to every change.
 
-## 1. Identify the Contract
+## 1. Establish the Contract
 
-Read the project's chosen record-root README, PROJECT, PLAN, STATE, ledger
-and coverage inventory. Establish scope, root goal, delegated authority,
-source identity, active stage, open operations and last audit. Check actual
-dates, triggers and records; a stale current view is not sufficient.
+Read the six current views, mandate, actual source revision, open work and
+validity. New projects explicitly adopt a version, scope, assurance rules and
+custody/replica; existing projects follow their charter. Unknown history stays
+unknown. Do not enrol or reorganise an unrelated project without authority.
 
-For new adoption, create the six project views and root decision. For an
-existing disordered project, perform read-only discovery and inventory old
-paths first. Label imports retrospective; preserve originals. Record unknown
-history and assign current retain/replace work before claiming conformance.
-Do not reorganise another project merely because it supplied an example.
+## 2. Classify Before Work
 
-## 2. Generalise the Need before Choosing a Response
+Use standard §1.1's credible consequence and C/D boundary. Record A/B in the
+pre-action decision, C/D in its combined record, E in its prepared final
+commit message. Disagreement/uncertainty uses the higher level. A project-wide
+conformance declaration must not inflate a harmless edit.
 
-For each material choice:
+- A: explicit hypothesis/protocol, independent protocol review, identified
+  builds/runs and failures, independent result review, owner acceptance.
+- B: decision/falsifier, identified run evidence, independent acceptance
+  audit, separate owner/delegated acceptance.
+- C: one combined decision/change and inline identified results; apply the
+  charter's predeclared sample/stage gate, not an audit for every edit.
+- D: one change record with reason, check and revision; no extra D/H/E/R/A.
+- E: commit message only; no additional VP file.
 
-1. Preserve the observation/source and its date; distinguish user intent,
-   empirical observations and interpretations.
-2. State the general problem it illustrates, applicability and limits.
-3. Connect that problem to the terminal goal.
-4. Compare options and reasons to reject or defer them.
-5. Reserve D and record authority, selected option, relied-on claims,
-   falsifier, owner, finite review deadline and earlier triggers.
+External requirements may increase assurance. Raise the level and stop
+incompatible dependent work if consequential scope changes.
 
-Do not generalise one workload, parser, host or reader into a universal rule.
-Existing delegated authority allows routine work without repeated approval.
-New authority or changed scope must be evidenced by a decision.
+## 3. Plan and Explain the Choice
 
-## 3. Baseline and Plan a Stage
+Identify audience/outcome, baseline, authority, relevant observations,
+general problem, alternatives, falsifier, rollback, budget and applicable
+gates. Use the minimum record form above. Goals require owner authority;
+technical claims require evidence. Ask for consequential missing owner
+meaning before dependent work; never use a test to invent permission.
 
-Open S under the commissioning decision. Record entry conditions, baseline,
-dependency stages, independently checkable deliverables, acceptance/harm
-criteria, cost/time/scope tolerances, review gate and reversal. Preserve the
-plan baseline. Before exceeding a tolerance, record an exception decision
-within delegated authority or seek the missing owner decision.
+## 4. Execute and Retain Outcomes
 
-Related small changes may share a stage. Do not split a mechanical edit into
-one record per line, or omit its trace because it is small.
+Fix relevant protocol/inputs before relying on results. Identify actual
+commands/source/executable/data/configuration and failed or inconclusive
+attempts in the level's record form. C/D checks can be inline. No build is
+required for a prose review. Use useful controls; do not manufacture tests
+or dependency inventories for harmless formatting.
 
-## 4. Record Claims and Protocols before Acting
+Store current evidence once. Cite earlier inputs by immutable revision/path
+or accessible content hash. External large evidence gets a declared store
+and verified recovery replica. Do not copy current or historical source into
+worktree audit/archive directories. Retry with a new labelled attempt, never
+replace original failures or historical assertions.
 
-Create H for each empirical claim relied on by the choice, including claims
-about the verification instrument. Specify prediction, scope, falsifier,
-dependencies, evidence, owner and horizon. Owner review addresses value
-choices; experiments address technical claims.
+## 5. Accept and Hand Off
 
-Create E before execution: procedure, exact input identities, controls,
-criteria, sample/analysis method, inconclusive conditions and stopping rules.
-Fix criteria before observing results. If the work is exploratory, say so;
-use a new protocol for later adoption tests.
+Check the level's criteria and declared gates. A/B require a distinct
+acceptance record after evidence; C/D append results. Update readable current
+views and meaningful coverage, referencing retired records through Git
+history. A fresh Project Auditor is required where §1.1/charter specifies;
+its report does not itself authorise product release.
 
-## 5. Modify, Build and Execute with Identity
+Check dates for A/B/C and relevant triggers for all levels. D/E have no
+calendar expiry by default. An unchanged documentation clause does not inherit
+an unrelated weekly runtime deadline. Preserve old verdict scopes and record
+policy reclassification without pretending to create new empirical evidence.
 
-Open C before changing code, tests, configuration or contracts. Preserve the
-before snapshot, affected units, intended outcome, falsifier and rollback.
+## 6. Recover or Prune
 
-Before every build invocation, reserve B and capture source, generated inputs,
-dependencies, configuration, toolchain and predecessor. Record all phases and
-statuses. An imported binary records known provenance and unknowns; its nearby
-source checkout does not establish how it was built.
+Before removal, check consumers and preserve immutable history plus replica.
+Actually restore the scope claimed preserved; every removed byte requires a
+complete comparison. Retire current copies/verbose history with a commit and
+appropriate record/summary. Keep successor manifests resolving original
+commit/path/hash; never rewrite an original capture as if it were new.
 
-Before each evidence execution, reserve R and verify actual executable/input
-identities. Preserve every outcome, including setup failure and abort. A
-bounded batch needs separate labels, inputs, status and raw output for every
-member. Retrying uses a new B or R. Manual and source-only checks explain why
-no build applies and identify their checked inputs.
-
-## 6. Preserve, Interpret and Decide
-
-Copy relied-on inputs, logs and results out of disposable workspaces. Create
-the owner's manifest with file meaning, identity, producers, retention and
-recovery location. Check copied bytes before removing scratch files.
-
-Separate observations, interpretations and unknowns. A valid observation may
-falsify a claim; a failed instrument may make the experiment inconclusive.
-Record regressions and exclusions as prominently as success. Derived summaries
-must identify every contributing run and calculation.
-
-Create a new D to adopt, reject, retain, investigate or stop using completed
-evidence. Seal terminal operations. Update coverage for all maintained units
-in the accepted snapshot, preserve the inventory, then update current views.
-Experimental code needs an explicit adoption change before promotion.
-
-## 7. Revalidate or Contain
-
-When a deadline or trigger occurs, create V, follow incoming reliance links
-and mark affected code/deliverables in coverage and state. Unknown impact
-remains unknown. Pause dependent acceptance/release, revert, or document an
-authorised finite exception with a test and stop condition.
-
-Commission new evidence addressing the trigger. A successor decision renews,
-replaces or rejects the justification and sets its new horizon. Extending a
-date alone is insufficient. Preserve old verdicts as historical observations.
-
-## 8. Close the Stage and Handoff
-
-Check entry/exit gates, tolerances, all failed/skipped/inconclusive items and
-continuing value. Record the checkpoint D to continue, revise, stop or accept.
-Leave open operations with last phase, ownership, workspace, input identities
-and safe resume/abort instructions. Never infer completion from partial output.
-
-Commission an independent A at acceptance stage exits, declared periodic
-checkpoints and before claiming conformance. Use the
-[record audit playbook](record-audit.md): freeze a request/packet, receive
-findings, respond through new V records and commission fresh re-audit for
-closure. A worker self-check is preparation. The assessor does not execute
-technical work or repair records; conformance and product acceptance are
-separate verdicts. Follow charter budgets and gates.
-
-## 9. Dispose Only with a Trace
-
-Identify consumers and retention obligations. Preserve needed bytes and
-verify their new location. Create V with reason, authority, old/new paths and
-digests, recovery method or irreversible loss. Preserve records and manifests.
-If evidence becomes unauditable, downgrade dependent claims. Unknown ownership
-requires discovery before cleanup.
+An audit packet is a fixed commit, bounded scope list and verified replica/
+external-evidence locators. Earlier packets are referenced, never included.
+Check tree growth/duplicates and cold-reader understanding of STATE when
+changing this machinery. Missing evidence or open mandatory gates remains
+visible; no positive result or elapsed budget grants authority.

@@ -67,6 +67,24 @@ do not silently choose the lowest level. Split unrelated changes when they
 have different consequences; do not use a high-level project to inflate a
 minor edit or bundle a hazardous change into a low-level task.
 
+Use the following C/D boundary in documentation and tooling projects. A C
+change alters an operative requirement, external interface, delegated authority,
+acceptance gate, or a control whose failure creates significant recovery work.
+A D change adjusts explanatory guidance or removes an optional process technique
+when binding requirements, authority, gates and available checks stay unchanged,
+there is no identified consequential deployed consumer, and source reversal is
+verified. This includes retiring an unused prescribed wording style while
+retaining its substantive clarity checks. A missing necessary control or an
+identified binding dependency raises the level; uncertainty about such a
+current dependency must be resolved before applying D.
+
+Assess the direct credible failure in the declared scope. Do not promote every
+sentence to C/A on the speculative argument that a future reader might build
+an unspecified defective system from it. Classification of that future system
+belongs to its own use/exposure assessment. Conversely, calling an operative
+contract “documentation” cannot lower its level. Reversal of text does not undo
+known downstream loss; name those consumers and consequences explicitly.
+
 The charter must name C sampling rules or stage gates before work. A default
 is a fresh Project Audit at each stage that changes an authority, interface
 or acceptance contract, plus a declared sample of other C changes. Record

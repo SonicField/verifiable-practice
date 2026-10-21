@@ -57,8 +57,8 @@ flowchart TD
 ```
 
 For each A, `request.md` identifies inputs, scope, role and budget;
-`record.md` is the assessor's report. Packet evidence has a manifest under
-`artefacts/<A-ID>/input/`. Findings have IDs such as `A-000001/F-001`.
+`record.md` is the assessor's report. Packet metadata has a manifest under
+`artefacts/<A-ID>/input/`: fixed commit, bounded scope and verified replica/external-evidence locators only, with no source copy or earlier packet contents. Findings have IDs such as `A-000001/F-001`.
 The working AI answers using a V event of kind `audit-response`. A successor
 A report closes the finding against a new snapshot. State and ledger provide
 the current view while all original reports remain readable.
@@ -120,7 +120,7 @@ access limitation. The worker cannot self-certify closure in either case.
 
 ## Gates without Role Drift
 
-The charter defines stage/conformance triggers, periodic review cadence,
+The charter applies standard §1.1: A protocol/result gates, B acceptance, C declared samples/stages, D/E no automatic audit. Project conformance does not add per-edit audits to D/E. It defines applicable triggers, periodic review cadence,
 time and round budgets, response ownership and escalation. Required gaps
 block the affected conformance claim; advisory risks can receive recorded
 acceptance. The auditor reports against these rules and grants no new

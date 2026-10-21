@@ -4,7 +4,7 @@ Verifiable Practice (VP) is a **full project quality management system for human
 
 Falsification and honest reporting provide its evidence discipline. Project roles, stage gates, records, independent assessment and revalidation turn that discipline into a repeatable management method. VP applies to code, specifications, documents, experiments and other maintained project artefacts.
 
-The method uses Markdown documents and directories. No specialised software, database, service or persistent AI team is required. This repository also packages the method as a reusable AI skill: [SKILL.md](SKILL.md) gives operating rules and routes an assistant to the references needed for its current responsibility.
+The method uses Markdown documents and directories, with revision control providing content identity, immutable history and a verified independent replica. Git is an ordinary implementation; equivalent alternatives must demonstrate those properties. No VP-specific software, database, service or persistent AI team is required. This repository also packages the method as a reusable AI skill: [SKILL.md](SKILL.md) gives operating rules and routes an assistant to the references needed for its current responsibility.
 
 ## Start Here
 
@@ -22,12 +22,12 @@ For a new conformant project, select a record root, normally `vp/`, and create i
 |----------|-------------------|------------------|
 | Establish | Agree the goal, owner mandate, scope, quality/acceptance criteria, risks and authority | Root decision and project charter |
 | Plan | Divide work into bounded stages with deliverables, budgets, tolerances, review points and stop conditions | Plan and stage records |
-| Choose | Generalise observations, compare alternatives and explain how the choice serves the goal | Decisions with sources, rationale and finite horizons |
-| Build and verify | Set hypotheses and protocols before tests; make authorised changes; identify actual inputs and retain every relevant attempt | Change, hypothesis, experiment, build and run records |
+| Choose | Generalise observations, compare alternatives and explain how the choice serves the goal | Level-appropriate reasons/checks, with dates for A/B/C and triggers for all levels |
+| Build and verify | Set hypotheses and protocols before tests; make authorised changes; identify actual inputs and retain every relevant attempt | Records scaled by consequence: full forms for A/B, combined C, one change/check for D, commit message for E |
 | Control and assure quality | Check technical/document quality; independently assess records and justification; respond to findings | Checks, content analysis, typed audit reports and linked responses |
 | Accept or redirect | Review evidence, open risks, gates and continuing value; accept, revise, continue or stop within authority | Owner/delegated checkpoint and exception decisions |
 | Maintain and hand off | Track changed premises, expiry, dependencies and unfinished work; revalidate affected justification | State, ledger, coverage and successor events/evidence |
-| Retire or recover | Preserve required inputs and history, verify copies and record moves, disposal or explicit loss | Artefact manifests, custody and disposition events |
+| Retire or recover | Preserve revision history and replica, actually verify restoration and record pruning or explicit loss | Unique evidence and commit/path/hash locators, with level-appropriate disposition |
 
 The [project standard](standards/project-records.md) defines the management and record contract. [Playbooks](#playbooks) provide the procedures, including implementation, investigation, document work, discovery and recovery.
 
@@ -45,9 +45,9 @@ A human owner and AI worker are a common arrangement. An AI owner can act under 
 
 Quality planning establishes what acceptable work means. Quality control checks the artefact against those criteria. Independent record assurance checks whether choices, results and current justification are supported. Failures, audit findings and process-cost observations inform improvement of the method itself.
 
-For any maintained unit, `COVERAGE.md` leads to its introducing/retaining change and decision, the hypothesis/protocol/build/run evidence supporting it, and the authorised root goal. Failed and abandoned attempts remain visible. Every relied-on decision and claim has an owner, a finite review horizon and change triggers. Expired or invalid support requires impact review and new evidence before fresh reliance.
+For any maintained unit, `COVERAGE.md` leads to its level-appropriate reason and check, then the authorised root goal. A/B have fuller evidence and independent gates; C uses declared samples/stages; D has one change/check, E its commit message. Failed and abandoned attempts remain accessible in revision history. A/B/C have justified finite reviews; D/E use change triggers without default expiry. Expired or invalid support requires impact review before fresh reliance.
 
-All required documentation is Markdown; raw evidence can retain native formats beside owned manifests. Version control can carry the records with source, and an independent preserved copy supports recovery. Conformance applies to an explicit scope and snapshot after independent Project Audit. It describes record discipline; product quality requires its own acceptance evidence.
+All required documentation is Markdown; raw evidence can retain native formats beside owned manifests. Revision control must preserve immutable content-addressed history, with a verified independent replica for recovery. Historical source is cited by commit/path or blob, never copied into worktree audit packets. Conformance applies to an explicit scope and snapshot after independent Project Audit. It describes record discipline; product quality requires its own acceptance evidence.
 
 ## Choose the Assessment
 
@@ -107,7 +107,7 @@ The documentation explains the complete method and its components for human and 
 | [Document Work](docs/document-work.md) | Analysis, planning, description and clear, testable requirements |
 | [Testing AI Behaviour](docs/testing-ai-behaviour.md) | Scenario isolation, oracles, adversarial cases, and stochastic results |
 | [Skill Architecture](docs/skill-architecture.md) | Progressive disclosure, platform adapters, and maintenance |
-| [Project Records](docs/project-records.md) | Planning, decision history, custody and finite validity |
+| [Project Records](docs/project-records.md) | Consequence-based assurance, revision custody and review triggers |
 | [Project Records Design](docs/project-records-design.md) | Observations, generalisation, alternatives and falsifiers behind the proposed standard |
 | [Worked Record Traces](docs/project-records-examples.md) | Compiled, interpreted and document work using the same record structure |
 | [Project Records Scenarios](docs/project-records-scenarios.md) | Adversarial cases, cold-reader trials and process cost evaluation |

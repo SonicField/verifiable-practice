@@ -1,0 +1,52 @@
+{
+  "completed": "2026-10-21T12:51:20.848190+00:00",
+  "cycles": [
+    {
+      "label": "cycle1",
+      "prior_audits": 0,
+      "packet_bytes": 873,
+      "sha256": "7fdb038a3639defe3d48f814c4c0ab15572f6497254e833cc9b309a37ade5ec2",
+      "added_paths": [
+        "vp/artefacts/R-000013/packet-shape-01/cycle1.md"
+      ],
+      "scope_expansion": false
+    },
+    {
+      "label": "cycle2",
+      "prior_audits": 1,
+      "packet_bytes": 928,
+      "sha256": "073716fbff9e8f071cd03485c2d06da9051376bb90af0c2de8ec1d4dfeadba18",
+      "added_paths": [
+        "vp/artefacts/R-000013/packet-shape-01/cycle2.md"
+      ],
+      "scope_expansion": false
+    },
+    {
+      "label": "cycle3",
+      "prior_audits": 7,
+      "packet_bytes": 928,
+      "sha256": "b812668d354962ff872ba8973d1955992a9c12666bde66fff5b05b7b6dce703a",
+      "added_paths": [
+        "vp/artefacts/R-000013/packet-shape-01/cycle3.md"
+      ],
+      "scope_expansion": false
+    }
+  ],
+  "controls": [
+    {
+      "label": "copied-source",
+      "rejected": true,
+      "reason": "Source copies and earlier packet contents are forbidden"
+    },
+    {
+      "label": "earlier-packet",
+      "rejected": true,
+      "reason": "Source copies and earlier packet contents are forbidden"
+    }
+  ],
+  "maximum_packet_bytes": 928,
+  "constant_shape": true,
+  "tree_growth": "exactly one metadata file per cycle; no source/earlier packet expansion",
+  "claim": "packet content is a fixed scope/revision/replica and immediate report pointer; number of older audits is not an assembly input",
+  "limits": "three actual assembly cycles, not three performed independent audits; growing Git replica history is deliberately distinct from bounded packet metadata"
+}

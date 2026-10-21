@@ -1,0 +1,3 @@
+# Parent evaluation attempt01
+
+2026-10-21: `python3 /tmp/vp-review-finalise.py` exited1 at the record text assertion before bundle creation or evaluation acceptance. The parent required title-case `Semantic Dependency Map`; the actual heading is `Semantic dependency map`. This is a case-sensitive evaluator defect, not a missing worker map. Actual terminal output was `AssertionError` at line34. Correct the check to search the recorded heading, preserving this failed attempt. Prior read-only Git identity/count/status checks passed; no result replica or passing evaluation was created in this attempt.

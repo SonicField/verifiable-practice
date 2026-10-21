@@ -14,7 +14,7 @@ This document defines engineering standards built on a fundamental insight: **sa
 - **Verbs Over Nouns**: Correctness comes from actions, not classifications. "This value was validated" matters more than "this has type ValidatedInput". The verb happened or it didn't. The assertion passed or it failed. That's provable.
 - **Types Are Hints, Not Guarantees**: Type systems are incomplete — they cannot express "this list is sorted" or "this connection is authenticated". Types constrain design toward what the checker can verify, not what the problem demands. Use types as documentation, but rely on assertions and invariants for correctness.
 - **Test the Real System**: Mocks hide integration failures. Real systems have real network latency, real concurrency, real resource contention, real failure modes. Integration-first testing, with targeted unit tests only for complex isolated logic.
-- **The Cycle of Verified Construction**: Design, Plan, Deconstruct into testable steps. For each step: write tests FIRST, then write code to make tests pass, then document learnings before moving to next step. This is not optional ceremony — it is the engine of quality.
+- **The Cycle of Verified Construction**: Design, Plan, Deconstruct into testable steps. For each step: write tests FIRST, then write code to make tests pass, then document learnings before moving to next step. Use the check that can expose the relevant failure. The adopted standard’s consequence level determines records and independent gates; a typo or formatting change does not require invented tests or a full implementation ceremony.
 
 ---
 

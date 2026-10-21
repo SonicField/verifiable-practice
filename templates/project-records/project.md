@@ -3,7 +3,8 @@
 **Owner:** <identity and human/AI actor type>
 **As of:** <UTC time>
 **Root decision:** <D link>
-**Standard version/location:** <preserved reference>
+**Standard version/location:** <immutable revision/path>
+**Assurance policy:** <A–E consequence assignment before work, C sampling/stage gates, disagreement/escalation; D one change/check and E commit message>
 **Conformance start and scope:** <time and exact boundary>
 **Legacy gaps:** <inventory and resolution actions>
 
@@ -30,7 +31,7 @@ and current views. Any transcription preserves source, attribution and date.>
 
 <Worker/auditor identities and separate contexts; coordinator delegation;
 source/evidence custody and capture limits; frozen packet method; auditor
-write boundary; stage-exit/conformance/invalidation triggers and periodic
+write boundary; applicable A/B and declared C stage/conformance/invalidation triggers and periodic
 cadence; round/time budgets; response owner; unresolved-finding escalation
 and predeclared gates. Self-review and silence are not independent passes.>
 
@@ -45,13 +46,13 @@ ID allocation; unit granularity; preserved baseline location.>
 
 ## Validity Policy
 
-<Finite default horizons by claim/decision class, justification, earlier
+<Justified finite horizons for A/B/C, trigger-only D/E, earlier
 triggers, owners and revalidation process. Goals need owner review;
 empirical claims need falsification evidence.>
 
 ## Retention and Recovery Policy
 
 <Project lifetime and finite post-retirement period; raw/derived evidence
-classes; binary/workspace disposal rules; independent copy location,
-copy cadence and recovery check; redaction policy.>
+classes; binary/workspace disposal rules; immutable revision-history mechanism and independent replica location,
+replication cadence and actual recovery check; redaction policy.>
 

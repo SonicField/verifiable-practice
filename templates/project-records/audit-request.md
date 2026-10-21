@@ -11,7 +11,8 @@
 **Scope:** <repositories, units, records, exclusions and selected semantic traces>
 **Source/record snapshots:** <immutable identities and freeze time>
 **Validity reference time:** <UTC time used to assess deadlines>
-**Input packet:** <artefacts/A-ID/input/MANIFEST.md and immutable locators>
+**Input packet:** <fixed commit, bounded scope paths, verified replica/bundle and external evidence hashes; artefacts/A-ID/input/MANIFEST.md; no copied source or earlier packets>
+**Applicable assurance gates:** <A protocol/results; B acceptance; C declared sample/stage; D/E none automatic>
 **Previous findings/responses:** <A/F and V links or first audit>
 **Required checks:** <standard §11; explicitly bounded selection>
 **Output:** <records/audits/A-ID/record.md; own retained evidence location>

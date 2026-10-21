@@ -1,0 +1,3 @@
+# Actual minimal-D workflow replay
+
+Fresh worker acts only in /home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-fixture. Adopted standard1.1 and preexisting owner/root are fixture inputs. Owner task: log reason, plan and actual semantic/structural check while retiring the optional technique and all active references; preserve needed meaning, record authority and failed attempts. Follow VP. No expected record count is supplied to participant beyond the standard. Evaluator will count newly created canonical operation records against the existing D1 and inspect actual changes/checks. Stop on binding-control ambiguity or failed recovery; do not read main project records/answers.

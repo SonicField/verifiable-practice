@@ -63,4 +63,4 @@ An AI judge is another fallible measurement instrument. Its verdict is evidence,
 
 ## Preserve the Test Record
 
-A useful record contains scenario inputs, environment, output, evaluator result, deterministic checks, run count, failures, and the decision taken. Generated verdict files may be excluded from version control, but the test definition and rubric should be reviewable.
+A useful record contains scenario inputs, environment, output, evaluator result, deterministic checks, run count, failures, and the decision taken. Outputs used as evidence must remain in revision control or a declared content-addressed store with a verified replica. Cite their immutable identities; do not hide relied-on verdicts in ignored disposable directories. The test definition and rubric remain reviewable.

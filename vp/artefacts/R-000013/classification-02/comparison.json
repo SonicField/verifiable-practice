@@ -1,0 +1,29 @@
+{
+  "sample_count": 10,
+  "exact_agreements": 8,
+  "nonadjacent_disagreements": 0,
+  "T01_levels": [
+    "D",
+    "D"
+  ],
+  "predeclared_acceptance_met": true,
+  "differences": [
+    {
+      "case": "T02",
+      "levels": [
+        "C",
+        "D"
+      ],
+      "conservative_assignment": "C"
+    },
+    {
+      "case": "T09",
+      "levels": [
+        "D",
+        "C"
+      ],
+      "conservative_assignment": "C"
+    }
+  ],
+  "limits": "two same-family fresh contexts, ten selected document-project changes; bounded repeatability only, no universal classifier or A/B safety calibration claim"
+}

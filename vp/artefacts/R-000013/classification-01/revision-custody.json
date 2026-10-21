@@ -1,0 +1,11 @@
+{
+  "source_commit": "66b38013798df7063374c872f0716c8bc81aad5d",
+  "source_locator": "66b38013798df7063374c872f0716c8bc81aad5d:standards/project-records.md",
+  "replica": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/trial-01.bundle",
+  "bundle_sha256": "09fb3eb9fde9ba471154dcf33a132cd2943de7b23c6b992c56a0ce086d791bdc",
+  "create_exit": 0,
+  "verify_exit": 0,
+  "verify_stdout": "The bundle contains this ref:\n66b38013798df7063374c872f0716c8bc81aad5d HEAD\nThe bundle records a complete history.\nThe bundle uses this hash algorithm: sha1\n",
+  "verify_stderr": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/trial-01.bundle is okay\n",
+  "limits": "self-contained independent-directory bundle, no new checkout trial claimed"
+}

@@ -1,116 +1,74 @@
-# Project Planning and Records
+# Project Planning, Records and Custody
 
-Project planning, control and traceable records are the management layer of [VP's full project quality management system](how-vp-works.md). They connect the owner mandate and quality criteria to bounded stages, choices, implementation evidence, independent gates and continuing review. The working AI keeps the records under owner oversight; an independent assessor checks their support.
+VP keeps a reason and a check attached to maintained work, so a later reader
+can reach the authorised goal without the original conversation. The
+[standard](../standards/project-records.md) defines the contract; the
+[playbook](../playbooks/project-records.md) gives its action order.
 
-A project can span many sessions, builds, contributors and machines. A status summary alone rarely explains what an earlier author knew, which alternatives failed, which exact binary produced a result or whether a premise remains current.
+## Assurance Follows Consequence
 
-The [standard](../standards/project-records.md) supplies that implementation.
-It is the explicit planning/record-conformance contract, version 1.0 proposed for adoption; the other VP procedures supply engineering, document and investigation quality checks.
-Use the [playbook](../playbooks/project-records.md) for actions and the
-[templates](../templates/project-records/README.md) for files.
+A typo and a safety controller should not generate the same records.
+Classify before work: A covers harm/regulatory breach/irreversible loss,
+B serious loss or costly recovery, C significant rework or more than minor
+user defect, D minor/easily reversed change, E no behaviour/meaning effect.
+Use the higher credible level on disagreement or uncertainty.
 
-The [independent audit loop](independent-record-audit.md) separates an assessor
-from the working AI: a frozen packet leads to sourced findings, worker
-responses and a fresh closure audit. The assessor stays within record
-verification while the worker performs authorised technical investigation.
+A/B have independent gates and owner acceptance. C uses a declared sample
+or stage gate. D needs one change record with its reason and actual check;
+E needs its commit message. A project that adopts VP does not automatically
+require A/B paperwork on every edit. See standard §1.1 for the operative
+contract versus explanatory-guidance boundary and required forms.
 
-## The Record Chain
+An optional wording technique can be retired at D when binding requirements,
+authority, gates and available checks remain intact, no consequential deployed
+consumer is identified, and reversal is verified. Removing a necessary control
+or altering an operative contract raises the consequence. Document count does
+not decide the level.
 
-A root decision states the authorised goal. Stages organise bounded work.
-Commissioning decisions explain what uncertainty or desired outcome led to
-an experiment. Hypotheses state claims; protocols state how they will be
-challenged; build and run records identify what actually executed. Adoption
-decisions explain what the evidence justified. Change and coverage records
-connect that choice to maintained code at a particular snapshot.
+## History Is a Relationship Between Revisions
 
-```mermaid
-flowchart TD
-    Root[Root goal and authority] --> Stage[Bounded stage]
-    Stage --> Choice[Commissioning choice]
-    Choice --> Claim[Hypothesis and falsifier]
-    Claim --> Protocol[Experiment protocol]
-    Protocol --> Build[Build and input identity]
-    Protocol --> Run[Evidence execution]
-    Build --> Run
-    Run --> Adopt[Adopt, reject or retain decision]
-    Adopt --> Coverage[Change and snapshot coverage]
-    Coverage --> Code[Maintained code or contract]
-    Event[Expiry or changed premise] --> Review[Impact trace and revalidation]
-    Review --> Choice
-```
+Current source is kept once. Earlier code, documents, failed attempts, records
+and original manifests are cited by repository/commit/path or retrievable blob
+hash. Revision control must provide content identity and immutable history;
+a verified independent replica provides recovery. Git is one ordinary
+implementation, not a VP-specific service. Alternatives must demonstrate
+those properties. Same-host replicas cannot protect against whole-host loss.
 
-These arrows explain the workflow. Actual records carry timestamps and origin
-links; a later adopting decision must not appear to have commissioned its own
-earlier evidence. Builds are omitted where no compilation/artefact production
-applies. A reader experiment records isolated inputs and responses instead.
+An audit packet names a fixed commit, its bounded scope and verified replica
+or bundle. It contains no source copy and no earlier packet. Its size follows
+present scope, not audit count. Native large evidence is kept once in a declared
+store, cited by hash and replicated for recovery.
 
-## What Each Inspiration Contributes
+Pruning the worktree is allowed after actual restore/byte verification. A short
+summary can replace detailed history in today's records, with exact immutable
+locators and current successor manifests. Original sealed bytes and unknowns
+remain historical; a tidy summary does not recover missing events.
 
-| Inspiration | General requirement | Concrete implementation |
-|-------------|---------------------|-------------------------|
-| PRINCE2 | Work must remain valuable and controlled at decision boundaries | Root goal, stages, tolerances, exception/checkpoint decisions |
-| Capability Maturity Model | A repeatable process needs observable compliance and improvement evidence | Required fields/actions, exact scope audits, recorded failures and process trials |
-| Aircraft maintenance tracking | Identity, custody and valid inspection history travel with the maintained item | Snapshot coverage, build/input identities, manifests, finite horizons and triggered reinspection |
-| Parallel GC observations | Repeated builds and defective measurement instruments can detach conclusions from actual inputs | Attempt identities, instrument testing, incoming dependency impact tracing |
-| Honest observations | Contract authority, implementation agreement and reader comprehension require different evidence | Contract/document coverage, suitable protocols and separate owner/empirical review |
+## Traceability Without Repetition
 
-These are design influences, not claimed compliance with a management or
-aviation certification. The [design register](project-records-design.md)
-preserves observations, generalisation, alternatives, choices and falsifiers
-for each material part of the standard.
+COVERAGE links a meaningful file/region to its introducing or retaining record,
+check, root, assurance level and validity. Whole-file rationale is sufficient
+where it explains the file; a row for every heading is not inherently better.
+A D record's inline check or E commit reason is a valid trace endpoint.
 
-## A Time Horizon Is Part of the Justification
+The owner controls goal/scope/authority and acceptance. The worker maintains
+records and performs authorised technical work. A separate Project Auditor
+checks support and reports gaps; it never repairs or runs technical tests.
+Only fresh independent follow-up closes an audit finding. Code Audit remains
+a distinct commission; ambiguous audit requests must ask the kind and wait.
 
-A passed test describes an observation under identified conditions. It has
-no automatic authority over a new binary, changed dependency, repaired test
-harness, different workload or future user need. The standard therefore
-separates the historical verdict from current validity.
+## Review Changes, Not the Calendar Alone
 
-Every relied-on claim and decision has an owner, finite review date and
-earlier change triggers. The effective horizon is bounded by its dependencies.
-When support expires or is contradicted, an event identifies affected
-decisions and code. New evidence and a successor choice are needed before
-current reliance resumes. Historical records remain readable.
+A/B/C have justified finite review dates plus relevant triggers. D/E use
+change-trigger review without default expiry. A simple text edit cannot extend
+an underlying safety claim, and an unrelated old benchmark must not expire
+stable documentation every week. Reclassification changes policy, not the
+observed result of an old test. General VP cost/benefit and sustained AI
+adherence still require real deliverable studies; self-application does not
+establish them.
 
-The proposed default periods are policy starting points. They require owner
-judgement and adoption evidence; this project has no basis to claim that
-seven or thirty days is universally appropriate.
-
-## Records Are More than a Clean Tree
-
-One record root and stable IDs make navigation predictable. Manifests bind
-raw files to their meaning and byte identity. Current views show the plan,
-state, complete record ledger and code coverage. Sealed records preserve
-earlier reasoning; later events explain corrections, movement and disposal.
-
-Native evidence files can live beside Markdown manifests. The standard does
-not require Honest, a database, Git or a custom CLI. A retained directory
-bundle must contain enough records and inputs to be inspected independently.
-Version control and optional automation can assist without defining meaning.
-
-## Small Work and Legacy Work
-
-Granularity follows material choices. A mechanical rename can share an
-existing stage and use one change, one bounded verification batch and its
-decision records. It needs no per-line reports or empty binary directories.
-Its maintained units still need a lookup in coverage.
-
-Existing projects start with read-only discovery and explicitly incomplete
-history. Import records with original and reconstruction dates distinguished.
-Where old rationale is gone, a new retain/replace decision can establish
-current justification without inventing the past. Adoption is separate from
-cleanup; disposal follows retention and consumer checks.
-
-## How to Evaluate This Proposal
-
-The [worked traces](project-records-examples.md) cover compiled and document
-work; the [scenarios](project-records-scenarios.md) include interpreted code,
-small edits, contract disagreements, invalid instruments, expiry and loss.
-They specify falsifiers for the process. Illustrations are not empirical
-evidence of independent AI conformance.
-
-The strongest practical trial is a cold reader given only a retained project
-bundle and a selected code unit: can they recover the root goal, rejected
-options, actual test inputs, failures and current validity? Adoption must also
-measure record-writing and audit cost. A process that preserves context but
-regularly prevents useful progress needs revision.
+Current PROJECT, PLAN and STATE are short management views. A reader given
+only STATE should identify stage, open findings and next action. Actual cold
+reading and actual restoration are stronger evidence for that use than link
+counts and matching hashes alone. [Examples](project-records-examples.md) and
+[scenarios](project-records-scenarios.md) show the limits and failure cases.

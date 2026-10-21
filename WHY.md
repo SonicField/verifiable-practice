@@ -12,7 +12,7 @@ VP makes goals, choices, quality criteria, evidence and acceptance decisions exp
 
 ## Why a Project Needs the Whole Method
 
-A good test is one part of a continuing project. Someone must decide what outcome matters, what work is authorised, how much uncertainty and cost are acceptable, which result justifies a choice, and when changed conditions require review. Those decisions must remain understandable after the original conversation disappears. Owned manifests explain retained inputs, byte identities, custody and retention; independent copies support recovery. Missing old history remains unknown, while new choices and evidence justify current work.
+A good test is one part of a continuing project. Someone must decide what outcome matters, what work is authorised, how much uncertainty and cost are acceptable, which result justifies a choice, and when changed conditions require review. Those decisions must remain understandable after the original conversation disappears. Owned manifests explain retained inputs, byte identities, custody and retention; verified independent revision replicas support actual recovery. Missing old history remains unknown, while new choices and evidence justify current work.
 
 VP supplies four connected quality functions:
 
@@ -117,6 +117,6 @@ The discomfort is not a bug. Comfortable collaboration produces comfortable bull
 
 ## Summary
 
-VP defines a complete management method for collaborative project work. Projects choose technical techniques proportionately and explicitly adopt the required planning/record contract for a declared scope. Choices, verification, acceptance and maintenance remain connected to the originating goal through durable evidence and finite validity.
+VP defines a complete management method for collaborative project work. Projects choose technical techniques proportionately and explicitly adopt the required planning/record contract for a declared scope. Choices, verification, acceptance and maintenance remain connected to the originating goal through durable evidence and consequence-based review dates/triggers.
 
 Passing record audit describes the inspected history and justification. Product acceptance needs its own quality evidence. The method's effectiveness and cost remain subjects for evaluation; full lifecycle coverage supplies a process to evaluate, rather than a guarantee of success.

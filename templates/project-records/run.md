@@ -2,6 +2,7 @@
 
 **ID:** <type-sequence>
 **Type:** <type>
+**Assurance level/reason:** <A/B/C and consequence; D uses minimal change form, E commit only>
 **Created:** <YYYY-MM-DD HH:MM:SS UTC>
 **Author/operator:** <identity>
 **Status:** <open or terminal outcome>
@@ -11,7 +12,7 @@
 
 ## Inputs before Execution
 
-**Protocol/hypothesis:** <E/H links>
+**Protocol/hypothesis:** <A E/H links; B/C sections in the decision/change are sufficient>
 **Build/executable:** <B links and digest checked at execution; no build with reason
 for manual/source-only checks>
 **Other inputs:** <exact checked source, harness, dependencies, datasets,
@@ -31,7 +32,7 @@ reader artefacts, model/configuration where relevant>
 **Verdict:** <falsified/failed to falsify/inconclusive; infrastructure failures
 or invalid measurements distinguished>
 **Interpretation/unknowns:** <bounded implications and missing coverage>
-**Accepted outcome owner/review by/triggers:** <finite deadline and dependencies
+**Accepted outcome owner/review by/triggers:** <A/B/C finite deadline or D/E trigger-only, with relevant dependencies
 if relied on; otherwise explicitly not accepted for reliance>
-**Next action:** <D to accept/reject/investigate; retries get new IDs>
+**Next action:** <D to accept/reject/investigate; retries get new labelled attempts at the applicable level>
 

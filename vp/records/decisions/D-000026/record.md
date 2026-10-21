@@ -5,7 +5,7 @@
 **Created:** 2026-10-21 12:36:42 UTC
 **Author/operator:** Codex worker /root, under the current human owner's active goal
 **Status:** selected; implementation open
-**Origin:** [D-000025](../D-000025/record.md); current owner instruction to action all three concerns in [feedback](../../../artefacts/D-000026/feedback.md)
+**Origin:** `9605ad0:vp/records/decisions/D-000025/record.md` (retired original, baseline tag/replica); current owner instruction to action all three concerns in [feedback](../../../artefacts/D-000026/feedback.md)
 **Goal served:** D-000001, portable and inspectably justified VP work; preserve the authorised root and missing-history limits
 **Sealed:** open until transition results are accepted
 **Assurance:** B for this combined governance/custody migration: a defective history migration could conceal serious record loss. Ordinary typo/removal work must not inherit B from this task. Classification fixed before maintained edits.
@@ -34,3 +34,11 @@ Generalise each source observation before implementation. Reject maximum ceremon
 Owner authorises these changes and record pruning in the active task; existing local commit policy applies. Spend up to four hours worker and three 20-minute audit rounds; do not silently lower criteria to fit. Escalate scope/irrecoverable-loss/remote-destination conflicts to the owner while continuing safe independent work. No deletion of Git objects, external old replicas or unowned external data.
 
 This transition is expressly commissioned under the revised risk-based contract: one plan/decision, labelled evidence batch, independent acceptance gate and final acceptance, rather than recreating the verbose adoption on the way to removing it. Pre-action fields for hypotheses/protocols are here; actual evidence attempts are separately labelled under R13. The old 1.0 baseline and verdicts remain historical; current adoption of 1.1 will be explicit and not retroactive. No current weekly dates are changed into renewed evidence: current retained rationale is reclassified by consequence, historical observations keep exact scope, and unsupported efficacy claims remain unknown. B review: 2027-04-21 UTC or earlier rule/input/custody/authority/contrary-evidence trigger; final policy may use a shorter justified date, never blank. Root owner review remains 2027-01-17 UTC.
+
+## Dated amendment after trial01
+
+The first independent pair agreed10/10 but both rated PTE C, failing the D criterion. Original rule/input/results are preserved at candidate66b3801 and its verified trial-01.bundle. Clarify the general C/D boundary using binding requirements, current consumers and verified reversal; supply previously omitted complete responsibility/recovery scope for the same T01. New trial02 keeps the stated agreement/PTE criteria and uses fresh contexts with no prior answers. Pruning attempt01 failed to spawn because of argv size; attempt02 succeeded in bounded batches after complete baseline restoration. Neither failure is rewritten as success.
+
+## Dated amendment: actual minimal-D worker replay
+
+After textual replay and independent classification, test whether a fresh worker actually follows the minimum form. An isolated external fixture contains current1.1 method inputs plus deliberate pre-retirement explanatory sources, preexisting owner/root and complete verified baseline restoration. Fresh worker receives the owner task and adopted contract, not evaluator answers; acceptance is at most one new canonical change record plus inline check, no new D/H/E/R/A/archives/source copies, semantic responsibilities retained and committed source/check evidence. Initial root/setup records are fixture inputs, not generated work. If extra mandatory paperwork is produced, preserve the trial and revise the general operating rule before a fresh retry. Raw fixture outcomes remain at immutable commit/bundle locators, not copied product files in this worktree. This extends evidence for the existing replay criterion, not its scope or a benefit claim.

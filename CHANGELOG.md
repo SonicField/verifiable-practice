@@ -6,6 +6,13 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The
 
 ## Unreleased
 
+### Changed
+
+- Scale assurance by A–E consequence levels, including one change/check for D and commit-message-only E, with trigger-only D/E review.
+- Require content-addressed immutable revision history and a verified recovery replica. Audit packets contain commit/scope/replica locators, never copied source or nested earlier packets.
+- Prune historical evidence copies and detailed self-adoption records from the working tree after an actual baseline restore; retain one summary and immutable custody locators. Rewrite current views for a cold reader.
+
+
 ### Removed
 
 - Dedicated constrained-English concept and playbook, their routes and active

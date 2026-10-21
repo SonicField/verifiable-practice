@@ -1,0 +1,3 @@
+# Cold-reader01 evaluation
+
+Evaluator: worker /root, 2026-10-21T12:54:04.794048+00:00. Against the rubric fixed before participant dispatch and D26/R13/V16/ledger: the answer identifies S4 at B, not accepted; identifies A7/F001 open pending A8 independent closure, no issued new mandatory gap; gives checks/coverage then A8 gate before acceptance/handoff. All three semantic criteria pass. The participant reports only suppliedSTATE access; no extra file reads or source substitutions were used. Response SHA256 a48bd8a2bd1072d2c869be4a8c686baa48197790e5704bd7468db984646c3079. This bounded answer is not proof of general reader comprehension; final changed STATE requires its own fresh trial.

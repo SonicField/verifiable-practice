@@ -37,7 +37,7 @@ Recovery turns the verified map into a sequence of changes. Each step should hav
 - a reversal path;
 - a recorded result.
 
-Preserve or archive before deleting. Stop when observations diverge materially from the plan. A tidy directory is not evidence of a successful recovery; valuable outcomes must remain accessible and reproducible.
+Preserve immutable revision history and verify recovery from its independent replica before deleting current copies; do not create source archive directories in the worktree. Stop when observations diverge materially from the plan. A tidy directory is not evidence of a successful recovery; valuable outcomes must remain accessible and reproducible.
 
 See [Project Recovery](../playbooks/recovery.md) for the operational process.
 
