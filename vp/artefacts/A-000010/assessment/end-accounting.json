@@ -1,0 +1,66 @@
+{
+  "ended": "2026-10-21T13:22:15.309645+00:00",
+  "HEAD": "20bb26b935056c7b256b478fa224799ab923a80f",
+  "tree": "ed7f86df51e2d5486a644caccf8d9e8f3cfeaa48",
+  "candidate_files_checked": 222,
+  "candidate_errors": [],
+  "request_sha256": "88f3a5760619f1a5c15998ba40f61b8ac0ce43338a1ea646be1b347ee461ff81",
+  "packet_metadata": [
+    {
+      "path": "vp/artefacts/A-000010/input/MANIFEST.md",
+      "sha256": "666806b9b6e2fcf3802e6f7e6c5ed1399a19bd9614fba94a20368d6e52dffebe",
+      "matches_start": true
+    },
+    {
+      "path": "vp/artefacts/A-000010/input/preparation.json",
+      "sha256": "03840ac0fffb9fde747d48903c2b9ca1db8a903e243361929c7dbd25b83e7694",
+      "matches_start": true
+    }
+  ],
+  "bundles": [
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle",
+      "sha256": "d6a700b563433ee68a3415a60b19c301f52e8b638141b0cae74154abf45abd67",
+      "match": true,
+      "exit": 0
+    },
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/trial-01.bundle",
+      "sha256": "09fb3eb9fde9ba471154dcf33a132cd2943de7b23c6b992c56a0ce086d791bdc",
+      "match": true,
+      "exit": 0
+    },
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-result.bundle",
+      "sha256": "895fbc668493802f2eccc251c0ca226b628eb6d1f3bca1be9688ece5c8649d1f",
+      "match": true,
+      "exit": 0
+    },
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000010-candidate.bundle",
+      "sha256": "a3c39804a73d1014493e89e1c800d8fdad650a218faabf6e030d4ad6cf9d85da",
+      "match": true,
+      "exit": 0
+    },
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-baseline.bundle",
+      "sha256": "40a51feef7cae5f9be37dbff0f544a0af1667e98ccca8656f26ab9934f0ffc66",
+      "match": true,
+      "exit": 0
+    },
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000008-candidate.bundle",
+      "sha256": "741ce7844ad71792ca3d1dcd13ae10c82f5949b0abe20a5b824125625124cbe2",
+      "match": true,
+      "exit": 0
+    },
+    {
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000009-candidate.bundle",
+      "sha256": "d19da757b8e2cf7c04ecf25ef0d2382239a05d1d0cb10eec567b4e49354ed657",
+      "match": true,
+      "exit": 0
+    }
+  ],
+  "status": "?? vp/artefacts/A-000010/\n?? vp/records/audits/A-000010/record.md\n",
+  "limits": "Own A10 outputs and input metadata are outside their own candidate freeze. No source mutation or project execution."
+}

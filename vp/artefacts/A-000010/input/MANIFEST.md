@@ -1,0 +1,12 @@
+# A-000010 fixed Project Audit packet
+
+Prepared 2026-10-21T13:17:34.729653+00:00 by worker/coordinator /root under D26/V18. Fresh Project Auditor consumer. Retain life plus365days; B21April2027/earlier relevant trigger/root dependency.
+
+Repository `/home/alexturner/verifiable-practice`; fixed commit `20bb26b935056c7b256b478fa224799ab923a80f`, tree `ed7f86df51e2d5486a644caccf8d9e8f3cfeaa48`, standard1.1 unchanged. Request `20bb26b935056c7b256b478fa224799ab923a80f:vp/records/audits/A-000010/request.md` SHA256 `88f3a5760619f1a5c15998ba40f61b8ac0ce43338a1ea646be1b347ee461ff81`. Scope all69 product paths outside vp and all current vp views/workspace/records/owned evidence/successor indexes. Resolve fixed objects, no live substitutions. A8/A9 sealed report/assessment and V17/V18 responses are immutable candidate inputs at their declared paths, never copied into this packet. Historical baseline9605ad0/A7/V15/original root are exact Git locators, not retroactive certification. Own future A10 report/assessment/input metadata, D27/seals/final-reader/receipt are outside their own freeze; every earlier candidate object remains accounted.
+
+Verified complete candidate replica `/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000010-candidate.bundle` SHA256 `a3c39804a73d1014493e89e1c800d8fdad650a218faabf6e030d4ad6cf9d85da`. Referenced separate-directory recovery bundles:
+- `/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle` SHA256 `d6a700b563433ee68a3415a60b19c301f52e8b638141b0cae74154abf45abd67`
+- `/home/alexturner/vp-preserved/verifiable-practice/review-20261021/trial-01.bundle` SHA256 `09fb3eb9fde9ba471154dcf33a132cd2943de7b23c6b992c56a0ce086d791bdc`
+- `/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-result.bundle` SHA256 `895fbc668493802f2eccc251c0ca226b628eb6d1f3bca1be9688ece5c8649d1f`
+
+R13 fixed evidence identifies the actual full baseline restore, all ignored-original mappings and isolated fixture commits/replicas. Prior A8/A9 scope/verdicts stay exact. No source/prior-packet content or recursively expanded old inventory. Two small metadata files bounded by present component scopes/replica locators, not prior-audit count. Worker/coordinator custody and capture; same-host recovery/attribution only, not host-loss protection or authenticated actions. Native evidence/participant scopes and omissions remain explicit in fixed owning records/manifests. preparation.json supplies actual reference time/commands/identities.

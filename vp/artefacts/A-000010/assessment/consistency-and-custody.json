@@ -1,0 +1,180 @@
+{
+  "time": "2026-10-21T13:19:31.617253+00:00",
+  "baseline": "9605ad0dccea157880a05208babfdac5aa5a5fcd",
+  "baseline_tag": "9605ad0dccea157880a05208babfdac5aa5a5fcd",
+  "baseline_files": 23353,
+  "baseline_bytes": 390493640,
+  "distinct_baseline_blobs": 616,
+  "retained_restore_mismatches": [],
+  "baseline_paths_absent": 23245,
+  "successor_manifests": [
+    {
+      "path": "vp/artefacts/D-000004/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/D-000004/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/R-000010/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/R-000010/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/C-000002/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/C-000002/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/R-000009/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/R-000009/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/R-000012/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/R-000012/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/R-000003/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/R-000003/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/C-000005/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/C-000005/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/R-000007/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/R-000007/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/C-000001/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/C-000001/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/C-000004/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/C-000004/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/R-000004/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/R-000004/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/D-000022/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/D-000022/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/C-000006/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/C-000006/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/C-000003/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/C-000003/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/R-000001/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/R-000001/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/V-000011/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/V-000011/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/V-000014/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/V-000014/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/D-000010/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/D-000010/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/R-000008/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/R-000008/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/R-000005/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/R-000005/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/R-000011/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/R-000011/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/V-000006/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/V-000006/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/A-000002/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/A-000002/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/V-000007/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/V-000007/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/R-000002/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/R-000002/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/D-000001/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/D-000001/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/A-000007/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/A-000007/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/R-000006/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/R-000006/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/A-000003/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/A-000003/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/S-000001/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/S-000001/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/D-000012/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/D-000012/MANIFEST.md",
+      "match": true
+    },
+    {
+      "path": "vp/artefacts/V-000010/MANIFEST.md",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/artefacts/V-000010/MANIFEST.md",
+      "match": true
+    }
+  ],
+  "fence_aware_link_count": 347,
+  "fence_aware_link_errors": [],
+  "initial_link_flags_disposition": "All 86 naive unresolved destinations occur in fenced immutable case-source excerpts; they are source-relative quotations, not active navigation. Fence-aware pass has no unresolved destination.",
+  "sealed_A8_A9_objects": 22,
+  "sealed_A8_A9_preserved": true,
+  "V17_sealed_d997f6e_preserved": true,
+  "V17_initial_flag_disposition": "The first version at8d84aa0 was open pre-action. Comparing sealed d997f6e verifies preservation; no rewrite of a sealed original.",
+  "standard_unchanged_from_A8": true
+}

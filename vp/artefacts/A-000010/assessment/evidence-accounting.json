@@ -1,0 +1,440 @@
+{
+  "time": "2026-10-21T13:20:05.591151+00:00",
+  "classification": [
+    {
+      "trial": "01",
+      "pairs": [
+        {
+          "case": "T01",
+          "levels": [
+            "C",
+            "C"
+          ],
+          "distance": 0
+        },
+        {
+          "case": "T02",
+          "levels": [
+            "C",
+            "C"
+          ],
+          "distance": 0
+        },
+        {
+          "case": "T03",
+          "levels": [
+            "C",
+            "C"
+          ],
+          "distance": 0
+        },
+        {
+          "case": "T04",
+          "levels": [
+            "C",
+            "C"
+          ],
+          "distance": 0
+        },
+        {
+          "case": "T05",
+          "levels": [
+            "C",
+            "C"
+          ],
+          "distance": 0
+        },
+        {
+          "case": "T06",
+          "levels": [
+            "D",
+            "D"
+          ],
+          "distance": 0
+        },
+        {
+          "case": "T07",
+          "levels": [
+            "D",
+            "D"
+          ],
+          "distance": 0
+        },
+        {
+          "case": "T08",
+          "levels": [
+            "C",
+            "C"
+          ],
+          "distance": 0
+        },
+        {
+          "case": "T09",
+          "levels": [
+            "D",
+            "D"
+          ],
+          "distance": 0
+        },
+        {
+          "case": "T10",
+          "levels": [
+            "D",
+            "D"
+          ],
+          "distance": 0
+        }
+      ],
+      "exact": 10,
+      "nonadjacent": 0,
+      "passes": false
+    },
+    {
+      "trial": "02",
+      "pairs": [
+        {
+          "case": "T01",
+          "levels": [
+            "D",
+            "D"
+          ],
+          "distance": 0
+        },
+        {
+          "case": "T02",
+          "levels": [
+            "C",
+            "D"
+          ],
+          "distance": 1
+        },
+        {
+          "case": "T03",
+          "levels": [
+            "C",
+            "C"
+          ],
+          "distance": 0
+        },
+        {
+          "case": "T04",
+          "levels": [
+            "C",
+            "C"
+          ],
+          "distance": 0
+        },
+        {
+          "case": "T05",
+          "levels": [
+            "C",
+            "C"
+          ],
+          "distance": 0
+        },
+        {
+          "case": "T06",
+          "levels": [
+            "C",
+            "C"
+          ],
+          "distance": 0
+        },
+        {
+          "case": "T07",
+          "levels": [
+            "D",
+            "D"
+          ],
+          "distance": 0
+        },
+        {
+          "case": "T08",
+          "levels": [
+            "C",
+            "C"
+          ],
+          "distance": 0
+        },
+        {
+          "case": "T09",
+          "levels": [
+            "D",
+            "C"
+          ],
+          "distance": 1
+        },
+        {
+          "case": "T10",
+          "levels": [
+            "D",
+            "D"
+          ],
+          "distance": 0
+        }
+      ],
+      "exact": 8,
+      "nonadjacent": 0,
+      "passes": true
+    }
+  ],
+  "case_source_hashes": [
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/changes/C-000006/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000022/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/changes/C-000005/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000016/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/changes/C-000004/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000013/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/events/V-000010/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000019/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000011/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000010/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000021/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/runs/R-000011/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/events/V-000012/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000020/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000004/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000007/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:.github/ISSUE_TEMPLATE/bug_report.yml",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:CONTRIBUTING.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/events/V-000015/record.md",
+      "match": true
+    },
+    {
+      "trial": "01",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/audits/A-000007/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/changes/C-000006/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000022/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/changes/C-000005/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000016/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/changes/C-000004/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000013/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/events/V-000010/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000019/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000011/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000010/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000021/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/runs/R-000011/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/events/V-000012/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000020/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000004/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/decisions/D-000007/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:.github/ISSUE_TEMPLATE/bug_report.yml",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:CONTRIBUTING.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/events/V-000015/record.md",
+      "match": true
+    },
+    {
+      "trial": "02",
+      "locator": "9605ad0dccea157880a05208babfdac5aa5a5fcd:vp/records/audits/A-000007/record.md",
+      "match": true
+    }
+  ],
+  "prune_removed": 23277,
+  "actual_absent": 23245,
+  "recreated": 32,
+  "unlisted_absent": [],
+  "listed_not_accounted": [],
+  "restore_ended": "2026-10-21T12:37:25.028082+00:00",
+  "prune_started": "2026-10-21T12:41:03.679935+00:00",
+  "ignored_count": 77,
+  "ignored_errors": [],
+  "fixture_new_records": [
+    "vp/records/changes/C-000001/record.md"
+  ],
+  "fixture_contracts": [
+    {
+      "path": "standards/project-records.md",
+      "unchanged": true
+    },
+    {
+      "path": "SECURITY.md",
+      "unchanged": true
+    },
+    {
+      "path": "concepts/zero-code-contract.md",
+      "unchanged": true
+    },
+    {
+      "path": "concepts/verification-cycle.md",
+      "unchanged": true
+    },
+    {
+      "path": "vp/PROJECT.md",
+      "unchanged": true
+    }
+  ],
+  "fixture_ancestry": [
+    {
+      "before": "3c09749c6c71d348fb2b3172e86c10ee06bf0506",
+      "after": "7a8a54b33192c3e6eb660d19e9b909bea76e1dab",
+      "is_ancestor": true
+    },
+    {
+      "before": "7a8a54b33192c3e6eb660d19e9b909bea76e1dab",
+      "after": "1cdd2bc89c1c4e7cb620f326bd13db26b271b6fd",
+      "is_ancestor": true
+    },
+    {
+      "before": "1cdd2bc89c1c4e7cb620f326bd13db26b271b6fd",
+      "after": "184b62fd18a33bd82d595f3285cc26427bc11086",
+      "is_ancestor": true
+    }
+  ],
+  "packet_assembly_sizes": [
+    873,
+    928,
+    928
+  ],
+  "limits": "Read-only comparison/recalculation of existing fixed evidence and retained fixture Git. No project instrument or restoration executed. Attributed occurrences and same-host custody only."
+}

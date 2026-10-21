@@ -7,11 +7,11 @@ an authorised reason and appropriately tested evidence. D26 is the current
 mandate to address the review's three concerns; original D1 is preserved at
 `9605ad0:vp/records/decisions/D-000001/record.md`.
 
-**Current stage:** S4, B migration not accepted.
-**Open findings:** A8/F001 and its residual A9/F001 remain open; V18 response
-requires fresh A10. A7/F001 is independently closed.
-**Next action:** A10 closure/current consistency, then separate acceptance,
-final recovery and fresh STATE reader before committed handoff.
+**Current stage:** S4 product/control transition accepted by D27 after A10;
+final recovery/reader/commit handoff in progress.
+**Open findings:** none. A10 closes A8/F001 and A9/F001; A7/F001 remains closed.
+**Next action:** worker completes R13 recovery/final STATE/commit; then owner
+reviews results and selects further work within the unchanged mandate.
 
 ## Scope and Authority
 
@@ -35,7 +35,7 @@ change/check; E its commit message. Disagreement uses the higher level.
 A/B/C defaults are respectively 90/180/365 days, justified by consequence in
 this stable documentation project; faster-changing claims get shorter dates.
 D/E use relevant change triggers with no calendar expiry. Current B migration
-reviews by 21 April 2027 UTC, sooner on rule/source/input/authority/custody or
+reviews by 19 April 2027 UTC, sooner on rule/source/input/authority/custody or
 contrary evidence. Stable prose does not inherit old weekly runtime deadlines.
 Unknown efficacy/reader-population claims are not presented as verified.
 
@@ -52,7 +52,7 @@ retirement. Never prune Git objects or replicas as routine worktree cleanup.
 No recursive audit packets or worktree source copies. A packet is a fixed
 commit, bounded scope and verified replica/external evidence locators. The
 fresh Project Auditor writes only its assessment/report, not repairs/tests.
-A10 must close the A8/A9 mandatory gap before this B acceptance. Cold-reader and
+A10 independently closed the A8/A9 gap; D27 is the separate B acceptance. Cold-reader and
 classification trials are separate working tests. Budget: four hours worker,
 three 20-minute audit rounds; unresolved mandatory gaps block acceptance and
 route an owner decision. No perpetual debate or permission inferred from a pass.

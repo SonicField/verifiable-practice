@@ -1,0 +1,77 @@
+{
+  "initial_assessor_attempt": "Failed before evidence conclusion because A8 metadata keys use basenames. Resolved them against the explicit review-20261021 manifest directory; no missing custody inferred.",
+  "checks": [
+    {
+      "owner": "vp/artefacts/A-000008/input/preparation.json",
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle",
+      "expected": "d6a700b563433ee68a3415a60b19c301f52e8b638141b0cae74154abf45abd67",
+      "sha256": "d6a700b563433ee68a3415a60b19c301f52e8b638141b0cae74154abf45abd67",
+      "match": true,
+      "exit": 0
+    },
+    {
+      "owner": "vp/artefacts/A-000008/input/preparation.json",
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/trial-01.bundle",
+      "expected": "09fb3eb9fde9ba471154dcf33a132cd2943de7b23c6b992c56a0ce086d791bdc",
+      "sha256": "09fb3eb9fde9ba471154dcf33a132cd2943de7b23c6b992c56a0ce086d791bdc",
+      "match": true,
+      "exit": 0
+    },
+    {
+      "owner": "vp/artefacts/A-000008/input/preparation.json",
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-baseline.bundle",
+      "expected": "40a51feef7cae5f9be37dbff0f544a0af1667e98ccca8656f26ab9934f0ffc66",
+      "sha256": "40a51feef7cae5f9be37dbff0f544a0af1667e98ccca8656f26ab9934f0ffc66",
+      "match": true,
+      "exit": 0
+    },
+    {
+      "owner": "vp/artefacts/A-000008/input/preparation.json",
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-result.bundle",
+      "expected": "895fbc668493802f2eccc251c0ca226b628eb6d1f3bca1be9688ece5c8649d1f",
+      "sha256": "895fbc668493802f2eccc251c0ca226b628eb6d1f3bca1be9688ece5c8649d1f",
+      "match": true,
+      "exit": 0
+    },
+    {
+      "owner": "vp/artefacts/A-000008/input/preparation.json",
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000008-candidate.bundle",
+      "expected": "741ce7844ad71792ca3d1dcd13ae10c82f5949b0abe20a5b824125625124cbe2",
+      "sha256": "741ce7844ad71792ca3d1dcd13ae10c82f5949b0abe20a5b824125625124cbe2",
+      "match": true,
+      "exit": 0
+    },
+    {
+      "owner": "vp/artefacts/A-000009/input/preparation.json",
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle",
+      "expected": "d6a700b563433ee68a3415a60b19c301f52e8b638141b0cae74154abf45abd67",
+      "sha256": "d6a700b563433ee68a3415a60b19c301f52e8b638141b0cae74154abf45abd67",
+      "match": true,
+      "exit": 0
+    },
+    {
+      "owner": "vp/artefacts/A-000009/input/preparation.json",
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/trial-01.bundle",
+      "expected": "09fb3eb9fde9ba471154dcf33a132cd2943de7b23c6b992c56a0ce086d791bdc",
+      "sha256": "09fb3eb9fde9ba471154dcf33a132cd2943de7b23c6b992c56a0ce086d791bdc",
+      "match": true,
+      "exit": 0
+    },
+    {
+      "owner": "vp/artefacts/A-000009/input/preparation.json",
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-result.bundle",
+      "expected": "895fbc668493802f2eccc251c0ca226b628eb6d1f3bca1be9688ece5c8649d1f",
+      "sha256": "895fbc668493802f2eccc251c0ca226b628eb6d1f3bca1be9688ece5c8649d1f",
+      "match": true,
+      "exit": 0
+    },
+    {
+      "owner": "vp/artefacts/A-000009/input/preparation.json",
+      "path": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000009-candidate.bundle",
+      "expected": "d19da757b8e2cf7c04ecf25ef0d2382239a05d1d0cb10eec567b4e49354ed657",
+      "sha256": "d19da757b8e2cf7c04ecf25ef0d2382239a05d1d0cb10eec567b4e49354ed657",
+      "match": true,
+      "exit": 0
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "started": "2026-10-21T13:17:34.729653+00:00",
+  "ended": "2026-10-21T13:17:36.532367+00:00",
+  "reference_time": "2026-10-21T13:17:34.729653+00:00",
+  "revision": "20bb26b935056c7b256b478fa224799ab923a80f",
+  "tree": "ed7f86df51e2d5486a644caccf8d9e8f3cfeaa48",
+  "request_sha256": "88f3a5760619f1a5c15998ba40f61b8ac0ce43338a1ea646be1b347ee461ff81",
+  "git_executable_sha256": "075712ec64ace2177b71b25a0a7af6d6b1585466a4db6a6c1e43a0c4f896c3c8",
+  "commands": [
+    {
+      "argv": [
+        "/usr/bin/git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "exit": 0,
+      "stdout": "20bb26b935056c7b256b478fa224799ab923a80f\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "rev-parse",
+        "20bb26b935056c7b256b478fa224799ab923a80f^{tree}"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "exit": 0,
+      "stdout": "ed7f86df51e2d5486a644caccf8d9e8f3cfeaa48\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "bundle",
+        "create",
+        "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000010-candidate.bundle",
+        "HEAD"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "bundle",
+        "verify",
+        "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000010-candidate.bundle"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "exit": 0,
+      "stdout": "The bundle contains this ref:\n20bb26b935056c7b256b478fa224799ab923a80f HEAD\nThe bundle records a complete history.\nThe bundle uses this hash algorithm: sha1\n",
+      "stderr": "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000010-candidate.bundle is okay\n"
+    },
+    {
+      "argv": [
+        "/usr/bin/git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "cwd": "/home/alexturner/verifiable-practice",
+      "exit": 0,
+      "stdout": "20bb26b935056c7b256b478fa224799ab923a80f\n",
+      "stderr": ""
+    }
+  ],
+  "external_bundle_sha256": {
+    "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/baseline.bundle": "d6a700b563433ee68a3415a60b19c301f52e8b638141b0cae74154abf45abd67",
+    "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/trial-01.bundle": "09fb3eb9fde9ba471154dcf33a132cd2943de7b23c6b992c56a0ce086d791bdc",
+    "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/minimal-D-result.bundle": "895fbc668493802f2eccc251c0ca226b628eb6d1f3bca1be9688ece5c8649d1f",
+    "/home/alexturner/vp-preserved/verifiable-practice/review-20261021/A-000010-candidate.bundle": "a3c39804a73d1014493e89e1c800d8fdad650a218faabf6e030d4ad6cf9d85da"
+  },
+  "limits": "Attributed same-host separate-directory custody; no source/prior-packet payload or authentication claim."
+}

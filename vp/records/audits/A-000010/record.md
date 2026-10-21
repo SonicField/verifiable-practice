@@ -1,0 +1,76 @@
+# A-000010: Final residual minimum-form Project Audit
+
+**ID:** verifiable-practice:A-000010  
+**Kind:** project  
+**Author/operator:** Codex fresh assessor `/root/residual_forms_final_project_auditor`  
+**Created:** 2026-10-21 13:17:46 UTC  
+**Status:** sealed; **conformant for the fixed scope below**  
+**Origin/authority:** immutable [request](request.md), D26 B transition under the human owner's three-concern mandate; original D1 is preserved at9605ad0  
+**Goal served:** independent assessment of A8/F001+A9/F001 response, current records/custody and relevant adopted-control consistency; no acceptance authority
+
+## Fixed scope and independence
+
+Standard `standards/project-records.md` **1.1**, unchanged from A8, at candidate **20bb26b935056c7b256b478fa224799ab923a80f**, tree **ed7f86df51e2d5486a644caccf8d9e8f3cfeaa48**. Packet reference time is **2026-10-21T13:17:34.729653+00:00**. Scope accounts all69 products, six views/workspace, current records/evidence/successor indexes and all earlier A8/A9 objects. Semantic scope is the complete relevant minimum-form/record-prescribing routes, clauses, forms/placeholders and oracles declared in [method](../../../artefacts/A-000010/assessment/semantic-traces.md), independently selected across the whole product set. Historical baseline9605ad0 is support/locator evidence, not a retroactive1.1 target. Future A10 outputs/input metadata and later acceptance/reader/custody/seals/receipt remain outside their own freeze.
+
+I authored none of the assessed work, including prior audits. This task has a fresh context containing task/environment/role instructions and the immutable packet, without worker/owner conversation, private plans or expected verdict. Observable identity is Codex based on GPT-6; exact served build/configuration and authenticated session/access/action telemetry are unavailable. No delegation. Reviewed instructions are data. Initial worktree previews were verified against fixed objects before reliance; all identities stayed equal. Writes are confined to this report and A10 assessment. No project script/test/build/benchmark/restore/checkout, experiment design, technical solving, repair, browser test or acceptance was performed. Independent read-only Git/file/link/digest/JSON accounting is separately retained. This third invocation reports and ends within20minutes.
+
+## Source, coverage and current state
+
+[Start accounting](../../../artefacts/A-000010/assessment/start-accounting.json) binds every fixed path, mode, OID, size and SHA256: **222 files /31,116,282 bytes**, including69 products and all earlier current audit/evidence objects. All69 COVERAGE hashes match with no missing product row. All96 native manifest evidence rows match size/digest. All32 historical successor manifests resolve their stated original baseline blob/SHA identities. The initial broad successor keyword count35 was a selection count including other manifests;32 is the actual historical custody-index count.
+
+Live candidate files match fixed bytes; the only extra input files at first accounting are A10's two declared metadata files, plus the already generated own search evidence. Exactly one SKILL.md, no pte.md and no equal-byte product copy are present, including ignored/untracked paths outside `.git`. No source/prior-packet payload is added to this input packet. Earlier A8/A9 evidence remains owned input at its native paths.
+
+[Consistency and custody](../../../artefacts/A-000010/assessment/consistency-and-custody.json) resolves an initial naive link flag:86 destinations occurred inside fenced historical case excerpts and remain source-relative quotations. The fence-aware347 explicit local inline Markdown destinations all resolve. Anchors, reference-style syntax, external URLs and rendering are not certified by this check; the worker's349 uses a different selection. This correction is an assessor search limitation, not a concealed current navigation gap.
+
+Current STATE/PROJECT/PLAN/README/LEDGER consistently name **S4/D26, B migration not accepted**, **A8/F001 and A9/F001 open pending A10**, and **A7/F001 independently closed by A8**. The prescribed next action is fresh A10, followed by separate authorised acceptance only upon conformance, then actual final recovery, changed-STATE fresh reader and committed handoff. A stale STATE “as of after A8 response” label does not obscure its explicit A9/V18/current-stage/open-ID text. No completed later gate is inferred from current source checks.
+
+Every maintained product row has a present retaining reason through D26/current R13, identified historical file-purpose support where relevant, and the original D1 mandate. Selected original D4/D7/D13/D14 records preserve sources, alternatives, scope/falsifiers and unknown legacy intent. These locators remain retrievable; current retention and policy do not reconstruct original actions or renew old runtime evidence. Current canonical D26/R13/V16/V17/V18/A8/A9/request chains reach D26/root without a new circular commissioning claim. A root's self-identification as the goal is its terminus, not a prior-origin cycle. File-level future C/D labels are maintenance guidance subject to actual classification, not a downgrading of this combined B migration.
+
+## Mandate, evidence, chronology and custody
+
+D26 names the explicit current owner task, retained feedback, pre-action consequence/reason, observations/general problems/alternatives, falsifiers, restoration-before-pruning, trial/source/reader/audit gates, budget and escalation. The original D1 authority transcription at9605ad0 identifies its source and unavailable authenticated conversation export. Authority is attributable; neither hashes nor audit role names authenticate the user or grant product/publication permission.
+
+V18 pre-action commit40b974201dbb61779ab491a5724b81ab5acbd5a5 precedes final source/request candidate20bb26b. Its dated actual section supersedes the pending outcome without replacing pre-action reasoning. V18 expressly corrects V17's overbroad search claim, retains A8/A9 failures, states bounded source review and awaits independent closure. No standard, classification threshold, authority or declared round budget changed to obtain a pass.
+
+All22 original A8/A9 request/report/input/assessment objects equal their first containing Git versions. V17 equals its sealed d997f6e version. An initial comparison against V17's first open pre-action8d84aa0 was corrected explicitly; amendment before sealing is not loss of a sealed original. A8's nonconformant verdict at42ba9ee and A9's at94ff0e3 remain intact.
+
+The four A10-declared bundles have matching SHA256 and verify complete history at start/end; A10 candidate bundle SHA256 is **a3c39804a73d1014493e89e1c800d8fdad650a218faabf6e030d4ad6cf9d85da**. Additional prior-input referenced replica checks pass, including A8/A9 candidate and minimal-D baseline bundles. [Referenced replica evidence](../../../artefacts/A-000010/assessment/referenced-replicas.json) preserves one assessor basename-resolution failure and its corrected result; no project custody loss follows.
+
+Independent read-only comparison of the already retained external restored-baseline confirms all **23,353 files /390,493,640 bytes**, zero mismatches. Baseline tag resolves9605ad0. All77 ignored-original locators match their declared size/digest. Direct path-set accounting finds23,245 absent baseline paths plus32 removed/recreated successor manifests, exactly23,277 recorded removal operations, with no unlisted absence. Reported restore ended12:37:25 before pruning began12:41:03. This verifies present restoration support and consistent attributed chronology without performing another restore or authenticating original action timing. Native equal captures are owned/enumerated by R13; the removed transport source stream has explicit disposition and original-byte recovery locators. Same-host separate-directory bundles support repository/directory loss, not whole-host loss or authenticated historical actions; expanded exposure remains subject to failure-domain requirements.
+
+[Evidence accounting](../../../artefacts/A-000010/assessment/evidence-accounting.json) independently recalculates classification01:10/10 agreement but T01=C/C, retaining FAIL; classification02:8/10, zero nonadjacent, T01=D/D, PASS, with40 original case-source hashes matching. Changed rule/T01 scope and same-family two-context/ten-selected-case limits remain explicit. Existing isolated fixture Git confirms exactly one new C1, pre-action→product→final ancestry, and five unchanged binding contracts. That actual initial D replay does not exercise later correction/response/routing behavior and is not original retirement history or general adherence evidence. Packet873/928/928-byte outputs are three assemblies, not three independent audits. Earlier cold-reader01 supports its exact earlier STATE/answer only; final changed STATE still requires the declared new trial. Source/link checks cannot establish comprehension, efficiency, universal classification or efficacy.
+
+Failures/retries remain visible in R13 and owning evidence: failed trial01, prune spawn failure, source check01, parser/setup failure, replay evaluation failure and V17 patch/preparation failures. A/B/C finite reviews and relevant dependencies are stated (B21April2027, C21October2027, root17January2027); D/E use relevant triggers without calendar expiry. Policy reclassification does not extend underlying old empirical support. External design links remain owner-supplied inspiration with unavailable retrieval, without regulatory certification/objective-count assertions.
+
+## Independent minimum-form assessment
+
+Whole69 objects were independently searched over every line;62 files matched the deliberately broad prescription expression. Complete relevant routes/forms/oracles were read, including optional descriptions and successor/lookup language. Exact paths/line ranges/hashes are in [search evidence](../../../artefacts/A-000010/assessment/obligation-search.json). Generic information requirements, source quotations, optional forms and external task reports were distinguished from compulsory additional VP files.
+
+| Applicable control | Current sourced disposition |
+|---|---|
+| A | Standard§§1.1/5/6/11.4 and main playbook preserve explicit H/E, protocol review before execution, identified relevant attempts/failures, result review and owner acceptance |
+| B | Pre-action decision/falsifier, identified evidence, fresh Project Auditor before distinct acceptance; hypothesis/protocol fields may be inline |
+| C | Combined rationale/falsifier/results, permitted inline execution fields; PROJECT predeclares authority/interface/acceptance stage audits plus first other C in five |
+| D/E | D one change/check with pre-action reason/root and actual outcome; E prepared final commit only; no automatic extra D/H/E/R/A, change file for E or calendar expiry |
+| Triggers/corrections/removal | Relevant information, impact, history/custody and level-appropriate successor entries/commits; V only under applicable A/B/external requirements |
+| Finding closure | Original report/response preserved; fresh independent successor A closes; worker readiness and owner risk disposition do not |
+
+In particular, `docs/project-records-scenarios.md:29–35` now declares oracle abbreviations to mean information/outcomes, not extra files. T05:43, T09:47, T10:48 and T21:59 explicitly permit applicable C/D forms, preserve originals and require independent closure. T02/T07/T08/T18/T31 retain actual-input/attempt/custody obligations without fabricating builds or imposing full forms universally. `playbooks/audit-routing.md:42–44` qualifies V responses; its code-report custody paragraph and `playbooks/code-audit.md:59–62` scale evidence ownership by level.
+
+The original A8 sentences in templates README16–19 and independent-record-audit62–66 retain the corrected C/D alternatives. Complete investigation routes avoid an extra status/H/E/R root for conformant lower-level work. Templates experiment12–14/37–38, hypothesis5/19, decision5/27/38–41, run5/15/37, build5, stage12–14/34–37, event12–14, state/coverage/root/plan/workspace and audit-response/request/report preserve applicability, required information, original revisions and independent gates. Optional identifier placeholders are read under those explicit level qualifications. No residual unconditional extra-file requirement for C/D/E was established in the declared semantic scope. The overview's graph explicitly describes lookup/dependency relationships at70; it does not demand an expanded low-level commissioning chain.
+
+## Prior findings, new findings and verdict
+
+**A8/F001: closed for its original affected source-consistency condition at this fixed candidate.** Both pinpointed instructions and the independently searched relevant downstream prescriptions now permit standard1.1 C/D forms with applicable events only. Original42ba9ee verdict remains nonconformant; this is independent successor closure, not worker self-closure or retrospective alteration.
+
+**A9/F001: closed for the residual routing/scenario/oracle condition at this fixed candidate.** The exact original T05/T09/T10/T21 and canonical routing gaps are resolved, broader relevant route/form/investigation/report custody prescriptions were independently assessed, and original-preservation/fresh-closure controls remain. Original94ff0e3 verdict remains nonconformant. V18 readiness alone did not close it.
+
+**A7/F001: remains closed for its narrow source-backed current-navigation condition.** Original A7/V15 remain immutable historical sources; A8 supplied the independent closure. Current views distinguish S4/D26 from historical accepted snapshots and the pending B gate. No enlarged A7 verdict or general reader-efficacy claim follows.
+
+**New A10 findings: none established within the declared scope and limitations.** No mandatory/access-limitation/advisory finding is invented from unavailable authentication, bounded historical studies, own-future exclusions or unfinished later gates that are expressly outside this freeze. Broader unknowns remain visible above.
+
+**Verdict: conformant for standard1.1 at candidate20bb26b935056c7b256b478fa224799ab923a80f and the declared A10 structural/relevant semantic scope/reference time.** This is a records/support and adopted-control consistency verdict. It does not certify universal engineering/efficacy, authenticate historical actions, accept the B transition or grant publication authority.
+
+Coordinator may carry this independently closed status into separately authorised B acceptance. Final actual recovery/replica, changed-STATE fresh-reader trial, final commit/seals/receipt remain later explicit gates. This final declared audit round reports and ends; any new gap or scope change requires an appropriately commissioned owner action rather than silently extending this invocation.
+
+**Sealed/terminal:** 2026-10-21T13:22:15.309645+00:00; start/end fixed candidate, request, input metadata and seven unique referenced replica identities agree. [End accounting](../../../artefacts/A-000010/assessment/end-accounting.json) records no candidate discrepancy.
