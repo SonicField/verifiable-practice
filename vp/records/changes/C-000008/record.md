@@ -128,3 +128,35 @@ sealed A11. Proposed ready for independent review; F001 remains open until A12
 checks its observable acceptance/revision consistency condition.
 
 Instruction probe and fresh C-stage audit pending; no acceptance yet.
+
+### Instruction probe01 and source check02, 17:32 UTC
+
+Fresh `/root/c8_evidence_role_probe`, no inherited turns, read only the committed
+0fffb29 request and five designated standard/forms. No scenario oracles, C8,
+worker chat or private plans were supplied. Actual source/configuration limits
+and all eight answers remain in its unique response. Worker evaluation:
+
+| Case/oracle | Actual answer observation | Outcome |
+|---|---|---|
+| 1 / T35 | Digest-only compiled output is not missing required evidence; recipe not tested reconstruction/repetition | Pass |
+| 2 / T36 | Sole binary-format measurements require retained bytes/custody, not hash-only disposal | Pass |
+| 3 / T37 | Lost raw log is an explicit gap; executable cannot replace observations; new run newly dated | Pass |
+| 4 / T38 | Unreconstructable toolchain stays unavailable; retaining executable does not establish reproduction/obligation | Pass |
+| 5 / T39 | Contractual exact shipped bytes require concrete role/period/custody | Pass |
+| 6 / T40 | Diagnostic executable may be disposed after authority/use/consumer/required-evidence checks, no executable restore | Pass |
+| 7 / T41 | Keep imported identity/raw outputs and unknown provenance; missing executable alone not custody failure | Pass |
+| 8 / T42 | Scoped byte recovery alone, no build/environment/repetition/authentication claim | Pass |
+
+All eight predeclared outcomes hold, zero blanket binary-retention/reproduction
+inferences. One bounded same-family fresh answer is not an executed benchmark,
+full adoption workflow, repeated population trial or universal benefit/adherence
+claim. No failed probe/retry. After that input revision, wording “Keep actual binary
+bytes only” was clarified to “Require durable retention ... only” to avoid prohibiting
+normal temporary working use; roles/outcomes unchanged, but the probe is not claimed
+to have read those later bytes. Final candidate gets independent source assessment.
+
+Source check02 re-ran the same identified optional instrument after final wording/
+coverage identity adjustment: exit0, same69/21products,256destinations/12fragments,
+frontmatter/routes/fences/negative controls/unique-product and unchanged assurance
+outcomes. `git diff --check` passed. STATE has not yet received its final handoff
+reader; source checks do not substitute for it. Gate A12 pending.

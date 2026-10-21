@@ -268,7 +268,7 @@ environment reconstruction or reproduction of the experimental result. Where
 the environment cannot be reconstructed, disclose that limit and bound reliance;
 do not imply that preserving its executable repairs the gap.
 
-Keep actual binary bytes only where their content has a specific retained
+Require durable retention of actual binary bytes only where their content has a specific retained
 evidence or deliverable role: for example a released product requiring exact
 identity, forensic specimen, exact-byte comparison/replay, or external mandate.
 State the concrete claim/obligation, owner/consumers, retention period and custody
@@ -360,7 +360,8 @@ A current manifest lists owner/meaning, unique evidence paths/hashes or
 historical commit/path/blob locators, producer/capture limits, consumer,
 retention and recovery replica. Identify required retained binary bytes by their
 specific §6.1 purpose/obligation and period; provenance-only hashes can stay in
-the run/build record without a binary evidence file or manifest. A record without raw evidence needs no empty
+the run/build record without a binary evidence file or manifest. A record without
+raw evidence needs no empty
 manifest. Old manifests survive in history; replacement manifests explicitly
 name their successor role and the exact original revision/path.
 
@@ -383,8 +384,7 @@ Secrets may be redacted with explicit limitations and protected custody.
 ### 9.1 Recoverable Revisions
 
 A **recoverable revision** identifies the declared retained source/record/evidence
-bytes through an
-immutable revision ID, revision history, a verified independent replica and
+bytes through an immutable revision ID, revision history, a verified independent replica and
 a documented, tested recovery route. Name the repository, revision, relevant
 paths or external content IDs, replica locator, recovery evidence and limits.
 Recovery evidence identifies the revision and scope actually restored; do not
