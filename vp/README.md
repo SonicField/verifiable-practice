@@ -3,8 +3,8 @@
 Start with [STATE](STATE.md) for stage, open findings and next action;
 [PROJECT](PROJECT.md) for authority/policy; [PLAN](PLAN.md) for current work;
 [LEDGER](LEDGER.md) for record locators; [COVERAGE](COVERAGE.md) for a unit trace.
-We explicitly adopt [standard 1.1](../standards/project-records.md) through D26,
-with consequence-based forms. Current migration is B; ordinary future D/E
+We explicitly adopt [standard 1.2](../standards/project-records.md) prospectively through C8; previous1.1 adoption was D26,
+with consequence-based forms. Previous migration was B; ordinary future D/E
 edits do not inherit its ceremony or dates.
 
 [Adoption summary](records/events/V-000016/record.md) replaces the detailed

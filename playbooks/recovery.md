@@ -31,7 +31,7 @@ For each step:
 4. record the result and unexpected observations;
 5. stop on failure or material divergence and decide whether to revise, skip, or reverse.
 
-Preserve originals in content-addressed immutable revision history and its independent replica; verify actual recovery before removing current copies. Cite commit/path/hash instead of creating archive or copied source directories.
+Preserve required source/records/evidence in content-addressed immutable revision history and its independent replica; verify actual recovery before removing current copies. Owned disposable binaries/tools follow [standard §6.1](../standards/project-records.md#61-evidence-roles-and-reproduction): preserve required records/results and relevant identities, check active consumers, then dispose within authority without a resource-byte recovery detour. Do not treat binary-format raw evidence as disposable. Cite commit/path/hash instead of creating archive or copied source directories.
 
 ## 4. Establish Durable Structure
 
@@ -52,6 +52,6 @@ Leave behind:
 
 ## 5. Verify Completion
 
-Check that preserved artefacts are intact and usable, links and references resolve, key results can be reproduced, and the resulting project matches the agreed terminal goal. Report skipped checks and failures. Ask the user to validate semantic alignment when only they can judge it.
+Check that preserved artefacts are intact and usable, links and references resolve, reproduction claims match actual recipe/reconstruction/repetition evidence and disclosed limits, and the resulting project matches the agreed terminal goal. Report skipped checks and failures. Ask the user to validate semantic alignment when only they can judge it.
 
 A clean directory tree is not sufficient evidence of recovery. The valuable outcomes must remain accessible, attributable, and verifiable.

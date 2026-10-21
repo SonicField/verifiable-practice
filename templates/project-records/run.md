@@ -13,8 +13,9 @@
 ## Inputs before Execution
 
 **Protocol/hypothesis:** <A E/H links; B/C sections in the decision/change are sufficient>
-**Build/executable:** <B links and digest checked at execution; no build with reason
-for manual/source-only checks>
+**Build/executable identity:** <B link or inline build notes at the applicable level;
+digest/build ID checked at execution where relevant, source relationship and gaps;
+identifier does not require retaining the executable; no build with reason for manual/source-only checks>
 **Other inputs:** <exact checked source, harness, dependencies, datasets,
 reader artefacts, model/configuration where relevant>
 **Procedure and directory:** <commands or manual steps; logical/physical paths>
@@ -29,6 +30,13 @@ reader artefacts, model/configuration where relevant>
 **Raw evidence:** <manifest and file links>
 **Observations:** <measurements and errors without interpretation>
 **Analysis:** <calculation, every input run/member and exclusions>
+**Reproduction scope:** <recipe and retained source/patches, specifications,
+commands/configuration/workloads/raw measurements/analysis; environment/build
+reconstruction and experiment repetition separately tested/untested/unavailable;
+limits cannot be cured merely by preserving the executable>
+**Working resources and retained-byte exceptions:** <temporary binary disposal
+condition; actual binary bytes retained only for named evidence/deliverable obligation,
+owner/consumers, period and custody; binary-format raw data remains evidence>
 **Verdict:** <falsified/failed to falsify/inconclusive; infrastructure failures
 or invalid measurements distinguished>
 **Interpretation/unknowns:** <bounded implications and missing coverage>

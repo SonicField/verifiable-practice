@@ -10,6 +10,8 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). The
 
 ### Changed
 
+- Standard1.2 separates reproducibility evidence, provenance identifiers and disposable working resources. Executable digests do not mandate binary retention; specific byte obligations need purpose/consumers/period. Preserve source/patches, reproduction specifications and raw results with environment limits; byte recovery, build reconstruction and experimental reproduction remain separate claims.
+
 - Scale assurance by A–E consequence levels, including one change/check for D and commit-message-only E, with trigger-only D/E review.
 - Require content-addressed immutable revision history and a verified recovery replica. Audit references contain commit/scope/replica locators, never copied source or nested earlier audit references.
 - Prune historical evidence copies and detailed self-adoption records from the working tree after an actual baseline restore; retain one summary and immutable custody locators. Rewrite current views for a cold reader.

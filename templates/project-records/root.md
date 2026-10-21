@@ -20,6 +20,12 @@ C changes; V lifecycle events; A audits. Records live at
 `records/<type>/<ID>/record.md`; evidence at `artefacts/<ID>/` with a
 manifest. Working files live in declared disposable workspaces.
 
+Apply standard §6.1's evidence roles: retain reproduction records/unique inputs/
+raw results; executable digests are identifiers without default executable retention.
+Working binaries/tools are disposable after ownership/use/consumer checks unless
+their actual bytes have a named retained role. Recovery checks apply to the declared
+retained bytes and do not establish experiment reproduction.
+
 ## Authority and Known Gaps
 
 <Root decision; instructions that point here; current limitations and audit.>

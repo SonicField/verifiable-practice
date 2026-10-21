@@ -1,6 +1,6 @@
 # VP Project Planning and Records Standard
 
-**Version:** 1.1, 21 October 2026.
+**Version:** 1.2, 21 October 2026.
 
 This is the normative contract for an explicitly adopted VP project. “Must”
 is required, “should” permits a recorded reason for another approach, and
@@ -10,7 +10,8 @@ VP connects maintained work to its authorised goal through choices and
 checkable evidence. Assurance depends on the consequence of being wrong.
 Declaring project conformance does not give every change the same burden.
 
-Documentation is Markdown in directories. Custody must provide
+Documentation is Markdown in directories. Custody of durable records and
+required evidence, as distinguished from working resources in §6.1, must provide
 content-addressed identity, immutable revision history and at least one
 verified independent replica. Git and a separate repository or self-contained
 bundle provide an ordinary implementation. An alternative must demonstrate
@@ -136,8 +137,10 @@ immutable locators. Do not copy a retired record or product source into an
 archive directory. Type directories may remain absent until needed.
 
 Each ID owns one record directory; tightly related fields may share a record
-according to §1.1. Disposable workspaces must have owners and no sole relied-on
-bytes. Restored source/checkouts belong outside the project search tree.
+according to §1.1. Disposable workspaces must have owners and no sole copy of
+required durable records/evidence. Identified temporary executables may remain
+disposable under §6.1; record their identity before disposal when relevant.
+Restored source/checkouts belong outside the project search tree.
 
 ## 3. Identity and Record Fields
 
@@ -152,8 +155,11 @@ needed for their consequence; use an explicit reason for an inapplicable
 field. E uses the commit-message form in §1.1.
 
 Link immutable inputs as `repository + commit + path`, or blob hash with a
-retrieval locator. A mutable branch or a digest without accessible custody
-is not evidence. Include dirty/generated/external inputs when relied on.
+retrieval locator for required retained inputs/evidence. A mutable branch is
+not an immutable identity. A digest without accessible custody cannot supply
+the original bytes, but may serve as a provenance identifier under §6.1 without
+requiring their retention. Record actual dirty/generated/external inputs,
+their reproduction specifications and any unavailable-byte limits.
 Commit metadata is attribution, not authenticated action timing.
 
 Open records may append dated amendments. Never rewrite a sealed original
@@ -217,14 +223,66 @@ Record every relevant failure, retry, abort and skipped check. A bounded batch
 may group uniquely labelled members with individual inputs/status/output.
 A retry is a new attempt, never an overwritten result. Preserve seed/order,
 warmup, allocation and interference when they affect the claim. Imported
-binaries have known digest and explicit unknown provenance, not a fictitious
-reproduced build. Actual clean/dirty/generated inputs distinguish source.
+binaries have recorded digest/build identity where available and explicit
+provenance gaps, not a fictitious reproduced build. Identifying what ran does
+not require retaining the imported executable. Actual clean/dirty/generated
+inputs distinguish source.
 
 Keep unique raw evidence in revision control, or once in a declared external
 content-addressed store when size/sensitivity requires it. The independent
 replica is for recovery, not another browsable source archive in the project.
 Authored summaries link original evidence and exclusions. Do not report
 regenerated logs as historical captures.
+
+### 6.1 Evidence Roles and Reproduction
+
+Classify by the role in a claim, not by filename, format, size or risk level
+alone. State what is retained, what is only identified and what is disposable
+in the level-appropriate record; no new form or per-temporary-file inventory
+is required. One object can serve different roles in different claims.
+
+| Role | Durable record | Retention rule |
+|---|---|---|
+| Reproducibility evidence | Relevant source revisions/patches, dependency and toolchain specifications, protocol/build/run commands, configuration and workload/data inputs, raw observations/results/failures, analysis methods and environmental limitations | Retain records, source/patches and unique required inputs/results under §9; identify external dependencies with versions/specifications and retrieval/reconstruction limits |
+| Provenance identifier | Executable digest/build ID or other identity of what actually ran; actual tool/version/configuration and source relationship where known | Retain the identifier and its limits; the identifier alone creates no obligation to retain the executable/tool bytes |
+| Disposable working resource | Owned temporary binaries, diagnostic builds, caches, intermediate files or containers used to perform the work | May be disposed of after use and consumer checks; preserve required records/results and relevant identity first, not the resource itself |
+
+The default durable experiment record preserves the means to attempt the work
+again and the observations needed to examine its result. It does not archive
+the executing machine. Record relevant dependency/toolchain versions, source or
+patches for project-owned changes, build/run commands, flags, configuration,
+workload identities or retained unique inputs, raw measurements, analysis and
+known environment limits. VP does not require capturing every installed binary,
+vendoring all dependencies, storing compiler/container images or retaining a
+complete host solely because they were used. An external version/specification
+does not guarantee its availability; say when retrieval or reconstruction is
+untested, unavailable or only partially supported. A hash cannot replace lost
+unique workload bytes or measurements required to examine the claim.
+
+Record reproduction claims separately: recipe recorded; environment/build
+reconstruction tested or untested/unavailable; and experiment repeated with
+its actual result and comparison criteria, if performed. A recipe is not a
+successful reproduction. Byte-exact recovery verifies only restored bytes in
+the tested scope. Retaining a runnable binary does not establish rebuilding,
+environment reconstruction or reproduction of the experimental result. Where
+the environment cannot be reconstructed, disclose that limit and bound reliance;
+do not imply that preserving its executable repairs the gap.
+
+Keep actual binary bytes only where their content has a specific retained
+evidence or deliverable role: for example a released product requiring exact
+identity, forensic specimen, exact-byte comparison/replay, or external mandate.
+State the concrete claim/obligation, owner/consumers, retention period and custody
+in the existing record/manifest before treating them as required. A/B consequence
+or a checksum alone is not that reason. Temporary diagnostic binaries need an
+active owner and use/disposal condition, not indefinite retention. When a resource
+becomes sole evidence for a relied-on claim, retain it under that declared role
+or explicitly limit/withdraw the unsupported reliance before disposal.
+
+Binary-format raw measurements, unique input data and required source patches
+remain evidence; “binary” is not a disposal category. Routine workspace cleanup
+under existing authority checks active consumers and required evidence, but does
+not need to preserve/restore every disposable resource first. Unknown ownership
+or a specific outstanding retention obligation must be resolved before removal.
 
 ## 7. Validity and Reverification
 
@@ -279,10 +337,12 @@ chain is required solely to make a simple edit resemble an A-level project.
 
 ## 9. Custody, Retention and Pruning
 
-Custody must provide content-addressed identity, immutable history and an
-independent verified replica with a documented restoration route. Replicate
-all relied-on revisions/blobs/external evidence before removing current
-files. A separate directory/repository or bundle may address working-tree
+Custody of source, durable records and required evidence under §6.1 must provide
+content-addressed identity, immutable history and an independent verified replica
+with a documented restoration route. Replicate those retained revisions/blobs/
+external evidence before removing their current copies. This is not a requirement
+to preserve disposable executables/tools or reconstruct a machine. A separate
+directory/repository or bundle may address working-tree
 loss; state that a same-host copy cannot survive whole-host loss. Use an
 off-host or separate failure-domain replica when that loss is a credible
 consequence or another requirement demands it. Never claim Git creates a
@@ -298,12 +358,16 @@ per declared content-addressed store and replicated for recovery.
 
 A current manifest lists owner/meaning, unique evidence paths/hashes or
 historical commit/path/blob locators, producer/capture limits, consumer,
-retention and recovery replica. A record without raw evidence needs no empty
+retention and recovery replica. Identify required retained binary bytes by their
+specific §6.1 purpose/obligation and period; provenance-only hashes can stay in
+the run/build record without a binary evidence file or manifest. A record without raw evidence needs no empty
 manifest. Old manifests survive in history; replacement manifests explicitly
 name their successor role and the exact original revision/path.
 
-Removing current files is permitted once history and replica preserve all
-required bytes and consumers can resolve them. Record removal/reason/authority
+Removing current copies of retained source/records/evidence is permitted once
+history and replica preserve their required bytes and consumers can resolve them.
+Disposable resources follow §6.1 without a recover-first requirement for those
+resource bytes. Record retained-file removal/reason/authority
 in its commit and the level-appropriate record. No separate V is required
 for routine D cleanup. Retired records may become a short summary with exact
 history locators; this is not permission to erase history or invent it.
@@ -311,18 +375,21 @@ history locators; this is not permission to erase history or invent it.
 Retain history, rationale and positive/negative evidence for project life plus
 the declared post-retirement period. A restore must actually recover selected
 or complete bytes according to consequence and scope, not merely inspect
-hashes. Pruning claimed to preserve every removed byte requires a complete
+hashes. Reproduction of an experiment requires separate §6.1 evidence.
+Pruning claimed to preserve every removed byte requires a complete
 restore/byte comparison. Evidence loss remains visible and downgrades claims.
 Secrets may be redacted with explicit limitations and protected custody.
 
 ### 9.1 Recoverable Revisions
 
-A **recoverable revision** identifies retained project bytes through an
+A **recoverable revision** identifies the declared retained source/record/evidence
+bytes through an
 immutable revision ID, revision history, a verified independent replica and
 a documented, tested recovery route. Name the repository, revision, relevant
 paths or external content IDs, replica locator, recovery evidence and limits.
 Recovery evidence identifies the revision and scope actually restored; do not
-claim that a selected restore tested every other retained byte.
+claim that a selected restore tested every other retained byte. Its scope does
+not automatically include temporary executables or the executing environment.
 
 | Property | What establishes it | What it does not establish |
 |---|---|---|
@@ -343,10 +410,10 @@ above; they add no extra records or audit gates to the consequence table.
 |---|---|
 | Resume | Read current views; verify source, levels, open work and validity |
 | Choose/change | Classify first; record rationale/falsifier/authority in the level's minimum form |
-| Execute/retry | Identify inputs; retain relevant labelled outcomes/failures |
+| Execute/retry | Identify actual inputs/tools; retain relevant labelled outcomes/failures and reproduction specifications under §6.1 |
 | Accept | Meet the level's checks and declared gates; update coverage/views |
 | Trigger/expiry | Trace impact and contain reliance; preserve old verdicts |
-| Move/prune | Verify history/replica/recovery and consumers; commit disposition |
+| Move/prune | For retained evidence/source, verify history/replica/recovery; for disposable resources, check ownership/consumers and preserve required records; record appropriate disposition |
 | Handoff | Plain current stage/findings/next action; interrupted work has safe resume/abort details |
 | Declare conformance | Exact scope/version/levels and applicable independent gates, with gaps visible |
 

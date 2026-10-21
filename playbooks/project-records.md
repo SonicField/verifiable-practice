@@ -46,7 +46,20 @@ attempts in the level's record form. C/D checks can be inline. No build is
 required for a prose review. Use useful controls; do not manufacture tests
 or dependency inventories for harmless formatting.
 
-Store current evidence once. Cite earlier inputs by immutable revision/path
+Apply standard §6.1 before deciding what bytes need custody. Retain source/patches,
+relevant dependency/toolchain specifications, commands/configuration/workloads,
+raw measurements/failures, analysis and environmental limitations. Record what
+ran through relevant executable digests/build IDs; do not retain every binary,
+toolchain or container because it was used. Owned temporary build/diagnostic
+resources may be disposed of after consumer/use checks; actual binary bytes need
+retention only for a named evidence/deliverable obligation and period. Binary-format
+raw measurements/unique inputs remain evidence. No extra form is required.
+
+Distinguish recipe recorded, environment/build reconstruction and experimental
+repetition with comparison/result. Untested or unavailable reconstruction stays
+explicit; preserving an executable or restoring bytes does not demonstrate it.
+
+Store current evidence once. Cite earlier retained inputs by immutable revision/path
 or accessible content hash. External large evidence gets a declared store
 and verified recovery replica. Do not copy current or historical source into
 worktree audit/archive directories. Retry with a new labelled attempt, never
@@ -67,9 +80,11 @@ policy reclassification without pretending to create new empirical evidence.
 
 ## 6. Recover or Prune
 
-Before removal, check consumers and preserve immutable history plus replica.
-Actually restore the scope claimed preserved; every removed byte requires a
-complete comparison. Retire current copies/verbose history with a commit and
+For retained source/records/evidence, check consumers and preserve immutable
+history plus replica before removing current copies. Actually restore the scope
+claimed preserved; a claim to preserve every removed byte requires a complete
+comparison. Disposable resources instead follow §6.1 ownership/use/evidence
+checks without preserving/restoring their resource bytes first. Retire current copies/verbose history with a commit and
 appropriate record/summary. Keep successor manifests resolving original
 commit/path/hash; never rewrite an original capture as if it were new.
 

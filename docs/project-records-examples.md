@@ -33,7 +33,11 @@ would raise A and require explicit H/E plus independent protocol review.
 
 Coverage links `src/export.c:write_export` to D2/R1/R2/D3 and rootD1. Relevant
 build/run evidence identifies actual source, executable, toolchain and inputs;
-rejected options and the failed baseline stay recoverable. Inputs and records
+source/patches, reproduction specifications and raw failures stay recoverable.
+The executable digest is an identifier, not a default retention obligation.
+Temporary binaries/tools are disposable under §6.1; a recipe, retained binary
+or byte recovery does not establish environment reconstruction or experiment
+repetition. Unique required inputs and records
 are cited by immutable revision/path/hash and verified replica, never copied
 source folders. Python may need interpreter/imported-module identities without
 a fictitious compile record. Changed contract/tool/workload triggers revalidation;

@@ -31,7 +31,14 @@ A bounded use of VP applies the relevant method to the authorised task. Full pro
 - State a falsifier before relying on an important empirical claim; record authority and rationale for goals and value decisions.
 - Prefer tests that can expose failure over examples that merely confirm success.
 - Make changes in small, reversible, independently verifiable steps.
-- Preserve evidence with enough provenance that another person can reproduce the conclusion.
+- Preserve source/patches, relevant dependency/toolchain specifications, commands,
+  configuration/workload inputs, raw results and analysis with environmental limits
+  so another person can attempt reproduction and examine the conclusion.
+- Apply [evidence roles](standards/project-records.md#61-evidence-roles-and-reproduction):
+  executable digests identify what ran without requiring executable retention;
+  owned temporary binaries/tools are disposable unless actual bytes have a named
+  evidence/deliverable obligation and period. Binary-format raw data remains evidence.
+  A recipe, retained executable or byte restore is not experimental reproducibility.
 - Report negative and inconclusive outcomes as prominently as positive ones.
 - Ask when missing user context would materially change the work; do not manufacture intent.
 - Respect the requested authority boundary. Inspection does not authorise repair, and planning does not authorise execution.

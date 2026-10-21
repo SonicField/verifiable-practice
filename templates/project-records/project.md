@@ -53,6 +53,10 @@ empirical claims need falsification evidence.>
 ## Retention and Recovery Policy
 
 <Project lifetime and finite post-retirement period; raw/derived evidence
-classes; binary/workspace disposal rules; immutable revision-history mechanism and independent replica location,
+classes; distinguish reproduction records, provenance-only identifiers and owned
+disposable working resources under standard §6.1. Retaining executables is not
+required by default; specific byte obligations need purpose/consumers/period;
+binary-format raw evidence remains retained. Record environment reconstruction
+limits, binary/workspace disposal rules; immutable revision-history mechanism and independent replica location,
 replication cadence and actual recovery check; redaction policy.>
 

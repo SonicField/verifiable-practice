@@ -27,7 +27,15 @@ base+patch+untracked/generated inputs; no guessed identity>
 **Start/end:** <UTC times per phase>
 **Phase exit statuses:** <configure/compile/train/link; failed/aborted retained>
 **Logs/warnings/errors:** <manifest and paths>
-**Outputs:** <paths, SHA-256 or equivalent content digests>
+**Output identities:** <paths and relevant executable SHA-256/build IDs; identifiers
+do not require retaining those binaries>
+**Reproduction record:** <source/patches, dependency/toolchain specifications,
+commands/configuration and unique required inputs; environment/build reconstruction
+tested, untested or unavailable, with evidence and limits>
+**Working resources/disposition:** <temporary binaries/caches/containers, owner and
+use/disposal condition; no binary capture or recovery required by default>
+**Required retained output bytes:** <only where a specific evidence/deliverable/
+external obligation applies: reason, consumers, period and custody; otherwise none>
 **Runtime verification:** <feature/mode/configuration observations>
 **Limitations/unknowns:** <imported provenance gaps; partial outputs>
 **Next action:** <run, retry as new B, investigate or abandon>

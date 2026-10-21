@@ -14,7 +14,7 @@ Audit or combine it with this assessor role.
 
 Read the charter's owner identity/mandate, consequence levels, role, custody, applicable gate and budget
 policy. A/B require independent gates, C declared samples/stages, D/E no automatic audit; adopting conformance does not raise those levels. Ownership may be human or AI. Reserve A under an
-authorised D; create its immutable
+authorised decision/change at the applicable level; create its immutable
 [request](../templates/project-records/audit-request.md). Identify worker and
 auditor sessions, scope, reference time, prior findings and output location.
 Use a separate auditor context containing the request, standard and audit reference,
@@ -44,6 +44,13 @@ identities, retained failures, dependency validity, revision coverage, custody
 and disposition. Read source only far enough to verify inventory/contract
 references. Perform file, link and digest checks without executing project
 code or scripts. Report actual coverage, including search ranges and omissions.
+
+Apply standard §6.1: distinguish required experiment records/raw results from
+provenance-only executable identities and disposable working resources. An absent
+temporary executable is not an evidence-custody gap solely because its digest is
+recorded. Verify specific retained-byte obligations where declared; binary-format
+measurements remain evidence. Assess recipe, reconstruction and experimental-result
+claims separately; recovery or a retained executable cannot support them all.
 
 Assess whether the recorded evidence supports the recorded inference. For
 example, parser acceptance does not establish a reader-comprehension claim.

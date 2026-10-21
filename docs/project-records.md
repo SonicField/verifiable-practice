@@ -25,6 +25,24 @@ consumer is identified, and reversal is verified. Removing a necessary control
 or altering an operative contract raises the consequence. Document count does
 not decide the level.
 
+## Experiment Records and Working Resources
+
+The durable record retains source/patches, relevant dependency/toolchain
+specifications, build/run commands, configuration/workloads, raw observations
+and analysis, with environmental limitations. An executable digest records what
+ran; it does not require retaining that executable. Temporary diagnostic binaries,
+caches and containers are owned working resources, normally disposable after use.
+Required raw measurements or unique data remain evidence even in binary format.
+Specific exact-byte evidence/deliverable obligations have named consumers and
+retention periods; they are not inferred from the presence of a checksum.
+
+Distinguish a recorded recipe, tested environment/build reconstruction and a
+repeated experiment with a comparison result. Neither retained binaries nor
+byte recovery establish experimental reproducibility. If an environment cannot
+be reconstructed, say so; capturing the executable does not resolve that gap.
+The operative retention/disposal rules are in
+[standard §6.1](../standards/project-records.md#61-evidence-roles-and-reproduction).
+
 ## History Is a Relationship Between Revisions
 
 Current source is kept once. Earlier code, documents, failed attempts, records
@@ -46,7 +64,9 @@ immutable locators, never collected into a new input directory. Reference
 size follows present scope, not audit count. Native large evidence is kept once in a declared
 store, cited by hash and replicated for recovery.
 
-Pruning the worktree is allowed after actual restore/byte verification. A short
+Pruning current copies of required source/records/evidence is allowed after actual
+restore/byte verification. Disposable resources follow §6.1 without first preserving
+their bytes. A short
 summary can replace detailed history in today's records, with exact immutable
 locators and current successor manifests. Original sealed bytes and unknowns
 remain historical; a tidy summary does not recover missing events.

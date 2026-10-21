@@ -1,8 +1,11 @@
 # Workspace Ownership
 
-Working files are disposable. Relied-on inputs/results must be preserved
-with the level-appropriate entry or declared native evidence store and
-verified revision replica before completion or cleanup. Raw evidence files
+Working resources are disposable unless their actual bytes have a specific
+retained evidence/deliverable obligation under standard §6.1. Preserve required
+source/patches, reproduction specifications, unique inputs/results and relevant
+executable identifiers before cleanup, with the level-appropriate entry or native
+evidence store and verified replica. No default binary/toolchain capture or resource
+restore is required. Check ownership/active consumers/use conditions. Raw evidence files
 use an owned artefact directory/manifest; an inline D check needs no extra one.
 
 | Location (relative or external physical path) | Owner ID | Operation/last phase | Resume/abort | Retained evidence | Disposition |

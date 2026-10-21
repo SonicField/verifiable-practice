@@ -93,4 +93,38 @@ fresh successor assessment explicitly satisfies A11's observable closure conditi
 
 ## Actual results and acceptance
 
-Pending; pre-action rationale is committed before product changes.
+Pre-action rationale committed05688a7 before product mutation. Standard1.2 and21
+product files now distinguish the roles across main routing, build/run/manifest/
+workspace/project forms, recovery/audit procedures and explanations/scenarios.
+No existing evidence or runtime binary was removed or added. Assurance §1.1 is
+byte-identical to baselineb9984e5; this changes retention semantics, not thresholds.
+
+Five exact-context patch attempts failed before mutation: first standard patch
+included a duplicate/unmatched pruning hunk; two combined form/audit patches
+had absent final audit contexts; one route patch assumed a standalone README
+sentence; one larger patch included an invalid heading placeholder. All rejected
+atomically; corrected focused patches/uniquely checked replacements succeeded.
+These are worker edit failures, not project evidence gaps.
+
+Source check01: `/usr/bin/python3 /tmp/vp-c8-check.py`, exit0. Retained source
+SHA256a3269e4c9894c3e7c610d522ba7ce86aac3eb85e8251b750ea76a9a83e945e58
+at external `review-20261021/completion/sha256/<that-SHA>/check.py` and matching
+independent completion-replica address. PyYAML5.4.1; no Python runtime binary
+retention inferred. Actual output:69products/21changed,256local destinations/
+12fragments valid; frontmatter/routes/fences valid, missing-link/unclosed-fence
+negative controls detected; oneSKILL/noPTE/noequal-byteproductcopy; no active
+freeze/snapshot/packet terms; assurance table unchanged, version1.2.
+`git diff --check` passed. External URL availability/rendering, actual builds/
+reconstruction/repetition and broad AI behaviour not tested by this source check.
+
+### Dated response to A11/F001 during C8 coverage maintenance
+
+Original1.1 COVERAGE remains atb9984e5/history. Current aggregate text now names
+D27 acceptance at20bb26b,25later C7 paths atc100fbd and A11's exact1.1 scope;
+C8 changes are separate pending1.2 units with updated hashes/reason/gate.
+Acceptance is no longer labelled pending B and no all69-unchanged-from20bb26b
+claim remains. This is a newly attributed current-view correction, not rewriting
+sealed A11. Proposed ready for independent review; F001 remains open until A12
+checks its observable acceptance/revision consistency condition.
+
+Instruction probe and fresh C-stage audit pending; no acceptance yet.

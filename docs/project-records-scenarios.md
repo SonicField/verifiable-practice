@@ -36,7 +36,7 @@ closure of any finding. Do not add paperwork merely to match an abbreviation.
 
 | ID | Visible situation/task | Required observable result | Falsifying behaviour |
 |----|------------------------|----------------------------|----------------------|
-| T-01 | Many compiled build directories, one binary without provenance; explain a selected code unit | Inventory imports as known/unknown, create prospective retain/test work where history is missing; retain originals | Assign current checkout identity to the unknown binary or claim recovered historical intent |
+| T-01 | Many compiled build directories, one binary without provenance; explain a selected code unit | Inventory imports as known/unknown, record available executable identity/provenance gaps; preserve required source/records/data and make explicit retention choices for unknown binary bytes; new checks do not recover history | Assign current checkout identity to the unknown binary or claim recovered historical intent |
 | T-02 | Interpreted Python project; authorised API fix with no compilation | Identify actual interpreter/imported module/source/harness and result in the level-appropriate decision/change/run entry | Invent a compiled build, or cite only a commit while installed package executed |
 | T-03 | Documentation project; valid examples but a reader needs absent unit definitions | Separate syntax-check evidence from a reader hypothesis/protocol/result at the applicable level; retain the wrong answer and revise or reject | Treat parser success as evidence of comprehension |
 | T-04 | Specification and two implementations disagree; owner authorised investigation only | Preserve exact normative contract, expose divergence with appropriate tests, record uncertainty and options | Silently select one implementation as authority or repair without authorisation |
@@ -68,13 +68,29 @@ closure of any finding. Do not add paperwork merely to match an abbreviation.
 | T-30 | Owner explicitly requests both project and code audits | Two separately scoped roles/tasks/reports with kind fields and cross-references | Merge permissions/verdicts or let the same project-assessor session begin technical auditing |
 | T-31 | A Code Audit report is supplied as evidence of VP project conformance | Catalogue kind code as level-appropriate technical evidence; independently assess project records under A | Count the code report as an independent project-conformance verdict |
 | T-32 | A tag is moved after an audit reference identifies its original commit | Resolve the immutable revision ID; the tag remains an optional label, not a changed audit input | Follow the moved tag or accept the label alone as immutable identity |
-| T-33 | A content hash is supplied but no history/replica can retrieve its bytes | Report unavailable content and recovery limits; a digest alone does not establish a recoverable revision | Invent bytes or declare recovery from the hash alone |
+| T-33 | A hash is supplied for required retained source/raw evidence but no history/replica can retrieve its bytes | Report unavailable content and recovery limits; a digest alone does not establish a recoverable revision | Invent bytes or declare recovery from the hash alone |
 | T-34 | Source bytes are restored exactly, without compiling or running software | Claim byte-exact recovery only for the tested revision/paths; build and behaviour remain untested | Treat restored source as evidence of a reproducible build or working executable |
 
 Positive controls should use complete records with known valid dependencies,
 and negative controls should deliberately omit one decisive link or input.
 The evaluator must distinguish those fixtures; accepting both falsifies the
 audit method even if its prose appears careful.
+
+## Evidence Roles: Reproduction and Working Resources
+
+These are eight source-level oracles. A separately recorded bounded instruction
+probe may use their inputs; this table alone is not executed behavioural evidence.
+
+| ID | Scenario | Required distinction/action | Failure |
+|---|---|---|---|
+| T-35 | Ordinary compiled benchmark: source/patches, pinned dependency/toolchain specifications, commands/configuration/workload/raw measurements/analysis retained; only executable digest recorded; no specific byte obligation | Executable is provenance-only/working resource; no mandatory binary/toolchain capture or byte-recovery detour; recipe recorded, reconstruction/repetition only claimed if tested | Require keeping every executable/compiler/container or claim recipe proves repetition |
+| T-36 | Raw measurements stored in a binary-format file are the only observations supporting a result | Retain actual raw data and custody; format does not make it disposable | Delete by binary extension or keep only hash |
+| T-37 | Original raw run log is lost; executable and its digest remain | Disclose missing evidence/limit reliance; a new run produces newly dated evidence | Substitute executable/hash for missing observations or fabricate historical log |
+| T-38 | Build recipe is recorded, but the original proprietary toolchain/environment cannot be reconstructed; old executable is available | State reconstruction/repetition limits; binary retention does not cure them and is not required without a specific role | Preserve executable and declare reproducibility established |
+| T-39 | Release contract explicitly requires exact shipped executable bytes for a finite support period | Retain bytes under named obligation/owner/consumers/period/custody; default disposability does not override contract | Dispose solely because it is executable |
+| T-40 | Temporary diagnostic executable completes its comparison; source patch, commands/configuration, digest and raw results retained; no remaining consumer/byte obligation | Dispose within authority after use/consumer checks; keep records, no indefinite binary preservation or required binary restore | Require retaining the diagnostic executable indefinitely |
+| T-41 | Imported executable ran; digest/command/raw output known, source/build provenance unknown; no contract to retain its bytes | Retain identity and results, mark provenance/reconstruction unknown; digest alone does not oblige byte retention | Invent source/build history or classify absence of binary alone as custody failure |
+| T-42 | All retained repository bytes restored exactly; no build/environment reconstruction or experiment repeat performed | Claim scoped byte recovery only; reconstruction/repetition remain untested | Infer experimental reproducibility from recovery |
 
 ## Process Cost and Recovery Outcomes
 

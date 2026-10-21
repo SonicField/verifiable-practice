@@ -87,6 +87,16 @@ is unknowable, a current retain/replace decision can justify present code while
 leaving the old gap visible. This distinction prevents an apparently tidy
 repair from manufacturing provenance.
 
+## Executable Identity Is Not Binary Custody
+
+Under [standard §6.1](../standards/project-records.md#61-evidence-roles-and-reproduction),
+a run's executable digest may remain a provenance identifier after the temporary
+binary is disposed of. Its absence alone is not a custody finding. Required raw
+measurements, unique inputs and explicit exact-byte obligations still need actual
+bytes and custody, including binary-format data. Assess the stated recipe,
+environment/build reconstruction and experimental repetition separately; a
+retained executable or byte-recovery result does not demonstrate reproducibility.
+
 ## Independence Has Two Meanings
 
 A fresh auditor context provides role independence. It does not make the

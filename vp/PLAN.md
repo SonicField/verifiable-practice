@@ -1,20 +1,23 @@
 # Current Plan
 
-**Stage:** D28/A11 level-C Project Audit complete, standard1.1.
-**Result:** independently conformant at c100fbd7 within the declared scope;
-A11/F001 is an open advisory concerning COVERAGE's aggregate statements.
-No mandatory gaps were established; earlier A7/A8/A9 closure remains scoped.
-**Next action:** owner reviews the report and selects any response/re-audit.
-No repairs, re-audit loop or product-quality acceptance are commissioned.
+**Stage:** C8 standard1.2 evidence-role/retention correction, actual consequence C.
+**Goal:** retain experiment source/specifications/results and provenance without
+requiring preservation of every executable/toolchain/environment.
+**Open:** fresh C-stage audit A12 pending; A11/F001 advisory response awaits review.
+**Next:** focused source/structure checks and eight-case fresh instruction probe;
+then fixed-candidate independent Project Audit, C acceptance only after its gate.
 
-D28's new bounded plan commissioned one fresh20-minute audit round and up to
-40minutes coordinator preparation/handoff. The sealed report, unique assessment
-and current tracking are deliverables. Local completion requires the matching
-containing revision/verified completion receipt; no background process remains.
-Missing custody or new authorised work has explicit safe resume in STATE.
+Deliverables: consistent standard/routes/forms/design and scenario oracles,
+identified source/probe results, fresh audit report, accurate coverage/current views,
+fresh final STATE read and independently recoverable containing records.
+No existing binary/data deletion or other-project migration is authorised here.
 
-Prior S4 acceptance remains D27 after A10 at20bb26b; C7 records the25 later
-terminology changes. A11 does not enlarge A10 or certify its own later outputs.
-All original failed verdicts/retries and unknown efficacy remain in history/evidence.
-B review19April2027/C21October2027 are capped by root17January2027 and earlier
-triggers. D/E are trigger-only; this audit does not renew prior empirical evidence.
+Budget: up to60minutes worker and two20-minute independent rounds. Retain failed
+checks/retries. A failed probe or mandatory gap blocks affected acceptance; at
+limits expose gaps and route the owner. Project Auditor never executes technical
+tests, chooses repairs or accepts owner work. A recipe or byte restore is not
+experiment reproduction; missing environment/raw-data limits remain visible.
+
+C8 changes are prospective1.2, not retroactive1.1 conformance. Prior A11 atc100fbd
+and D27/A10 at20bb26b retain scope. Root17January2027 caps C21October2027 and
+B19April2027 policies; relevant triggers remain, D/E trigger-only.

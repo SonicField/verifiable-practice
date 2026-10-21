@@ -1,25 +1,26 @@
 # Current State
 
-**Stage:** D28/A11 owner-requested level-C Project Audit complete, standard1.1.
-**Verdict:** A11 conformant within its declared structural/selected semantic
-scope at c100fbd7; this does not assess later audit/tracking outputs or certify
-product quality. Prior S4 acceptance under D27/A10 retains its original scope.
-**Open findings:** A11/F001 advisory: COVERAGE has stale aggregate acceptance/
-revision statements. No mandatory findings. A7/F001, A8/F001 and A9/F001 remain
-independently closed within their original scopes.
-**Next action:** owner reviews A11 and decides whether to commission a response
-and fresh closure assessment. No repair or re-audit is commissioned; the worker
-must not mark its own response independently closed.
+**Stage:** C8 evidence-role/retention contract correction in progress; standard1.2
+adopted prospectively. Earlier A11 conformant verdict covers1.1 atc100fbd only.
+**Open findings/gates:** A11/F001 open advisory; C8 provides a coverage-view response,
+not independent closure. Fresh C-stage Project Audit A12 is pending before acceptance.
+No other mandatory finding is currently open; prior A7/A8/A9 closures retain scope.
+**Next action:** worker completes source checks and bounded fresh instruction probe,
+then commissions A12 on a fixed recoverable candidate. Auditor reports only;
+worker records results under C8, keeping any gaps visible for the owner.
 
-No auditor or technical implementation is active. Safe resume: read D28/A11 and
-its fixed request; preserve the report and advisory, classify any newly authorised
-response, and use exact source/record revisions. A11 assessed c100fbd7, not the
-containing commit. C7 identifies the later25 changes beyond historical A10.
+No existing evidence/binaries are being deleted. Preserve experiment records,
+raw results and required unique inputs; executable identity alone creates no
+binary-retention obligation. Owned temporary resources follow standard §6.1.
+Recipe, reconstruction, experiment repetition and byte recovery are separate claims.
+
+Safe resume: read C8, current charter/plan and exact source revision. C gate
+must pass before accepting the changed contract. Historical D27/A10 acceptance
+and A11 verdict do not cover this candidate. Root17January2027 caps reliance;
+C21October2027/earlier triggers and D/E trigger-only policies remain.
 
 Local handoff requires the containing commit to match the verified completion
 receipt at
 `/home/alexturner/vp-preserved/verifiable-practice/review-20261021/completion/MANIFEST.md`.
 If absent/mismatched, complete worker custody before relying on the handoff.
-Root review17January2027 caps reliance; B19April2027/C21October2027 policies
-and earlier triggers remain. D/E use triggers only. Same-host replicas do not
-protect whole-host loss or authenticate historical actions.
+Same-host replicas do not protect whole-host loss or authenticate past actions.

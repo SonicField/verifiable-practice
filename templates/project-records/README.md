@@ -45,7 +45,11 @@ a completed record alone does not make a claim current.
 The six project views and records are Markdown; raw files may keep their
 native format. A build-free check does not need a fabricated build record.
 Material choices need records, not one record per edited line. A labelled
-batch must retain each execution's inputs, status and evidence.
+batch records each execution's input identities/specifications, status and required
+raw evidence. Apply [standard §6.1](../../standards/project-records.md#61-evidence-roles-and-reproduction):
+executable identity does not mandate binary retention; disposable working resources
+need no evidence manifest or resource restore. Binary-format raw data and named
+exact-byte obligations remain retained evidence. Record reproduction limits.
 
 Use the [independent audit playbook](../../playbooks/record-audit.md) for the
 request/report/response/follow-up cycle. An auditor gets a fresh context and

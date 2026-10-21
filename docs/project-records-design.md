@@ -1,6 +1,6 @@
 # Project Records: Design Rationale
 
-This is current rationale for standard 1.1. Original detailed design choices,
+This is current rationale for standard 1.2. Original detailed design choices,
 source observations from parallel_gc and NBS, and their historical limits
 remain at `records-archive-2026-10` / `9605ad0:docs/project-records-design.md`.
 The repository’s D26/R13 operational records preserve the owner review,
@@ -106,6 +106,34 @@ identified audit input; unavailable hashed bytes are called recoverable; a
 source restore is represented as a successful build. The repository C7
 records the current choice/check; other projects do not need that record.
 Existing consequence forms and independent gates remain the contract.
+
+## 5. Retain Experiment Evidence by Role
+
+**Observation:** the owner supplied a working AI's account of struggling to
+retain executables as evidence. The original execution/session is unavailable;
+this is attributed feedback, not measured prevalence. Standard1.1's blanket
+workspace/relied-on-byte custody wording provides a plausible local ambiguity.
+**General problem:** identity of a tool, the means to repeat work and unique
+observations serve different claims. A format-based or all-used-bytes rule turns
+an experiment record into machine preservation and may still lose the recipe.
+**Choice:** standard1.2 §6.1 separates reproducibility evidence, provenance
+identifiers and disposable working resources. Keep relevant source/patches,
+specifications, commands/configuration/workloads/raw results/analysis and limits;
+an executable checksum is not a retention obligation. Require a concrete evidence/
+deliverable purpose, consumers and period for actual binary retention. Classify
+binary-format raw data by evidence role. Scope custody/recovery to retained bytes.
+Record recipe, reconstruction and experiment repetition as distinct claims.
+**Applicability:** compiled software, interpreted scripts, containers, model tools
+and manual document experiments use the same role test; no project-specific layout
+or runtime is required. Unavailable environment reconstruction remains a limitation.
+**Alternatives rejected:** retain every executable/compiler/host; discard all binary
+files; equate recipe or byte recovery with reproduction; replace missing raw data
+with its hash; ignore an actual release/forensic/external retention requirement.
+**Falsifiers:** a fresh worker requires ordinary compiled/diagnostic binary retention,
+discards raw binary measurements, claims reconstruction from a stored executable,
+or treats a release-byte obligation as disposable. Source checks and the bounded
+fresh instruction probe are recorded in C8; new scenarios are test definitions,
+not claims that real builds or all AI populations have been tested.
 
 ## Remaining Research Question
 
