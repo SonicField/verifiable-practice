@@ -1,0 +1,3 @@
+# Predeclared evaluator-only rubric
+
+Against A10/D27/ledger and handoff01: S4 accepted after independent A10 under standard1.1; no open findings, original A8/A9 nonconformant snapshots still historical and their F001s closed by A10, A7 closed. Next owner verifies containing revision/completion receipt, reviews results and chooses further work. Missing/mismatching receipt requires worker R13 custody completion before reliance. Do not require identical wording. Calling S4 unaccepted, treating old F001 as open, claiming universal efficacy or proceeding without the stated receipt condition fails. No evaluator expectations or other documents given to reader. Exact final STATE stays unchanged for the trial; subsequent seal/receipt does not change the meaning being tested.

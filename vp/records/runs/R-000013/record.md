@@ -36,3 +36,7 @@ A9 at94ff0e3 is nonconformant: unqualified V routing/scenario oracles remain, A8
 ## A10 gate and separate acceptance
 
 A10 at20bb26b is independently conformant within its declared structural/relevant semantic scope. It closes A8/F001/A9/F001, keeps A7/F001 closed and establishes no new finding. Original failed reports remain exact. D27 separately accepts the bounded product/control transition under existing owner delegation; final full-recovery/current-STATE/commit evidence is still pending. D27 shortens accepted B policy to19April2027 (180days); root/dependency review may be earlier. No source, old observations or prior verdicts are renewed by these outputs. A10's own report and later acceptance/sealing/reader/custody outputs are outside their own freeze.
+
+## Actual handoff recovery01
+
+Fixed checkpoint `47ea2e2d5f7879a6d92fe191d0964166b269003c` independently bundled/verified and actually cloned/checked out externally. All235 paths/modes/bytes compared, zero mismatches, 31514483 bytes. Actual instrument/tool/commands/identities and negative changed-byte control retained in handoff-01/results.json. Source bytes exist only Git/replica and external recovery checkout, never copied into project evidence. Same-host recovery, not authenticated actions or host-loss protection. Final STATE has a new immutable reader protocol/rubric in cold-reader-02; its result and final record/replica seal remain pending.

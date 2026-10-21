@@ -1,6 +1,6 @@
 # Project Charter
 
-**As of:** after A9 response, 21 October2026 UTC
+**As of:** final S4 handoff view, 21 October2026 UTC
 **Owner:** human commissioning user; worker/coordinator Codex /root.
 **Goal:** maintain a portable, usable VP method whose work can be traced to
 an authorised reason and appropriately tested evidence. D26 is the current
@@ -8,9 +8,9 @@ mandate to address the review's three concerns; original D1 is preserved at
 `9605ad0:vp/records/decisions/D-000001/record.md`.
 
 **Current stage:** S4 product/control transition accepted by D27 after A10;
-final recovery/reader/commit handoff in progress.
+local handoff requires the matching final completion receipt.
 **Open findings:** none. A10 closes A8/F001 and A9/F001; A7/F001 remains closed.
-**Next action:** worker completes R13 recovery/final STATE/commit; then owner
+**Next action:** owner verifies the containing revision/completion receipt,
 reviews results and selects further work within the unchanged mandate.
 
 ## Scope and Authority
