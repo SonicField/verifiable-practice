@@ -94,3 +94,19 @@ the external completion reference after sealing, avoiding circular self-commit
 claims. No remote publication or existing evidence deletion. Relevant D triggers
 are meaning/input/control/authority/consumer or discovered-defect changes.
 
+## Dated successor correction: 2026-10-22 13:29:09 UTC
+
+After writing the terminal result above, `git diff --check` reported a new
+blank line at this record's EOF (exit2). The subsequent add/commit in that
+shell invocation still proceeded; f3834cd preserves that exact failed state.
+Earlier product/source checks passed, but the above “No failed edit or check”
+does not account for this later record-format check. This dated successor
+preserves the failed outcome and removes the extra EOF blank line. No product
+or normative bytes changed. Final diff verification is repeated before the
+successor commit; its final containing identity/recovery is external.
+
+Initial f3834cd containing revision actually recovered274files/32,129,897bytes,
+zero mismatches, bundle98a0420a8fe4c204f7915b6331a07470968db6a04103e9eade9a0ce4e8ca4295.
+Raw proof remains external c9-completion-recovery/results.json SHA256355644c786cf56407874b05d67e680ebd0383b0b9b5f8ed732da4e7cbba21335,
+with verified completion-replica content address. This initial successful byte
+recovery is not evidence that the failed formatting check passed.
