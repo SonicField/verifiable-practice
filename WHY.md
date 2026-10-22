@@ -2,7 +2,7 @@
 
 Verifiable Practice (VP) is a **full project quality management system for human–AI collaboration**. It manages the work from the originating goal and mandate through planning, implementation, quality checks, acceptance, maintenance and retirement. Its records let another person or AI inspect the choices and evidence that justify the work.
 
-Human and AI contributors need shared criteria, bounded authority and continuity across sessions. Falsification gives them a way to challenge technical claims. Project management supplies the roles, stages, gates and durable history needed to act on that evidence.
+Human–AI collaboration accelerates exploration and persuasive mistakes alike. Centuries of natural science inform VP’s response to observer bias and unsupported conclusions: reproducible methods, checked observations and confidence bounded by evidence. Project controls keep choices and results accountable.
 
 Bullshit is not lying. Liars know the truth and conceal it. Bullshitters are indifferent to truth. They say what sounds right, what fits the meeting, what satisfies the prompt. Whether it happens to be true is incidental.
 

@@ -2,7 +2,8 @@
 
 **Created:** 2026-10-22 13:26:31 UTC
 **Author/operator:** working AI Codex /root
-**Status:** open; pre-action rationale/check
+**Status:** sealed completed D guidance change; receipt-conditioned custody
+**Sealed:** 2026-10-22 13:28:40 UTC
 **Level/reason:** D. Replace explanatory framing while standard1.2 requirements,
 authority, assurance gates, directory contract and available checks remain unchanged.
 No consequential deployed consumer is identified; source reversal is supported
@@ -51,4 +52,45 @@ remain valid; no new STATE reader claim is made. D relevant-change triggers only
 
 ## Actual result
 
-Pending.
+Pre-action rationale committed130c1b9 before product edits. Replaced existing
+README/WHY introductions, the SKILL claim-checking paragraph and Falsifiability's
+opening. Scoped two remaining blanket knowledge/choice statements to empirical
+claims and made its introductory sentence describe falsifiability as a component
+alongside reproducible methods and measurement controls. No section or product
+file added; required changelog entry records the change.
+
+Manual semantic review passes: scientific methods/controls and evidence-bounded
+confidence are explicit; formal proof remains possible within assumptions while
+physical applicability needs evidence; no new numeric confidence, experiment
+reproduction or efficacy claim. Goals/authority distinctions and all binding
+requirements/gates are unchanged. Full standard1.2 is byte-identical to baseline.
+
+Whitespace-delimited whole-document counts, baseline→final:
+README1787→1784; WHY1216→1215; SKILL1543→1543; Falsifiability786→768.
+All four stay at/below baseline; combined5332→5310,22 fewer words. Initial draft
+check gave13 fewer, then two remaining broad statements were clarified and final
+counts repeated. No failed edit or check. Historical/change records are excluded
+from this living-document length measure, as declared before editing.
+
+Existing optional check `/usr/bin/python3 /tmp/vp-c8-check.py`, source
+SHA256a3269e4c9894c3e7c610d522ba7ce86aac3eb85e8251b750ea76a9a83e945e58
+already retained in external completion/sha256/<SHA>/check.py and verified replica;
+PyYAML5.4.1. First/final executions exit0:69product files,256local destinations/
+12fragments valid; frontmatter/routes/fences and negative missing-link/unclosed-fence
+controls pass; oneSKILL/noPTE/noequal-byteproductcopy/no obsolete preservation terms;
+assurance table unchanged, standard1.2. Instrument reports23 changed products
+relative to its retained b9984e5 baseline (includes prior C8); this change alters
+five products relative to c524792, including changelog. Coverage hashes updated.
+`git diff --check` passes. No independent AI adherence/comprehension, external URL/
+rendering, build or actual reproduction test is claimed for this D wording change.
+
+STATE remains SHA25664d6aeab954e135ec9aba7b4fd0d8b02e23d08387f0b864dd1bc7d3bf26e321b,
+its previously tested bytes and owner receipt/review/next-work action. Existing
+A12 verdict covers e4389a09, not these later D edits. No findings are self-closed,
+no new independent verdict/calendar deadline or extra D/H/E/R/A record created.
+LEDGER/COVERAGE point to C9; original records/current views remain in history.
+Local commit and verified containing-revision replica/recovery are supplied by
+the external completion reference after sealing, avoiding circular self-commit
+claims. No remote publication or existing evidence deletion. Relevant D triggers
+are meaning/input/control/authority/consumer or discovered-defect changes.
+

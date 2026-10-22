@@ -2,6 +2,7 @@
 
 | Record | State | Origin / purpose |
 |---|---|---|
+| [C9](records/changes/C-000009/record.md) | Completed D scientific framing; receipt-conditioned custody | Current owner; compact existing entry-point replacements, standard/gates unchanged |
 | [A12](records/audits/A-000012/record.md) | Sealed conformant1.2 at e4389a09; A11/F001 closed | C8; request d9e38ec; no new findings |
 | [C8](records/changes/C-000008/record.md) | Sealed C acceptance after A12; receipt-conditioned handoff | Current owner binary-retention feedback; prospective1.2 at e4389a09 |
 | [D28](records/decisions/D-000028/record.md) | Sealed C audit completion; receipt-conditioned handoff | Current owner; fresh A11, STATE reader/checks; F001 subsequently closed by A12 |
@@ -21,7 +22,7 @@ Retired IDs resolve to `9605ad0:vp/records/<type>/<ID>/record.md` (audit request
 at request.md). Baseline tag is records-archive-2026-10; successor owner
 manifests give original evidence/manifest locators. Original maximum IDs are
 D25/S3/H10/E12/R12/C6/V15/A7; never reuse them. D26/R13/V16 are allocated above;
-S4 names this stage in D26. D28/A11 are now allocated; next unused C9/D29/V19/R14/A13; A12 allocated for C8 stage gate.
+S4 names this stage in D26. D28/A11 are now allocated; next unused C10/D29/V19/R14/A13; A12 allocated for C8 stage gate.
 
 A7/F001 is closed by A8; its old report/response remain baseline history.
 A8/F001 and residual A9/F001 are independently closed by A10. Original inconclusive/failed/pass/withdrawn

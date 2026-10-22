@@ -2,7 +2,7 @@
 
 Verifiable Practice (VP) is a **full project quality management system for human–AI collaboration**. It defines how a project establishes its goals and authority, plans controlled work, makes justified choices, verifies results, keeps an auditable history, accepts deliverables and maintains their justification over time.
 
-Falsification and honest reporting provide its evidence discipline. Project roles, stage gates, records, independent assessment and revalidation turn that discipline into a repeatable management method. VP applies to code, specifications, documents, experiments and other maintained project artefacts.
+Human–AI collaboration accelerates exploration of new ideas and systems. VP draws on centuries of natural science to distinguish conjecture, observer bias and reproducible evidence through explicit methods, checked measurements and confidence bounded by observations.
 
 The method uses Markdown documents and directories, with revision control providing content identity, immutable history and a verified independent replica. Git is an ordinary implementation; equivalent alternatives must demonstrate those properties. No VP-specific software, database, service or persistent AI team is required. This repository also packages the method as a reusable AI skill: [SKILL.md](SKILL.md) gives operating rules and routes an assistant to the references needed for its current responsibility.
 

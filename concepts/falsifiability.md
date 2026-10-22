@@ -1,10 +1,8 @@
 # Falsifiability
 
-Falsifiability supplies the evidence discipline for empirical claims in [VP's project quality management system](../docs/how-vp-works.md). Protocols, identified attempts and review triggers make that discipline auditable.
+Falsifiability challenges empirical claims in [VP's project quality management system](../docs/how-vp-works.md). Reproducible methods, measurement controls, identified attempts and review triggers make their assessment auditable.
 
-You cannot prove code correct. You can prove it wrong.
-
-A single counterexample demolishes a claim. A thousand passing tests merely fail to falsify. This asymmetry is not a limitation - it is the only epistemically honest stance available.
+Formal proofs depend on a model. Physical applicability needs evidence. State conditions and predictions; record repeatable methods and measurements. Use controls to distinguish claim failure from measurement failure. Passing results support only the tested scope.
 
 ## The Contract
 
@@ -45,7 +43,7 @@ Tests and assertions colour in the state space where invariants hold. This is no
 
 Rigour compounds. So does sloppiness.
 
-A test that cannot fail is not a test. A claim that cannot be wrong is not knowledge. This principle underlies all work: code, reasoning, documents, analysis, collaboration.
+An empirical claim needs a possible refutation and measurements capable of detecting it. Apply this discipline to code, reasoning, documents, analysis and collaboration.
 
 ## Property-Based Testing
 
@@ -81,7 +79,7 @@ Property-based testing is falsifiability automated. Use it wherever properties c
 
 ## The Practical Question
 
-Before committing to any choice, ask: what evidence would show this is the wrong choice? If you cannot answer, you do not yet understand the choice you are making.
+Before relying on an empirical claim, ask: what evidence would refute it? Without an answer, its basis for reliance is unclear.
 
 ---
 

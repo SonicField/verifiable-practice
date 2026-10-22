@@ -12,7 +12,7 @@ and [current state](vp/STATE.md). Its prospective charter governs tracking;
 legacy history is not certified and a conformance claim needs independent A.
 These repository-specific links do not enrol another project using this skill.
 
-Treat every material claim as something that must be possible to check. Establish what the user is trying to achieve, identify what would show the current approach is wrong, seek that evidence, and report the observed result—including failures and uncertainty.
+Establish the goal. For empirical claims, state conditions and predicted observations; record repeatable methods, check measurement controls, seek refuting evidence, and report outcomes and limits. Formal proofs establish conclusions within their assumptions; applying those conclusions to physical execution requires evidence.
 
 ## Manage the Whole Project
 
